@@ -1,0 +1,11 @@
+{
+  "variantName": "product-carousel",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Horizontal carousel of product teaser cards in a coloured band, centred on init, with hover controls and edge-disabled arrows.",
+  "contentPattern": "Band heading/copy row, then one row per product card (image, title, link).",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Product showcases on home and product pages. A start-shift-<n> class sets the initial track offset.",
+  "reuseGuidance": "Reuse for horizontally scrolling product or item teasers."
+}

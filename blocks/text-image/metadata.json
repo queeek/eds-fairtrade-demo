@@ -1,0 +1,48 @@
+{
+  "variantName": "text-image",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Two-column text and image: title, text and CTA beside an image; optional reversed order and grey band with wave.",
+  "contentPattern": "One row: cell 1 title/text/CTA, cell 2 image.",
+  "options": [
+    {
+      "class": "reverse",
+      "label": "Image first"
+    },
+    {
+      "class": "grey",
+      "label": "Grey band"
+    },
+    {
+      "class": "pre-line",
+      "label": "Preserve line breaks"
+    },
+    {
+      "class": "no-trailing-line",
+      "label": "No trailing line"
+    },
+    {
+      "class": "empty-text",
+      "label": "Empty text box"
+    },
+    {
+      "class": "empty-image",
+      "label": "Empty image box"
+    },
+    {
+      "class": "trail-1",
+      "label": "Trailing space 1"
+    },
+    {
+      "class": "trail-2",
+      "label": "Trailing space 2"
+    },
+    {
+      "class": "footer-overflow",
+      "label": "Footer overflow"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "The main content building block on static, product and locale home pages.",
+  "reuseGuidance": "Reuse for any text-beside-image section; alternate with reverse for zig-zag layouts."
+}

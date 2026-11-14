@@ -1,0 +1,247 @@
+{
+  "block-catalog": {
+    "schemaVersion": 2,
+    "captured": "2026-11-14T15:06:18.469Z",
+    "totalBlockVariants": 13,
+    "totalBlocksProcessed": 29,
+    "newVariantsCreated": 0,
+    "variantsReused": 0,
+    "layoutKeyThreshold": 0.85,
+    "completionStatus": {
+      "analyzed": 100,
+      "failed": 0
+    },
+    "blockVariants": {
+      "v_74cd50d4f35d": {
+        "id": "v_74cd50d4f35d",
+        "name": "hero-carousel",
+        "type": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "Home-page hero carousels on the global and locale home pages. Used on 2 pages (austria-home and global-home templates).",
+        "screenshots": [
+          ".pages/www_fairtrade_net--788c069a/blocks/b01-hero-carousel.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "pageherocarousel",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_a601f638721e": {
+        "id": "v_a601f638721e",
+        "name": "text-image",
+        "type": "columns",
+        "canonicalModel": "standalone",
+        "pagesFound": 4,
+        "description": "The main content building block on static, product and locale home pages. Used on 4 pages (austria-home, global-home, market-entry-form and topic-detail templates).",
+        "screenshots": [
+          ".pages/www_fairtrade_net--788c069a/blocks/b03-text-image.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "textimage",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_8e4feecd2649": {
+        "id": "v_8e4feecd2649",
+        "name": "default-content",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 4,
+        "description": "Default content block. Used on 4 pages (austria-home, global-home, market-entry-form and topic-detail templates).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "richtextsection",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_643b6c46f19a": {
+        "id": "v_643b6c46f19a",
+        "name": "teaser-grid",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 2,
+        "description": "News, stories and listing pages, plus related-content grids. Used on 2 pages (austria-home and news-listing templates).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_at-de_html--2cc0b1ad/blocks/b04-teaser-grid.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "teasergrid",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_f29ad64bc994": {
+        "id": "v_f29ad64bc994",
+        "name": "cta",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "description": "Stand-alone call-to-action section between content sections. Used on 3 pages (austria-home, market-entry-form and news-listing templates).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_at-de_html--2cc0b1ad/blocks/b05-cta.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "ctasection",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_ec555aa5d559": {
+        "id": "v_ec555aa5d559",
+        "name": "accordion",
+        "type": "accordion",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "description": "FAQ-style expandable content on static and locale home pages. Used on 3 pages (austria-home, global-home and topic-detail templates).",
+        "screenshots": [
+          ".pages/www_fairtrade_net--788c069a/blocks/b05-accordion.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "accordion",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_70e793f64d79": {
+        "id": "v_70e793f64d79",
+        "name": "product-carousel",
+        "type": "carousel",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Product showcases on home and product pages. A start-shift-<n> class sets the initial track offset. Used on 1 page (austria-home template).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_at-de_html--2cc0b1ad/blocks/b07-product-carousel.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "productteasercarousel",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_e3a4f2b9c838": {
+        "id": "v_e3a4f2b9c838",
+        "name": "video",
+        "type": "video",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Embedded YouTube/Vimeo videos on static and locale home pages. Used on 1 page (austria-home template).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_at-de_html--2cc0b1ad/blocks/b08-video.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "video",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_5f7d8d8d268a": {
+        "id": "v_5f7d8d8d268a",
+        "name": "iframe",
+        "type": "embed",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Embedded maps, dashboards and third-party widgets. A height-<px> class (e.g. height-1100) sets the frame height. Used on 1 page (austria-home template).",
+        "screenshots": [],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "iFrame",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_ba84726592d2": {
+        "id": "v_ba84726592d2",
+        "name": "number-facts",
+        "type": "cards",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "description": "Key-figures / impact statistics teasers on home and impact pages. Used on 3 pages (global-home, market-entry-form and topic-detail templates).",
+        "screenshots": [
+          ".pages/www_fairtrade_net--788c069a/blocks/b02-number-facts.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "numberfactteaser",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_ee3c6b324b9b": {
+        "id": "v_ee3c6b324b9b",
+        "name": "page-lead",
+        "type": "hero",
+        "canonicalModel": "standalone",
+        "pagesFound": 3,
+        "description": "Top-of-page lead on static, listing and form pages. Used on 3 pages (market-entry-form, news-listing and topic-detail templates).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_mt-en_bring-fairtrade-to-your-market_html--764db856/blocks/b01-page-lead.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "page-lead",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_ca0ab9d4bc30": {
+        "id": "v_ca0ab9d4bc30",
+        "name": "form",
+        "type": "form",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Contact / newsletter / 'bring Fairtrade to your market' forms. Used on 1 page (market-entry-form template).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_mt-en_bring-fairtrade-to-your-market_html--764db856/blocks/b06-form.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "formbuilder",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      },
+      "v_53cd2eb0b4bc": {
+        "id": "v_53cd2eb0b4bc",
+        "name": "single-image",
+        "type": "custom",
+        "canonicalModel": "standalone",
+        "pagesFound": 1,
+        "description": "Inline illustrative images with captions on static pages. Used on 1 page (topic-detail template).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_us-en_why-fairtrade_why-we-do-it_gender-equality_html--cce2d26d/blocks/b06-single-image.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "stardustBlockId": "singleimage",
+          "stardustKind": "module"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built and gated by the auto migration (stardust)"
+      }
+    }
+  }
+}

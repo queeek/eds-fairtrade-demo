@@ -1,0 +1,20 @@
+{
+  "variantName": "number-facts",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Row of large number + fact statements beside a copy column (label, heading, text, CTA); becomes a snap slider with prev/next on mobile.",
+  "contentPattern": "One row per fact (<p>number</p><p>fact</p>), plus one copy row (bold label paragraph, h2, text, emphasised CTA link).",
+  "options": [
+    {
+      "class": "eggplant",
+      "label": "Eggplant background"
+    },
+    {
+      "class": "spacer-after",
+      "label": "Extra space after"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Key-figures / impact statistics teasers on home and impact pages.",
+  "reuseGuidance": "Reuse for statistic highlights with a short explanatory copy column."
+}

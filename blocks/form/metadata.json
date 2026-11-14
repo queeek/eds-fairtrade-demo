@@ -1,0 +1,11 @@
+{
+  "variantName": "form",
+  "baseBlock": "form",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Labelled form fields with placeholders and inline error messages, submit button and an error notification row; submit is disabled (no backend).",
+  "contentPattern": "One row per field (label, placeholder + error text, field type word), then a submit row and an error-notification row.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Contact / newsletter / 'bring Fairtrade to your market' forms.",
+  "reuseGuidance": "Reuse for simple field-list forms; wiring a real submission backend is separate work."
+}

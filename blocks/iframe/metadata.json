@@ -1,0 +1,32 @@
+{
+  "variantName": "iframe",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Embedded third-party page in an iframe, framed (1px border, rounded) by default, loaded when near the viewport.",
+  "contentPattern": "Single row with the embed URL link.",
+  "options": [
+    {
+      "class": "frameless",
+      "label": "Frameless"
+    },
+    {
+      "class": "aspect-ratio-16x9",
+      "label": "Aspect ratio 16:9"
+    },
+    {
+      "class": "aspect-ratio-4x3",
+      "label": "Aspect ratio 4:3"
+    },
+    {
+      "class": "aspect-ratio-1x1",
+      "label": "Aspect ratio 1:1"
+    },
+    {
+      "class": "aspect-ratio-21x9",
+      "label": "Aspect ratio 21:9"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Embedded maps, dashboards and third-party widgets. A height-<px> class (e.g. height-1100) sets the frame height.",
+  "reuseGuidance": "Reuse for any iframe embed; add height-<px> to match the source frame height."
+}

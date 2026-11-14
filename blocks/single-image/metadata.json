@@ -1,0 +1,20 @@
+{
+  "variantName": "single-image",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Single image with separate desktop and mobile crops and a caption marked by a triangle glyph.",
+  "contentPattern": "Row with desktop image, mobile image and caption text.",
+  "options": [
+    {
+      "class": "thumbnail",
+      "label": "Thumbnail"
+    },
+    {
+      "class": "full-bleed",
+      "label": "Full bleed"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Inline illustrative images with captions on static pages.",
+  "reuseGuidance": "Reuse for one captioned image; use default content for plain images without captions."
+}
