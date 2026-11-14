@@ -1,0 +1,6288 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--63f9f24b--aemcoder.aem.page/",
+ "at": "2026-11-14T01:14:37.487Z",
+ "shots": "stardust/.work/chrome/header-build",
+ "widths": {
+  "390": {
+   "root": "body>header>div>div:nth-of-type(1)",
+   "controls": [
+    {
+     "name": "Back to Homepage",
+     "key": "back to homepage",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>div>div>a",
+     "href": "https://www.fairtrade.net/us-en.html",
+     "expanded": null,
+     "rect": [
+      18,
+      0,
+      56,
+      72
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Open the search box",
+     "key": "open the search box",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>header>div>div:nth-of-type(1)>div>div>div:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      300,
+      24,
+      24,
+      24
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Submit the search form",
+         "By clicking this element, the search box will disappear"
+        ],
+        "options": 0,
+        "rect": [
+         18,
+         0,
+         354,
+         72
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.topbar-search-trigger"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.topbar"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-search"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-search"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.input-field-wrapper"
+        }
+       ],
+       "shot": "390-001-Open-the-search-box-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Submit the search form",
+         "By clicking this element, the search box will disappear"
+        ],
+        "options": 0,
+        "rect": [
+         18,
+         0,
+         354,
+         72
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.topbar-search-trigger"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.topbar"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-search"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-search"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.input-field-wrapper"
+        }
+       ],
+       "shot": "390-002-Open-the-search-box-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Bananas, coffee, oranges ...",
+       "key": "bananas coffee oranges",
+       "role": "input",
+       "kind": "search",
+       "sel": "#topbar-search-input",
+       "expanded": null,
+       "rect": [
+        18,
+        8,
+        314,
+        56
+       ],
+       "actions": {},
+       "search": {
+        "probe": "back",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://main--63f9f24b--aemcoder.aem.page/us-en/search-results?q={q}"
+       }
+      },
+      {
+       "name": "Submit the search form",
+       "key": "submit the search form",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#topbar-search>form>div>div>div>button",
+       "expanded": null,
+       "rect": [
+        280,
+        12,
+        48,
+        48
+       ],
+       "actions": {
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "By clicking this element, the search box will disappear",
+       "key": "by clicking this element the search box will disappear",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#topbar-search>button",
+       "expanded": null,
+       "rect": [
+        344,
+        24,
+        28,
+        24
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 3
+        },
+        "key": {
+         "opened": false,
+         "hides": 3
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "Open Mobile Menu Close Mobile Menu",
+     "key": "open mobile menu close mobile menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>header>div>div:nth-of-type(1)>div>div>div:nth-of-type(2)>div:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      348,
+      24,
+      24,
+      24
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "About",
+          "href": "https://www.fairtrade.net/us-en/about.html"
+         },
+         {
+          "text": "Careers",
+          "href": "https://www.fairtrade.net/us-en/about/careers.html"
+         },
+         {
+          "text": "For partners",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+         },
+         {
+          "text": "For retailers",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+         },
+         {
+          "text": "News",
+          "href": "https://main--63f9f24b--aemcoder.aem.page/us-en/news"
+         },
+         {
+          "text": "Contact",
+          "href": "https://www.fairtrade.net/us-en/contact.html"
+         },
+         {
+          "text": "Fairtrade International",
+          "href": "https://www.fairtrade.net/en.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Why Fairtrade",
+         "Products",
+         "For Business",
+         "Get Involved",
+         "US • EN Open or close the locale selector. The currently selected locale is US-E"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         72,
+         390,
+         772
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.mobile-menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "translate",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.mobile-menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span.svg-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span.svg-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "scale",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span.svg-icon"
+        }
+       ],
+       "shot": "390-003-Open-Mobile-Menu-Close-Mobile-Menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "About",
+          "href": "https://www.fairtrade.net/us-en/about.html"
+         },
+         {
+          "text": "Careers",
+          "href": "https://www.fairtrade.net/us-en/about/careers.html"
+         },
+         {
+          "text": "For partners",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+         },
+         {
+          "text": "For retailers",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+         },
+         {
+          "text": "News",
+          "href": "https://main--63f9f24b--aemcoder.aem.page/us-en/news"
+         },
+         {
+          "text": "Contact",
+          "href": "https://www.fairtrade.net/us-en/contact.html"
+         },
+         {
+          "text": "Fairtrade International",
+          "href": "https://www.fairtrade.net/en.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Why Fairtrade",
+         "Products",
+         "For Business",
+         "Get Involved",
+         "US • EN Open or close the locale selector. The currently selected locale is US-E"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         72,
+         390,
+         772
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.mobile-menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "translate",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.mobile-menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span.svg-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span.svg-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "scale",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "span.svg-icon"
+        }
+       ],
+       "shot": "390-004-Open-Mobile-Menu-Close-Mobile-Menu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Why Fairtrade",
+       "key": "why fairtrade",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mobile-menu>div>div:nth-of-type(1)>nav:nth-of-type(1)>ul>li:nth-of-type(1)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        80,
+        390,
+        72
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 7,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Go back",
+           "What we do",
+           "Why we do it",
+           "How we do it",
+           "Impact"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           72,
+           390,
+           772
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "translate",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.mobile-menu"
+          }
+         ],
+         "shot": "390-005-Why-Fairtrade-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 7,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Go back",
+           "What we do",
+           "Why we do it",
+           "How we do it",
+           "Impact"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           72,
+           390,
+           772
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "translate",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.mobile-menu"
+          }
+         ],
+         "shot": "390-006-Why-Fairtrade-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Go back",
+         "key": "go back",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-submenu-1-0>div:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          0,
+          72,
+          390,
+          48
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "About",
+              "href": "https://www.fairtrade.net/us-en/about.html"
+             },
+             {
+              "text": "Careers",
+              "href": "https://www.fairtrade.net/us-en/about/careers.html"
+             },
+             {
+              "text": "For partners",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+             },
+             {
+              "text": "For retailers",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+             },
+             {
+              "text": "News",
+              "href": "https://main--63f9f24b--aemcoder.aem.page/us-en/news"
+             },
+             {
+              "text": "Contact",
+              "href": "https://www.fairtrade.net/us-en/contact.html"
+             },
+             {
+              "text": "Fairtrade International",
+              "href": "https://www.fairtrade.net/en.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-007-Go-back-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "About",
+              "href": "https://www.fairtrade.net/us-en/about.html"
+             },
+             {
+              "text": "Careers",
+              "href": "https://www.fairtrade.net/us-en/about/careers.html"
+             },
+             {
+              "text": "For partners",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+             },
+             {
+              "text": "For retailers",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+             },
+             {
+              "text": "News",
+              "href": "https://main--63f9f24b--aemcoder.aem.page/us-en/news"
+             },
+             {
+              "text": "Contact",
+              "href": "https://www.fairtrade.net/us-en/contact.html"
+             },
+             {
+              "text": "Fairtrade International",
+              "href": "https://www.fairtrade.net/en.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-008-Go-back-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": []
+        },
+        {
+         "name": "What we do",
+         "key": "what we do",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-submenu-1-0>div:nth-of-type(2)>ul>li:nth-of-type(1)>button",
+         "expanded": "false",
+         "rect": [
+          0,
+          200,
+          390,
+          72
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "What we do",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do.html"
+             },
+             {
+              "text": "What is Fairtrade?",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/what-is-fairtrade.html"
+             },
+             {
+              "text": "How Fairtrade works",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+             },
+             {
+              "text": "Key benefits of Fairtrade",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/key-benefits.html"
+             },
+             {
+              "text": "Theory of Change",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html"
+             },
+             {
+              "text": "The Fairtrade Difference",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/the-fairtrade-difference.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-009-What-we-do-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "What we do",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do.html"
+             },
+             {
+              "text": "What is Fairtrade?",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/what-is-fairtrade.html"
+             },
+             {
+              "text": "How Fairtrade works",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+             },
+             {
+              "text": "Key benefits of Fairtrade",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/key-benefits.html"
+             },
+             {
+              "text": "Theory of Change",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html"
+             },
+             {
+              "text": "The Fairtrade Difference",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/the-fairtrade-difference.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-010-What-we-do-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "Go back",
+           "key": "go back",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#mobile-submenu-2-0-0>div:nth-of-type(1)>button",
+           "expanded": null,
+           "rect": [
+            0,
+            72,
+            390,
+            48
+           ],
+           "actions": {
+            "click": {
+             "opened": true,
+             "hidden": 7,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null
+            },
+            "key": {
+             "opened": true,
+             "hidden": 7,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null,
+             "tabReachesPanel": false
+            }
+           },
+           "close": {
+            "escape": false,
+            "focusReturn": false,
+            "outside": false,
+            "toggle": false
+           }
+          }
+         ]
+        },
+        {
+         "name": "Why we do it",
+         "key": "why we do it",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-submenu-1-0>div:nth-of-type(2)>ul>li:nth-of-type(2)>button",
+         "expanded": "false",
+         "rect": [
+          0,
+          272,
+          390,
+          72
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Why we do it",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it.html"
+             },
+             {
+              "text": "Child Protection",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html"
+             },
+             {
+              "text": "Climate and the environment",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html"
+             },
+             {
+              "text": "Decent Livelihoods",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html"
+             },
+             {
+              "text": "Deforestation",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/deforestation.html"
+             },
+             {
+              "text": "Fairtrade and the Sustainable Development Goals",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html"
+             },
+             {
+              "text": "Gender Equality",
+              "href": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/gender-equality"
+             },
+             {
+              "text": "HREDD",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/hredd.html"
+             },
+             {
+              "text": "Smallholder Farmers",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html"
+             },
+             {
+              "text": "Workers Rights",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/workers-rights.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-011-Why-we-do-it-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Why we do it",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it.html"
+             },
+             {
+              "text": "Child Protection",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html"
+             },
+             {
+              "text": "Climate and the environment",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html"
+             },
+             {
+              "text": "Decent Livelihoods",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html"
+             },
+             {
+              "text": "Deforestation",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/deforestation.html"
+             },
+             {
+              "text": "Fairtrade and the Sustainable Development Goals",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html"
+             },
+             {
+              "text": "Gender Equality",
+              "href": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/gender-equality"
+             },
+             {
+              "text": "HREDD",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/hredd.html"
+             },
+             {
+              "text": "Smallholder Farmers",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html"
+             },
+             {
+              "text": "Workers Rights",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/workers-rights.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-012-Why-we-do-it-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "Go back",
+           "key": "go back",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#mobile-submenu-2-0-1>div:nth-of-type(1)>button",
+           "expanded": null,
+           "rect": [
+            0,
+            72,
+            390,
+            48
+           ],
+           "actions": {
+            "click": {
+             "opened": true,
+             "hidden": 11,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null
+            },
+            "key": {
+             "opened": true,
+             "hidden": 11,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null,
+             "tabReachesPanel": false
+            }
+           },
+           "close": {
+            "escape": false,
+            "focusReturn": false,
+            "outside": false,
+            "toggle": false
+           }
+          }
+         ]
+        },
+        {
+         "name": "How we do it",
+         "key": "how we do it",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-submenu-1-0>div:nth-of-type(2)>ul>li:nth-of-type(3)>button",
+         "expanded": "false",
+         "rect": [
+          0,
+          344,
+          390,
+          72
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "How we do it",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it.html"
+             },
+             {
+              "text": "How does the label work",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html"
+             },
+             {
+              "text": "How Fairtrade certification works",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html"
+             },
+             {
+              "text": "Fairtrade products and ingredients",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html"
+             },
+             {
+              "text": "Assuring integrity in checking compliance",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html"
+             },
+             {
+              "text": "Traceability in Fairtrade supply chains",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html"
+             },
+             {
+              "text": "Fairtrade standards",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html"
+             },
+             {
+              "text": "Our projects and programs",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-013-How-we-do-it-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "How we do it",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it.html"
+             },
+             {
+              "text": "How does the label work",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html"
+             },
+             {
+              "text": "How Fairtrade certification works",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html"
+             },
+             {
+              "text": "Fairtrade products and ingredients",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html"
+             },
+             {
+              "text": "Assuring integrity in checking compliance",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html"
+             },
+             {
+              "text": "Traceability in Fairtrade supply chains",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html"
+             },
+             {
+              "text": "Fairtrade standards",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html"
+             },
+             {
+              "text": "Our projects and programs",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-014-How-we-do-it-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "Go back",
+           "key": "go back",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#mobile-submenu-2-0-2>div:nth-of-type(1)>button",
+           "expanded": null,
+           "rect": [
+            0,
+            72,
+            390,
+            48
+           ],
+           "actions": {
+            "click": {
+             "opened": true,
+             "hidden": 9,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null
+            },
+            "key": {
+             "opened": true,
+             "hidden": 9,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null,
+             "tabReachesPanel": false
+            }
+           },
+           "close": {
+            "escape": false,
+            "focusReturn": false,
+            "outside": false,
+            "toggle": false
+           }
+          }
+         ]
+        },
+        {
+         "name": "Impact",
+         "key": "impact",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-submenu-1-0>div:nth-of-type(2)>ul>li:nth-of-type(4)>button",
+         "expanded": "false",
+         "rect": [
+          0,
+          416,
+          390,
+          72
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Impact",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact.html"
+             },
+             {
+              "text": "Impact stories",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/impact-stories.html"
+             },
+             {
+              "text": "Key figures at a glance",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/key-figures-at-a-glance.html"
+             },
+             {
+              "text": "How we measure impact",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/how-we-measure-impact.html"
+             },
+             {
+              "text": "Reports & Trends",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/reports-trends.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-015-Impact-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Impact",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact.html"
+             },
+             {
+              "text": "Impact stories",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/impact-stories.html"
+             },
+             {
+              "text": "Key figures at a glance",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/key-figures-at-a-glance.html"
+             },
+             {
+              "text": "How we measure impact",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/how-we-measure-impact.html"
+             },
+             {
+              "text": "Reports & Trends",
+              "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/reports-trends.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-016-Impact-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "Go back",
+           "key": "go back",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#mobile-submenu-2-0-3>div:nth-of-type(1)>button",
+           "expanded": null,
+           "rect": [
+            0,
+            72,
+            390,
+            48
+           ],
+           "actions": {
+            "click": {
+             "opened": true,
+             "hidden": 6,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null
+            },
+            "key": {
+             "opened": true,
+             "hidden": 6,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null,
+             "tabReachesPanel": false
+            }
+           },
+           "close": {
+            "escape": false,
+            "focusReturn": false,
+            "outside": false,
+            "toggle": false
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Products",
+       "key": "products",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mobile-menu>div>div:nth-of-type(1)>nav:nth-of-type(1)>ul>li:nth-of-type(2)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        152,
+        390,
+        72
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 7,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Go back",
+           "Fairtrade products"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           72,
+           390,
+           772
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "translate",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.mobile-menu"
+          }
+         ],
+         "shot": "390-017-Products-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 7,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Go back",
+           "Fairtrade products"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           72,
+           390,
+           772
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "translate",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.mobile-menu"
+          }
+         ],
+         "shot": "390-018-Products-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Go back",
+         "key": "go back",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-submenu-1-1>div:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          0,
+          72,
+          390,
+          48
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 2,
+           "panel": {
+            "links": [
+             {
+              "text": "About",
+              "href": "https://www.fairtrade.net/us-en/about.html"
+             },
+             {
+              "text": "Careers",
+              "href": "https://www.fairtrade.net/us-en/about/careers.html"
+             },
+             {
+              "text": "For partners",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+             },
+             {
+              "text": "For retailers",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+             },
+             {
+              "text": "News",
+              "href": "https://main--63f9f24b--aemcoder.aem.page/us-en/news"
+             },
+             {
+              "text": "Contact",
+              "href": "https://www.fairtrade.net/us-en/contact.html"
+             },
+             {
+              "text": "Fairtrade International",
+              "href": "https://www.fairtrade.net/en.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-019-Go-back-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 2,
+           "panel": {
+            "links": [
+             {
+              "text": "About",
+              "href": "https://www.fairtrade.net/us-en/about.html"
+             },
+             {
+              "text": "Careers",
+              "href": "https://www.fairtrade.net/us-en/about/careers.html"
+             },
+             {
+              "text": "For partners",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+             },
+             {
+              "text": "For retailers",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+             },
+             {
+              "text": "News",
+              "href": "https://main--63f9f24b--aemcoder.aem.page/us-en/news"
+             },
+             {
+              "text": "Contact",
+              "href": "https://www.fairtrade.net/us-en/contact.html"
+             },
+             {
+              "text": "Fairtrade International",
+              "href": "https://www.fairtrade.net/en.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-020-Go-back-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": []
+        },
+        {
+         "name": "Fairtrade products",
+         "key": "fairtrade products",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-submenu-1-1>div:nth-of-type(2)>ul>li>button",
+         "expanded": "false",
+         "rect": [
+          0,
+          200,
+          390,
+          72
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Fairtrade products",
+              "href": "https://www.fairtrade.net/us-en/products/all-products.html"
+             },
+             {
+              "text": "Bananas",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/bananas.html"
+             },
+             {
+              "text": "Cocoa",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/cocoa.html"
+             },
+             {
+              "text": "Chocolate",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/chocolate.html"
+             },
+             {
+              "text": "Coffee",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/coffee.html"
+             },
+             {
+              "text": "Cotton",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/cotton.html"
+             },
+             {
+              "text": "Herbs and spices",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/herbs-spices.html"
+             },
+             {
+              "text": "Nuts and oils",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/nuts-oils.html"
+             },
+             {
+              "text": "Sugar",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/sugar.html"
+             },
+             {
+              "text": "Wine",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/wine.html"
+             },
+             {
+              "text": "Gold",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/gold.html"
+             },
+             {
+              "text": "Fruits and juices",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/fruits-juices.html"
+             },
+             {
+              "text": "Honey",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/honey.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-021-Fairtrade-products-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Fairtrade products",
+              "href": "https://www.fairtrade.net/us-en/products/all-products.html"
+             },
+             {
+              "text": "Bananas",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/bananas.html"
+             },
+             {
+              "text": "Cocoa",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/cocoa.html"
+             },
+             {
+              "text": "Chocolate",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/chocolate.html"
+             },
+             {
+              "text": "Coffee",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/coffee.html"
+             },
+             {
+              "text": "Cotton",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/cotton.html"
+             },
+             {
+              "text": "Herbs and spices",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/herbs-spices.html"
+             },
+             {
+              "text": "Nuts and oils",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/nuts-oils.html"
+             },
+             {
+              "text": "Sugar",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/sugar.html"
+             },
+             {
+              "text": "Wine",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/wine.html"
+             },
+             {
+              "text": "Gold",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/gold.html"
+             },
+             {
+              "text": "Fruits and juices",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/fruits-juices.html"
+             },
+             {
+              "text": "Honey",
+              "href": "https://www.fairtrade.net/us-en/products/all-products/honey.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-022-Fairtrade-products-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "Go back",
+           "key": "go back",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#mobile-submenu-2-1-0>div:nth-of-type(1)>button",
+           "expanded": null,
+           "rect": [
+            0,
+            72,
+            390,
+            48
+           ],
+           "actions": {
+            "click": {
+             "opened": true,
+             "hidden": 14,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null
+            },
+            "key": {
+             "opened": true,
+             "hidden": 14,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null,
+             "tabReachesPanel": false
+            }
+           },
+           "close": {
+            "escape": false,
+            "focusReturn": false,
+            "outside": false,
+            "toggle": false
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "For Business",
+       "key": "for business",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mobile-menu>div>div:nth-of-type(1)>nav:nth-of-type(1)>ul>li:nth-of-type(3)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        224,
+        390,
+        72
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 7,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Go back",
+           "Benefits of being certified",
+           "Get Certified",
+           "For Partners",
+           "For Retailers"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           72,
+           390,
+           772
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "translate",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.mobile-menu"
+          }
+         ],
+         "shot": "390-023-For-Business-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 7,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Go back",
+           "Benefits of being certified",
+           "Get Certified",
+           "For Partners",
+           "For Retailers"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           72,
+           390,
+           772
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "translate",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.mobile-menu"
+          }
+         ],
+         "shot": "390-024-For-Business-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Go back",
+         "key": "go back",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-submenu-1-2>div:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          0,
+          72,
+          390,
+          48
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "About",
+              "href": "https://www.fairtrade.net/us-en/about.html"
+             },
+             {
+              "text": "Careers",
+              "href": "https://www.fairtrade.net/us-en/about/careers.html"
+             },
+             {
+              "text": "For partners",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+             },
+             {
+              "text": "For retailers",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+             },
+             {
+              "text": "News",
+              "href": "https://main--63f9f24b--aemcoder.aem.page/us-en/news"
+             },
+             {
+              "text": "Contact",
+              "href": "https://www.fairtrade.net/us-en/contact.html"
+             },
+             {
+              "text": "Fairtrade International",
+              "href": "https://www.fairtrade.net/en.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-025-Go-back-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "About",
+              "href": "https://www.fairtrade.net/us-en/about.html"
+             },
+             {
+              "text": "Careers",
+              "href": "https://www.fairtrade.net/us-en/about/careers.html"
+             },
+             {
+              "text": "For partners",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+             },
+             {
+              "text": "For retailers",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+             },
+             {
+              "text": "News",
+              "href": "https://main--63f9f24b--aemcoder.aem.page/us-en/news"
+             },
+             {
+              "text": "Contact",
+              "href": "https://www.fairtrade.net/us-en/contact.html"
+             },
+             {
+              "text": "Fairtrade International",
+              "href": "https://www.fairtrade.net/en.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-026-Go-back-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": []
+        },
+        {
+         "name": "Benefits of being certified",
+         "key": "benefits of being certified",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-submenu-1-2>div:nth-of-type(2)>ul>li:nth-of-type(1)>button",
+         "expanded": "false",
+         "rect": [
+          0,
+          200,
+          390,
+          72
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Benefits of being certified",
+              "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified.html"
+             },
+             {
+              "text": "Business success stories",
+              "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/business-success-stories.html"
+             },
+             {
+              "text": "Benefits for business",
+              "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-business.html"
+             },
+             {
+              "text": "Benefits for producers",
+              "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-producers.html"
+             },
+             {
+              "text": "Consumer Trends",
+              "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/consumer-trends1.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-027-Benefits-of-being-certified-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Benefits of being certified",
+              "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified.html"
+             },
+             {
+              "text": "Business success stories",
+              "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/business-success-stories.html"
+             },
+             {
+              "text": "Benefits for business",
+              "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-business.html"
+             },
+             {
+              "text": "Benefits for producers",
+              "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-producers.html"
+             },
+             {
+              "text": "Consumer Trends",
+              "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/consumer-trends1.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-028-Benefits-of-being-certified-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "Go back",
+           "key": "go back",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#mobile-submenu-2-2-0>div:nth-of-type(1)>button",
+           "expanded": null,
+           "rect": [
+            0,
+            72,
+            390,
+            48
+           ],
+           "actions": {
+            "click": {
+             "opened": true,
+             "hidden": 6,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null
+            },
+            "key": {
+             "opened": true,
+             "hidden": 6,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null,
+             "tabReachesPanel": false
+            }
+           },
+           "close": {
+            "escape": false,
+            "focusReturn": false,
+            "outside": false,
+            "toggle": false
+           }
+          }
+         ]
+        },
+        {
+         "name": "Get Certified",
+         "key": "get certified",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-submenu-1-2>div:nth-of-type(2)>ul>li:nth-of-type(2)>button",
+         "expanded": "false",
+         "rect": [
+          0,
+          272,
+          390,
+          72
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Get Certified",
+              "href": "https://www.fairtrade.net/us-en/for-business/get-certified.html"
+             },
+             {
+              "text": "The Certification Process",
+              "href": "https://www.fairtrade.net/us-en/for-business/get-certified/the-certification-process.html"
+             },
+             {
+              "text": "Resources & Support",
+              "href": "https://www.fairtrade.net/us-en/for-business/get-certified/resources-support.html"
+             },
+             {
+              "text": "Intro to Fairtrade",
+              "href": "https://www.fairtrade.net/us-en/for-business/get-certified/intro-to-fairtrade.html"
+             },
+             {
+              "text": "Get Started",
+              "href": "https://www.fairtrade.net/us-en/for-business/get-certified/get-started.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-029-Get-Certified-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Get Certified",
+              "href": "https://www.fairtrade.net/us-en/for-business/get-certified.html"
+             },
+             {
+              "text": "The Certification Process",
+              "href": "https://www.fairtrade.net/us-en/for-business/get-certified/the-certification-process.html"
+             },
+             {
+              "text": "Resources & Support",
+              "href": "https://www.fairtrade.net/us-en/for-business/get-certified/resources-support.html"
+             },
+             {
+              "text": "Intro to Fairtrade",
+              "href": "https://www.fairtrade.net/us-en/for-business/get-certified/intro-to-fairtrade.html"
+             },
+             {
+              "text": "Get Started",
+              "href": "https://www.fairtrade.net/us-en/for-business/get-certified/get-started.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-030-Get-Certified-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "Go back",
+           "key": "go back",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#mobile-submenu-2-2-1>div:nth-of-type(1)>button",
+           "expanded": null,
+           "rect": [
+            0,
+            72,
+            390,
+            48
+           ],
+           "actions": {
+            "click": {
+             "opened": true,
+             "hidden": 6,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null
+            },
+            "key": {
+             "opened": true,
+             "hidden": 6,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null,
+             "tabReachesPanel": false
+            }
+           },
+           "close": {
+            "escape": false,
+            "focusReturn": false,
+            "outside": false,
+            "toggle": false
+           }
+          }
+         ]
+        },
+        {
+         "name": "For Partners",
+         "key": "for partners",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-submenu-1-2>div:nth-of-type(2)>ul>li:nth-of-type(3)>button",
+         "expanded": "false",
+         "rect": [
+          0,
+          344,
+          390,
+          72
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "For Partners",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+             },
+             {
+              "text": "Marketing the Movement",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-partners/communicate-your-commitment.html"
+             },
+             {
+              "text": "How to Use the Mark",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-partners/how-to-use-the-mark.html"
+             },
+             {
+              "text": "Mark Misuse Allegations or Complaints",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-partners/mark-misuse-allegations-or-complaints.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-031-For-Partners-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "For Partners",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+             },
+             {
+              "text": "Marketing the Movement",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-partners/communicate-your-commitment.html"
+             },
+             {
+              "text": "How to Use the Mark",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-partners/how-to-use-the-mark.html"
+             },
+             {
+              "text": "Mark Misuse Allegations or Complaints",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-partners/mark-misuse-allegations-or-complaints.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-032-For-Partners-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "Go back",
+           "key": "go back",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#mobile-submenu-2-2-2>div:nth-of-type(1)>button",
+           "expanded": null,
+           "rect": [
+            0,
+            72,
+            390,
+            48
+           ],
+           "actions": {
+            "click": {
+             "opened": true,
+             "hidden": 5,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null
+            },
+            "key": {
+             "opened": true,
+             "hidden": 5,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null,
+             "tabReachesPanel": false
+            }
+           },
+           "close": {
+            "escape": false,
+            "focusReturn": false,
+            "outside": false,
+            "toggle": false
+           }
+          }
+         ]
+        },
+        {
+         "name": "For Retailers",
+         "key": "for retailers",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-submenu-1-2>div:nth-of-type(2)>ul>li:nth-of-type(4)>button",
+         "expanded": "false",
+         "rect": [
+          0,
+          416,
+          390,
+          72
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "For Retailers",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+             },
+             {
+              "text": "Fairtrade Bananas",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-retailers/fairtrade-bananas.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-033-For-Retailers-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "For Retailers",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+             },
+             {
+              "text": "Fairtrade Bananas",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-retailers/fairtrade-bananas.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-034-For-Retailers-key.png",
+           "tabReachesPanel": true
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "Go back",
+           "key": "go back",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#mobile-submenu-2-2-3>div:nth-of-type(1)>button",
+           "expanded": null,
+           "rect": [
+            0,
+            72,
+            390,
+            48
+           ],
+           "actions": {
+            "click": {
+             "opened": true,
+             "hidden": 3,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null
+            },
+            "key": {
+             "opened": true,
+             "hidden": 3,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null,
+             "tabReachesPanel": false
+            }
+           },
+           "close": {
+            "escape": false,
+            "focusReturn": false,
+            "outside": false,
+            "toggle": false
+           }
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Get Involved",
+       "key": "get involved",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mobile-menu>div>div:nth-of-type(1)>nav:nth-of-type(1)>ul>li:nth-of-type(4)>button",
+       "expanded": "false",
+       "rect": [
+        0,
+        296,
+        390,
+        72
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 7,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Go back",
+           "Get Involved",
+           "How to Shop Sustainably",
+           "Where to buy",
+           "Activism"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           72,
+           390,
+           772
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "translate",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.mobile-menu"
+          }
+         ],
+         "shot": "390-035-Get-Involved-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 7,
+         "panel": {
+          "links": [],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [
+           "Go back",
+           "Get Involved",
+           "How to Shop Sustainably",
+           "Where to buy",
+           "Activism"
+          ],
+          "options": 0,
+          "rect": [
+           0,
+           72,
+           390,
+           772
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "translate",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease-in-out",
+           "target": "div.mobile-menu"
+          }
+         ],
+         "shot": "390-036-Get-Involved-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": [
+        {
+         "name": "Go back",
+         "key": "go back",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-submenu-1-3>div:nth-of-type(1)>button",
+         "expanded": null,
+         "rect": [
+          0,
+          72,
+          390,
+          48
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "About",
+              "href": "https://www.fairtrade.net/us-en/about.html"
+             },
+             {
+              "text": "Careers",
+              "href": "https://www.fairtrade.net/us-en/about/careers.html"
+             },
+             {
+              "text": "For partners",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+             },
+             {
+              "text": "For retailers",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+             },
+             {
+              "text": "News",
+              "href": "https://main--63f9f24b--aemcoder.aem.page/us-en/news"
+             },
+             {
+              "text": "Contact",
+              "href": "https://www.fairtrade.net/us-en/contact.html"
+             },
+             {
+              "text": "Fairtrade International",
+              "href": "https://www.fairtrade.net/en.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-037-Go-back-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "About",
+              "href": "https://www.fairtrade.net/us-en/about.html"
+             },
+             {
+              "text": "Careers",
+              "href": "https://www.fairtrade.net/us-en/about/careers.html"
+             },
+             {
+              "text": "For partners",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+             },
+             {
+              "text": "For retailers",
+              "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+             },
+             {
+              "text": "News",
+              "href": "https://main--63f9f24b--aemcoder.aem.page/us-en/news"
+             },
+             {
+              "text": "Contact",
+              "href": "https://www.fairtrade.net/us-en/contact.html"
+             },
+             {
+              "text": "Fairtrade International",
+              "href": "https://www.fairtrade.net/en.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": null,
+           "focus": "body",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-038-Go-back-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": []
+        },
+        {
+         "name": "Get Involved",
+         "key": "get involved",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mobile-submenu-1-3>div:nth-of-type(2)>ul>li:nth-of-type(1)>button",
+         "expanded": "false",
+         "rect": [
+          0,
+          200,
+          390,
+          72
+         ],
+         "actions": {
+          "click": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Get Involved",
+              "href": "https://www.fairtrade.net/us-en/get-involved/get-involved.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-039-Get-Involved-click.png"
+          },
+          "key": {
+           "opened": true,
+           "hidden": 5,
+           "panel": {
+            "links": [
+             {
+              "text": "Get Involved",
+              "href": "https://www.fairtrade.net/us-en/get-involved/get-involved.html"
+             }
+            ],
+            "headings": [],
+            "images": 0,
+            "inputs": [],
+            "buttons": [
+             "Go back"
+            ],
+            "options": 0,
+            "rect": [
+             0,
+             72,
+             390,
+             772
+            ]
+           },
+           "expanded": "true",
+           "focus": "trigger",
+           "scrollLock": true,
+           "motion": [
+            {
+             "kind": "transition",
+             "prop": "translate",
+             "ms": 300,
+             "delay": 0,
+             "easing": "ease-in-out",
+             "target": "div.mobile-menu"
+            }
+           ],
+           "shot": "390-040-Get-Involved-key.png",
+           "tabReachesPanel": false
+          }
+         },
+         "close": {
+          "escape": false,
+          "focusReturn": false,
+          "outside": null,
+          "toggle": false
+         },
+         "children": [
+          {
+           "name": "Go back",
+           "key": "go back",
+           "role": "toggle",
+           "kind": "menu",
+           "sel": "#mobile-submenu-2-3-0>div:nth-of-type(1)>button",
+           "expanded": null,
+           "rect": [
+            0,
+            72,
+            390,
+            48
+           ],
+           "actions": {
+            "click": {
+             "opened": true,
+             "hidden": 2,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null
+            },
+            "key": {
+             "opened": true,
+             "hidden": 2,
+             "panel": {
+              "links": [],
+              "headings": [],
+              "images": 0,
+              "inputs": [],
+              "buttons": [
+               "Why Fairtrade",
+               "Products",
+               "For Business",
+               "Get Involved",
+               "US • EN Open or close the locale selector. The currently selected locale is US-E"
+              ],
+              "options": 0,
+              "rect": [
+               0,
+               72,
+               0,
+               772
+              ]
+             },
+             "expanded": null,
+             "focus": "body",
+             "scrollLock": true,
+             "motion": [
+              {
+               "kind": "transition",
+               "prop": "translate",
+               "ms": 300,
+               "delay": 0,
+               "easing": "ease-in-out",
+               "target": "div.mobile-menu"
+              }
+             ],
+             "shot": null,
+             "tabReachesPanel": false
+            }
+           },
+           "close": {
+            "escape": false,
+            "focusReturn": false,
+            "outside": false,
+            "toggle": false
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 72,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -72,
+     "height": 72,
+     "position": "fixed",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 72,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 72,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 60,
+   "truncated": "depth 4 at Open Mobile Menu Close Mobile Menu > Why Fairtrade > What we do > Go back",
+   "loads": 1,
+   "requests": 36,
+   "maxRequests": 0,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "body>header>div>div:nth-of-type(1)",
+   "controls": [
+    {
+     "name": "Back to Homepage",
+     "key": "back to homepage",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div:nth-of-type(1)>div>div>a",
+     "href": "https://www.fairtrade.net/us-en.html",
+     "expanded": null,
+     "rect": [
+      48,
+      0,
+      80,
+      104
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Why Fairtrade",
+     "key": "why fairtrade",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#main-nav>ul>li:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      176,
+      0,
+      114,
+      104
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "What we do",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do.html"
+         },
+         {
+          "text": "What is Fairtrade?",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/what-is-fairtrade.html"
+         },
+         {
+          "text": "How Fairtrade works",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+         },
+         {
+          "text": "Key benefits of Fairtrade",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/key-benefits.html"
+         },
+         {
+          "text": "Theory of Change",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html"
+         },
+         {
+          "text": "The Fairtrade Difference",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/the-fairtrade-difference.html"
+         },
+         {
+          "text": "Why we do it",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it.html"
+         },
+         {
+          "text": "Child Protection",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html"
+         },
+         {
+          "text": "Climate and the environment",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html"
+         },
+         {
+          "text": "Decent Livelihoods",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html"
+         },
+         {
+          "text": "Deforestation",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/deforestation.html"
+         },
+         {
+          "text": "Fairtrade and the Sustainable Development Goals",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html"
+         },
+         {
+          "text": "Gender Equality",
+          "href": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/gender-equality"
+         },
+         {
+          "text": "HREDD",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/hredd.html"
+         },
+         {
+          "text": "Smallholder Farmers",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html"
+         },
+         {
+          "text": "Workers Rights",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/workers-rights.html"
+         },
+         {
+          "text": "How we do it",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it.html"
+         },
+         {
+          "text": "How does the label work",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html"
+         },
+         {
+          "text": "How Fairtrade certification works",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html"
+         },
+         {
+          "text": "Fairtrade products and ingredients",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html"
+         },
+         {
+          "text": "Assuring integrity in checking compliance",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html"
+         },
+         {
+          "text": "Traceability in Fairtrade supply chains",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html"
+         },
+         {
+          "text": "Fairtrade standards",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html"
+         },
+         {
+          "text": "Our projects and programs",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs.html"
+         },
+         {
+          "text": "Impact",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact.html"
+         },
+         {
+          "text": "Impact stories",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/impact-stories.html"
+         },
+         {
+          "text": "Key figures at a glance",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/key-figures-at-a-glance.html"
+         },
+         {
+          "text": "How we measure impact",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/how-we-measure-impact.html"
+         },
+         {
+          "text": "Reports & Trends",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/reports-trends.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         104,
+         1440,
+         697
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.button"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "scale",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.topbar"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-desktop-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-desktop-flyout"
+        }
+       ],
+       "shot": "1440-001-Why-Fairtrade-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "What we do",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do.html"
+         },
+         {
+          "text": "What is Fairtrade?",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/what-is-fairtrade.html"
+         },
+         {
+          "text": "How Fairtrade works",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+         },
+         {
+          "text": "Key benefits of Fairtrade",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/key-benefits.html"
+         },
+         {
+          "text": "Theory of Change",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html"
+         },
+         {
+          "text": "The Fairtrade Difference",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/the-fairtrade-difference.html"
+         },
+         {
+          "text": "Why we do it",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it.html"
+         },
+         {
+          "text": "Child Protection",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html"
+         },
+         {
+          "text": "Climate and the environment",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html"
+         },
+         {
+          "text": "Decent Livelihoods",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html"
+         },
+         {
+          "text": "Deforestation",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/deforestation.html"
+         },
+         {
+          "text": "Fairtrade and the Sustainable Development Goals",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html"
+         },
+         {
+          "text": "Gender Equality",
+          "href": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/gender-equality"
+         },
+         {
+          "text": "HREDD",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/hredd.html"
+         },
+         {
+          "text": "Smallholder Farmers",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html"
+         },
+         {
+          "text": "Workers Rights",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/workers-rights.html"
+         },
+         {
+          "text": "How we do it",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it.html"
+         },
+         {
+          "text": "How does the label work",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html"
+         },
+         {
+          "text": "How Fairtrade certification works",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html"
+         },
+         {
+          "text": "Fairtrade products and ingredients",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html"
+         },
+         {
+          "text": "Assuring integrity in checking compliance",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html"
+         },
+         {
+          "text": "Traceability in Fairtrade supply chains",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html"
+         },
+         {
+          "text": "Fairtrade standards",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html"
+         },
+         {
+          "text": "Our projects and programs",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs.html"
+         },
+         {
+          "text": "Impact",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact.html"
+         },
+         {
+          "text": "Impact stories",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/impact-stories.html"
+         },
+         {
+          "text": "Key figures at a glance",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/key-figures-at-a-glance.html"
+         },
+         {
+          "text": "How we measure impact",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/how-we-measure-impact.html"
+         },
+         {
+          "text": "Reports & Trends",
+          "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/reports-trends.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         104,
+         1440,
+         697
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "scale",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.topbar"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-desktop-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-desktop-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        }
+       ],
+       "shot": "1440-002-Why-Fairtrade-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Products",
+     "key": "products",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#main-nav>ul>li:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      338,
+      0,
+      71,
+      104
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Fairtrade products",
+          "href": "https://www.fairtrade.net/us-en/products/all-products.html"
+         },
+         {
+          "text": "Bananas",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/bananas.html"
+         },
+         {
+          "text": "Cocoa",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/cocoa.html"
+         },
+         {
+          "text": "Chocolate",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/chocolate.html"
+         },
+         {
+          "text": "Coffee",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/coffee.html"
+         },
+         {
+          "text": "Cotton",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/cotton.html"
+         },
+         {
+          "text": "Herbs and spices",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/herbs-spices.html"
+         },
+         {
+          "text": "Nuts and oils",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/nuts-oils.html"
+         },
+         {
+          "text": "Sugar",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/sugar.html"
+         },
+         {
+          "text": "Wine",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/wine.html"
+         },
+         {
+          "text": "Gold",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/gold.html"
+         },
+         {
+          "text": "Fruits and juices",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/fruits-juices.html"
+         },
+         {
+          "text": "Honey",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/honey.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         104,
+         1440,
+         388
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "scale",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-desktop-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-desktop-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.topbar"
+        }
+       ],
+       "shot": "1440-003-Products-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Fairtrade products",
+          "href": "https://www.fairtrade.net/us-en/products/all-products.html"
+         },
+         {
+          "text": "Bananas",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/bananas.html"
+         },
+         {
+          "text": "Cocoa",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/cocoa.html"
+         },
+         {
+          "text": "Chocolate",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/chocolate.html"
+         },
+         {
+          "text": "Coffee",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/coffee.html"
+         },
+         {
+          "text": "Cotton",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/cotton.html"
+         },
+         {
+          "text": "Herbs and spices",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/herbs-spices.html"
+         },
+         {
+          "text": "Nuts and oils",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/nuts-oils.html"
+         },
+         {
+          "text": "Sugar",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/sugar.html"
+         },
+         {
+          "text": "Wine",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/wine.html"
+         },
+         {
+          "text": "Gold",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/gold.html"
+         },
+         {
+          "text": "Fruits and juices",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/fruits-juices.html"
+         },
+         {
+          "text": "Honey",
+          "href": "https://www.fairtrade.net/us-en/products/all-products/honey.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         104,
+         1440,
+         388
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "scale",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-desktop-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-desktop-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.topbar"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        }
+       ],
+       "shot": "1440-004-Products-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "For Business",
+     "key": "for business",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#main-nav>ul>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      457,
+      0,
+      99,
+      104
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Benefits of being certified",
+          "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified.html"
+         },
+         {
+          "text": "Business success stories",
+          "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/business-success-stories.html"
+         },
+         {
+          "text": "Benefits for business",
+          "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-business.html"
+         },
+         {
+          "text": "Benefits for producers",
+          "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-producers.html"
+         },
+         {
+          "text": "Consumer Trends",
+          "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/consumer-trends1.html"
+         },
+         {
+          "text": "Get Certified",
+          "href": "https://www.fairtrade.net/us-en/for-business/get-certified.html"
+         },
+         {
+          "text": "The Certification Process",
+          "href": "https://www.fairtrade.net/us-en/for-business/get-certified/the-certification-process.html"
+         },
+         {
+          "text": "Resources & Support",
+          "href": "https://www.fairtrade.net/us-en/for-business/get-certified/resources-support.html"
+         },
+         {
+          "text": "Intro to Fairtrade",
+          "href": "https://www.fairtrade.net/us-en/for-business/get-certified/intro-to-fairtrade.html"
+         },
+         {
+          "text": "Get Started",
+          "href": "https://www.fairtrade.net/us-en/for-business/get-certified/get-started.html"
+         },
+         {
+          "text": "For Partners",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+         },
+         {
+          "text": "Marketing the Movement",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-partners/communicate-your-commitment.html"
+         },
+         {
+          "text": "How to Use the Mark",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-partners/how-to-use-the-mark.html"
+         },
+         {
+          "text": "Mark Misuse Allegations or Complaints",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-partners/mark-misuse-allegations-or-complaints.html"
+         },
+         {
+          "text": "For Retailers",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+         },
+         {
+          "text": "Fairtrade Bananas",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-retailers/fairtrade-bananas.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         104,
+         1440,
+         388
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "scale",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.button"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-desktop-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-desktop-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.topbar"
+        }
+       ],
+       "shot": "1440-005-For-Business-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Benefits of being certified",
+          "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified.html"
+         },
+         {
+          "text": "Business success stories",
+          "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/business-success-stories.html"
+         },
+         {
+          "text": "Benefits for business",
+          "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-business.html"
+         },
+         {
+          "text": "Benefits for producers",
+          "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-producers.html"
+         },
+         {
+          "text": "Consumer Trends",
+          "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/consumer-trends1.html"
+         },
+         {
+          "text": "Get Certified",
+          "href": "https://www.fairtrade.net/us-en/for-business/get-certified.html"
+         },
+         {
+          "text": "The Certification Process",
+          "href": "https://www.fairtrade.net/us-en/for-business/get-certified/the-certification-process.html"
+         },
+         {
+          "text": "Resources & Support",
+          "href": "https://www.fairtrade.net/us-en/for-business/get-certified/resources-support.html"
+         },
+         {
+          "text": "Intro to Fairtrade",
+          "href": "https://www.fairtrade.net/us-en/for-business/get-certified/intro-to-fairtrade.html"
+         },
+         {
+          "text": "Get Started",
+          "href": "https://www.fairtrade.net/us-en/for-business/get-certified/get-started.html"
+         },
+         {
+          "text": "For Partners",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+         },
+         {
+          "text": "Marketing the Movement",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-partners/communicate-your-commitment.html"
+         },
+         {
+          "text": "How to Use the Mark",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-partners/how-to-use-the-mark.html"
+         },
+         {
+          "text": "Mark Misuse Allegations or Complaints",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-partners/mark-misuse-allegations-or-complaints.html"
+         },
+         {
+          "text": "For Retailers",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+         },
+         {
+          "text": "Fairtrade Bananas",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-retailers/fairtrade-bananas.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         104,
+         1440,
+         388
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "scale",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-desktop-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-desktop-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.topbar"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        }
+       ],
+       "shot": "1440-006-For-Business-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Get Involved",
+     "key": "get involved",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#main-nav>ul>li:nth-of-type(4)>button",
+     "expanded": "false",
+     "rect": [
+      603,
+      0,
+      99,
+      104
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Get Involved",
+          "href": "https://www.fairtrade.net/us-en/get-involved/get-involved.html"
+         },
+         {
+          "text": "How to Shop Sustainably",
+          "href": "https://www.fairtrade.net/us-en/get-involved/how-to-shop-sustainably.html"
+         },
+         {
+          "text": "Where to buy",
+          "href": "https://www.fairtrade.net/us-en/get-involved/where-to-buy.html"
+         },
+         {
+          "text": "Activism",
+          "href": "https://www.fairtrade.net/us-en/get-involved/activism.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         104,
+         1440,
+         160
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.button"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "scale",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.topbar"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-desktop-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-desktop-flyout"
+        }
+       ],
+       "shot": "1440-007-Get-Involved-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Get Involved",
+          "href": "https://www.fairtrade.net/us-en/get-involved/get-involved.html"
+         },
+         {
+          "text": "How to Shop Sustainably",
+          "href": "https://www.fairtrade.net/us-en/get-involved/how-to-shop-sustainably.html"
+         },
+         {
+          "text": "Where to buy",
+          "href": "https://www.fairtrade.net/us-en/get-involved/where-to-buy.html"
+         },
+         {
+          "text": "Activism",
+          "href": "https://www.fairtrade.net/us-en/get-involved/activism.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         104,
+         1440,
+         160
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "scale",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.topbar-main-navigation-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.topbar"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-desktop-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-desktop-flyout"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        }
+       ],
+       "shot": "1440-008-Get-Involved-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Search Open the search box",
+     "key": "search open the search box",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>header>div>div:nth-of-type(1)>div>div>div:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      1115,
+      40,
+      80,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Submit the search form",
+         "Close By clicking this element, the search box will disappear"
+        ],
+        "options": 0,
+        "rect": [
+         176,
+         0,
+         1216,
+         104
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.topbar-search-trigger"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-search"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-search"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.topbar"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.input-field-wrapper"
+        }
+       ],
+       "shot": "1440-009-Search-Open-the-search-box-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Submit the search form",
+         "Close By clicking this element, the search box will disappear"
+        ],
+        "options": 0,
+        "rect": [
+         176,
+         0,
+         1216,
+         104
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.topbar-search-trigger"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-search"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-search"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.topbar"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.input-field-wrapper"
+        }
+       ],
+       "shot": "1440-010-Search-Open-the-search-box-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Bananas, coffee, oranges ...",
+       "key": "bananas coffee oranges",
+       "role": "input",
+       "kind": "search",
+       "sel": "#topbar-search-input",
+       "expanded": null,
+       "rect": [
+        296,
+        24,
+        882,
+        56
+       ],
+       "actions": {},
+       "search": {
+        "probe": "back",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://main--63f9f24b--aemcoder.aem.page/us-en/search-results?q={q}"
+       }
+      },
+      {
+       "name": "Submit the search form",
+       "key": "submit the search form",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#topbar-search>form>div>div>div>button",
+       "expanded": null,
+       "rect": [
+        1126,
+        28,
+        48,
+        48
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "Close By clicking this element, the search box will disappear",
+       "key": "close by clicking this element the search box will disappear",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#topbar-search>button",
+       "expanded": null,
+       "rect": [
+        1322,
+        40,
+        70,
+        24
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 3
+        },
+        "key": {
+         "opened": false,
+         "hides": 3
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "US • EN Open or close the locale selector. The currently selected locale is US-E",
+     "key": "us en open or close the locale selector the currently selected locale is use",
+     "role": "toggle",
+     "kind": "locale",
+     "sel": "body>header>div>div:nth-of-type(1)>div>div>div:nth-of-type(2)>div:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      1219,
+      40,
+      82,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Fairtrade International",
+          "href": "https://www.fairtrade.net/en.html"
+         },
+         {
+          "text": "English",
+          "href": "https://www.fairtrade.net/africa-en.html"
+         },
+         {
+          "text": "Deutsch",
+          "href": "https://main--63f9f24b--aemcoder.aem.page/at-de"
+         },
+         {
+          "text": "Français",
+          "href": "https://www.fairtrade.net/be-fr.html"
+         },
+         {
+          "text": "Nederlands",
+          "href": "https://www.fairtrade.net/be-nl.html"
+         },
+         {
+          "text": "English",
+          "href": "https://www.fairtrade.net/ca-en.html"
+         },
+         {
+          "text": "French",
+          "href": "https://www.fairtrade.net/ca-fr.html"
+         },
+         {
+          "text": "Spanish",
+          "href": "https://clac-comerciojusto.org/"
+         },
+         {
+          "text": "Français",
+          "href": "https://www.fairtrade.net/maxhavelaarfrance-fr.html"
+         },
+         {
+          "text": "Deutsch",
+          "href": "https://www.fairtrade.net/de-de.html"
+         },
+         {
+          "text": "Español",
+          "href": "https://www.fairtrade.net/iberica-es.html"
+         },
+         {
+          "text": "Português",
+          "href": "https://www.fairtrade.net/iberica-pt.html"
+         },
+         {
+          "text": "Fairtrade Ireland",
+          "href": "https://www.fairtrade.net/ie-en.html"
+         },
+         {
+          "text": "Italiano",
+          "href": "https://www.fairtrade.net/it-it.html"
+         },
+         {
+          "text": "日本語",
+          "href": "https://www.fairtrade.net/jp-jp.html"
+         },
+         {
+          "text": "한국어",
+          "href": "https://www.fairtrade.net/kr-ko.html"
+         },
+         {
+          "text": "English",
+          "href": "https://main--63f9f24b--aemcoder.aem.page/mt-en/bring-fairtrade-to-your-market"
+         },
+         {
+          "text": "English",
+          "href": "https://www.fairtrade.net/napp-en.html"
+         },
+         {
+          "text": "Dutch",
+          "href": "https://www.fairtrade.net/nl-nl.html"
+         },
+         {
+          "text": "Norsk",
+          "href": "https://www.fairtrade.net/no-no.html"
+         },
+         {
+          "text": "Polski",
+          "href": "https://www.fairtrade.net/pl-pl.html"
+         },
+         {
+          "text": "Romanian",
+          "href": "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html"
+         },
+         {
+          "text": "Slovenian",
+          "href": "https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html"
+         },
+         {
+          "text": "Svensk",
+          "href": "https://www.fairtrade.net/se-sv.html"
+         },
+         {
+          "text": "Deutsch",
+          "href": "https://www.fairtrade.net/ch-de.html"
+         },
+         {
+          "text": "Français",
+          "href": "https://www.fairtrade.net/ch-fr.html"
+         },
+         {
+          "text": "English",
+          "href": "https://www.fairtrade.net/uk-en.html"
+         },
+         {
+          "text": "english",
+          "href": "https://www.fairtrade.net/us-en.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Close the locale selector."
+        ],
+        "options": 0,
+        "rect": [
+         72,
+         48,
+         1304,
+         852
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.locale-selector-trigger"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.locale-selector"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.locale-selector"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.input-field-wrapper"
+        }
+       ],
+       "shot": "1440-011-US-EN-Open-or-close-the-locale-selector-.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Fairtrade International",
+          "href": "https://www.fairtrade.net/en.html"
+         },
+         {
+          "text": "English",
+          "href": "https://www.fairtrade.net/africa-en.html"
+         },
+         {
+          "text": "Deutsch",
+          "href": "https://main--63f9f24b--aemcoder.aem.page/at-de"
+         },
+         {
+          "text": "Français",
+          "href": "https://www.fairtrade.net/be-fr.html"
+         },
+         {
+          "text": "Nederlands",
+          "href": "https://www.fairtrade.net/be-nl.html"
+         },
+         {
+          "text": "English",
+          "href": "https://www.fairtrade.net/ca-en.html"
+         },
+         {
+          "text": "French",
+          "href": "https://www.fairtrade.net/ca-fr.html"
+         },
+         {
+          "text": "Spanish",
+          "href": "https://clac-comerciojusto.org/"
+         },
+         {
+          "text": "Français",
+          "href": "https://www.fairtrade.net/maxhavelaarfrance-fr.html"
+         },
+         {
+          "text": "Deutsch",
+          "href": "https://www.fairtrade.net/de-de.html"
+         },
+         {
+          "text": "Español",
+          "href": "https://www.fairtrade.net/iberica-es.html"
+         },
+         {
+          "text": "Português",
+          "href": "https://www.fairtrade.net/iberica-pt.html"
+         },
+         {
+          "text": "Fairtrade Ireland",
+          "href": "https://www.fairtrade.net/ie-en.html"
+         },
+         {
+          "text": "Italiano",
+          "href": "https://www.fairtrade.net/it-it.html"
+         },
+         {
+          "text": "日本語",
+          "href": "https://www.fairtrade.net/jp-jp.html"
+         },
+         {
+          "text": "한국어",
+          "href": "https://www.fairtrade.net/kr-ko.html"
+         },
+         {
+          "text": "English",
+          "href": "https://main--63f9f24b--aemcoder.aem.page/mt-en/bring-fairtrade-to-your-market"
+         },
+         {
+          "text": "English",
+          "href": "https://www.fairtrade.net/napp-en.html"
+         },
+         {
+          "text": "Dutch",
+          "href": "https://www.fairtrade.net/nl-nl.html"
+         },
+         {
+          "text": "Norsk",
+          "href": "https://www.fairtrade.net/no-no.html"
+         },
+         {
+          "text": "Polski",
+          "href": "https://www.fairtrade.net/pl-pl.html"
+         },
+         {
+          "text": "Romanian",
+          "href": "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html"
+         },
+         {
+          "text": "Slovenian",
+          "href": "https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html"
+         },
+         {
+          "text": "Svensk",
+          "href": "https://www.fairtrade.net/se-sv.html"
+         },
+         {
+          "text": "Deutsch",
+          "href": "https://www.fairtrade.net/ch-de.html"
+         },
+         {
+          "text": "Français",
+          "href": "https://www.fairtrade.net/ch-fr.html"
+         },
+         {
+          "text": "English",
+          "href": "https://www.fairtrade.net/uk-en.html"
+         },
+         {
+          "text": "english",
+          "href": "https://www.fairtrade.net/us-en.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Close the locale selector."
+        ],
+        "options": 0,
+        "rect": [
+         72,
+         48,
+         1304,
+         852
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.locale-selector-trigger"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.locale-selector"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.locale-selector"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.input-field-wrapper"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        }
+       ],
+       "shot": "1440-012-US-EN-Open-or-close-the-locale-selector-.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": false,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "Close the locale selector.",
+       "key": "close the locale selector",
+       "role": "toggle",
+       "kind": "locale",
+       "sel": "#locale-selector>button",
+       "expanded": null,
+       "rect": [
+        1344,
+        48,
+        32,
+        32
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 30
+        },
+        "key": {
+         "opened": false,
+         "hides": 30
+        }
+       }
+      },
+      {
+       "name": "Search for a country, region or language",
+       "key": "search for a country region or language",
+       "role": "input",
+       "kind": "search",
+       "sel": "#locale-selector-filter",
+       "expanded": null,
+       "rect": [
+        440,
+        338,
+        560,
+        56
+       ],
+       "actions": {},
+       "search": {
+        "probe": "back",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Open Open the meta menu",
+     "key": "open open the meta menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "body>header>div>div:nth-of-type(1)>div>div>div:nth-of-type(2)>div:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      1325,
+      40,
+      67,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "About",
+          "href": "https://www.fairtrade.net/us-en/about.html"
+         },
+         {
+          "text": "Careers",
+          "href": "https://www.fairtrade.net/us-en/about/careers.html"
+         },
+         {
+          "text": "For partners",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+         },
+         {
+          "text": "For retailers",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+         },
+         {
+          "text": "News",
+          "href": "https://main--63f9f24b--aemcoder.aem.page/us-en/news"
+         },
+         {
+          "text": "Contact",
+          "href": "https://www.fairtrade.net/us-en/contact.html"
+         },
+         {
+          "text": "Fairtrade International",
+          "href": "https://www.fairtrade.net/en.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "close Close the meta menu"
+        ],
+        "options": 0,
+        "rect": [
+         1186,
+         0,
+         246,
+         512
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.topbar-meta-menu-open-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-meta-menu-menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-meta-menu-menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.topbar"
+        }
+       ],
+       "shot": "1440-013-Open-Open-the-meta-menu-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "About",
+          "href": "https://www.fairtrade.net/us-en/about.html"
+         },
+         {
+          "text": "Careers",
+          "href": "https://www.fairtrade.net/us-en/about/careers.html"
+         },
+         {
+          "text": "For partners",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-partners.html"
+         },
+         {
+          "text": "For retailers",
+          "href": "https://www.fairtrade.net/us-en/for-business/for-retailers.html"
+         },
+         {
+          "text": "News",
+          "href": "https://main--63f9f24b--aemcoder.aem.page/us-en/news"
+         },
+         {
+          "text": "Contact",
+          "href": "https://www.fairtrade.net/us-en/contact.html"
+         },
+         {
+          "text": "Fairtrade International",
+          "href": "https://www.fairtrade.net/en.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "close Close the meta menu"
+        ],
+        "options": 0,
+        "rect": [
+         1186,
+         0,
+         246,
+         512
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "button.topbar-meta-menu-open-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-meta-menu-menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.topbar-meta-menu-menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "div.topbar"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-in-out",
+         "target": "div.hero-carousel-controls"
+        }
+       ],
+       "shot": "1440-014-Open-Open-the-meta-menu-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "close Close the meta menu",
+       "key": "close close the meta menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "#topbar-meta-menu>div>button",
+       "expanded": null,
+       "rect": [
+        1324,
+        40,
+        68,
+        24
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 8
+        },
+        "key": {
+         "opened": false,
+         "hides": 8
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 104,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -104,
+     "height": 104,
+     "position": "fixed",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 104,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 104,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 14,
+   "truncated": null,
+   "loads": 1,
+   "requests": 40,
+   "maxRequests": 0,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": "back"
+}

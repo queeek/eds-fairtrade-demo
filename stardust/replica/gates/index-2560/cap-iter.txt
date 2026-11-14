@@ -1,0 +1,16 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://www.fairtrade.net/us-en.html
+  modules  6 sections: capped 1920 ×6 · full-bleed ×0
+  contentMaxWidth 1920px (module) · shellMaxWidth fluid · root div.cmp-container > div.aem-Grid.aem-Grid--12 > div.maincontainer.container > main
+build  http://localhost:8791/index-proposed.html
+  modules  6 sections: capped 1920 ×6 · full-bleed ×0
+  contentMaxWidth 1920px (module) · shellMaxWidth fluid · root body > main
+rows
+  ✓ content cap: live 1920px = build 1920px (±20, shared module cap)
+  ✓ module 1/6: 1920px = 1920px
+  ✓ module 2/6: 1920px = 1920px
+  ✓ module 3/6: 1920px = 1920px
+  ✓ module 4/6: 1920px = 1920px
+  ✓ module 5/6: 1920px = 1920px
+  ✓ module 6/6: 1920px = 1920px
+cap-probe: PASS at 2560 — 0 of 7 rows failed (evidence stardust/replica/gates/index-2560/cap-iter.json)

@@ -1,0 +1,15 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.fairtrade.net/at-de.html (live side from cache stardust/replica/gates/at-de-html-1440/chrome-live.json, probed 2026-11-13T22:40:20.979Z — delete the file to re-probe)
+  build: https://main--63f9f24b--aemcoder.aem.page/at-de
+
+■ header: ✓ parity — 12 paired of 12/12 texts, 4/4 icons
+  🟢 REGION BOX   Δy -104px (104→0), Δh +104px (0→104)  — accepted: Instrument asymmetry, not a paint change: on the delivery platform the header block always renders inside the pipeline's <header> wrapper, which reserves the fixed topbar's 104px (the source reserves it with a spacer outside its zero-height <header>); the painted topbar is the same fixed white bar at the same rect on both sides. Published-origin pixel rounds are the confirmation (index 0.05%/0.64%, at-de 3.82%/5.08%, Δh 0). Scope: root header, REGION BOX and REGION STYLE only.
+  🟢 REGION STYLE backgroundColor rgba(0, 0, 0, 0) → rgb(255, 255, 255)  — accepted: Instrument asymmetry, not a paint change: on the delivery platform the header block always renders inside the pipeline's <header> wrapper, which reserves the fixed topbar's 104px (the source reserves it with a spacer outside its zero-height <header>); the painted topbar is the same fixed white bar at the same rect on both sides. Published-origin pixel rounds are the confirmation (index 0.05%/0.64%, at-de 3.82%/5.08%, Δh 0). Scope: root header, REGION BOX and REGION STYLE only.
+
+■ footer: 3 delta(s) — 22 paired of 22/22 texts, 15/15 icons
+  🟢 REGION STYLE backgroundColor rgba(0, 0, 0, 0) → rgb(0, 27, 110)  — accepted: Instrument asymmetry, not a paint change: the live <footer> is an AEM experience-fragment wrapper four levels above the navy .Footer, the build <footer> wraps .Footer directly; both <footer> elements compute rgba(0,0,0,0) and both .Footer boxes paint #001b6e at the same rect (measure.mjs: footer > .Footer 0,5790 1440x414 bg rgb(0,27,110) on build = live). Footer crop-compare and pixel diff are the confirmation. Scope: root footer, kind REGION STYLE only (the finding carries no text to narrow on); recorded for archetype index.
+  PAIR         "Über FAIRTRADE Österreich"  tag <span> → <p>; Δw +53px (265→318); Δh -2px (24→22)
+  PAIR         "Service & Kontakt"  tag <span> → <p>; Δw +145px (173→318); Δh -2px (24→22)
+  PAIR         "Recht & Compliance"  tag <span> → <p>; Δw +126px (192→318); Δh -2px (24→22)
+
+✗ 3 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

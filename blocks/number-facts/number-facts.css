@@ -1,0 +1,249 @@
+/* number-facts — canon NumberFactTeaser / NumberFact / Bubble (stardust/prototypes/canon.css, values verbatim) */
+.number-facts {
+  display: grid;
+  gap: 48px var(--grid-gap);
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
+  margin-inline: auto;
+  padding: 64px var(--grid-padding);
+  width: min(100%, var(--max-width));
+}
+
+.number-facts > * {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+.number-facts .number-facts-slider {
+  display: grid;
+  position: relative;
+}
+
+.number-facts .number-facts-prev,
+.number-facts .number-facts-next {
+  position: absolute;
+}
+
+.number-facts .number-facts-prev {
+  left: -12px;
+  place-self: center start;
+}
+
+.number-facts .number-facts-next {
+  place-self: center end;
+  right: -12px;
+}
+
+.number-facts .number-facts-items {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+  list-style: none;
+  margin: 0;
+  overflow-x: scroll;
+  padding: 0;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.number-facts .number-facts-items::-webkit-scrollbar {
+  display: none;
+}
+
+.number-facts .number-facts-item {
+  min-width: 100%;
+  scroll-snap-align: start;
+}
+
+.number-facts .number-facts-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.number-facts .number-facts-content p {
+  margin: 0;
+}
+
+.number-facts .number-facts-label {
+  color: #787878;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.number-facts .number-facts-title {
+  font-family: var(--ff-head);
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.number-facts .number-facts-title :is(h1, h2, h3) {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.number-facts .number-facts-text {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.number-facts .number-facts-cta {
+  margin-top: 8px;
+}
+
+.number-facts .visually-hidden {
+  clip-path: inset(0);
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+}
+
+/* NumberFact */
+.number-facts .number-fact {
+  display: grid;
+  margin: 0 auto;
+  max-width: 612px;
+  position: relative;
+}
+
+.number-facts .number-fact.color-eggplant {
+  color: #fff;
+}
+
+.number-facts .number-fact-bubble.color-flower {
+  color: #ff4571;
+}
+
+.number-facts .number-fact-bubble.color-eggplant {
+  color: #7b1dab;
+}
+
+.number-facts .number-fact-bubble svg {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.number-facts .number-fact-content {
+  display: grid;
+  gap: 12px;
+  inset: 0;
+  padding: 16px 32px;
+  place-content: center;
+  position: absolute;
+  text-align: center;
+}
+
+.number-facts .number-fact-content p {
+  margin: 0;
+}
+
+.number-facts .number-fact-number {
+  font-family: var(--ff-head);
+  font-size: clamp(72px, 20.61vw, 136px);
+  font-weight: 900;
+  line-height: .875;
+  margin-bottom: .15em;
+}
+
+.number-facts .number-fact-fact {
+  font-family: var(--ff-head);
+  font-size: clamp(24px, 4.85vw, 32px);
+  font-weight: 900;
+  line-height: 1.1;
+  padding-inline: 12px;
+}
+
+@media (width >= 768px) {
+  .number-facts {
+    column-gap: 24px;
+  }
+
+  .number-facts .number-facts-slider {
+    grid-column: span 6;
+  }
+
+  .number-facts .number-facts-prev,
+  .number-facts .number-facts-next {
+    display: none;
+  }
+
+  .number-facts .number-facts-items {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 120px;
+    overflow-x: visible;
+  }
+
+  .number-facts .number-facts-content {
+    align-items: start;
+    aspect-ratio: 5 / 7;
+    grid-column: span 6;
+    justify-content: center;
+    max-height: 612px;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+  }
+
+  .number-facts .number-facts-title {
+    text-align: left;
+  }
+
+  .number-facts .number-fact-number {
+    font-size: clamp(72px, 11.93vw, 136px);
+  }
+
+  .number-facts .number-fact-fact {
+    font-size: clamp(24px, 2.81vw, 32px);
+  }
+}
+
+@media (width >= 1024px) {
+  .number-facts {
+    padding-block: 80px;
+  }
+
+  .number-facts .number-facts-slider {
+    grid-column: span 7;
+  }
+
+  .number-facts .number-facts-content {
+    grid-column: span 5;
+    padding: 16px;
+  }
+
+  .number-facts .number-facts-label,
+  .number-facts .number-facts-text {
+    font-size: 18px;
+  }
+
+  .number-facts .number-facts-title {
+    font-size: 48px;
+  }
+
+  .number-facts .number-fact-content {
+    gap: 24px;
+    padding: 24px 64px;
+  }
+}
+
+/* spacer-after — the source follows this teaser with an EMPTY RichtextSection (padding-block
+   32 px / 40 px ≥1024, no content), which cannot be authored as an empty section */
+.number-facts.spacer-after {
+  margin-bottom: 64px;
+}
+
+@media (width >= 1024px) {
+  .number-facts.spacer-after {
+    margin-bottom: 80px;
+  }
+}

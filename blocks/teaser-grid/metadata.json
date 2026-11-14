@@ -1,0 +1,28 @@
+{
+  "variantName": "teaser-grid",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Grid of info teaser cards (image, tags, pretitle + title, optional text, read-more link; whole card is a link), 2-up by default.",
+  "contentPattern": "One row per card: image, tag list (ul), h2 with <strong>pretitle</strong> title, optional text, link. A trailing row with only a short paragraph becomes the load-more control (6 more per click).",
+  "options": [
+    {
+      "class": "small",
+      "label": "Small (3-up)"
+    },
+    {
+      "class": "filter",
+      "label": "Filter"
+    },
+    {
+      "class": "highlights",
+      "label": "Highlights"
+    },
+    {
+      "class": "spacer-before",
+      "label": "Extra space before"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "News, stories and listing pages, plus related-content grids.",
+  "reuseGuidance": "Reuse for article/story teaser grids and listings."
+}

@@ -1,0 +1,23 @@
+[live-session] waiting to pace live navigations to www.fairtrade.net (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 1440px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 101 text nodes — 18 headings, 0 eyebrows, 7 CTAs, 76 body; 7 img
+  build: 101 text nodes — 18 headings, 0 eyebrows, 7 CTAs, 76 body; 7 img
+  editable texts (outermost h*/p/ul/ol): source 49 / build 49
+  attributes (placeholder/aria-label/title): source 4 / build 3; icons: source 8 / build 7
+root "header"
+  source: 94 text nodes — 0 headings, 0 eyebrows, 38 CTAs, 56 body; 1 img
+  build: 94 text nodes — 0 headings, 0 eyebrows, 38 CTAs, 56 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 6 / build 6
+  attributes (placeholder/aria-label/title): source 5 / build 5; icons: source 24 / build 24
+root "footer"
+  source: 6 text nodes — 0 headings, 0 eyebrows, 3 CTAs, 3 body; 0 img
+  build: 6 text nodes — 0 headings, 0 eyebrows, 3 CTAs, 3 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 7 / build 7
+
+Findings: 2 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 2
+  🟡 MISSING TITLE [main]: source <iframe> title="reCAPTCHA" has no build <iframe> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at "bring fairtrade to your market fairtrade" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.

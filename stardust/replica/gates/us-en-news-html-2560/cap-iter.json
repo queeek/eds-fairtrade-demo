@@ -1,0 +1,353 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-13T22:36:56.960Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.fairtrade.net/us-en/news.html",
+      "http://localhost:8791/us-en-news-html-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from stardust/current/DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.fairtrade.net/us-en/news.html",
+    "http://localhost:8791/us-en-news-html-proposed.html"
+  ],
+  "probeNote": "from stardust/current/DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "div.cmp-container > div.aem-Grid.aem-Grid--12 > div.maincontainer.container > main",
+      "isBody": false,
+      "leaves": 88,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "div.page-lead.is-visible > div.PageLead.theme-leafgreen > div.PageLead--content > div.PageLead--contentGrid",
+        "tier": 5,
+        "share": 0.02,
+        "section": 0,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "shell",
+        "px": 1920,
+        "via": "other",
+        "selector": "div.FilteredTeaserGrid > div.TeaserGrid.small > div.TeaserGrid--inner > ul.TeaserGrid--grid",
+        "tier": 6,
+        "share": 0.97,
+        "section": 1,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 362,
+        "via": "fixed",
+        "selector": "#article-Real-Pay-Feeds-Real-Change > div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+        "tier": 11,
+        "share": 0.02,
+        "section": 1,
+        "w1": 362,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 382,
+        "via": "fixed",
+        "selector": "#article-Real-Pay-Feeds-Real-Change > div.InfoTeaser--inner > div.InfoTeaser--content > div.InfoTeaser--text",
+        "tier": 11,
+        "share": 0.01,
+        "section": 1,
+        "w1": 382,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 418,
+        "via": "fixed",
+        "selector": "#article-What-is-a-cooperative-or-co-op > div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+        "tier": 11,
+        "share": 0.02,
+        "section": 1,
+        "w1": 418,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 323,
+        "via": "fixed",
+        "selector": "#article-What-is-a-cooperative-or-co-op > div.InfoTeaser--inner > div.InfoTeaser--content > div.InfoTeaser--text",
+        "tier": 11,
+        "share": 0.01,
+        "section": 1,
+        "w1": 323,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 267,
+        "via": "fixed",
+        "selector": "#article-International_Co-ops_Day > div.InfoTeaser--inner > div.InfoTeaser--content > div.InfoTeaser--text",
+        "tier": 11,
+        "share": 0.01,
+        "section": 1,
+        "w1": 267,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 255,
+        "via": "fixed",
+        "selector": "#article-its_giveaway_time > div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+        "tier": 11,
+        "share": 0.02,
+        "section": 1,
+        "w1": 255,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 399,
+        "via": "fixed",
+        "selector": "#article-World-Day-Against-Child-Labor > div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+        "tier": 11,
+        "share": 0.02,
+        "section": 1,
+        "w1": 399,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 360,
+        "via": "fixed",
+        "selector": "#article-International_Workers_Day > div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+        "tier": 11,
+        "share": 0.02,
+        "section": 1,
+        "w1": 360,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 361,
+        "via": "fixed",
+        "selector": "#article-The-History-of-Bananas > div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+        "tier": 11,
+        "share": 0.02,
+        "section": 1,
+        "w1": 361,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "div.maincontainer.container > main > div.cmp-container > div.page-lead.is-visible",
+        "px": 1920,
+        "capSelector": "div.page-lead.is-visible > div.PageLead.theme-leafgreen > div.PageLead--content > div.PageLead--contentGrid"
+      },
+      {
+        "index": 1,
+        "selector": "div.maincontainer.container > main > div.cmp-container > div.teasergrid.is-visible",
+        "px": 418,
+        "capSelector": "#article-What-is-a-cooperative-or-co-op > div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header"
+      }
+    ],
+    "shellMaxWidth": 1920,
+    "contentMaxWidth": 1920,
+    "contentFrom": "shell",
+    "maxCap": 1920,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 241
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body > main",
+      "isBody": false,
+      "leaves": 88,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "main > div.PageLead.theme-leafgreen > div.PageLead--content > div.PageLead--contentGrid",
+        "tier": 3,
+        "share": 0.02,
+        "section": 0,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "shell",
+        "px": 1920,
+        "via": "other",
+        "selector": "div.FilteredTeaserGrid.is-visible > div.TeaserGrid.small > div.TeaserGrid--inner > ul.TeaserGrid--grid",
+        "tier": 4,
+        "share": 0.97,
+        "section": 1,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 362,
+        "via": "fixed",
+        "selector": "#article-Real-Pay-Feeds-Real-Change > div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+        "tier": 9,
+        "share": 0.02,
+        "section": 1,
+        "w1": 362,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 382,
+        "via": "fixed",
+        "selector": "#article-Real-Pay-Feeds-Real-Change > div.InfoTeaser--inner > div.InfoTeaser--content > div.InfoTeaser--text",
+        "tier": 9,
+        "share": 0.01,
+        "section": 1,
+        "w1": 382,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 418,
+        "via": "fixed",
+        "selector": "#article-What-is-a-cooperative-or-co-op > div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+        "tier": 9,
+        "share": 0.02,
+        "section": 1,
+        "w1": 418,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 323,
+        "via": "fixed",
+        "selector": "#article-What-is-a-cooperative-or-co-op > div.InfoTeaser--inner > div.InfoTeaser--content > div.InfoTeaser--text",
+        "tier": 9,
+        "share": 0.01,
+        "section": 1,
+        "w1": 323,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 267,
+        "via": "fixed",
+        "selector": "#article-International_Co-ops_Day > div.InfoTeaser--inner > div.InfoTeaser--content > div.InfoTeaser--text",
+        "tier": 9,
+        "share": 0.01,
+        "section": 1,
+        "w1": 267,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 255,
+        "via": "fixed",
+        "selector": "#article-its_giveaway_time > div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+        "tier": 9,
+        "share": 0.02,
+        "section": 1,
+        "w1": 255,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 399,
+        "via": "fixed",
+        "selector": "#article-World-Day-Against-Child-Labor > div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+        "tier": 9,
+        "share": 0.02,
+        "section": 1,
+        "w1": 399,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 360,
+        "via": "fixed",
+        "selector": "#article-International_Workers_Day > div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+        "tier": 9,
+        "share": 0.02,
+        "section": 1,
+        "w1": 360,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 361,
+        "via": "fixed",
+        "selector": "#article-The-History-of-Bananas > div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+        "tier": 9,
+        "share": 0.02,
+        "section": 1,
+        "w1": 361,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "body > main > div.PageLead.theme-leafgreen",
+        "px": 1920,
+        "capSelector": "main > div.PageLead.theme-leafgreen > div.PageLead--content > div.PageLead--contentGrid"
+      },
+      {
+        "index": 1,
+        "selector": "body > main > div.FilteredTeaserGrid.is-visible",
+        "px": 418,
+        "capSelector": "#article-What-is-a-cooperative-or-co-op > div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header"
+      }
+    ],
+    "shellMaxWidth": 1920,
+    "contentMaxWidth": 1920,
+    "contentFrom": "shell",
+    "maxCap": 1920,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 231
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "wrapper cap",
+        "detail": "live 1920px = build 1920px (±20)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/2",
+        "detail": "1920px = 1920px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/2",
+        "detail": "418px = 418px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/us-en-news-html-2560/cap-iter.json"
+}

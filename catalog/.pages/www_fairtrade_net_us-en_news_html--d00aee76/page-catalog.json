@@ -1,0 +1,88 @@
+{
+  "url": "https://www.fairtrade.net/us-en/news.html",
+  "title": "News",
+  "timestamp": "2026-11-14T15:06:18.469Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-page-lead",
+      "type": "hero",
+      "name": "page-lead",
+      "variantId": "v_ee3c6b324b9b",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 104,
+        "width": 1440,
+        "height": 452
+      },
+      "description": "Top-of-page lead on static, listing and form pages. Used on 3 pages (market-entry-form, news-listing and topic-detail templates).",
+      "visualChars": {
+        "purpose": "Page lead",
+        "structure": "Page lead block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-teaser-grid",
+      "type": "cards",
+      "name": "teaser-grid",
+      "variantId": "v_643b6c46f19a",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 556,
+        "width": 1440,
+        "height": 4003
+      },
+      "description": "News, stories and listing pages, plus related-content grids. Used on 2 pages (austria-home and news-listing templates).",
+      "visualChars": {
+        "purpose": "Teasergrid",
+        "structure": "Teasergrid block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-cta",
+      "type": "custom",
+      "name": "cta",
+      "variantId": "v_f29ad64bc994",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Stand-alone call-to-action section between content sections. Used on 3 pages (austria-home, market-entry-form and news-listing templates).",
+      "visualChars": {
+        "purpose": "Ctasection",
+        "structure": "Ctasection block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "us-en-news-html",
+    "path": "/us-en/news",
+    "templateId": "us-en-news-html",
+    "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/news",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261114--eds-fairtrade-demo--queeek.aem.page/us-en/news",
+    "screenshotCapturedAt": "2026-11-14T15:10:08.116Z"
+  }
+}

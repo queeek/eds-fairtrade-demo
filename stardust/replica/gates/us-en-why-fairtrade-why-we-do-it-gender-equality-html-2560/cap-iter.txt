@@ -1,0 +1,19 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html
+  modules  9 sections: capped 1920 ×9 · full-bleed ×0
+  contentMaxWidth 1920px (module) · shellMaxWidth fluid · root #container-48cdf45a8d > div.aem-Grid.aem-Grid--12 > div.maincontainer.container > main
+build  http://localhost:8791/us-en-why-fairtrade-why-we-do-it-gender-equality-html-proposed.html
+  modules  9 sections: capped 1920 ×9 · full-bleed ×0
+  contentMaxWidth 1920px (module) · shellMaxWidth fluid · root body > main
+rows
+  ✓ content cap: live 1920px = build 1920px (±20, shared module cap)
+  ✓ module 1/9: 1920px = 1920px
+  ✓ module 2/9: 1920px = 1920px
+  ✓ module 3/9: 1920px = 1920px
+  ✓ module 4/9: 1920px = 1920px
+  ✓ module 5/9: 1920px = 1920px
+  ✓ module 6/9: 1920px = 1920px
+  ✓ module 7/9: 1920px = 1920px
+  ✓ module 8/9: 1920px = 1920px
+  ✓ module 9/9: 1920px = 1920px
+cap-probe: PASS at 2560 — 0 of 10 rows failed (evidence stardust/replica/gates/us-en-why-fairtrade-why-we-do-it-gender-equality-html-2560/cap-iter.json)

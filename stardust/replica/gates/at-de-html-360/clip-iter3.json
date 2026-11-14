@@ -1,0 +1,854 @@
+{
+ "url": "http://localhost:8791/at-de-html-proposed.html",
+ "at": "2026-11-13T23:21:07.424Z",
+ "width": 360,
+ "status": 200,
+ "settlePasses": 2,
+ "docH": 9403,
+ "pageW": 360,
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 6,
+  "offPage": 106,
+  "textNodes": 144,
+  "controls": 68,
+  "total": 0
+ },
+ "findings": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "cut": 165,
+   "path": "div.Carousel.contains-product-teasers > ul.Carousel--list > li.Carousel--item > a.ProductTeaser",
+   "text": "afro coffee ac capsules strong & earthy 10x5.5g, ft mehr erf",
+   "clipper": "ul.Carousel--list",
+   "rect": {
+    "l": -165,
+    "t": 3848,
+    "r": 57,
+    "b": 4243,
+    "w": 222,
+    "h": 395
+   },
+   "clip": {
+    "l": 0,
+    "t": 3848,
+    "r": 360,
+    "b": 4243,
+    "w": 360,
+    "h": 395
+   }
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "cut": 140,
+   "path": "ul.Carousel--list > li.Carousel--item > a.ProductTeaser > div.ProductTeaser--title",
+   "text": "ac capsules strong & earthy 10x5.5g, ft",
+   "clipper": "ul.Carousel--list",
+   "rect": {
+    "l": -140,
+    "t": 4097,
+    "r": -22,
+    "b": 4121,
+    "w": 118,
+    "h": 24
+   },
+   "clip": {
+    "l": 0,
+    "t": 3848,
+    "r": 360,
+    "b": 4243,
+    "w": 360,
+    "h": 395
+   },
+   "lines": 3
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "cut": 186,
+   "path": "div.Carousel.contains-product-teasers > ul.Carousel--list > li.Carousel--item > a.ProductTeaser",
+   "text": "douceur douceur weihnachtsfiguren reiterbeutel herz mehr erf",
+   "clipper": "ul.Carousel--list",
+   "rect": {
+    "l": 303,
+    "t": 3848,
+    "r": 546,
+    "b": 4243,
+    "w": 243,
+    "h": 395
+   },
+   "clip": {
+    "l": 0,
+    "t": 3848,
+    "r": 360,
+    "b": 4243,
+    "w": 360,
+    "h": 395
+   }
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "cut": 35,
+   "path": "ul.Carousel--list > li.Carousel--item > a.ProductTeaser > div.ProductTeaser--merchant",
+   "text": "douceur",
+   "clipper": "ul.Carousel--list",
+   "rect": {
+    "l": 328,
+    "t": 4060,
+    "r": 395,
+    "b": 4080,
+    "w": 67,
+    "h": 20
+   },
+   "clip": {
+    "l": 0,
+    "t": 3848,
+    "r": 360,
+    "b": 4243,
+    "w": 360,
+    "h": 395
+   },
+   "lines": 1
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "cut": 161,
+   "path": "ul.Carousel--list > li.Carousel--item > a.ProductTeaser > div.ProductTeaser--title",
+   "text": "douceur weihnachtsfiguren reiterbeutel herz",
+   "clipper": "ul.Carousel--list",
+   "rect": {
+    "l": 328,
+    "t": 4097,
+    "r": 411,
+    "b": 4121,
+    "w": 83,
+    "h": 24
+   },
+   "clip": {
+    "l": 0,
+    "t": 3848,
+    "r": 360,
+    "b": 4243,
+    "w": 360,
+    "h": 395
+   },
+   "lines": 3
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "cut": 78,
+   "path": "a.ProductTeaser > div.ProductTeaser--cta > span.Button.ProductTeaser--fakeLink > span.Button--inner",
+   "text": "mehr erfahren",
+   "clipper": "ul.Carousel--list",
+   "rect": {
+    "l": 328,
+    "t": 4192,
+    "r": 438,
+    "b": 4211,
+    "w": 110,
+    "h": 19
+   },
+   "clip": {
+    "l": 0,
+    "t": 3848,
+    "r": 360,
+    "b": 4243,
+    "w": 360,
+    "h": 395
+   },
+   "lines": 1
+  }
+ ],
+ "textBoxes": [
+  {
+   "x": 18,
+   "y": 486,
+   "w": 298,
+   "h": 40
+  },
+  {
+   "x": 18,
+   "y": 530,
+   "w": 212,
+   "h": 40
+  },
+  {
+   "x": 52,
+   "y": 639,
+   "w": 173,
+   "h": 22
+  },
+  {
+   "x": 107,
+   "y": 903,
+   "w": 145,
+   "h": 32
+  },
+  {
+   "x": 44,
+   "y": 1048,
+   "w": 54,
+   "h": 18
+  },
+  {
+   "x": 130,
+   "y": 1048,
+   "w": 192,
+   "h": 18
+  },
+  {
+   "x": 18,
+   "y": 1291,
+   "w": 54,
+   "h": 24
+  },
+  {
+   "x": 18,
+   "y": 1327,
+   "w": 242,
+   "h": 24
+  },
+  {
+   "x": 18,
+   "y": 1354,
+   "w": 197,
+   "h": 24
+  },
+  {
+   "x": 18,
+   "y": 1380,
+   "w": 242,
+   "h": 24
+  },
+  {
+   "x": 18,
+   "y": 1415,
+   "w": 85,
+   "h": 19
+  },
+  {
+   "x": 38,
+   "y": 1500,
+   "w": 54,
+   "h": 18
+  },
+  {
+   "x": 38,
+   "y": 1618,
+   "w": 222,
+   "h": 18
+  },
+  {
+   "x": 18,
+   "y": 1744,
+   "w": 54,
+   "h": 24
+  },
+  {
+   "x": 18,
+   "y": 1780,
+   "w": 260,
+   "h": 24
+  },
+  {
+   "x": 18,
+   "y": 1806,
+   "w": 296,
+   "h": 24
+  },
+  {
+   "x": 18,
+   "y": 1833,
+   "w": 102,
+   "h": 24
+  },
+  {
+   "x": 18,
+   "y": 1868,
+   "w": 85,
+   "h": 19
+  },
+  {
+   "x": 268,
+   "y": 1953,
+   "w": 54,
+   "h": 18
+  },
+  {
+   "x": 18,
+   "y": 2197,
+   "w": 54,
+   "h": 24
+  },
+  {
+   "x": 18,
+   "y": 2233,
+   "w": 300,
+   "h": 24
+  },
+  {
+   "x": 18,
+   "y": 2259,
+   "w": 270,
+   "h": 24
+  },
+  {
+   "x": 18,
+   "y": 2294,
+   "w": 85,
+   "h": 19
+  },
+  {
+   "x": 113,
+   "y": 2447,
+   "w": 134,
+   "h": 22
+  },
+  {
+   "x": 34,
+   "y": 2553,
+   "w": 292,
+   "h": 32
+  },
+  {
+   "x": 138,
+   "y": 2589,
+   "w": 83,
+   "h": 32
+  },
+  {
+   "x": 37,
+   "y": 3330,
+   "w": 286,
+   "h": 22
+  },
+  {
+   "x": 34,
+   "y": 3574,
+   "w": 291,
+   "h": 20
+  },
+  {
+   "x": 54,
+   "y": 3601,
+   "w": 253,
+   "h": 20
+  },
+  {
+   "x": 59,
+   "y": 3628,
+   "w": 243,
+   "h": 20
+  },
+  {
+   "x": 61,
+   "y": 3655,
+   "w": 238,
+   "h": 20
+  },
+  {
+   "x": 74,
+   "y": 3714,
+   "w": 211,
+   "h": 40
+  },
+  {
+   "x": 44,
+   "y": 3758,
+   "w": 273,
+   "h": 40
+  },
+  {
+   "x": -140,
+   "y": 4123,
+   "w": 159,
+   "h": 24
+  },
+  {
+   "x": 94,
+   "y": 4060,
+   "w": 91,
+   "h": 20
+  },
+  {
+   "x": 94,
+   "y": 4097,
+   "w": 167,
+   "h": 24
+  },
+  {
+   "x": 94,
+   "y": 4123,
+   "w": 113,
+   "h": 24
+  },
+  {
+   "x": 94,
+   "y": 4149,
+   "w": 108,
+   "h": 24
+  },
+  {
+   "x": 94,
+   "y": 4192,
+   "w": 110,
+   "h": 19
+  },
+  {
+   "x": 328,
+   "y": 4060,
+   "w": 67,
+   "h": 20
+  },
+  {
+   "x": 328,
+   "y": 4097,
+   "w": 83,
+   "h": 24
+  },
+  {
+   "x": 328,
+   "y": 4123,
+   "w": 193,
+   "h": 24
+  },
+  {
+   "x": 328,
+   "y": 4149,
+   "w": 177,
+   "h": 24
+  },
+  {
+   "x": 328,
+   "y": 4192,
+   "w": 110,
+   "h": 19
+  },
+  {
+   "x": 76,
+   "y": 4304,
+   "w": 209,
+   "h": 22
+  },
+  {
+   "x": 18,
+   "y": 4880,
+   "w": 318,
+   "h": 32
+  },
+  {
+   "x": 18,
+   "y": 4941,
+   "w": 321,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 4968,
+   "w": 319,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 4995,
+   "w": 242,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 5023,
+   "w": 120,
+   "h": 20
+  },
+  {
+   "x": 138,
+   "y": 5023,
+   "w": 153,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 5050,
+   "w": 104,
+   "h": 20
+  },
+  {
+   "x": 52,
+   "y": 5146,
+   "w": 140,
+   "h": 22
+  },
+  {
+   "x": 18,
+   "y": 5762,
+   "w": 294,
+   "h": 32
+  },
+  {
+   "x": 18,
+   "y": 5797,
+   "w": 244,
+   "h": 32
+  },
+  {
+   "x": 18,
+   "y": 5859,
+   "w": 308,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 5886,
+   "w": 284,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 5913,
+   "w": 318,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 5940,
+   "w": 306,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 5967,
+   "w": 301,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 5994,
+   "w": 317,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 6022,
+   "w": 273,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 6049,
+   "w": 320,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 6076,
+   "w": 135,
+   "h": 20
+  },
+  {
+   "x": 90,
+   "y": 6163,
+   "w": 180,
+   "h": 22
+  },
+  {
+   "x": 135,
+   "y": 6181,
+   "w": 89,
+   "h": 22
+  },
+  {
+   "x": 18,
+   "y": 6748,
+   "w": 94,
+   "h": 32
+  },
+  {
+   "x": 18,
+   "y": 6784,
+   "w": 286,
+   "h": 32
+  },
+  {
+   "x": 18,
+   "y": 6845,
+   "w": 296,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 6872,
+   "w": 322,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 6899,
+   "w": 263,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 6926,
+   "w": 312,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 6954,
+   "w": 307,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 6981,
+   "w": 233,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 7008,
+   "w": 285,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 7035,
+   "w": 124,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 7062,
+   "w": 232,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 7089,
+   "w": 219,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 7117,
+   "w": 262,
+   "h": 20
+  },
+  {
+   "x": 18,
+   "y": 7144,
+   "w": 156,
+   "h": 20
+  },
+  {
+   "x": 52,
+   "y": 7240,
+   "w": 92,
+   "h": 22
+  },
+  {
+   "x": 41,
+   "y": 7372,
+   "w": 278,
+   "h": 32
+  },
+  {
+   "x": 44,
+   "y": 7699,
+   "w": 130,
+   "h": 16
+  },
+  {
+   "x": 18,
+   "y": 7850,
+   "w": 205,
+   "h": 24
+  },
+  {
+   "x": 70,
+   "y": 7919,
+   "w": 120,
+   "h": 24
+  },
+  {
+   "x": 70,
+   "y": 7983,
+   "w": 114,
+   "h": 24
+  },
+  {
+   "x": 70,
+   "y": 8047,
+   "w": 132,
+   "h": 24
+  },
+  {
+   "x": 70,
+   "y": 8111,
+   "w": 155,
+   "h": 24
+  },
+  {
+   "x": 70,
+   "y": 8175,
+   "w": 179,
+   "h": 24
+  },
+  {
+   "x": 290,
+   "y": 8365,
+   "w": 52,
+   "h": 19
+  },
+  {
+   "x": 18,
+   "y": 8444,
+   "w": 265,
+   "h": 24
+  },
+  {
+   "x": 46,
+   "y": 8494,
+   "w": 185,
+   "h": 18
+  },
+  {
+   "x": 46,
+   "y": 8542,
+   "w": 75,
+   "h": 18
+  },
+  {
+   "x": 46,
+   "y": 8590,
+   "w": 103,
+   "h": 18
+  },
+  {
+   "x": 18,
+   "y": 8650,
+   "w": 173,
+   "h": 24
+  },
+  {
+   "x": 46,
+   "y": 8700,
+   "w": 53,
+   "h": 18
+  },
+  {
+   "x": 46,
+   "y": 8748,
+   "w": 27,
+   "h": 18
+  },
+  {
+   "x": 46,
+   "y": 8796,
+   "w": 78,
+   "h": 18
+  },
+  {
+   "x": 18,
+   "y": 8856,
+   "w": 192,
+   "h": 24
+  },
+  {
+   "x": 46,
+   "y": 8906,
+   "w": 77,
+   "h": 18
+  },
+  {
+   "x": 46,
+   "y": 8954,
+   "w": 86,
+   "h": 18
+  },
+  {
+   "x": 46,
+   "y": 9002,
+   "w": 197,
+   "h": 18
+  },
+  {
+   "x": 46,
+   "y": 9050,
+   "w": 134,
+   "h": 18
+  },
+  {
+   "x": 18,
+   "y": 9110,
+   "w": 114,
+   "h": 24
+  },
+  {
+   "x": 18,
+   "y": 9244,
+   "w": 110,
+   "h": 24
+  },
+  {
+   "x": 112,
+   "y": 9304,
+   "w": 135,
+   "h": 22
+  }
+ ],
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "ul.Carousel--list",
+   "path": "div.Carousel.contains-product-teasers > ul.Carousel--list > li.Carousel--item > a.ProductTeaser",
+   "text": "afro coffee ac capsules strong & earthy 10x5.5g, ft mehr erf",
+   "cutMin": 165,
+   "cutMax": 186
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "ul.Carousel--list",
+   "path": "ul.Carousel--list > li.Carousel--item > a.ProductTeaser > div.ProductTeaser--title",
+   "text": "ac capsules strong & earthy 10x5.5g, ft",
+   "cutMin": 140,
+   "cutMax": 161
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "ul.Carousel--list",
+   "path": "ul.Carousel--list > li.Carousel--item > a.ProductTeaser > div.ProductTeaser--merchant",
+   "text": "douceur",
+   "cutMin": 35,
+   "cutMax": 35
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "ul.Carousel--list",
+   "path": "a.ProductTeaser > div.ProductTeaser--cta > span.Button.ProductTeaser--fakeLink > span.Button--inner",
+   "text": "mehr erfahren",
+   "cutMin": 78,
+   "cutMax": 78
+  }
+ ],
+ "tier": "chrome"
+}

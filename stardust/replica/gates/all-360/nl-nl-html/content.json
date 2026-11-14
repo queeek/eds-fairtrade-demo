@@ -1,0 +1,3433 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T11:13:59.365Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/nl-nl.html",
+  "at": "2026-11-14T11:13:36.531Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6494,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 18,
+    "y": 0,
+    "w": 56,
+    "h": 72,
+    "text": "",
+    "href": "/nl-nl.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 18,
+    "y": 8,
+    "w": 56,
+    "h": 69,
+    "text": "",
+    "file": "Test%2012"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 270,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 270,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--mobileMenuTrigger > button.MobileMenuTrigger",
+    "x": 318,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--mobileMenuTrigger > button.MobileMenuTrigger",
+    "x": 318,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroSlide--media > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 18,
+    "y": 136,
+    "w": 324,
+    "h": 324,
+    "text": "groepsfoto van vrouwelijke koffieboeren uit guatemala",
+    "file": "16x9_768w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroSlide--content > div.PageHeroSlide--content-inner > h2.PageHeroSlide--title",
+    "x": 18,
+    "y": 484,
+    "w": 324,
+    "h": 88,
+    "level": 2,
+    "text": "samen voor een eerlijke wereld"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroSlide--content > div.PageHeroSlide--content-inner > a.Button.PageHeroSlide--button",
+    "x": 18,
+    "y": 620,
+    "w": 213,
+    "h": 60,
+    "text": "wat is fairtrade?",
+    "href": "/nl-nl/waarom-fairtrade/wat-we-doen/wat-is-fairtrade.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--number",
+    "x": 43,
+    "y": 899,
+    "w": 274,
+    "h": 65,
+    "text": "1,824"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--fact",
+    "x": 43,
+    "y": 987,
+    "w": 274,
+    "h": 53,
+    "text": "producentenorganisaties in 68 landen"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--slider > button.Button.NumberFactTeaser--slider--prev",
+    "x": 6,
+    "y": 946,
+    "w": 48,
+    "h": 48,
+    "text": ""
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--slider > button.Button.NumberFactTeaser--slider--next",
+    "x": 306,
+    "y": 946,
+    "w": 48,
+    "h": 48,
+    "text": ""
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > strong.NumberFactTeaser--label",
+    "x": 18,
+    "y": 1179,
+    "w": 324,
+    "h": 54,
+    "text": "Goed voor vrouwen, mannen én de planeet."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > h2.NumberFactTeaser--title",
+    "x": 21,
+    "y": 1258,
+    "w": 317,
+    "h": 35,
+    "level": 2,
+    "text": "voordelen van fairtrade"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > p.NumberFactTeaser--text",
+    "x": 18,
+    "y": 1317,
+    "w": 324,
+    "h": 109,
+    "text": "Duurzaamheid? Dat verwachten we allemaal. Fairtrade zorgt ervoor dat dit niet bl"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > a.Button.NumberFactTeaser--cta",
+    "x": 49,
+    "y": 1458,
+    "w": 262,
+    "h": 48,
+    "text": "de voordelen op een rij",
+    "href": "/nl-nl/waarom-fairtrade/wat-we-doen/Belangrijkste-voordelen.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 18,
+    "y": 1982,
+    "w": 324,
+    "h": 35,
+    "level": 2,
+    "text": "fairtrade producten"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--content > div.TextImage--text.Richtext > p",
+    "x": 18,
+    "y": 2041,
+    "w": 324,
+    "h": 136,
+    "text": "Wist je dat er superveel Fairtrade producten zijn? Van cacao en bananen tot koff"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 18,
+    "y": 2236,
+    "w": 286,
+    "h": 48,
+    "text": "ontdek al onze producten",
+    "href": "/nl-nl/producten.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 18,
+    "y": 1634,
+    "w": 324,
+    "h": 324,
+    "text": "fairtrade producten uit katoenen tas met het fairtrade keurm",
+    "file": "1x1_375w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 18,
+    "y": 2760,
+    "w": 324,
+    "h": 70,
+    "level": 2,
+    "text": "onze belangrijkste thema’s"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--content > div.TextImage--text.Richtext > p",
+    "x": 18,
+    "y": 2854,
+    "w": 324,
+    "h": 218,
+    "text": "Wij willen een eerlijke wereld waarin iedereen profiteert van goede producten en"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 18,
+    "y": 3131,
+    "w": 253,
+    "h": 48,
+    "text": "belangrijkste thema's",
+    "href": "/nl-nl/waarom-fairtrade/waarom-we-het-doen.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.ls-is-cached",
+    "x": 18,
+    "y": 2412,
+    "w": 324,
+    "h": 324,
+    "text": "fairtrade keurmerk vastgehouden door twee handen",
+    "file": "1x1_375w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--number",
+    "x": 50,
+    "y": 3385,
+    "w": 260,
+    "h": 65,
+    "text": "$2B+"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--fact",
+    "x": 50,
+    "y": 3473,
+    "w": 260,
+    "h": 79,
+    "text": "Fairtrade premie verdiend in het afgelopen decennium!"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > strong.NumberFactTeaser--label",
+    "x": 90,
+    "y": 3679,
+    "w": 180,
+    "h": 27,
+    "text": "Alles draait om impact"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > h2.NumberFactTeaser--title",
+    "x": 98,
+    "y": 3730,
+    "w": 164,
+    "h": 35,
+    "level": 2,
+    "text": "onze impact"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > p.NumberFactTeaser--text",
+    "x": 18,
+    "y": 3789,
+    "w": 324,
+    "h": 136,
+    "text": "Echte verandering vraagt om flinke stappen in het systeem. We meten onze vooruit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > a.Button.NumberFactTeaser--cta",
+    "x": 102,
+    "y": 3957,
+    "w": 155,
+    "h": 48,
+    "text": "lees meer",
+    "href": "/nl-nl/waarom-fairtrade/impact.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h2",
+    "x": 18,
+    "y": 4101,
+    "w": 324,
+    "h": 422,
+    "level": 2,
+    "text": "“fairtrade heeft mijn leven veranderd. in een crisissituatie heb ik de financiële middelen om in mijn behoeften te voorz"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > h2 > i",
+    "x": 18,
+    "y": 4102,
+    "w": 320,
+    "h": 419,
+    "text": "“Fairtrade heeft mijn leven veranderd. In een crisissituatie heb ik de financiël"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 18,
+    "y": 4547,
+    "w": 324,
+    "h": 109,
+    "text": "Affoué Angèle Kouassi verbouwt al 14 jaar cacao op haar eigen land. In 2021 nam "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ctasection.is-visible > div.CTASection > a.Button.variant-primary",
+    "x": 77,
+    "y": 4720,
+    "w": 206,
+    "h": 60,
+    "text": "impact verhalen",
+    "href": "/nl-nl/waarom-fairtrade/impact/impact-verhalen.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.panelcontainer > div.AccordionSection > h2.AccordionSection--title",
+    "x": 18,
+    "y": 4876,
+    "w": 324,
+    "h": 26,
+    "level": 2,
+    "text": "op zoek? hier vind je het!"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 18,
+    "y": 4926,
+    "w": 324,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 18,
+    "y": 4926,
+    "w": 324,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 70,
+    "y": 4942,
+    "w": 264,
+    "h": 44,
+    "level": 3,
+    "text": "ben je benieuwd naar de basics?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 18,
+    "y": 5002,
+    "w": 324,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 18,
+    "y": 5002,
+    "w": 324,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 70,
+    "y": 5018,
+    "w": 264,
+    "h": 44,
+    "level": 3,
+    "text": "wil je dieper duiken in hoe fairtrade werkt?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 18,
+    "y": 5078,
+    "w": 324,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 18,
+    "y": 5078,
+    "w": 324,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 70,
+    "y": 5094,
+    "w": 264,
+    "h": 44,
+    "level": 3,
+    "text": "klaar om fairtrade gecertificeerd te worden?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 18,
+    "y": 5154,
+    "w": 324,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 18,
+    "y": 5154,
+    "w": 324,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 70,
+    "y": 5170,
+    "w": 264,
+    "h": 44,
+    "level": 3,
+    "text": "nieuws dat je niet wil missen!"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div > a > img",
+    "x": 18,
+    "y": 5374,
+    "w": 92,
+    "h": 50,
+    "text": "cbp erkend goed doel",
+    "file": "logo_erkend_goed_doel_zw%202"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 261,
+    "y": 5387,
+    "w": 81,
+    "h": 24,
+    "text": "nl • nl"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 261,
+    "y": 5387,
+    "w": 81,
+    "h": 24,
+    "label": "trigger",
+    "value": "nl • nl",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 46,
+    "y": 5482,
+    "w": 90,
+    "h": 22,
+    "text": "fairtrade",
+    "href": "/nl-nl/over-fairtrade.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 46,
+    "y": 5530,
+    "w": 93,
+    "h": 24,
+    "text": "missie & visie",
+    "href": "/nl-nl/over-fairtrade/over-fairtrade-international.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 46,
+    "y": 5578,
+    "w": 87,
+    "h": 24,
+    "text": "standaarden",
+    "href": "/nl-nl/waarom-fairtrade/hoe-we-het-doen/fairtrade-standaarden.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 46,
+    "y": 5626,
+    "w": 137,
+    "h": 24,
+    "text": "werken bij fairtrade",
+    "href": "/nl-nl/over-fairtrade/werken-bij-fairtrade.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 46,
+    "y": 5674,
+    "w": 51,
+    "h": 24,
+    "text": "nieuws",
+    "href": "/nl-nl/doe-mee/nieuws.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 46,
+    "y": 5722,
+    "w": 95,
+    "h": 24,
+    "text": "jaarverslagen",
+    "href": "/nl-nl/over-fairtrade/jaarverslagen.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 46,
+    "y": 5786,
+    "w": 82,
+    "h": 22,
+    "text": "doe mee",
+    "href": "/nl-nl/doe-mee.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 46,
+    "y": 5834,
+    "w": 64,
+    "h": 24,
+    "text": "bedrijven",
+    "href": "/nl-nl/Voor-bedrijven.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 46,
+    "y": 5882,
+    "w": 94,
+    "h": 24,
+    "text": "consumenten",
+    "href": "/nl-nl/doe-mee/Campagnes.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 46,
+    "y": 5946,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/nl-nl/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 46,
+    "y": 5994,
+    "w": 138,
+    "h": 24,
+    "text": "veelgestelde vragen",
+    "href": "/nl-nl/over-fairtrade/faq.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 46,
+    "y": 6042,
+    "w": 94,
+    "h": 24,
+    "text": "privacy policy",
+    "href": "/nl-nl/recht-en-naleving/privacy-policy.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 46,
+    "y": 6090,
+    "w": 129,
+    "h": 24,
+    "text": "klachtenprocedure",
+    "href": "/nl-nl/recht-en-naleving/Klachtenprocedure.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 46,
+    "y": 6138,
+    "w": 125,
+    "h": 24,
+    "text": "organization code",
+    "href": "/nl-nl/recht-en-naleving/fairtrade-organization-code.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 18,
+    "y": 6202,
+    "w": 324,
+    "h": 22,
+    "text": "Social Media"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 18,
+    "y": 6248,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/fairtradenederland/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 110,
+    "y": 6248,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/fairtradenl/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 202,
+    "y": 6248,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtradenederland/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 294,
+    "y": 6248,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@fairtradenederland"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 18,
+    "y": 6336,
+    "w": 324,
+    "h": 22,
+    "text": "Nieuwsbrief"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 18,
+    "y": 6382,
+    "w": 324,
+    "h": 48,
+    "text": "klik hier",
+    "href": "/nl-nl/fairtrade-nieuwsbrief.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > div.sc-aXZVg.gOjxTE > button.sc-iGgWBj.bgBMzQ",
+    "x": 24,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "text": "openen privacy-instellingen"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 4,
+    "textNodes": 50,
+    "controls": 36,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/nl-nl",
+  "at": "2026-11-14T11:13:59.256Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6494,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 18,
+    "y": 0,
+    "w": 56,
+    "h": 72,
+    "text": "",
+    "href": "/nl-nl.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 18,
+    "y": 8,
+    "w": 56,
+    "h": 69,
+    "text": "",
+    "file": "media_1b034916b2559b1b7807c9f3d8b84a9951"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 270,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 270,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-mobile-menu-trigger > button.mobile-menu-trigger",
+    "x": 318,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-mobile-menu-trigger > button.mobile-menu-trigger",
+    "x": 318,
+    "y": 24,
+    "w": 24,
+    "h": 24,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 18,
+    "y": 136,
+    "w": 324,
+    "h": 324,
+    "text": "groepsfoto van vrouwelijke koffieboeren uit guatemala",
+    "file": "media_1eb9b01b7510062221699605dd43a99cf2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slide-content-inner > div.slide-title > h1#samen-voor-een-eerlijke-wereld",
+    "x": 18,
+    "y": 484,
+    "w": 324,
+    "h": 88,
+    "level": 1,
+    "text": "samen voor een eerlijke wereld"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slide-actions > p.button-wrapper > a.button.accent",
+    "x": 18,
+    "y": 620,
+    "w": 213,
+    "h": 60,
+    "text": "wat is fairtrade?",
+    "href": "/nl-nl/waarom-fairtrade/wat-we-doen/wat-is-fairtrade.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-carousel-carousel > div.hero-carousel-controls > button.button.variant-icon-primary",
+    "x": 6,
+    "y": 268,
+    "w": 48,
+    "h": 48,
+    "text": ""
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-carousel-carousel > div.hero-carousel-controls > button.button.variant-icon-primary",
+    "x": 306,
+    "y": 268,
+    "w": 48,
+    "h": 48,
+    "text": ""
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 43,
+    "y": 899,
+    "w": 274,
+    "h": 65,
+    "text": "1,824"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 55,
+    "y": 987,
+    "w": 250,
+    "h": 53,
+    "text": "producentenorganisaties in 68 landen"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts.block > div.number-facts-slider > button.button.variant-icon-primary",
+    "x": 6,
+    "y": 946,
+    "w": 48,
+    "h": 48,
+    "text": ""
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts.block > div.number-facts-slider > button.button.variant-icon-primary",
+    "x": 306,
+    "y": 946,
+    "w": 48,
+    "h": 48,
+    "text": ""
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-label > p > strong",
+    "x": 18,
+    "y": 1182,
+    "w": 274,
+    "h": 47,
+    "text": "Goed voor vrouwen, mannen én de planeet."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-title > h2#voordelen-van-fairtrade",
+    "x": 21,
+    "y": 1258,
+    "w": 317,
+    "h": 35,
+    "level": 2,
+    "text": "voordelen van fairtrade"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-text > p",
+    "x": 18,
+    "y": 1317,
+    "w": 324,
+    "h": 109,
+    "text": "Duurzaamheid? Dat verwachten we allemaal. Fairtrade zorgt ervoor dat dit niet bl"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-cta > p.button-wrapper > a.button.secondary",
+    "x": 49,
+    "y": 1458,
+    "w": 262,
+    "h": 48,
+    "text": "de voordelen op een rij",
+    "href": "/nl-nl/waarom-fairtrade/wat-we-doen/Belangrijkste-voordelen.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#fairtrade-producten",
+    "x": 18,
+    "y": 1982,
+    "w": 324,
+    "h": 35,
+    "level": 2,
+    "text": "fairtrade producten"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 18,
+    "y": 2041,
+    "w": 324,
+    "h": 136,
+    "text": "Wist je dat er superveel Fairtrade producten zijn? Van cacao en bananen tot koff"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 18,
+    "y": 2236,
+    "w": 286,
+    "h": 48,
+    "text": "ontdek al onze producten",
+    "href": "/nl-nl/producten.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 18,
+    "y": 1634,
+    "w": 324,
+    "h": 324,
+    "text": "fairtrade producten uit katoenen tas met het fairtrade keurm",
+    "file": "media_1b74dc50b1ad76bd4959db9472b60315ac"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#onze-belangrijkste-themas",
+    "x": 18,
+    "y": 2760,
+    "w": 324,
+    "h": 70,
+    "level": 2,
+    "text": "onze belangrijkste thema’s"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 18,
+    "y": 2854,
+    "w": 324,
+    "h": 218,
+    "text": "Wij willen een eerlijke wereld waarin iedereen profiteert van goede producten en"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 18,
+    "y": 3131,
+    "w": 253,
+    "h": 48,
+    "text": "belangrijkste thema's",
+    "href": "/nl-nl/waarom-fairtrade/waarom-we-het-doen.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 18,
+    "y": 2412,
+    "w": 324,
+    "h": 324,
+    "text": "fairtrade keurmerk vastgehouden door twee handen",
+    "file": "media_19e7b1cf48809d548f102a8f16c6ccf4bc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 50,
+    "y": 3385,
+    "w": 260,
+    "h": 65,
+    "text": "$2B+"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 62,
+    "y": 3473,
+    "w": 236,
+    "h": 79,
+    "text": "Fairtrade premie verdiend in het afgelopen decennium!"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-label > p > strong",
+    "x": 90,
+    "y": 3682,
+    "w": 180,
+    "h": 20,
+    "text": "Alles draait om impact"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-title > h2#onze-impact",
+    "x": 98,
+    "y": 3730,
+    "w": 164,
+    "h": 35,
+    "level": 2,
+    "text": "onze impact"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-text > p",
+    "x": 18,
+    "y": 3789,
+    "w": 324,
+    "h": 136,
+    "text": "Echte verandering vraagt om flinke stappen in het systeem. We meten onze vooruit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-cta > p.button-wrapper > a.button.secondary",
+    "x": 102,
+    "y": 3957,
+    "w": 155,
+    "h": 48,
+    "text": "lees meer",
+    "href": "/nl-nl/waarom-fairtrade/impact.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h2#fairtrade-heeft-mijn-leven-veranderd-in-een-crisissituatie-heb-ik-de-financiële-middelen-om-in-mijn-behoeften-te-voorzien-in-plaats-van-schulden-te-maken-bovendien-heeft-fairtrade-me-in-staat-gesteld-om-een-vrouwelijke-leider-te-worden",
+    "x": 18,
+    "y": 4101,
+    "w": 324,
+    "h": 422,
+    "level": 2,
+    "text": "“fairtrade heeft mijn leven veranderd. in een crisissituatie heb ik de financiële middelen om in mijn behoeften te voorz"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > h2#fairtrade-heeft-mijn-leven-veranderd-in-een-crisissituatie-heb-ik-de-financiële-middelen-om-in-mijn-behoeften-te-voorzien-in-plaats-van-schulden-te-maken-bovendien-heeft-fairtrade-me-in-staat-gesteld-om-een-vrouwelijke-leider-te-worden > em",
+    "x": 18,
+    "y": 4102,
+    "w": 320,
+    "h": 419,
+    "text": "“Fairtrade heeft mijn leven veranderd. In een crisissituatie heb ik de financiël"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 18,
+    "y": 4547,
+    "w": 324,
+    "h": 109,
+    "text": "Affoué Angèle Kouassi verbouwt al 14 jaar cacao op haar eigen land. In 2021 nam "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-actions > p.button-wrapper > a.button.primary",
+    "x": 77,
+    "y": 4720,
+    "w": 206,
+    "h": 60,
+    "text": "impact verhalen",
+    "href": "/nl-nl/waarom-fairtrade/impact/impact-verhalen.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.block > div.accordion-section-title > h2#op-zoek-hier-vind-je-het",
+    "x": 18,
+    "y": 4876,
+    "w": 324,
+    "h": 26,
+    "level": 2,
+    "text": "op zoek? hier vind je het!"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 18,
+    "y": 4926,
+    "w": 324,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 18,
+    "y": 4926,
+    "w": 324,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#ben-je-benieuwd-naar-de-basics",
+    "x": 70,
+    "y": 4942,
+    "w": 264,
+    "h": 44,
+    "level": 3,
+    "text": "ben je benieuwd naar de basics?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 18,
+    "y": 5002,
+    "w": 324,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 18,
+    "y": 5002,
+    "w": 324,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#wil-je-dieper-duiken-in-hoe-fairtrade-werkt",
+    "x": 70,
+    "y": 5018,
+    "w": 264,
+    "h": 44,
+    "level": 3,
+    "text": "wil je dieper duiken in hoe fairtrade werkt?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 18,
+    "y": 5078,
+    "w": 324,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 18,
+    "y": 5078,
+    "w": 324,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#klaar-om-fairtrade-gecertificeerd-te-worden",
+    "x": 70,
+    "y": 5094,
+    "w": 264,
+    "h": 44,
+    "level": 3,
+    "text": "klaar om fairtrade gecertificeerd te worden?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 18,
+    "y": 5154,
+    "w": 324,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 18,
+    "y": 5154,
+    "w": 324,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#nieuws-dat-je-niet-wil-missen",
+    "x": 70,
+    "y": 5170,
+    "w": 264,
+    "h": 44,
+    "level": 3,
+    "text": "nieuws dat je niet wil missen!"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-logo > img",
+    "x": 18,
+    "y": 5374,
+    "w": 92,
+    "h": 50,
+    "text": "cbp erkend goed doel",
+    "file": "media_131ab7075e00a30fd5ae5c289831e1b75b"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 261,
+    "y": 5387,
+    "w": 81,
+    "h": 24,
+    "text": "nl • nl"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 261,
+    "y": 5387,
+    "w": 81,
+    "h": 24,
+    "label": "trigger",
+    "value": "nl • nl",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 46,
+    "y": 5482,
+    "w": 90,
+    "h": 22,
+    "text": "fairtrade",
+    "href": "/nl-nl/over-fairtrade.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 46,
+    "y": 5530,
+    "w": 93,
+    "h": 24,
+    "text": "missie & visie",
+    "href": "/nl-nl/over-fairtrade/over-fairtrade-international.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 46,
+    "y": 5578,
+    "w": 87,
+    "h": 24,
+    "text": "standaarden",
+    "href": "/nl-nl/waarom-fairtrade/hoe-we-het-doen/fairtrade-standaarden.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 46,
+    "y": 5626,
+    "w": 137,
+    "h": 24,
+    "text": "werken bij fairtrade",
+    "href": "/nl-nl/over-fairtrade/werken-bij-fairtrade.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 46,
+    "y": 5674,
+    "w": 51,
+    "h": 24,
+    "text": "nieuws",
+    "href": "/nl-nl/doe-mee/nieuws.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 46,
+    "y": 5722,
+    "w": 95,
+    "h": 24,
+    "text": "jaarverslagen",
+    "href": "/nl-nl/over-fairtrade/jaarverslagen.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 46,
+    "y": 5786,
+    "w": 82,
+    "h": 22,
+    "text": "doe mee",
+    "href": "/nl-nl/doe-mee.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 46,
+    "y": 5834,
+    "w": 64,
+    "h": 24,
+    "text": "bedrijven",
+    "href": "/nl-nl/Voor-bedrijven.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 46,
+    "y": 5882,
+    "w": 94,
+    "h": 24,
+    "text": "consumenten",
+    "href": "/nl-nl/doe-mee/Campagnes.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 46,
+    "y": 5946,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/nl-nl/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 46,
+    "y": 5994,
+    "w": 138,
+    "h": 24,
+    "text": "veelgestelde vragen",
+    "href": "/nl-nl/over-fairtrade/faq.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 46,
+    "y": 6042,
+    "w": 94,
+    "h": 24,
+    "text": "privacy policy",
+    "href": "/nl-nl/recht-en-naleving/privacy-policy.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 46,
+    "y": 6090,
+    "w": 129,
+    "h": 24,
+    "text": "klachtenprocedure",
+    "href": "/nl-nl/recht-en-naleving/Klachtenprocedure.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 46,
+    "y": 6138,
+    "w": 125,
+    "h": 24,
+    "text": "organization code",
+    "href": "/nl-nl/recht-en-naleving/fairtrade-organization-code.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 18,
+    "y": 6202,
+    "w": 324,
+    "h": 22,
+    "text": "Social Media"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 18,
+    "y": 6248,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/fairtradenederland/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 110,
+    "y": 6248,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/fairtradenl/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 202,
+    "y": 6248,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtradenederland/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 294,
+    "y": 6248,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@fairtradenederland"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 18,
+    "y": 6336,
+    "w": 324,
+    "h": 22,
+    "text": "Nieuwsbrief"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 18,
+    "y": 6382,
+    "w": 324,
+    "h": 48,
+    "text": "klik hier",
+    "href": "/nl-nl/fairtrade-nieuwsbrief.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 4,
+    "textNodes": 50,
+    "controls": 37,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "samen voor een eerlijke wereld",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 2,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "voordelen van fairtrade",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "fairtrade producten",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "onze belangrijkste thema’s",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "onze impact",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "“fairtrade heeft mijn leven veranderd. in een crisissituatie heb ik de financiële middelen om in mijn behoeften te voorz",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "op zoek? hier vind je het!",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "ben je benieuwd naar de basics?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "wil je dieper duiken in hoe fairtrade werkt?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "klaar om fairtrade gecertificeerd te worden?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "nieuws dat je niet wil missen!",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 18,
+    "y": 486,
+    "w": 259,
+    "h": 40
+   },
+   {
+    "x": 18,
+    "y": 530,
+    "w": 248,
+    "h": 40
+   },
+   {
+    "x": 52,
+    "y": 639,
+    "w": 145,
+    "h": 22
+   },
+   {
+    "x": 101,
+    "y": 894,
+    "w": 159,
+    "h": 74
+   },
+   {
+    "x": 55,
+    "y": 988,
+    "w": 250,
+    "h": 24
+   },
+   {
+    "x": 120,
+    "y": 1015,
+    "w": 120,
+    "h": 24
+   },
+   {
+    "x": 18,
+    "y": 1182,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 1210,
+    "w": 66,
+    "h": 20
+   },
+   {
+    "x": 21,
+    "y": 1259,
+    "w": 317,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 1320,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 1347,
+    "w": 298,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 1374,
+    "w": 320,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 1402,
+    "w": 285,
+    "h": 20
+   },
+   {
+    "x": 83,
+    "y": 1471,
+    "w": 194,
+    "h": 22
+   },
+   {
+    "x": 18,
+    "y": 1983,
+    "w": 265,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 2044,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2071,
+    "w": 319,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2098,
+    "w": 322,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2126,
+    "w": 312,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2153,
+    "w": 102,
+    "h": 20
+   },
+   {
+    "x": 52,
+    "y": 2249,
+    "w": 218,
+    "h": 22
+   },
+   {
+    "x": 18,
+    "y": 2761,
+    "w": 251,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 2796,
+    "w": 106,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 2857,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2885,
+    "w": 311,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2912,
+    "w": 312,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2939,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2966,
+    "w": 181,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2993,
+    "w": 300,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 3021,
+    "w": 323,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 3048,
+    "w": 164,
+    "h": 20
+   },
+   {
+    "x": 52,
+    "y": 3144,
+    "w": 185,
+    "h": 22
+   },
+   {
+    "x": 103,
+    "y": 3380,
+    "w": 153,
+    "h": 74
+   },
+   {
+    "x": 96,
+    "y": 3474,
+    "w": 168,
+    "h": 24
+   },
+   {
+    "x": 106,
+    "y": 3501,
+    "w": 149,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 3527,
+    "w": 221,
+    "h": 24
+   },
+   {
+    "x": 90,
+    "y": 3682,
+    "w": 180,
+    "h": 20
+   },
+   {
+    "x": 98,
+    "y": 3731,
+    "w": 164,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 3792,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 3819,
+    "w": 307,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 3846,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 3874,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 3901,
+    "w": 56,
+    "h": 20
+   },
+   {
+    "x": 136,
+    "y": 3970,
+    "w": 87,
+    "h": 22
+   },
+   {
+    "x": 18,
+    "y": 4102,
+    "w": 270,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4137,
+    "w": 288,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4172,
+    "w": 277,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4208,
+    "w": 320,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4243,
+    "w": 221,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4278,
+    "w": 280,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4313,
+    "w": 242,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4348,
+    "w": 206,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4383,
+    "w": 264,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4419,
+    "w": 184,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4454,
+    "w": 259,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4489,
+    "w": 116,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4550,
+    "w": 321,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 4577,
+    "w": 312,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 4605,
+    "w": 237,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 4632,
+    "w": 145,
+    "h": 20
+   },
+   {
+    "x": 111,
+    "y": 4739,
+    "w": 138,
+    "h": 22
+   },
+   {
+    "x": 18,
+    "y": 4877,
+    "w": 247,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 4941,
+    "w": 234,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 4963,
+    "w": 72,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 5017,
+    "w": 252,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 5039,
+    "w": 162,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 5093,
+    "w": 180,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 5115,
+    "w": 248,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 5169,
+    "w": 206,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 5191,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 289,
+    "y": 5389,
+    "w": 53,
+    "h": 19
+   },
+   {
+    "x": 46,
+    "y": 5481,
+    "w": 90,
+    "h": 24
+   },
+   {
+    "x": 46,
+    "y": 5533,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 5581,
+    "w": 87,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 5629,
+    "w": 137,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 5677,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 5725,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 5785,
+    "w": 82,
+    "h": 24
+   },
+   {
+    "x": 46,
+    "y": 5837,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 5885,
+    "w": 94,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 5945,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 46,
+    "y": 5997,
+    "w": 138,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 6045,
+    "w": 94,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 6093,
+    "w": 129,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 6141,
+    "w": 125,
+    "h": 18
+   },
+   {
+    "x": 18,
+    "y": 6201,
+    "w": 122,
+    "h": 24
+   },
+   {
+    "x": 18,
+    "y": 6335,
+    "w": 119,
+    "h": 24
+   },
+   {
+    "x": 145,
+    "y": 6395,
+    "w": 70,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 18,
+    "y": 486,
+    "w": 259,
+    "h": 40
+   },
+   {
+    "x": 18,
+    "y": 530,
+    "w": 248,
+    "h": 40
+   },
+   {
+    "x": 52,
+    "y": 639,
+    "w": 145,
+    "h": 22
+   },
+   {
+    "x": 101,
+    "y": 894,
+    "w": 159,
+    "h": 74
+   },
+   {
+    "x": 55,
+    "y": 988,
+    "w": 250,
+    "h": 24
+   },
+   {
+    "x": 120,
+    "y": 1015,
+    "w": 120,
+    "h": 24
+   },
+   {
+    "x": 18,
+    "y": 1182,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 1210,
+    "w": 66,
+    "h": 20
+   },
+   {
+    "x": 21,
+    "y": 1259,
+    "w": 317,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 1320,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 1347,
+    "w": 298,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 1374,
+    "w": 320,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 1402,
+    "w": 285,
+    "h": 20
+   },
+   {
+    "x": 83,
+    "y": 1471,
+    "w": 194,
+    "h": 22
+   },
+   {
+    "x": 18,
+    "y": 1983,
+    "w": 265,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 2044,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2071,
+    "w": 319,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2098,
+    "w": 322,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2126,
+    "w": 312,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2153,
+    "w": 102,
+    "h": 20
+   },
+   {
+    "x": 52,
+    "y": 2249,
+    "w": 218,
+    "h": 22
+   },
+   {
+    "x": 18,
+    "y": 2761,
+    "w": 251,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 2796,
+    "w": 106,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 2857,
+    "w": 281,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2885,
+    "w": 311,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2912,
+    "w": 312,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2939,
+    "w": 283,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2966,
+    "w": 181,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 2993,
+    "w": 300,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 3021,
+    "w": 323,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 3048,
+    "w": 164,
+    "h": 20
+   },
+   {
+    "x": 52,
+    "y": 3144,
+    "w": 185,
+    "h": 22
+   },
+   {
+    "x": 103,
+    "y": 3380,
+    "w": 153,
+    "h": 74
+   },
+   {
+    "x": 96,
+    "y": 3474,
+    "w": 168,
+    "h": 24
+   },
+   {
+    "x": 106,
+    "y": 3501,
+    "w": 149,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 3527,
+    "w": 221,
+    "h": 24
+   },
+   {
+    "x": 90,
+    "y": 3682,
+    "w": 180,
+    "h": 20
+   },
+   {
+    "x": 98,
+    "y": 3731,
+    "w": 164,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 3792,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 3819,
+    "w": 307,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 3846,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 3874,
+    "w": 308,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 3901,
+    "w": 56,
+    "h": 20
+   },
+   {
+    "x": 136,
+    "y": 3970,
+    "w": 87,
+    "h": 22
+   },
+   {
+    "x": 18,
+    "y": 4102,
+    "w": 270,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4137,
+    "w": 288,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4172,
+    "w": 277,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4208,
+    "w": 320,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4243,
+    "w": 221,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4278,
+    "w": 280,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4313,
+    "w": 242,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4348,
+    "w": 206,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4383,
+    "w": 264,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4419,
+    "w": 184,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4454,
+    "w": 259,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4489,
+    "w": 116,
+    "h": 32
+   },
+   {
+    "x": 18,
+    "y": 4550,
+    "w": 321,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 4577,
+    "w": 312,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 4605,
+    "w": 237,
+    "h": 20
+   },
+   {
+    "x": 18,
+    "y": 4632,
+    "w": 145,
+    "h": 20
+   },
+   {
+    "x": 111,
+    "y": 4739,
+    "w": 138,
+    "h": 22
+   },
+   {
+    "x": 18,
+    "y": 4877,
+    "w": 247,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 4941,
+    "w": 234,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 4963,
+    "w": 72,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 5017,
+    "w": 252,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 5039,
+    "w": 162,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 5093,
+    "w": 180,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 5115,
+    "w": 248,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 5169,
+    "w": 206,
+    "h": 24
+   },
+   {
+    "x": 70,
+    "y": 5191,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 289,
+    "y": 5389,
+    "w": 53,
+    "h": 19
+   },
+   {
+    "x": 46,
+    "y": 5481,
+    "w": 90,
+    "h": 24
+   },
+   {
+    "x": 46,
+    "y": 5533,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 5581,
+    "w": 87,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 5629,
+    "w": 137,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 5677,
+    "w": 51,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 5725,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 5785,
+    "w": 82,
+    "h": 24
+   },
+   {
+    "x": 46,
+    "y": 5837,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 5885,
+    "w": 94,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 5945,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 46,
+    "y": 5997,
+    "w": 138,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 6045,
+    "w": 94,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 6093,
+    "w": 129,
+    "h": 18
+   },
+   {
+    "x": 46,
+    "y": 6141,
+    "w": 125,
+    "h": 18
+   },
+   {
+    "x": 18,
+    "y": 6201,
+    "w": 122,
+    "h": 24
+   },
+   {
+    "x": 18,
+    "y": 6335,
+    "w": 119,
+    "h": 24
+   },
+   {
+    "x": 145,
+    "y": 6395,
+    "w": 70,
+    "h": 22
+   }
+  ]
+ }
+}

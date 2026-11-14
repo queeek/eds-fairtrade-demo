@@ -1,0 +1,154 @@
+{
+  "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+  "title": "Bring Fairtrade to your market",
+  "timestamp": "2026-11-14T15:06:18.469Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-page-lead",
+      "type": "hero",
+      "name": "page-lead",
+      "variantId": "v_ee3c6b324b9b",
+      "selector": null,
+      "screenshot": "blocks/b01-page-lead.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 104,
+        "width": 1440,
+        "height": 1107
+      },
+      "description": "Top-of-page lead on static, listing and form pages. Used on 3 pages (market-entry-form, news-listing and topic-detail templates).",
+      "visualChars": {
+        "purpose": "Page lead",
+        "structure": "Page lead block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-number-facts",
+      "type": "cards",
+      "name": "number-facts",
+      "variantId": "v_ba84726592d2",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 1610,
+        "width": 1440,
+        "height": 1502
+      },
+      "description": "Key-figures / impact statistics teasers on home and impact pages. Used on 3 pages (global-home, market-entry-form and topic-detail templates).",
+      "visualChars": {
+        "purpose": "Numberfactteaser",
+        "structure": "Numberfactteaser block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-text-image",
+      "type": "columns",
+      "name": "text-image",
+      "variantId": "v_a601f638721e",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 3708,
+        "width": 1440,
+        "height": 731
+      },
+      "description": "The main content building block on static, product and locale home pages. Used on 4 pages (austria-home, global-home, market-entry-form and topic-detail templates).",
+      "visualChars": {
+        "purpose": "Textimage",
+        "structure": "Textimage block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b04-default-content",
+      "type": "custom",
+      "name": "default-content",
+      "variantId": "v_8e4feecd2649",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Default content block. Used on 4 pages (austria-home, global-home, market-entry-form and topic-detail templates).",
+      "visualChars": {
+        "purpose": "Richtextsection",
+        "structure": "Richtextsection block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b05-cta",
+      "type": "custom",
+      "name": "cta",
+      "variantId": "v_f29ad64bc994",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 3112,
+        "width": 1440,
+        "height": 140
+      },
+      "description": "Stand-alone call-to-action section between content sections. Used on 3 pages (austria-home, market-entry-form and news-listing templates).",
+      "visualChars": {
+        "purpose": "Ctasection",
+        "structure": "Ctasection block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b06-form",
+      "type": "form",
+      "name": "form",
+      "variantId": "v_ca0ab9d4bc30",
+      "selector": null,
+      "screenshot": "blocks/b06-form.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 9320,
+        "width": 1440,
+        "height": 686
+      },
+      "description": "Contact / newsletter / 'bring Fairtrade to your market' forms. Used on 1 page (market-entry-form template).",
+      "visualChars": {
+        "purpose": "Formbuilder",
+        "structure": "Formbuilder block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "mt-en-bring-fairtrade-to-your-market-html",
+    "path": "/mt-en/bring-fairtrade-to-your-market",
+    "templateId": "mt-en-bring-fairtrade-to-your-market-html",
+    "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/mt-en/bring-fairtrade-to-your-market",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261114--eds-fairtrade-demo--queeek.aem.page/mt-en/bring-fairtrade-to-your-market",
+    "screenshotCapturedAt": "2026-11-14T15:08:06.916Z"
+  }
+}

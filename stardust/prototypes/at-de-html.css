@@ -1,0 +1,165 @@
+/* at-de-html (locale-home archetype: the national Fairtrade home pages) — modules beyond the canon.
+   Written to be reused unchanged by every national home page (same AEM components on all 23).
+   Every value lifted from stardust/current/assets/css/site.css (selector names kept). Modules:
+   Richtext centred heading · TeaserGrid + InfoTeaser + Tag · CTASection · IframeSection ·
+   SingleVideo · NavigationTeasers (flyout + mobile submenu) · footer title without link. */
+
+/* ---- shared 6/12-col container (same model as canon .TextImage--grid) ---- */
+.TeaserGrid--grid, .IframeSection, .SingleVideo { margin-inline: auto; padding-inline: 18px; width: min(100%, 1920px); }
+@media (width >= 640px) { .TeaserGrid--grid, .IframeSection, .SingleVideo { padding-inline: 24px; } }
+@media (width >= 768px) { .TeaserGrid--grid, .IframeSection, .SingleVideo { padding-inline: 32px; } }
+@media (width >= 1024px) { .TeaserGrid--grid, .IframeSection, .SingleVideo { padding-inline: 36px; } }
+@media (width >= 1280px) { .TeaserGrid--grid, .IframeSection, .SingleVideo { padding-inline: 40px; } }
+@media (width >= 1440px) { .TeaserGrid--grid, .IframeSection, .SingleVideo { padding-inline: 48px; } }
+
+/* ---- RichtextSection: author-centred heading (live: inline text-align:center) ---- */
+.Richtext .is-centered { text-align: center; }
+
+/* ---- Image ratios not in canon ---- */
+.Image.rectangular:before { aspect-ratio: 1.3333333333; content: ""; display: block; width: 100%; }
+.Image.rectangular > img { height: 100%; object-fit: cover; }
+
+/* ---- Tag ---- */
+.Tag { align-items: center; background: hsla(0, 0%, 100%, .5); border-radius: 16px; color: #1e1e1e; display: inline-flex; font-size: 15px; font-weight: 600; gap: 8px; line-height: 1.6; padding: 4px 12px; }
+@media (width >= 1024px) { .Tag { font-size: 16px; padding: 4px 16px; } }
+.Tag.gray { background: #f4f4f4; }
+
+/* ---- TeaserGrid (non-highlight variant: Wave hidden) ---- */
+.TeaserGrid { --teaser-grid-item-size: 6; padding-block: 64px; }
+@media (width >= 1024px) { .TeaserGrid { --teaser-grid-item-size: 3; padding-block: 80px; } }
+@media (width >= 768px) { .TeaserGrid.small { --teaser-grid-item-size: 3; } }
+@media (width >= 1024px) { .TeaserGrid.small { --teaser-grid-item-size: 2; } }
+.TeaserGrid:not(.hasHighlights) .Wave { display: none; }
+.TeaserGrid--grid { display: grid; gap: 32px; grid-template-columns: repeat(6, 1fr); }
+@media (width >= 1024px) { .TeaserGrid--grid { gap: 40px; } }
+.TeaserGrid--item { grid-column: span var(--teaser-grid-item-size); }
+
+/* ---- InfoTeaser (portrait card) ---- */
+.InfoTeaser { --text-color: #1e1e1e; color: var(--text-color); display: block; }
+.InfoTeaser:is(:hover, :focus-visible) { --text-color: #035e7c; }
+.InfoTeaser--inner { display: grid; gap: 16px; grid-template: repeat(2, auto) / 1fr; margin-bottom: 12px; }
+@media (width >= 1024px) { .InfoTeaser--inner { gap: 16px 24px; } }
+.InfoTeaser--image, .InfoTeaser--tags { grid-area: 1 / 1 / 2 / 2; }
+.InfoTeaser--content { grid-area: 2 / 1 / 3 / 2; }
+.InfoTeaser--tags { align-items: baseline; display: flex; flex-wrap: wrap; gap: 8px; justify-self: flex-end; padding: 8px; z-index: 1; }
+.InfoTeaser--tags .Tag { background: rgba(30, 30, 30, .75); color: #fff; }
+.InfoTeaser--image .Image { background-color: #f4f4f4; border: 1px solid #dadada; overflow: hidden; }
+.InfoTeaser--image .Image img { font-size: 0; transition: scale .3s ease-in-out; will-change: scale; }
+.InfoTeaser:is(:hover, :focus-visible) .InfoTeaser--image .Image img { scale: 1.05; }
+.InfoTeaser--content { color: inherit; display: flex; flex-direction: column; gap: 12px; place-items: flex-start; transition: color .2s ease-in-out; }
+@media (width >= 1024px) { .InfoTeaser--content { gap: 16px; } .InfoTeaser--header { margin-bottom: -4px; } }
+.InfoTeaser--pretitle { display: block; font-family: var(--ff-body); font-size: 20px; font-weight: 800; line-height: 1.1; margin-bottom: 12px; }
+@media (width >= 1024px) { .InfoTeaser--pretitle { margin-bottom: 16px; } }
+.InfoTeaser--title { -webkit-line-clamp: 4; -webkit-box-orient: vertical; display: block; font-family: var(--ff-head); font-size: 24px; font-weight: 900; line-height: 1.1; overflow: hidden; }
+@media (width >= 1024px) { .InfoTeaser--title { font-size: 32px; } }
+.Button.InfoTeaser--cta { color: inherit; pointer-events: none; }
+.InfoTeaser:is(:hover, :focus-visible) .Button.InfoTeaser--cta .Button--inner:after { background-color: var(--text-color); scale: 1; }
+
+/* ---- CTASection ---- */
+.CTASection { display: grid; padding-block: 32px; place-items: center; }
+@media (width >= 1024px) { .CTASection { padding-block: 40px; } }
+
+/* ---- IframeSection (embed: same live src on both sides) ---- */
+.IframeSection { column-gap: 16px; display: grid; grid-template-columns: repeat(6, 1fr); padding-block: 64px; }
+@media (width >= 768px) { .IframeSection { grid-template-columns: repeat(12, 1fr); } }
+@media (width >= 1024px) { .IframeSection { column-gap: 20px; padding-block: 80px; } }
+@media (width >= 1280px) { .IframeSection { column-gap: 24px; } }
+.IframeSection > * { grid-column: 1 / -1; min-width: 0; }
+.IframeSection--iframe { border: 0; display: block; overflow: hidden; width: 100%; }
+.IframeSection:not(.frameless) .IframeSection--iframe { border: 1px solid #dadada; border-radius: 4px; }
+@media (width >= 1024px) { .IframeSection > .IframeSection--iframe { grid-column: 2 / -2; } }
+
+/* ---- SingleVideo ---- */
+.SingleVideo { column-gap: 16px; display: grid; gap: 12px; grid-template-columns: repeat(6, 1fr); padding-block: 64px; }
+@media (width >= 768px) { .SingleVideo { grid-template-columns: repeat(12, 1fr); } }
+@media (width >= 1024px) { .SingleVideo { column-gap: 20px; padding-block: 80px; } }
+@media (width >= 1280px) { .SingleVideo { column-gap: 24px; } }
+.SingleVideo > * { grid-column: 1 / -1; min-width: 0; }
+@media (width >= 1024px) { .SingleVideo > * { grid-column: 2 / -2; } }
+.SingleVideo--iframe { aspect-ratio: 16 / 9; border: 0; border-radius: 12px; width: 100%; }
+.SingleVideo--caption { display: grid; font-size: 13px; gap: 2px; grid-template-columns: auto 1fr; line-height: 1.6; }
+@media (width >= 1024px) { .SingleVideo--caption { font-size: 14px; } }
+.SingleVideo--caption-icon { color: #0fc0fc; }
+
+/* ---- NavigationTeasers (desktop flyout column + mobile submenu band) ---- */
+.NavigationTeasers { column-gap: 24px; display: flex; }
+.NavigationTeasers > * { flex: 1; min-width: 0; }
+.NavigationTeaser--image { aspect-ratio: 1; border-radius: 100%; margin-bottom: 24px; width: 120px; }
+.NavigationTeaser--title { display: block; font-family: var(--ff-body); font-size: 20px; font-weight: 800; line-height: 1.1; margin-bottom: 12px; }
+.NavigationTeaser--text { font-size: 15px; line-height: 1.6; margin-bottom: 12px; }
+@media (width >= 1024px) { .NavigationTeaser--text { font-size: 16px; } }
+.TopbarDesktopFlyout:has(.TopbarDesktopFlyout--teasers) { background-color: unset; background-image: linear-gradient(90deg, #fff 65%, #d4ff47 0); }
+.TopbarDesktopFlyout--grid:has(.TopbarDesktopFlyout--teasers) { display: grid; grid-template-columns: repeat(12, 1fr); column-gap: 20px; }
+@media (width >= 1280px) { .TopbarDesktopFlyout--grid:has(.TopbarDesktopFlyout--teasers) { column-gap: 24px; } }
+.TopbarDesktopFlyout:has(.TopbarDesktopFlyout--teasers) .TopbarDesktopFlyout--groups { grid-column: 1 / 8; grid-template-columns: repeat(3, 1fr); }
+.TopbarDesktopFlyout--teasers { background-color: #d4ff47; grid-column: 8 / 13; margin: -32px -36px -64px 12px; padding: 48px 36px; }
+@media (width >= 1280px) { .TopbarDesktopFlyout--teasers { margin-left: 16px; margin-right: -40px; padding-right: 40px; } }
+@media (width >= 1440px) { .TopbarDesktopFlyout--teasers { margin-left: 24px; } }
+.MobileSubMenu--teasers { background-color: #d4ff47; padding: 32px 24px; }
+
+/* ---- Footer: list title without link (live: <span>), empty logo slot ---- */
+/* site.css: grid + hover colour only for .FooterLinkList--title:has(a); link-less titles stay block (inline span line box) */
+.FooterLinkList--title:not(:has(a)) { display: block; }
+.FooterLinkList--title:not(:has(a)):is(:hover, :focus-within) { color: inherit; }
+
+/* ---- ProductTeaserCarousel (site.css .ProductTeaserCarousel / .Carousel / .ProductTeaser) ---- */
+.ProductTeaserCarousel { padding-block: 64px; }
+@media (width >= 1024px) { .ProductTeaserCarousel { padding-block: 80px; } }
+.ProductTeaserCarousel--content { background-color: #0fc0fc; padding: 64px 0; }
+@media (width >= 1024px) { .ProductTeaserCarousel--content { padding: 80px 0; } }
+.ProductTeaserCarousel--grid { column-gap: 16px; display: grid; grid-template-columns: repeat(6, 1fr); margin-inline: auto; padding-inline: 18px; place-items: center; row-gap: 32px; width: min(100%, 1920px); }
+@media (width >= 640px) { .ProductTeaserCarousel--grid { padding-inline: 24px; } }
+@media (width >= 768px) { .ProductTeaserCarousel--grid { grid-template-columns: repeat(12, 1fr); padding-inline: 32px; } }
+@media (width >= 1024px) { .ProductTeaserCarousel--grid { column-gap: 20px; padding-inline: 36px; } }
+@media (width >= 1280px) { .ProductTeaserCarousel--grid { column-gap: 24px; padding-inline: 40px; } }
+@media (width >= 1440px) { .ProductTeaserCarousel--grid { padding-inline: 48px; } }
+.ProductTeaserCarousel--grid > * { grid-column: 1 / -1; min-width: 0; }
+@media (width >= 768px) { .ProductTeaserCarousel--grid > * { grid-column: 3 / -3; } }
+@media (width >= 1024px) { .ProductTeaserCarousel--grid > * { grid-column: 4 / -4; } }
+.ProductTeaserCarousel--carousel { padding: 48px 0; }
+@media (width >= 1024px) { .ProductTeaserCarousel--carousel { padding: 64px 0; } }
+.ProductTeaserCarousel--subtitle, .ProductTeaserCarousel--title { text-align: center; text-wrap: balance; }
+.ProductTeaserCarousel--subtitle { color: rgba(30, 30, 30, .5); font-size: 17px; font-weight: 700; line-height: 1.6; margin: 0; }
+@media (width >= 1024px) { .ProductTeaserCarousel--subtitle { font-size: 18px; } }
+.ProductTeaserCarousel--title { font-family: var(--ff-head); font-size: 40px; font-weight: 900; line-height: 1.1; margin: 0; }
+@media (width >= 1024px) { .ProductTeaserCarousel--title { font-size: 64px; } }
+.ProductTeaserCarousel .ProductTeaser { width: min-content; }
+.Button.variant-secondary.color-white { --background-color-hover: hsla(0, 0%, 100%, .25); --background-color-active: transparent; --border-color: #fff; --border-color-hover: #fff; --border-color-active: hsla(0, 0%, 100%, .5); --border-color-disabled: hsla(0, 0%, 100%, .25); }
+
+.Carousel { align-items: center; display: grid; position: relative; }
+.Carousel.contains-product-teasers { --track-gap: 12px; }
+@media (width >= 1024px) { .Carousel.contains-product-teasers { --track-gap: 32px; } }
+.Carousel--list { --horizontal-padding: 24px; display: flex; gap: var(--track-gap, 0); justify-content: center; list-style: none; margin: 0; overflow-x: auto; overscroll-behavior-x: contain; padding: 0 var(--horizontal-padding); scroll-snap-type: x mandatory; scrollbar-width: none; }
+.Carousel--list::-webkit-scrollbar { display: none; }
+@media (width >= 768px) { .Carousel--list { --horizontal-padding: 32px; } }
+.Carousel.is-initialized .Carousel--list { scroll-behavior: smooth; }
+.Carousel.is-overflowing .Carousel--list { justify-content: unset; }
+.Carousel--list > * { flex: 0 0 auto; min-width: 0; scroll-snap-align: center; }
+.Carousel--controls { display: flex; inset: auto -12px; justify-content: space-between; opacity: 0; pointer-events: none; position: absolute; transition: opacity .2s ease-in-out; }
+@media (width >= 768px) { .Carousel--controls { inset: auto 0; } }
+.Carousel.is-overflowing .Carousel--controls { opacity: 1; }
+.Carousel.is-overflowing .Carousel--controls > * { pointer-events: auto; }
+@media (width >= 1024px) {
+  .Carousel.is-overflowing.has-controls-on-hover .Carousel--controls { opacity: 0; }
+  .Carousel.is-overflowing.has-controls-on-hover:hover .Carousel--controls { opacity: 1; }
+}
+.Carousel.contains-product-teasers .Carousel--controls { inset: auto 8px; }
+@media (width >= 1024px) { .Carousel.contains-product-teasers .Carousel--controls { inset: auto 32px; } }
+@media (width >= 1440px) { .Carousel.contains-product-teasers .Carousel--controls { inset: auto 48px; } }
+.Carousel--control-next, .Carousel--control-previous { box-shadow: 0 4px 8px rgba(30, 30, 30, .1); }
+.Button.variant-icon-primary.color-leafgreen { --background-color: #d4ff47; --background-color-hover: #aacc39; --background-color-active: #aacc39; --background-color-disabled: rgba(212, 255, 71, .25); --border-color-hover: #4f5d18; --border-color-active: transparent; }
+
+.ProductTeaser { --image-size: 172px; --teaser-padding: 24px; background-color: #fff; border: 1px solid #dadada; border-radius: 16px; color: #1e1e1e; display: flex; flex-direction: column; height: 100%; padding: var(--teaser-padding); row-gap: 12px; width: 100%; }
+@media (width >= 1024px) { .ProductTeaser { --image-size: 224px; --teaser-padding: 24px 32px; } }
+.ProductTeaser--image { align-self: center; height: var(--image-size); scale: 85%; transform-origin: center; transition: scale .2s ease-in-out; width: var(--image-size); }
+.ProductTeaser:is(:hover, :focus-visible) .ProductTeaser--image { scale: 95%; }
+.ProductTeaser--image .Image { background-color: transparent; }
+.ProductTeaser--image .Image > img { object-fit: contain; width: 100%; }
+.ProductTeaser--merchant { color: #787878; font-size: 17px; font-weight: 700; line-height: 1.6; }
+@media (width >= 1024px) { .ProductTeaser--merchant { font-size: 18px; } }
+.ProductTeaser--title { font-family: var(--ff-head); font-size: 24px; font-weight: 900; line-height: 1.1; }
+@media (width >= 1024px) { .ProductTeaser--title { font-size: 32px; } }
+.ProductTeaser--fakeLink { display: inline-flex; }
+.ProductTeaser:is(:hover, :focus-visible) .ProductTeaser--fakeLink { color: #035e7c; }
+.ProductTeaser:is(:hover, :focus-visible) .ProductTeaser--fakeLink .Button--inner:after { background-color: #035e7c; scale: 1; }
+.ProductTeaser:active .ProductTeaser--fakeLink .Button--inner:after { scale: 1 .5; }

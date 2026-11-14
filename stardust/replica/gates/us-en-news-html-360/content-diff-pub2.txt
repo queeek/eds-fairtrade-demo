@@ -1,0 +1,26 @@
+[live-session] waiting to pace live navigations to www.fairtrade.net (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 555 ms
+
+Content diff @ 360px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 88 text nodes — 1 headings, 0 eyebrows, 0 CTAs, 87 body; 18 img
+  build: 88 text nodes — 19 headings, 0 eyebrows, 0 CTAs, 69 body; 18 img
+  editable texts (outermost h*/p/ul/ol): source 3 / build 4
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 3 / build 0
+  accepted (invisible, nothing lost): 18 ROLE UPGRADE body → heading — "When Communities Lead: The Cooperative M", "Silence isn’t a strategy: Why “greenshou", "Fairtrade stands with farmers as costs i", "Real Pay Feeds Real Change" …
+root "header"
+  source: 264 text nodes — 0 headings, 0 eyebrows, 166 CTAs, 98 body; 1 img
+  build: 264 text nodes — 0 headings, 0 eyebrows, 166 CTAs, 98 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 21 / build 21
+  attributes (placeholder/aria-label/title): source 5 / build 5; icons: source 186 / build 186
+  accepted (invisible, nothing lost): 1 SAME IMAGE — "Fairtrade_America_Logo_Vert_80x80.png ↔ media_13df0d1ade5b87108701c01320448598686be3f87.png"
+root "footer"
+  source: 16 text nodes — 0 headings, 0 eyebrows, 12 CTAs, 4 body; 0 img
+  build: 16 text nodes — 0 headings, 0 eyebrows, 12 CTAs, 4 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 16 / build 16
+
+Findings: 3 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 19 (owner 0, auto 19) · advisory 3
+  🟡 MISSING ICON [main]: source inline svg 0 0 100 100 / 1 shape(s) (0×0) at "09.29.26 fairtrade news when communities" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 768 40 / 1 shape(s) (0×0) at "09.29.26 fairtrade news when communities" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 375 40 / 1 shape(s) (0×0) at "09.29.26 fairtrade news when communities" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.

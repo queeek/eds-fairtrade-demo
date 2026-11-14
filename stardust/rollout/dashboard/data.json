@@ -1,0 +1,966 @@
+{
+  "generatedAt": "2026-11-14T12:07:41.114Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.fairtrade.net/",
+    "liveHost": "main--63f9f24b--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 100,
+    "prototyped": 100,
+    "deployed": 100,
+    "optimised": 67
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 33,
+    "optimised": 67
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "deployed",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "africa-en-html",
+      "path": "/africa-en",
+      "stage": "deployed",
+      "templateId": "locale-home",
+      "isTemplate": true,
+      "openFindings": 3
+    },
+    {
+      "slug": "at-de-html",
+      "path": "/at-de",
+      "stage": "optimised",
+      "templateId": "at-de-html",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "be-fr-html",
+      "path": "/be-fr",
+      "stage": "deployed",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "be-nl-html",
+      "path": "/be-nl",
+      "stage": "deployed",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "ca-en-html",
+      "path": "/ca-en",
+      "stage": "optimised",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "ca-fr-html",
+      "path": "/ca-fr",
+      "stage": "optimised",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "ch-de-html",
+      "path": "/ch-de",
+      "stage": "optimised",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "ch-fr-html",
+      "path": "/ch-fr",
+      "stage": "optimised",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "de-de-html",
+      "path": "/de-de",
+      "stage": "optimised",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "en-html",
+      "path": "/en",
+      "stage": "deployed",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "iberica-es-html",
+      "path": "/iberica-es",
+      "stage": "optimised",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "iberica-pt-html",
+      "path": "/iberica-pt",
+      "stage": "optimised",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "ie-en-html",
+      "path": "/ie-en",
+      "stage": "deployed",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "it-it-html",
+      "path": "/it-it",
+      "stage": "optimised",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "jp-jp-html",
+      "path": "/jp-jp",
+      "stage": "optimised",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "kr-ko-html",
+      "path": "/kr-ko",
+      "stage": "optimised",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "maxhavelaarfrance-fr-html",
+      "path": "/maxhavelaarfrance-fr",
+      "stage": "optimised",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "mt-en-bring-fairtrade-to-your-market-html",
+      "path": "/mt-en/bring-fairtrade-to-your-market",
+      "stage": "deployed",
+      "templateId": "mt-en-bring-fairtrade-to-your-market-html",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "napp-en-html",
+      "path": "/napp-en",
+      "stage": "deployed",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "nl-nl-html",
+      "path": "/nl-nl",
+      "stage": "optimised",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "no-no-html",
+      "path": "/no-no",
+      "stage": "optimised",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "pl-pl-html",
+      "path": "/pl-pl",
+      "stage": "optimised",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+      "path": "/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra",
+      "stage": "deployed",
+      "templateId": "form",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "se-sv-html",
+      "path": "/se-sv",
+      "stage": "optimised",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "si-sl-prinesite-fairtrade-na-vas-trg-html",
+      "path": "/si-sl/prinesite-fairtrade-na-vas-trg",
+      "stage": "deployed",
+      "templateId": "form",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "uk-en-html",
+      "path": "/uk-en",
+      "stage": "optimised",
+      "templateId": "locale-home",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-html",
+      "path": "/us-en",
+      "stage": "deployed",
+      "templateId": "landing",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "us-en-about-html",
+      "path": "/us-en/about",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-about-careers-html",
+      "path": "/us-en/about/careers",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-contact-html",
+      "path": "/us-en/contact",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-fairtrade-newsletter-html",
+      "path": "/us-en/fairtrade-newsletter",
+      "stage": "optimised",
+      "templateId": "form",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-for-business-html",
+      "path": "/us-en/for-business",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-html",
+      "path": "/us-en/for-business/benefits-of-being-certified",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-business-html",
+      "path": "/us-en/for-business/benefits-of-being-certified/benefits-for-business",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+      "path": "/us-en/for-business/benefits-of-being-certified/benefits-for-producers",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-business-success-stories-html",
+      "path": "/us-en/for-business/benefits-of-being-certified/business-success-stories",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-consumer-trends1-html",
+      "path": "/us-en/for-business/benefits-of-being-certified/consumer-trends1",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-for-business-for-partners-html",
+      "path": "/us-en/for-business/for-partners",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-for-business-for-partners-communicate-your-commitment-html",
+      "path": "/us-en/for-business/for-partners/communicate-your-commitment",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-for-business-for-retailers-html",
+      "path": "/us-en/for-business/for-retailers",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-for-business-get-certified-html",
+      "path": "/us-en/for-business/get-certified",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-for-business-get-certified-get-started-html",
+      "path": "/us-en/for-business/get-certified/get-started",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-for-business-get-certified-intro-to-fairtrade-html",
+      "path": "/us-en/for-business/get-certified/intro-to-fairtrade",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-for-business-get-certified-resources-support-html",
+      "path": "/us-en/for-business/get-certified/resources-support",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-for-business-get-certified-the-certification-process-html",
+      "path": "/us-en/for-business/get-certified/the-certification-process",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-for-media-html",
+      "path": "/us-en/for-media",
+      "stage": "deployed",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-get-involved-activism-html",
+      "path": "/us-en/get-involved/activism",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-get-involved-get-involved-html",
+      "path": "/us-en/get-involved/get-involved",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-get-involved-how-to-shop-sustainably-html",
+      "path": "/us-en/get-involved/how-to-shop-sustainably",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-get-involved-where-to-buy-html",
+      "path": "/us-en/get-involved/where-to-buy",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-news-html",
+      "path": "/us-en/news",
+      "stage": "deployed",
+      "templateId": "us-en-news-html",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html",
+      "path": "/us-en/news/silence-isn-t-a-strategy-why-greenshouting-matters-for-busine",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html",
+      "path": "/us-en/news/when-communities-lead-the-cooperative-model-at-work-in-madagasc",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-privacy-policy-html",
+      "path": "/us-en/privacy-policy",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-products-html",
+      "path": "/us-en/products",
+      "stage": "deployed",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "us-en-products-all-products-html",
+      "path": "/us-en/products/all-products",
+      "stage": "deployed",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "us-en-products-all-products-bananas-html",
+      "path": "/us-en/products/all-products/bananas",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-products-all-products-chocolate-html",
+      "path": "/us-en/products/all-products/chocolate",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-products-all-products-cocoa-html",
+      "path": "/us-en/products/all-products/cocoa",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-products-all-products-coffee-html",
+      "path": "/us-en/products/all-products/coffee",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-products-all-products-cotton-html",
+      "path": "/us-en/products/all-products/cotton",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-products-all-products-fruits-juices-html",
+      "path": "/us-en/products/all-products/fruits-juices",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-products-all-products-gold-html",
+      "path": "/us-en/products/all-products/gold",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-products-all-products-herbs-spices-html",
+      "path": "/us-en/products/all-products/herbs-spices",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-products-all-products-honey-html",
+      "path": "/us-en/products/all-products/honey",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-products-all-products-nuts-oils-html",
+      "path": "/us-en/products/all-products/nuts-oils",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-products-all-products-sugar-html",
+      "path": "/us-en/products/all-products/sugar",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-products-all-products-wine-html",
+      "path": "/us-en/products/all-products/wine",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-terms-of-use-html",
+      "path": "/us-en/terms-of-use",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-html",
+      "path": "/us-en/why-fairtrade",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-html",
+      "path": "/us-en/why-fairtrade/how-we-do-it",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance-html",
+      "path": "/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html",
+      "path": "/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-standards-html",
+      "path": "/us-en/why-fairtrade/how-we-do-it/fairtrade-standards",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html",
+      "path": "/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-how-fairtrade-certification-works-html",
+      "path": "/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-our-projects-and-programs-html",
+      "path": "/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html",
+      "path": "/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-html",
+      "path": "/us-en/why-fairtrade/impact",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-how-we-measure-impact-html",
+      "path": "/us-en/why-fairtrade/impact/how-we-measure-impact",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-impact-stories-html",
+      "path": "/us-en/why-fairtrade/impact/impact-stories",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-key-figures-at-a-glance-html",
+      "path": "/us-en/why-fairtrade/impact/key-figures-at-a-glance",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-reports-trends-html",
+      "path": "/us-en/why-fairtrade/impact/reports-trends",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-html",
+      "path": "/us-en/why-fairtrade/what-we-do",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-how-fairtrade-works-html",
+      "path": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-key-benefits-html",
+      "path": "/us-en/why-fairtrade/what-we-do/key-benefits",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-the-fairtrade-difference-html",
+      "path": "/us-en/why-fairtrade/what-we-do/the-fairtrade-difference",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-theory-of-change-html",
+      "path": "/us-en/why-fairtrade/what-we-do/theory-of-change",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+      "path": "/us-en/why-fairtrade/what-we-do/what-is-fairtrade",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-html",
+      "path": "/us-en/why-fairtrade/why-we-do-it",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-child-protection-html",
+      "path": "/us-en/why-fairtrade/why-we-do-it/child-protection",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html",
+      "path": "/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html",
+      "path": "/us-en/why-fairtrade/why-we-do-it/decent-livelihoods",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-deforestation-html",
+      "path": "/us-en/why-fairtrade/why-we-do-it/deforestation",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-fairtrade-and-the-sustainable-development-goals-html",
+      "path": "/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "path": "/us-en/why-fairtrade/why-we-do-it/gender-equality",
+      "stage": "optimised",
+      "templateId": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-hredd-html",
+      "path": "/us-en/why-fairtrade/why-we-do-it/hredd",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html",
+      "path": "/us-en/why-fairtrade/why-we-do-it/smallholder-farmers",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-workers-rights-html",
+      "path": "/us-en/why-fairtrade/why-we-do-it/workers-rights",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "at-de-html",
+      "archetype": "at-de-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "form",
+      "archetype": "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+      "pageCount": 3,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 2,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "landing",
+      "archetype": "us-en-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "listing",
+      "archetype": "us-en-for-business-benefits-of-being-certified-business-success-stories-html",
+      "pageCount": 6,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 3,
+        "optimised": 3
+      }
+    },
+    {
+      "id": "locale-home",
+      "archetype": "africa-en-html",
+      "pageCount": 22,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 6,
+        "optimised": 16
+      }
+    },
+    {
+      "id": "mt-en-bring-fairtrade-to-your-market-html",
+      "archetype": "mt-en-bring-fairtrade-to-your-market-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "static",
+      "archetype": "us-en-about-careers-html",
+      "pageCount": 63,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 18,
+        "optimised": 45
+      }
+    },
+    {
+      "id": "us-en-news-html",
+      "archetype": "us-en-news-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "archetype": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    }
+  ],
+  "blocks": {
+    "total": 13,
+    "converted": 13
+  },
+  "quality": {
+    "overall": 96,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": 88
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 3
+    },
+    "history": [
+      63,
+      96
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 31,
+      "design-pass": 3
+    },
+    "byAutofix": {}
+  }
+}

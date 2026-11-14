@@ -1,0 +1,220 @@
+{
+  "url": "https://www.fairtrade.net/at-de.html",
+  "title": "FAIRTRADE Österreich",
+  "timestamp": "2026-11-14T15:06:18.469Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-hero-carousel",
+      "type": "carousel",
+      "name": "hero-carousel",
+      "variantId": "v_74cd50d4f35d",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 104,
+        "width": 1440,
+        "height": 824
+      },
+      "description": "Home-page hero carousels on the global and locale home pages. Used on 2 pages (austria-home and global-home templates).",
+      "visualChars": {
+        "purpose": "Pageherocarousel",
+        "structure": "Pageherocarousel block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-text-image",
+      "type": "columns",
+      "name": "text-image",
+      "variantId": "v_a601f638721e",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 4103,
+        "width": 1440,
+        "height": 698
+      },
+      "description": "The main content building block on static, product and locale home pages. Used on 4 pages (austria-home, global-home, market-entry-form and topic-detail templates).",
+      "visualChars": {
+        "purpose": "Textimage",
+        "structure": "Textimage block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-default-content",
+      "type": "custom",
+      "name": "default-content",
+      "variantId": "v_8e4feecd2649",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Default content block. Used on 4 pages (austria-home, global-home, market-entry-form and topic-detail templates).",
+      "visualChars": {
+        "purpose": "Richtextsection",
+        "structure": "Richtextsection block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b04-teaser-grid",
+      "type": "cards",
+      "name": "teaser-grid",
+      "variantId": "v_643b6c46f19a",
+      "selector": null,
+      "screenshot": "blocks/b04-teaser-grid.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 1061,
+        "width": 1440,
+        "height": 684
+      },
+      "description": "News, stories and listing pages, plus related-content grids. Used on 2 pages (austria-home and news-listing templates).",
+      "visualChars": {
+        "purpose": "Teasergrid",
+        "structure": "Teasergrid block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b05-cta",
+      "type": "custom",
+      "name": "cta",
+      "variantId": "v_f29ad64bc994",
+      "selector": null,
+      "screenshot": "blocks/b05-cta.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 1745,
+        "width": 1440,
+        "height": 140
+      },
+      "description": "Stand-alone call-to-action section between content sections. Used on 3 pages (austria-home, market-entry-form and news-listing templates).",
+      "visualChars": {
+        "purpose": "Ctasection",
+        "structure": "Ctasection block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b06-accordion",
+      "type": "accordion",
+      "name": "accordion",
+      "variantId": "v_ec555aa5d559",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 7402,
+        "width": 1440,
+        "height": 547
+      },
+      "description": "FAQ-style expandable content on static and locale home pages. Used on 3 pages (austria-home, global-home and topic-detail templates).",
+      "visualChars": {
+        "purpose": "Accordion",
+        "structure": "Accordion block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b07-product-carousel",
+      "type": "carousel",
+      "name": "product-carousel",
+      "variantId": "v_70e793f64d79",
+      "selector": null,
+      "screenshot": "blocks/b07-product-carousel.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 2813,
+        "width": 1440,
+        "height": 1290
+      },
+      "description": "Product showcases on home and product pages. A start-shift-<n> class sets the initial track offset. Used on 1 page (austria-home template).",
+      "visualChars": {
+        "purpose": "Productteasercarousel",
+        "structure": "Productteasercarousel block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b08-video",
+      "type": "video",
+      "name": "video",
+      "variantId": "v_e3a4f2b9c838",
+      "selector": null,
+      "screenshot": "blocks/b08-video.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 6578,
+        "width": 1440,
+        "height": 824
+      },
+      "description": "Embedded YouTube/Vimeo videos on static and locale home pages. Used on 1 page (austria-home template).",
+      "visualChars": {
+        "purpose": "Video",
+        "structure": "Video block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b09-iframe",
+      "type": "embed",
+      "name": "iframe",
+      "variantId": "v_5f7d8d8d268a",
+      "selector": null,
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 2017,
+        "width": 1440,
+        "height": 656
+      },
+      "description": "Embedded maps, dashboards and third-party widgets. A height-<px> class (e.g. height-1100) sets the frame height. Used on 1 page (austria-home template).",
+      "visualChars": {
+        "purpose": "IFrame",
+        "structure": "IFrame block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "at-de-html",
+    "path": "/at-de",
+    "templateId": "at-de-html",
+    "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/at-de",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261114--eds-fairtrade-demo--queeek.aem.page/at-de",
+    "screenshotCapturedAt": "2026-11-14T15:06:59.304Z"
+  }
+}

@@ -1,0 +1,1031 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-13T21:57:16.648Z",
+    "readArtifacts": [
+      "https://www.fairtrade.net/",
+      "stardust/current/_computed-styles.json",
+      "stardust/current/assets/css/site.css",
+      "stardust/current/pages/*.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.38.3"
+  },
+  "site": {
+    "name": "Fairtrade",
+    "tagline": "The world's trade system exploits farmers. Fairtrade steps in the right direction by supporting sustainable lives for farmers and their families.",
+    "originUrl": "https://www.fairtrade.net/"
+  },
+  "origins": [
+    {
+      "origin": "https://www.fairtrade.net",
+      "role": "primary",
+      "pages": 100
+    }
+  ],
+  "logo": {
+    "source": "img in .Topbar--logo",
+    "file": "stardust/current/assets/logo.png",
+    "url": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-america/images/fairtrade-brand/Fairtrade_America_Logo_Vert_80x80.png",
+    "variants": "one logo per national site (21 distinct logo files across the 100 pages); international: stardust/current/assets/logo-international.svg"
+  },
+  "favicon": {
+    "file": "stardust/current/assets/favicon.svg",
+    "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/favicon.svg"
+  },
+  "palette": [
+    {
+      "value": "#1e1e1e",
+      "roles": [
+        "text",
+        "heading"
+      ],
+      "weight": 10875,
+      "bgArea": null,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/napp-en.html",
+          "selector": "#main-nav > ul > li:nth-of-type(1) > button",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/napp-en.html",
+          "selector": "#maincontainer-0eeec5a62b > div:nth-of-type(1) > div > div:nth-of-type(1) > div > h1",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/pl-pl.html",
+          "selector": "#main-nav > ul > li:nth-of-type(1) > button",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "value": "#0fc0fc",
+      "roles": [
+        "primary"
+      ],
+      "weight": 1650,
+      "bgArea": 26756618,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/us-en/products/all-products/coffee.html",
+          "selector": "main > div > div:nth-of-type(3) > div > div:nth-of-type(1) > button:nth-of-type(2)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/products/all-products/coffee.html",
+          "selector": "div > div:nth-of-type(4) > div > ul > li:nth-of-type(1) > div > div:nth-of-type(1) > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/deforestation.html",
+          "selector": "#maincontainer-eaba7ffc91 > div:nth-of-type(3) > div > ul > li:nth-of-type(1) > div > div:nth-of-type(1) > div",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "value": "#d4ff47",
+      "roles": [
+        "secondary"
+      ],
+      "weight": 1462,
+      "bgArea": 62961246,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/ch-de.html",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/at-de.html",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "value": "#0fc0fc40",
+      "roles": [
+        "background"
+      ],
+      "weight": 711,
+      "bgArea": 159463648,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/kr-ko.html",
+          "selector": "div > div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/kr-ko.html",
+          "selector": "div > div > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(2)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/for-business/for-partners.html",
+          "selector": "main > div > div:nth-of-type(3) > div > div > div:nth-of-type(1) > button > div",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "value": "#7b1dab",
+      "roles": [
+        "accent"
+      ],
+      "weight": 670,
+      "bgArea": null,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/hredd.html",
+          "selector": "main > div > div:nth-of-type(2) > div > div > ul > li:nth-of-type(1) > a:nth-of-type(1)",
+          "prop": "link"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/hredd.html",
+          "selector": "main > div > div:nth-of-type(2) > div > div > ul > li:nth-of-type(1) > a:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+          "selector": "main > div > div:nth-of-type(2) > div > div > p:nth-of-type(1) > a",
+          "prop": "link"
+        }
+      ]
+    },
+    {
+      "value": "#dadada",
+      "roles": [
+        "border"
+      ],
+      "weight": 487,
+      "bgArea": null,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/napp-en.html",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > div > div:nth-of-type(1) > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.fairtrade.net/it-it.html",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > div > div:nth-of-type(1) > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/impact/impact-stories.html",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > div > div:nth-of-type(1) > div",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "value": "#001b6e",
+      "roles": [
+        "surface"
+      ],
+      "weight": 256,
+      "bgArea": 108072109,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/business-success-stories.html",
+          "selector": "nav",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+          "selector": "nav",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html",
+          "selector": "nav",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "value": "#ffffff",
+      "roles": [],
+      "weight": 4475,
+      "bgArea": 106044809,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/napp-en.html",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > div > div:nth-of-type(2) > span:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/jp-jp.html",
+          "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > div > h2",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/it-it.html",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > div > div:nth-of-type(2) > span",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "value": "#1e1e1ebf",
+      "roles": [],
+      "weight": 480,
+      "bgArea": 1604802,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/napp-en.html",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > div > div:nth-of-type(2) > span:nth-of-type(1)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/it-it.html",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > div > div:nth-of-type(2) > span",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/impact/impact-stories.html",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > div > div:nth-of-type(2) > span",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "value": "#787878",
+      "roles": [],
+      "weight": 148,
+      "bgArea": null,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/ch-de.html",
+          "selector": "#maincontainer-83e0c0ae48 > div:nth-of-type(3) > div > div:nth-of-type(2) > strong",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "main > div > div:nth-of-type(3) > div > div:nth-of-type(2) > strong",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/africa-en.html",
+          "selector": "main > div > div:nth-of-type(2) > div > div:nth-of-type(2) > strong",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "value": "#1e1e1e80",
+      "roles": [],
+      "weight": 50,
+      "bgArea": null,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/us-en/get-involved/get-involved.html",
+          "selector": "nav > div:nth-of-type(1) > ol > li:nth-of-type(2) > span:nth-of-type(1)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/ch-de.html",
+          "selector": "#maincontainer-83e0c0ae48 > div:nth-of-type(7) > div > div:nth-of-type(2) > div:nth-of-type(1) > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.fairtrade.net/ch-fr.html",
+          "selector": "main > div > div:nth-of-type(6) > div > div:nth-of-type(2) > div:nth-of-type(1) > span",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "value": "#ffffff80",
+      "roles": [],
+      "weight": 19,
+      "bgArea": 11847,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/us-en/news/silence-isn-t-a-strategy--why--greenshouting--matters-for-busine.html",
+          "selector": "#maincontainer-fcac7cc06e > div:nth-of-type(1) > div > div:nth-of-type(1) > div > ul > li > span",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/news/when-communities-lead--the-cooperative-model-at-work-in-madagasc.html",
+          "selector": "div > div:nth-of-type(1) > div > div > div > ul > li > span",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/for-business.html",
+          "selector": "nav > div:nth-of-type(1) > ol > li:nth-of-type(2) > span",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "value": "#a5a5a5",
+      "roles": [],
+      "weight": 12,
+      "bgArea": null,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "selector": "#CEE_Home_Contact_Form-form-Submit",
+          "prop": "button-text"
+        },
+        {
+          "url": "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+          "selector": "#CEE_Home_Contact_Form-form-Trimite_i",
+          "prop": "button-text"
+        },
+        {
+          "url": "https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html",
+          "selector": "#CEE_Home_Contact_Form-form-Po_lji",
+          "prop": "button-text"
+        }
+      ]
+    },
+    {
+      "value": "#d4ff4740",
+      "roles": [],
+      "weight": 12,
+      "bgArea": 36870,
+      "sources": [
+        {
+          "url": "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+          "selector": "#CEE_Home_Contact_Form-form-Trimite_i",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "selector": "#CEE_Home_Contact_Form-form-Submit",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html",
+          "selector": "#CEE_Home_Contact_Form-form-Po_lji",
+          "prop": "background"
+        }
+      ]
+    }
+  ],
+  "type": {
+    "families": [
+      {
+        "family": "Exo 2",
+        "count": 3320,
+        "headings": 576,
+        "text": 1928,
+        "buttons": 816
+      },
+      {
+        "family": "Alegreya Sans",
+        "count": 1683,
+        "headings": 1683,
+        "text": 0,
+        "buttons": 0
+      }
+    ],
+    "headingFamily": "Alegreya Sans",
+    "bodyFamily": "Exo 2",
+    "ramp": {
+      "display": {
+        "fontFamily": "Alegreya Sans, system-ui",
+        "fontSize": "72px",
+        "fontWeight": 900,
+        "lineHeight": 1.1
+      },
+      "h1": {
+        "fontFamily": "Alegreya Sans, system-ui",
+        "fontSize": "64px",
+        "fontWeight": 900,
+        "lineHeight": 1.1
+      },
+      "h2": {
+        "fontFamily": "Alegreya Sans, system-ui",
+        "fontSize": "48px",
+        "fontWeight": 900,
+        "lineHeight": 1.1
+      },
+      "h3": {
+        "fontFamily": "Alegreya Sans, system-ui",
+        "fontSize": "32px",
+        "fontWeight": 900,
+        "lineHeight": 1.1
+      },
+      "h4": {
+        "fontFamily": "Exo 2, system-ui",
+        "fontSize": "20px",
+        "fontWeight": 800,
+        "lineHeight": 1.1
+      },
+      "body": {
+        "fontFamily": "Exo 2, system-ui",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": 1.6
+      },
+      "button": {
+        "fontFamily": "Exo 2, system-ui",
+        "fontSize": "18px",
+        "fontWeight": 700,
+        "lineHeight": 1
+      }
+    },
+    "files": [
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-100-italic.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-100-normal.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-300-italic.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-300-normal.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-400-italic.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-400-normal.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-500-italic.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-500-normal.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-700-italic.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-700-normal.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-800-italic.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-800-normal.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-900-italic.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-900-normal.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-ext-100-italic.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-ext-100-normal.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-ext-300-italic.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-ext-300-normal.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-ext-400-italic.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-ext-400-normal.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-ext-500-italic.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-ext-500-normal.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-ext-700-italic.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-ext-700-normal.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-ext-800-italic.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-ext-800-normal.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-ext-900-italic.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/alegreya-sans-latin-ext-900-normal.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/exo-2-latin-ext-wght-italic.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/exo-2-latin-ext-wght-normal.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/exo-2-latin-wght-italic.woff2",
+        "license": "OFL"
+      },
+      {
+        "file": "stardust/current/assets/fonts/exo-2-latin-wght-normal.woff2",
+        "license": "OFL"
+      }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc"
+    }
+  },
+  "spacing": {
+    "sm": "16px",
+    "md": "24px",
+    "lg": "32px",
+    "xl": "40px"
+  },
+  "motifs": {
+    "radius": {
+      "mode": "12px",
+      "areaMode": "12px",
+      "pill": "100px",
+      "values": [
+        {
+          "value": "12px",
+          "count": 1621,
+          "area": 276492920,
+          "sources": [
+            {
+              "url": "https://www.fairtrade.net/africa-en.html",
+              "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.fairtrade.net/africa-en.html",
+              "selector": "div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div"
+            },
+            {
+              "url": "https://www.fairtrade.net/africa-en.html",
+              "selector": "div > div:nth-of-type(4) > div > div > div > div > div:nth-of-type(2) > div"
+            },
+            {
+              "url": "https://www.fairtrade.net/africa-en.html",
+              "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2) > div > div:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.fairtrade.net/at-de.html",
+              "selector": "div > div:nth-of-type(1) > div > div > div > div > div:nth-of-type(1) > div:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "100%",
+          "count": 1392,
+          "area": 2564608,
+          "sources": [
+            {
+              "url": "https://www.fairtrade.net/africa-en.html",
+              "selector": "main > div > div:nth-of-type(2) > div > div:nth-of-type(1) > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.fairtrade.net/africa-en.html",
+              "selector": "main > div > div:nth-of-type(2) > div > div:nth-of-type(1) > button:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.fairtrade.net/africa-en.html",
+              "selector": "main > div > div:nth-of-type(8) > div > div:nth-of-type(1) > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.fairtrade.net/africa-en.html",
+              "selector": "div > div:nth-of-type(12) > div > ul > li:nth-of-type(1) > div > div:nth-of-type(1) > div"
+            },
+            {
+              "url": "https://www.fairtrade.net/africa-en.html",
+              "selector": "div > div:nth-of-type(12) > div > ul > li:nth-of-type(2) > div > div:nth-of-type(1) > div"
+            }
+          ]
+        },
+        {
+          "value": "100px",
+          "count": 827,
+          "area": 10172435,
+          "sources": [
+            {
+              "url": "https://www.fairtrade.net/africa-en.html",
+              "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(1) > div > a"
+            },
+            {
+              "url": "https://www.fairtrade.net/africa-en.html",
+              "selector": "main > div > div:nth-of-type(2) > div > div:nth-of-type(2) > a"
+            },
+            {
+              "url": "https://www.fairtrade.net/africa-en.html",
+              "selector": "div > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div > div:nth-of-type(1) > a"
+            },
+            {
+              "url": "https://www.fairtrade.net/at-de.html",
+              "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(2) > div > a"
+            },
+            {
+              "url": "https://www.fairtrade.net/at-de.html",
+              "selector": "div > div > div:nth-of-type(1) > div:nth-of-type(2) > div > div:nth-of-type(2) > div > a"
+            }
+          ]
+        },
+        {
+          "value": "16px",
+          "count": 516,
+          "area": 4612777,
+          "sources": [
+            {
+              "url": "https://www.fairtrade.net/africa-en.html",
+              "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(1) > a > div > div:nth-of-type(2) > span"
+            },
+            {
+              "url": "https://www.fairtrade.net/africa-en.html",
+              "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(2) > a > div > div:nth-of-type(2) > span"
+            },
+            {
+              "url": "https://www.fairtrade.net/africa-en.html",
+              "selector": "div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(3) > a > div > div:nth-of-type(2) > span"
+            },
+            {
+              "url": "https://www.fairtrade.net/at-de.html",
+              "selector": "#article-cop31 > div > div:nth-of-type(2) > span:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.fairtrade.net/at-de.html",
+              "selector": "#article-cop31 > div > div:nth-of-type(2) > span:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "4px",
+          "count": 26,
+          "area": 9292028,
+          "sources": [
+            {
+              "url": "https://www.fairtrade.net/us-en/fairtrade-newsletter.html",
+              "selector": "main > div > div:nth-of-type(2) > div > iframe"
+            },
+            {
+              "url": "https://www.fairtrade.net/us-en/for-business/for-retailers.html",
+              "selector": "#maincontainer-58b60c98e9 > div:nth-of-type(5) > div > iframe"
+            },
+            {
+              "url": "https://www.fairtrade.net/us-en/get-involved/activism.html",
+              "selector": "main > div > div:nth-of-type(3) > div > iframe"
+            },
+            {
+              "url": "https://www.fairtrade.net/us-en/news/silence-isn-t-a-strategy--why--greenshouting--matters-for-busine.html",
+              "selector": "#maincontainer-fcac7cc06e > div:nth-of-type(5) > div > iframe"
+            },
+            {
+              "url": "https://www.fairtrade.net/us-en/products/all-products/coffee.html",
+              "selector": "main > div > div:nth-of-type(7) > div > iframe"
+            }
+          ]
+        },
+        {
+          "value": "120px",
+          "count": 4,
+          "area": 52079,
+          "sources": [
+            {
+              "url": "https://www.fairtrade.net/de-de.html",
+              "selector": "#select-id-teasergrid > div:nth-of-type(1) > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.fairtrade.net/it-it.html",
+              "selector": "#select-id-teasergrid > div:nth-of-type(1) > button:nth-of-type(1)"
+            }
+          ]
+        }
+      ]
+    },
+    "shadows": [
+      {
+        "value": "rgba(30, 30, 30, 0.1) 0px 4px 8px 0px",
+        "count": 502,
+        "sources": [
+          {
+            "url": "https://www.fairtrade.net/africa-en.html",
+            "selector": "main > div > div:nth-of-type(12) > div > ul > li:nth-of-type(1) > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.fairtrade.net/africa-en.html",
+            "selector": "main > div > div:nth-of-type(12) > div > ul > li:nth-of-type(2) > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.fairtrade.net/africa-en.html",
+            "selector": "main > div > div:nth-of-type(12) > div > ul > li:nth-of-type(3) > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.fairtrade.net/at-de.html",
+            "selector": "main > div > div:nth-of-type(14) > div > ul > li:nth-of-type(1) > div > div:nth-of-type(1)"
+          },
+          {
+            "url": "https://www.fairtrade.net/at-de.html",
+            "selector": "main > div > div:nth-of-type(14) > div > ul > li:nth-of-type(2) > div > div:nth-of-type(1)"
+          }
+        ]
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(rgb(212, 255, 71) 33.3333%, rgb(255, 255, 255) 33.3333%)",
+        "count": 61,
+        "area": 29079000,
+        "sources": [
+          {
+            "url": "https://www.fairtrade.net/africa-en.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.fairtrade.net/iberica-es.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.fairtrade.net/iberica-pt.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.fairtrade.net/it-it.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+            "selector": "#maincontainer-7f80a85dbe > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(rgb(0, 27, 110) 33.3333%, rgb(255, 255, 255) 33.3333%)",
+        "count": 23,
+        "area": 10915560,
+        "sources": [
+          {
+            "url": "https://www.fairtrade.net/us-en/for-business.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-producers.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/business-success-stories.html",
+            "selector": "#maincontainer-abf5b98fb7 > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.fairtrade.net/us-en/products/all-products/cocoa.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.fairtrade.net/us-en/products/all-products/cotton.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(rgb(15, 192, 252) 33.3333%, rgb(255, 255, 255) 33.3333%)",
+        "count": 12,
+        "area": 5501520,
+        "sources": [
+          {
+            "url": "https://www.fairtrade.net/us-en/products/all-products/herbs-spices.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.fairtrade.net/us-en/why-fairtrade.html",
+            "selector": "#maincontainer-ade72fc8ff > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          }
+        ]
+      },
+      {
+        "value": "linear-gradient(rgb(255, 255, 255) 33.3333%, rgb(255, 255, 255) 33.3333%)",
+        "count": 5,
+        "area": 2663280,
+        "sources": [
+          {
+            "url": "https://www.fairtrade.net/us-en/for-business/get-certified/the-certification-process.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          },
+          {
+            "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html",
+            "selector": "main > div > div:nth-of-type(1) > div > div:nth-of-type(2)"
+          }
+        ]
+      }
+    ],
+    "patterns": {
+      "waves": "SVG wave dividers, separate mobile/tablet/desktop shapes (.Wave--mobile/--tablet/--desktop)",
+      "blobs": "organic blob shapes behind number facts (.Bubble color-*)",
+      "contentFader": "components fade in on intersection ([data-module~=content-fader] > * opacity → 1 with .is-visible)"
+    }
+  },
+  "componentStyle": {
+    "button": {
+      "height": "48px",
+      "padding": "0 32px",
+      "radius": "75pt",
+      "border": "2px solid transparent",
+      "font": "700 18px Exo 2"
+    }
+  },
+  "systemComponents": [
+    {
+      "kind": "header",
+      "selector": "header .Topbar",
+      "occurrences": 100,
+      "note": "per-locale logo and navigation"
+    },
+    {
+      "kind": "footer",
+      "selector": "footer .Footer",
+      "occurrences": 100
+    }
+  ],
+  "iconFont": null,
+  "voice": {
+    "heroHeadline": "Fairtrade Farmers and their Stories",
+    "heroLede": "More than two million farmers are part of the Fairtrade system, working to support their families, communities, and futures.",
+    "firstParagraph": "The world's trade system exploits farmers. Fairtrade steps in the right direction by supporting sustainable lives for farmers and their families.",
+    "ctas": [
+      "US • EN Open or close the locale selector. The currently selected locale is US-EN.",
+      "Instagram",
+      "LinkedIn"
+    ],
+    "heroImage": null,
+    "heroMedium": null
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      {
+        "label": "US • EN Open or close the locale selector. The currently selected locale is US-EN.",
+        "count": 148
+      },
+      {
+        "label": "Instagram",
+        "count": 100
+      },
+      {
+        "label": "LinkedIn",
+        "count": 99
+      },
+      {
+        "label": "Back to Homepage",
+        "count": 83
+      },
+      {
+        "label": "Search Open the search box",
+        "count": 82
+      },
+      {
+        "label": "Open Open the meta menu",
+        "count": 82
+      },
+      {
+        "label": "Get Involved",
+        "count": 81
+      },
+      {
+        "label": "Products",
+        "count": 80
+      }
+    ],
+    "headingFrequency": [
+      {
+        "label": "What is Fairtrade?",
+        "count": 10
+      },
+      {
+        "label": "Current challenges",
+        "count": 9
+      },
+      {
+        "label": "How Fairtrade makes a difference",
+        "count": 9
+      },
+      {
+        "label": "Fairtrade Products",
+        "count": 8
+      },
+      {
+        "label": "Benefits of Fairtrade",
+        "count": 7
+      },
+      {
+        "label": "Fast facts",
+        "count": 6
+      },
+      {
+        "label": "Find what you are looking for",
+        "count": 5
+      },
+      {
+        "label": "Do you want to know the basics?",
+        "count": 5
+      },
+      {
+        "label": "Do you want to dive deep into how Fairtrade works?",
+        "count": 5
+      },
+      {
+        "label": "More than a label",
+        "count": 5
+      },
+      {
+        "label": "\"Fairtrade has changed my life. Indeed, in a crisis situation, I have an inflow of money for my needs instead of going into debt. And Fairtrade has made me a woman leader.”",
+        "count": 4
+      },
+      {
+        "label": "Latest News",
+        "count": 4
+      },
+      {
+        "label": "Get Involved",
+        "count": 4
+      },
+      {
+        "label": "Assuring integrity in checking compliance",
+        "count": 4
+      },
+      {
+        "label": "Resources",
+        "count": 4
+      },
+      {
+        "label": "Do you want to become Fairtrade certfied?",
+        "count": 3
+      },
+      {
+        "label": "Wer wir sind",
+        "count": 3
+      },
+      {
+        "label": "Was wir tun",
+        "count": 3
+      },
+      {
+        "label": "Was wir fordern",
+        "count": 3
+      },
+      {
+        "label": "Areas of focus",
+        "count": 3
+      }
+    ],
+    "distinctHeadings": 984,
+    "distinctCtaLabels": 1198
+  },
+  "crossPromo": {
+    "detected": false
+  },
+  "register": "brand"
+}

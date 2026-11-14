@@ -1,0 +1,719 @@
+{
+  "slug": "jp-jp-html",
+  "type": "locale-home",
+  "renderBranch": "A'",
+  "template": "at-de-html",
+  "modules": [
+    "content-fader",
+    "page-hero-carousel",
+    "accordion",
+    "filtered-teaser-grid",
+    "number-fact-teaser"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "cmp-container"
+  ],
+  "canonShas": {
+    "header": "50fdd313fb98",
+    "footer": "dd57123d193b",
+    "css": "2bf6b48caf7e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "フェアトレード・ジャパン｜Fairtrade Japan｜公式サイト",
+    "description": "フェアトレード・ジャパンは、Fairtrade Internationalの構成メンバーとして日本国内における、国際フェアトレード認証ラベルのライセンス、認証事業、フェアトレードの普及啓発活動を主に行っている認定NPO法人です。",
+    "canonical": "https://main--63f9f24b--aemcoder.aem.page/jp-jp.html",
+    "lang": "ja"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Fairtrade.net",
+    "alternateName": "Fairtrade Japan",
+    "url": "https://www.fairtrade.net/"
+  },
+  "migratedAt": "2026-11-14T07:55:16Z",
+  "designMdSha": "ba7a99252bf7",
+  "designJsonSha": "d7cf7a9249c2",
+  "sourceCurrentSha": "e0d745e5f9b8",
+  "sourceProposedSha": "86eecb91effc",
+  "fidelityTier": "sibling",
+  "archetypeSource": "at-de-html",
+  "archetypeSha": "7c54e4ea9c35",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 vs at-de-html: per-page module composition (hero/teaser/nav/accordion/text-image counts), grey text-image band, wide navigation-teaser, large teaser family (stardust/migrate/variance/locale-home.json)",
+    "delivery-lint": "delivery-lint 0 P0/P1 on content/jp-jp.html (path /jp-jp)",
+    "media-reconcile": "media-reconcile: all images keep (200), no omit/unresolved after the encoder's broken-image omit",
+    "pixel-gate-1440": "gate-all 1440 published: pixel 0.13%, |Δh|≤5%, clip 0, content MISSING+HIDDEN 0, fonts loaded",
+    "pixel-gate-360": "gate-all 360 published: pixel 0.52%, |Δh|≤5%, clip 0, content MISSING+HIDDEN 0, fonts loaded",
+    "content-count": "gate-all content probe: MISSING 0 / HIDDEN 0 at both widths (or the passing width; see pixel gates)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/what-we-do.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/what-we-do/how-fairtrade-works-.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/what-we-do/key-benefits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/what-we-do/theory-of-change.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/what-we-do/about-organisation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it/child-protection.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it/climate-and-the-environment.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it/decent-livelihoods.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it/gender-equality.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it/hredd.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it/smallholder-farmers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it/Workers-Rights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/how-we-do-it.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/how-we-do-it/how-does-the-label-work.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/how-we-do-it/fairtrade-standards.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/how-we-do-it/advocacy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/how-we-do-it/our-projects-and-programmes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/impact/impact-stories-.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/impact/key-figures-at-a-glance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/products/fairtrade-products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/products/online-shop.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/products/brand-list.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/fairtrade-finder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/benefits-of-being-certified.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/benefits-of-being-certified/benefits-for-business.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/benefits-of-being-certified/benefits-for-producers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/benefits-of-being-certified/consumer-trends.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/benefits-of-being-certified/fairtrade-japan-award.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/benefits-of-being-certified/fairtrade-and-the-eu-empowering-consumers-directive.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/how-to-get-involved.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/how-to-get-involved/get-certified.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/how-to-get-involved/Get-licensed.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/how-to-get-involved/apply-to-become-a-licensee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/how-to-get-involved/audit.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/how-to-get-involved/licensee-resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/how-to-get-involved/cross-border.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/workplace.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/how-to-get-involved.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/campaign.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/campaign/million-action-campaign.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/campaign/environment-month.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/donation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/resources/materials.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/resources/promotion-goods.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/news.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/library.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/news.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/news.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/what-we-do.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/what-we-do/how-fairtrade-works-.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/what-we-do/key-benefits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/what-we-do/theory-of-change.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/what-we-do/about-organisation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it/child-protection.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it/climate-and-the-environment.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it/decent-livelihoods.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it/gender-equality.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it/hredd.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it/smallholder-farmers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it/Workers-Rights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/how-we-do-it.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/how-we-do-it/how-does-the-label-work.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/how-we-do-it/fairtrade-standards.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/how-we-do-it/advocacy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/how-we-do-it/our-projects-and-programmes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/impact/impact-stories-.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/impact/key-figures-at-a-glance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/fairtrade-finder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/products/fairtrade-products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/products/online-shop.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/products/brand-list.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/benefits-of-being-certified.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/benefits-of-being-certified/benefits-for-business.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/benefits-of-being-certified/benefits-for-producers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/benefits-of-being-certified/consumer-trends.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/benefits-of-being-certified/fairtrade-japan-award.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/benefits-of-being-certified/fairtrade-and-the-eu-empowering-consumers-directive.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/how-to-get-involved.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/how-to-get-involved/get-certified.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/how-to-get-involved/Get-licensed.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/how-to-get-involved/apply-to-become-a-licensee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/how-to-get-involved/audit.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/how-to-get-involved/licensee-resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/how-to-get-involved/cross-border.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/workplace.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/how-to-get-involved.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/campaign.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/campaign/million-action-campaign.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/campaign/environment-month.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/donation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/resources/materials.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/resources/promotion-goods.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/news.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/library.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ca-fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/iberica-es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/iberica-pt.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ie-en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it-it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/kr-ko.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/napp-en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/nl-nl.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/no-no.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/pl-pl.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/se-sv.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch-de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch-fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/uk-en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/products/brand-list.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/impact/impact-stories-/what-does-it-mean-to-be-a-woman-coffee-farmer-today--coffee-conv2.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-japan/about/2025_annual_report.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/Press-centre.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/impact/impact-stories-/what-does-it-mean-to-be-a-woman-coffee-farmer-today--coffee-conv2.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/news/2026-10-30.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/news/2026-10-30-2.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/news/2026-07-28.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "[%=cta.link%]",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/news.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/what-we-do/key-benefits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/why-we-do-it.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/impact/impact-stories-.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/impact/impact-stories-/what-does-it-mean-to-be-a-woman-coffee-farmer-today--coffee-conv2.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/impact/impact-stories-/maria-fernanda-franco-journey-in-banana-farming.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/impact/impact-stories-/producer-network.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "[%=cta.link%]",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/what-we-do.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/how-we-do-it.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/benefits-of-being-certified.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/jp-jp/for-business/how-to-get-involved.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/jp-jp/about/application.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/how-to-get-involved.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/about/about-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/about/governance-and-board.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/about/report.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/about/ambassador.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/about/opportunities.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/about/fairtrade-global-network.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/Press-centre.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/fairtrade-finder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/for-business/how-to-get-involved/apply-to-become-a-licensee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/about/application.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/get-involved/resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/about/faq.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/about/contact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/about/governance-and-board/impressum.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/about/governance-and-board/privacy-policy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/about/governance-and-board/complaint.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/why-fairtrade/how-we-do-it/how-does-the-label-work/report-misuse-of--the-fairtrade-mark.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/jp-jp/about/governance-and-board/commerce.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "jp-jp.html",
+  "outputPathDefault": null,
+  "sidecar": "jp-jp._meta.json",
+  "driverVersion": "1"
+}

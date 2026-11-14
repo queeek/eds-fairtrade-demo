@@ -1,0 +1,675 @@
+{
+  "slug": "it-it-html",
+  "type": "locale-home",
+  "renderBranch": "A'",
+  "template": "at-de-html",
+  "modules": [
+    "content-fader",
+    "filtered-teaser-grid",
+    "select"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "cmp-container"
+  ],
+  "canonShas": {
+    "header": "8ae9c855f77c",
+    "footer": "eee7ca04961b",
+    "css": "2bf6b48caf7e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Fairtrade Italia | Marchio etico per la sostenibilità e diritti umani",
+    "description": "Molto di più del commercio equo e solidale: Fairtrade è il marchio etico per la sostenibilità e i diritti umani. Entra anche tu nel mondo che vogliamo.",
+    "canonical": "https://main--63f9f24b--aemcoder.aem.page/it-it.html",
+    "lang": "it"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Fairtrade.net",
+    "alternateName": "Fairtrade Italia",
+    "url": "https://www.fairtrade.net/"
+  },
+  "migratedAt": "2026-11-14T07:55:16Z",
+  "designMdSha": "ba7a99252bf7",
+  "designJsonSha": "d7cf7a9249c2",
+  "sourceCurrentSha": "4fd922700420",
+  "sourceProposedSha": "d216b22321cc",
+  "fidelityTier": "sibling",
+  "archetypeSource": "at-de-html",
+  "archetypeSha": "7c54e4ea9c35",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count",
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 vs at-de-html: per-page module composition (hero/teaser/nav/accordion/text-image counts), grey text-image band, wide navigation-teaser, large teaser family (stardust/migrate/variance/locale-home.json)",
+    "delivery-lint": "delivery-lint 0 P0/P1 on content/it-it.html (path /it-it)",
+    "media-reconcile": "media-reconcile: all images keep (200), no omit/unresolved after the encoder's broken-image omit",
+    "pixel-gate-1440": "gate-all 1440 published: pixel 0.34%, |Δh|≤5%, clip 0, content MISSING+HIDDEN 0, fonts loaded",
+    "pixel-gate-360": "gate-all 360 published: pixel 0.67%, |Δh|≤5%, clip 0, content MISSING+HIDDEN 0, fonts loaded",
+    "content-count": "gate-all content probe: MISSING 0 / HIDDEN 0 at both widths (or the passing width; see pixel gates)",
+    "content-fidelity": "content-diff.mjs source vs preview --profile generic --main main: 0 structural 🔴"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/cosa-facciamo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/cosa-facciamo/cos-e-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/cosa-facciamo/come-funziona-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/cosa-facciamo/vantaggi-di-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/i-diritti-umani-e-ambientali.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/protezione-dei-minori.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/clima-e-ambiente.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/vita-dignitosa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/deforestazione.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/fairtrade-e-gli-SDGs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/diritti-dei-lavoratori.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/parita-di-genere.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/agricoltura-famigliare.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/come-lo-facciamo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/come-lo-facciamo/advocacy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/come-lo-facciamo/marchi-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/come-lo-facciamo/progetti-e-programmi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/come-lo-facciamo/standard-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/impatto.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/impatto/storie-dei-produttori.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/impatto/dati.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/impatto/come-misuriamo-impatto.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/frutta-secca-semi-oleosi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/quinoa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/banane.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/cacao.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/caffe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/cotone.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/fiori.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/frutta-succhi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/oro.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/spezie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/miele.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/riso.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/palloni.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/zucchero.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/te.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/tessile.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/prodotti/catalogo-prodotti.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/prodotti/dove-trovarli.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/aziende.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/aziende/supporto-eudr.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/partecipa/scuole.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/partecipa/parla-di-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/partecipa/campagne.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/fairtrade-italia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/equi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/area-stampa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/materiali.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/faq.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/contattaci.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/fairtrade-italia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/equi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/area-stampa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/materiali.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/faq.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/contattaci.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/cosa-facciamo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/cosa-facciamo/cos-e-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/cosa-facciamo/come-funziona-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/cosa-facciamo/vantaggi-di-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/i-diritti-umani-e-ambientali.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/protezione-dei-minori.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/clima-e-ambiente.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/vita-dignitosa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/deforestazione.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/fairtrade-e-gli-SDGs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/diritti-dei-lavoratori.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/parita-di-genere.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/perche-lo-facciamo/agricoltura-famigliare.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/come-lo-facciamo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/come-lo-facciamo/advocacy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/come-lo-facciamo/marchi-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/come-lo-facciamo/progetti-e-programmi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/come-lo-facciamo/standard-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/impatto.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/impatto/storie-dei-produttori.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/impatto/dati.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/impatto/come-misuriamo-impatto.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/frutta-secca-semi-oleosi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/quinoa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/banane.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/cacao.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/caffe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/cotone.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/fiori.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/frutta-succhi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/oro.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/spezie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/miele.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/riso.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/palloni.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/zucchero.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/te.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/filiere/tessile.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/prodotti/catalogo-prodotti.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/prodotti/dove-trovarli.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/aziende.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/aziende/supporto-eudr.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/partecipa/scuole.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/partecipa/parla-di-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/partecipa/campagne.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/no-no.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/pl-pl.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/se-sv.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch-de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch-fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/uk-en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/cosa-facciamo/cos-e-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/prodotti/dove-trovarli.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/cos-e-fairtrade/impatto/storie-dei-produttori.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/aziende.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/da-dove-viene-zucchero-origine-coltivazione-filiera.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/Bruxelles-2026-e-l-International-Fair-Trade-Towns-Conference.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/Fairtrade-migliora-le-condizioni-per-chi-coltiva-canna-da-zucchero.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/ricerca-formatore-trice-progetto-scuole.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/le-richieste-di-Fairtrade-e-delle-comunit--agricole-alla-COP.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/regione-umbria-citta-di-castello-territori-equosolidali.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/La-resilienza-non---un-caso--come-la-mitigazione-del-rischio-costruisce-filiere-durature.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/Da-lavoratrice-stagionale-a-responsabile-di-produzione--il-percorso-lungo-25-anni-di-Jacqueline-Chepsergon-nell-industria-floricola-del-Kenya.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/Greenwashing--cos--,-come-riconoscerlo-e-perch--conta-quello-che-scegli.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/Cotone-organico--cos--,-come-si-coltiva-e-perch--sceglierlo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/Fairtrade-aumenta-il-Prezzo-Minimo-per-le-banane-a-fronte-dell-impennata-dei-costi-per-le-imprese-agricole.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/spettacolo-vestiti-slow-con-Andrea-Vico-compagnia-mulino-ad-arte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/-Il-caff----come-crescere-un-figlio-,-come-la-signora-Rizkani-si-prende-cura-dei-suoi-raccolti-e-della-sua-comunit-.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/verso-un-commercio-pi--giusto-con-la-passeggiata--Rotta-Equa-.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/cosa-comporta-empco-imprese.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/Settimane-Fairtrade-2026--la-spesa-responsabile-protagonista-del-carrello.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/slow-fashion--cos-e--principi-e-come-adottarla-nella-vita-di-tut.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/Il-programma-Fairtrade-a-supporto-della-prevenzione-e-della-risposta-al-lavoro-minorile-si-espande-a-12-cooperative-del-cacao-e-5-000-bambini-al-suo-terzo-anno.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/resilienza-settore-caffe-richiede-tutele-economiche-chi-coltiva.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/news/consultazione-evoluzione-standard-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "[%=cta.link%]",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/fairtrade-italia.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/fairtrade-italia/report-annuali.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/fairtrade-italia/soci.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/fairtrade-italia/Governance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/fairtrade-italia/Partecipazioni.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/contattaci.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/privacy-cookies-policy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/termini-e-condizioni.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/segnalazioni-reclami.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/faq.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/area-stampa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/it-it/newsletter.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "it-it.html",
+  "outputPathDefault": null,
+  "sidecar": "it-it._meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,770 @@
+{
+  "slug": "se-sv-html",
+  "type": "locale-home",
+  "renderBranch": "A'",
+  "template": "at-de-html",
+  "modules": [
+    "content-fader",
+    "page-hero-carousel",
+    "number-fact-teaser",
+    "filtered-teaser-grid"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "cmp-container"
+  ],
+  "canonShas": {
+    "header": "643ae35423bf",
+    "footer": "18128d0d3578",
+    "css": "2bf6b48caf7e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Fairtrade Sverige",
+    "description": null,
+    "canonical": "https://main--63f9f24b--aemcoder.aem.page/se-sv.html",
+    "lang": "sv"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Fairtrade.net",
+    "alternateName": "Fairtrade Sverige",
+    "url": "https://www.fairtrade.net/"
+  },
+  "migratedAt": "2026-11-14T07:55:17Z",
+  "designMdSha": "ba7a99252bf7",
+  "designJsonSha": "d7cf7a9249c2",
+  "sourceCurrentSha": "29fa9ee0d48d",
+  "sourceProposedSha": "cfd2d38cf80f",
+  "fidelityTier": "sibling",
+  "archetypeSource": "at-de-html",
+  "archetypeSha": "7c54e4ea9c35",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 vs at-de-html: per-page module composition (hero/teaser/nav/accordion/text-image counts), grey text-image band, wide navigation-teaser, large teaser family (stardust/migrate/variance/locale-home.json)",
+    "delivery-lint": "delivery-lint 0 P0/P1 on content/se-sv.html (path /se-sv)",
+    "media-reconcile": "media-reconcile: all images keep (200), no omit/unresolved after the encoder's broken-image omit",
+    "pixel-gate-1440": "gate-all 1440 published: pixel 0.26%, |Δh|≤5%, clip 0, content MISSING+HIDDEN 0, fonts loaded",
+    "pixel-gate-360": "gate-all 360 published: pixel 0.64%, |Δh|≤5%, clip 0, content MISSING+HIDDEN 0, fonts loaded",
+    "content-count": "gate-all content probe: MISSING 0 / HIDDEN 0 at both widths (or the passing width; see pixel gates)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/det-har-ar-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/det-har-ar-fairtrade/vad-ar-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/det-har-ar-fairtrade/sa-fungerar-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/det-har-ar-fairtrade/var-forandringsteori.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/det-har-ar-fairtrade/fairtrade-sverige.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/vara-viktigaste-fragor.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/vara-viktigaste-fragor/arbetsvillkor.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/vara-viktigaste-fragor/barnarbete.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/vara-viktigaste-fragor/levnadsinkomst-och-levnadslon.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/vara-viktigaste-fragor/klimat-och-miljo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/vara-viktigaste-fragor/avskogning.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/vara-viktigaste-fragor/jamstalldhet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/vara-viktigaste-fragor/agenda-2030.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-jobbar-vi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-jobbar-vi/fairtrade-markning.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-jobbar-vi/fairtrade-kriterier.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-jobbar-vi/paverkansarbete.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-jobbar-vi/projekt-och-program.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-gor-vi-skillnad.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-gor-vi-skillnad/odlare-och-anstallda.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-gor-vi-skillnad/siffror-och-resultat.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-gor-vi-skillnad/forskning-om-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-gor-vi-skillnad/vara-rapporter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-gor-vi-skillnad/vara-verktyg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/bananer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/kaffe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/kakao.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/te.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/bomull.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/blommor.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/socker.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/vin.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/ovriga-produkter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/fordelar-med-certifieringen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/fordelar-med-certifieringen/fordelar-for-odlare-och-anstallda.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/fordelar-med-certifieringen/konsumenttrender.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/satsa-pa-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/satsa-pa-fairtrade/bli-certifierad.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/satsa-pa-fairtrade/bli-licensierad.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/satsa-pa-fairtrade/vara-markningar.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/resurser-for-foretag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/resurser-for-foretag/riktlinjer-for-anvandning-av-vara-markningar.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/resurser-for-foretag/ladda-ned-fairtrade-marken.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/resurser-for-foretag/connect.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/resurser-for-foretag/var-kommunikationsguide.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/engagera-dig/fairtrade-pa-jobbet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/fairtrade-city-och-region.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/fairtrade-city-och-region/varfor-diplomering.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/fairtrade-city-och-region/bli-fairtrade-city.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/fairtrade-city-och-region/bli-fairtrade-region.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/fairtrade-city-och-region/kontaktuppgifter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/resurser-for-diplomerade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/resurser-for-diplomerade/natverk-och-stod.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/resurser-for-diplomerade/fornya-diplomeringen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/resurser-for-diplomerade/utmarkelser.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/resurser-for-diplomerade/banansatsningen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/resurser-for-diplomerade/inspireras-av-andra.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/etisk-konsumtion-hallbar-handel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/etisk-konsumtion-hallbar-handel/agenda-2030.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/etisk-konsumtion-hallbar-handel/offentlig-upphandling.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/oka-din-kunskap.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/oka-din-kunskap/var-digitala-utbildning.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/oka-din-kunskap/vara-skolmaterial.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/oka-din-kunskap/vara-workshops.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/oka-din-kunskap/rapporter-och-forskning.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/engagera-dig.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/engagera-dig/bli-medlemsorganisation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/engagera-dig/kampanjer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/engagera-dig/fairtrade-pa-jobbet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/engagera-dig/engagera-din-forsamling.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/engagera-dig/paverka-din-kommun-och-region.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/aktuellt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kontakt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/aktuellt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kontakt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/det-har-ar-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/det-har-ar-fairtrade/vad-ar-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/det-har-ar-fairtrade/sa-fungerar-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/det-har-ar-fairtrade/var-forandringsteori.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/det-har-ar-fairtrade/fairtrade-sverige.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/vara-viktigaste-fragor.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/vara-viktigaste-fragor/arbetsvillkor.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/vara-viktigaste-fragor/barnarbete.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/vara-viktigaste-fragor/levnadsinkomst-och-levnadslon.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/vara-viktigaste-fragor/klimat-och-miljo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/vara-viktigaste-fragor/avskogning.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/vara-viktigaste-fragor/jamstalldhet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/vara-viktigaste-fragor/agenda-2030.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-jobbar-vi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-jobbar-vi/fairtrade-markning.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-jobbar-vi/fairtrade-kriterier.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-jobbar-vi/paverkansarbete.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-jobbar-vi/projekt-och-program.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-gor-vi-skillnad.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-gor-vi-skillnad/odlare-och-anstallda.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-gor-vi-skillnad/siffror-och-resultat.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-gor-vi-skillnad/forskning-om-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-gor-vi-skillnad/vara-rapporter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-gor-vi-skillnad/vara-verktyg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/bananer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/kaffe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/kakao.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/te.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/bomull.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/blommor.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/socker.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/vin.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/produkter/produkter/ovriga-produkter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/engagera-dig/fairtrade-pa-jobbet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/fordelar-med-certifieringen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/fordelar-med-certifieringen/fordelar-for-odlare-och-anstallda.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/fordelar-med-certifieringen/konsumenttrender.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/satsa-pa-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/satsa-pa-fairtrade/bli-certifierad.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/satsa-pa-fairtrade/bli-licensierad.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/satsa-pa-fairtrade/vara-markningar.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/resurser-for-foretag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/resurser-for-foretag/riktlinjer-for-anvandning-av-vara-markningar.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/resurser-for-foretag/ladda-ned-fairtrade-marken.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/resurser-for-foretag/connect.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/foretag/resurser-for-foretag/var-kommunikationsguide.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/fairtrade-city-och-region.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/fairtrade-city-och-region/varfor-diplomering.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/fairtrade-city-och-region/bli-fairtrade-city.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/fairtrade-city-och-region/bli-fairtrade-region.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/fairtrade-city-och-region/kontaktuppgifter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/resurser-for-diplomerade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/resurser-for-diplomerade/natverk-och-stod.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/resurser-for-diplomerade/fornya-diplomeringen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/resurser-for-diplomerade/utmarkelser.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/resurser-for-diplomerade/banansatsningen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/resurser-for-diplomerade/inspireras-av-andra.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/etisk-konsumtion-hallbar-handel.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/etisk-konsumtion-hallbar-handel/agenda-2030.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kommun-region/etisk-konsumtion-hallbar-handel/offentlig-upphandling.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/oka-din-kunskap.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/oka-din-kunskap/var-digitala-utbildning.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/oka-din-kunskap/vara-skolmaterial.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/oka-din-kunskap/vara-workshops.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/oka-din-kunskap/rapporter-och-forskning.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/engagera-dig.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/engagera-dig/bli-medlemsorganisation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/engagera-dig/kampanjer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/engagera-dig/fairtrade-pa-jobbet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/engagera-dig/engagera-din-forsamling.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/engagera-dig/paverka-din-kommun-och-region.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/bananer-for-manskliga-rattigheter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/det-har-ar-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/aktuellt/varldsledare-mots-pa-cop31-odlare-kampar-mot-el-nino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/aktuellt/14-nya-fairtrade-teer-pa-den-svenska-marknaden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/aktuellt/langt-kvar-till-levnadslon-pa-vingardar-i-sydafrika.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-sweden/rapporter/Fairtrade_Sverige_30_skrift.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/det-har-ar-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/aktuellt/varldsledare-mots-pa-cop31-odlare-kampar-mot-el-nino.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/aktuellt/14-nya-fairtrade-teer-pa-den-svenska-marknaden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/aktuellt/projekt-uppmuntrar-butikspersonal-till-hallbarhet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/aktuellt/hoejt-minimipris-staerker-kakaoodlare-i-elfenbenskusten.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/aktuellt/langt-kvar-till-levnadslon-pa-vingardar-i-sydafrika.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/aktuellt/naer-svenska-barn-boerjar-skolan-tvingas-miljoner-andra-till-bar.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "[%=cta.link%]",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/aktuellt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/sa-gor-vi-skillnad/vara-rapporter/mer-an-bara-overleva.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/engagera-dig/fairtrade-pa-jobbet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/om-fairtrade/det-har-ar-fairtrade/fairtrade-sverige.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/aktuellt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kontakt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/kontakt/pressrum.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/jobb-och-praktik.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/fragor-och-svar.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/integritetspolicy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/visselblasning.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/engagemang/engagera-dig/bli-medlemsorganisation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/se-sv/ge-en-gava.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "se-sv.html",
+  "outputPathDefault": null,
+  "sidecar": "se-sv._meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,10 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.fairtrade.net/us-en/news.html (live side from cache stardust/replica/gates/us-en-news-html-1440/chrome-live.json, probed 2026-11-13T22:36:04.231Z — delete the file to re-probe)
+  build: http://localhost:8791/us-en-news-html-proposed.html
+
+■ header: ✓ parity — 11 paired of 11/11 texts, 4/4 icons
+
+■ footer: ✓ parity — 20 paired of 20/20 texts, 16/16 icons
+  🟢 REGION STYLE backgroundColor rgba(0, 0, 0, 0) → rgb(0, 27, 110)  — accepted: Instrument asymmetry, not a paint change: the live <footer> is an AEM experience-fragment wrapper four levels above the navy .Footer, the build <footer> wraps .Footer directly; both <footer> elements compute rgba(0,0,0,0) and both .Footer boxes paint #001b6e at the same rect (measure.mjs: footer > .Footer 0,5790 1440x414 bg rgb(0,27,110) on build = live). Footer crop-compare and pixel diff are the confirmation. Scope: root footer, kind REGION STYLE only (the finding carries no text to narrow on); recorded for archetype index.
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

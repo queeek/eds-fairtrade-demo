@@ -1,0 +1,679 @@
+[live-session] waiting to pace live navigations to www.fairtrade.net (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+[live-session] waiting to pace live navigations to main--63f9f24b--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 641 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/us-en-news-html-1440/vdiff-pub2/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4455,
+  "textLen": 2575,
+  "images": [
+   {
+    "src": "Fairtrade_America_Logo_Vert_80x80.png",
+    "natural": "80x80",
+    "rendered": "80x80",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "409x314",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "409x314",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "409x314",
+    "rendered": "419x315",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "419x314",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "419x314",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "419x314",
+    "rendered": "419x315",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "409x314",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "419x314",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "419x314",
+    "rendered": "419x315",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "419x314",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "419x314",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "409x314",
+    "rendered": "419x315",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "419x314",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "419x314",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "419x314",
+    "rendered": "419x315",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "419x314",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "419x314",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "419x314",
+    "rendered": "419x315",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=187088229&tm=gtm002&Ver=2&mid=969fc8d4-8257-4492-85fb-d2b7c26f8bb1&bo=1&sid=a7386100dfa611f196dfcf3e9d3ef602&vid=a7389970dfa611f1a2b1e3bb8df4d4af&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=1440&sh=1000&sc=24&tl=News&p=https%3A%2F%2Fwww.fairtrade.net%2Fus-en%2Fnews.html&r=&lt=404&evt=pageLoad&sv=2&cdb=AQAQ&rn=497372",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "News",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "72px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "PageLead--contentGrid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "TeaserGrid--grid",
+    "width": 1440,
+    "left": 0
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4455,
+  "textLen": 2598,
+  "images": [
+   {
+    "src": "media_13df0d1ade5b87108701c01320448598686be3f87.png?width=750&format=png&optimize=medium",
+    "natural": "80x80",
+    "rendered": "80x80",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1b02036486deaf1e750659d1bdbdc6b92e2c333b0.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1254x962",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17a90d831d6ee2016f487ca3b37fb0d0ee5cb1c87.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1254x962",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_18115e9e413bca9e8dd2a533e19dc037490327559.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1254x962",
+    "rendered": "419x315",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_13262953a985e21fdcb8da6e9bacf1e3de8aeda20.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1200x900",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1392b4a08b28884ef72ba496eb2f9127ae1f5a29f.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1200x900",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1e85b102204a6b55e3a10756533a45250b6c7a8b1.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1200x900",
+    "rendered": "419x315",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_130fb8f86cc3b626be6d219eca9f8aba7658c9373.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1254x962",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19150b4523acd786faf7886b0aeb1411c60e713a8.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1200x900",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1d1a50c8fbcb6c3d14f93821787087701842c50f0.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1200x900",
+    "rendered": "419x315",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1364accf894e6f900e428d70ce1f06dd9c5b90f6b.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1200x900",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1040f7cde2224607a2a9d2e0a7c99cf0ffbe79711.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1200x900",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_180e75ff5249ae7cc34acf6ea82413f1735db8588.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1254x962",
+    "rendered": "419x315",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17a7ba40d6835d9811064552ea4dc062c7831ea1c.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1200x900",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1378245f13edb0226a97673e701022184cc3a91df.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1200x900",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1cb91fff9c6b1cf45fce5a81d8433f7ceac362dd3.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1200x900",
+    "rendered": "419x315",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_125b9ac203245adcd9f995bc63b783434ae95c547.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1200x900",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_105db95798991f0a06ca5fb420a1b581d653483b7.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1200x900",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1ca66735696d154edaae41a57448ad25e3f90eb44.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1200x900",
+    "rendered": "419x315",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "News",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "72px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news When Communities ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news Silence isn’t a s",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news Fairtrade stands ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news Real Pay Feeds Re",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news A Spicy Fair Shar",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news What is a coopera",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news Sourcing matters:",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news How Fairtrade’s C",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news International Day",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news It's Giveaway Tim",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news World Day Against",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news From Grassroots t",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news International Wor",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news Seedlings Planted",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news The Future is Fai",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news What is a Banana ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news Synthetic Chocola",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news Farm to Family: R",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "page-lead-lead",
+    "width": 888,
+    "left": 276
+   },
+   {
+    "sel": "teaser-grid-grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "teaser-grid-more",
+    "width": 1440,
+    "left": 0
+   }
+  ]
+ }
+}

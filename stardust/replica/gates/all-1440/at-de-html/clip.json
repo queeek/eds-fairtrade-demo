@@ -1,0 +1,77 @@
+{
+ "url": "https://main--63f9f24b--aemcoder.aem.page/at-de",
+ "at": "2026-11-14T10:26:29.961Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 6,
+  "offPage": 76,
+  "textNodes": 138,
+  "controls": 66,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "ul.carousel-list",
+   "path": "div.carousel.contains-product-teasers > ul.carousel-list > li.carousel-item > a.product-teaser",
+   "text": "adobe reservaadobe chardonnay 2026mehr erfahren",
+   "cutMin": 69,
+   "cutMax": 69
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "ul.carousel-list",
+   "path": "li.carousel-item > a.product-teaser > div.product-teaser-merchant > p",
+   "text": "adobe reserva",
+   "cutMin": 36,
+   "cutMax": 36
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "ul.carousel-list",
+   "path": "li.carousel-item > a.product-teaser > div.product-teaser-title > h3#adobe-chardonnay-2026",
+   "text": "adobe chardonnay 2026",
+   "cutMin": 36,
+   "cutMax": 36
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "ul.carousel-list",
+   "path": "li.carousel-item > a.product-teaser > div.product-teaser-title > h3#kinder-mädchen-t-shirt_875016",
+   "text": "kinder mädchen t-shirt_875016",
+   "cutMin": 29,
+   "cutMax": 29
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 1,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 6,
+   "offPage": 77,
+   "textNodes": 141,
+   "controls": 67,
+   "total": 1
+  }
+ }
+}

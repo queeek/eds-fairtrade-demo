@@ -1,0 +1,83 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-13T23:27:08.201Z",
+  "input": "stardust/current/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "www.fairtrade.net"
+ ],
+ "consent": {
+  "cmp": null,
+  "model": "owner-decision",
+  "categories": [],
+  "ruleSets": 0,
+  "consentMode": {
+   "pages": 0,
+   "of": 5,
+   "libraries": [
+    "tags/www.googletagmanager.com-gtm-GTM-P8D4TL3.js",
+    "tags/www.googletagmanager.com-gtm-GTM-W84PHVQB.js"
+   ]
+  }
+ },
+ "routes": [
+  {
+   "id": "google-tag-manager-1",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtm.js?id=GTM-P8D4TL3",
+   "boot": "gtm",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  },
+  {
+   "id": "google-tag-manager-2",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtm.js?id=GTM-NFXSHJVM",
+   "boot": "gtm",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [
+  "consent: Usercentrics",
+  "analytics: Google Analytics / Ads",
+  "analytics: session replay",
+  "marketing: ad / retargeting pixel"
+ ],
+ "tagManagers": [
+  "Google Tag Manager"
+ ],
+ "dataLayers": [
+  "adobeDataLayer",
+  "dataLayer"
+ ],
+ "tagNotes": {
+  "google-tag-manager": {
+   "rules": [],
+   "dataElements": [],
+   "notes": [
+    {
+     "text": "GTM-W84PHVQB injects the Usercentrics CMP (custom HTML tags loading app.usercentrics.eu/browser-ui/latest/loader.js and the TCF stub) and a Google tag (__googtag ×3); consent.cmp stays disabled because the tag manager injects the CMP.",
+     "from": "stardust/martech/tags/www.googletagmanager.com-gtm-GTM-W84PHVQB.js (\"function\":\"__html\" ×2, \"__googtag\" ×3, usercentrics.eu loader URLs)"
+    },
+    {
+     "text": "GTM-P8D4TL3 carries Google Ads conversion tags (__awct ×11), GA4 events (__gaawe ×7), Universal Analytics (__ua ×3), Bing UET (__baut ×5), custom HTML (__html ×6), link-click (__lcl ×10), form-submit (__fsl ×4) and scroll-depth (__sdl ×2) triggers — click/form triggers read DOM selectors that the owner re-checks against the new markup.",
+     "from": "stardust/martech/tags/www.googletagmanager.com-gtm-GTM-P8D4TL3.js (\"function\" counts)"
+    }
+   ]
+  }
+ },
+ "rewrite": {
+  "library": null,
+  "rules": [],
+  "dataElements": [],
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": null,
+ "target": null
+}

@@ -1,0 +1,2498 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T10:49:44.365Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/us-en/products/all-products/cotton.html",
+  "at": "2026-11-14T10:49:25.467Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3649,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "Fairtrade_America_Logo_Vert_80x80"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > span.Breadcrumbs--breadcrumb--title",
+    "x": 125,
+    "y": 122,
+    "w": 57,
+    "h": 20,
+    "text": "Products"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 222,
+    "y": 122,
+    "w": 118,
+    "h": 20,
+    "text": "fairtrade products",
+    "href": "/us-en/products/all-products.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 380,
+    "y": 122,
+    "w": 43,
+    "h": 20,
+    "text": "cotton",
+    "href": "/us-en/products/all-products/cotton.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+    "x": 620,
+    "y": 224,
+    "w": 199,
+    "h": 79,
+    "level": 1,
+    "text": "cotton"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 115,
+    "text": "With a history dating back over 8,000 years, cotton is woven into our everyday l"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--imageGrid > div.Image.ultra-wide > img.lazyautosizes.lazyloaded",
+    "x": 48,
+    "y": 514,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "21x9_1440w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 1210,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "the cotton industry"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > h3 > b",
+    "x": 390,
+    "y": 1211,
+    "w": 248,
+    "h": 32,
+    "text": "The cotton industry"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1270,
+    "w": 660,
+    "h": 115,
+    "text": "Cotton is a heavily traded agricultural commodity with over 150 countries involv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1417,
+    "w": 660,
+    "h": 230,
+    "text": "Heavy subsidies in wealthy countries intended to shield farmers from market vola"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.SingleImage--figure > div.Image.landscape > img.lazyautosizes.lazyloaded",
+    "x": 162,
+    "y": 1767,
+    "w": 1116,
+    "h": 628,
+    "text": "",
+    "file": "16x9_1280w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 2515,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "current challenges"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > h3 > b",
+    "x": 390,
+    "y": 2516,
+    "w": 239,
+    "h": 32,
+    "text": "Current challenges"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2574,
+    "w": 660,
+    "h": 58,
+    "text": "Cotton is one of the world’s biggest crops and a commodity many of us rely on. B"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 2664,
+    "w": 660,
+    "h": 86,
+    "text": "Many cotton farmers depend on the middlemen who buy their cotton, often at price"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 2762,
+    "w": 660,
+    "h": 86,
+    "text": "For example, agrochemicals, such as herbicides and pesticides, and the excessive"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 2860,
+    "w": 660,
+    "h": 58,
+    "text": "Unpredictable weather conditions, higher temperatures, pests and diseases can ma"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 2930,
+    "w": 660,
+    "h": 86,
+    "text": "The incorrect handling of hazardous chemicals among farmers and workers can resu"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 3028,
+    "w": 660,
+    "h": 86,
+    "text": "Child labor is most prominent on small-scale farms, particularly at planting and"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 3251,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 3251,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 76,
+    "y": 3341,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 3389,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 3438,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 418,
+    "y": 3341,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 3389,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 3438,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 3488,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 3538,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 760,
+    "y": 3341,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 3389,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 3438,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 3341,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 3387,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 3387,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 3387,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 3387,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 3475,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 3521,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 43,
+    "controls": 28,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/cotton",
+  "at": "2026-11-14T10:49:44.243Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3649,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_13df0d1ade5b87108701c0132044859868"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > span.breadcrumbs-breadcrumb-title",
+    "x": 125,
+    "y": 122,
+    "w": 57,
+    "h": 20,
+    "text": "Products"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 222,
+    "y": 122,
+    "w": 118,
+    "h": 20,
+    "text": "fairtrade products",
+    "href": "/us-en/products/all-products.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 380,
+    "y": 122,
+    "w": 43,
+    "h": 20,
+    "text": "cotton",
+    "href": "/us-en/products/all-products/cotton.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-title > h1#cotton",
+    "x": 620,
+    "y": 224,
+    "w": 199,
+    "h": 79,
+    "level": 1,
+    "text": "cotton"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-lead > p",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 115,
+    "text": "With a history dating back over 8,000 years, cotton is woven into our everyday l"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.ultra-wide > picture > img",
+    "x": 48,
+    "y": 514,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "media_17cf7c1164974395d7783d63bfffd98614"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#the-cotton-industry",
+    "x": 390,
+    "y": 1210,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "the cotton industry"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > h3#the-cotton-industry > strong",
+    "x": 390,
+    "y": 1211,
+    "w": 248,
+    "h": 32,
+    "text": "The cotton industry"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1270,
+    "w": 660,
+    "h": 115,
+    "text": "Cotton is a heavily traded agricultural commodity with over 150 countries involv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1417,
+    "w": 660,
+    "h": 230,
+    "text": "Heavy subsidies in wealthy countries intended to shield farmers from market vola"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.landscape > picture > img",
+    "x": 162,
+    "y": 1767,
+    "w": 1116,
+    "h": 628,
+    "text": "",
+    "file": "media_1fbbc1aa9c51a882c957ffa824bb2b44c3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#current-challenges",
+    "x": 390,
+    "y": 2515,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "current challenges"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > h3#current-challenges > strong",
+    "x": 390,
+    "y": 2516,
+    "w": 239,
+    "h": 32,
+    "text": "Current challenges"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2574,
+    "w": 660,
+    "h": 58,
+    "text": "Cotton is one of the world’s biggest crops and a commodity many of us rely on. B"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 2664,
+    "w": 660,
+    "h": 86,
+    "text": "Many cotton farmers depend on the middlemen who buy their cotton, often at price"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 2762,
+    "w": 660,
+    "h": 86,
+    "text": "For example, agrochemicals, such as herbicides and pesticides, and the excessive"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 2860,
+    "w": 660,
+    "h": 58,
+    "text": "Unpredictable weather conditions, higher temperatures, pests and diseases can ma"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 2930,
+    "w": 660,
+    "h": 86,
+    "text": "The incorrect handling of hazardous chemicals among farmers and workers can resu"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 3028,
+    "w": 660,
+    "h": 86,
+    "text": "Child labor is most prominent on small-scale farms, particularly at planting and"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 3251,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 3251,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 76,
+    "y": 3341,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 3389,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 3438,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 418,
+    "y": 3341,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 3389,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 3438,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 3488,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 3538,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 760,
+    "y": 3341,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 3389,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 3438,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 3341,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 3387,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 3387,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 3387,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 3387,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 3475,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 3521,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 43,
+    "controls": 28,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "cotton",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "the cotton industry",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 3,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "current challenges",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 7,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 57,
+    "h": 17
+   },
+   {
+    "x": 222,
+    "y": 123,
+    "w": 118,
+    "h": 17
+   },
+   {
+    "x": 380,
+    "y": 123,
+    "w": 43,
+    "h": 17
+   },
+   {
+    "x": 620,
+    "y": 227,
+    "w": 199,
+    "h": 72
+   },
+   {
+    "x": 285,
+    "y": 339,
+    "w": 870,
+    "h": 29
+   },
+   {
+    "x": 277,
+    "y": 378,
+    "w": 886,
+    "h": 29
+   },
+   {
+    "x": 354,
+    "y": 416,
+    "w": 732,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1211,
+    "w": 248,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 1273,
+    "w": 594,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1301,
+    "w": 624,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1330,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1359,
+    "w": 246,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1420,
+    "w": 626,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1449,
+    "w": 656,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1477,
+    "w": 613,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1506,
+    "w": 620,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1535,
+    "w": 653,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1564,
+    "w": 649,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1593,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1621,
+    "w": 248,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2516,
+    "w": 239,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 2577,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2606,
+    "w": 635,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2667,
+    "w": 114,
+    "h": 22
+   },
+   {
+    "x": 520,
+    "y": 2667,
+    "w": 507,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2695,
+    "w": 589,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2724,
+    "w": 306,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2765,
+    "w": 188,
+    "h": 22
+   },
+   {
+    "x": 594,
+    "y": 2765,
+    "w": 425,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2794,
+    "w": 615,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2823,
+    "w": 165,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2863,
+    "w": 119,
+    "h": 22
+   },
+   {
+    "x": 525,
+    "y": 2863,
+    "w": 510,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2892,
+    "w": 522,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2933,
+    "w": 159,
+    "h": 22
+   },
+   {
+    "x": 565,
+    "y": 2933,
+    "w": 441,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2962,
+    "w": 623,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2991,
+    "w": 571,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3031,
+    "w": 239,
+    "h": 22
+   },
+   {
+    "x": 645,
+    "y": 3031,
+    "w": 369,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3060,
+    "w": 620,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3089,
+    "w": 269,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 3253,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 3340,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 3392,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 3441,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 3340,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 3392,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 3441,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 3491,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 3541,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 3340,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 3392,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 3441,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 3340,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 3474,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 3534,
+    "w": 127,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 57,
+    "h": 17
+   },
+   {
+    "x": 222,
+    "y": 123,
+    "w": 118,
+    "h": 17
+   },
+   {
+    "x": 380,
+    "y": 123,
+    "w": 43,
+    "h": 17
+   },
+   {
+    "x": 620,
+    "y": 227,
+    "w": 199,
+    "h": 72
+   },
+   {
+    "x": 285,
+    "y": 339,
+    "w": 870,
+    "h": 29
+   },
+   {
+    "x": 277,
+    "y": 378,
+    "w": 886,
+    "h": 29
+   },
+   {
+    "x": 354,
+    "y": 416,
+    "w": 732,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1211,
+    "w": 248,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 1273,
+    "w": 594,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1301,
+    "w": 624,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1330,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1359,
+    "w": 246,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1420,
+    "w": 626,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1449,
+    "w": 656,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1477,
+    "w": 613,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1506,
+    "w": 620,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1535,
+    "w": 653,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1564,
+    "w": 649,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1593,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1621,
+    "w": 248,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2516,
+    "w": 239,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 2577,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2606,
+    "w": 631,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2667,
+    "w": 114,
+    "h": 22
+   },
+   {
+    "x": 520,
+    "y": 2667,
+    "w": 507,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2695,
+    "w": 589,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2724,
+    "w": 306,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2765,
+    "w": 188,
+    "h": 22
+   },
+   {
+    "x": 594,
+    "y": 2765,
+    "w": 425,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2794,
+    "w": 615,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2823,
+    "w": 165,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2863,
+    "w": 119,
+    "h": 22
+   },
+   {
+    "x": 525,
+    "y": 2863,
+    "w": 510,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2892,
+    "w": 522,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2933,
+    "w": 155,
+    "h": 22
+   },
+   {
+    "x": 561,
+    "y": 2933,
+    "w": 445,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2962,
+    "w": 623,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2991,
+    "w": 571,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3031,
+    "w": 239,
+    "h": 22
+   },
+   {
+    "x": 645,
+    "y": 3031,
+    "w": 369,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3060,
+    "w": 620,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3089,
+    "w": 269,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 3253,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 3340,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 3392,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 3441,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 3340,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 3392,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 3441,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 3491,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 3541,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 3340,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 3392,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 3441,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 3340,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 3474,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 3534,
+    "w": 127,
+    "h": 22
+   }
+  ]
+ }
+}

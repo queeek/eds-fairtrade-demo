@@ -1,0 +1,5338 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T10:48:06.061Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/us-en/privacy-policy.html",
+  "at": "2026-11-14T10:47:41.585Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 8565,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "Fairtrade_America_Logo_Vert_80x80"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+    "x": 515,
+    "y": 224,
+    "w": 410,
+    "h": 79,
+    "level": 1,
+    "text": "privacy policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 154,
+    "text": "Fairtrade America’s processing of your personal data is governed by the Data Pro"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h2",
+    "x": 390,
+    "y": 673,
+    "w": 660,
+    "h": 53,
+    "level": 2,
+    "text": "our privacy policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > b",
+    "x": 390,
+    "y": 761,
+    "w": 268,
+    "h": 22,
+    "text": "How do we collect information?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 818,
+    "w": 660,
+    "h": 173,
+    "text": "When you contact Fairtrade America regarding our activities, register as a suppo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1023,
+    "w": 660,
+    "h": 144,
+    "text": "We also collect information that your browser sends to us, called Log Data, whic"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > b",
+    "x": 390,
+    "y": 1202,
+    "w": 462,
+    "h": 22,
+    "text": "What does providing your personal information mean?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1260,
+    "w": 660,
+    "h": 86,
+    "text": "When you provide us with personal data, such as your name or email address, you "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > b",
+    "x": 390,
+    "y": 1381,
+    "w": 595,
+    "h": 22,
+    "text": "Will we disclose the information we have collected to outside parties?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1439,
+    "w": 660,
+    "h": 115,
+    "text": "We may pass your information to our service providers, associated organizations "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > b",
+    "x": 390,
+    "y": 1589,
+    "w": 164,
+    "h": 22,
+    "text": "Do we use cookies?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1647,
+    "w": 660,
+    "h": 115,
+    "text": "Yes. Cookies are pieces of information that are sent to your computer by Fairtra"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1794,
+    "w": 660,
+    "h": 58,
+    "text": "If you do not want cookies to be stored on your device it is possible to disable"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > b",
+    "x": 390,
+    "y": 1887,
+    "w": 242,
+    "h": 22,
+    "text": "How do you disable cookies?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1945,
+    "w": 660,
+    "h": 58,
+    "text": "In Internet Explorer, click on Tools, then on Settings, then on the Privacy tab."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2034,
+    "w": 660,
+    "h": 58,
+    "text": "In Firefox, click on Tools, then on Options, then on Privacy, then on the Cookie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2124,
+    "w": 660,
+    "h": 86,
+    "text": "In Google Chrome, click the three vertical dots on the right side, then Settings"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > b",
+    "x": 390,
+    "y": 2245,
+    "w": 425,
+    "h": 22,
+    "text": "Can you gain access to your personal information?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2303,
+    "w": 660,
+    "h": 58,
+    "text": "You may request a copy of the personal information relating to you which is kept"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > b",
+    "x": 390,
+    "y": 2396,
+    "w": 212,
+    "h": 22,
+    "text": "Updating my information"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2453,
+    "w": 660,
+    "h": 58,
+    "text": "If any of your personal information changes or you find that our records are out"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > b",
+    "x": 390,
+    "y": 2546,
+    "w": 127,
+    "h": 22,
+    "text": "Children’s data"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2604,
+    "w": 660,
+    "h": 86,
+    "text": "When you register with us, you are stating that you are over 18 years of age or "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > b",
+    "x": 390,
+    "y": 2725,
+    "w": 127,
+    "h": 22,
+    "text": "Confidentiality"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2783,
+    "w": 660,
+    "h": 58,
+    "text": "We cannot be held responsible for the privacy of data collected by websites not "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > b",
+    "x": 390,
+    "y": 2876,
+    "w": 71,
+    "h": 22,
+    "text": "Security"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2933,
+    "w": 660,
+    "h": 115,
+    "text": "We value your personal and financial information and take reasonable steps to pr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > b",
+    "x": 390,
+    "y": 3084,
+    "w": 332,
+    "h": 22,
+    "text": "Notification of change of privacy policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 3141,
+    "w": 660,
+    "h": 86,
+    "text": "We reserve the right to amend this privacy statement. You are advised to visit t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > i",
+    "x": 390,
+    "y": 3263,
+    "w": 78,
+    "h": 22,
+    "text": "May 2021"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 3321,
+    "w": 660,
+    "h": 173,
+    "text": "www.fairtradeamerica.org (the “Site”) is owned and operated by Fairtrade America"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 3525,
+    "w": 660,
+    "h": 259,
+    "text": "The purpose of this privacy policy (this “Privacy Policy”) is to inform users of"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 3817,
+    "w": 660,
+    "h": 29,
+    "text": "This Privacy Policy applies in addition to the of our Site."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > a",
+    "x": 749,
+    "y": 3820,
+    "w": 106,
+    "h": 22,
+    "text": "terms of use",
+    "href": "/terms-of-use/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 3877,
+    "w": 660,
+    "h": 115,
+    "text": "By using our Site users agree that they consent to: 1. The conditions set out in"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4025,
+    "w": 660,
+    "h": 115,
+    "text": "We only collect data that helps us achieve the purpose set out in this Privacy P"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > b",
+    "x": 390,
+    "y": 4175,
+    "w": 248,
+    "h": 22,
+    "text": "Data Collected Automatically"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4232,
+    "w": 660,
+    "h": 202,
+    "text": "When you visit and use our Site, we may automatically collect and store the foll"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4466,
+    "w": 660,
+    "h": 230,
+    "text": "We may also collect the following data when you perform certain functions on our"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4728,
+    "w": 660,
+    "h": 115,
+    "text": "Data collected on our Site will only be used for the purposes specified in this "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4876,
+    "w": 660,
+    "h": 115,
+    "text": "The data we collect automatically is used for the following purposes: The data w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 5023,
+    "w": 660,
+    "h": 115,
+    "text": "Employees We may disclose user data to any member of our organization who reason"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 5170,
+    "w": 660,
+    "h": 288,
+    "text": "We will not sell or share your data with other third parties, except in the foll"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 5490,
+    "w": 660,
+    "h": 86,
+    "text": "User data will be stored until the purpose the data was collected for has been a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 5608,
+    "w": 660,
+    "h": 173,
+    "text": "In order to protect your security, we use the strongest available browser encryp"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 5813,
+    "w": 660,
+    "h": 115,
+    "text": "While we take all reasonable precautions to ensure that user data is secure and "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 5960,
+    "w": 660,
+    "h": 202,
+    "text": "The minimum age to use our website is 13 years of age. We do not knowingly colle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 6194,
+    "w": 660,
+    "h": 259,
+    "text": "If you would like to know if we have collected your personal data, how we have u"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 6485,
+    "w": 660,
+    "h": 86,
+    "text": "Do Not Track (“DNT”) is a privacy preference that you can set in certain web bro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 6603,
+    "w": 660,
+    "h": 230,
+    "text": "In addition to the method(s) described in the How to Access, Modify, Delete, or "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 6866,
+    "w": 660,
+    "h": 173,
+    "text": "A cookie is a small file, stored on a user’s hard drive by a website. Its purpos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 7071,
+    "w": 660,
+    "h": 432,
+    "text": "We use the following types of cookies on our Site: 1. Functional cookies Functio"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 7535,
+    "w": 660,
+    "h": 202,
+    "text": "This Privacy Policy may be amended from time to time in order to maintain compli"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 7768,
+    "w": 660,
+    "h": 202,
+    "text": "If you have any questions, concerns or complaints, you can contact our privacy o"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 8002,
+    "w": 660,
+    "h": 29,
+    "text": "September 2023"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 8167,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 8167,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 76,
+    "y": 8257,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 8305,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 8354,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 418,
+    "y": 8257,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 8305,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 8354,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 8404,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 8453,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 760,
+    "y": 8257,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 8305,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 8354,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 8257,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 8303,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 8303,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 8303,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 8303,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 8391,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 8437,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 142,
+    "controls": 26,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/us-en/privacy-policy",
+  "at": "2026-11-14T10:48:05.954Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 8248,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_13df0d1ade5b87108701c0132044859868"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-title > h1#privacy-policy",
+    "x": 515,
+    "y": 224,
+    "w": 410,
+    "h": 79,
+    "level": 1,
+    "text": "privacy policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-lead > p",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 154,
+    "text": "Fairtrade America’s processing of your personal data is governed by the Data Pro"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h2#our-privacy-policy",
+    "x": 390,
+    "y": 673,
+    "w": 660,
+    "h": 53,
+    "level": 2,
+    "text": "our privacy policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > strong",
+    "x": 390,
+    "y": 761,
+    "w": 268,
+    "h": 22,
+    "text": "How do we collect information?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 818,
+    "w": 660,
+    "h": 173,
+    "text": "When you contact Fairtrade America regarding our activities, register as a suppo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1023,
+    "w": 660,
+    "h": 144,
+    "text": "We also collect information that your browser sends to us, called Log Data, whic"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > strong",
+    "x": 390,
+    "y": 1202,
+    "w": 462,
+    "h": 22,
+    "text": "What does providing your personal information mean?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1260,
+    "w": 660,
+    "h": 86,
+    "text": "When you provide us with personal data, such as your name or email address, you "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > strong",
+    "x": 390,
+    "y": 1381,
+    "w": 595,
+    "h": 22,
+    "text": "Will we disclose the information we have collected to outside parties?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1439,
+    "w": 660,
+    "h": 115,
+    "text": "We may pass your information to our service providers, associated organizations "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > strong",
+    "x": 390,
+    "y": 1589,
+    "w": 164,
+    "h": 22,
+    "text": "Do we use cookies?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1647,
+    "w": 660,
+    "h": 115,
+    "text": "Yes. Cookies are pieces of information that are sent to your computer by Fairtra"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1794,
+    "w": 660,
+    "h": 58,
+    "text": "If you do not want cookies to be stored on your device it is possible to disable"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > strong",
+    "x": 390,
+    "y": 1887,
+    "w": 242,
+    "h": 22,
+    "text": "How do you disable cookies?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1945,
+    "w": 660,
+    "h": 58,
+    "text": "In Internet Explorer, click on Tools, then on Settings, then on the Privacy tab."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2034,
+    "w": 660,
+    "h": 58,
+    "text": "In Firefox, click on Tools, then on Options, then on Privacy, then on the Cookie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2124,
+    "w": 660,
+    "h": 86,
+    "text": "In Google Chrome, click the three vertical dots on the right side, then Settings"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > strong",
+    "x": 390,
+    "y": 2245,
+    "w": 425,
+    "h": 22,
+    "text": "Can you gain access to your personal information?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2303,
+    "w": 660,
+    "h": 58,
+    "text": "You may request a copy of the personal information relating to you which is kept"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > strong",
+    "x": 390,
+    "y": 2396,
+    "w": 212,
+    "h": 22,
+    "text": "Updating my information"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2453,
+    "w": 660,
+    "h": 58,
+    "text": "If any of your personal information changes or you find that our records are out"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > strong",
+    "x": 390,
+    "y": 2546,
+    "w": 127,
+    "h": 22,
+    "text": "Children’s data"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2604,
+    "w": 660,
+    "h": 86,
+    "text": "When you register with us, you are stating that you are over 18 years of age or "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > strong",
+    "x": 390,
+    "y": 2725,
+    "w": 127,
+    "h": 22,
+    "text": "Confidentiality"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2783,
+    "w": 660,
+    "h": 58,
+    "text": "We cannot be held responsible for the privacy of data collected by websites not "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > strong",
+    "x": 390,
+    "y": 2876,
+    "w": 71,
+    "h": 22,
+    "text": "Security"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2933,
+    "w": 660,
+    "h": 115,
+    "text": "We value your personal and financial information and take reasonable steps to pr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > strong",
+    "x": 390,
+    "y": 3084,
+    "w": 332,
+    "h": 22,
+    "text": "Notification of change of privacy policy"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 3141,
+    "w": 660,
+    "h": 86,
+    "text": "We reserve the right to amend this privacy statement. You are advised to visit t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > em",
+    "x": 390,
+    "y": 3263,
+    "w": 78,
+    "h": 22,
+    "text": "May 2021"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 3321,
+    "w": 660,
+    "h": 173,
+    "text": "www.fairtradeamerica.org (the “Site”) is owned and operated by Fairtrade America"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 3525,
+    "w": 660,
+    "h": 230,
+    "text": "The purpose of this privacy policy (this “Privacy Policy”) is to inform users of"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 3788,
+    "w": 660,
+    "h": 29,
+    "text": "This Privacy Policy applies in addition to the of our Site."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 749,
+    "y": 3791,
+    "w": 106,
+    "h": 22,
+    "text": "terms of use",
+    "href": "/terms-of-use/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 3849,
+    "w": 660,
+    "h": 115,
+    "text": "By using our Site users agree that they consent to: 1. The conditions set out in"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 3996,
+    "w": 660,
+    "h": 86,
+    "text": "We only collect data that helps us achieve the purpose set out in this Privacy P"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > strong",
+    "x": 390,
+    "y": 4117,
+    "w": 248,
+    "h": 22,
+    "text": "Data Collected Automatically"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4175,
+    "w": 660,
+    "h": 202,
+    "text": "When you visit and use our Site, we may automatically collect and store the foll"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4408,
+    "w": 660,
+    "h": 202,
+    "text": "We may also collect the following data when you perform certain functions on our"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4642,
+    "w": 660,
+    "h": 86,
+    "text": "Data collected on our Site will only be used for the purposes specified in this "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4760,
+    "w": 660,
+    "h": 115,
+    "text": "The data we collect automatically is used for the following purposes: The data w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4908,
+    "w": 660,
+    "h": 86,
+    "text": "Employees We may disclose user data to any member of our organization who reason"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 5026,
+    "w": 660,
+    "h": 259,
+    "text": "We will not sell or share your data with other third parties, except in the foll"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 5317,
+    "w": 660,
+    "h": 86,
+    "text": "User data will be stored until the purpose the data was collected for has been a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 5436,
+    "w": 660,
+    "h": 144,
+    "text": "In order to protect your security, we use the strongest available browser encryp"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 5612,
+    "w": 660,
+    "h": 115,
+    "text": "While we take all reasonable precautions to ensure that user data is secure and "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 5759,
+    "w": 660,
+    "h": 202,
+    "text": "The minimum age to use our website is 13 years of age. We do not knowingly colle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 5992,
+    "w": 660,
+    "h": 259,
+    "text": "If you would like to know if we have collected your personal data, how we have u"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 6284,
+    "w": 660,
+    "h": 58,
+    "text": "Do Not Track (“DNT”) is a privacy preference that you can set in certain web bro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 6373,
+    "w": 660,
+    "h": 202,
+    "text": "In addition to the method(s) described in the How to Access, Modify, Delete, or "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 6607,
+    "w": 660,
+    "h": 144,
+    "text": "A cookie is a small file, stored on a user’s hard drive by a website. Its purpos"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 6783,
+    "w": 660,
+    "h": 432,
+    "text": "We use the following types of cookies on our Site: 1. Functional cookies Functio"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 7247,
+    "w": 660,
+    "h": 202,
+    "text": "This Privacy Policy may be amended from time to time in order to maintain compli"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 7480,
+    "w": 660,
+    "h": 173,
+    "text": "If you have any questions, concerns or complaints, you can contact our privacy o"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 7685,
+    "w": 660,
+    "h": 29,
+    "text": "September 2023"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 7850,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 7850,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 76,
+    "y": 7940,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 7988,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 8037,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 418,
+    "y": 7940,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 7988,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 8037,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 8087,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 8137,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 760,
+    "y": 7940,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 7988,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 8037,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 7940,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 7986,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 7986,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 7986,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 7986,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 8074,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 8120,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 142,
+    "controls": 26,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "privacy policy",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "our privacy policy",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 51,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 51,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 515,
+    "y": 227,
+    "w": 410,
+    "h": 72
+   },
+   {
+    "x": 294,
+    "y": 339,
+    "w": 852,
+    "h": 29
+   },
+   {
+    "x": 280,
+    "y": 378,
+    "w": 880,
+    "h": 29
+   },
+   {
+    "x": 278,
+    "y": 416,
+    "w": 885,
+    "h": 29
+   },
+   {
+    "x": 305,
+    "y": 454,
+    "w": 830,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 675,
+    "w": 355,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 761,
+    "w": 268,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 821,
+    "w": 597,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 850,
+    "w": 648,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 879,
+    "w": 638,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 908,
+    "w": 623,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 937,
+    "w": 626,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 965,
+    "w": 256,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1026,
+    "w": 609,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1055,
+    "w": 649,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1084,
+    "w": 632,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1113,
+    "w": 571,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1141,
+    "w": 330,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1202,
+    "w": 462,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1263,
+    "w": 631,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1292,
+    "w": 594,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1321,
+    "w": 81,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1381,
+    "w": 595,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1442,
+    "w": 658,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1471,
+    "w": 619,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1500,
+    "w": 655,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1528,
+    "w": 213,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1589,
+    "w": 164,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1650,
+    "w": 583,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1679,
+    "w": 599,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1708,
+    "w": 618,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1736,
+    "w": 39,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1797,
+    "w": 659,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1826,
+    "w": 474,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1887,
+    "w": 242,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1948,
+    "w": 649,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1976,
+    "w": 423,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2037,
+    "w": 631,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2066,
+    "w": 467,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2127,
+    "w": 628,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2156,
+    "w": 654,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2184,
+    "w": 168,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2245,
+    "w": 425,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2306,
+    "w": 652,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2335,
+    "w": 538,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2396,
+    "w": 212,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2456,
+    "w": 642,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2485,
+    "w": 435,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2546,
+    "w": 127,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2607,
+    "w": 631,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2636,
+    "w": 622,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2664,
+    "w": 549,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2725,
+    "w": 127,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2786,
+    "w": 645,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2815,
+    "w": 333,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2876,
+    "w": 71,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2936,
+    "w": 639,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2965,
+    "w": 589,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2994,
+    "w": 588,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3023,
+    "w": 69,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3084,
+    "w": 332,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3144,
+    "w": 628,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3173,
+    "w": 641,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3202,
+    "w": 147,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3263,
+    "w": 78,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3324,
+    "w": 601,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3352,
+    "w": 221,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3381,
+    "w": 164,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3410,
+    "w": 263,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3439,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3468,
+    "w": 443,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3528,
+    "w": 71,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3557,
+    "w": 649,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3586,
+    "w": 82,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3615,
+    "w": 82,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3644,
+    "w": 287,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3672,
+    "w": 194,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3701,
+    "w": 324,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3730,
+    "w": 246,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3759,
+    "w": 208,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3820,
+    "w": 359,
+    "h": 22
+   },
+   {
+    "x": 749,
+    "y": 3820,
+    "w": 106,
+    "h": 22
+   },
+   {
+    "x": 855,
+    "y": 3820,
+    "w": 91,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3880,
+    "w": 70,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3909,
+    "w": 407,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3938,
+    "w": 405,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3967,
+    "w": 604,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4028,
+    "w": 215,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4056,
+    "w": 622,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4085,
+    "w": 606,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4114,
+    "w": 217,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4175,
+    "w": 248,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4235,
+    "w": 612,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4264,
+    "w": 183,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4293,
+    "w": 104,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4322,
+    "w": 93,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4351,
+    "w": 276,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4379,
+    "w": 158,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4408,
+    "w": 149,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4469,
+    "w": 334,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4498,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4527,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4555,
+    "w": 177,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4584,
+    "w": 172,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4613,
+    "w": 89,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4642,
+    "w": 458,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4671,
+    "w": 174,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4731,
+    "w": 229,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4760,
+    "w": 618,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4789,
+    "w": 653,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4818,
+    "w": 420,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4879,
+    "w": 560,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4907,
+    "w": 635,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4936,
+    "w": 193,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4965,
+    "w": 147,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5026,
+    "w": 292,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5055,
+    "w": 90,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5083,
+    "w": 636,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5112,
+    "w": 643,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5173,
+    "w": 152,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5202,
+    "w": 582,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5231,
+    "w": 132,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5259,
+    "w": 182,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5288,
+    "w": 339,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5317,
+    "w": 338,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5346,
+    "w": 651,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5375,
+    "w": 110,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5403,
+    "w": 656,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5432,
+    "w": 618,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5493,
+    "w": 288,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5522,
+    "w": 629,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5551,
+    "w": 608,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5611,
+    "w": 302,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5640,
+    "w": 587,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5669,
+    "w": 655,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5698,
+    "w": 639,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5727,
+    "w": 608,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5755,
+    "w": 100,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5816,
+    "w": 645,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5845,
+    "w": 660,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5874,
+    "w": 625,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5903,
+    "w": 469,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5963,
+    "w": 72,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5992,
+    "w": 619,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6021,
+    "w": 648,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6050,
+    "w": 651,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6079,
+    "w": 609,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6107,
+    "w": 649,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6136,
+    "w": 56,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6197,
+    "w": 530,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6226,
+    "w": 638,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6255,
+    "w": 649,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6283,
+    "w": 608,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6312,
+    "w": 485,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6341,
+    "w": 127,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6370,
+    "w": 263,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6398,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6427,
+    "w": 443,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6488,
+    "w": 167,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6517,
+    "w": 609,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6546,
+    "w": 509,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6606,
+    "w": 444,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6635,
+    "w": 631,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6664,
+    "w": 641,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6693,
+    "w": 617,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6722,
+    "w": 132,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6750,
+    "w": 650,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6779,
+    "w": 599,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6808,
+    "w": 539,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6869,
+    "w": 113,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6898,
+    "w": 641,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6926,
+    "w": 602,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6955,
+    "w": 656,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6984,
+    "w": 641,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7013,
+    "w": 94,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7074,
+    "w": 402,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7102,
+    "w": 167,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7131,
+    "w": 649,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7160,
+    "w": 405,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7189,
+    "w": 164,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7218,
+    "w": 652,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7246,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7275,
+    "w": 340,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7304,
+    "w": 161,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7333,
+    "w": 658,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7362,
+    "w": 587,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7390,
+    "w": 180,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7419,
+    "w": 650,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7448,
+    "w": 393,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7477,
+    "w": 611,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7538,
+    "w": 118,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7566,
+    "w": 603,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7595,
+    "w": 595,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7624,
+    "w": 643,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7653,
+    "w": 603,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7682,
+    "w": 602,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7710,
+    "w": 596,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7771,
+    "w": 172,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7800,
+    "w": 636,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7829,
+    "w": 97,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7858,
+    "w": 114,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7886,
+    "w": 263,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7915,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7944,
+    "w": 443,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 8005,
+    "w": 134,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 8169,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 8256,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 8308,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 8357,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8256,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 8308,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8357,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8407,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8456,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 8256,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 8308,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 8357,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 8256,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 8390,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 8450,
+    "w": 127,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 515,
+    "y": 227,
+    "w": 410,
+    "h": 72
+   },
+   {
+    "x": 294,
+    "y": 339,
+    "w": 852,
+    "h": 29
+   },
+   {
+    "x": 280,
+    "y": 378,
+    "w": 880,
+    "h": 29
+   },
+   {
+    "x": 278,
+    "y": 416,
+    "w": 885,
+    "h": 29
+   },
+   {
+    "x": 305,
+    "y": 454,
+    "w": 830,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 675,
+    "w": 355,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 761,
+    "w": 268,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 821,
+    "w": 597,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 850,
+    "w": 648,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 879,
+    "w": 638,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 908,
+    "w": 623,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 937,
+    "w": 626,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 965,
+    "w": 256,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1026,
+    "w": 609,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1055,
+    "w": 649,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1084,
+    "w": 632,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1113,
+    "w": 571,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1141,
+    "w": 330,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1202,
+    "w": 462,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1263,
+    "w": 631,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1292,
+    "w": 594,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1321,
+    "w": 81,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1381,
+    "w": 595,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1442,
+    "w": 658,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1471,
+    "w": 619,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1500,
+    "w": 655,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1528,
+    "w": 213,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1589,
+    "w": 164,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1650,
+    "w": 583,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1679,
+    "w": 599,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1708,
+    "w": 618,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1736,
+    "w": 39,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1797,
+    "w": 659,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1826,
+    "w": 474,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1887,
+    "w": 242,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1948,
+    "w": 649,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1976,
+    "w": 423,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2037,
+    "w": 631,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2066,
+    "w": 467,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2127,
+    "w": 628,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2156,
+    "w": 654,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2184,
+    "w": 168,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2245,
+    "w": 425,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2306,
+    "w": 652,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2335,
+    "w": 538,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2396,
+    "w": 212,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2456,
+    "w": 642,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2485,
+    "w": 435,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2546,
+    "w": 127,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2607,
+    "w": 631,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2636,
+    "w": 622,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2664,
+    "w": 549,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2725,
+    "w": 127,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2786,
+    "w": 645,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2815,
+    "w": 333,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2876,
+    "w": 71,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2936,
+    "w": 639,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2965,
+    "w": 589,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2994,
+    "w": 588,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3023,
+    "w": 69,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3084,
+    "w": 332,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3144,
+    "w": 628,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3173,
+    "w": 641,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3202,
+    "w": 147,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3263,
+    "w": 78,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3324,
+    "w": 601,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3352,
+    "w": 221,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3381,
+    "w": 164,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3410,
+    "w": 263,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3439,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3468,
+    "w": 443,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3528,
+    "w": 71,
+    "h": 22
+   },
+   {
+    "x": 461,
+    "y": 3528,
+    "w": 547,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3557,
+    "w": 184,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3586,
+    "w": 82,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3615,
+    "w": 287,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3644,
+    "w": 194,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3672,
+    "w": 324,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3701,
+    "w": 246,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3730,
+    "w": 208,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3791,
+    "w": 359,
+    "h": 22
+   },
+   {
+    "x": 749,
+    "y": 3791,
+    "w": 106,
+    "h": 22
+   },
+   {
+    "x": 855,
+    "y": 3791,
+    "w": 91,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3852,
+    "w": 70,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3880,
+    "w": 407,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3909,
+    "w": 405,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3938,
+    "w": 604,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3999,
+    "w": 215,
+    "h": 22
+   },
+   {
+    "x": 605,
+    "y": 3999,
+    "w": 444,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4028,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4056,
+    "w": 361,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4117,
+    "w": 248,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4178,
+    "w": 612,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4207,
+    "w": 183,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4235,
+    "w": 104,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4264,
+    "w": 93,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4293,
+    "w": 276,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4322,
+    "w": 158,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4351,
+    "w": 149,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4411,
+    "w": 334,
+    "h": 22
+   },
+   {
+    "x": 724,
+    "y": 4411,
+    "w": 316,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4440,
+    "w": 388,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4469,
+    "w": 177,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4498,
+    "w": 172,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4527,
+    "w": 89,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4555,
+    "w": 458,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4584,
+    "w": 174,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4645,
+    "w": 229,
+    "h": 22
+   },
+   {
+    "x": 619,
+    "y": 4645,
+    "w": 406,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4674,
+    "w": 657,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4703,
+    "w": 627,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4763,
+    "w": 560,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4792,
+    "w": 635,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4821,
+    "w": 193,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4850,
+    "w": 147,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4911,
+    "w": 292,
+    "h": 22
+   },
+   {
+    "x": 682,
+    "y": 4911,
+    "w": 90,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4939,
+    "w": 636,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4968,
+    "w": 643,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5029,
+    "w": 152,
+    "h": 22
+   },
+   {
+    "x": 542,
+    "y": 5029,
+    "w": 474,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5058,
+    "w": 240,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5087,
+    "w": 182,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5115,
+    "w": 339,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5144,
+    "w": 338,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5173,
+    "w": 651,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5202,
+    "w": 110,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5231,
+    "w": 656,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5259,
+    "w": 618,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5320,
+    "w": 288,
+    "h": 22
+   },
+   {
+    "x": 678,
+    "y": 5320,
+    "w": 367,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5349,
+    "w": 650,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5378,
+    "w": 217,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5439,
+    "w": 302,
+    "h": 22
+   },
+   {
+    "x": 692,
+    "y": 5439,
+    "w": 354,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5467,
+    "w": 629,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5496,
+    "w": 650,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5525,
+    "w": 658,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5554,
+    "w": 298,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5615,
+    "w": 645,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5643,
+    "w": 660,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5672,
+    "w": 625,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5701,
+    "w": 469,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5762,
+    "w": 72,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5791,
+    "w": 619,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5819,
+    "w": 648,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5848,
+    "w": 651,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5877,
+    "w": 609,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5906,
+    "w": 649,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5935,
+    "w": 56,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5995,
+    "w": 530,
+    "h": 22
+   },
+   {
+    "x": 920,
+    "y": 5995,
+    "w": 99,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6024,
+    "w": 619,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6053,
+    "w": 646,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6082,
+    "w": 655,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6111,
+    "w": 358,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6139,
+    "w": 127,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6168,
+    "w": 263,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6197,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6226,
+    "w": 443,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6287,
+    "w": 167,
+    "h": 22
+   },
+   {
+    "x": 557,
+    "y": 6287,
+    "w": 490,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6315,
+    "w": 627,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6376,
+    "w": 444,
+    "h": 22
+   },
+   {
+    "x": 834,
+    "y": 6376,
+    "w": 138,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6405,
+    "w": 648,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6434,
+    "w": 618,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6462,
+    "w": 618,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6491,
+    "w": 650,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6520,
+    "w": 599,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6549,
+    "w": 539,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6610,
+    "w": 113,
+    "h": 22
+   },
+   {
+    "x": 503,
+    "y": 6610,
+    "w": 527,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6638,
+    "w": 608,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6667,
+    "w": 635,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6696,
+    "w": 609,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6725,
+    "w": 255,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6786,
+    "w": 402,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6814,
+    "w": 167,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6843,
+    "w": 649,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6872,
+    "w": 405,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6901,
+    "w": 164,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6930,
+    "w": 652,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6958,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6987,
+    "w": 340,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7016,
+    "w": 161,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7045,
+    "w": 658,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7074,
+    "w": 587,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7102,
+    "w": 180,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7131,
+    "w": 650,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7160,
+    "w": 393,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7189,
+    "w": 611,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7250,
+    "w": 118,
+    "h": 22
+   },
+   {
+    "x": 508,
+    "y": 7250,
+    "w": 526,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7278,
+    "w": 587,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7307,
+    "w": 596,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7336,
+    "w": 635,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7365,
+    "w": 611,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7394,
+    "w": 629,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7422,
+    "w": 52,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7483,
+    "w": 172,
+    "h": 22
+   },
+   {
+    "x": 562,
+    "y": 7483,
+    "w": 476,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7512,
+    "w": 257,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7541,
+    "w": 114,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7570,
+    "w": 263,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7598,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7627,
+    "w": 443,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7688,
+    "w": 134,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 7852,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 7939,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 7991,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 8040,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 7939,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 7991,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8040,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8090,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8140,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 7939,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 7991,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 8040,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 7939,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 8073,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 8133,
+    "w": 127,
+    "h": 22
+   }
+  ]
+ }
+}

@@ -1,0 +1,23 @@
+[live-session] waiting to pace live navigations to www.fairtrade.net (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 969 ms
+content-presence @ 1440px (chrome) — origin https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html (docH 10406, 87 items, HTTP 200) vs served https://main--63f9f24b--aemcoder.aem.page/mt-en/bring-fairtrade-to-your-market (docH 10406, 87 items, HTTP 200)
+scope: main vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 1 | bring fairtrade to your market | 0/0 | 0/0 | 1/1 | 1/1 | - |
+| 2 | what is fairtrade? | 0/0 | 0/0 | 3/3 | 0/0 | - |
+| 3 | benefits of fairtrade | 1/1 | 0/0 | 5/5 | 0/0 | - |
+| 4 | fairtrade for your business | 0/0 | 0/0 | 2/2 | 0/0 | - |
+| 5 | which products can be fairtrade? | 1/1 | 0/0 | 1/1 | 2/2 | - |
+| 6 | why join fairtrade? | 0/0 | 0/0 | 6/6 | 0/0 | - |
+| 7 | your path to the fairtrade mark | 2/2 | 0/0 | 12/12 | 0/0 | - |
+| 8 | fairtrade beyond the mark | 0/0 | 0/0 | 0/0 | 1/1 | - |
+| 9 | who we are | 1/1 | 0/0 | 2/2 | 1/1 | - |
+| 10 | what we do | 1/1 | 0/0 | 1/1 | 1/1 | - |
+| 11 | why we do it | 1/1 | 0/0 | 1/1 | 0/0 | - |
+| 12 | ready to explore fairtrade for your busi | 0/0 | 0/0 | 1/1 | 0/0 | - |
+| 13 | contact us! | 0/0 | 1/1 | 3/3 | 0/0 | - |
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 0 / count deltas 0
+Findings: none — every visible origin heading and link is visible on the served page
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/mt-en-bring-fairtrade-to-your-market-html-1440/content-presence-pub3.json

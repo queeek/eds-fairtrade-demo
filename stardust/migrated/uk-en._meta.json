@@ -1,0 +1,556 @@
+{
+  "slug": "uk-en-html",
+  "type": "locale-home",
+  "renderBranch": "A'",
+  "template": "at-de-html",
+  "modules": [
+    "content-fader",
+    "filtered-teaser-grid"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "cmp-container"
+  ],
+  "canonShas": {
+    "header": "631428837883",
+    "footer": "8b3cac1e93ce",
+    "css": "2bf6b48caf7e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Fairtrade Foundation",
+    "description": "Fairtrade is more than a label on a pack - it’s a better way of doing trade. Every time you choose Fairtrade, you’re joining a global effort to put power and fairness in the hands of the people who grow the things we love and rely on.",
+    "canonical": "https://main--63f9f24b--aemcoder.aem.page/uk-en.html",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Fairtrade.net",
+    "alternateName": "Fairtrade Foundation",
+    "url": "https://www.fairtrade.net/"
+  },
+  "migratedAt": "2026-11-14T07:55:17Z",
+  "designMdSha": "ba7a99252bf7",
+  "designJsonSha": "d7cf7a9249c2",
+  "sourceCurrentSha": "d8aabe355cb4",
+  "sourceProposedSha": "3302e4699569",
+  "fidelityTier": "sibling",
+  "archetypeSource": "at-de-html",
+  "archetypeSha": "7c54e4ea9c35",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 vs at-de-html: per-page module composition (hero/teaser/nav/accordion/text-image counts), grey text-image band, wide navigation-teaser, large teaser family (stardust/migrate/variance/locale-home.json)",
+    "delivery-lint": "delivery-lint 0 P0/P1 on content/uk-en.html (path /uk-en)",
+    "media-reconcile": "media-reconcile: all images keep (200), no omit/unresolved after the encoder's broken-image omit",
+    "pixel-gate-1440": "gate-all 1440 published: pixel 0.27%, |Δh|≤5%, clip 0, content MISSING+HIDDEN 0, fonts loaded",
+    "pixel-gate-360": "gate-all 360 published: pixel 0.91%, |Δh|≤5%, clip 0, content MISSING+HIDDEN 0, fonts loaded",
+    "content-count": "gate-all content probe: MISSING 0 / HIDDEN 0 at both widths (or the passing width; see pixel gates)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/what-we-do.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/what-we-do/how-fairtrade-works.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/what-we-do/key-benefits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/how-we-do-it.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/how-we-do-it/standards.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/how-we-do-it/advocacy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/impact/impact-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/impact/key-figures-at-a-glance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/impact/how-we-measure-impact-.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products/bananas.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products/chocolate.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products/coffee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products/flowers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products/wine.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products/tea.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products/sugar.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products/gold.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/buy-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/buy-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/fairtrade-partnerships.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/fairtrade-partnerships/how-we-work.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/fairtrade-partnerships/business-benefits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/fairtrade-partnerships/success-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/fairtrade-partnerships/fairtrade-shared-statement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/partner-resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/partner-resources/buying-guide.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/partner-resources/how-to-use-mark.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/partner-resources/risk-map.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/start-your-journey.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/work-with-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/work-with-us/consultancy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources/resource-library.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources/media-centre.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources/blog.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources/newsletters.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade/current-campaigns.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade/schools.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade/grassroots-groups.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade/current-campaigns/do-it-fair.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade/current-campaigns/fairtrade-fortnight.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/donate/donate-fundraise.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/donate/donate-fundraise/legacies.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/donate/corporate-partnerships.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/what-we-do.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/what-we-do/how-fairtrade-works.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/what-we-do/key-benefits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/how-we-do-it.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/how-we-do-it/standards.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/how-we-do-it/advocacy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/impact/impact-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/impact/key-figures-at-a-glance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/impact/how-we-measure-impact-.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/buy-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products/bananas.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products/chocolate.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products/coffee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products/flowers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products/wine.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products/tea.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products/sugar.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products/gold.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/buy-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/start-your-journey.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/fairtrade-partnerships.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/fairtrade-partnerships/how-we-work.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/fairtrade-partnerships/business-benefits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/fairtrade-partnerships/success-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/fairtrade-partnerships/fairtrade-shared-statement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/partner-resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/partner-resources/buying-guide.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/partner-resources/how-to-use-mark.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business/partner-resources/risk-map.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade/current-campaigns/do-it-fair.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade/current-campaigns/fairtrade-fortnight.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/work-with-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/work-with-us/consultancy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources/resource-library.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources/media-centre.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources/blog.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources/newsletters.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade/current-campaigns.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade/schools.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade/grassroots-groups.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/donate/donate-fundraise.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/donate/donate-fundraise/legacies.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/donate/corporate-partnerships.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade/current-campaigns/do-it-fair/fair-on-the-planet/bananas-are-at-risk.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade/current-campaigns/do-it-fair.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade/current-campaigns/do-it-fair/fair-to-people.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade/current-campaigns/do-it-fair/fair-on-the-planet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade/current-campaigns/do-it-fair/fair-pay.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "[%=cta.link%]",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/products-and-producers/fairtrade-products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/for-business.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/support-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources/blog/fairtrade-summer-picnic-must-haves.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources/blog/what-is-lab-grown-chocolate-and-could-it-be-the-future.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources/blog/why-are-chocolate-prices-increasing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "[%=cta.link%]",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources/media-centre/fairtrade-welcomes-the-new-prime-minister.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources/media-centre/fairtrade-statement-on-new-deforestation-regulations.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources/media-centre/climate-action-could-sway-half-of-young-voters-in-the-uk--as-fai.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "[%=cta.link%]",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/why-fairtrade/what-we-do/who-we-are.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/donate/donate-fundraise.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/get-involved/resources/resource-library/fairtrade-foundation-annual-reports.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/privacy-policy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/uk-en/cookie-policy.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "uk-en.html",
+  "outputPathDefault": null,
+  "sidecar": "uk-en._meta.json",
+  "driverVersion": "1"
+}

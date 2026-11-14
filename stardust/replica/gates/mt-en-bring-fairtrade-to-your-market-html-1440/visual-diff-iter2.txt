@@ -1,0 +1,509 @@
+[live-session] waiting to pace live navigations to www.fairtrade.net (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 952 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/mt-en-bring-fairtrade-to-your-market-html-1440/vdiff-iter2/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 9902,
+  "textLen": 5729,
+  "images": [
+   {
+    "src": "FBM_NEUTRAL_VERT_RGB_POS.png",
+    "natural": "680x747",
+    "rendered": "80x88",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "21x9_1440w.webp",
+    "natural": "1343x575",
+    "rendered": "1344x576",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1_640w.webp",
+    "natural": "538x538",
+    "rendered": "538x538",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1_640w.webp",
+    "natural": "538x538",
+    "rendered": "538x538",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1_640w.webp",
+    "natural": "538x538",
+    "rendered": "538x538",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1_640w.webp",
+    "natural": "538x538",
+    "rendered": "538x538",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1_640w.webp",
+    "natural": "538x538",
+    "rendered": "538x538",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Bring Fairtrade to your market",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "72px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What is Fairtrade?",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Benefits of Fairtrade",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade for your business",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Which products can be Fairtrade?",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why join Fairtrade?",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Your path to the Fairtrade mark",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade beyond the mark",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Who we are",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What we do",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why we do it",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Ready to explore Fairtrade for y",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Contact us!",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "PageLead--contentGrid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "RichtextSection",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "NumberFactTeaser",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "RichtextSection",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "TextImage--inner",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "TextImage--inner",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "RichtextSection",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "RichtextSection",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "TextImage--inner",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "TextImage--inner",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "TextImage--inner",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "RichtextSection",
+    "width": 1440,
+    "left": 0
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 9902,
+  "textLen": 5729,
+  "images": [
+   {
+    "src": "FBM_NEUTRAL_VERT_RGB_POS.png",
+    "natural": "680x747",
+    "rendered": "80x88",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "btm-lead-m-768.webp",
+    "natural": "1403x1045",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "btm-lead-d-1440.webp",
+    "natural": "1343x575",
+    "rendered": "1344x576",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "btm-coffee-640.webp",
+    "natural": "538x538",
+    "rendered": "538x538",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "btm-choc-640.webp",
+    "natural": "538x538",
+    "rendered": "538x538",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "btm-living-640.webp",
+    "natural": "538x538",
+    "rendered": "538x538",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "btm-agro-640.webp",
+    "natural": "538x538",
+    "rendered": "538x538",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "btm-kenya-640.webp",
+    "natural": "538x538",
+    "rendered": "538x538",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Bring Fairtrade to your market",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "72px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What is Fairtrade?",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Benefits of Fairtrade",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade for your business",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Which products can be Fairtrade?",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why join Fairtrade?",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Your path to the Fairtrade mark",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade beyond the mark",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Who we are",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What we do",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why we do it",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Ready to explore Fairtrade for y",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Contact us!",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "PageLead--contentGrid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "RichtextSection",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "NumberFactTeaser",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "RichtextSection",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "TextImage--inner",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "TextImage--inner",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "RichtextSection",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "RichtextSection",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "TextImage--inner",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "TextImage--inner",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "TextImage--inner",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "RichtextSection",
+    "width": 1440,
+    "left": 0
+   }
+  ]
+ }
+}

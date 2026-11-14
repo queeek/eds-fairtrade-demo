@@ -1,0 +1,486 @@
+{
+  "slug": "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+  "type": "static",
+  "renderBranch": "A'",
+  "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+  "modules": [
+    "content-fader",
+    "number-fact-teaser"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "cmp-container"
+  ],
+  "canonShas": {
+    "header": "269d54545239",
+    "footer": "02b6cd3e1e94",
+    "css": "2bf6b48caf7e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "What is Fairtrade?",
+    "description": null,
+    "canonical": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Fairtrade.net",
+    "alternateName": "Fairtrade America",
+    "url": "https://www.fairtrade.net/"
+  },
+  "migratedAt": "2026-11-14T08:09:56Z",
+  "designMdSha": "ba7a99252bf7",
+  "designJsonSha": "d7cf7a9249c2",
+  "sourceCurrentSha": "63a5b62d7f58",
+  "sourceProposedSha": "d717b2547892",
+  "fidelityTier": "sibling",
+  "archetypeSource": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+  "archetypeSha": "2a79d8a95d9e",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "content-fidelity",
+    "content-count",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 vs gender-equality: per-page module composition (PageLead + RichtextSection/TextImage/Accordion/NumberFact/SingleImage/CTA/Iframe/Video mixes), grey text-image band, dark page-lead (stardust/migrate/variance/static.json)",
+    "delivery-lint": "delivery-lint 0 P0 / 1 P1 one-cta-per-p on inline bold prose links (verbatim source prose, not CTAs; rendered as prose, content-presence 0 missing)",
+    "media-reconcile": "media-reconcile: 3 keep, 0 omit/unresolved",
+    "content-fidelity": "cluster sample content-diff generic main 0 red / 0 nothing-lost on 6 pages; this page: gate-all content-presence 0 missing",
+    "content-count": "gate-all content-presence 1440+360: MISSING 0 / HIDDEN 0, clipped 0/0",
+    "pixel-gate-1440": "gate-all 1440: pixel 0.12% dh 0, fonts loaded, PASS",
+    "pixel-gate-360": "gate-all 360: pixel 0.56% dh 0, fonts loaded, PASS"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/the-fairtrade-difference.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/deforestation.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/hredd.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/workers-rights.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/key-figures-at-a-glance.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/how-we-measure-impact.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/reports-trends.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/bananas.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/cocoa.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/chocolate.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/coffee.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/cotton.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/herbs-spices.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/nuts-oils.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/sugar.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/wine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/gold.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/fruits-juices.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/honey.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-business.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-producers.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/consumer-trends1.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/the-certification-process.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/resources-support.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/intro-to-fairtrade.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/get-started.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners/communicate-your-commitment.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners/how-to-use-the-mark.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners/mark-misuse-allegations-or-complaints.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-retailers/fairtrade-bananas.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/the-fairtrade-difference.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/deforestation.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/hredd.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/workers-rights.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/key-figures-at-a-glance.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/how-we-measure-impact.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/why-fairtrade/impact/reports-trends.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/bananas.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/cocoa.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/chocolate.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/coffee.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/cotton.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/herbs-spices.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/nuts-oils.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/sugar.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/wine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/gold.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/fruits-juices.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/honey.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-business.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-producers.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/consumer-trends1.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/the-certification-process.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/resources-support.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/intro-to-fairtrade.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/get-started.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners/communicate-your-commitment.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners/how-to-use-the-mark.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners/mark-misuse-allegations-or-complaints.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-retailers/fairtrade-bananas.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/africa-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/at-de/was-ist-fairtrade/unsere-arbeit-im-ueberblick/was-ist-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/be-fr/Pourquoi-Fairtrade/fairtrade-cest-quoi/origine-de-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ca-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ca-fr/commerce-equitable-Fairtrade/ce-que-nous-faisons/quest-ce-que-le-commerce-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/ce-que-nous-faisons/quest-ce-que-le-commerce-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/de-de/Was-ist-Fairtrade/unsere-arbeit-im-ueberblick/das-ist-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ie-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/it-it/cos-e-fairtrade/cosa-facciamo/cos-e-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/jp-jp/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/kr-ko/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/nl-nl/waarom-fairtrade/wat-we-doen/wat-is-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/se-sv/om-fairtrade/det-har-ar-fairtrade/vad-ar-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ch-de/was-ist-fairtrade/im-ueberblick/was-ist-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/quest-ce-que-le-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/uk-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/about/fairtrade-global-network.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "us-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+  "outputPathDefault": null,
+  "sidecar": "us-en/why-fairtrade/what-we-do/what-is-fairtrade._meta.json",
+  "driverVersion": "1"
+}

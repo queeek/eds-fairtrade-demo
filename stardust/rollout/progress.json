@@ -1,0 +1,246 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [],
+      "startedAt": "2026-11-13T23:27:52.988Z",
+      "blocks": 2,
+      "pages": 54,
+      "verdict": "foundation: 54 chrome docs live (3 chrome logos uploaded), shell gated on the published origin, header contract exit 0, frozen 47 files; fixes: search submit → locale results page + disabled-when-empty, header explored on .topbar",
+      "endedAt": "2026-11-14T01:55:00Z",
+      "gates": {
+        "chromeCompare": "header contract exit 0 (0 errors, 3 warnings: source budget truncation, locale label pairing)",
+        "crop": "at-de footer 99.69% (1440) / 99.63% (360), header 99.48% (360)",
+        "chrome": "chrome-parity quiet on all 5 archetypes at 1440 + 360 (accepted: header wrapper region, footer region bg, at-de footer heading tag granularity)"
+      }
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "note": "encoder + content doc authored locally, structural asserts clean; PUT/preview/gate pending DA credentials",
+      "endedAt": "2026-11-14T07:42:30Z",
+      "verdict": "landing archetype index: live, gate 1440 0.05% / 360 0.64%, Δh 0, clipped 0, content 0 missing, fonts loaded",
+      "gates": {
+        "360": {
+          "pixel": 0.64,
+          "dh": 0
+        },
+        "1440": {
+          "pixel": 0.05,
+          "dh": 0
+        }
+      }
+    },
+    "cluster-landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "startedAt": "2026-11-14T07:45:34Z",
+      "endedAt": "2026-11-14T07:54:21Z",
+      "verdict": "cluster-landing: pages 1/1 live, blocks none, gate 1440 0.05–0.05 % / 360 0.64–0.64 %, failing none, requests 0",
+      "gates": {
+        "360": {
+          "siblings": [
+            0.64
+          ]
+        },
+        "1440": {
+          "siblings": [
+            0.05
+          ]
+        }
+      }
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "note": "encoder + content doc authored locally, structural asserts clean; PUT/preview/gate pending DA credentials",
+      "endedAt": "2026-11-14T07:42:44Z",
+      "verdict": "listing archetype us-en/news: live, gate 1440 0.08% / 360 0.16%, Δh 0, clipped 0, content 0 missing, fonts loaded",
+      "gates": {
+        "360": {
+          "pixel": 0.16,
+          "dh": 0
+        },
+        "1440": {
+          "pixel": 0.08,
+          "dh": 0
+        }
+      }
+    },
+    "cluster-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "startedAt": "2026-11-14T07:47:46Z",
+      "endedAt": "2026-11-14T08:12:16Z",
+      "verdict": "cluster-listing: pages 6/6 live, blocks teaser-grid, gate 1440 0.01–0.58 % / 360 0.01–2.34 %, failing none, requests 1",
+      "gates": {
+        "360": {
+          "siblings": "0.01–2.34"
+        },
+        "1440": {
+          "siblings": "0.01–0.58"
+        }
+      }
+    },
+    "archetype-locale-home": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "locale-home"
+      ],
+      "note": "encoder + content doc authored locally, structural asserts clean; PUT/preview/gate pending DA credentials",
+      "endedAt": "2026-11-14T07:42:50Z",
+      "verdict": "locale-home archetype at-de: live, gate 1440 3.77% / 360 4.77%, Δh 0, clipped 0, content 0 missing, fonts loaded",
+      "gates": {
+        "360": {
+          "pixel": 4.77,
+          "dh": 0
+        },
+        "1440": {
+          "pixel": 3.77,
+          "dh": 0
+        }
+      }
+    },
+    "cluster-locale-home": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "locale-home"
+      ],
+      "startedAt": "2026-11-14T07:55:46Z",
+      "endedAt": "2026-11-14T09:08:26Z",
+      "verdict": "cluster-locale-home: pages 22/22 live, blocks cards, page-lead, number-facts, teaser-grid, text-image, gate 1440 0.10–12.17 % / 360 0.52–21.0 %, failing ca-en-html, ch-de-html, ch-fr-html, kr-ko-html, requests 2",
+      "openPages": {
+        "ca-en-html": "1440 12.17% Δh+22 — ca-en header band 22px taller (chrome/nav doc)",
+        "ch-de-html": "1440 Δh+380, 360 21% — source capture polluted by consent banner; recapture origin",
+        "ch-fr-html": "content MISSING 5/3 — product-carousel initial scroll offset differs",
+        "kr-ko-html": "360 12.57% Δh+35 — heading wrap + Taggbox feed"
+      },
+      "openPagesResolved": "C-final 2026-11-14: ca-en 0.57/1.11, ch-de 0.3/1.62, ch-fr 0.34/1.6, kr-ko 4.56/0.24 (%, 1440/360), Δh 0 — all PASS"
+    },
+    "archetype-static": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "static"
+      ],
+      "note": "encoder + content doc authored locally, structural asserts clean; PUT/preview/gate pending DA credentials",
+      "endedAt": "2026-11-14T07:42:56Z",
+      "verdict": "static archetype gender-equality: live, gate 1440 0.08% / 360 0.15%, Δh 0, clipped 0, content 0 missing, fonts loaded",
+      "gates": {
+        "360": {
+          "pixel": 0.15,
+          "dh": 0
+        },
+        "1440": {
+          "pixel": 0.08,
+          "dh": 0
+        }
+      }
+    },
+    "cluster-static": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "static"
+      ],
+      "startedAt": "2026-11-14T08:10:39Z",
+      "note": "two subagents: cluster-static-a (static-1..4), cluster-static-b (static-5..8)",
+      "endedAt": "2026-11-14T09:45:31Z",
+      "verdict": "cluster-static: pages 63/63 live (+ archetype), blocks text-image, single-image, video, cards, gate 1440 0–7.63 % / 360 0–9.73 %, failing none, requests 0",
+      "gates": {
+        "360": {
+          "siblings": "0–9.73"
+        },
+        "1440": {
+          "siblings": "0–7.63"
+        }
+      },
+      "residuals": [
+        "hredd: Δh +336 (1440) / +283 (360), within 5 %; source image 404 box replicated (empty-image variant)",
+        "what-is-fairtrade: delivery-lint P1 one-cta-per-p on verbatim inline bold prose links (not CTAs)",
+        "cards image-grid overlay headings: font-fork advisory on closed dialogs (face loads on open)"
+      ]
+    },
+    "archetype-form": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "form"
+      ],
+      "note": "encoder + content doc authored locally, structural asserts clean; PUT/preview/gate pending DA credentials",
+      "endedAt": "2026-11-14T07:43:02Z",
+      "verdict": "form archetype mt-en: live, gate 1440 0.03% / 360 0.12%, Δh 0, clipped 0, content 0 missing, fonts loaded",
+      "gates": {
+        "360": {
+          "pixel": 0.12,
+          "dh": 0
+        },
+        "1440": {
+          "pixel": 0.03,
+          "dh": 0
+        }
+      }
+    },
+    "cluster-form": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "form"
+      ],
+      "startedAt": "2026-11-14T08:12:26Z",
+      "endedAt": "2026-11-14T08:27:12Z",
+      "verdict": "cluster-form: pages 3/3 live, blocks text-image (new no-trailing-line variant), gate 1440 0–0.05 % / 360 0–0.11 %, failing none, requests 0",
+      "gates": {
+        "360": {
+          "siblings": "0–0.11"
+        },
+        "1440": {
+          "siblings": "0–0.05"
+        }
+      }
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-14T10:25:37Z",
+      "endedAt": "2026-11-14T11:45:40Z",
+      "verdict": "gate-all: 100/100 PASS at 1440 (0–8.85 %) and 360 (0–9.73 %); pixel, height, clip, content all 0 failing; coverage updated from both summaries",
+      "gates": {
+        "360": {
+          "pages": "100/100",
+          "range": "0–9.73"
+        },
+        "1440": {
+          "pages": "100/100",
+          "range": "0–8.85"
+        }
+      }
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-14T09:40:00Z",
+      "endedAt": "2026-11-14T11:46:35Z",
+      "verdict": "final: foundation-freeze check clean (47 files); foundation requests applied once (4 applied, 2 bridged); gate-all 100/100 PASS at 1440 + 360; coverage 100/100 deployed, gate pass",
+      "gates": {
+        "freeze": "unchanged (47 files)",
+        "coverage": "100 deployed, 100 gate pass"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+content-presence @ 360px (chrome) — origin https://www.fairtrade.net/us-en/news.html (docH 10415, 83 items, HTTP 200) vs served https://main--63f9f24b--aemcoder.aem.page/us-en/news (docH 10415, 83 items, HTTP 200)
+scope: main vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 1 | news | 1/1 | 0/0 | 1/1 | 1/1 | - |
+| 2 | fairtrade news when communities lead: th | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 3 | fairtrade news silence isn’t a strategy: | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 4 | fairtrade news fairtrade stands with far | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 5 | fairtrade news real pay feeds real chang | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 6 | fairtrade news a spicy fair share giveaw | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 7 | fairtrade news what is a cooperative (or | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 8 | fairtrade news sourcing matters: underst | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 9 | fairtrade news how fairtrade’s climate d | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 10 | fairtrade news international day of coop | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 11 | fairtrade news it's giveaway time! | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 12 | fairtrade news world day against child l | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 13 | fairtrade news from grassroots to global | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 14 | fairtrade news international workers' da | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 15 | fairtrade news seedlings planted in ghan | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 16 | fairtrade news the future is fair | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 17 | fairtrade news what is a banana republic | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 18 | fairtrade news synthetic chocolate: is i | 1/1 | 0/0 | 0/0 | 1/1 | - |
+| 19 | fairtrade news farm to family: redelicio | 0/0 | 1/1 | 0/0 | 0/0 | - |
+Content: MISSING 0 (headings 0, links 0) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 0 / count deltas 0
+Findings: none — every visible origin heading and link is visible on the served page
+Clipped (served side): 0 — origin side 0
+json → stardust/replica/gates/us-en-news-html-360/content-presence-pub2.json

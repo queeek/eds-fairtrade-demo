@@ -1,0 +1,3598 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T10:51:34.639Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/us-en/products/all-products.html",
+  "at": "2026-11-14T10:51:15.781Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3638,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "Fairtrade_America_Logo_Vert_80x80"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > span.Breadcrumbs--breadcrumb--title",
+    "x": 125,
+    "y": 122,
+    "w": 57,
+    "h": 20,
+    "text": "Products"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 222,
+    "y": 122,
+    "w": 118,
+    "h": 20,
+    "text": "fairtrade products",
+    "href": "/us-en/products/all-products.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+    "x": 443,
+    "y": 224,
+    "w": 555,
+    "h": 79,
+    "level": 1,
+    "text": "fairtrade products"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 77,
+    "text": "Learn more about the wide variety of Fairtrade products available and find your "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-bananas",
+    "x": 48,
+    "y": 636,
+    "w": 421,
+    "h": 442,
+    "text": "product pages bananas read more",
+    "href": "/us-en/products/all-products/bananas.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 637,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 968,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages bananas"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-cocoa",
+    "x": 509,
+    "y": 636,
+    "w": 421,
+    "h": 442,
+    "text": "product pages cocoa read more",
+    "href": "/us-en/products/all-products/cocoa.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 510,
+    "y": 637,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 968,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages cocoa"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-coffee",
+    "x": 971,
+    "y": 636,
+    "w": 421,
+    "h": 442,
+    "text": "product pages coffee read more",
+    "href": "/us-en/products/all-products/coffee.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 972,
+    "y": 637,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 968,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages coffee"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-cotton",
+    "x": 48,
+    "y": 1130,
+    "w": 421,
+    "h": 442,
+    "text": "product pages cotton read more",
+    "href": "/us-en/products/all-products/cotton.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 1131,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 1462,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages cotton"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-herbs-spices",
+    "x": 509,
+    "y": 1130,
+    "w": 421,
+    "h": 442,
+    "text": "product pages herbs and spices read more",
+    "href": "/us-en/products/all-products/herbs-spices.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 510,
+    "y": 1131,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 1462,
+    "w": 218,
+    "h": 73,
+    "level": 2,
+    "text": "product pages herbs and spices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-tea",
+    "x": 971,
+    "y": 1130,
+    "w": 421,
+    "h": 442,
+    "text": "product pages tea read more",
+    "href": "/us-en/products/all-products/tea.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 972,
+    "y": 1131,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 1462,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages tea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-nuts-oils",
+    "x": 48,
+    "y": 1623,
+    "w": 421,
+    "h": 442,
+    "text": "product pages nuts and oils read more",
+    "href": "/us-en/products/all-products/nuts-oils.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 1624,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 1956,
+    "w": 170,
+    "h": 73,
+    "level": 2,
+    "text": "product pages nuts and oils"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-textiles",
+    "x": 509,
+    "y": 1623,
+    "w": 421,
+    "h": 442,
+    "text": "product pages textiles read more",
+    "href": "/us-en/products/all-products/textiles.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 510,
+    "y": 1624,
+    "w": 419,
+    "h": 314,
+    "text": "pratibha vasudha holding a textile made from fairtrade cotto",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 1956,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages textiles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-gold",
+    "x": 971,
+    "y": 1623,
+    "w": 421,
+    "h": 442,
+    "text": "product pages gold read more",
+    "href": "/us-en/products/all-products/gold.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 972,
+    "y": 1624,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 1956,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages gold"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-fruits-juices",
+    "x": 48,
+    "y": 2117,
+    "w": 421,
+    "h": 442,
+    "text": "product pages fruits and juices read more",
+    "href": "/us-en/products/all-products/fruits-juices.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 2118,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 2450,
+    "w": 214,
+    "h": 73,
+    "level": 2,
+    "text": "product pages fruits and juices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item.isHighlight > a#article-honey",
+    "x": 509,
+    "y": 2117,
+    "w": 421,
+    "h": 442,
+    "text": "product pages honey read more",
+    "href": "/us-en/products/all-products/honey.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 510,
+    "y": 2118,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 2450,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages honey"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-vegetables",
+    "x": 971,
+    "y": 2117,
+    "w": 421,
+    "h": 442,
+    "text": "product pages vegetables read more",
+    "href": "/us-en/products/all-products/vegetables.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 972,
+    "y": 2118,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 2450,
+    "w": 147,
+    "h": 73,
+    "level": 2,
+    "text": "product pages vegetables"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-rice",
+    "x": 48,
+    "y": 2611,
+    "w": 421,
+    "h": 442,
+    "text": "product pages rice read more",
+    "href": "/us-en/products/all-products/rice.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 2612,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 2943,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages rice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-quinoa",
+    "x": 509,
+    "y": 2611,
+    "w": 421,
+    "h": 442,
+    "text": "product pages quinoa read more",
+    "href": "/us-en/products/all-products/quinoa.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 510,
+    "y": 2612,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 2943,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages quinoa"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 3240,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 3240,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 76,
+    "y": 3330,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 3378,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 3428,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 418,
+    "y": 3330,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 3378,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 3428,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 3478,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 3527,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 760,
+    "y": 3330,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 3378,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 3428,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 3330,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 3376,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 3376,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 3376,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 3376,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 3464,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 3510,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 69,
+    "controls": 41,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products",
+  "at": "2026-11-14T10:51:34.556Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3638,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_13df0d1ade5b87108701c0132044859868"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > span.breadcrumbs-breadcrumb-title",
+    "x": 125,
+    "y": 122,
+    "w": 57,
+    "h": 20,
+    "text": "Products"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 222,
+    "y": 122,
+    "w": 118,
+    "h": 20,
+    "text": "fairtrade products",
+    "href": "/us-en/products/all-products.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-title > h1#fairtrade-products",
+    "x": 443,
+    "y": 224,
+    "w": 555,
+    "h": 79,
+    "level": 1,
+    "text": "fairtrade products"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-lead > p",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 77,
+    "text": "Learn more about the wide variety of Fairtrade products available and find your "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 636,
+    "w": 421,
+    "h": 442,
+    "text": "product pages bananas read more",
+    "href": "/us-en/products/all-products/bananas.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 637,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_1ac9ebef79011d715701019d091e2c5c76"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#product-pages-bananas",
+    "x": 48,
+    "y": 968,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages bananas"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 636,
+    "w": 421,
+    "h": 442,
+    "text": "product pages cocoa read more",
+    "href": "/us-en/products/all-products/cocoa.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 637,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_1fad51b4ed0979dc036d1d22bb340e3442"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#product-pages-cocoa",
+    "x": 509,
+    "y": 968,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages cocoa"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 636,
+    "w": 421,
+    "h": 442,
+    "text": "product pages coffee read more",
+    "href": "/us-en/products/all-products/coffee.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 637,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "media_1ec1ad72611126c52b73d20250a2851dee"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#product-pages-coffee",
+    "x": 971,
+    "y": 968,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages coffee"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 1130,
+    "w": 421,
+    "h": 442,
+    "text": "product pages cotton read more",
+    "href": "/us-en/products/all-products/cotton.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 1131,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_1401ee13abdcfcba49eb82597b8fe7417e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#product-pages-cotton",
+    "x": 48,
+    "y": 1462,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages cotton"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 1130,
+    "w": 421,
+    "h": 442,
+    "text": "product pages herbs and spices read more",
+    "href": "/us-en/products/all-products/herbs-spices.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 1131,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_18647736b740cefc21f88773e66c1527dd"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#product-pages-herbs-and-spices",
+    "x": 509,
+    "y": 1462,
+    "w": 218,
+    "h": 73,
+    "level": 2,
+    "text": "product pages herbs and spices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 1130,
+    "w": 421,
+    "h": 442,
+    "text": "product pages tea read more",
+    "href": "/us-en/products/all-products/tea.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 1131,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "media_18bed95df12140d9955fb3d69db9a3fcf5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#product-pages-tea",
+    "x": 971,
+    "y": 1462,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages tea"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 1623,
+    "w": 421,
+    "h": 442,
+    "text": "product pages nuts and oils read more",
+    "href": "/us-en/products/all-products/nuts-oils.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 1624,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_11752f07be522c5e49080b46f9d116c38c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#product-pages-nuts-and-oils",
+    "x": 48,
+    "y": 1956,
+    "w": 170,
+    "h": 73,
+    "level": 2,
+    "text": "product pages nuts and oils"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 1623,
+    "w": 421,
+    "h": 442,
+    "text": "product pages textiles read more",
+    "href": "/us-en/products/all-products/textiles.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 1624,
+    "w": 419,
+    "h": 314,
+    "text": "pratibha vasudha holding a textile made from fairtrade cotto",
+    "file": "media_1ae10060d0ef8f536d7c0e4707797384aa"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#product-pages-textiles",
+    "x": 509,
+    "y": 1956,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages textiles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 1623,
+    "w": 421,
+    "h": 442,
+    "text": "product pages gold read more",
+    "href": "/us-en/products/all-products/gold.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 1624,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "media_1d4823712e466047d0a2a6c56b5f92de30"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#product-pages-gold",
+    "x": 971,
+    "y": 1956,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages gold"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 2117,
+    "w": 421,
+    "h": 442,
+    "text": "product pages fruits and juices read more",
+    "href": "/us-en/products/all-products/fruits-juices.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 2118,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_180f0f1e46a6a01cdaf71fe11121e477b7"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#product-pages-fruits-and-juices",
+    "x": 48,
+    "y": 2450,
+    "w": 214,
+    "h": 73,
+    "level": 2,
+    "text": "product pages fruits and juices"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 2117,
+    "w": 421,
+    "h": 442,
+    "text": "product pages honey read more",
+    "href": "/us-en/products/all-products/honey.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 2118,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_1957d7fad98819b2a13b693d54526baa52"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#product-pages-honey",
+    "x": 509,
+    "y": 2450,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages honey"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 2117,
+    "w": 421,
+    "h": 442,
+    "text": "product pages vegetables read more",
+    "href": "/us-en/products/all-products/vegetables.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 2118,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "media_1dafbb879d721b86ea607add2bd2569fc9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#product-pages-vegetables",
+    "x": 971,
+    "y": 2450,
+    "w": 147,
+    "h": 73,
+    "level": 2,
+    "text": "product pages vegetables"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 2611,
+    "w": 421,
+    "h": 442,
+    "text": "product pages rice read more",
+    "href": "/us-en/products/all-products/rice.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 2612,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_157ca5f78c24cf91be0fdf4d7251cc4bce"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#product-pages-rice",
+    "x": 48,
+    "y": 2943,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages rice"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 2611,
+    "w": 421,
+    "h": 442,
+    "text": "product pages quinoa read more",
+    "href": "/us-en/products/all-products/quinoa.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 2612,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_119e7c759854f8fba15761ef778e6490fe"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#product-pages-quinoa",
+    "x": 509,
+    "y": 2943,
+    "w": 139,
+    "h": 73,
+    "level": 2,
+    "text": "product pages quinoa"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 3240,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 3240,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 76,
+    "y": 3330,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 3378,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 3428,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 418,
+    "y": 3330,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 3378,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 3428,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 3478,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 3527,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 760,
+    "y": 3330,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 3378,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 3428,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 3330,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 3376,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 3376,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 3376,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 3376,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 3464,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 3510,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 69,
+    "controls": 41,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "fairtrade products",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 1,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "product pages bananas",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "product pages cocoa",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "product pages coffee",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "product pages cotton",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "product pages herbs and spices",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "product pages tea",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "product pages nuts and oils",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "product pages textiles",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "product pages gold",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "product pages fruits and juices",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "product pages honey",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "product pages vegetables",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 2
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "product pages rice",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "product pages quinoa",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 57,
+    "h": 17
+   },
+   {
+    "x": 222,
+    "y": 123,
+    "w": 118,
+    "h": 17
+   },
+   {
+    "x": 443,
+    "y": 227,
+    "w": 555,
+    "h": 72
+   },
+   {
+    "x": 280,
+    "y": 339,
+    "w": 880,
+    "h": 29
+   },
+   {
+    "x": 666,
+    "y": 378,
+    "w": 107,
+    "h": 29
+   },
+   {
+    "x": 48,
+    "y": 967,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 1007,
+    "w": 116,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 1052,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 967,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 1007,
+    "w": 76,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 1052,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 967,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 1007,
+    "w": 85,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 1052,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1461,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 1501,
+    "w": 88,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 1545,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 1461,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 1501,
+    "w": 218,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 1545,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 1461,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 1501,
+    "w": 46,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 1545,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1955,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 1995,
+    "w": 170,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2039,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 1955,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 1995,
+    "w": 104,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 2039,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 1955,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 1995,
+    "w": 61,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2039,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2449,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 2489,
+    "w": 214,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2533,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 2449,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 2489,
+    "w": 86,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 2533,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 2449,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 2489,
+    "w": 147,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2533,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2942,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 2982,
+    "w": 57,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 3026,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 2942,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 2982,
+    "w": 97,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 3026,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1338,
+    "y": 3242,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 3329,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 3381,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 3431,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 3329,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 3381,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 3431,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 3481,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 3530,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 3329,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 3381,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 3431,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 3329,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 3463,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 3523,
+    "w": 127,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 57,
+    "h": 17
+   },
+   {
+    "x": 222,
+    "y": 123,
+    "w": 118,
+    "h": 17
+   },
+   {
+    "x": 443,
+    "y": 227,
+    "w": 555,
+    "h": 72
+   },
+   {
+    "x": 280,
+    "y": 339,
+    "w": 880,
+    "h": 29
+   },
+   {
+    "x": 666,
+    "y": 378,
+    "w": 107,
+    "h": 29
+   },
+   {
+    "x": 48,
+    "y": 967,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 1007,
+    "w": 116,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 1052,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 967,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 1007,
+    "w": 76,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 1052,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 967,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 1007,
+    "w": 85,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 1052,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1461,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 1501,
+    "w": 88,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 1545,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 1461,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 1501,
+    "w": 218,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 1545,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 1461,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 1501,
+    "w": 46,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 1545,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1955,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 1995,
+    "w": 170,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2039,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 1955,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 1995,
+    "w": 104,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 2039,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 1955,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 1995,
+    "w": 61,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2039,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2449,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 2489,
+    "w": 214,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2533,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 2449,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 2489,
+    "w": 86,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 2533,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 2449,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 2489,
+    "w": 147,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2533,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2942,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 2982,
+    "w": 57,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 3026,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 2942,
+    "w": 139,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 2982,
+    "w": 97,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 3026,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1338,
+    "y": 3242,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 3329,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 3381,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 3431,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 3329,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 3381,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 3431,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 3481,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 3530,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 3329,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 3381,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 3431,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 3329,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 3463,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 3523,
+    "w": 127,
+    "h": 22
+   }
+  ]
+ }
+}

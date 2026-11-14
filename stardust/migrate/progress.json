@@ -1,0 +1,332 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "listing",
+        "locale-home",
+        "static",
+        "form"
+      ],
+      "pages": 100,
+      "startedAt": "2026-11-13T23:25:48.522Z",
+      "endedAt": "2026-11-13T23:25:48.522Z",
+      "verdict": "Path A 5 archetypes; Path A′ 95 siblings, rendered per template after its archetype unit is done in C-deliver"
+    },
+    "archetypes": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing",
+        "listing",
+        "locale-home",
+        "static",
+        "form"
+      ],
+      "pages": 5,
+      "slugs": [
+        "index",
+        "us-en-news-html",
+        "at-de-html",
+        "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+        "mt-en-bring-fairtrade-to-your-market-html"
+      ],
+      "startedAt": "2026-11-13T23:25:48.522Z",
+      "endedAt": "2026-11-13T23:25:48.522Z",
+      "verdict": "rendered 5, unchanged 0, refused 0, passthrough 0"
+    },
+    "landing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing"
+      ],
+      "archetype": "index",
+      "pages": 1,
+      "slugs": [
+        "us-en-html"
+      ],
+      "startedAt": "2026-11-14T07:43:24Z",
+      "endedAt": "2026-11-14T07:44:22Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0 (source: hydrated capture; variance exit 0)"
+    },
+    "listing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "listing"
+      ],
+      "archetype": "us-en-news-html",
+      "pages": 6,
+      "slugs": [
+        "us-en-products-html",
+        "us-en-for-media-html",
+        "us-en-why-fairtrade-why-we-do-it-html",
+        "us-en-products-all-products-html",
+        "us-en-why-fairtrade-impact-impact-stories-html",
+        "us-en-for-business-benefits-of-being-certified-business-success-stories-html"
+      ],
+      "startedAt": "2026-11-14T07:45:49Z",
+      "endedAt": "2026-11-14T07:47:38Z",
+      "verdict": "rendered 6, unchanged 0, refused 0, passthrough 0 (source: hydrated captures; variance exit 2 — counts/heights + page-lead nightsky/image, teaser-grid large-card family)"
+    },
+    "locale-home-1": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "locale-home"
+      ],
+      "archetype": "at-de-html",
+      "pages": 8,
+      "slugs": [
+        "de-de-html",
+        "maxhavelaarfrance-fr-html",
+        "jp-jp-html",
+        "en-html",
+        "africa-en-html",
+        "be-fr-html",
+        "be-nl-html",
+        "ca-en-html"
+      ],
+      "startedAt": "2026-11-14T07:55:15Z",
+      "endedAt": "2026-11-14T07:55:21Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0 (source: hydrated captures; variance exit 2 — per-page composition)"
+    },
+    "locale-home-2": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "locale-home"
+      ],
+      "archetype": "at-de-html",
+      "pages": 8,
+      "slugs": [
+        "ca-fr-html",
+        "iberica-es-html",
+        "iberica-pt-html",
+        "ie-en-html",
+        "it-it-html",
+        "kr-ko-html",
+        "napp-en-html",
+        "nl-nl-html"
+      ],
+      "startedAt": "2026-11-14T07:55:16Z",
+      "endedAt": "2026-11-14T07:55:29Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0 (source: hydrated captures; variance exit 2 — per-page composition)"
+    },
+    "locale-home-3": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "locale-home"
+      ],
+      "archetype": "at-de-html",
+      "pages": 6,
+      "slugs": [
+        "no-no-html",
+        "pl-pl-html",
+        "se-sv-html",
+        "ch-de-html",
+        "ch-fr-html",
+        "uk-en-html"
+      ],
+      "startedAt": "2026-11-14T07:55:17Z",
+      "endedAt": "2026-11-14T07:55:36Z",
+      "verdict": "rendered 6, unchanged 0, refused 0, passthrough 0 (source: hydrated captures; variance exit 2 — per-page composition)"
+    },
+    "static-1": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "archetype": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "pages": 8,
+      "slugs": [
+        "us-en-about-html",
+        "us-en-contact-html",
+        "us-en-why-fairtrade-html",
+        "us-en-for-business-html",
+        "us-en-terms-of-use-html",
+        "us-en-privacy-policy-html",
+        "us-en-why-fairtrade-what-we-do-html",
+        "us-en-why-fairtrade-how-we-do-it-html"
+      ],
+      "startedAt": "2026-11-14T08:10:07Z",
+      "endedAt": "2026-11-14T08:10:07Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0 (source: hydrated captures; variance exit 2 — per-page composition)"
+    },
+    "static-2": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "archetype": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "pages": 8,
+      "slugs": [
+        "us-en-why-fairtrade-impact-html",
+        "us-en-for-business-benefits-of-being-certified-html",
+        "us-en-for-business-get-certified-html",
+        "us-en-for-business-for-partners-html",
+        "us-en-for-business-for-retailers-html",
+        "us-en-get-involved-get-involved-html",
+        "us-en-get-involved-how-to-shop-sustainably-html",
+        "us-en-get-involved-where-to-buy-html"
+      ],
+      "startedAt": "2026-11-14T08:10:12Z",
+      "endedAt": "2026-11-14T08:10:12Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0 (source: hydrated captures; variance exit 2 — per-page composition)"
+    },
+    "static-3": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "archetype": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "pages": 8,
+      "slugs": [
+        "us-en-get-involved-activism-html",
+        "us-en-about-careers-html",
+        "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html",
+        "us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html",
+        "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+        "us-en-why-fairtrade-what-we-do-how-fairtrade-works-html",
+        "us-en-why-fairtrade-what-we-do-key-benefits-html",
+        "us-en-why-fairtrade-what-we-do-theory-of-change-html"
+      ],
+      "startedAt": "2026-11-14T08:10:15Z",
+      "endedAt": "2026-11-14T08:10:15Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0 (source: hydrated captures; variance exit 2 — per-page composition)"
+    },
+    "static-4": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "archetype": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "pages": 8,
+      "slugs": [
+        "us-en-why-fairtrade-what-we-do-the-fairtrade-difference-html",
+        "us-en-why-fairtrade-why-we-do-it-child-protection-html",
+        "us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html",
+        "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html",
+        "us-en-why-fairtrade-why-we-do-it-deforestation-html",
+        "us-en-why-fairtrade-why-we-do-it-fairtrade-and-the-sustainable-development-goals-html",
+        "us-en-why-fairtrade-why-we-do-it-hredd-html",
+        "us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html"
+      ],
+      "startedAt": "2026-11-14T08:10:18Z",
+      "endedAt": "2026-11-14T08:10:18Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0 (source: hydrated captures; variance exit 2 — per-page composition)"
+    },
+    "static-5": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "archetype": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "pages": 8,
+      "slugs": [
+        "us-en-why-fairtrade-why-we-do-it-workers-rights-html",
+        "us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html",
+        "us-en-why-fairtrade-how-we-do-it-how-fairtrade-certification-works-html",
+        "us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html",
+        "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance-html",
+        "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html",
+        "us-en-why-fairtrade-how-we-do-it-fairtrade-standards-html",
+        "us-en-why-fairtrade-how-we-do-it-our-projects-and-programs-html"
+      ],
+      "startedAt": "2026-11-14T08:10:21Z",
+      "endedAt": "2026-11-14T08:10:21Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0 (source: hydrated captures; variance exit 2 — per-page composition)"
+    },
+    "static-6": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "archetype": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "pages": 8,
+      "slugs": [
+        "us-en-why-fairtrade-impact-key-figures-at-a-glance-html",
+        "us-en-why-fairtrade-impact-how-we-measure-impact-html",
+        "us-en-why-fairtrade-impact-reports-trends-html",
+        "us-en-products-all-products-bananas-html",
+        "us-en-products-all-products-cocoa-html",
+        "us-en-products-all-products-chocolate-html",
+        "us-en-products-all-products-coffee-html",
+        "us-en-products-all-products-cotton-html"
+      ],
+      "startedAt": "2026-11-14T08:10:24Z",
+      "endedAt": "2026-11-14T08:10:24Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0 (source: hydrated captures; variance exit 2 — per-page composition)"
+    },
+    "static-7": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "archetype": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "pages": 8,
+      "slugs": [
+        "us-en-products-all-products-herbs-spices-html",
+        "us-en-products-all-products-nuts-oils-html",
+        "us-en-products-all-products-sugar-html",
+        "us-en-products-all-products-wine-html",
+        "us-en-products-all-products-gold-html",
+        "us-en-products-all-products-fruits-juices-html",
+        "us-en-products-all-products-honey-html",
+        "us-en-for-business-benefits-of-being-certified-benefits-for-business-html"
+      ],
+      "startedAt": "2026-11-14T08:10:27Z",
+      "endedAt": "2026-11-14T08:10:27Z",
+      "verdict": "rendered 8, unchanged 0, refused 0, passthrough 0 (source: hydrated captures; variance exit 2 — per-page composition)"
+    },
+    "static-8": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "archetype": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "pages": 7,
+      "slugs": [
+        "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+        "us-en-for-business-benefits-of-being-certified-consumer-trends1-html",
+        "us-en-for-business-get-certified-the-certification-process-html",
+        "us-en-for-business-get-certified-resources-support-html",
+        "us-en-for-business-get-certified-intro-to-fairtrade-html",
+        "us-en-for-business-get-certified-get-started-html",
+        "us-en-for-business-for-partners-communicate-your-commitment-html"
+      ],
+      "startedAt": "2026-11-14T08:10:30Z",
+      "endedAt": "2026-11-14T08:10:30Z",
+      "verdict": "rendered 7, unchanged 0, refused 0, passthrough 0 (source: hydrated captures; variance exit 2 — per-page composition)"
+    },
+    "form": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "form"
+      ],
+      "archetype": "mt-en-bring-fairtrade-to-your-market-html",
+      "pages": 3,
+      "slugs": [
+        "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+        "si-sl-prinesite-fairtrade-na-vas-trg-html",
+        "us-en-fairtrade-newsletter-html"
+      ],
+      "startedAt": "2026-11-14T07:47:58Z",
+      "endedAt": "2026-11-14T07:48:55Z",
+      "verdict": "rendered 3, unchanged 0, refused 0, passthrough 0 (source: hydrated captures; variance exit 2 — content heights, newsletter lead without image)"
+    }
+  }
+}

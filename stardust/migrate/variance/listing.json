@@ -1,0 +1,696 @@
+{
+  "archetype": "https://www.fairtrade.net/us-en/news.html",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "lead": ".PageLead",
+    "grid": ".TeaserGrid",
+    "card": ".InfoTeaser"
+  },
+  "archetypeRaw": {
+    "sections": [],
+    "probes": {
+      "lead": {
+        "sel": ".PageLead",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 452
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "0px 0px 80px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h1 alegreya sans 72px/79.2px 900 rgb(30, 30, 30)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "News Read our latest news and stories about Fairtrade and ho"
+      },
+      "grid": {
+        "sel": ".TeaserGrid",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 3875
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "80px 0px 80px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h2 alegreya sans 18px/19.8px 400 rgb(30, 30, 30)",
+          "image": {
+            "w": 419,
+            "h": 314
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "09.29.26 Fairtrade news When Communities Lead: The Cooperati"
+      },
+      "card": {
+        "sel": ".InfoTeaser",
+        "count": 18,
+        "first": {
+          "rect": {
+            "w": 421,
+            "h": 512
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "0px 0px 0px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h2 alegreya sans 18px/19.8px 400 rgb(30, 30, 30)",
+          "image": {
+            "w": 419,
+            "h": 314
+          },
+          "listStyle": null,
+          "before": null
+        },
+        "clusters": 2,
+        "text": "09.29.26 Fairtrade news When Communities Lead: The Cooperati"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.fairtrade.net/us-en/products.html",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "grid",
+          "msg": "rect{h 3875 → 2588}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "18 → 14 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 512 → 442}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "lead": {
+            "sel": ".PageLead",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 452
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h1 alegreya sans 72px/79.2px 900 rgb(30, 30, 30)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Fairtrade Products Learn more about the wide variety of Fair"
+          },
+          "grid": {
+            "sel": ".TeaserGrid",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 2588
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 18px/19.8px 400 rgb(30, 30, 30)",
+              "image": {
+                "w": 419,
+                "h": 314
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Product pages Bananas Read more Product pages Cocoa Read mor"
+          },
+          "card": {
+            "sel": ".InfoTeaser",
+            "count": 14,
+            "first": {
+              "rect": {
+                "w": 421,
+                "h": 442
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 0px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 18px/19.8px 400 rgb(30, 30, 30)",
+              "image": {
+                "w": 419,
+                "h": 314
+              },
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Product pages Bananas Read more"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.fairtrade.net/us-en/for-media.html",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "grid",
+          "msg": "rect{h 3875 → 3575}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "lead": {
+            "sel": ".PageLead",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 452
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h1 alegreya sans 72px/79.2px 900 rgb(30, 30, 30)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "For Media For interview, photo or report requests, contact: "
+          },
+          "grid": {
+            "sel": ".TeaserGrid",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 3575
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 18px/19.8px 400 rgb(30, 30, 30)",
+              "image": {
+                "w": 419,
+                "h": 314
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "11.12.26 Press releases 25 Percent Increase in Premium Sweet"
+          },
+          "card": {
+            "sel": ".InfoTeaser",
+            "count": 18,
+            "first": {
+              "rect": {
+                "w": 421,
+                "h": 512
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 0px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 18px/19.8px 400 rgb(30, 30, 30)",
+              "image": {
+                "w": 419,
+                "h": 314
+              },
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 2,
+            "text": "11.12.26 Press releases 25 Percent Increase in Premium Sweet"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it.html",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "lead",
+          "msg": "rect{h 452 → 567}; heading h1 alegreya sans 72px/79.2px 900 rgb(30, 30, 30) → h1 alegreya sans 72px/79.2px 900 rgb(255, 255, 255)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "grid",
+          "msg": "rect{h 3875 → 1522}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "18 → 9 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 512 → 404}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "lead": {
+            "sel": ".PageLead",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 567
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h1 alegreya sans 72px/79.2px 900 rgb(255, 255, 255)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Why we do it We want to build a world where everyone benefit"
+          },
+          "grid": {
+            "sel": ".TeaserGrid",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 1522
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 18px/19.8px 400 rgb(30, 30, 30)",
+              "image": {
+                "w": 419,
+                "h": 314
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Child protection Read more Climate and the environment Read "
+          },
+          "card": {
+            "sel": ".InfoTeaser",
+            "count": 9,
+            "first": {
+              "rect": {
+                "w": 421,
+                "h": 404
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 0px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 18px/19.8px 400 rgb(30, 30, 30)",
+              "image": {
+                "w": 419,
+                "h": 314
+              },
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Child protection Read more"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.fairtrade.net/us-en/products/all-products.html",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "grid",
+          "msg": "rect{h 3875 → 2588}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "18 → 14 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 512 → 442}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "lead": {
+            "sel": ".PageLead",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 452
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h1 alegreya sans 72px/79.2px 900 rgb(30, 30, 30)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Fairtrade Products Learn more about the wide variety of Fair"
+          },
+          "grid": {
+            "sel": ".TeaserGrid",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 2588
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 18px/19.8px 400 rgb(30, 30, 30)",
+              "image": {
+                "w": 419,
+                "h": 314
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Product pages Bananas Read more Product pages Cocoa Read mor"
+          },
+          "card": {
+            "sel": ".InfoTeaser",
+            "count": 14,
+            "first": {
+              "rect": {
+                "w": 421,
+                "h": 442
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 0px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 18px/19.8px 400 rgb(30, 30, 30)",
+              "image": {
+                "w": 419,
+                "h": 314
+              },
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Product pages Bananas Read more"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/impact/impact-stories.html",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "lead",
+          "msg": "rect{h 452 → 1028}; image null → [object Object]"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "grid",
+          "msg": "rect{h 3875 → 4323}; image{w 419 → 650, h 314 → 488}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "18 → 20 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "card",
+          "msg": "2 → 3 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{w 421 → 652, h 512 → 615}; image{w 419 → 650, h 314 → 488}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "lead": {
+            "sel": ".PageLead",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 1028
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h1 alegreya sans 72px/79.2px 900 rgb(30, 30, 30)",
+              "image": {
+                "w": 0,
+                "h": 0
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Impact stories Dive into stories from farmers and workers th"
+          },
+          "grid": {
+            "sel": ".TeaserGrid",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 4323
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 18px/19.8px 400 rgb(30, 30, 30)",
+              "image": {
+                "w": 650,
+                "h": 488
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Climate change Producer stories Coffee Heroes - Ana Christin"
+          },
+          "card": {
+            "sel": ".InfoTeaser",
+            "count": 20,
+            "first": {
+              "rect": {
+                "w": 652,
+                "h": 615
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 0px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 18px/19.8px 400 rgb(30, 30, 30)",
+              "image": {
+                "w": 650,
+                "h": 488
+              },
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 3,
+            "text": "Climate change Producer stories Coffee Heroes - Ana Christin"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/business-success-stories.html",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "lead",
+          "msg": "rect{h 452 → 1184}; heading h1 alegreya sans 72px/79.2px 900 rgb(30, 30, 30) → h1 alegreya sans 72px/79.2px 900 rgb(255, 255, 255); image null → [object Object]"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "grid",
+          "msg": "rect{h 3875 → 1318}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "18 → 6 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 512 → 547}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "lead": {
+            "sel": ".PageLead",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 1184
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h1 alegreya sans 72px/79.2px 900 rgb(255, 255, 255)",
+              "image": {
+                "w": 0,
+                "h": 0
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Driving Positive Change - Business Success Stories Welcome t"
+          },
+          "grid": {
+            "sel": ".TeaserGrid",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 1318
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 18px/19.8px 400 rgb(30, 30, 30)",
+              "image": {
+                "w": 419,
+                "h": 314
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "04.17.26 Business Stories New frontiers for Fairtrade: UNFI’"
+          },
+          "card": {
+            "sel": ".InfoTeaser",
+            "count": 6,
+            "first": {
+              "rect": {
+                "w": 421,
+                "h": 547
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 0px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 18px/19.8px 400 rgb(30, 30, 30)",
+              "image": {
+                "w": 419,
+                "h": 314
+              },
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 2,
+            "text": "04.17.26 Business Stories New frontiers for Fairtrade: UNFI’"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 6,
+    "varying": 6,
+    "probesVarying": [
+      "grid",
+      "card",
+      "lead"
+    ]
+  }
+}

@@ -1,0 +1,3838 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T10:50:26.886Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/us-en/products/all-products/gold.html",
+  "at": "2026-11-14T10:50:05.851Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5471,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "Fairtrade_America_Logo_Vert_80x80"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > span.Breadcrumbs--breadcrumb--title",
+    "x": 125,
+    "y": 122,
+    "w": 57,
+    "h": 20,
+    "text": "Products"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 222,
+    "y": 122,
+    "w": 118,
+    "h": 20,
+    "text": "fairtrade products",
+    "href": "/us-en/products/all-products.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 380,
+    "y": 122,
+    "w": 29,
+    "h": 20,
+    "text": "gold",
+    "href": "/us-en/products/all-products/gold.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+    "x": 352,
+    "y": 224,
+    "w": 736,
+    "h": 79,
+    "level": 1,
+    "text": "gold and precious metals"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 115,
+    "text": "Fairtrade Gold is more than just gold - Its value doesn't stop at the price tag."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--imageGrid > div.Image.ultra-wide > img.lazyautosizes.lazyloaded",
+    "x": 48,
+    "y": 514,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "21x9_1440w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1210,
+    "w": 660,
+    "h": 259,
+    "text": "90% of gold miners worldwide work in artisanal and small-scale mines. An estimat"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1502,
+    "w": 660,
+    "h": 115,
+    "text": "By working alongisde refining partners to create fully transparent and traceable"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > i > b",
+    "x": 390,
+    "y": 1652,
+    "w": 636,
+    "h": 80,
+    "text": "\"Our vision is a world in which artisanal and small-scale miners can enjoy secur"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 1815,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "how fairtrade gold makes a difference"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1874,
+    "w": 660,
+    "h": 144,
+    "text": "Fairtrade combines different approaches to support miners in driving change in t"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > a",
+    "x": 626,
+    "y": 1906,
+    "w": 195,
+    "h": 22,
+    "text": "fairtrade gold standard",
+    "href": "/en/why-fairtrade/how-we-do-it/fairtrade-standards/who-we-have-standards-for/gold-standard-and-associated-precious-metals-standard.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2050,
+    "w": 660,
+    "h": 144,
+    "text": "In addition to the standard, we work on technical assistance and accompaniment, "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 2226,
+    "w": 660,
+    "h": 144,
+    "text": "Transparent and long-term trading relationships put certified mining organizatio"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 2382,
+    "w": 660,
+    "h": 202,
+    "text": "Fairtrade-certified mines receive a Fairtrade premium of USD 2000 per kilogram o"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 2596,
+    "w": 660,
+    "h": 115,
+    "text": ": Fairtrade-certified mines are democratically organized and decide collectively"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 2723,
+    "w": 660,
+    "h": 173,
+    "text": "In addition to social and economic benefits, Fairtrade-certified mines must comp"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h4",
+    "x": 390,
+    "y": 2976,
+    "w": 660,
+    "h": 22,
+    "level": 4,
+    "text": "interested in partnering with fairtrade in the gold sector?"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h4",
+    "x": 390,
+    "y": 3014,
+    "w": 660,
+    "h": 22,
+    "level": 4,
+    "text": "explore our dedicated page for businesses to find more information."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > h4 > a",
+    "x": 393,
+    "y": 3013,
+    "w": 409,
+    "h": 24,
+    "text": "explore our dedicated page for businesses",
+    "href": "/about/let-your-business-shine-with-fairtrade-gold"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.SingleImage--figure > div.Image.landscape > img.lazyautosizes.lazyloaded",
+    "x": 162,
+    "y": 3156,
+    "w": 1116,
+    "h": 628,
+    "text": "",
+    "file": "16x9_1280w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 3904,
+    "w": 660,
+    "h": 70,
+    "level": 3,
+    "text": "where to buy jewelry, watches and other fairtrade gold products?"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 406,
+    "y": 4001,
+    "w": 148,
+    "h": 22,
+    "text": "reflective jewelry",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 4107,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "get in touch"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4166,
+    "w": 660,
+    "h": 86,
+    "text": "Fairtrade has expert staff at mine and market levels, with relationships across "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4284,
+    "w": 660,
+    "h": 58,
+    "text": "If you’d like to partner with Fairtrade or have any questions please do get in t"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > a",
+    "x": 445,
+    "y": 4316,
+    "w": 157,
+    "h": 22,
+    "text": "info@fairtrade.gold",
+    "href": "info@fairtrade.gold"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.panelcontainer > div.AccordionSection > h2.AccordionSection--title",
+    "x": 390,
+    "y": 4462,
+    "w": 660,
+    "h": 35,
+    "level": 2,
+    "text": "faqs"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4529,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4529,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 4545,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "is it not better to use recycled gold rather than newly mined fairtrade gold?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4605,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4605,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 4621,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "why is fairtrade gold only sourced from artisanal and small-scale mines (asm)?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4681,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4681,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 4697,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "is the use of toxic chemicals allowed in fairtrade certified mines?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4757,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4757,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 4773,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "how do you ensure that the fairtrade standards have been met in certified mines?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4833,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4833,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 4854,
+    "w": 465,
+    "h": 22,
+    "level": 3,
+    "text": "does the fairtrade mark guarantee traceability?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 5073,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 5073,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 76,
+    "y": 5163,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 5211,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 5261,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 418,
+    "y": 5163,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 5211,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 5261,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 5310,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 5360,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 760,
+    "y": 5163,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 5211,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 5261,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 5163,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 5209,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 5209,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 5209,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 5209,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 5297,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 5343,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 59,
+    "controls": 37,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/gold",
+  "at": "2026-11-14T10:50:26.781Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5471,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_13df0d1ade5b87108701c0132044859868"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > span.breadcrumbs-breadcrumb-title",
+    "x": 125,
+    "y": 122,
+    "w": 57,
+    "h": 20,
+    "text": "Products"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 222,
+    "y": 122,
+    "w": 118,
+    "h": 20,
+    "text": "fairtrade products",
+    "href": "/us-en/products/all-products.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 380,
+    "y": 122,
+    "w": 29,
+    "h": 20,
+    "text": "gold",
+    "href": "/us-en/products/all-products/gold.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-title > h1#gold-and-precious-metals",
+    "x": 352,
+    "y": 224,
+    "w": 736,
+    "h": 79,
+    "level": 1,
+    "text": "gold and precious metals"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-lead > p",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 115,
+    "text": "Fairtrade Gold is more than just gold - Its value doesn't stop at the price tag."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.ultra-wide > picture > img",
+    "x": 48,
+    "y": 514,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "media_1ddbd664013c5c1b041802c1122787c247"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1210,
+    "w": 660,
+    "h": 259,
+    "text": "90% of gold miners worldwide work in artisanal and small-scale mines. An estimat"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1502,
+    "w": 660,
+    "h": 115,
+    "text": "By working alongisde refining partners to create fully transparent and traceable"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > em > strong",
+    "x": 390,
+    "y": 1652,
+    "w": 636,
+    "h": 80,
+    "text": "\"Our vision is a world in which artisanal and small-scale miners can enjoy secur"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#how-fairtrade-gold-makes-a-difference",
+    "x": 390,
+    "y": 1815,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "how fairtrade gold makes a difference"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1874,
+    "w": 660,
+    "h": 144,
+    "text": "Fairtrade combines different approaches to support miners in driving change in t"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 626,
+    "y": 1906,
+    "w": 195,
+    "h": 22,
+    "text": "fairtrade gold standard",
+    "href": "/en/why-fairtrade/how-we-do-it/fairtrade-standards/who-we-have-standards-for/gold-standard-and-associated-precious-metals-standard.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2050,
+    "w": 660,
+    "h": 144,
+    "text": "In addition to the standard, we work on technical assistance and accompaniment, "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 2226,
+    "w": 660,
+    "h": 144,
+    "text": "Transparent and long-term trading relationships put certified mining organizatio"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 2382,
+    "w": 660,
+    "h": 202,
+    "text": "Fairtrade-certified mines receive a Fairtrade premium of USD 2000 per kilogram o"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 2596,
+    "w": 660,
+    "h": 115,
+    "text": ": Fairtrade-certified mines are democratically organized and decide collectively"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 2723,
+    "w": 660,
+    "h": 173,
+    "text": "In addition to social and economic benefits, Fairtrade-certified mines must comp"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.centered.section > div.default-content-wrapper > h4#interested-in-partnering-with-fairtrade-in-the-gold-sector",
+    "x": 390,
+    "y": 2976,
+    "w": 660,
+    "h": 22,
+    "level": 4,
+    "text": "interested in partnering with fairtrade in the gold sector?"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.centered.section > div.default-content-wrapper > h4#explore-our-dedicated-page-for-businesses-to-find-more-information",
+    "x": 390,
+    "y": 3014,
+    "w": 660,
+    "h": 22,
+    "level": 4,
+    "text": "explore our dedicated page for businesses to find more information."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > h4#explore-our-dedicated-page-for-businesses-to-find-more-information > a",
+    "x": 393,
+    "y": 3013,
+    "w": 409,
+    "h": 24,
+    "text": "explore our dedicated page for businesses",
+    "href": "/about/let-your-business-shine-with-fairtrade-gold"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.landscape > picture > img",
+    "x": 162,
+    "y": 3156,
+    "w": 1116,
+    "h": 628,
+    "text": "",
+    "file": "media_1ad6b0ff84f5032154d63f21e657560e82"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#where-to-buy-jewelry-watches-and-other-fairtrade-gold-products",
+    "x": 390,
+    "y": 3904,
+    "w": 660,
+    "h": 70,
+    "level": 3,
+    "text": "where to buy jewelry, watches and other fairtrade gold products?"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 406,
+    "y": 4001,
+    "w": 148,
+    "h": 22,
+    "text": "reflective jewelry",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#get-in-touch",
+    "x": 390,
+    "y": 4107,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "get in touch"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4166,
+    "w": 660,
+    "h": 86,
+    "text": "Fairtrade has expert staff at mine and market levels, with relationships across "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4284,
+    "w": 660,
+    "h": 58,
+    "text": "If you’d like to partner with Fairtrade or have any questions please do get in t"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 445,
+    "y": 4316,
+    "w": 157,
+    "h": 22,
+    "text": "info@fairtrade.gold",
+    "href": "info@fairtrade.gold"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.block > div.accordion-section-title > h2#faqs",
+    "x": 390,
+    "y": 4462,
+    "w": 660,
+    "h": 35,
+    "level": 2,
+    "text": "faqs"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4529,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4529,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#is-it-not-better-to-use-recycled-gold-rather-than-newly-mined-fairtrade-gold",
+    "x": 442,
+    "y": 4545,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "is it not better to use recycled gold rather than newly mined fairtrade gold?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4605,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4605,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#why-is-fairtrade-gold-only-sourced-from-artisanal-and-small-scale-mines-asm",
+    "x": 442,
+    "y": 4621,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "why is fairtrade gold only sourced from artisanal and small-scale mines (asm)?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4681,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4681,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#is-the-use-of-toxic-chemicals-allowed-in-fairtrade-certified-mines",
+    "x": 442,
+    "y": 4697,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "is the use of toxic chemicals allowed in fairtrade certified mines?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4757,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4757,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#how-do-you-ensure-that-the-fairtrade-standards-have-been-met-in-certified-mines",
+    "x": 442,
+    "y": 4773,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "how do you ensure that the fairtrade standards have been met in certified mines?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4833,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4833,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#does-the-fairtrade-mark-guarantee-traceability",
+    "x": 442,
+    "y": 4854,
+    "w": 465,
+    "h": 22,
+    "level": 3,
+    "text": "does the fairtrade mark guarantee traceability?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 5073,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 5073,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 76,
+    "y": 5163,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 5211,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 5261,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 418,
+    "y": 5163,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 5211,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 5261,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 5310,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 5360,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 760,
+    "y": 5163,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 5211,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 5261,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 5163,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 5209,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 5209,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 5209,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 5209,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 5297,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 5343,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 59,
+    "controls": 37,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "gold and precious metals",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 4,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "how fairtrade gold makes a difference",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 6,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "where to buy jewelry, watches and other fairtrade gold products?",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "get in touch",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "faqs",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "is it not better to use recycled gold rather than newly mined fairtrade gold?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "why is fairtrade gold only sourced from artisanal and small-scale mines (asm)?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "is the use of toxic chemicals allowed in fairtrade certified mines?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "how do you ensure that the fairtrade standards have been met in certified mines?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "does the fairtrade mark guarantee traceability?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 57,
+    "h": 17
+   },
+   {
+    "x": 222,
+    "y": 123,
+    "w": 118,
+    "h": 17
+   },
+   {
+    "x": 380,
+    "y": 123,
+    "w": 29,
+    "h": 17
+   },
+   {
+    "x": 352,
+    "y": 227,
+    "w": 736,
+    "h": 72
+   },
+   {
+    "x": 299,
+    "y": 339,
+    "w": 841,
+    "h": 29
+   },
+   {
+    "x": 287,
+    "y": 378,
+    "w": 866,
+    "h": 29
+   },
+   {
+    "x": 645,
+    "y": 416,
+    "w": 151,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1213,
+    "w": 612,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1242,
+    "w": 604,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1271,
+    "w": 615,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1300,
+    "w": 631,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1329,
+    "w": 554,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1357,
+    "w": 655,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1386,
+    "w": 623,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1415,
+    "w": 652,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1444,
+    "w": 124,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1505,
+    "w": 650,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1533,
+    "w": 652,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1562,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1591,
+    "w": 221,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1652,
+    "w": 627,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1681,
+    "w": 636,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1709,
+    "w": 275,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1816,
+    "w": 506,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 1877,
+    "w": 644,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1906,
+    "w": 236,
+    "h": 22
+   },
+   {
+    "x": 626,
+    "y": 1906,
+    "w": 195,
+    "h": 22
+   },
+   {
+    "x": 821,
+    "y": 1906,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1935,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1964,
+    "w": 659,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1992,
+    "w": 217,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2053,
+    "w": 521,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2082,
+    "w": 627,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2111,
+    "w": 652,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2140,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2168,
+    "w": 33,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2229,
+    "w": 395,
+    "h": 22
+   },
+   {
+    "x": 801,
+    "y": 2229,
+    "w": 226,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2258,
+    "w": 634,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2287,
+    "w": 609,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2316,
+    "w": 574,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2344,
+    "w": 278,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2385,
+    "w": 167,
+    "h": 22
+   },
+   {
+    "x": 573,
+    "y": 2385,
+    "w": 457,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2414,
+    "w": 573,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2443,
+    "w": 597,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2472,
+    "w": 608,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2500,
+    "w": 626,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2529,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2558,
+    "w": 223,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2599,
+    "w": 240,
+    "h": 22
+   },
+   {
+    "x": 646,
+    "y": 2599,
+    "w": 368,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2628,
+    "w": 639,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2656,
+    "w": 614,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2685,
+    "w": 511,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2726,
+    "w": 227,
+    "h": 22
+   },
+   {
+    "x": 633,
+    "y": 2726,
+    "w": 350,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2755,
+    "w": 626,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2784,
+    "w": 622,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2812,
+    "w": 623,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2841,
+    "w": 605,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2870,
+    "w": 390,
+    "h": 22
+   },
+   {
+    "x": 442,
+    "y": 2975,
+    "w": 556,
+    "h": 24
+   },
+   {
+    "x": 393,
+    "y": 3013,
+    "w": 409,
+    "h": 24
+   },
+   {
+    "x": 802,
+    "y": 3013,
+    "w": 245,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 3905,
+    "w": 658,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 3940,
+    "w": 192,
+    "h": 32
+   },
+   {
+    "x": 406,
+    "y": 4001,
+    "w": 148,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4108,
+    "w": 155,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 4169,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4198,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4227,
+    "w": 194,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4287,
+    "w": 611,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4316,
+    "w": 55,
+    "h": 22
+   },
+   {
+    "x": 445,
+    "y": 4316,
+    "w": 157,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4463,
+    "w": 68,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 4544,
+    "w": 576,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4566,
+    "w": 147,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4620,
+    "w": 582,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4642,
+    "w": 187,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4696,
+    "w": 556,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4718,
+    "w": 68,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4772,
+    "w": 563,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4794,
+    "w": 220,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4853,
+    "w": 465,
+    "h": 24
+   },
+   {
+    "x": 1338,
+    "y": 5075,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 5162,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 5214,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 5264,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5162,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 5214,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5264,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5313,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5363,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 5162,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 5214,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 5264,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 5162,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 5296,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 5356,
+    "w": 127,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 57,
+    "h": 17
+   },
+   {
+    "x": 222,
+    "y": 123,
+    "w": 118,
+    "h": 17
+   },
+   {
+    "x": 380,
+    "y": 123,
+    "w": 29,
+    "h": 17
+   },
+   {
+    "x": 352,
+    "y": 227,
+    "w": 736,
+    "h": 72
+   },
+   {
+    "x": 299,
+    "y": 339,
+    "w": 841,
+    "h": 29
+   },
+   {
+    "x": 287,
+    "y": 378,
+    "w": 866,
+    "h": 29
+   },
+   {
+    "x": 645,
+    "y": 416,
+    "w": 151,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1213,
+    "w": 612,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1242,
+    "w": 604,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1271,
+    "w": 615,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1300,
+    "w": 631,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1329,
+    "w": 554,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1357,
+    "w": 655,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1386,
+    "w": 623,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1415,
+    "w": 652,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1444,
+    "w": 124,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1505,
+    "w": 650,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1533,
+    "w": 652,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1562,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1591,
+    "w": 221,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1652,
+    "w": 623,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1681,
+    "w": 636,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1709,
+    "w": 275,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1816,
+    "w": 506,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 1877,
+    "w": 644,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1906,
+    "w": 236,
+    "h": 22
+   },
+   {
+    "x": 626,
+    "y": 1906,
+    "w": 195,
+    "h": 22
+   },
+   {
+    "x": 821,
+    "y": 1906,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1935,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1964,
+    "w": 659,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1992,
+    "w": 217,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2053,
+    "w": 521,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2082,
+    "w": 627,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2111,
+    "w": 652,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2140,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2168,
+    "w": 33,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2229,
+    "w": 395,
+    "h": 22
+   },
+   {
+    "x": 801,
+    "y": 2229,
+    "w": 226,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2258,
+    "w": 634,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2287,
+    "w": 609,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2316,
+    "w": 574,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2344,
+    "w": 266,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2385,
+    "w": 163,
+    "h": 22
+   },
+   {
+    "x": 569,
+    "y": 2385,
+    "w": 461,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2414,
+    "w": 573,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2443,
+    "w": 597,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2472,
+    "w": 608,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2500,
+    "w": 626,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2529,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2558,
+    "w": 215,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2599,
+    "w": 236,
+    "h": 22
+   },
+   {
+    "x": 642,
+    "y": 2599,
+    "w": 368,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2628,
+    "w": 639,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2656,
+    "w": 614,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2685,
+    "w": 495,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2726,
+    "w": 223,
+    "h": 22
+   },
+   {
+    "x": 629,
+    "y": 2726,
+    "w": 354,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2755,
+    "w": 626,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2784,
+    "w": 622,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2812,
+    "w": 623,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2841,
+    "w": 605,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2870,
+    "w": 390,
+    "h": 22
+   },
+   {
+    "x": 442,
+    "y": 2975,
+    "w": 556,
+    "h": 24
+   },
+   {
+    "x": 393,
+    "y": 3013,
+    "w": 409,
+    "h": 24
+   },
+   {
+    "x": 802,
+    "y": 3013,
+    "w": 245,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 3905,
+    "w": 658,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 3940,
+    "w": 192,
+    "h": 32
+   },
+   {
+    "x": 406,
+    "y": 4001,
+    "w": 148,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4108,
+    "w": 155,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 4169,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4198,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4227,
+    "w": 194,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4287,
+    "w": 611,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4316,
+    "w": 55,
+    "h": 22
+   },
+   {
+    "x": 445,
+    "y": 4316,
+    "w": 157,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4463,
+    "w": 68,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 4544,
+    "w": 576,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4566,
+    "w": 147,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4620,
+    "w": 582,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4642,
+    "w": 187,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4696,
+    "w": 556,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4718,
+    "w": 68,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4772,
+    "w": 563,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4794,
+    "w": 220,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4853,
+    "w": 465,
+    "h": 24
+   },
+   {
+    "x": 1338,
+    "y": 5075,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 5162,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 5214,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 5264,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5162,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 5214,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5264,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5313,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5363,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 5162,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 5214,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 5264,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 5162,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 5296,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 5356,
+    "w": 127,
+    "h": 22
+   }
+  ]
+ }
+}

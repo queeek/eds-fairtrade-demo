@@ -1,0 +1,3097 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T10:45:35.039Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/us-en/get-involved/how-to-shop-sustainably.html",
+  "at": "2026-11-14T10:45:14.206Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5497,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "Fairtrade_America_Logo_Vert_80x80"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > span.Breadcrumbs--breadcrumb--title",
+    "x": 125,
+    "y": 122,
+    "w": 79,
+    "h": 20,
+    "text": "Get Involved"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 244,
+    "y": 122,
+    "w": 157,
+    "h": 20,
+    "text": "how to shop sustainably",
+    "href": "/us-en/get-involved/how-to-shop-sustainably.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+    "x": 352,
+    "y": 224,
+    "w": 736,
+    "h": 79,
+    "level": 1,
+    "text": "how to shop sustainably"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 154,
+    "text": "Every day we’re confronted by a deluge of options in the grocery aisle and on ou"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--number",
+    "x": 193,
+    "y": 901,
+    "w": 484,
+    "h": 119,
+    "text": "47,000"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--fact",
+    "x": 193,
+    "y": 1065,
+    "w": 484,
+    "h": 70,
+    "text": "different products are carried by the average supermarket"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--number",
+    "x": 193,
+    "y": 1632,
+    "w": 484,
+    "h": 119,
+    "text": "9,000"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--fact",
+    "x": 193,
+    "y": 1796,
+    "w": 484,
+    "h": 70,
+    "text": "different products were stocked by the average supermarket in 1975"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > strong.NumberFactTeaser--label",
+    "x": 862,
+    "y": 712,
+    "w": 245,
+    "h": 29,
+    "text": "Feeling some choice fatigue?"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > h2.NumberFactTeaser--title",
+    "x": 862,
+    "y": 764,
+    "w": 405,
+    "h": 106,
+    "level": 2,
+    "text": "so many decisions, so little time"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > p.NumberFactTeaser--text",
+    "x": 862,
+    "y": 894,
+    "w": 405,
+    "h": 432,
+    "text": "You’re not imaging it—there are more options than ever before. Decision making c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 2175,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "what lofty means"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 2234,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "l = local"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > h3 > span",
+    "x": 390,
+    "y": 2235,
+    "w": 103,
+    "h": 32,
+    "text": "L = Local"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2293,
+    "w": 660,
+    "h": 86,
+    "text": "In the past 10 years, the number of farmer’s markets across the US has grown fro"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 2420,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "o = organic"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > h3 > span",
+    "x": 390,
+    "y": 2421,
+    "w": 143,
+    "h": 32,
+    "text": "O = Organic"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2479,
+    "w": 660,
+    "h": 86,
+    "text": "According to the Organic Trade Association, demand for organic products has grow"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 2605,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "ft = fairtrade"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > h3 > span",
+    "x": 390,
+    "y": 2606,
+    "w": 168,
+    "h": 32,
+    "text": "FT = Fairtrade"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2664,
+    "w": 660,
+    "h": 115,
+    "text": "With 37,000+ products sold in more than 100 countries, the Fairtrade Mark contin"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.SingleImage--figure > div.Image.landscape > img.lazyautosizes.lazyloaded",
+    "x": 162,
+    "y": 2899,
+    "w": 1116,
+    "h": 628,
+    "text": "a person holds a pint of non-dairy, fairtrade fudge brownie ",
+    "file": "16x9_1280w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 162,
+    "y": 3763,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "shared values"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 162,
+    "y": 3839,
+    "w": 538,
+    "h": 230,
+    "text": "Ultimately, the local, organic and fair trade movements all share a similar visi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 162,
+    "y": 4102,
+    "w": 263,
+    "h": 48,
+    "text": "where to buy fairtrade",
+    "href": "/shop-fairtrade/where-to-buy/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 740,
+    "y": 3687,
+    "w": 538,
+    "h": 538,
+    "text": "cocoa beans are processed inside a factory.",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 740,
+    "y": 4506,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "lex daddio, @restoring_radiance"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 740,
+    "y": 4636,
+    "w": 538,
+    "h": 86,
+    "text": "\"Some ways you can help are with bananas, chocolate, coffee and clothes which ar"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 740,
+    "y": 4754,
+    "w": 291,
+    "h": 48,
+    "text": "explore the fairtrade four",
+    "href": "/for-media/fairtrade-four/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.ls-is-cached",
+    "x": 162,
+    "y": 4385,
+    "w": 538,
+    "h": 538,
+    "text": "a metal grocery basket holds fairtrade coffee beans, bananas",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 5099,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 5099,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 76,
+    "y": 5189,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 5237,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 5287,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 418,
+    "y": 5189,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 5237,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 5287,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 5336,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 5386,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 760,
+    "y": 5189,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 5237,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 5287,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 5189,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 5235,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 5235,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 5235,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 5235,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 5323,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 5369,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 47,
+    "controls": 29,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/how-to-shop-sustainably",
+  "at": "2026-11-14T10:45:34.926Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5497,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_13df0d1ade5b87108701c0132044859868"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > span.breadcrumbs-breadcrumb-title",
+    "x": 125,
+    "y": 122,
+    "w": 79,
+    "h": 20,
+    "text": "Get Involved"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 244,
+    "y": 122,
+    "w": 157,
+    "h": 20,
+    "text": "how to shop sustainably",
+    "href": "/us-en/get-involved/how-to-shop-sustainably.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-title > h1#how-to-shop-sustainably",
+    "x": 352,
+    "y": 224,
+    "w": 736,
+    "h": 79,
+    "level": 1,
+    "text": "how to shop sustainably"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-lead > p",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 154,
+    "text": "Every day we’re confronted by a deluge of options in the grocery aisle and on ou"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 193,
+    "y": 901,
+    "w": 484,
+    "h": 119,
+    "text": "47,000"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 205,
+    "y": 1065,
+    "w": 460,
+    "h": 70,
+    "text": "different products are carried by the average supermarket"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 193,
+    "y": 1632,
+    "w": 484,
+    "h": 119,
+    "text": "9,000"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 205,
+    "y": 1796,
+    "w": 460,
+    "h": 70,
+    "text": "different products were stocked by the average supermarket in 1975"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-label > p > strong",
+    "x": 862,
+    "y": 715,
+    "w": 245,
+    "h": 22,
+    "text": "Feeling some choice fatigue?"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-title > h2#so-many-decisions-so-little-time",
+    "x": 862,
+    "y": 764,
+    "w": 405,
+    "h": 106,
+    "level": 2,
+    "text": "so many decisions, so little time"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-text > p",
+    "x": 862,
+    "y": 894,
+    "w": 405,
+    "h": 432,
+    "text": "You’re not imaging it—there are more options than ever before. Decision making c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#what-lofty-means",
+    "x": 390,
+    "y": 2175,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "what lofty means"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#l--local",
+    "x": 390,
+    "y": 2234,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "l = local"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2293,
+    "w": 660,
+    "h": 86,
+    "text": "In the past 10 years, the number of farmer’s markets across the US has grown fro"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#o--organic",
+    "x": 390,
+    "y": 2420,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "o = organic"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2479,
+    "w": 660,
+    "h": 86,
+    "text": "According to the Organic Trade Association, demand for organic products has grow"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#ft--fairtrade",
+    "x": 390,
+    "y": 2605,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "ft = fairtrade"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2664,
+    "w": 660,
+    "h": 115,
+    "text": "With 37,000+ products sold in more than 100 countries, the Fairtrade Mark contin"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.landscape > picture > img",
+    "x": 162,
+    "y": 2899,
+    "w": 1116,
+    "h": 628,
+    "text": "a person holds a pint of non-dairy, fairtrade fudge brownie ",
+    "file": "media_1ef347e22e16ed8ff26fce63e515f84a90"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#shared-values",
+    "x": 162,
+    "y": 3763,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "shared values"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 3839,
+    "w": 538,
+    "h": 230,
+    "text": "Ultimately, the local, organic and fair trade movements all share a similar visi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 162,
+    "y": 4102,
+    "w": 263,
+    "h": 48,
+    "text": "where to buy fairtrade",
+    "href": "/shop-fairtrade/where-to-buy/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 740,
+    "y": 3687,
+    "w": 538,
+    "h": 538,
+    "text": "cocoa beans are processed inside a factory.",
+    "file": "media_140a055be053fa11a1267cabc4934900fd"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#lex-daddio-restoring_radiance",
+    "x": 740,
+    "y": 4506,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "lex daddio, @restoring_radiance"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 740,
+    "y": 4636,
+    "w": 538,
+    "h": 86,
+    "text": "\"Some ways you can help are with bananas, chocolate, coffee and clothes which ar"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 740,
+    "y": 4754,
+    "w": 291,
+    "h": 48,
+    "text": "explore the fairtrade four",
+    "href": "/for-media/fairtrade-four/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 162,
+    "y": 4385,
+    "w": 538,
+    "h": 538,
+    "text": "a metal grocery basket holds fairtrade coffee beans, bananas",
+    "file": "media_1a10d177a4fe5c7ddc65782b1d51663633"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 5099,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 5099,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 76,
+    "y": 5189,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 5237,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 5287,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 418,
+    "y": 5189,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 5237,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 5287,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 5336,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 5386,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 760,
+    "y": 5189,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 5237,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 5287,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 5189,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 5235,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 5235,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 5235,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 5235,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 5323,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 5369,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 47,
+    "controls": 29,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "how to shop sustainably",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "so many decisions, so little time",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "what lofty means",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "l = local",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "o = organic",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "ft = fairtrade",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 2
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "shared values",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "lex daddio, @restoring_radiance",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 79,
+    "h": 17
+   },
+   {
+    "x": 244,
+    "y": 123,
+    "w": 157,
+    "h": 17
+   },
+   {
+    "x": 352,
+    "y": 227,
+    "w": 736,
+    "h": 72
+   },
+   {
+    "x": 295,
+    "y": 339,
+    "w": 850,
+    "h": 29
+   },
+   {
+    "x": 294,
+    "y": 378,
+    "w": 852,
+    "h": 29
+   },
+   {
+    "x": 294,
+    "y": 416,
+    "w": 853,
+    "h": 29
+   },
+   {
+    "x": 546,
+    "y": 454,
+    "w": 349,
+    "h": 29
+   },
+   {
+    "x": 248,
+    "y": 892,
+    "w": 373,
+    "h": 136
+   },
+   {
+    "x": 223,
+    "y": 1066,
+    "w": 423,
+    "h": 32
+   },
+   {
+    "x": 270,
+    "y": 1101,
+    "w": 331,
+    "h": 32
+   },
+   {
+    "x": 281,
+    "y": 1623,
+    "w": 308,
+    "h": 136
+   },
+   {
+    "x": 208,
+    "y": 1797,
+    "w": 454,
+    "h": 32
+   },
+   {
+    "x": 224,
+    "y": 1832,
+    "w": 423,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 715,
+    "w": 245,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 766,
+    "w": 367,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 819,
+    "w": 248,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 897,
+    "w": 369,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 926,
+    "w": 333,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 955,
+    "w": 402,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 983,
+    "w": 405,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1012,
+    "w": 392,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1041,
+    "w": 355,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1070,
+    "w": 374,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1099,
+    "w": 387,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1127,
+    "w": 360,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1156,
+    "w": 386,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1185,
+    "w": 385,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1214,
+    "w": 390,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1243,
+    "w": 405,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1271,
+    "w": 376,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1300,
+    "w": 272,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2176,
+    "w": 252,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 2235,
+    "w": 103,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 2296,
+    "w": 629,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2325,
+    "w": 654,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2354,
+    "w": 353,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2421,
+    "w": 143,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 2482,
+    "w": 625,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2511,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2539,
+    "w": 430,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2606,
+    "w": 168,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 2667,
+    "w": 604,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2696,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2725,
+    "w": 559,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2754,
+    "w": 456,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3765,
+    "w": 277,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 3842,
+    "w": 535,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3871,
+    "w": 530,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3900,
+    "w": 518,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3929,
+    "w": 464,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3958,
+    "w": 426,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3986,
+    "w": 494,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 4015,
+    "w": 496,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 4044,
+    "w": 375,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 4115,
+    "w": 195,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 4508,
+    "w": 229,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 4561,
+    "w": 419,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 4639,
+    "w": 532,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 4668,
+    "w": 485,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 4696,
+    "w": 402,
+    "h": 22
+   },
+   {
+    "x": 774,
+    "y": 4767,
+    "w": 223,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 5101,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 5188,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 5240,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 5290,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5188,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 5240,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5290,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5339,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5389,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 5188,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 5240,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 5290,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 5188,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 5322,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 5382,
+    "w": 127,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 79,
+    "h": 17
+   },
+   {
+    "x": 244,
+    "y": 123,
+    "w": 157,
+    "h": 17
+   },
+   {
+    "x": 352,
+    "y": 227,
+    "w": 736,
+    "h": 72
+   },
+   {
+    "x": 295,
+    "y": 339,
+    "w": 850,
+    "h": 29
+   },
+   {
+    "x": 294,
+    "y": 378,
+    "w": 852,
+    "h": 29
+   },
+   {
+    "x": 294,
+    "y": 416,
+    "w": 853,
+    "h": 29
+   },
+   {
+    "x": 546,
+    "y": 454,
+    "w": 349,
+    "h": 29
+   },
+   {
+    "x": 248,
+    "y": 892,
+    "w": 373,
+    "h": 136
+   },
+   {
+    "x": 223,
+    "y": 1066,
+    "w": 423,
+    "h": 32
+   },
+   {
+    "x": 270,
+    "y": 1101,
+    "w": 331,
+    "h": 32
+   },
+   {
+    "x": 281,
+    "y": 1623,
+    "w": 308,
+    "h": 136
+   },
+   {
+    "x": 208,
+    "y": 1797,
+    "w": 454,
+    "h": 32
+   },
+   {
+    "x": 224,
+    "y": 1832,
+    "w": 423,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 715,
+    "w": 245,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 766,
+    "w": 367,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 819,
+    "w": 248,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 897,
+    "w": 369,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 926,
+    "w": 333,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 955,
+    "w": 402,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 983,
+    "w": 405,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1012,
+    "w": 392,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1041,
+    "w": 355,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1070,
+    "w": 374,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1099,
+    "w": 387,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1127,
+    "w": 360,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1156,
+    "w": 386,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1185,
+    "w": 385,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1214,
+    "w": 390,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1243,
+    "w": 405,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1271,
+    "w": 376,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1300,
+    "w": 272,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2176,
+    "w": 252,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 2235,
+    "w": 106,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 2296,
+    "w": 629,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2325,
+    "w": 654,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2354,
+    "w": 353,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2421,
+    "w": 148,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 2482,
+    "w": 625,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2511,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2539,
+    "w": 430,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2606,
+    "w": 181,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 2667,
+    "w": 604,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2696,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2725,
+    "w": 559,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2754,
+    "w": 456,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3765,
+    "w": 277,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 3842,
+    "w": 535,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3871,
+    "w": 530,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3900,
+    "w": 518,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3929,
+    "w": 464,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3958,
+    "w": 426,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3986,
+    "w": 494,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 4015,
+    "w": 496,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 4044,
+    "w": 375,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 4115,
+    "w": 195,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 4508,
+    "w": 229,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 4561,
+    "w": 419,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 4639,
+    "w": 532,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 4668,
+    "w": 485,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 4696,
+    "w": 402,
+    "h": 22
+   },
+   {
+    "x": 774,
+    "y": 4767,
+    "w": 223,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 5101,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 5188,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 5240,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 5290,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5188,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 5240,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5290,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5339,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5389,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 5188,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 5240,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 5290,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 5188,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 5322,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 5382,
+    "w": 127,
+    "h": 22
+   }
+  ]
+ }
+}

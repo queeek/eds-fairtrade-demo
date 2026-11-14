@@ -1,0 +1,132 @@
+{
+  "url": "https://www.fairtrade.net/",
+  "title": "Fairtrade America - the Future is Fair",
+  "timestamp": "2026-11-14T15:06:18.469Z",
+  "duration": "0s",
+  "cleanup": {
+    "elementsRemoved": 0,
+    "types": [],
+    "cookieConsentDismissed": false,
+    "removed": []
+  },
+  "skeleton": {
+    "sections": []
+  },
+  "pageLayout": null,
+  "blocks": [
+    {
+      "id": "b01-hero-carousel",
+      "type": "carousel",
+      "name": "hero-carousel",
+      "variantId": "v_74cd50d4f35d",
+      "selector": null,
+      "screenshot": "blocks/b01-hero-carousel.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 104,
+        "width": 1440,
+        "height": 824
+      },
+      "description": "Home-page hero carousels on the global and locale home pages. Used on 2 pages (austria-home and global-home templates).",
+      "visualChars": {
+        "purpose": "Pageherocarousel",
+        "structure": "Pageherocarousel block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-number-facts",
+      "type": "cards",
+      "name": "number-facts",
+      "variantId": "v_ba84726592d2",
+      "selector": null,
+      "screenshot": "blocks/b02-number-facts.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 928,
+        "width": 1440,
+        "height": 2233
+      },
+      "description": "Key-figures / impact statistics teasers on home and impact pages. Used on 3 pages (global-home, market-entry-form and topic-detail templates).",
+      "visualChars": {
+        "purpose": "Numberfactteaser",
+        "structure": "Numberfactteaser block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b03-text-image",
+      "type": "columns",
+      "name": "text-image",
+      "variantId": "v_a601f638721e",
+      "selector": null,
+      "screenshot": "blocks/b03-text-image.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 3161,
+        "width": 1440,
+        "height": 698
+      },
+      "description": "The main content building block on static, product and locale home pages. Used on 4 pages (austria-home, global-home, market-entry-form and topic-detail templates).",
+      "visualChars": {
+        "purpose": "Textimage",
+        "structure": "Textimage block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b04-default-content",
+      "type": "custom",
+      "name": "default-content",
+      "variantId": "v_8e4feecd2649",
+      "selector": null,
+      "screenshot": null,
+      "bounds": null,
+      "description": "Default content block. Used on 4 pages (austria-home, global-home, market-entry-form and topic-detail templates).",
+      "visualChars": {
+        "purpose": "Richtextsection",
+        "structure": "Richtextsection block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b05-accordion",
+      "type": "accordion",
+      "name": "accordion",
+      "variantId": "v_ec555aa5d559",
+      "selector": null,
+      "screenshot": "blocks/b05-accordion.jpg",
+      "bounds": {
+        "x": 0,
+        "y": 5291,
+        "width": 1440,
+        "height": 419
+      },
+      "description": "FAQ-style expandable content on static and locale home pages. Used on 3 pages (austria-home, global-home and topic-detail templates).",
+      "visualChars": {
+        "purpose": "Accordion",
+        "structure": "Accordion block",
+        "density": "minimal",
+        "imagePattern": "noimg"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "stardustSlug": "index",
+    "path": "/",
+    "templateId": "index",
+    "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "https://aem-20261114--eds-fairtrade-demo--queeek.aem.page/",
+    "screenshotCapturedAt": "2026-11-14T15:06:46.919Z"
+  }
+}

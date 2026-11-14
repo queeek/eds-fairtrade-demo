@@ -1,0 +1,574 @@
+{
+ "types": {
+  "landing": {
+   "archetype": "index",
+   "url": "https://www.fairtrade.net/us-en.html",
+   "sourceUrl": "https://www.fairtrade.net/",
+   "prototype": "stardust/prototypes/index-proposed.html",
+   "css": {
+    "canon": "stardust/prototypes/canon.css",
+    "page": "stardust/prototypes/index.css"
+   },
+   "js": "stardust/prototypes/canon.js",
+   "build": {
+    "composer": "stardust/prototypes/_build/compose.mjs",
+    "main": "stardust/prototypes/_build/index.main.html",
+    "chromeData": "stardust/prototypes/_build/nav.json",
+    "sprite": "stardust/prototypes/_build/sprite.svg"
+   },
+   "regime": "prototype",
+   "contentRoot": "main",
+   "iterations": {
+    "360": 3,
+    "1440": 3
+   },
+   "iterationNotes": "iter1 = map (--full); iter2 = chrome/content fixes (--full); iter3 = confirmation after motion layer (--full); plus a pixel-only \"confirm\" round after a hidden-flyout CSS fix (no change).",
+   "gates": {
+    "360": {
+     "pixel": "0.00%",
+     "heightDelta": 0,
+     "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (5 advisory)",
+     "visualDiff": "none",
+     "chromeCrop": {
+      "header": "0.00%",
+      "footer": "0.00%"
+     },
+     "chromeParity": "quiet (1 accepted: footer REGION STYLE)",
+     "clipped": 0,
+     "overflow": "ok (scrollWidth 360)",
+     "verdict": "PASS",
+     "evidence": "stardust/replica/gates/index-360/verdict-iter3.json"
+    },
+    "1440": {
+     "pixel": "0.00%",
+     "heightDelta": 0,
+     "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (6 advisory)",
+     "visualDiff": "2 advisory, justified (FLUSH-LEFT: hero prev-slide peek at x=-428, mirrors live)",
+     "chromeCrop": {
+      "header": "0.00%",
+      "footer": "0.00%"
+     },
+     "chromeParity": "quiet (1 accepted: footer REGION STYLE)",
+     "clipped": 0,
+     "overflow": "ok (scrollWidth 1440)",
+     "verdict": "PASS",
+     "evidence": "stardust/replica/gates/index-1440/verdict-iter3.json"
+    }
+   },
+   "capProbe": {
+    "verdict": "PASS",
+    "width": 2560,
+    "rows": "0 of 7 failed",
+    "evidence": "stardust/replica/gates/index-2560/cap-iter.json"
+   },
+   "boxModel": "source universal border-box reset (*,:after,:before) lifted as-is in canon.css",
+   "residuals": [
+    {
+     "kind": "justified-flag",
+     "probe": "visual-diff",
+     "width": 1440,
+     "text": "FLUSH-LEFT TEXT ×2 — \"What is Fairtrade?\" h2/p of the previous hero slide at x=-404/-428",
+     "cause": "live swiper creative carousel peeks the previous slide off-canvas left; prototype mirrors it"
+    },
+    {
+     "kind": "capture-state",
+     "probe": "content-diff",
+     "widths": [
+      1440,
+      360
+     ],
+     "text": "advisory 🟡 MISSING ICON data:image/gif 1×1 ×5–6 at \">\"",
+     "cause": "live lazysizes leaves its 1×1 placeholder gif on hero renditions not displayed at that width (mobile image at 1440, desktop image at 360); build loads the real rendition; not counted in tiers"
+    },
+    {
+     "kind": "accepted",
+     "probe": "chrome-parity",
+     "text": "footer REGION STYLE backgroundColor",
+     "cause": "instrument asymmetry: AEM <footer> wrapper four levels above .Footer vs direct wrapper on build; same painted box (stardust/replica/accepted.json)"
+    },
+    {
+     "kind": "source-artifact",
+     "text": "stray \"> \" text node inside every desktop hero image box",
+     "cause": "authored source markup; kept verbatim as visually-hidden text, its 1.6em line box mirrored by a strut so the cover crop (657px in a 628px media) matches"
+    },
+    {
+     "kind": "source-artifact",
+     "text": "empty <h4></h4> in each accordion body and the \"certfied\" typo",
+     "cause": "captured content kept verbatim (pure replica)"
+    },
+    {
+     "kind": "pending-dynamic",
+     "text": "header search form submit prevented",
+     "cause": "dynamics plan #25/#50 (search-index-backed widget, never targets the source origin)"
+    },
+    {
+     "kind": "delivery-note",
+     "text": "images load eagerly in the prototype; live lazy-loads via lazysizes (data-srcset, sizes=auto)",
+     "cause": "mechanism, not design; renditions match per width (hero 1280w@1440 / 768w@360, text-image 640w/375w)"
+    },
+    {
+     "kind": "threshold-not-lifted",
+     "text": "topbar hides on any downward scroll (y>0), shows on upward scroll",
+     "cause": "observed hidden at y=66 and y=400, shown on scroll-up; exact source threshold not in the lifted CSS"
+    }
+   ],
+   "motion": {
+    "observed": [
+     "topbar .is-hidden on scroll down / removed on scroll up (translate .3s ease-in-out)",
+     "content fader: .is-visible on 5 main sections when in view (opacity + translate .5s ease-in-out; hero exempt)",
+     "hero carousel on control/bullet click: slide transform .6s, content + media-gradient opacity .4s (creative: neighbours scale .5)",
+     "accordion open: grid-template-rows .3s, chevron rotate .3s, wrapper visibility .3s",
+     "hover: NumberFactTeaser--cta bg rgba(15,192,252,.25); TextImage--cta bg #0eade3; FooterLinkList link color rgba(255,255,255,.75); footer social bg (.2s)",
+     "header contract: 4 desktop flyouts (697/388/388/160 px), search panel, locale dialog, meta menu, mobile drawer with level-2/3 sub-menus, scroll lock"
+    ],
+    "implemented": [
+     "canon.js topbar scroll state machine (same .is-hidden class, translate .3s)",
+     "canon.js content fader (IntersectionObserver → .is-visible; CSS lifted verbatim)",
+     "canon.js hero carousel (loop, prev/next/bullets/neighbour click; .6s transform, .4s opacity)",
+     "canon.js accordion (.is-open; lifted transitions)",
+     "lifted hover rules for buttons/footer links",
+     "canon.js header contract (flyouts, search, locale filter, meta menu, drawer levels, Escape, scroll lock) — flyout rects verified equal to contract"
+    ],
+    "dead": [
+     "hero autoplay (0 idle class mutations on live)",
+     "hover diff on .PageHeroCarousel, .Accordion--toggle (self), .TopbarMainNavigation--button (no measured change; lifted rules kept as source CSS)",
+     "lazysizes classes (lazyloading/lazyloaded/ls-is-cached) — loader mechanism, not motion"
+    ],
+    "compare": "motion-compare: 1440 19 parity / 0 out of tolerance; 360 7 parity; MISSING lines are swiper-*/lazysizes class names mapped to is-active/is-next/is-prev",
+    "evidence": [
+     "stardust/replica/motion/index.json",
+     "stardust/replica/motion/index-build.json",
+     "stardust/replica/motion/index-360.json",
+     "stardust/replica/motion/index-360-build.json"
+    ],
+    "pixelAfterMotion": {
+     "360": "0.00%",
+     "1440": "0.00%"
+    }
+   },
+   "captureState": [],
+   "server": {
+    "port": 8791,
+    "pidFile": "stardust/.work/proto-server.pid"
+   },
+   "at": "2026-11-13T22:30:18.953Z"
+  },
+  "listing": {
+   "archetype": "us-en-news-html",
+   "url": "https://www.fairtrade.net/us-en/news.html",
+   "prototype": "stardust/prototypes/us-en-news-html-proposed.html",
+   "main": "stardust/prototypes/_build/us-en-news-html.main.html",
+   "css": [
+    "stardust/prototypes/canon.css",
+    "stardust/prototypes/us-en-news-html.css"
+   ],
+   "js": [
+    "stardust/prototypes/canon.js",
+    "stardust/prototypes/us-en-news-html.js"
+   ],
+   "pages": [
+    "news",
+    "products",
+    "products/all-products",
+    "why-fairtrade/why-we-do-it",
+    "why-fairtrade/impact/impact-stories",
+    "for-media",
+    "for-business/benefits-of-being-certified/business-success-stories"
+   ],
+   "iterations": {
+    "360": 2,
+    "1440": 3
+   },
+   "gates": {
+    "360": {
+     "pixel": "0.05%",
+     "heightDelta": 0,
+     "contentDiff": "0 red / 0 nothing-lost / 0 advisory (iter2)",
+     "visualDiff": "0 flags",
+     "clipped": 0,
+     "overflow": "ok",
+     "chromeCrop": {
+      "header": "0.00%",
+      "footer": "0.00%"
+     },
+     "verdict": "PASS"
+    },
+    "1440": {
+     "pixel": "0.05%",
+     "heightDelta": 0,
+     "contentDiff": "0 red / 0 nothing-lost / 0 advisory (iter2)",
+     "visualDiff": "0 flags",
+     "clipped": 0,
+     "overflow": "ok",
+     "chromeCrop": {
+      "header": "0.00%",
+      "footer": "0.00%"
+     },
+     "verdict": "PASS"
+    }
+   },
+   "capProbe": "PASS at 2560 — 0 of 3 rows failed (stardust/replica/gates/us-en-news-html-2560/cap-iter.json)",
+   "residuals": [
+    {
+     "id": "listing-load-more",
+     "kind": "dynamic",
+     "detail": "Live Load more fetches 6 further cards per click (view transition). Prototype ships the 18 captured cards as a static snapshot; the static driver reveals .TeaserGrid--item.is-hidden cards 6 at a time (view transition) and hides .CTASection when none remain — with none hidden, one click hides the button. Real paging = dynamics plan row 22 (listing-index-backed, needs-business-decision)."
+    },
+    {
+     "id": "teaser-image-placeholder",
+     "kind": "capture-state",
+     "detail": ".InfoTeaser--image .Image base64 placeholder background (site.css @42753, large data-URI) not carried; covered by the loaded image on every card. Card images rehosted as 375w/640w renditions (assets/img/news-NN-*.webp)."
+    },
+    {
+     "id": "lazysizes-classes",
+     "kind": "motion-mechanism",
+     "detail": "lazyautosizes/lazyloading/lazyloaded class churn is the lazysizes loader, not a visual behaviour; replaced by native loading=lazy + srcset/sizes."
+    }
+   ],
+   "motion": {
+    "observed": "stardust/replica/motion/us-en-news-html.json (+ -build.json)",
+    "implemented": [
+     "InfoTeaser hover: text colour #035e7c .2s, image scale 1.05 .3s, CTA underline (CSS)",
+     "Load more hover bg rgba(15,192,252,.25) (canon button; verified hover-only on build)",
+     "Load more click: reveal + view transition (us-en-news-html.js)",
+     "header hide-on-scroll translate (canon)",
+     "content fader (canon; PageLead exempt)"
+    ],
+    "dead": [
+     "Load more widget track sampling (no frame change)",
+     "header scroll-morph (static across traversal on both sides)"
+    ]
+   },
+   "captureState": []
+  },
+  "static": {
+   "archetype": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+   "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+   "prototype": "stardust/prototypes/us-en-why-fairtrade-why-we-do-it-gender-equality-html-proposed.html",
+   "main": "stardust/prototypes/_build/us-en-why-fairtrade-why-we-do-it-gender-equality-html.main.html",
+   "css": [
+    "stardust/prototypes/canon.css",
+    "stardust/prototypes/us-en-why-fairtrade-why-we-do-it-gender-equality-html.css"
+   ],
+   "js": [
+    "stardust/prototypes/canon.js"
+   ],
+   "iterations": {
+    "360": 2,
+    "1440": 2
+   },
+   "gates": {
+    "360": {
+     "pixel": "0.00%",
+     "heightDelta": 0,
+     "contentDiff": "0 red / 0 nothing-lost / 1 auto-accepted / 2 advisory (iter1 --full)",
+     "visualDiff": "0 flags",
+     "clipped": 0,
+     "overflow": "ok",
+     "chromeParity": "within tolerance",
+     "round": "iter1 --full; iter2 pixel 0.00% after motion",
+     "verdict": "PASS"
+    },
+    "1440": {
+     "pixel": "0.00%",
+     "heightDelta": 0,
+     "contentDiff": "0 red / 0 nothing-lost / 1 auto-accepted / 2 advisory (iter1 --full)",
+     "visualDiff": "0 flags",
+     "clipped": 0,
+     "overflow": "ok",
+     "chromeParity": "within tolerance",
+     "round": "iter1 --full; iter2 pixel 0.00% after motion",
+     "verdict": "PASS"
+    }
+   },
+   "capProbe": "PASS at 2560 — 0 of 10 rows failed (stardust/replica/gates/us-en-why-fairtrade-why-we-do-it-gender-equality-html-2560/cap-iter.json)",
+   "residuals": [
+    {
+     "id": "static-breadcrumbs-pagelead-fader",
+     "kind": "canon-request",
+     "detail": "Breadcrumbs + page lead exempt from the content fader; per-page nav/breadcrumbs via compose-<slug>.mjs (canon-requests.md lines 3-4)"
+    }
+   ],
+   "motion": {
+    "observed": [
+     "content fader",
+     "accordion open/close",
+     "hover colours (cta, breadcrumbs, richtext links)",
+     "number-fact slider (1440)"
+    ],
+    "implemented": [
+     "content fader",
+     "accordion",
+     "hover colours",
+     "number-fact slider"
+    ],
+    "dead": [
+     "header scroll-morph (static on live)",
+     "360 slider-next / accordion toggle widget pokes (no sampled change)"
+    ],
+    "compare": "1440 18 parity 0 missing 0 extra; 360 10 parity 0 missing 0 extra"
+   },
+   "pages": [
+    "us-en-about-html",
+    "us-en-contact-html",
+    "us-en-why-fairtrade-html",
+    "us-en-for-business-html",
+    "us-en-terms-of-use-html",
+    "us-en-privacy-policy-html",
+    "us-en-why-fairtrade-what-we-do-html",
+    "us-en-why-fairtrade-how-we-do-it-html",
+    "us-en-why-fairtrade-impact-html",
+    "us-en-for-business-benefits-of-being-certified-html",
+    "us-en-for-business-get-certified-html",
+    "us-en-for-business-for-partners-html",
+    "us-en-for-business-for-retailers-html",
+    "us-en-get-involved-get-involved-html",
+    "us-en-get-involved-how-to-shop-sustainably-html",
+    "us-en-get-involved-where-to-buy-html",
+    "us-en-get-involved-activism-html",
+    "us-en-about-careers-html",
+    "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html",
+    "us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html",
+    "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+    "us-en-why-fairtrade-what-we-do-how-fairtrade-works-html",
+    "us-en-why-fairtrade-what-we-do-key-benefits-html",
+    "us-en-why-fairtrade-what-we-do-theory-of-change-html",
+    "us-en-why-fairtrade-what-we-do-the-fairtrade-difference-html",
+    "us-en-why-fairtrade-why-we-do-it-child-protection-html",
+    "us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html",
+    "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html",
+    "us-en-why-fairtrade-why-we-do-it-deforestation-html",
+    "us-en-why-fairtrade-why-we-do-it-fairtrade-and-the-sustainable-development-goals-html",
+    "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+    "us-en-why-fairtrade-why-we-do-it-hredd-html",
+    "us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html",
+    "us-en-why-fairtrade-why-we-do-it-workers-rights-html",
+    "us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html",
+    "us-en-why-fairtrade-how-we-do-it-how-fairtrade-certification-works-html",
+    "us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html",
+    "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance-html",
+    "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html",
+    "us-en-why-fairtrade-how-we-do-it-fairtrade-standards-html",
+    "us-en-why-fairtrade-how-we-do-it-our-projects-and-programs-html",
+    "us-en-why-fairtrade-impact-key-figures-at-a-glance-html",
+    "us-en-why-fairtrade-impact-how-we-measure-impact-html",
+    "us-en-why-fairtrade-impact-reports-trends-html",
+    "us-en-products-all-products-bananas-html",
+    "us-en-products-all-products-cocoa-html",
+    "us-en-products-all-products-chocolate-html",
+    "us-en-products-all-products-coffee-html",
+    "us-en-products-all-products-cotton-html",
+    "us-en-products-all-products-herbs-spices-html",
+    "us-en-products-all-products-nuts-oils-html",
+    "us-en-products-all-products-sugar-html",
+    "us-en-products-all-products-wine-html",
+    "us-en-products-all-products-gold-html",
+    "us-en-products-all-products-fruits-juices-html",
+    "us-en-products-all-products-honey-html",
+    "us-en-for-business-benefits-of-being-certified-benefits-for-business-html",
+    "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+    "us-en-for-business-benefits-of-being-certified-consumer-trends1-html",
+    "us-en-for-business-get-certified-the-certification-process-html",
+    "us-en-for-business-get-certified-resources-support-html",
+    "us-en-for-business-get-certified-intro-to-fairtrade-html",
+    "us-en-for-business-get-certified-get-started-html",
+    "us-en-for-business-for-partners-communicate-your-commitment-html"
+   ]
+  },
+  "form": {
+   "archetype": "mt-en-bring-fairtrade-to-your-market-html",
+   "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+   "prototype": "stardust/prototypes/mt-en-bring-fairtrade-to-your-market-html-proposed.html",
+   "main": "stardust/prototypes/_build/mt-en-bring-fairtrade-to-your-market-html.main.html",
+   "css": [
+    "stardust/prototypes/canon.css",
+    "stardust/prototypes/mt-en-bring-fairtrade-to-your-market-html.css"
+   ],
+   "js": [
+    "stardust/prototypes/canon.js",
+    "stardust/prototypes/mt-en-bring-fairtrade-to-your-market-html.js"
+   ],
+   "iterations": {
+    "360": 2,
+    "1440": 2
+   },
+   "gates": {
+    "360": {
+     "pixel": "0.04%",
+     "heightDelta": 0,
+     "contentDiff": "0 red / 0 nothing-lost / 2 advisory (iter2 --full)",
+     "visualDiff": "0 flags",
+     "clipped": 0,
+     "overflow": "ok",
+     "chromeParity": "within tolerance",
+     "round": "iter2 --full",
+     "verdict": "PASS"
+    },
+    "1440": {
+     "pixel": "0.01%",
+     "heightDelta": 0,
+     "contentDiff": "0 red / 0 nothing-lost / 2 advisory (iter2 --full)",
+     "visualDiff": "0 flags",
+     "clipped": 0,
+     "overflow": "ok",
+     "chromeParity": "within tolerance",
+     "round": "iter2 --full",
+     "verdict": "PASS"
+    }
+   },
+   "capProbe": "PASS at 2560 — 0 of 16 rows failed (stardust/replica/gates/mt-en-bring-fairtrade-to-your-market-html-2560/cap-iter.json)",
+   "residuals": [
+    {
+     "id": "form-backend",
+     "kind": "dynamic",
+     "detail": "Form submission backend not wired in the prototype; dynamics plan (form builder) decides the delivery"
+    },
+    {
+     "id": "cee-chrome",
+     "kind": "chrome-variant",
+     "detail": "Own CEE nav (_build/nav-cee-mt-en.json) via compose-mt-en-…mjs"
+    }
+   ],
+   "motion": {
+    "observed": [
+     "content fader",
+     "hover colours (text links, footer links)"
+    ],
+    "implemented": [
+     "content fader",
+     "hover colours"
+    ],
+    "dead": [
+     "header scroll-morph (static on live)",
+     ".Button hover (no measured diff)",
+     ".Input--field click (no sampled change)"
+    ],
+    "compare": "1440 7 parity 0 missing 0 extra; 360 4 parity 0 missing 0 extra"
+   },
+   "pages": [
+    "mt-en-bring-fairtrade-to-your-market-html",
+    "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+    "si-sl-prinesite-fairtrade-na-vas-trg-html",
+    "us-en-fairtrade-newsletter-html"
+   ]
+  },
+  "locale-home": {
+   "archetype": "at-de-html",
+   "url": "https://www.fairtrade.net/at-de.html",
+   "prototype": "stardust/prototypes/at-de-html-proposed.html",
+   "css": {
+    "canon": "stardust/prototypes/canon.css",
+    "page": "stardust/prototypes/at-de-html.css"
+   },
+   "js": [
+    "stardust/prototypes/canon.js",
+    "stardust/prototypes/at-de-html.js"
+   ],
+   "build": {
+    "composer": "stardust/prototypes/_build/compose-at-de-html.mjs",
+    "cmd": "node stardust/prototypes/_build/compose-at-de-html.mjs at-de-html \"FAIRTRADE Österreich\" --nav nav-at-de.json --sprite sprite-at-de-html.svg --js at-de-html.js at-de-html.css",
+    "main": "stardust/prototypes/_build/at-de-html.main.html",
+    "chromeData": "stardust/prototypes/_build/nav-at-de.json",
+    "sprite": "stardust/prototypes/_build/sprite-at-de-html.svg"
+   },
+   "regime": "prototype",
+   "contentRoot": "main",
+   "iterations": {
+    "360": 3,
+    "1440": 3
+   },
+   "iterationNotes": "iter1 --full (missing ProductTeaserCarousel, -1290/-1146 px); iter2 pixel after adding the section + pre-line newline fix (TextImage--text) + logo basename; iter3 --full confirmation. Footer-title display fix after iter3 verified by chrome-parity (both widths quiet) — no pixel change expected.",
+   "gates": {
+    "360": {
+     "pixel": "3.85%",
+     "heightDelta": 0,
+     "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (16 advisory)",
+     "visualDiff": "advisory only: IMAGE DID NOT LOAD on off-screen lazy product-teaser images (live is loading=lazy too)",
+     "chromeCrop": {
+      "header": "0.00%",
+      "footer": "0.34%"
+     },
+     "chromeParity": "quiet after footer-title fix (1 accepted: footer REGION STYLE)",
+     "clipped": 0,
+     "overflow": "ok (scrollWidth 360)",
+     "verdict": "PASS",
+     "evidence": "stardust/replica/gates/at-de-html-360/verdict-iter3.json"
+    },
+    "1440": {
+     "pixel": "2.94%",
+     "heightDelta": 0,
+     "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (13 advisory)",
+     "visualDiff": "advisory only: IMAGE DID NOT LOAD on off-screen lazy product-teaser images (live is loading=lazy too); SURFACE/GROUND + FLUSH-LEFT on hero off-canvas slide (mirrors live)",
+     "chromeCrop": {
+      "header": "0.00%",
+      "footer": "0.45%"
+     },
+     "chromeParity": "quiet after footer-title fix (1 accepted: footer REGION STYLE)",
+     "clipped": 0,
+     "overflow": "ok (scrollWidth 1440)",
+     "verdict": "PASS",
+     "evidence": "stardust/replica/gates/at-de-html-1440/verdict-iter3.json"
+    }
+   },
+   "capProbe": {
+    "verdict": "PASS",
+    "width": 2560,
+    "rows": "0 of 15 failed",
+    "evidence": "stardust/replica/gates/at-de-html-2560/cap-iter.json"
+   },
+   "residuals": [
+    {
+     "kind": "third-party-feed",
+     "probe": "pixel",
+     "widths": [
+      1440,
+      360
+     ],
+     "text": "hot band y2000–2500 @1440 (44%) / y2500–3500 @360: taggbox social iframe (widget.taggbox.com/92937) renders a rotating live feed — same iframe on both sides"
+    },
+    {
+     "kind": "capture-state",
+     "probe": "content-diff",
+     "widths": [
+      1440,
+      360
+     ],
+     "text": "advisory MISSING ICON data:image/gif 1×1 lazy placeholders and 0×0 hidden wave svgs"
+    },
+    {
+     "kind": "live-data",
+     "probe": "content",
+     "text": "ProductTeaserCarousel items (24) are server-rendered from the product finder feed; captured verbatim 2026-11-13 — live list can change"
+    },
+    {
+     "kind": "motion-naming",
+     "probe": "motion-compare",
+     "text": "swiper-* classes on live hero vs canon is-active/is-next/is-prev — same behaviour, different class names (as home)"
+    }
+   ],
+   "motion": {
+    "observed": [
+     "topbar is-hidden on scroll",
+     "content fader is-visible",
+     "hero carousel control transitions (.6s transform)",
+     "product carousel: initAtScrollCenter scroll, is-overflowing, controls on hover ≥1024, item-step prev/next, ends disabled (from live JS; sampler saw no change)",
+     "hover scale/colour transitions .2s"
+    ],
+    "implemented": [
+     "canon.js header/fader/hero/accordion",
+     "at-de-html.js product Carousel (initAtScrollCenter, controlsOnHover, ResizeObserver is-overflowing, IO end-disable, scrollBy item width)"
+    ],
+    "dead": [
+     "hover diff .ProductTeaser/.Carousel (no measured change)",
+     "widget sampler on .Carousel--control-next (no sampled change)",
+     "header scroll-morph"
+    ],
+    "compare": "9 parity, 6 missing (swiper class names only), 0 extra, 0 out of tolerance",
+    "evidence": [
+     "stardust/replica/motion/at-de-html.json",
+     "stardust/replica/motion/at-de-html-build.json"
+    ]
+   }
+  }
+ }
+}

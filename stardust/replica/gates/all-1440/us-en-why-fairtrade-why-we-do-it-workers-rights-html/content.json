@@ -1,0 +1,3088 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T11:04:23.694Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/workers-rights.html",
+  "at": "2026-11-14T11:04:03.651Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4447,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "Fairtrade_America_Logo_Vert_80x80"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > span.Breadcrumbs--breadcrumb--title",
+    "x": 125,
+    "y": 122,
+    "w": 90,
+    "h": 20,
+    "text": "Why Fairtrade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 255,
+    "y": 122,
+    "w": 81,
+    "h": 20,
+    "text": "why we do it",
+    "href": "/us-en/why-fairtrade/why-we-do-it.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 376,
+    "y": 122,
+    "w": 97,
+    "h": 20,
+    "text": "workers rights",
+    "href": "/us-en/why-fairtrade/why-we-do-it/workers-rights.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+    "x": 276,
+    "y": 224,
+    "w": 888,
+    "h": 158,
+    "level": 1,
+    "text": "fairtrade stands - and acts - for workers' rights"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+    "x": 276,
+    "y": 414,
+    "w": 888,
+    "h": 115,
+    "text": "In a world driven by consumer demands and global supply chains, workers are ofte"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--imageGrid > div.Image.ultra-wide > img.lazyautosizes.lazyloaded",
+    "x": 48,
+    "y": 594,
+    "w": 1344,
+    "h": 576,
+    "text": "workers talking",
+    "file": "21x9_1440w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1290,
+    "w": 660,
+    "h": 86,
+    "text": "At Fairtrade we prioritize workers' rights and strive to improve their quality o"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1408,
+    "w": 660,
+    "h": 86,
+    "text": "By helping create a market that prioritizes ethical sourcing, having strong stan"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1526,
+    "w": 660,
+    "h": 58,
+    "text": "Because workers deserve better wages, safe working conditions, and the ability t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--number",
+    "x": 193,
+    "y": 1893,
+    "w": 484,
+    "h": 119,
+    "text": "40.3M"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--fact",
+    "x": 193,
+    "y": 2056,
+    "w": 484,
+    "h": 70,
+    "text": "people are estimated to be in modern slavery"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > strong.NumberFactTeaser--label",
+    "x": 862,
+    "y": 1902,
+    "w": 131,
+    "h": 29,
+    "text": "Workers' rights"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > h2.NumberFactTeaser--title",
+    "x": 862,
+    "y": 1955,
+    "w": 171,
+    "h": 53,
+    "level": 2,
+    "text": "fast fact"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > p.NumberFactTeaser--text",
+    "x": 862,
+    "y": 2032,
+    "w": 405,
+    "h": 86,
+    "text": "Workers' rights are fundamental. Yet, unfortunately they still fall short in man"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.panelcontainer > div.AccordionSection > h2.AccordionSection--title",
+    "x": 390,
+    "y": 2476,
+    "w": 660,
+    "h": 35,
+    "level": 2,
+    "text": "how fairtrade addresses workers’ rights"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2543,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2543,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 2564,
+    "w": 276,
+    "h": 22,
+    "level": 3,
+    "text": "strong standards at the core"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2607,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2607,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 2628,
+    "w": 201,
+    "h": 22,
+    "level": 3,
+    "text": "workers with a voice"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2671,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2671,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 2692,
+    "w": 101,
+    "h": 22,
+    "level": 3,
+    "text": "fair prices"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2735,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2735,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 2756,
+    "w": 104,
+    "h": 22,
+    "level": 3,
+    "text": "fair wages"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2799,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2799,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 2820,
+    "w": 323,
+    "h": 22,
+    "level": 3,
+    "text": "working with labor organizations"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2863,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2863,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 2884,
+    "w": 241,
+    "h": 22,
+    "level": 3,
+    "text": "community development"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 740,
+    "y": 3417,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "responsible businesses"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 740,
+    "y": 3494,
+    "w": 538,
+    "h": 58,
+    "text": "Choosing Fairtrade means supporting standards and actions that put more power in"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 740,
+    "y": 3583,
+    "w": 538,
+    "h": 48,
+    "text": "find out more about how you can get your business involved here.",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 162,
+    "y": 3255,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 4049,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 4049,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 76,
+    "y": 4139,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 4187,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 4237,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 418,
+    "y": 4139,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 4187,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 4237,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 4286,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 4336,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 760,
+    "y": 4139,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 4187,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 4237,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 4139,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 4185,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 4185,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 4185,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 4185,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 4273,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 4319,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 46,
+    "controls": 35,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/workers-rights",
+  "at": "2026-11-14T11:04:23.564Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4447,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_13df0d1ade5b87108701c0132044859868"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > span.breadcrumbs-breadcrumb-title",
+    "x": 125,
+    "y": 122,
+    "w": 90,
+    "h": 20,
+    "text": "Why Fairtrade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 255,
+    "y": 122,
+    "w": 81,
+    "h": 20,
+    "text": "why we do it",
+    "href": "/us-en/why-fairtrade/why-we-do-it.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 376,
+    "y": 122,
+    "w": 97,
+    "h": 20,
+    "text": "workers rights",
+    "href": "/us-en/why-fairtrade/why-we-do-it/workers-rights.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-title > h1#fairtrade-stands---and-acts---for-workers-rights",
+    "x": 276,
+    "y": 224,
+    "w": 888,
+    "h": 158,
+    "level": 1,
+    "text": "fairtrade stands - and acts - for workers' rights"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-lead > p",
+    "x": 276,
+    "y": 414,
+    "w": 888,
+    "h": 115,
+    "text": "In a world driven by consumer demands and global supply chains, workers are ofte"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.ultra-wide > picture > img",
+    "x": 48,
+    "y": 594,
+    "w": 1344,
+    "h": 576,
+    "text": "workers talking",
+    "file": "media_19e99552086fdde69429ba33f5c9732e7b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1290,
+    "w": 660,
+    "h": 86,
+    "text": "At Fairtrade we prioritize workers' rights and strive to improve their quality o"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1408,
+    "w": 660,
+    "h": 86,
+    "text": "By helping create a market that prioritizes ethical sourcing, having strong stan"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1526,
+    "w": 660,
+    "h": 58,
+    "text": "Because workers deserve better wages, safe working conditions, and the ability t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 193,
+    "y": 1893,
+    "w": 484,
+    "h": 119,
+    "text": "40.3M"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 205,
+    "y": 2056,
+    "w": 460,
+    "h": 70,
+    "text": "people are estimated to be in modern slavery"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-label > p > strong",
+    "x": 862,
+    "y": 1905,
+    "w": 131,
+    "h": 22,
+    "text": "Workers' rights"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-title > h2#fast-fact",
+    "x": 862,
+    "y": 1955,
+    "w": 171,
+    "h": 53,
+    "level": 2,
+    "text": "fast fact"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-text > p",
+    "x": 862,
+    "y": 2032,
+    "w": 405,
+    "h": 86,
+    "text": "Workers' rights are fundamental. Yet, unfortunately they still fall short in man"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.block > div.accordion-section-title > h2#how-fairtrade-addresses-workers-rights",
+    "x": 390,
+    "y": 2476,
+    "w": 660,
+    "h": 35,
+    "level": 2,
+    "text": "how fairtrade addresses workers’ rights"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2543,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2543,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#strong-standards-at-the-core",
+    "x": 442,
+    "y": 2564,
+    "w": 276,
+    "h": 22,
+    "level": 3,
+    "text": "strong standards at the core"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2607,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2607,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#workers-with-a-voice",
+    "x": 442,
+    "y": 2628,
+    "w": 201,
+    "h": 22,
+    "level": 3,
+    "text": "workers with a voice"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2671,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2671,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#fair-prices",
+    "x": 442,
+    "y": 2692,
+    "w": 101,
+    "h": 22,
+    "level": 3,
+    "text": "fair prices"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2735,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2735,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#fair-wages",
+    "x": 442,
+    "y": 2756,
+    "w": 104,
+    "h": 22,
+    "level": 3,
+    "text": "fair wages"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2799,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2799,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#working-with-labor-organizations",
+    "x": 442,
+    "y": 2820,
+    "w": 323,
+    "h": 22,
+    "level": 3,
+    "text": "working with labor organizations"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2863,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2863,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#community-development",
+    "x": 442,
+    "y": 2884,
+    "w": 241,
+    "h": 22,
+    "level": 3,
+    "text": "community development"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#responsible-businesses",
+    "x": 740,
+    "y": 3417,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "responsible businesses"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 740,
+    "y": 3494,
+    "w": 538,
+    "h": 58,
+    "text": "Choosing Fairtrade means supporting standards and actions that put more power in"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 740,
+    "y": 3583,
+    "w": 538,
+    "h": 48,
+    "text": "find out more about how you can get your business involved here.",
+    "href": "/us-en/for-business"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 162,
+    "y": 3255,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "media_188d5300883f428c631f53841491a02c22"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 4049,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 4049,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 76,
+    "y": 4139,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 4187,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 4237,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 418,
+    "y": 4139,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 4187,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 4237,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 4286,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 4336,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 760,
+    "y": 4139,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 4187,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 4237,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 4139,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 4185,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 4185,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 4185,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 4185,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 4273,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 4319,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 46,
+    "controls": 35,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "fairtrade stands - and acts - for workers' rights",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "fast fact",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "how fairtrade addresses workers’ rights",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "strong standards at the core",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "workers with a voice",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "fair prices",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "fair wages",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "working with labor organizations",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "community development",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "responsible businesses",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 90,
+    "h": 17
+   },
+   {
+    "x": 255,
+    "y": 123,
+    "w": 81,
+    "h": 17
+   },
+   {
+    "x": 376,
+    "y": 123,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 319,
+    "y": 227,
+    "w": 802,
+    "h": 72
+   },
+   {
+    "x": 447,
+    "y": 306,
+    "w": 547,
+    "h": 72
+   },
+   {
+    "x": 287,
+    "y": 418,
+    "w": 866,
+    "h": 29
+   },
+   {
+    "x": 302,
+    "y": 457,
+    "w": 836,
+    "h": 29
+   },
+   {
+    "x": 577,
+    "y": 495,
+    "w": 287,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1293,
+    "w": 630,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1321,
+    "w": 608,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1350,
+    "w": 89,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1411,
+    "w": 596,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1440,
+    "w": 639,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1469,
+    "w": 149,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1529,
+    "w": 646,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1558,
+    "w": 501,
+    "h": 22
+   },
+   {
+    "x": 263,
+    "y": 1884,
+    "w": 344,
+    "h": 136
+   },
+   {
+    "x": 247,
+    "y": 2057,
+    "w": 377,
+    "h": 32
+   },
+   {
+    "x": 333,
+    "y": 2092,
+    "w": 204,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 1905,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1957,
+    "w": 171,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 2035,
+    "w": 302,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2063,
+    "w": 402,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2092,
+    "w": 262,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2477,
+    "w": 530,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 2563,
+    "w": 276,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2627,
+    "w": 201,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2691,
+    "w": 101,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2755,
+    "w": 104,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2819,
+    "w": 323,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2883,
+    "w": 241,
+    "h": 24
+   },
+   {
+    "x": 740,
+    "y": 3419,
+    "w": 464,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 3497,
+    "w": 530,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 3525,
+    "w": 428,
+    "h": 22
+   },
+   {
+    "x": 792,
+    "y": 3587,
+    "w": 434,
+    "h": 22
+   },
+   {
+    "x": 949,
+    "y": 3605,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 4051,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 4138,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 4190,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 4240,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4138,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 4190,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4240,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4289,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4339,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 4138,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 4190,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 4240,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 4138,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 4272,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 4332,
+    "w": 127,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 90,
+    "h": 17
+   },
+   {
+    "x": 255,
+    "y": 123,
+    "w": 81,
+    "h": 17
+   },
+   {
+    "x": 376,
+    "y": 123,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 319,
+    "y": 227,
+    "w": 802,
+    "h": 72
+   },
+   {
+    "x": 447,
+    "y": 306,
+    "w": 547,
+    "h": 72
+   },
+   {
+    "x": 287,
+    "y": 418,
+    "w": 866,
+    "h": 29
+   },
+   {
+    "x": 302,
+    "y": 457,
+    "w": 836,
+    "h": 29
+   },
+   {
+    "x": 577,
+    "y": 495,
+    "w": 287,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1293,
+    "w": 630,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1321,
+    "w": 608,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1350,
+    "w": 89,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1411,
+    "w": 596,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1440,
+    "w": 639,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1469,
+    "w": 149,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1529,
+    "w": 646,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1558,
+    "w": 501,
+    "h": 22
+   },
+   {
+    "x": 263,
+    "y": 1884,
+    "w": 344,
+    "h": 136
+   },
+   {
+    "x": 247,
+    "y": 2057,
+    "w": 377,
+    "h": 32
+   },
+   {
+    "x": 333,
+    "y": 2092,
+    "w": 204,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 1905,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1957,
+    "w": 171,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 2035,
+    "w": 302,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2063,
+    "w": 402,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2092,
+    "w": 262,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2477,
+    "w": 530,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 2563,
+    "w": 276,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2627,
+    "w": 201,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2691,
+    "w": 101,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2755,
+    "w": 104,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2819,
+    "w": 323,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2883,
+    "w": 241,
+    "h": 24
+   },
+   {
+    "x": 740,
+    "y": 3419,
+    "w": 464,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 3497,
+    "w": 530,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 3525,
+    "w": 428,
+    "h": 22
+   },
+   {
+    "x": 792,
+    "y": 3587,
+    "w": 434,
+    "h": 22
+   },
+   {
+    "x": 949,
+    "y": 3605,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 4051,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 4138,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 4190,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 4240,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4138,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 4190,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4240,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4289,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4339,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 4138,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 4190,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 4240,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 4138,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 4272,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 4332,
+    "w": 127,
+    "h": 22
+   }
+  ]
+ }
+}

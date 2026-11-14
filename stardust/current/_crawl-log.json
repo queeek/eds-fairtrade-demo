@@ -1,0 +1,2696 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 100,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/favicon.svg",
+    "file": "assets/favicon.svg"
+  },
+  "crawl": {
+    "failures": [],
+    "pageTimeoutMs": 60000
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 100,
+    "pagesWithSameSiteData": 100,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 100,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "www.fairtrade.net",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fairtrade.net/libs/granite/csrf/token.json",
+        "pages": 100,
+        "examples": [
+          "index",
+          "de-de-html",
+          "maxhavelaarfrance-fr-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "pages": 77,
+        "examples": [
+          "index",
+          "maxhavelaarfrance-fr-html",
+          "us-en-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 76,
+        "examples": [
+          "index",
+          "us-en-html",
+          "iberica-es-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "dma",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/799581251/",
+        "pages": 74,
+        "examples": [
+          "index",
+          "us-en-html",
+          "us-en-about-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "s.clarity.ms",
+        "path": "/collect",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://s.clarity.ms/collect",
+        "pages": 74,
+        "examples": [
+          "index",
+          "us-en-html",
+          "us-en-about-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws/events",
+        "pages": 74,
+        "examples": [
+          "index",
+          "us-en-html",
+          "us-en-about-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_fv",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google-analytics.com/g/collect",
+        "pages": 51,
+        "examples": [
+          "maxhavelaarfrance-fr-html",
+          "at-de-html",
+          "iberica-es-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fv",
+          "_gaz",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gaf",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://analytics.google.com/g/collect",
+        "pages": 40,
+        "examples": [
+          "iberica-es-html",
+          "iberica-pt-html",
+          "us-en-about-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "consent-api.service.consent.usercentrics.eu",
+        "path": "/consent/uw/{n}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+        "pages": 17,
+        "examples": [
+          "de-de-html",
+          "maxhavelaarfrance-fr-html",
+          "en-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 12,
+        "examples": [
+          "us-en-about-html",
+          "us-en-news-html",
+          "us-en-contact-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "ae",
+          "apvc",
+          "dl",
+          "dma",
+          "dma_cps",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/ccm/collect",
+        "pages": 8,
+        "examples": [
+          "maxhavelaarfrance-fr-html",
+          "at-de-html",
+          "it-it-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "googleads.g.doubleclick.net",
+        "path": "/pagead/id",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://googleads.g.doubleclick.net/pagead/id",
+        "pages": 5,
+        "examples": [
+          "at-de-html",
+          "it-it-html",
+          "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "jnn-pa.googleapis.com",
+        "path": "/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "sameSite": false,
+        "example": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "pages": 5,
+        "examples": [
+          "at-de-html",
+          "it-it-html",
+          "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube.com",
+        "path": "/youtubei/v1/log_event",
+        "query": [
+          "alt"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.youtube.com/youtubei/v1/log_event",
+        "pages": 5,
+        "examples": [
+          "at-de-html",
+          "it-it-html",
+          "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/translations/translations-en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/translations/translations-en.json",
+        "pages": 3,
+        "examples": [
+          "en-html",
+          "africa-en-html",
+          "ie-en-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aggregator.service.usercentrics.eu",
+        "path": "/aggregate/en",
+        "query": [
+          "templates"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aggregator.service.usercentrics.eu/aggregate/en",
+        "pages": 3,
+        "examples": [
+          "en-html",
+          "africa-en-html",
+          "ie-en-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "player.vimeo.com",
+        "path": "/cdn-cgi/challenge-platform/h/b/precursor/f8df4d4a0cd6/0.2927278605736654:1794600331:Zk-SnP7ykngs2kkWMUqYR47DRAUVTKv3AjyyP2PrGS0/{hash}",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://player.vimeo.com/cdn-cgi/challenge-platform/h/b/precursor/f8df4d4a0cd6/0.2927278605736654:1794600331:Zk-SnP7ykngs2kkWMUqYR47DRAUVTKv3AjyyP2PrGS0/a5a0c4f6faa3b52d",
+        "pages": 3,
+        "examples": [
+          "uk-en-html",
+          "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+          "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/translations/translations-de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/translations/translations-de.json",
+        "pages": 2,
+        "examples": [
+          "de-de-html",
+          "at-de-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aggregator.service.usercentrics.eu",
+        "path": "/aggregate/de",
+        "query": [
+          "templates"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aggregator.service.usercentrics.eu/aggregate/de",
+        "pages": 2,
+        "examples": [
+          "de-de-html",
+          "at-de-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/translations/translations-fr.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/translations/translations-fr.json",
+        "pages": 2,
+        "examples": [
+          "maxhavelaarfrance-fr-html",
+          "be-fr-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aggregator.service.usercentrics.eu",
+        "path": "/aggregate/fr",
+        "query": [
+          "templates"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aggregator.service.usercentrics.eu/aggregate/fr",
+        "pages": 2,
+        "examples": [
+          "maxhavelaarfrance-fr-html",
+          "be-fr-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "widget.taggbox.com",
+        "path": "/cdn-cgi/rum",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://widget.taggbox.com/cdn-cgi/rum",
+        "pages": 2,
+        "examples": [
+          "at-de-html",
+          "kr-ko-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.taggbox.com",
+        "path": "/embed/theme",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.taggbox.com/embed/theme",
+        "pages": 2,
+        "examples": [
+          "at-de-html",
+          "kr-ko-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.taggbox.com",
+        "path": "/embed/reviewhub",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.taggbox.com/embed/reviewhub",
+        "pages": 2,
+        "examples": [
+          "at-de-html",
+          "kr-ko-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.taggbox.com",
+        "path": "/embed/posts",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.taggbox.com/embed/posts",
+        "pages": 2,
+        "examples": [
+          "at-de-html",
+          "kr-ko-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.taggbox.com",
+        "path": "/embed/log-uri",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.taggbox.com/embed/log-uri",
+        "pages": 2,
+        "examples": [
+          "at-de-html",
+          "kr-ko-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.gstatic.com",
+        "path": "/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "pages": 2,
+        "examples": [
+          "at-de-html",
+          "us-en-for-business-get-certified-intro-to-fairtrade-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/x4jX_GUI2UKJuN/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/x4jX_GUI2UKJuN/latest/languages.json",
+        "pages": 2,
+        "examples": [
+          "be-fr-html",
+          "be-nl-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/translations/translations-nl.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/translations/translations-nl.json",
+        "pages": 2,
+        "examples": [
+          "be-nl-html",
+          "nl-nl-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aggregator.service.usercentrics.eu",
+        "path": "/aggregate/nl",
+        "query": [
+          "templates"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aggregator.service.usercentrics.eu/aggregate/nl",
+        "pages": 2,
+        "examples": [
+          "be-nl-html",
+          "nl-nl-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/core/zPYguvxvrOT_eB",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/core/zPYguvxvrOT_eB",
+        "pages": 2,
+        "examples": [
+          "ca-en-html",
+          "ca-fr-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/j/collect",
+        "query": [
+          "_gid",
+          "_s",
+          "_slc",
+          "_u",
+          "_v",
+          "a",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "gcd",
+          "gjid",
+          "gtm",
+          "jid",
+          "sr",
+          "t",
+          "tag_exp",
+          "tid",
+          "ul",
+          "v",
+          "vp",
+          "z"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google-analytics.com/j/collect",
+        "pages": 2,
+        "examples": [
+          "iberica-es-html",
+          "iberica-pt-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "stats.g.doubleclick.net",
+        "path": "/j/collect",
+        "query": [
+          "_gid",
+          "_r",
+          "_u",
+          "_v",
+          "aip",
+          "cid",
+          "gjid",
+          "jid",
+          "t",
+          "tid",
+          "v",
+          "z"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://stats.g.doubleclick.net/j/collect",
+        "pages": 2,
+        "examples": [
+          "iberica-es-html",
+          "iberica-pt-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.googleadservices.com",
+        "path": "/ccm/conversion/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "bttype",
+          "category",
+          "cv",
+          "dma",
+          "ec_mode",
+          "ecsid2",
+          "em",
+          "emd",
+          "en",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcl_ctr",
+          "gtm",
+          "guid",
+          "hn",
+          "label",
+          "npa",
+          "oid",
+          "oidsrc",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.googleadservices.com/ccm/conversion/1007730987/",
+        "pages": 2,
+        "examples": [
+          "iberica-es-html",
+          "iberica-pt-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.googleadservices.com",
+        "path": "/pagead/conversion/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "bttype",
+          "category",
+          "cv",
+          "dma",
+          "ec_mode",
+          "ecsid2",
+          "em",
+          "emd",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcl_ctr",
+          "gtm",
+          "guid",
+          "hn",
+          "label",
+          "npa",
+          "oid",
+          "oidsrc",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.googleadservices.com/pagead/conversion/1007730987/",
+        "pages": 2,
+        "examples": [
+          "iberica-es-html",
+          "iberica-pt-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/pagead/conversion/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "bg",
+          "bttype",
+          "category",
+          "cv",
+          "data",
+          "did",
+          "dma",
+          "dma_cps",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "guid",
+          "hn",
+          "label",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url",
+          "value"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/pagead/conversion/16462074620/",
+        "pages": 2,
+        "examples": [
+          "pl-pl-html",
+          "uk-en-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/core/BCmQKjBD8EQikM",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/core/BCmQKjBD8EQikM",
+        "pages": 2,
+        "examples": [
+          "ch-de-html",
+          "ch-fr-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "yf-b498ef1790e74b69af7f2475cece9e0e.ecs.us-west-2.on.aws",
+        "path": "/events",
+        "query": [
+          "cee"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://yf-b498ef1790e74b69af7f2475cece9e0e.ecs.us-west-2.on.aws/events",
+        "pages": 2,
+        "examples": [
+          "ch-de-html",
+          "ch-fr-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/lV6MBy4S36YZ05/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/lV6MBy4S36YZ05/latest/languages.json",
+        "pages": 1,
+        "examples": [
+          "de-de-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/lV6MBy4S36YZ05/latest/de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/lV6MBy4S36YZ05/latest/de.json",
+        "pages": 1,
+        "examples": [
+          "de-de-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/bb88FzT_CarBE4/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/bb88FzT_CarBE4/latest/languages.json",
+        "pages": 1,
+        "examples": [
+          "maxhavelaarfrance-fr-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/bb88FzT_CarBE4/latest/fr.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/bb88FzT_CarBE4/latest/fr.json",
+        "pages": 1,
+        "examples": [
+          "maxhavelaarfrance-fr-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ga2.getresponse.com",
+        "path": "/index.php",
+        "query": [
+          "_cvar",
+          "gt_ms",
+          "h",
+          "m",
+          "res",
+          "s",
+          "uid",
+          "url",
+          "ver"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ga2.getresponse.com/index.php",
+        "pages": 1,
+        "examples": [
+          "maxhavelaarfrance-fr-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/measurement/conversion",
+        "query": [
+          "_tu",
+          "cv",
+          "dma",
+          "dma_cps",
+          "en",
+          "fmt",
+          "frm",
+          "fst",
+          "gacid",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "hn",
+          "ibt",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "tid",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/measurement/conversion",
+        "pages": 1,
+        "examples": [
+          "maxhavelaarfrance-fr-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/eFjo_1PKCmgDC9/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/eFjo_1PKCmgDC9/latest/languages.json",
+        "pages": 1,
+        "examples": [
+          "en-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/eFjo_1PKCmgDC9/latest/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/eFjo_1PKCmgDC9/latest/en.json",
+        "pages": 1,
+        "examples": [
+          "en-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/LZgfjfWbKiQzoG/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/LZgfjfWbKiQzoG/latest/languages.json",
+        "pages": 1,
+        "examples": [
+          "africa-en-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/LZgfjfWbKiQzoG/latest/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/LZgfjfWbKiQzoG/latest/en.json",
+        "pages": 1,
+        "examples": [
+          "africa-en-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "widget.taggbox.com",
+        "path": "/cdn-cgi/challenge-platform/h/b/jsd/oneshot/f8df4d4a0cd6/0.5199756662345765:1794600331:bSkXGUWZ6WbYyrZMowQmEDqbKXt8WrpamsCgJsISxS4/{hash}",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://widget.taggbox.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/f8df4d4a0cd6/0.5199756662345765:1794600331:bSkXGUWZ6WbYyrZMowQmEDqbKXt8WrpamsCgJsISxS4/a5a0c3e9af51b52d",
+        "pages": 1,
+        "examples": [
+          "at-de-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/wP-2UcXE6Am12G/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/wP-2UcXE6Am12G/latest/languages.json",
+        "pages": 1,
+        "examples": [
+          "at-de-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/wP-2UcXE6Am12G/latest/de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/wP-2UcXE6Am12G/latest/de.json",
+        "pages": 1,
+        "examples": [
+          "at-de-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api.taggbox.com",
+        "path": "/embed/log-action",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.taggbox.com/embed/log-action",
+        "pages": 1,
+        "examples": [
+          "at-de-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/x4jX_GUI2UKJuN/latest/fr.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/x4jX_GUI2UKJuN/latest/fr.json",
+        "pages": 1,
+        "examples": [
+          "be-fr-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/x4jX_GUI2UKJuN/latest/nl.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/x4jX_GUI2UKJuN/latest/nl.json",
+        "pages": 1,
+        "examples": [
+          "be-nl-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/wP-2UcXE6Am12G/31.2.44/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/wP-2UcXE6Am12G/31.2.44/en.json",
+        "pages": 1,
+        "examples": [
+          "ca-en-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/{n}/cmp/en/GDPR/zPYguvxvrOT_eB/24.2.31/24.2.31",
+        "query": [
+          "isOutsideRegion"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/1/cmp/en/GDPR/zPYguvxvrOT_eB/24.2.31/24.2.31",
+        "pages": 1,
+        "examples": [
+          "ca-en-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/x4jX_GUI2UKJuN/26.2.40/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/x4jX_GUI2UKJuN/26.2.40/en.json",
+        "pages": 1,
+        "examples": [
+          "ca-fr-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/S5mbKYF4C6TsW4/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/S5mbKYF4C6TsW4/latest/languages.json",
+        "pages": 1,
+        "examples": [
+          "ie-en-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/S5mbKYF4C6TsW4/latest/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/S5mbKYF4C6TsW4/latest/en.json",
+        "pages": 1,
+        "examples": [
+          "ie-en-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/UHC3eMTAmbI7ZG/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/UHC3eMTAmbI7ZG/latest/languages.json",
+        "pages": 1,
+        "examples": [
+          "it-it-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/UHC3eMTAmbI7ZG/latest/it.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/UHC3eMTAmbI7ZG/latest/it.json",
+        "pages": 1,
+        "examples": [
+          "it-it-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/translations/translations-it.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/translations/translations-it.json",
+        "pages": 1,
+        "examples": [
+          "it-it-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aggregator.service.usercentrics.eu",
+        "path": "/aggregate/it",
+        "query": [
+          "templates"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aggregator.service.usercentrics.eu/aggregate/it",
+        "pages": 1,
+        "examples": [
+          "it-it-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "nam.veta.naver.com",
+        "path": "/nac/{n}",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://nam.veta.naver.com/nac/2",
+        "pages": 1,
+        "examples": [
+          "kr-ko-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cloud.tagbox.com",
+        "path": "/react-app/media/reviewhub-lang-obj.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cloud.tagbox.com/react-app/media/reviewhub-lang-obj.json",
+        "pages": 1,
+        "examples": [
+          "kr-ko-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/d37-al1QlJURtP/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/d37-al1QlJURtP/latest/languages.json",
+        "pages": 1,
+        "examples": [
+          "nl-nl-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/d37-al1QlJURtP/latest/nl.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/d37-al1QlJURtP/latest/nl.json",
+        "pages": 1,
+        "examples": [
+          "nl-nl-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/zQE9-NUEUsz1TC/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/zQE9-NUEUsz1TC/latest/languages.json",
+        "pages": 1,
+        "examples": [
+          "no-no-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/zQE9-NUEUsz1TC/latest/no.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/zQE9-NUEUsz1TC/latest/no.json",
+        "pages": 1,
+        "examples": [
+          "no-no-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/translations/translations-no.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/translations/translations-no.json",
+        "pages": 1,
+        "examples": [
+          "no-no-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aggregator.service.usercentrics.eu",
+        "path": "/aggregate/no",
+        "query": [
+          "templates"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aggregator.service.usercentrics.eu/aggregate/no",
+        "pages": 1,
+        "examples": [
+          "no-no-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/7MLwREADAHaBAJ/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/7MLwREADAHaBAJ/latest/languages.json",
+        "pages": 1,
+        "examples": [
+          "pl-pl-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/7MLwREADAHaBAJ/latest/pl.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/7MLwREADAHaBAJ/latest/pl.json",
+        "pages": 1,
+        "examples": [
+          "pl-pl-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/translations/translations-pl.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/translations/translations-pl.json",
+        "pages": 1,
+        "examples": [
+          "pl-pl-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aggregator.service.usercentrics.eu",
+        "path": "/aggregate/pl",
+        "query": [
+          "templates"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aggregator.service.usercentrics.eu/aggregate/pl",
+        "pages": 1,
+        "examples": [
+          "pl-pl-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/QXUrvDGREMArJF/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/QXUrvDGREMArJF/latest/languages.json",
+        "pages": 1,
+        "examples": [
+          "se-sv-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/QXUrvDGREMArJF/latest/sv.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/QXUrvDGREMArJF/latest/sv.json",
+        "pages": 1,
+        "examples": [
+          "se-sv-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/translations/translations-sv.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/translations/translations-sv.json",
+        "pages": 1,
+        "examples": [
+          "se-sv-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aggregator.service.usercentrics.eu",
+        "path": "/aggregate/sv",
+        "query": [
+          "templates"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://aggregator.service.usercentrics.eu/aggregate/sv",
+        "pages": 1,
+        "examples": [
+          "se-sv-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/zQE9-NUEUsz1TC/19.5.43/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/zQE9-NUEUsz1TC/19.5.43/en.json",
+        "pages": 1,
+        "examples": [
+          "ch-de-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/{n}/cmp/de/GDPR/BCmQKjBD8EQikM/37.1.45/37.1.45",
+        "query": [
+          "isOutsideRegion"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/1/cmp/de/GDPR/BCmQKjBD8EQikM/37.1.45/37.1.45",
+        "pages": 1,
+        "examples": [
+          "ch-de-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/core/DmhS8ByF9yPUbT",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/core/DmhS8ByF9yPUbT",
+        "pages": 1,
+        "examples": [
+          "uk-en-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "vod-adaptive-ak.vimeocdn.com",
+        "path": "/exp=1794607891~acl=%2F{uuid}%2Fpsid%3D205463b6ec36a7e7b52f9239d3fb7daca4843dfa1794604291%2F%2A~hmac=4631b6bb8ee0c73f114ac76ab0cbd0c963b9390d0630735c21d3c4dec81bdd03/{uuid}/psid=205463b6ec36a7e7b52f9239d3fb7daca4843dfa1794604291/v2/playlist/av/primary/sub/332221839-en-x-autogen/prot/cHI9NTQwJnFzcj0x/playlist.m3u8",
+        "query": [
+          "ext-subs",
+          "omit",
+          "pathsig",
+          "pr",
+          "qsr",
+          "r",
+          "rh",
+          "sf"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/x-mpegurl",
+        "sameSite": false,
+        "example": "https://vod-adaptive-ak.vimeocdn.com/exp=1794607891~acl=%2Fe0192914-194a-4264-8662-d37b06bbba91%2Fpsid%3D205463b6ec36a7e7b52f9239d3fb7daca4843dfa1794604291%2F%2A~hmac=4631b6bb8ee0c73f114ac76ab0cbd0c963b9390d0630735c21d3c4dec81bdd03/e0192914-194a-4264-8662-d37b06bbba91/psid=205463b6ec36a7e7b52f9239d3fb7daca4843dfa1794604291/v2/playlist/av/primary/sub/332221839-en-x-autogen/prot/cHI9NTQwJnFzcj0x/playlist.m3u8",
+        "pages": 1,
+        "examples": [
+          "uk-en-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "vimeo.com",
+        "path": "/flarepoint/orion/v3/identity/settings",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://vimeo.com/flarepoint/orion/v3/identity/settings",
+        "pages": 1,
+        "examples": [
+          "uk-en-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/QXUrvDGREMArJF/23.1.23/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/QXUrvDGREMArJF/23.1.23/en.json",
+        "pages": 1,
+        "examples": [
+          "uk-en-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/{n}/cmp/en/GDPR/DmhS8ByF9yPUbT/8.1.20/8.1.20",
+        "query": [
+          "isOutsideRegion"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/1/cmp/en/GDPR/DmhS8ByF9yPUbT/8.1.20/8.1.20",
+        "pages": 1,
+        "examples": [
+          "uk-en-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/7MLwREADAHaBAJ/12.1.20/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/7MLwREADAHaBAJ/12.1.20/en.json",
+        "pages": 1,
+        "examples": [
+          "ch-fr-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "v1.api.service.cmp.usercentrics.eu",
+        "path": "/latest/{n}/cmp/fr/GDPR/BCmQKjBD8EQikM/37.1.45/37.1.45",
+        "query": [
+          "isOutsideRegion"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://v1.api.service.cmp.usercentrics.eu/latest/1/cmp/fr/GDPR/BCmQKjBD8EQikM/37.1.45/37.1.45",
+        "pages": 1,
+        "examples": [
+          "ch-fr-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.gstatic.com",
+        "path": "/_/freebird/_/js/k=freebird.v.en.Eu2DyB54Nnc.O/am=AAAAgAE/d=0/rs=AMjVe6jCmGqnTum1kdji7mHTsKKt1sCkIA/m=sy1a,vGOnYd,sya,IZT63,sy8,sy9,YYmHzb,vfuNJf,MpJwZc,n73qwf,sy2,ws9Tlc,cEt90b,sy7,KUM7Z,syf,syg,sye,syi,sy4,syh,sy10,sy13,sy14,sy11,sy12,siKnQd,sy1e,sy47,sy4k,sy1d,sy1f,sy6l,sy3a,sy3b,L1AAkb,sy2a,sy6k,sy2b,O6y8ed,aW3pY,sy6m,I6YDgd,T8YtQb,sy3g,sy3j,V3dDOb,sy4b,sy4e,sy6r,sy6q,sy4c,sy6o,OShpD,sy5h,sy6t,sy6v,sy6w,sy6y,sy6u,sy6x,sy6p,sy6s,sy6z,J8mJTc,SLqN2,gkf10d,j2YlP,syk,syo,sym,syn,sys,syw,syx,syp,sy6,syv,yxTchf,sy3,sy5,xQtZb,qddgKe,syq,wR5FRb,pXdRYb,iFQyKf,syd,syc,syj,YNjGDd,syl,syr,PrPYRd,syt,hc6Ubd,sy15,SpsfSb,dIoSBb,sy17,sy16,sy18,sy19,sy1b,zbML3c,zr1jrb,EmZ2Bf,syy,syz,Uas9Hd,sy4p,sy9f,WO9ee,sy3d,sy3c,sy3f,sy3h,sy3i,A4UTCb,sya3,owcnme,CP1oW,sy3p,sy3n,sy3q,sy58,sy20,sy2f,sya6,sy2l,sy21,sy2h,sy2m,sya4,sya5,syc0,sy2d,sy2p,sybz,qTnoBf,NJ1rfe,mzzZzc,sy1z,rCcCxc,sy2k,sy2n,sy2o,sya8,sybx,syc1,gJzDyc,sy2u,sy29,CHCSlb,syc2,syc3,fmklff,i5dxUd,m9oV,RAnnUd,sy3l,sy3m,sy3o,pxq3x,IvDHfc,sy32,sy34,sy35,sy33,sy77,sy7b,sy76,sy79,sy7f,sy7k,sy7j,sy82,Sk9apb,sy3v,sy3u,sy3w,sy3x,sy43,sy44,sy1c,sy3r,sy3s,sy3t,sy3y,sy3z,sy40,sy41,sy42,fgj8Rb,sy3k,VXdfxd,N5Lqpc,sy75,syb2,syb4,sy8r,syb6,syb7,syb8,syb9",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://www.gstatic.com/_/freebird/_/js/k=freebird.v.en.Eu2DyB54Nnc.O/am=AAAAgAE/d=0/rs=AMjVe6jCmGqnTum1kdji7mHTsKKt1sCkIA/m=sy1a,vGOnYd,sya,IZT63,sy8,sy9,YYmHzb,vfuNJf,MpJwZc,n73qwf,sy2,ws9Tlc,cEt90b,sy7,KUM7Z,syf,syg,sye,syi,sy4,syh,sy10,sy13,sy14,sy11,sy12,siKnQd,sy1e,sy47,sy4k,sy1d,sy1f,sy6l,sy3a,sy3b,L1AAkb,sy2a,sy6k,sy2b,O6y8ed,aW3pY,sy6m,I6YDgd,T8YtQb,sy3g,sy3j,V3dDOb,sy4b,sy4e,sy6r,sy6q,sy4c,sy6o,OShpD,sy5h,sy6t,sy6v,sy6w,sy6y,sy6u,sy6x,sy6p,sy6s,sy6z,J8mJTc,SLqN2,gkf10d,j2YlP,syk,syo,sym,syn,sys,syw,syx,syp,sy6,syv,yxTchf,sy3,sy5,xQtZb,qddgKe,syq,wR5FRb,pXdRYb,iFQyKf,syd,syc,syj,YNjGDd,syl,syr,PrPYRd,syt,hc6Ubd,sy15,SpsfSb,dIoSBb,sy17,sy16,sy18,sy19,sy1b,zbML3c,zr1jrb,EmZ2Bf,syy,syz,Uas9Hd,sy4p,sy9f,WO9ee,sy3d,sy3c,sy3f,sy3h,sy3i,A4UTCb,sya3,owcnme,CP1oW,sy3p,sy3n,sy3q,sy58,sy20,sy2f,sya6,sy2l,sy21,sy2h,sy2m,sya4,sya5,syc0,sy2d,sy2p,sybz,qTnoBf,NJ1rfe,mzzZzc,sy1z,rCcCxc,sy2k,sy2n,sy2o,sya8,sybx,syc1,gJzDyc,sy2u,sy29,CHCSlb,syc2,syc3,fmklff,i5dxUd,m9oV,RAnnUd,sy3l,sy3m,sy3o,pxq3x,IvDHfc,sy32,sy34,sy35,sy33,sy77,sy7b,sy76,sy79,sy7f,sy7k,sy7j,sy82,Sk9apb,sy3v,sy3u,sy3w,sy3x,sy43,sy44,sy1c,sy3r,sy3s,sy3t,sy3y,sy3z,sy40,sy41,sy42,fgj8Rb,sy3k,VXdfxd,N5Lqpc,sy75,syb2,syb4,sy8r,syb6,syb7,syb8,syb9",
+        "pages": 1,
+        "examples": [
+          "us-en-get-involved-activism-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.gstatic.com",
+        "path": "/_/freebird/_/js/k=freebird.v.en.Eu2DyB54Nnc.O/am=AAAAgAE/d=0/rs=AMjVe6jCmGqnTum1kdji7mHTsKKt1sCkIA/m=Xhpexc,Q91hve,sy8l,sy8m,sy6d,sy86,sy72,sy8n,sy8o,sy8j,sy8p,sy8q,sy8s,sy8h,mRfQQ,sybb,syba,CFa0o,szrus,mvo1oc,ENNBBf,sy1g,sy1q,sy1v,uu7UOe,QvB8bb,bCfhJc,sy7q,u9ZRK,pItcJd,yZuGp,sy23,sy1k,syab,etBPYb,i5H9N,SU9Rsf,sy1j,sy1m,sy1u,syac,sy4i,PHUIyb,qNG0Fc,syad,syae,syaf,syah,sy5z,sy1i,sya9,ywOR5c,syaj,syan,EcW08c,wg1P6b,syag,syai,syak,syal,syam,t8tqF,syaa,soHxf,sy65,sy7a,sy7n,sy6g,sy89,sy8b,sy7d,sy7i,sy88,sy8a,sy91,sy98,sy45,sy5y,sy8e,sy95,sy9e,sy9d,p2tbsc,nV4ih,sy9c,LxALBf,syaq,syar,sy9l,sy9o,syap,syas,vofJp,SM1lmd,QwQO1b,sy7s,sy8c,sy94,sy38,sy5t,sy7h,sy93,sy97,sy99,sy92,sy7e,sy90,QMSdQb,X16vkb,WdhPgc,Vnjw0c,sy48,sy49,sy46,sy4a,Ibqgte,ok0nye,Hzqecd,Vp87Bf,JCrucd,DhgO0d,oZECf,sy2z,sy30,zG2TEe,syb5,syat,fvFQfe,CNqcN,sbHRWb,sybc,TOfxwf,sy22,sybh,sy8u,sy8v,sy8y,sybe,sybi,sybj,sybn,sybp,syca,sycb,A2m8uc,syc4,syc5,sy1r,sy1s,syc6,syc7,sy4q,syc8,syc9,cNHZjb,lzHmAf,sy31,sy36,sy37,sy39,jjSbr,sybd,yUS4Lc,v4y9Mc,KOZzeb,KFVhZe,sy5k,sy7t,sy8f,xKXrob,sy5j,sy6c,sy7o,sy7u,sy8x,sy96,DPwS9e,sybr,sybs,sybv,sybq,sybu,sy8t,sybt,riEgMd,sycu,sycv,lSvzH,oCiKKc,lWjoT,sW52Ae,syb3,sybf,sybk,sybm,sybo,sybl,RGrRJf,OkF2xb,sy7p,xmYr4,ID6c7,sycc,rmdjlf",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://www.gstatic.com/_/freebird/_/js/k=freebird.v.en.Eu2DyB54Nnc.O/am=AAAAgAE/d=0/rs=AMjVe6jCmGqnTum1kdji7mHTsKKt1sCkIA/m=Xhpexc,Q91hve,sy8l,sy8m,sy6d,sy86,sy72,sy8n,sy8o,sy8j,sy8p,sy8q,sy8s,sy8h,mRfQQ,sybb,syba,CFa0o,szrus,mvo1oc,ENNBBf,sy1g,sy1q,sy1v,uu7UOe,QvB8bb,bCfhJc,sy7q,u9ZRK,pItcJd,yZuGp,sy23,sy1k,syab,etBPYb,i5H9N,SU9Rsf,sy1j,sy1m,sy1u,syac,sy4i,PHUIyb,qNG0Fc,syad,syae,syaf,syah,sy5z,sy1i,sya9,ywOR5c,syaj,syan,EcW08c,wg1P6b,syag,syai,syak,syal,syam,t8tqF,syaa,soHxf,sy65,sy7a,sy7n,sy6g,sy89,sy8b,sy7d,sy7i,sy88,sy8a,sy91,sy98,sy45,sy5y,sy8e,sy95,sy9e,sy9d,p2tbsc,nV4ih,sy9c,LxALBf,syaq,syar,sy9l,sy9o,syap,syas,vofJp,SM1lmd,QwQO1b,sy7s,sy8c,sy94,sy38,sy5t,sy7h,sy93,sy97,sy99,sy92,sy7e,sy90,QMSdQb,X16vkb,WdhPgc,Vnjw0c,sy48,sy49,sy46,sy4a,Ibqgte,ok0nye,Hzqecd,Vp87Bf,JCrucd,DhgO0d,oZECf,sy2z,sy30,zG2TEe,syb5,syat,fvFQfe,CNqcN,sbHRWb,sybc,TOfxwf,sy22,sybh,sy8u,sy8v,sy8y,sybe,sybi,sybj,sybn,sybp,syca,sycb,A2m8uc,syc4,syc5,sy1r,sy1s,syc6,syc7,sy4q,syc8,syc9,cNHZjb,lzHmAf,sy31,sy36,sy37,sy39,jjSbr,sybd,yUS4Lc,v4y9Mc,KOZzeb,KFVhZe,sy5k,sy7t,sy8f,xKXrob,sy5j,sy6c,sy7o,sy7u,sy8x,sy96,DPwS9e,sybr,sybs,sybv,sybq,sybu,sy8t,sybt,riEgMd,sycu,sycv,lSvzH,oCiKKc,lWjoT,sW52Ae,syb3,sybf,sybk,sybm,sybo,sybl,RGrRJf,OkF2xb,sy7p,xmYr4,ID6c7,sycc,rmdjlf",
+        "pages": 1,
+        "examples": [
+          "us-en-get-involved-activism-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.gstatic.com",
+        "path": "/_/freebird/_/js/k=freebird.v.en.Eu2DyB54Nnc.O/am=AAAAgAE/d=0/rs=AMjVe6jCmGqnTum1kdji7mHTsKKt1sCkIA/m=sybg,sWGJ4b,sy4y,sy50,sy9q,sy9r,sy9p,sy9s,sy9t,EGNJFf,iSvg6e,sy9u,uY3Nvd",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://www.gstatic.com/_/freebird/_/js/k=freebird.v.en.Eu2DyB54Nnc.O/am=AAAAgAE/d=0/rs=AMjVe6jCmGqnTum1kdji7mHTsKKt1sCkIA/m=sybg,sWGJ4b,sy4y,sy50,sy9q,sy9r,sy9p,sy9s,sy9t,EGNJFf,iSvg6e,sy9u,uY3Nvd",
+        "pages": 1,
+        "examples": [
+          "us-en-get-involved-activism-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "play.google.com",
+        "path": "/log",
+        "query": [
+          "authuser",
+          "format",
+          "hasfast"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://play.google.com/log",
+        "pages": 1,
+        "examples": [
+          "us-en-get-involved-activism-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "docs.google.com",
+        "path": "/forms/d/e/1FAIpQLSdGJ2AGdigo98e6RbL1ZdYz37O17XxlDTebXdo0PlinL3Vgcg/naLogImpressions",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://docs.google.com/forms/d/e/1FAIpQLSdGJ2AGdigo98e6RbL1ZdYz37O17XxlDTebXdo0PlinL3Vgcg/naLogImpressions",
+        "pages": 1,
+        "examples": [
+          "us-en-get-involved-activism-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "docs.google.com",
+        "path": "/forms/d/e/1FAIpQLSdGJ2AGdigo98e6RbL1ZdYz37O17XxlDTebXdo0PlinL3Vgcg/font/getmetadata",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://docs.google.com/forms/d/e/1FAIpQLSdGJ2AGdigo98e6RbL1ZdYz37O17XxlDTebXdo0PlinL3Vgcg/font/getmetadata",
+        "pages": 1,
+        "examples": [
+          "us-en-get-involved-activism-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "s.infogram.com",
+        "path": "/t2",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://s.infogram.com/t2",
+        "pages": 1,
+        "examples": [
+          "us-en-why-fairtrade-impact-key-figures-at-a-glance-html"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 97,
+        "examples": [
+          "index",
+          "de-de-html",
+          "maxhavelaarfrance-fr-html"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 81,
+        "examples": [
+          "index",
+          "maxhavelaarfrance-fr-html",
+          "us-en-html"
+        ]
+      },
+      {
+        "host": "snap.licdn.com",
+        "pages": 77,
+        "examples": [
+          "index",
+          "maxhavelaarfrance-fr-html",
+          "us-en-html"
+        ]
+      },
+      {
+        "host": "www.youtube.com",
+        "pages": 76,
+        "examples": [
+          "index",
+          "us-en-html",
+          "at-de-html"
+        ]
+      },
+      {
+        "host": "bat.bing.com",
+        "pages": 74,
+        "examples": [
+          "index",
+          "us-en-html",
+          "us-en-about-html"
+        ]
+      },
+      {
+        "host": "www.clarity.ms",
+        "pages": 74,
+        "examples": [
+          "index",
+          "us-en-html",
+          "us-en-about-html"
+        ]
+      },
+      {
+        "host": "www2.fairtradeamerica.org",
+        "pages": 74,
+        "examples": [
+          "index",
+          "us-en-html",
+          "us-en-about-html"
+        ]
+      },
+      {
+        "host": "extend.vimeocdn.com",
+        "pages": 74,
+        "examples": [
+          "index",
+          "us-en-html",
+          "us-en-about-html"
+        ]
+      },
+      {
+        "host": "scripts.clarity.ms",
+        "pages": 74,
+        "examples": [
+          "index",
+          "us-en-html",
+          "us-en-about-html"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 74,
+        "examples": [
+          "index",
+          "us-en-html",
+          "us-en-about-html"
+        ]
+      },
+      {
+        "host": "app.usercentrics.eu",
+        "pages": 13,
+        "examples": [
+          "de-de-html",
+          "maxhavelaarfrance-fr-html",
+          "en-html"
+        ]
+      },
+      {
+        "host": "www.google.com",
+        "pages": 10,
+        "examples": [
+          "at-de-html",
+          "it-it-html",
+          "mt-en-bring-fairtrade-to-your-market-html"
+        ]
+      },
+      {
+        "host": "www.gstatic.com",
+        "pages": 9,
+        "examples": [
+          "uk-en-html",
+          "mt-en-bring-fairtrade-to-your-market-html",
+          "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html"
+        ]
+      },
+      {
+        "host": "static.doubleclick.net",
+        "pages": 5,
+        "examples": [
+          "at-de-html",
+          "it-it-html",
+          "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html"
+        ]
+      },
+      {
+        "host": "web.cmp.usercentrics.eu",
+        "pages": 5,
+        "examples": [
+          "ca-en-html",
+          "ca-fr-html",
+          "ch-de-html"
+        ]
+      },
+      {
+        "host": "f.vimeocdn.com",
+        "pages": 3,
+        "examples": [
+          "uk-en-html",
+          "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+          "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html"
+        ]
+      },
+      {
+        "host": "player.vimeo.com",
+        "pages": 3,
+        "examples": [
+          "uk-en-html",
+          "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+          "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html"
+        ]
+      },
+      {
+        "host": "widget.taggbox.com",
+        "pages": 2,
+        "examples": [
+          "at-de-html",
+          "kr-ko-html"
+        ]
+      },
+      {
+        "host": "static.cloudflareinsights.com",
+        "pages": 2,
+        "examples": [
+          "at-de-html",
+          "kr-ko-html"
+        ]
+      },
+      {
+        "host": "www.google-analytics.com",
+        "pages": 2,
+        "examples": [
+          "iberica-es-html",
+          "iberica-pt-html"
+        ]
+      },
+      {
+        "host": "us-an.gr-cdn.com",
+        "pages": 1,
+        "examples": [
+          "maxhavelaarfrance-fr-html"
+        ]
+      },
+      {
+        "host": "info.maxhavelaarfrance.org",
+        "pages": 1,
+        "examples": [
+          "maxhavelaarfrance-fr-html"
+        ]
+      },
+      {
+        "host": "an.gr-wcon.com",
+        "pages": 1,
+        "examples": [
+          "maxhavelaarfrance-fr-html"
+        ]
+      },
+      {
+        "host": "sc-static.net",
+        "pages": 1,
+        "examples": [
+          "at-de-html"
+        ]
+      },
+      {
+        "host": "cdn.brevo.com",
+        "pages": 1,
+        "examples": [
+          "at-de-html"
+        ]
+      },
+      {
+        "host": "tr.snapchat.com",
+        "pages": 1,
+        "examples": [
+          "at-de-html"
+        ]
+      },
+      {
+        "host": "analytics.tiktok.com",
+        "pages": 1,
+        "examples": [
+          "ca-en-html"
+        ]
+      },
+      {
+        "host": "wcs.pstatic.net",
+        "pages": 1,
+        "examples": [
+          "kr-ko-html"
+        ]
+      },
+      {
+        "host": "ssl.pstatic.net",
+        "pages": 1,
+        "examples": [
+          "kr-ko-html"
+        ]
+      },
+      {
+        "host": "secure.perk0mean.com",
+        "pages": 1,
+        "examples": [
+          "uk-en-html"
+        ]
+      },
+      {
+        "host": "matomo.schuttelaar.net",
+        "pages": 1,
+        "examples": [
+          "us-en-why-fairtrade-what-we-do-theory-of-change-html"
+        ]
+      },
+      {
+        "host": "cdn.jifo.co",
+        "pages": 1,
+        "examples": [
+          "us-en-why-fairtrade-impact-key-figures-at-a-glance-html"
+        ]
+      },
+      {
+        "host": "s.infogram.com",
+        "pages": 1,
+        "examples": [
+          "us-en-why-fairtrade-impact-key-figures-at-a-glance-html"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "aem-sites",
+        "pages": 100,
+        "examples": [
+          "index",
+          "de-de-html",
+          "maxhavelaarfrance-fr-html"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 97,
+        "examples": [
+          "index",
+          "de-de-html",
+          "maxhavelaarfrance-fr-html"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://www.fairtrade.net/de-de.html",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "select-name-teasergrid"
+        ],
+        "pages": 1,
+        "examples": [
+          "de-de-html"
+        ]
+      },
+      {
+        "action": "https://www.fairtrade.net/it-it.html",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "select-name-teasergrid"
+        ],
+        "pages": 1,
+        "examples": [
+          "it-it-html"
+        ]
+      },
+      {
+        "action": "https://www.fairtrade.net/content/fairtrade/mt/en/home/_jcr_content/root/container/formbuilder.forms.json",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "First and last name of CEE contact",
+          "Email CEE contact",
+          "CEE Message",
+          "g-recaptcha-response"
+        ],
+        "pages": 1,
+        "examples": [
+          "mt-en-bring-fairtrade-to-your-market-html"
+        ]
+      },
+      {
+        "action": "https://www.fairtrade.net/content/fairtrade/ro/ro/home/_jcr_content/root/container/formbuilder.forms.json",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "First and last name of CEE contact",
+          "Email CEE contact",
+          "CEE Message",
+          "g-recaptcha-response"
+        ],
+        "pages": 1,
+        "examples": [
+          "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html"
+        ]
+      },
+      {
+        "action": "https://www.fairtrade.net/content/fairtrade/si/sl/home/_jcr_content/root/container/formbuilder.forms.json",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "First and last name of CEE contact",
+          "Email CEE contact",
+          "CEE Message",
+          "g-recaptcha-response"
+        ],
+        "pages": 1,
+        "examples": [
+          "si-sl-prinesite-fairtrade-na-vas-trg-html"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "de-de-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "maxhavelaarfrance-fr-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "jp-jp-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "us-en-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "en-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "africa-en-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "at-de-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "be-fr-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "be-nl-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "ca-en-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss; a consent dialog overlays the hero in the screenshot (locale consent manager not auto-dismissed); DOM text unaffected"
+    },
+    {
+      "slug": "ca-fr-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "iberica-es-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "iberica-pt-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "ie-en-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "it-it-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "kr-ko-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "napp-en-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "nl-nl-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "no-no-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "pl-pl-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "se-sv-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "ch-de-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss; a consent dialog overlays the hero in the screenshot (locale consent manager not auto-dismissed); DOM text unaffected"
+    },
+    {
+      "slug": "ch-fr-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss; a consent dialog overlays the hero in the screenshot (locale consent manager not auto-dismissed); DOM text unaffected"
+    },
+    {
+      "slug": "uk-en-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss; a consent dialog overlays the hero in the screenshot (locale consent manager not auto-dismissed); DOM text unaffected"
+    },
+    {
+      "slug": "us-en-about-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-news-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-contact-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "mt-en-bring-fairtrade-to-your-market-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "si-sl-prinesite-fairtrade-na-vas-trg-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "us-en-why-fairtrade-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-products-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-for-business-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-for-media-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-terms-of-use-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-privacy-policy-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-fairtrade-newsletter-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-products-all-products-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-for-business-get-certified-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-for-business-for-partners-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-for-business-for-retailers-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss; third-party embed (iframe/video) renders empty in the screenshot"
+    },
+    {
+      "slug": "us-en-get-involved-get-involved-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-get-involved-how-to-shop-sustainably-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-get-involved-where-to-buy-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "us-en-get-involved-activism-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss; third-party embed (iframe/video) renders empty in the screenshot"
+    },
+    {
+      "slug": "us-en-about-careers-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-how-fairtrade-works-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-key-benefits-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-theory-of-change-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss; third-party embed (iframe/video) renders empty in the screenshot"
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-the-fairtrade-difference-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-child-protection-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-deforestation-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-fairtrade-and-the-sustainable-development-goals-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-hredd-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-workers-rights-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-how-fairtrade-certification-works-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-standards-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-our-projects-and-programs-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-impact-stories-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-key-figures-at-a-glance-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss; third-party embed (iframe/video) renders empty in the screenshot"
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-how-we-measure-impact-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-reports-trends-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-products-all-products-bananas-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-products-all-products-cocoa-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-products-all-products-chocolate-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss; third-party embed (iframe/video) renders empty in the screenshot"
+    },
+    {
+      "slug": "us-en-products-all-products-coffee-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss; third-party embed (iframe/video) renders empty in the screenshot"
+    },
+    {
+      "slug": "us-en-products-all-products-cotton-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-products-all-products-herbs-spices-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-products-all-products-nuts-oils-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-products-all-products-sugar-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-products-all-products-wine-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-products-all-products-gold-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-products-all-products-fruits-juices-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-products-all-products-honey-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-business-success-stories-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-business-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-consumer-trends1-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-for-business-get-certified-the-certification-process-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss"
+    },
+    {
+      "slug": "us-en-for-business-get-certified-resources-support-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-for-business-get-certified-intro-to-fairtrade-html",
+      "verdict": "ok",
+      "notes": "blank bands in the full-page screenshot are the source content-fader (opacity:0 until .is-visible on intersection, site.css [data-module~=content-fader]); DOM capture holds every section — capture-state, not content loss; third-party embed (iframe/video) renders empty in the screenshot"
+    },
+    {
+      "slug": "us-en-for-business-get-certified-get-started-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    },
+    {
+      "slug": "us-en-for-business-for-partners-communicate-your-commitment-html",
+      "verdict": "ok",
+      "notes": "thumbnail matches record: header, hero, content, footer"
+    }
+  ]
+}

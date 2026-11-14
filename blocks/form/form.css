@@ -1,0 +1,231 @@
+/* form — source FormSection / Form / Textarea / Input / Notification
+   (stardust/prototypes/mt-en-bring-fairtrade-to-your-market-html.css; values verbatim) */
+.form {
+  column-gap: var(--grid-gap);
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
+  margin-inline: auto;
+  padding: 32px var(--grid-padding);
+  width: min(100%, var(--max-width));
+}
+
+.form > * {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+.form .form-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.form .form-field-recaptcha {
+  height: 78px;
+  margin-bottom: 24px;
+}
+
+.form .form-action {
+  align-self: flex-start;
+  flex: 0 0 auto;
+}
+
+.form :is(.input-label, .textarea-label) {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  margin: 0 4px 12px;
+}
+
+.form :is(.input-label, .textarea-label) p {
+  font: inherit;
+  margin: 0;
+}
+
+.form :is(.input-messages, .textarea-messages) {
+  display: grid;
+  margin: 4px 4px 0;
+  row-gap: 4px;
+}
+
+.form :is(.input-error-message, .textarea-error-message) {
+  color: #ff4571;
+  display: none;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.form :is(.input-error-message, .textarea-error-message) p {
+  margin: 0;
+}
+
+.form .has-error :is(.input-error-message, .textarea-error-message),
+.form :is(.input, .textarea):has(:user-invalid) :is(.input-error-message, .textarea-error-message) {
+  display: block;
+}
+
+.form :is(.input-field-wrapper, .textarea-field-wrapper) {
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.form .input-field-wrapper {
+  border-radius: 100px;
+}
+
+.form :is(.input-field-wrapper, .textarea-field-wrapper)::before,
+.form :is(.input-field-wrapper, .textarea-field-wrapper)::after {
+  border-radius: inherit;
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.form :is(.input-field-wrapper, .textarea-field-wrapper)::before {
+  border: 1px solid #a5a5a5;
+}
+
+.form :is(.input-field-wrapper, .textarea-field-wrapper)::after {
+  border: 2px solid #6fd9fd;
+  opacity: 0;
+  transition: opacity .2s ease-in-out, border-color .2s ease-in-out;
+}
+
+.form :is(.input-field-wrapper, .textarea-field-wrapper):has(:is(input, textarea):not(:placeholder-shown))::after,
+.form :is(.input-field-wrapper, .textarea-field-wrapper):has(:is(input, textarea):is(:active, :focus-visible, :hover))::after {
+  opacity: 1;
+}
+
+.form :is(.input-field-wrapper, .textarea-field-wrapper):has(:is(input, textarea):not(:placeholder-shown))::after {
+  border-color: #0fc0fc;
+}
+
+/* stylelint-disable no-descending-specificity -- source order: the error colour wins */
+.form .has-error :is(.input-field-wrapper, .textarea-field-wrapper)::after,
+.form :is(.input-field-wrapper, .textarea-field-wrapper):has(:user-invalid)::after {
+  border-color: #ff4571;
+  opacity: 1;
+}
+/* stylelint-enable no-descending-specificity */
+
+.form :is(.input-field, .textarea-field) {
+  appearance: none;
+  border: 0;
+  border-radius: inherit;
+  display: block;
+  font: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 16px 24px;
+  resize: none;
+  width: 100%;
+}
+
+/* Notification */
+.form .form-notification {
+  display: none;
+  padding-block: 64px;
+  text-align: center;
+}
+
+.form .form-notification.is-visible {
+  display: block;
+}
+
+.form .form-notification-inner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form .form-notification-title {
+  font-family: var(--ff-head);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.form .form-notification-title :is(h2, h3, h4) {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.form .form-notification-text {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.form .form-notification-text p {
+  margin: 0;
+}
+
+@media (width >= 768px) {
+  .form > * {
+    grid-column: 2 / -2;
+  }
+}
+
+@media (width >= 1024px) {
+  .form {
+    padding-block: 40px;
+  }
+
+  .form > * {
+    grid-column: 4 / -4;
+  }
+
+  .form .form-form {
+    gap: 32px;
+  }
+
+  .form .form-notification {
+    padding-block: 80px;
+  }
+
+  .form .form-notification-inner {
+    gap: 24px;
+  }
+
+  .form .form-notification-title {
+    font-size: 32px;
+  }
+
+  .form .form-notification-text {
+    font-size: 18px;
+  }
+}
+
+/* canon .Input--clear: the trash button, shown once the field holds a value */
+.form .input-clear {
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  inset: 0 24px 0 auto;
+  opacity: 0;
+  padding: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity .2s ease-in-out, visibility .2s ease-in-out;
+  visibility: hidden;
+}
+
+.form .input-clear:is(:hover, :focus-visible) {
+  color: #035e7c;
+}
+
+.form .input:has(.input-field:not(:placeholder-shown)) .input-clear {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.form .input-field:not(:placeholder-shown) {
+  padding-right: 48px;
+}

@@ -1,0 +1,226 @@
+{
+  "slug": "us-en-products-all-products-bananas-html",
+  "type": "static",
+  "renderBranch": "A'",
+  "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+  "modules": [
+    "content-fader",
+    "number-fact-teaser"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "cmp-container"
+  ],
+  "canonShas": {
+    "header": "6be685dac421",
+    "footer": "96470a94dc37",
+    "css": "2bf6b48caf7e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Bananas",
+    "description": null,
+    "canonical": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/bananas.html",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Fairtrade.net",
+    "alternateName": "Fairtrade America",
+    "url": "https://www.fairtrade.net/"
+  },
+  "migratedAt": "2026-11-14T08:09:59Z",
+  "designMdSha": "ba7a99252bf7",
+  "designJsonSha": "d7cf7a9249c2",
+  "sourceCurrentSha": "c218c73c03d2",
+  "sourceProposedSha": "268a7c95facc",
+  "fidelityTier": "sibling",
+  "archetypeSource": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+  "archetypeSha": "2a79d8a95d9e",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "content-fidelity",
+    "content-count",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 vs gender-equality: per-page module composition (PageLead + RichtextSection/TextImage/Accordion/NumberFact/SingleImage/CTA/Iframe/Video mixes), grey text-image band, dark page-lead (stardust/migrate/variance/static.json)",
+    "delivery-lint": "delivery-lint 0 P0/P1",
+    "media-reconcile": "media-reconcile: 4 keep, 0 omit/unresolved",
+    "content-fidelity": "cluster sample content-diff generic main 0 red / 0 nothing-lost on 6 pages; this page: gate-all content-presence 0 missing",
+    "content-count": "gate-all content-presence 1440+360: MISSING 0 / HIDDEN 0, clipped 0/0",
+    "pixel-gate-1440": "gate-all 1440: pixel 0.01% dh 0, fonts loaded, PASS",
+    "pixel-gate-360": "gate-all 360: pixel 0.05% dh 0, fonts loaded, PASS"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/herbs-spices.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/nuts-oils.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/sugar.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/wine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/gold.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/fruits-juices.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/honey.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-business.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-producers.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/consumer-trends1.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/the-certification-process.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/resources-support.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/intro-to-fairtrade.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/get-started.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners/communicate-your-commitment.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners/how-to-use-the-mark.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners/mark-misuse-allegations-or-complaints.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-retailers/fairtrade-bananas.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/herbs-spices.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/nuts-oils.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/sugar.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/wine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/gold.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/fruits-juices.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/products/all-products/honey.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-business.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-producers.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/consumer-trends1.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/the-certification-process.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/resources-support.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/intro-to-fairtrade.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/get-started.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners/communicate-your-commitment.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners/how-to-use-the-mark.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners/mark-misuse-allegations-or-complaints.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-retailers/fairtrade-bananas.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/en/products/Fairtrade_products/Bananas/living-wage-solution-for-the-banana-sector.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/en/products/Fairtrade_products/Bananas/fairtrade-banana-dashboard0.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us-en/for-business/benefits-of-being-certified/benefits-for-business.html",
+      "reason": "in-inventory-not-migrated"
+    }
+  ],
+  "outputPath": "us-en/products/all-products/bananas.html",
+  "outputPathDefault": null,
+  "sidecar": "us-en/products/all-products/bananas._meta.json",
+  "driverVersion": "1"
+}

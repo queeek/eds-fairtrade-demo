@@ -1,0 +1,64 @@
+/* video — source SingleVideo (stardust/prototypes/at-de-html.css; values verbatim) */
+.video {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
+  margin-inline: auto;
+  padding: 64px var(--grid-padding);
+  width: min(100%, var(--max-width));
+}
+
+.video > * {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+.video .video-iframe {
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.video .video-caption {
+  display: grid;
+  font-size: 13px;
+  gap: 2px;
+  grid-template-columns: auto 1fr;
+  line-height: 1.6;
+}
+
+.video .video-caption p {
+  margin: 0;
+}
+
+.video .video-caption-icon {
+  color: #0fc0fc;
+}
+
+@media (width >= 1024px) {
+  .video {
+    column-gap: var(--grid-gap);
+    padding-block: 80px;
+  }
+
+  .video > * {
+    grid-column: 2 / -2;
+  }
+
+  .video .video-caption {
+    font-size: 14px;
+  }
+}
+
+/* spacer-before — the preceding RichtextSection's last paragraph ends in <br><br> (one painted
+   blank line the pipeline drops): reproduce that line above the video (traceability) */
+.video.spacer-before {
+  padding-top: calc(64px + 1lh);
+}
+
+@media (width >= 1024px) {
+  .video.spacer-before {
+    padding-top: calc(80px + 1lh);
+  }
+}

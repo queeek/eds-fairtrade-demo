@@ -1,0 +1,50 @@
+{
+ "pages": 5,
+ "vendors": [
+  {
+   "host": "www.fairtrade.net",
+   "pages": 5,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "cdn.brevo.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "widget.taggbox.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "www.youtube.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": "video: YouTube",
+   "class": "V",
+   "inCsp": false
+  },
+  {
+   "host": "www.google.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "adobeDataLayer": 5,
+  "dataLayer": 5
+ },
+ "cspHosts": []
+}

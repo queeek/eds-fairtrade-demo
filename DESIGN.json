@@ -1,0 +1,2671 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-13T21:40:46.948Z",
+    "sources": [
+      "stardust/current/assets/css/site.css",
+      "stardust/current/_computed-styles.json"
+    ]
+  },
+  "name": "Fairtrade",
+  "colors": {
+    "skyblue": "#0fc0fc",
+    "skyblue-hover": "#0eade3",
+    "skyblue-deep": "#035e7c",
+    "skyblue-light": "#6fd9fd",
+    "nightsky": "#001b6e",
+    "leafgreen": "#d4ff47",
+    "leafgreen-hover": "#aacc39",
+    "leafgreen-deep": "#4f5d18",
+    "leafgreen-light": "#e5ff91",
+    "flower": "#ff4571",
+    "eggplant": "#7b1dab",
+    "mint": "#09fbd3",
+    "tangerine": "#ff8000",
+    "text": "#1e1e1e",
+    "monochrome-100": "#f4f4f4",
+    "monochrome-200": "#e8e8e8",
+    "monochrome-300": "#dadada",
+    "monochrome-500": "#a5a5a5",
+    "monochrome-600": "#787878",
+    "monochrome-700": "#545454",
+    "white": "#ffffff",
+    "skyblue-25": "#0fc0fc40"
+  },
+  "typography": {
+    "display": {
+      "fontFamily": "Alegreya Sans, system-ui",
+      "fontSize": "72px",
+      "fontWeight": 900,
+      "lineHeight": 1.1
+    },
+    "h1": {
+      "fontFamily": "Alegreya Sans, system-ui",
+      "fontSize": "64px",
+      "fontWeight": 900,
+      "lineHeight": 1.1
+    },
+    "h2": {
+      "fontFamily": "Alegreya Sans, system-ui",
+      "fontSize": "48px",
+      "fontWeight": 900,
+      "lineHeight": 1.1
+    },
+    "h3": {
+      "fontFamily": "Alegreya Sans, system-ui",
+      "fontSize": "32px",
+      "fontWeight": 900,
+      "lineHeight": 1.1
+    },
+    "h4": {
+      "fontFamily": "Exo 2, system-ui",
+      "fontSize": "20px",
+      "fontWeight": 800,
+      "lineHeight": 1.1
+    },
+    "body": {
+      "fontFamily": "Exo 2, system-ui",
+      "fontSize": "18px",
+      "fontWeight": 400,
+      "lineHeight": 1.6
+    },
+    "button": {
+      "fontFamily": "Exo 2, system-ui",
+      "fontSize": "18px",
+      "fontWeight": 700,
+      "lineHeight": 1
+    }
+  },
+  "rounded": {
+    "sm": "4px",
+    "md": "12px",
+    "lg": "16px",
+    "pill": "100px",
+    "circle": "100%"
+  },
+  "spacing": {
+    "sm": "16px",
+    "md": "24px",
+    "lg": "32px",
+    "xl": "40px"
+  },
+  "extensions": {
+    "sourceBreakpoints": [
+      640,
+      768,
+      1024,
+      1280,
+      1440
+    ],
+    "topbarHeight": {
+      "640": "104px",
+      "base": "72px"
+    },
+    "motifs": {
+      "waves": "SVG wave dividers, separate mobile/tablet/desktop shapes (.Wave--mobile/--tablet/--desktop)",
+      "blobs": "organic blob shapes behind number facts (.Bubble color-*)",
+      "contentFader": "components fade in on intersection ([data-module~=content-fader] > * opacity → 1 with .is-visible)"
+    },
+    "componentStyle": {
+      "button": {
+        "height": "48px",
+        "padding": "0 32px",
+        "radius": "75pt",
+        "border": "2px solid transparent",
+        "font": "700 18px Exo 2"
+      }
+    },
+    "fonts": {
+      "selfHosted": true,
+      "families": [
+        "Alegreya Sans",
+        "Exo 2"
+      ],
+      "files": "stardust/current/assets/fonts/",
+      "license": "SIL OFL (Google Fonts families)"
+    },
+    "consent": {
+      "manager": "Usercentrics",
+      "accept": "[data-testid=\"uc-accept-all-button\"]"
+    },
+    "modules": [
+      {
+        "id": "page-lead",
+        "instances": [
+          {
+            "slug": "africa-en-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "ch-de-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "ch-fr-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "de-de-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "iberica-es-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "iberica-pt-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "it-it-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "kr-ko-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "maxhavelaarfrance-fr-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "mt-en-bring-fairtrade-to-your-market-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "napp-en-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "no-no-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "si-sl-prinesite-fairtrade-na-vas-trg-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "uk-en-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-about-careers-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-about-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-contact-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-fairtrade-newsletter-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-business-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-business-success-stories-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-consumer-trends1-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-for-business-for-partners-communicate-your-commitment-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-for-business-for-partners-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-for-business-for-retailers-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-get-started-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-intro-to-fairtrade-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-resources-support-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-the-certification-process-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-for-business-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-for-media-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-get-involved-activism-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-get-involved-get-involved-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-get-involved-how-to-shop-sustainably-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-get-involved-where-to-buy-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-news-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-privacy-policy-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-products-all-products-bananas-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-products-all-products-chocolate-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-products-all-products-cocoa-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-products-all-products-coffee-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-products-all-products-cotton-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-products-all-products-fruits-juices-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-products-all-products-gold-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-products-all-products-herbs-spices-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-products-all-products-honey-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-products-all-products-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-products-all-products-nuts-oils-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-products-all-products-sugar-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-products-all-products-wine-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-products-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-terms-of-use-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-standards-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-how-fairtrade-certification-works-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-our-projects-and-programs-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-how-we-measure-impact-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-impact-stories-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-key-figures-at-a-glance-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-reports-trends-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-how-fairtrade-works-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-key-benefits-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-the-fairtrade-difference-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-theory-of-change-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-child-protection-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-deforestation-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-fairtrade-and-the-sustainable-development-goals-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-hredd-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html",
+            "selector": "main .cmp-container > .page-lead"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-workers-rights-html",
+            "selector": "main .cmp-container > .page-lead"
+          }
+        ],
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "lead",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "image",
+            "type": "image",
+            "required": false
+          }
+        ],
+        "pages": 87
+      },
+      {
+        "id": "numberfactteaser",
+        "instances": [
+          {
+            "slug": "africa-en-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "be-fr-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "be-nl-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "ca-en-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "ca-fr-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "ch-de-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "ch-fr-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "de-de-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "en-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "iberica-es-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "iberica-pt-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "index",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "jp-jp-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "maxhavelaarfrance-fr-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "mt-en-bring-fairtrade-to-your-market-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "napp-en-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "nl-nl-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "no-no-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "pl-pl-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "se-sv-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "si-sl-prinesite-fairtrade-na-vas-trg-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-business-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-consumer-trends1-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-for-business-for-partners-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-for-business-for-retailers-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-get-involved-how-to-shop-sustainably-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-products-all-products-bananas-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-products-all-products-cocoa-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-products-all-products-coffee-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-products-all-products-sugar-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-our-projects-and-programs-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-key-figures-at-a-glance-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-child-protection-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-hredd-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-workers-rights-html",
+            "selector": "main .cmp-container > .numberfactteaser"
+          }
+        ],
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "facts[]",
+            "type": "{number,label,color}",
+            "required": false
+          },
+          {
+            "name": "title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "text",
+            "type": "richtext",
+            "required": false
+          },
+          {
+            "name": "cta",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "pages": 44
+      },
+      {
+        "id": "textimage",
+        "instances": [
+          {
+            "slug": "africa-en-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "at-de-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "ca-en-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "ca-fr-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "ch-de-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "ch-fr-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "de-de-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "en-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "iberica-es-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "iberica-pt-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "ie-en-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "index",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "it-it-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "jp-jp-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "kr-ko-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "maxhavelaarfrance-fr-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "mt-en-bring-fairtrade-to-your-market-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "napp-en-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "nl-nl-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "no-no-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "pl-pl-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "se-sv-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "si-sl-prinesite-fairtrade-na-vas-trg-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "uk-en-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-about-careers-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-about-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-contact-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-business-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-business-success-stories-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-consumer-trends1-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-for-business-for-partners-communicate-your-commitment-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-for-business-for-partners-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-for-business-for-retailers-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-intro-to-fairtrade-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-resources-support-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-the-certification-process-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-for-business-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-for-media-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-get-involved-activism-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-get-involved-get-involved-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-get-involved-how-to-shop-sustainably-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-get-involved-where-to-buy-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-products-all-products-bananas-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-products-all-products-chocolate-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-products-all-products-cocoa-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-products-all-products-coffee-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-products-all-products-sugar-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-standards-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-how-fairtrade-certification-works-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-our-projects-and-programs-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-how-we-measure-impact-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-key-figures-at-a-glance-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-reports-trends-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-how-fairtrade-works-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-key-benefits-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-the-fairtrade-difference-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-hredd-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html",
+            "selector": "main .cmp-container > .textimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-workers-rights-html",
+            "selector": "main .cmp-container > .textimage"
+          }
+        ],
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "text",
+            "type": "richtext",
+            "required": false
+          },
+          {
+            "name": "cta",
+            "type": "link",
+            "required": false
+          },
+          {
+            "name": "image",
+            "type": "image",
+            "required": false
+          },
+          {
+            "name": "order",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "theme",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "pages": 74
+      },
+      {
+        "id": "richtextsection",
+        "instances": [
+          {
+            "slug": "africa-en-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "at-de-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "be-fr-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "be-nl-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "de-de-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "en-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "iberica-es-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "iberica-pt-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "ie-en-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "index",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "it-it-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "jp-jp-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "kr-ko-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "maxhavelaarfrance-fr-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "mt-en-bring-fairtrade-to-your-market-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "napp-en-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "nl-nl-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "no-no-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "pl-pl-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "se-sv-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "si-sl-prinesite-fairtrade-na-vas-trg-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "uk-en-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-about-careers-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-about-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-contact-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-business-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-business-success-stories-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-for-business-for-partners-communicate-your-commitment-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-for-business-for-partners-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-for-business-for-retailers-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-get-started-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-intro-to-fairtrade-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-resources-support-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-the-certification-process-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-for-media-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-get-involved-activism-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-get-involved-get-involved-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-get-involved-how-to-shop-sustainably-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-get-involved-where-to-buy-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-privacy-policy-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-products-all-products-bananas-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-products-all-products-cocoa-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-products-all-products-coffee-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-products-all-products-cotton-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-products-all-products-fruits-juices-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-products-all-products-gold-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-products-all-products-herbs-spices-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-products-all-products-honey-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-products-all-products-nuts-oils-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-products-all-products-sugar-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-products-all-products-wine-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-terms-of-use-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-standards-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-how-fairtrade-certification-works-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-our-projects-and-programs-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-how-we-measure-impact-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-impact-stories-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-key-figures-at-a-glance-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-reports-trends-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-how-fairtrade-works-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-key-benefits-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-theory-of-change-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-child-protection-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-deforestation-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-fairtrade-and-the-sustainable-development-goals-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-hredd-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html",
+            "selector": "main .cmp-container > .richtextsection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-workers-rights-html",
+            "selector": "main .cmp-container > .richtextsection"
+          }
+        ],
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "richtext",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "pages": 85
+      },
+      {
+        "id": "teasergrid",
+        "instances": [
+          {
+            "slug": "africa-en-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "at-de-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "be-fr-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "be-nl-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "ch-de-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "ch-fr-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "de-de-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "en-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "ie-en-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "it-it-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "jp-jp-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "kr-ko-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "maxhavelaarfrance-fr-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "napp-en-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "no-no-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "pl-pl-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "se-sv-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "uk-en-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-business-success-stories-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "us-en-for-business-for-partners-communicate-your-commitment-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "us-en-for-media-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "us-en-news-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "us-en-products-all-products-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "us-en-products-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-impact-stories-html",
+            "selector": "main .cmp-container > .teasergrid"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-html",
+            "selector": "main .cmp-container > .teasergrid"
+          }
+        ],
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cards[]",
+            "type": "{image,title,text,link}",
+            "required": false
+          }
+        ],
+        "pages": 26
+      },
+      {
+        "id": "ctasection",
+        "instances": [
+          {
+            "slug": "africa-en-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "at-de-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "be-fr-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "be-nl-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "ch-de-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "ch-fr-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "en-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "iberica-es-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "iberica-pt-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "it-it-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "jp-jp-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "kr-ko-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "maxhavelaarfrance-fr-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "mt-en-bring-fairtrade-to-your-market-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "napp-en-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "nl-nl-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "no-no-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "pl-pl-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "se-sv-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "si-sl-prinesite-fairtrade-na-vas-trg-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "us-en-about-careers-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "us-en-about-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-business-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "us-en-for-business-for-partners-communicate-your-commitment-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "us-en-products-all-products-cocoa-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "us-en-products-all-products-fruits-juices-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "us-en-products-all-products-honey-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "us-en-products-all-products-nuts-oils-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "us-en-products-all-products-sugar-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "us-en-products-all-products-wine-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-key-figures-at-a-glance-html",
+            "selector": "main .cmp-container > .ctasection"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+            "selector": "main .cmp-container > .ctasection"
+          }
+        ],
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "text",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cta",
+            "type": "link",
+            "required": false
+          },
+          {
+            "name": "theme",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "pages": 35
+      },
+      {
+        "id": "accordion",
+        "instances": [
+          {
+            "slug": "africa-en-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "at-de-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "ca-en-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "ca-fr-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "ch-de-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "de-de-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "en-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "iberica-es-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "iberica-pt-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "index",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "jp-jp-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "kr-ko-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "nl-nl-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "pl-pl-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-about-careers-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-contact-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-business-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-for-business-benefits-of-being-certified-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-for-business-for-partners-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-resources-support-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-the-certification-process-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-get-involved-get-involved-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-products-all-products-chocolate-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-products-all-products-coffee-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-products-all-products-gold-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-child-protection-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-deforestation-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-fairtrade-and-the-sustainable-development-goals-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-hredd-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html",
+            "selector": "main .cmp-container > .accordion"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-workers-rights-html",
+            "selector": "main .cmp-container > .accordion"
+          }
+        ],
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "items[]",
+            "type": "{title,body}",
+            "required": false
+          }
+        ],
+        "pages": 39
+      },
+      {
+        "id": "pageherocarousel",
+        "instances": [
+          {
+            "slug": "at-de-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "be-fr-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "be-nl-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "ca-en-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "ca-fr-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "ch-de-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "ch-fr-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "de-de-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "en-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "ie-en-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "index",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "jp-jp-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "kr-ko-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "maxhavelaarfrance-fr-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "nl-nl-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "pl-pl-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "se-sv-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "us-en-for-business-for-partners-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          },
+          {
+            "slug": "us-en-html",
+            "selector": "main .cmp-container > .pageherocarousel"
+          }
+        ],
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "slides[]",
+            "type": "{title,text,cta",
+            "required": false
+          }
+        ],
+        "pages": 19
+      },
+      {
+        "id": "iframe-experience-fragment",
+        "instances": [
+          {
+            "slug": "at-de-html",
+            "selector": "main .cmp-container > .iframe-experience-fragment"
+          },
+          {
+            "slug": "kr-ko-html",
+            "selector": "main .cmp-container > .iframe-experience-fragment"
+          }
+        ],
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "src",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "pages": 2
+      },
+      {
+        "id": "highlightedTeaserCarousel",
+        "instances": [
+          {
+            "slug": "at-de-html",
+            "selector": "main .cmp-container > .highlightedTeaserCarousel"
+          },
+          {
+            "slug": "ch-de-html",
+            "selector": "main .cmp-container > .highlightedTeaserCarousel"
+          },
+          {
+            "slug": "ch-fr-html",
+            "selector": "main .cmp-container > .highlightedTeaserCarousel"
+          }
+        ],
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "cards[]",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "pages": 3
+      },
+      {
+        "id": "video",
+        "instances": [
+          {
+            "slug": "at-de-html",
+            "selector": "main .cmp-container > .video"
+          },
+          {
+            "slug": "it-it-html",
+            "selector": "main .cmp-container > .video"
+          },
+          {
+            "slug": "uk-en-html",
+            "selector": "main .cmp-container > .video"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-intro-to-fairtrade-html",
+            "selector": "main .cmp-container > .video"
+          },
+          {
+            "slug": "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html",
+            "selector": "main .cmp-container > .video"
+          },
+          {
+            "slug": "us-en-products-all-products-chocolate-html",
+            "selector": "main .cmp-container > .video"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html",
+            "selector": "main .cmp-container > .video"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+            "selector": "main .cmp-container > .video"
+          }
+        ],
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "video",
+            "type": "embed",
+            "required": false
+          },
+          {
+            "name": "caption",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "pages": 8
+      },
+      {
+        "id": "imagegridselect",
+        "instances": [
+          {
+            "slug": "kr-ko-html",
+            "selector": "main .cmp-container > .imagegridselect"
+          },
+          {
+            "slug": "us-en-for-business-for-partners-html",
+            "selector": "main .cmp-container > .imagegridselect"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-get-started-html",
+            "selector": "main .cmp-container > .imagegridselect"
+          },
+          {
+            "slug": "us-en-for-business-get-certified-html",
+            "selector": "main .cmp-container > .imagegridselect"
+          },
+          {
+            "slug": "us-en-get-involved-where-to-buy-html",
+            "selector": "main .cmp-container > .imagegridselect"
+          }
+        ],
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "items[]",
+            "type": "{image,link}",
+            "required": false
+          }
+        ],
+        "pages": 5
+      },
+      {
+        "id": "formbuilder",
+        "instances": [
+          {
+            "slug": "mt-en-bring-fairtrade-to-your-market-html",
+            "selector": "main .cmp-container > .formbuilder"
+          },
+          {
+            "slug": "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+            "selector": "main .cmp-container > .formbuilder"
+          },
+          {
+            "slug": "si-sl-prinesite-fairtrade-na-vas-trg-html",
+            "selector": "main .cmp-container > .formbuilder"
+          }
+        ],
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "fields[]",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "pages": 3
+      },
+      {
+        "id": "singleimage",
+        "instances": [
+          {
+            "slug": "pl-pl-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-about-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-get-involved-how-to-shop-sustainably-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-products-all-products-cocoa-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-products-all-products-coffee-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-products-all-products-cotton-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-products-all-products-fruits-juices-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-products-all-products-gold-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-products-all-products-herbs-spices-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-products-all-products-honey-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-products-all-products-nuts-oils-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-how-fairtrade-works-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-key-benefits-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-child-protection-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html",
+            "selector": "main .cmp-container > .singleimage"
+          },
+          {
+            "slug": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+            "selector": "main .cmp-container > .singleimage"
+          }
+        ],
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "image",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "caption",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "pages": 18
+      },
+      {
+        "id": "iFrame",
+        "instances": [
+          {
+            "slug": "us-en-fairtrade-newsletter-html",
+            "selector": "main .cmp-container > .iFrame"
+          },
+          {
+            "slug": "us-en-for-business-for-retailers-html",
+            "selector": "main .cmp-container > .iFrame"
+          },
+          {
+            "slug": "us-en-get-involved-activism-html",
+            "selector": "main .cmp-container > .iFrame"
+          },
+          {
+            "slug": "us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html",
+            "selector": "main .cmp-container > .iFrame"
+          },
+          {
+            "slug": "us-en-products-all-products-coffee-html",
+            "selector": "main .cmp-container > .iFrame"
+          },
+          {
+            "slug": "us-en-why-fairtrade-impact-key-figures-at-a-glance-html",
+            "selector": "main .cmp-container > .iFrame"
+          },
+          {
+            "slug": "us-en-why-fairtrade-what-we-do-theory-of-change-html",
+            "selector": "main .cmp-container > .iFrame"
+          }
+        ],
+        "status": "candidate",
+        "slots": [
+          {
+            "name": "src",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "pages": 7
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1920px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1920px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1920,
+          "via": "other",
+          "selector": "div.FilteredTeaserGrid > div.TeaserGrid.small > div.TeaserGrid--inner > ul.TeaserGrid--grid",
+          "pages": [
+            "https://www.fairtrade.net/us-en/news.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1920,
+          "via": "other",
+          "selector": "div.cmp-container > div.pageherocarousel.is-visible > div.PageHeroCarousel.theme-leafgreen > div.PageHeroCarousel--grid",
+          "pages": [
+            "https://www.fairtrade.net/",
+            "https://www.fairtrade.net/at-de.html",
+            "https://www.fairtrade.net/us-en/news.html",
+            "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+            "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 612,
+          "via": "max-width",
+          "selector": "div.NumberFactTeaser--slider > ul.NumberFactTeaser--items > li.NumberFactTeaser--item > div.NumberFact.color-flower",
+          "pages": [
+            "https://www.fairtrade.net/",
+            "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+            "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 471,
+          "via": "fixed",
+          "selector": "div.PageLead.theme-skyblue > div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+          "pages": [
+            "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 441,
+          "via": "fixed",
+          "selector": "div.PageHeroSlide--inner > div.PageHeroSlide--content > div.PageHeroSlide--content-inner > p.PageHeroSlide--text",
+          "pages": [
+            "https://www.fairtrade.net/",
+            "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+            "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 418,
+          "via": "fixed",
+          "selector": "#article-What-is-a-cooperative-or-co-op > div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+          "pages": [
+            "https://www.fairtrade.net/us-en/news.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 383,
+          "via": "fixed",
+          "selector": "#article-jede-fuenfte-tafelschokolade-fair > div.InfoTeaser--inner > div.InfoTeaser--tags",
+          "pages": [
+            "https://www.fairtrade.net/at-de.html",
+            "https://www.fairtrade.net/us-en/news.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 351,
+          "via": "fixed",
+          "selector": "#article-cop31 > div.InfoTeaser--inner > div.InfoTeaser--tags",
+          "pages": [
+            "https://www.fairtrade.net/at-de.html",
+            "https://www.fairtrade.net/us-en/news.html",
+            "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+            "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 323,
+          "via": "fixed",
+          "selector": "div.ProductTeaserCarousel--carousel > section.Carousel.theme-leafgreen > ul.Carousel--list > li.Carousel--item.is-visible",
+          "pages": [
+            "https://www.fairtrade.net/at-de.html",
+            "https://www.fairtrade.net/us-en/news.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 290,
+          "via": "fixed",
+          "selector": "div.ProductTeaserCarousel--carousel > section.Carousel.theme-leafgreen > ul.Carousel--list > li.Carousel--item.is-visible",
+          "pages": [
+            "https://www.fairtrade.net/at-de.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 269,
+          "via": "fixed",
+          "selector": "#article-jede-fuenfte-tafelschokolade-fair > div.InfoTeaser--inner > div.InfoTeaser--tags > span.Tag.gray",
+          "pages": [
+            "https://www.fairtrade.net/at-de.html",
+            "https://www.fairtrade.net/us-en/news.html",
+            "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 241,
+          "via": "fixed",
+          "selector": "div.PageHeroSlide--inner > div.PageHeroSlide--content > div.PageHeroSlide--content-inner > h2.PageHeroSlide--title",
+          "pages": [
+            "https://www.fairtrade.net/",
+            "https://www.fairtrade.net/at-de.html",
+            "https://www.fairtrade.net/us-en/news.html"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.fairtrade.net/",
+          "section": 0,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.pageherocarousel.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/",
+          "section": 1,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.numberfactteaser.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/",
+          "section": 2,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/",
+          "section": 3,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/",
+          "section": 4,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/",
+          "section": 5,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.accordion.panelcontainer",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/at-de.html",
+          "section": 0,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.pageherocarousel.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/at-de.html",
+          "section": 1,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/at-de.html",
+          "section": 2,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.teasergrid.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/at-de.html",
+          "section": 3,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.ctasection.is-visible",
+          "px": null
+        },
+        {
+          "url": "https://www.fairtrade.net/at-de.html",
+          "section": 4,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/at-de.html",
+          "section": 5,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.iframe-experience-fragment.is-visible",
+          "px": null
+        },
+        {
+          "url": "https://www.fairtrade.net/at-de.html",
+          "section": 6,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.ctasection.is-visible",
+          "px": 354
+        },
+        {
+          "url": "https://www.fairtrade.net/at-de.html",
+          "section": 7,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.highlightedTeaserCarousel.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/at-de.html",
+          "section": 8,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/at-de.html",
+          "section": 9,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/at-de.html",
+          "section": 10,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/at-de.html",
+          "section": 11,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/at-de.html",
+          "section": 12,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.video.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/at-de.html",
+          "section": 13,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.accordion.panelcontainer",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/news.html",
+          "section": 0,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.page-lead.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/news.html",
+          "section": 1,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.teasergrid.is-visible",
+          "px": 418
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+          "section": 0,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.page-lead.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+          "section": 1,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+          "section": 2,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+          "section": 3,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+          "section": 4,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+          "section": 5,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.numberfactteaser.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+          "section": 6,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.accordion.panelcontainer",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+          "section": 7,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.singleimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+          "section": 8,
+          "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "section": 0,
+          "selector": "#maincontainer-7f80a85dbe > div.page-lead.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "section": 1,
+          "selector": "#maincontainer-7f80a85dbe > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "section": 2,
+          "selector": "#maincontainer-7f80a85dbe > div.numberfactteaser.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "section": 3,
+          "selector": "#maincontainer-7f80a85dbe > div.ctasection.is-visible",
+          "px": null
+        },
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "section": 4,
+          "selector": "#maincontainer-7f80a85dbe > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "section": 5,
+          "selector": "#maincontainer-7f80a85dbe > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "section": 6,
+          "selector": "#maincontainer-7f80a85dbe > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "section": 7,
+          "selector": "#maincontainer-7f80a85dbe > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "section": 8,
+          "selector": "#maincontainer-7f80a85dbe > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "section": 9,
+          "selector": "#maincontainer-7f80a85dbe > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "section": 10,
+          "selector": "#maincontainer-7f80a85dbe > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "section": 11,
+          "selector": "#maincontainer-7f80a85dbe > div.textimage.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "section": 12,
+          "selector": "#maincontainer-7f80a85dbe > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "section": 13,
+          "selector": "#maincontainer-7f80a85dbe > div.richtextsection.is-visible",
+          "px": 1920
+        },
+        {
+          "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+          "section": 14,
+          "selector": "#maincontainer-7f80a85dbe > div.formbuilder.container",
+          "px": 1920
+        }
+      ],
+      "capRegister": [
+        "shellMaxWidth differs between archetypes: fluid (https://www.fairtrade.net/), fluid (https://www.fairtrade.net/at-de.html), 1920 (https://www.fairtrade.net/us-en/news.html), fluid (https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html), fluid (https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html)",
+        "module cap 418px on a single section (#article-What-is-a-cooperative-or-co-op > div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header, https://www.fairtrade.net/us-en/news.html) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-13T21:51:19.254Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.fairtrade.net/",
+          "https://www.fairtrade.net/at-de.html",
+          "https://www.fairtrade.net/us-en/news.html",
+          "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+          "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html"
+        ]
+      }
+    },
+    "shadow": "0 4px 8px rgba(30,30,30,.1)"
+  }
+}

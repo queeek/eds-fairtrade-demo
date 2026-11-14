@@ -1,0 +1,76 @@
+{
+  "a": "stardust/replica/gates/all-360/us-en-products-all-products-nuts-oils-html/origin.png",
+  "b": "stardust/replica/gates/all-360/us-en-products-all-products-nuts-oils-html/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 4732,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 1042,
+  "pct": 0.06,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/us-en-products-all-products-nuts-oils-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0.02,
+  "textBoxes": 104,
+  "textPixels": 497606,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.1
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0
+    },
+    {
+      "y0": 4500,
+      "y1": 4732,
+      "pct": 0
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/nuts-oils"
+  }
+}

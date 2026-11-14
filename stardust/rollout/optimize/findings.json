@@ -1,0 +1,4335 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/optimize",
+    "writtenAt": "2026-11-14T12:05:43.641Z",
+    "stardustVersion": "0.0.0"
+  },
+  "runs": [
+    {
+      "id": "run-1",
+      "at": "2026-11-14T12:01:11.749Z",
+      "scopePages": [
+        "africa-en-html",
+        "at-de-html",
+        "be-fr-html",
+        "be-nl-html",
+        "ca-en-html",
+        "ca-fr-html",
+        "ch-de-html",
+        "ch-fr-html",
+        "de-de-html",
+        "en-html",
+        "iberica-es-html",
+        "iberica-pt-html",
+        "ie-en-html",
+        "index",
+        "it-it-html",
+        "jp-jp-html",
+        "kr-ko-html",
+        "maxhavelaarfrance-fr-html",
+        "mt-en-bring-fairtrade-to-your-market-html",
+        "napp-en-html",
+        "nl-nl-html",
+        "no-no-html",
+        "pl-pl-html",
+        "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+        "se-sv-html",
+        "si-sl-prinesite-fairtrade-na-vas-trg-html",
+        "uk-en-html",
+        "us-en-about-careers-html",
+        "us-en-about-html",
+        "us-en-contact-html",
+        "us-en-fairtrade-newsletter-html",
+        "us-en-for-business-benefits-of-being-certified-benefits-for-business-html",
+        "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+        "us-en-for-business-benefits-of-being-certified-business-success-stories-html",
+        "us-en-for-business-benefits-of-being-certified-consumer-trends1-html",
+        "us-en-for-business-benefits-of-being-certified-html",
+        "us-en-for-business-for-partners-communicate-your-commitment-html",
+        "us-en-for-business-for-partners-html",
+        "us-en-for-business-for-retailers-html",
+        "us-en-for-business-get-certified-get-started-html",
+        "us-en-for-business-get-certified-html",
+        "us-en-for-business-get-certified-intro-to-fairtrade-html",
+        "us-en-for-business-get-certified-resources-support-html",
+        "us-en-for-business-get-certified-the-certification-process-html",
+        "us-en-for-business-html",
+        "us-en-for-media-html",
+        "us-en-get-involved-activism-html",
+        "us-en-get-involved-get-involved-html",
+        "us-en-get-involved-how-to-shop-sustainably-html",
+        "us-en-get-involved-where-to-buy-html",
+        "us-en-html",
+        "us-en-news-html",
+        "us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html",
+        "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html",
+        "us-en-privacy-policy-html",
+        "us-en-products-all-products-bananas-html",
+        "us-en-products-all-products-chocolate-html",
+        "us-en-products-all-products-cocoa-html",
+        "us-en-products-all-products-coffee-html",
+        "us-en-products-all-products-cotton-html",
+        "us-en-products-all-products-fruits-juices-html",
+        "us-en-products-all-products-gold-html",
+        "us-en-products-all-products-herbs-spices-html",
+        "us-en-products-all-products-honey-html",
+        "us-en-products-all-products-html",
+        "us-en-products-all-products-nuts-oils-html",
+        "us-en-products-all-products-sugar-html",
+        "us-en-products-all-products-wine-html",
+        "us-en-products-html",
+        "us-en-terms-of-use-html",
+        "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance-html",
+        "us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html",
+        "us-en-why-fairtrade-how-we-do-it-fairtrade-standards-html",
+        "us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html",
+        "us-en-why-fairtrade-how-we-do-it-how-fairtrade-certification-works-html",
+        "us-en-why-fairtrade-how-we-do-it-html",
+        "us-en-why-fairtrade-how-we-do-it-our-projects-and-programs-html",
+        "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html",
+        "us-en-why-fairtrade-html",
+        "us-en-why-fairtrade-impact-how-we-measure-impact-html",
+        "us-en-why-fairtrade-impact-html",
+        "us-en-why-fairtrade-impact-impact-stories-html",
+        "us-en-why-fairtrade-impact-key-figures-at-a-glance-html",
+        "us-en-why-fairtrade-impact-reports-trends-html",
+        "us-en-why-fairtrade-what-we-do-how-fairtrade-works-html",
+        "us-en-why-fairtrade-what-we-do-html",
+        "us-en-why-fairtrade-what-we-do-key-benefits-html",
+        "us-en-why-fairtrade-what-we-do-the-fairtrade-difference-html",
+        "us-en-why-fairtrade-what-we-do-theory-of-change-html",
+        "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+        "us-en-why-fairtrade-why-we-do-it-child-protection-html",
+        "us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html",
+        "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html",
+        "us-en-why-fairtrade-why-we-do-it-deforestation-html",
+        "us-en-why-fairtrade-why-we-do-it-fairtrade-and-the-sustainable-development-goals-html",
+        "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+        "us-en-why-fairtrade-why-we-do-it-hredd-html",
+        "us-en-why-fairtrade-why-we-do-it-html",
+        "us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html",
+        "us-en-why-fairtrade-why-we-do-it-workers-rights-html"
+      ],
+      "layersRun": [
+        "accessibility",
+        "seo",
+        "ai-search",
+        "cross-page"
+      ],
+      "trigger": "deliver",
+      "source": "https://main--63f9f24b--aemcoder.aem.live"
+    },
+    {
+      "id": "run-2",
+      "at": "2026-11-14T12:05:43.641Z",
+      "scopePages": [
+        "africa-en-html",
+        "at-de-html",
+        "be-fr-html",
+        "be-nl-html",
+        "ca-en-html",
+        "ca-fr-html",
+        "ch-de-html",
+        "ch-fr-html",
+        "de-de-html",
+        "en-html",
+        "iberica-es-html",
+        "iberica-pt-html",
+        "ie-en-html",
+        "index",
+        "it-it-html",
+        "jp-jp-html",
+        "kr-ko-html",
+        "maxhavelaarfrance-fr-html",
+        "mt-en-bring-fairtrade-to-your-market-html",
+        "napp-en-html",
+        "nl-nl-html",
+        "no-no-html",
+        "pl-pl-html",
+        "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+        "se-sv-html",
+        "si-sl-prinesite-fairtrade-na-vas-trg-html",
+        "uk-en-html",
+        "us-en-about-careers-html",
+        "us-en-about-html",
+        "us-en-contact-html",
+        "us-en-fairtrade-newsletter-html",
+        "us-en-for-business-benefits-of-being-certified-benefits-for-business-html",
+        "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+        "us-en-for-business-benefits-of-being-certified-business-success-stories-html",
+        "us-en-for-business-benefits-of-being-certified-consumer-trends1-html",
+        "us-en-for-business-benefits-of-being-certified-html",
+        "us-en-for-business-for-partners-communicate-your-commitment-html",
+        "us-en-for-business-for-partners-html",
+        "us-en-for-business-for-retailers-html",
+        "us-en-for-business-get-certified-get-started-html",
+        "us-en-for-business-get-certified-html",
+        "us-en-for-business-get-certified-intro-to-fairtrade-html",
+        "us-en-for-business-get-certified-resources-support-html",
+        "us-en-for-business-get-certified-the-certification-process-html",
+        "us-en-for-business-html",
+        "us-en-for-media-html",
+        "us-en-get-involved-activism-html",
+        "us-en-get-involved-get-involved-html",
+        "us-en-get-involved-how-to-shop-sustainably-html",
+        "us-en-get-involved-where-to-buy-html",
+        "us-en-html",
+        "us-en-news-html",
+        "us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html",
+        "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html",
+        "us-en-privacy-policy-html",
+        "us-en-products-all-products-bananas-html",
+        "us-en-products-all-products-chocolate-html",
+        "us-en-products-all-products-cocoa-html",
+        "us-en-products-all-products-coffee-html",
+        "us-en-products-all-products-cotton-html",
+        "us-en-products-all-products-fruits-juices-html",
+        "us-en-products-all-products-gold-html",
+        "us-en-products-all-products-herbs-spices-html",
+        "us-en-products-all-products-honey-html",
+        "us-en-products-all-products-html",
+        "us-en-products-all-products-nuts-oils-html",
+        "us-en-products-all-products-sugar-html",
+        "us-en-products-all-products-wine-html",
+        "us-en-products-html",
+        "us-en-terms-of-use-html",
+        "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance-html",
+        "us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html",
+        "us-en-why-fairtrade-how-we-do-it-fairtrade-standards-html",
+        "us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html",
+        "us-en-why-fairtrade-how-we-do-it-how-fairtrade-certification-works-html",
+        "us-en-why-fairtrade-how-we-do-it-html",
+        "us-en-why-fairtrade-how-we-do-it-our-projects-and-programs-html",
+        "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html",
+        "us-en-why-fairtrade-html",
+        "us-en-why-fairtrade-impact-how-we-measure-impact-html",
+        "us-en-why-fairtrade-impact-html",
+        "us-en-why-fairtrade-impact-impact-stories-html",
+        "us-en-why-fairtrade-impact-key-figures-at-a-glance-html",
+        "us-en-why-fairtrade-impact-reports-trends-html",
+        "us-en-why-fairtrade-what-we-do-how-fairtrade-works-html",
+        "us-en-why-fairtrade-what-we-do-html",
+        "us-en-why-fairtrade-what-we-do-key-benefits-html",
+        "us-en-why-fairtrade-what-we-do-the-fairtrade-difference-html",
+        "us-en-why-fairtrade-what-we-do-theory-of-change-html",
+        "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+        "us-en-why-fairtrade-why-we-do-it-child-protection-html",
+        "us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html",
+        "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html",
+        "us-en-why-fairtrade-why-we-do-it-deforestation-html",
+        "us-en-why-fairtrade-why-we-do-it-fairtrade-and-the-sustainable-development-goals-html",
+        "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+        "us-en-why-fairtrade-why-we-do-it-hredd-html",
+        "us-en-why-fairtrade-why-we-do-it-html",
+        "us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html",
+        "us-en-why-fairtrade-why-we-do-it-workers-rights-html"
+      ],
+      "layersRun": [
+        "accessibility",
+        "seo",
+        "ai-search",
+        "cross-page"
+      ],
+      "trigger": "deliver",
+      "source": "https://main--63f9f24b--aemcoder.aem.live"
+    }
+  ],
+  "findings": [
+    {
+      "id": "f-02004d4b33",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-02e4617872",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-fairtrade-newsletter-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-05099c9768",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-why-we-do-it-fairtrade-and-the-sustainable-development-goals-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-06b268c86f",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "ie-en-html"
+        ]
+      },
+      "evidence": "source parity: no JSON-LD structured data — the source page has no JSON-LD either",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-07f3b4b6dc",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-get-involved-activism-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-096c02f636",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-09cd8a2774",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-chocolate-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-0a2a6b1fb6",
+      "source": "rollout:baseline",
+      "layer": "cross-page",
+      "check": "duplicate-title",
+      "severity": "P2",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "be-fr-html",
+          "be-nl-html"
+        ]
+      },
+      "evidence": "source parity: 2 pages share <title> \"Fairtrade Belgium\" — the source shares this title across the same pages",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-0ab4719316",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-what-we-do-how-fairtrade-works-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-0d47974046",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "jp-jp-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-11904a3ad0",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-1378f4fc0d",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-for-business-for-partners-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-156d6efbdf",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-why-we-do-it-workers-rights-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-1aface6a63",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-gold-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-2104289fe6",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-cocoa-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-217e2af3a6",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-impact-reports-trends-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-24c593ca7c",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "si-sl-prinesite-fairtrade-na-vas-trg-html"
+        ]
+      },
+      "evidence": "source parity: no JSON-LD structured data — the source page has no JSON-LD either",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-28c30f1bcc",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-get-involved-get-involved-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-2c400375f1",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-35d9e83fbd",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-39f99679fb",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-3c79183733",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "nl-nl-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-410b6e933a",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "maxhavelaarfrance-fr-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-49e37e78b6",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "ca-en-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-4b32cf5dbc",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "de-de-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-4d3df7a287",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-for-business-for-partners-communicate-your-commitment-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-4dfbf6f4f4",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-fruits-juices-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-52b6360cc6",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "napp-en-html"
+        ]
+      },
+      "evidence": "source parity: no JSON-LD structured data — the source page has no JSON-LD either",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-54583f70b8",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-honey-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-54be5a397f",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "index"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-5546df018e",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-get-involved-how-to-shop-sustainably-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-566898e4f8",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-594b77cd72",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "mt-en-bring-fairtrade-to-your-market-html"
+        ]
+      },
+      "evidence": "source parity: no JSON-LD structured data — the source page has no JSON-LD either",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-59508a503e",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "be-fr-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-5ddcfc9842",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-why-we-do-it-deforestation-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-5e96c5e695",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-coffee-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-6165ff5bbe",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "ch-de-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-64bc2f92bb",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-for-business-for-retailers-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-64f2801377",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-what-we-do-key-benefits-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-6657b6e269",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-for-business-benefits-of-being-certified-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-6a00ae1fe0",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "be-nl-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-6a4385b6cd",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-sugar-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-6a69277b45",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-impact-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-6d496eccd3",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "at-de-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-6ea36409b6",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-for-media-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-71fa7061e0",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-for-business-benefits-of-being-certified-benefits-for-business-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-751be4a858",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-privacy-policy-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-7553063473",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-contact-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-7591b97ddd",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-for-business-get-certified-get-started-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-76a648ffa5",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-why-we-do-it-child-protection-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-76da090d69",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-news-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-78aafde7b9",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-7b66b42fa0",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "pl-pl-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-8214fa905c",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-herbs-spices-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-8223c2c039",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-how-we-do-it-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-830299c201",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-why-we-do-it-hredd-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-83618cfe27",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "en-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-83869a8952",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-impact-impact-stories-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-8b9ad1a6c9",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-get-involved-where-to-buy-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-8bc78c4280",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-8f5fe56fb0",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-for-business-benefits-of-being-certified-business-success-stories-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-8f7666749e",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-90f391389c",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-for-business-get-certified-intro-to-fairtrade-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-91b1b63b73",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-impact-how-we-measure-impact-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-91f5fc22cb",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-94285cbca6",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "uk-en-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-9af54d196b",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-for-business-get-certified-resources-support-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-9d0c4065cb",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-for-business-benefits-of-being-certified-consumer-trends1-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-9faba2b017",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-terms-of-use-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-ae3e77a42a",
+      "source": "rollout:baseline",
+      "layer": "cross-page",
+      "check": "duplicate-title",
+      "severity": "P2",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "index",
+          "us-en-html"
+        ]
+      },
+      "evidence": "source parity: 2 pages share <title> \"Fairtrade America - the Future is Fair\" — the source shares this title across the same pages",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-ae506f57c6",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-about-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-aee6af703b",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "africa-en-html"
+        ]
+      },
+      "evidence": "source parity: no JSON-LD structured data — the source page has no JSON-LD either",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-afd465becd",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "kr-ko-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-b102f53f46",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-nuts-oils-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-b4685f59f6",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-cotton-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-b68e4651e3",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-bananas-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-b8d7eae35b",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-how-we-do-it-fairtrade-standards-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-bb7f81eec2",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-about-careers-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-bd70f79334",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-what-we-do-the-fairtrade-difference-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-bdd90eb97c",
+      "source": "rollout:baseline",
+      "layer": "cross-page",
+      "check": "duplicate-title",
+      "severity": "P2",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "africa-en-html",
+          "en-html",
+          "napp-en-html"
+        ]
+      },
+      "evidence": "source parity: 3 pages share <title> \"English\" — the source shares this title across the same pages",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-c3a3994ac9",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-impact-key-figures-at-a-glance-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-c7516433e9",
+      "source": "rollout:baseline",
+      "layer": "cross-page",
+      "check": "duplicate-title",
+      "severity": "P2",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-html",
+          "us-en-products-html"
+        ]
+      },
+      "evidence": "source parity: 2 pages share <title> \"Fairtrade products\" — the source shares this title across the same pages",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-c9991caf33",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-cb8f0e30c2",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-wine-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-ce33448fd2",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "no-no-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-cf278529b8",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-why-we-do-it-gender-equality-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-d16b4729b6",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-how-we-do-it-our-projects-and-programs-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-d540804187",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "ch-fr-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-db6b417cbc",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "it-it-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-dd4e9e7d09",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-for-business-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-e29bdd1dd0",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "iberica-es-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-e4fc14fc13",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-e8f7b6a697",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-eda11003e0",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-how-we-do-it-how-fairtrade-certification-works-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-ef426fec07",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "ca-fr-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-f01fa23b10",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "iberica-pt-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-f180dd233c",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-f22530bc02",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-for-business-get-certified-the-certification-process-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-f4b04550d0",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "se-sv-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-f5461cdd3a",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-why-we-do-it-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-f6817d1bd9",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-for-business-get-certified-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-fa08bd5c19",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-what-we-do-theory-of-change-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-fc354bc09f",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "platform-migration",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-what-we-do-html"
+        ]
+      },
+      "evidence": "no JSON-LD structured data",
+      "recommendedMove": "Emit page-type JSON-LD in the head (metadata-and-jsonld).",
+      "autofix": {
+        "available": true,
+        "target": "aem-eds",
+        "strategy": "eds-jsonld",
+        "kind": "manual",
+        "status": "pending",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "fixed",
+      "firstSeenRun": "run-1",
+      "resolvedBy": {
+        "phase": "deploy",
+        "at": "2026-11-14T12:05:43.641Z",
+        "note": "no longer detected on delivered page"
+      }
+    },
+    {
+      "id": "f-ff4edff9c9",
+      "source": "rollout:baseline",
+      "layer": "ai-search",
+      "check": "jsonld",
+      "severity": "P2",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html"
+        ]
+      },
+      "evidence": "source parity: no JSON-LD structured data — the source page has no JSON-LD either",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-02f6944227",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-about-careers-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 7 chars (\"Careers\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-08215e2268",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-coffee-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 6 chars (\"Coffee\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-1568b34eb0",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-news-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 4 chars (\"News\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-15d2613eda",
+      "source": "rollout:baseline",
+      "layer": "cross-page",
+      "check": "duplicate-description",
+      "severity": "P3",
+      "fixability": "design-pass",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-html",
+          "us-en-products-html"
+        ]
+      },
+      "evidence": "2 pages share a meta description",
+      "recommendedMove": "Write per-page descriptions upstream.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-1f1e4a9ab0",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-cocoa-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 5 chars (\"Cocoa\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-2b310a4dbb",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-sugar-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 5 chars (\"Sugar\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-3274538d33",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-impact-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 6 chars (\"Impact\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-340edc1772",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-get-involved-activism-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 8 chars (\"Activism\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-3893539a60",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-honey-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 5 chars (\"Honey\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-40002712ee",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-contact-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 7 chars (\"Contact\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-5a8b3590a3",
+      "source": "rollout:baseline",
+      "layer": "cross-page",
+      "check": "duplicate-description",
+      "severity": "P3",
+      "fixability": "design-pass",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-html",
+          "us-en-why-fairtrade-what-we-do-html"
+        ]
+      },
+      "evidence": "2 pages share a meta description",
+      "recommendedMove": "Write per-page descriptions upstream.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-858e17a1ad",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-for-media-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 9 chars (\"For Media\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-869d63db48",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-chocolate-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 9 chars (\"Chocolate\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-881ef5cb89",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "africa-en-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 7 chars (\"English\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-9111d5fffc",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-bananas-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 7 chars (\"Bananas\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-988b80e9fb",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-gold-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 4 chars (\"Gold\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-a246947d72",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-about-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 5 chars (\"About\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-ad90355178",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-wine-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 4 chars (\"Wine\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-b20cb1bb91",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "napp-en-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 7 chars (\"English\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-c13f1e2f4d",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 73 chars (\"Silence isn’t a strategy: Why “greenshou\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-d00c3ad9cd",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-why-fairtrade-why-we-do-it-hredd-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 5 chars (\"HREDD\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-d65b49e341",
+      "source": "rollout:baseline",
+      "layer": "cross-page",
+      "check": "duplicate-description",
+      "severity": "P3",
+      "fixability": "design-pass",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "index",
+          "us-en-html"
+        ]
+      },
+      "evidence": "2 pages share a meta description",
+      "recommendedMove": "Write per-page descriptions upstream.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": null
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-f480aa6658",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "en-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 7 chars (\"English\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    },
+    {
+      "id": "f-f82d40f16c",
+      "source": "rollout:baseline",
+      "layer": "seo",
+      "check": "title-length",
+      "severity": "P3",
+      "fixability": "out-of-scope",
+      "scope": {
+        "level": "page",
+        "ids": [
+          "us-en-products-all-products-cotton-html"
+        ]
+      },
+      "evidence": "source parity: <title> is 6 chars (\"Cotton\") — the source page carries the same <title>",
+      "recommendedMove": "Mirrors the source capture — informational, not scored, no rollout action; change it on the source (or record a content decision) if wanted.",
+      "autofix": {
+        "available": false,
+        "target": "aem-eds",
+        "strategy": null,
+        "kind": null,
+        "status": "unavailable",
+        "appliedBy": null,
+        "at": null,
+        "detail": "source parity — a faithful migration is not auto-rewritten"
+      },
+      "status": "open",
+      "firstSeenRun": "run-1",
+      "resolvedBy": null
+    }
+  ]
+}

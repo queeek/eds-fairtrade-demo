@@ -1,0 +1,4369 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T10:36:52.292Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/se-sv.html",
+  "at": "2026-11-14T10:36:27.982Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7649,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/se-sv.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 83,
+    "text": "",
+    "file": "Fairtrade-Sverige-30-a%CC%8Ar_logotyp_RG"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 106,
+    "h": 104,
+    "text": "om fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 106,
+    "h": 104,
+    "label": "trigger",
+    "value": "om fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 330,
+    "y": 0,
+    "w": 82,
+    "h": 104,
+    "text": "produkter"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 330,
+    "y": 0,
+    "w": 82,
+    "h": 104,
+    "label": "trigger",
+    "value": "produkter",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 459,
+    "y": 0,
+    "w": 61,
+    "h": 104,
+    "text": "företag"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 459,
+    "y": 0,
+    "w": 61,
+    "h": 104,
+    "label": "trigger",
+    "value": "företag",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 568,
+    "y": 0,
+    "w": 146,
+    "h": 104,
+    "text": "kommun & region"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 568,
+    "y": 0,
+    "w": 146,
+    "h": 104,
+    "label": "trigger",
+    "value": "kommun & region",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 762,
+    "y": 0,
+    "w": 106,
+    "h": 104,
+    "text": "engagemang"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 762,
+    "y": 0,
+    "w": 106,
+    "h": 104,
+    "label": "trigger",
+    "value": "engagemang",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1132,
+    "y": 40,
+    "w": 56,
+    "h": 24,
+    "text": "sök"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1132,
+    "y": 40,
+    "w": 56,
+    "h": 24,
+    "label": "trigger",
+    "value": "sök",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1212,
+    "y": 40,
+    "w": 79,
+    "h": 24,
+    "text": "se • sv"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1212,
+    "y": 40,
+    "w": 79,
+    "h": 24,
+    "label": "trigger",
+    "value": "se • sv",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1315,
+    "y": 40,
+    "w": 77,
+    "h": 24,
+    "text": "öppna"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1315,
+    "y": 40,
+    "w": 77,
+    "h": 24,
+    "label": "trigger",
+    "value": "öppna",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroSlide--media > div.Image.landscape > img.lazyautosizes.lazyloaded",
+    "x": -428,
+    "y": 184,
+    "w": 558,
+    "h": 328,
+    "text": "kvinnlig kakaoodlare står mitt bland kaffebuskar",
+    "file": "21x9_1280w"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroSlide--media > div.Image.landscape > img.lazyautosizes.ls-is-cached",
+    "x": 162,
+    "y": 184,
+    "w": 1116,
+    "h": 657,
+    "text": "odlare på väg bort på torrt quinoafält",
+    "file": "21x9_1280w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroSlide--content > div.PageHeroSlide--content-inner > h2.PageHeroSlide--title",
+    "x": 210,
+    "y": 429,
+    "w": 612,
+    "h": 141,
+    "level": 2,
+    "text": "odlare kämpar mot historisk el niño"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroSlide--content > div.PageHeroSlide--content-inner > p.PageHeroSlide--text",
+    "x": 210,
+    "y": 593,
+    "w": 612,
+    "h": 86,
+    "text": "Odlare står inför den tuffaste El Niño någonsin på grund av klimatförändringarna"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroSlide--content > div.PageHeroSlide--content-inner > a.Button.PageHeroSlide--button",
+    "x": 210,
+    "y": 704,
+    "w": 135,
+    "h": 60,
+    "text": "läs mer",
+    "href": "/se-sv/aktuellt/varldsledare-mots-pa-cop31-odlare-kampar-mot-el-nino.html"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroSlide--media > div.Image.landscape > img.lazyautosizes.lazyloaded",
+    "x": 1310,
+    "y": 184,
+    "w": 558,
+    "h": 328,
+    "text": "12 av garants nya fairtrade-teer",
+    "file": "21x9_1280w"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroCarousel--carousel.swiper > div.PageHeroCarousel--controls > button.Button.PageHeroCarousel--control-previous",
+    "x": 66,
+    "y": 492,
+    "w": 48,
+    "h": 48,
+    "text": ""
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroCarousel--carousel.swiper > div.PageHeroCarousel--controls > button.Button.PageHeroCarousel--control-next",
+    "x": 1326,
+    "y": 492,
+    "w": 48,
+    "h": 48,
+    "text": ""
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 162,
+    "y": 1098,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "30 år med fairtrade sverige"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 162,
+    "y": 1174,
+    "w": 538,
+    "h": 202,
+    "text": "Tre decennier har passerat sedan Fairtrade Sverige såg dagens ljus under namnet "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 162,
+    "y": 1408,
+    "w": 250,
+    "h": 48,
+    "text": "till jubileumsskriften",
+    "href": "/content/dam/fairtrade/fairtrade-sweden/rapporter/Fairtrade_Sverige_30_skrift.pdf"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 740,
+    "y": 1008,
+    "w": 538,
+    "h": 538,
+    "text": "bild på jubileumsskiftens framsida med flera foton på konsum",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--number",
+    "x": 193,
+    "y": 1894,
+    "w": 484,
+    "h": 119,
+    "text": "90%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--fact",
+    "x": 193,
+    "y": 2058,
+    "w": 484,
+    "h": 70,
+    "text": "av svenskarna känner till Fairtrade-märket"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--number",
+    "x": 191,
+    "y": 2583,
+    "w": 488,
+    "h": 238,
+    "text": "1,9 miljoner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--fact",
+    "x": 191,
+    "y": 2866,
+    "w": 488,
+    "h": 35,
+    "text": "odlare och anställda i 68 länder"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--number",
+    "x": 191,
+    "y": 3279,
+    "w": 488,
+    "h": 238,
+    "text": "58 miljoner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--fact",
+    "x": 191,
+    "y": 3562,
+    "w": 488,
+    "h": 106,
+    "text": "kronor i Fairtrade-premie genererade konsumtionen av Fairtrade-märkt i Sverige 2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > strong.NumberFactTeaser--label",
+    "x": 862,
+    "y": 1753,
+    "w": 111,
+    "h": 29,
+    "text": "Om Fairtrade"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > h2.NumberFactTeaser--title",
+    "x": 862,
+    "y": 1806,
+    "w": 405,
+    "h": 158,
+    "level": 2,
+    "text": "världens mest kända etiska märkning"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > p.NumberFactTeaser--text",
+    "x": 862,
+    "y": 1989,
+    "w": 405,
+    "h": 202,
+    "text": "Fairtrade är världens mest kända hållbarhetsmärkning för en mer rättvis handel. "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > a.Button.NumberFactTeaser--cta",
+    "x": 862,
+    "y": 2222,
+    "w": 215,
+    "h": 48,
+    "text": "mer om fairtrade",
+    "href": "/se-sv/om-fairtrade/det-har-ar-fairtrade.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h2",
+    "x": 390,
+    "y": 3899,
+    "w": 660,
+    "h": 53,
+    "level": 2,
+    "text": "aktuellt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-varldsledare-mots-pa-cop31-odlare-kampar-mot-el-nino",
+    "x": 48,
+    "y": 4072,
+    "w": 421,
+    "h": 512,
+    "text": "09.11.26 aktuellt världsledare möts på cop31 – odlare kämpar mot historisk el ni",
+    "href": "/se-sv/aktuellt/varldsledare-mots-pa-cop31-odlare-kampar-mot-el-nino.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached",
+    "x": 49,
+    "y": 4073,
+    "w": 419,
+    "h": 314,
+    "text": "odlare på väg bort från kameran på ett torrt quinoafält",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 4404,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "aktuellt världsledare möts på cop31 – odlare kämpar mot historisk el niño"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-14-nya-fairtrade-teer-pa-den-svenska-marknaden",
+    "x": 509,
+    "y": 4072,
+    "w": 421,
+    "h": 477,
+    "text": "05.11.26 aktuellt 14 nya fairtrade-teer på den svenska marknaden läs mer",
+    "href": "/se-sv/aktuellt/14-nya-fairtrade-teer-pa-den-svenska-marknaden.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached",
+    "x": 510,
+    "y": 4073,
+    "w": 419,
+    "h": 314,
+    "text": "9 av de olika smakerna på fairtrade-te från garant",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 4404,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "aktuellt 14 nya fairtrade-teer på den svenska marknaden"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-projekt-uppmuntrar-butikspersonal-till-hallbarhet",
+    "x": 971,
+    "y": 4072,
+    "w": 421,
+    "h": 512,
+    "text": "03.11.26 aktuellt pilotprojekt ska utmana butikspersonal att verka för hållbarhe",
+    "href": "/se-sv/aktuellt/projekt-uppmuntrar-butikspersonal-till-hallbarhet.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached",
+    "x": 972,
+    "y": 4073,
+    "w": 419,
+    "h": 315,
+    "text": "kvinnlig konsument i butikmiljö",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 4404,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "aktuellt pilotprojekt ska utmana butikspersonal att verka för hållbarhet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-hoejt-minimipris-staerker-kakaoodlare-i-elfenbenskusten",
+    "x": 48,
+    "y": 4636,
+    "w": 421,
+    "h": 477,
+    "text": "23.09.26 aktuellt höjt minimipris stärker kakaoodlare i elfenbenskusten läs mer",
+    "href": "/se-sv/aktuellt/hoejt-minimipris-staerker-kakaoodlare-i-elfenbenskusten.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 4637,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 4968,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "aktuellt höjt minimipris stärker kakaoodlare i elfenbenskusten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-langt-kvar-till-levnadslon-pa-vingardar-i-sydafrika",
+    "x": 509,
+    "y": 4636,
+    "w": 421,
+    "h": 512,
+    "text": "22.09.26 aktuellt långt kvar till levnadslön på vingårdar i sydafrika, visar ny ",
+    "href": "/se-sv/aktuellt/langt-kvar-till-levnadslon-pa-vingardar-i-sydafrika.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 510,
+    "y": 4637,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 4968,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "aktuellt långt kvar till levnadslön på vingårdar i sydafrika, visar ny rapport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-naer-svenska-barn-boerjar-skolan-tvingas-miljoner-andra-till-bar",
+    "x": 971,
+    "y": 4636,
+    "w": 421,
+    "h": 512,
+    "text": "25.08.26 aktuellt när svenska barn börjar skolan tvingas miljoner andra till bar",
+    "href": "/se-sv/aktuellt/naer-svenska-barn-boerjar-skolan-tvingas-miljoner-andra-till-bar.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 972,
+    "y": 4637,
+    "w": 419,
+    "h": 315,
+    "text": "lärare och barn i ett klassrum",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 4968,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "aktuellt när svenska barn börjar skolan tvingas miljoner andra till barnarbete"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ctasection.is-visible > div.CTASection > a.Button.variant-primary",
+    "x": 625,
+    "y": 5280,
+    "w": 191,
+    "h": 60,
+    "text": "se fler artiklar",
+    "href": "/se-sv/aktuellt.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 162,
+    "y": 5460,
+    "w": 538,
+    "h": 264,
+    "level": 2,
+    "text": "rapport: mer än bara överleva – mot levnadslöner och levnadsinkomster i globala leverantörsled"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 162,
+    "y": 5748,
+    "w": 538,
+    "h": 259,
+    "text": "Anställda i globala leverantörsled för riskråvaror som kaffe, te, bananer, bomul"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 162,
+    "y": 6039,
+    "w": 188,
+    "h": 48,
+    "text": "läs rapporten",
+    "href": "/se-sv/om-fairtrade/sa-gor-vi-skillnad/vara-rapporter/mer-an-bara-overleva.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.ls-is-cached",
+    "x": 740,
+    "y": 5504,
+    "w": 538,
+    "h": 538,
+    "text": "kvinnlig bananodlare som tvättar klasar bananer",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 740,
+    "y": 6548,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "välj fairtrade på jobbet"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 740,
+    "y": 6625,
+    "w": 538,
+    "h": 115,
+    "text": "Gör skillnad på jobbet, en kopp i taget. Tillsammans med kollegorna i fikarummet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 740,
+    "y": 6772,
+    "w": 135,
+    "h": 48,
+    "text": "läs mer",
+    "href": "/se-sv/engagemang/engagera-dig/fairtrade-pa-jobbet.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 162,
+    "y": 6415,
+    "w": 538,
+    "h": 538,
+    "text": "fairtrade på jobbet-logotyp med kaffe som hälls upp i bakgru",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1313,
+    "y": 7209,
+    "w": 79,
+    "h": 24,
+    "text": "se • sv"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1313,
+    "y": 7209,
+    "w": 79,
+    "h": 24,
+    "label": "trigger",
+    "value": "se • sv",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > span",
+    "x": 48,
+    "y": 7298,
+    "w": 70,
+    "h": 24,
+    "text": "Om oss"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 7345,
+    "w": 152,
+    "h": 26,
+    "text": "om fairtrade sverige",
+    "href": "/se-sv/om-fairtrade/det-har-ar-fairtrade/fairtrade-sverige.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 7394,
+    "w": 57,
+    "h": 26,
+    "text": "aktuellt",
+    "href": "/se-sv/aktuellt.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 7444,
+    "w": 57,
+    "h": 26,
+    "text": "kontakt",
+    "href": "/se-sv/kontakt.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 7494,
+    "w": 70,
+    "h": 26,
+    "text": "pressrum",
+    "href": "/se-sv/kontakt/pressrum.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 7543,
+    "w": 117,
+    "h": 26,
+    "text": "jobb och praktik",
+    "href": "/se-sv/jobb-och-praktik.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > span",
+    "x": 390,
+    "y": 7298,
+    "w": 88,
+    "h": 24,
+    "text": "Resurser"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 7345,
+    "w": 69,
+    "h": 26,
+    "text": "webbutik",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 7394,
+    "w": 113,
+    "h": 26,
+    "text": "frågor och svar",
+    "href": "/se-sv/fragor-och-svar.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 7444,
+    "w": 120,
+    "h": 26,
+    "text": "integritetspolicy",
+    "href": "/se-sv/integritetspolicy.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 7494,
+    "w": 106,
+    "h": 26,
+    "text": "visselblåsning",
+    "href": "/se-sv/visselblasning.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > span",
+    "x": 732,
+    "y": 7298,
+    "w": 83,
+    "h": 24,
+    "text": "Stöd oss"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 7345,
+    "w": 181,
+    "h": 26,
+    "text": "bli medlemsorganisation",
+    "href": "/se-sv/engagemang/engagera-dig/bli-medlemsorganisation.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 7394,
+    "w": 78,
+    "h": 26,
+    "text": "ge en gåva",
+    "href": "/se-sv/ge-en-gava.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 7299,
+    "w": 318,
+    "h": 22,
+    "text": "Följ oss på sociala medier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 7345,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeSverige/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 7345,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/fairtradese/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 7345,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-sverige/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 7345,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/user/FairtradeSe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 7433,
+    "w": 318,
+    "h": 22,
+    "text": "Nyhetsbrev"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 7479,
+    "w": 318,
+    "h": 48,
+    "text": "prenumerera",
+    "href": "/subscribe"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > div.sc-aXZVg.gOjxTE > button.sc-iGgWBj.jbOjLk",
+    "x": 40,
+    "y": 796,
+    "w": 64,
+    "h": 64,
+    "text": "öppen sekretessinställningar"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 1,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 1,
+    "textNodes": 77,
+    "controls": 41,
+    "total": 1
+   },
+   "groups": [
+    {
+     "kind": "TEXT HIDDEN",
+     "advisory": false,
+     "n": 1,
+     "clipper": "div.PageHeroSlide--media",
+     "path": "div.PageHeroSlide.swiper-slide > div.PageHeroSlide--inner > div.PageHeroSlide--media > div.Image.landscape",
+     "text": ">",
+     "cutMin": 22,
+     "cutMax": 22
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/se-sv",
+  "at": "2026-11-14T10:36:52.150Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 7649,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/se-sv.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 83,
+    "text": "",
+    "file": "media_18fce14615c5d1f1d847fde4c83907dd42"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 106,
+    "h": 104,
+    "text": "om fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 106,
+    "h": 104,
+    "label": "trigger",
+    "value": "om fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 330,
+    "y": 0,
+    "w": 82,
+    "h": 104,
+    "text": "produkter"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 330,
+    "y": 0,
+    "w": 82,
+    "h": 104,
+    "label": "trigger",
+    "value": "produkter",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 459,
+    "y": 0,
+    "w": 61,
+    "h": 104,
+    "text": "företag"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 459,
+    "y": 0,
+    "w": 61,
+    "h": 104,
+    "label": "trigger",
+    "value": "företag",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 568,
+    "y": 0,
+    "w": 146,
+    "h": 104,
+    "text": "kommun & region"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 568,
+    "y": 0,
+    "w": 146,
+    "h": 104,
+    "label": "trigger",
+    "value": "kommun & region",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 762,
+    "y": 0,
+    "w": 106,
+    "h": 104,
+    "text": "engagemang"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 762,
+    "y": 0,
+    "w": 106,
+    "h": 104,
+    "label": "trigger",
+    "value": "engagemang",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1132,
+    "y": 40,
+    "w": 56,
+    "h": 24,
+    "text": "sök"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1132,
+    "y": 40,
+    "w": 56,
+    "h": 24,
+    "label": "trigger",
+    "value": "sök",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1212,
+    "y": 40,
+    "w": 79,
+    "h": 24,
+    "text": "se • sv"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1212,
+    "y": 40,
+    "w": 79,
+    "h": 24,
+    "label": "trigger",
+    "value": "se • sv",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1315,
+    "y": 40,
+    "w": 77,
+    "h": 24,
+    "text": "öppna"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1315,
+    "y": 40,
+    "w": 77,
+    "h": 24,
+    "label": "trigger",
+    "value": "öppna",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.landscape > picture > img",
+    "x": 162,
+    "y": 184,
+    "w": 1116,
+    "h": 657,
+    "text": "odlare på väg bort på torrt quinoafält",
+    "file": "media_1542b2f103d2fee5f4e8db185ad15fca60"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slide-content-inner > div.slide-title > h1#odlare-kämpar-mot-historisk-el-niño",
+    "x": 210,
+    "y": 429,
+    "w": 612,
+    "h": 141,
+    "level": 1,
+    "text": "odlare kämpar mot historisk el niño"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slide-content-inner > div.slide-text > p",
+    "x": 210,
+    "y": 593,
+    "w": 612,
+    "h": 86,
+    "text": "Odlare står inför den tuffaste El Niño någonsin på grund av klimatförändringarna"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slide-actions > p.button-wrapper > a.button.accent",
+    "x": 210,
+    "y": 704,
+    "w": 135,
+    "h": 60,
+    "text": "läs mer",
+    "href": "/se-sv/aktuellt/varldsledare-mots-pa-cop31-odlare-kampar-mot-el-nino.html"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.landscape > picture > img",
+    "x": 1310,
+    "y": 184,
+    "w": 558,
+    "h": 328,
+    "text": "12 av garants nya fairtrade-teer",
+    "file": "media_14f3498fbeaa0555529a2abbccdc9efc67"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.landscape > picture > img",
+    "x": -428,
+    "y": 184,
+    "w": 558,
+    "h": 328,
+    "text": "kvinnlig kakaoodlare står mitt bland kaffebuskar",
+    "file": "media_13282ee43170f0dce4cdc5b8d8e559899b"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-carousel-carousel > div.hero-carousel-controls > button.button.variant-icon-primary",
+    "x": 66,
+    "y": 492,
+    "w": 48,
+    "h": 48,
+    "text": ""
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-carousel-carousel > div.hero-carousel-controls > button.button.variant-icon-primary",
+    "x": 1326,
+    "y": 492,
+    "w": 48,
+    "h": 48,
+    "text": ""
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#år-med-fairtrade-sverige",
+    "x": 162,
+    "y": 1098,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "30 år med fairtrade sverige"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 1174,
+    "w": 538,
+    "h": 202,
+    "text": "Tre decennier har passerat sedan Fairtrade Sverige såg dagens ljus under namnet "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 162,
+    "y": 1408,
+    "w": 250,
+    "h": 48,
+    "text": "till jubileumsskriften",
+    "href": "/content/dam/fairtrade/fairtrade-sweden/rapporter/Fairtrade_Sverige_30_skrift.pdf"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 740,
+    "y": 1008,
+    "w": 538,
+    "h": 538,
+    "text": "bild på jubileumsskiftens framsida med flera foton på konsum",
+    "file": "media_1adeb189a69f5ecc927cc1cfbff99b6aa6"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 193,
+    "y": 1894,
+    "w": 484,
+    "h": 119,
+    "text": "90%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 205,
+    "y": 2058,
+    "w": 460,
+    "h": 70,
+    "text": "av svenskarna känner till Fairtrade-märket"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 191,
+    "y": 2583,
+    "w": 488,
+    "h": 238,
+    "text": "1,9 miljoner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 203,
+    "y": 2866,
+    "w": 464,
+    "h": 35,
+    "text": "odlare och anställda i 68 länder"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 191,
+    "y": 3279,
+    "w": 488,
+    "h": 238,
+    "text": "58 miljoner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 203,
+    "y": 3562,
+    "w": 464,
+    "h": 106,
+    "text": "kronor i Fairtrade-premie genererade konsumtionen av Fairtrade-märkt i Sverige 2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-label > p > strong",
+    "x": 862,
+    "y": 1756,
+    "w": 111,
+    "h": 22,
+    "text": "Om Fairtrade"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-title > h2#världens-mest-kända-etiska-märkning",
+    "x": 862,
+    "y": 1806,
+    "w": 405,
+    "h": 158,
+    "level": 2,
+    "text": "världens mest kända etiska märkning"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-text > p",
+    "x": 862,
+    "y": 1989,
+    "w": 405,
+    "h": 202,
+    "text": "Fairtrade är världens mest kända hållbarhetsmärkning för en mer rättvis handel. "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-cta > p.button-wrapper > a.button.secondary",
+    "x": 862,
+    "y": 2222,
+    "w": 215,
+    "h": 48,
+    "text": "mer om fairtrade",
+    "href": "/se-sv/om-fairtrade/det-har-ar-fairtrade.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.centered.section > div.default-content-wrapper > h2#aktuellt",
+    "x": 390,
+    "y": 3899,
+    "w": 660,
+    "h": 53,
+    "level": 2,
+    "text": "aktuellt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 4072,
+    "w": 421,
+    "h": 512,
+    "text": "09.11.26 aktuellt världsledare möts på cop31 – odlare kämpar mot historisk el ni",
+    "href": "/se-sv/aktuellt/varldsledare-mots-pa-cop31-odlare-kampar-mot-el-nino.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 4073,
+    "w": 419,
+    "h": 314,
+    "text": "odlare på väg bort från kameran på ett torrt quinoafält",
+    "file": "media_1bb3ca6ef821bc83edee0f4cc69f21c13e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#aktuellt-världsledare-möts-på-cop31--odlare-kämpar-mot-historisk-el-niño",
+    "x": 48,
+    "y": 4404,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "aktuellt världsledare möts på cop31 – odlare kämpar mot historisk el niño"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 4072,
+    "w": 421,
+    "h": 477,
+    "text": "05.11.26 aktuellt 14 nya fairtrade-teer på den svenska marknaden läs mer",
+    "href": "/se-sv/aktuellt/14-nya-fairtrade-teer-pa-den-svenska-marknaden.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 4073,
+    "w": 419,
+    "h": 314,
+    "text": "9 av de olika smakerna på fairtrade-te från garant",
+    "file": "media_100d865cc0745e6d584b9a0f2e2ffdbe1d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#aktuellt-14-nya-fairtrade-teer-på-den-svenska-marknaden",
+    "x": 509,
+    "y": 4404,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "aktuellt 14 nya fairtrade-teer på den svenska marknaden"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 4072,
+    "w": 421,
+    "h": 512,
+    "text": "03.11.26 aktuellt pilotprojekt ska utmana butikspersonal att verka för hållbarhe",
+    "href": "/se-sv/aktuellt/projekt-uppmuntrar-butikspersonal-till-hallbarhet.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 4073,
+    "w": 419,
+    "h": 315,
+    "text": "kvinnlig konsument i butikmiljö",
+    "file": "media_1e205c0fe3afb0212ea94413455c4639eb"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#aktuellt-pilotprojekt-ska-utmana-butikspersonal-att-verka-för-hållbarhet",
+    "x": 971,
+    "y": 4404,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "aktuellt pilotprojekt ska utmana butikspersonal att verka för hållbarhet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 4636,
+    "w": 421,
+    "h": 477,
+    "text": "23.09.26 aktuellt höjt minimipris stärker kakaoodlare i elfenbenskusten läs mer",
+    "href": "/se-sv/aktuellt/hoejt-minimipris-staerker-kakaoodlare-i-elfenbenskusten.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 4637,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_1e473bc06c5c2b8245566ee459e2a9b39c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#aktuellt-höjt-minimipris-stärker-kakaoodlare-i-elfenbenskusten",
+    "x": 48,
+    "y": 4968,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "aktuellt höjt minimipris stärker kakaoodlare i elfenbenskusten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 4636,
+    "w": 421,
+    "h": 512,
+    "text": "22.09.26 aktuellt långt kvar till levnadslön på vingårdar i sydafrika, visar ny ",
+    "href": "/se-sv/aktuellt/langt-kvar-till-levnadslon-pa-vingardar-i-sydafrika.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 4637,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_1d2a3d26747c4071281e48a1d0a82ffe50"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#aktuellt-långt-kvar-till-levnadslön-på-vingårdar-i-sydafrika-visar-ny-rapport",
+    "x": 509,
+    "y": 4968,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "aktuellt långt kvar till levnadslön på vingårdar i sydafrika, visar ny rapport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 4636,
+    "w": 421,
+    "h": 512,
+    "text": "25.08.26 aktuellt när svenska barn börjar skolan tvingas miljoner andra till bar",
+    "href": "/se-sv/aktuellt/naer-svenska-barn-boerjar-skolan-tvingas-miljoner-andra-till-bar.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 4637,
+    "w": 419,
+    "h": 315,
+    "text": "lärare och barn i ett klassrum",
+    "file": "media_1646db9dc132abeedc975a036199f55a01"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#aktuellt-när-svenska-barn-börjar-skolan-tvingas-miljoner-andra-till-barnarbete",
+    "x": 971,
+    "y": 4968,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "aktuellt när svenska barn börjar skolan tvingas miljoner andra till barnarbete"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-actions > p.button-wrapper > a.button.primary",
+    "x": 625,
+    "y": 5280,
+    "w": 191,
+    "h": 60,
+    "text": "se fler artiklar",
+    "href": "/se-sv/aktuellt.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#rapport-mer-än-bara-överleva--mot-levnadslöner-och-levnadsinkomster-i-globala-leverantörsled",
+    "x": 162,
+    "y": 5460,
+    "w": 538,
+    "h": 264,
+    "level": 2,
+    "text": "rapport: mer än bara överleva – mot levnadslöner och levnadsinkomster i globala leverantörsled"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 5748,
+    "w": 538,
+    "h": 115,
+    "text": "Anställda i globala leverantörsled för riskråvaror som kaffe, te, bananer, bomul"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 5892,
+    "w": 538,
+    "h": 115,
+    "text": "Vad beror de låga lönerna på och vilken roll kan producenter, konsumenter och al"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 162,
+    "y": 6039,
+    "w": 188,
+    "h": 48,
+    "text": "läs rapporten",
+    "href": "/se-sv/om-fairtrade/sa-gor-vi-skillnad/vara-rapporter/mer-an-bara-overleva.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 740,
+    "y": 5504,
+    "w": 538,
+    "h": 538,
+    "text": "kvinnlig bananodlare som tvättar klasar bananer",
+    "file": "media_19010a12b923c0cd4756dc342bbb37b3a8"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#välj-fairtrade-på-jobbet",
+    "x": 740,
+    "y": 6548,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "välj fairtrade på jobbet"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 740,
+    "y": 6625,
+    "w": 538,
+    "h": 115,
+    "text": "Gör skillnad på jobbet, en kopp i taget. Tillsammans med kollegorna i fikarummet"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 740,
+    "y": 6772,
+    "w": 135,
+    "h": 48,
+    "text": "läs mer",
+    "href": "/se-sv/engagemang/engagera-dig/fairtrade-pa-jobbet.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 162,
+    "y": 6415,
+    "w": 538,
+    "h": 538,
+    "text": "fairtrade på jobbet-logotyp med kaffe som hälls upp i bakgru",
+    "file": "media_10968e0c6f2ba06c3cc3be28d7a674331b"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1313,
+    "y": 7209,
+    "w": 79,
+    "h": 24,
+    "text": "se • sv"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1313,
+    "y": 7209,
+    "w": 79,
+    "h": 24,
+    "label": "trigger",
+    "value": "se • sv",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-title > span > p",
+    "x": 48,
+    "y": 7299,
+    "w": 318,
+    "h": 22,
+    "text": "Om oss"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 7345,
+    "w": 152,
+    "h": 26,
+    "text": "om fairtrade sverige",
+    "href": "/se-sv/om-fairtrade/det-har-ar-fairtrade/fairtrade-sverige.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 7394,
+    "w": 57,
+    "h": 26,
+    "text": "aktuellt",
+    "href": "/se-sv/aktuellt.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 7444,
+    "w": 57,
+    "h": 26,
+    "text": "kontakt",
+    "href": "/se-sv/kontakt.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 7494,
+    "w": 70,
+    "h": 26,
+    "text": "pressrum",
+    "href": "/se-sv/kontakt/pressrum.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 7543,
+    "w": 117,
+    "h": 26,
+    "text": "jobb och praktik",
+    "href": "/se-sv/jobb-och-praktik.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-title > span > p",
+    "x": 390,
+    "y": 7299,
+    "w": 318,
+    "h": 22,
+    "text": "Resurser"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 7345,
+    "w": 69,
+    "h": 26,
+    "text": "webbutik",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 7394,
+    "w": 113,
+    "h": 26,
+    "text": "frågor och svar",
+    "href": "/se-sv/fragor-och-svar.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 7444,
+    "w": 120,
+    "h": 26,
+    "text": "integritetspolicy",
+    "href": "/se-sv/integritetspolicy.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 7494,
+    "w": 106,
+    "h": 26,
+    "text": "visselblåsning",
+    "href": "/se-sv/visselblasning.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-title > span > p",
+    "x": 732,
+    "y": 7299,
+    "w": 318,
+    "h": 22,
+    "text": "Stöd oss"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 7345,
+    "w": 181,
+    "h": 26,
+    "text": "bli medlemsorganisation",
+    "href": "/se-sv/engagemang/engagera-dig/bli-medlemsorganisation.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 7394,
+    "w": 78,
+    "h": 26,
+    "text": "ge en gåva",
+    "href": "/se-sv/ge-en-gava.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 7299,
+    "w": 318,
+    "h": 22,
+    "text": "Följ oss på sociala medier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 7345,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeSverige/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 7345,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/fairtradese/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 7345,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-sverige/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 7345,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/user/FairtradeSe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 7433,
+    "w": 318,
+    "h": 22,
+    "text": "Nyhetsbrev"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 7479,
+    "w": 318,
+    "h": 48,
+    "text": "prenumerera",
+    "href": "/subscribe"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 75,
+    "controls": 40,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 2
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "odlare kämpar mot historisk el niño",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 2,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "30 år med fairtrade sverige",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "världens mest kända etiska märkning",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 7,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "aktuellt",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "aktuellt världsledare möts på cop31 – odlare kämpar mot historisk el niño",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "aktuellt 14 nya fairtrade-teer på den svenska marknaden",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "aktuellt pilotprojekt ska utmana butikspersonal att verka för hållbarhet",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "aktuellt höjt minimipris stärker kakaoodlare i elfenbenskusten",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "aktuellt långt kvar till levnadslön på vingårdar i sydafrika, visar ny rapport",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "aktuellt när svenska barn börjar skolan tvingas miljoner andra till barnarbete",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "rapport: mer än bara överleva – mot levnadslöner och levnadsinkomster i globala leverantörsled",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "välj fairtrade på jobbet",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 106,
+    "h": 20
+   },
+   {
+    "x": 330,
+    "y": 42,
+    "w": 82,
+    "h": 20
+   },
+   {
+    "x": 459,
+    "y": 42,
+    "w": 61,
+    "h": 20
+   },
+   {
+    "x": 568,
+    "y": 42,
+    "w": 146,
+    "h": 20
+   },
+   {
+    "x": 762,
+    "y": 42,
+    "w": 106,
+    "h": 20
+   },
+   {
+    "x": 1160,
+    "y": 42,
+    "w": 28,
+    "h": 19
+   },
+   {
+    "x": 1240,
+    "y": 42,
+    "w": 51,
+    "h": 19
+   },
+   {
+    "x": 1343,
+    "y": 42,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 210,
+    "y": 432,
+    "w": 513,
+    "h": 64
+   },
+   {
+    "x": 210,
+    "y": 502,
+    "w": 438,
+    "h": 64
+   },
+   {
+    "x": 210,
+    "y": 596,
+    "w": 477,
+    "h": 22
+   },
+   {
+    "x": 210,
+    "y": 625,
+    "w": 608,
+    "h": 22
+   },
+   {
+    "x": 210,
+    "y": 654,
+    "w": 145,
+    "h": 22
+   },
+   {
+    "x": 244,
+    "y": 723,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 1310,
+    "y": 499,
+    "w": 5,
+    "h": 11
+   },
+   {
+    "x": 162,
+    "y": 1100,
+    "w": 538,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 1177,
+    "w": 510,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1206,
+    "w": 463,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1235,
+    "w": 467,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1264,
+    "w": 502,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1293,
+    "w": 520,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1321,
+    "w": 520,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1350,
+    "w": 490,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 1421,
+    "w": 182,
+    "h": 22
+   },
+   {
+    "x": 306,
+    "y": 1885,
+    "w": 258,
+    "h": 136
+   },
+   {
+    "x": 270,
+    "y": 2059,
+    "w": 330,
+    "h": 32
+   },
+   {
+    "x": 319,
+    "y": 2094,
+    "w": 231,
+    "h": 32
+   },
+   {
+    "x": 360,
+    "y": 2574,
+    "w": 150,
+    "h": 136
+   },
+   {
+    "x": 191,
+    "y": 2693,
+    "w": 488,
+    "h": 136
+   },
+   {
+    "x": 232,
+    "y": 2867,
+    "w": 407,
+    "h": 32
+   },
+   {
+    "x": 370,
+    "y": 3270,
+    "w": 131,
+    "h": 136
+   },
+   {
+    "x": 191,
+    "y": 3389,
+    "w": 488,
+    "h": 136
+   },
+   {
+    "x": 266,
+    "y": 3563,
+    "w": 337,
+    "h": 32
+   },
+   {
+    "x": 242,
+    "y": 3598,
+    "w": 385,
+    "h": 32
+   },
+   {
+    "x": 235,
+    "y": 3633,
+    "w": 400,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 1756,
+    "w": 111,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1808,
+    "w": 281,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 1861,
+    "w": 255,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 1914,
+    "w": 197,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 1992,
+    "w": 270,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2020,
+    "w": 382,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2049,
+    "w": 365,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2078,
+    "w": 393,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2107,
+    "w": 336,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2136,
+    "w": 376,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2164,
+    "w": 54,
+    "h": 22
+   },
+   {
+    "x": 896,
+    "y": 2235,
+    "w": 147,
+    "h": 22
+   },
+   {
+    "x": 636,
+    "y": 3901,
+    "w": 167,
+    "h": 48
+   },
+   {
+    "x": 387,
+    "y": 4087,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4403,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 4443,
+    "w": 383,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4478,
+    "w": 406,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4513,
+    "w": 65,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4558,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 849,
+    "y": 4087,
+    "w": 57,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 4403,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 4443,
+    "w": 366,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 4478,
+    "w": 265,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 4522,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 1310,
+    "y": 4087,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 4403,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 4443,
+    "w": 322,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4478,
+    "w": 367,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4513,
+    "w": 141,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4558,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 382,
+    "y": 4651,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4967,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 5007,
+    "w": 312,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 5042,
+    "w": 412,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 5086,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 843,
+    "y": 4651,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 4967,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 5007,
+    "w": 370,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 5042,
+    "w": 392,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 5077,
+    "w": 101,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 5122,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 1304,
+    "y": 4651,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 4967,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 5007,
+    "w": 408,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 5042,
+    "w": 343,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 5077,
+    "w": 150,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 5122,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 659,
+    "y": 5299,
+    "w": 123,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5462,
+    "w": 417,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 5514,
+    "w": 282,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 5567,
+    "w": 334,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 5620,
+    "w": 537,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 5673,
+    "w": 291,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 5751,
+    "w": 511,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5779,
+    "w": 532,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5808,
+    "w": 537,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5837,
+    "w": 295,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5895,
+    "w": 492,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5923,
+    "w": 512,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5952,
+    "w": 378,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5981,
+    "w": 332,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 6052,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6550,
+    "w": 465,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 6628,
+    "w": 457,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6656,
+    "w": 533,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6685,
+    "w": 521,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6714,
+    "w": 300,
+    "h": 22
+   },
+   {
+    "x": 774,
+    "y": 6785,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 1341,
+    "y": 7211,
+    "w": 51,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 7298,
+    "w": 70,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 7348,
+    "w": 152,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 7397,
+    "w": 57,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 7447,
+    "w": 57,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 7497,
+    "w": 70,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 7546,
+    "w": 117,
+    "h": 19
+   },
+   {
+    "x": 390,
+    "y": 7298,
+    "w": 88,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 7348,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 7397,
+    "w": 113,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 7447,
+    "w": 120,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 7497,
+    "w": 106,
+    "h": 19
+   },
+   {
+    "x": 732,
+    "y": 7298,
+    "w": 83,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 7348,
+    "w": 181,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 7397,
+    "w": 78,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 7298,
+    "w": 247,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 7432,
+    "w": 113,
+    "h": 24
+   },
+   {
+    "x": 1177,
+    "y": 7492,
+    "w": 112,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 106,
+    "h": 20
+   },
+   {
+    "x": 330,
+    "y": 42,
+    "w": 82,
+    "h": 20
+   },
+   {
+    "x": 459,
+    "y": 42,
+    "w": 61,
+    "h": 20
+   },
+   {
+    "x": 568,
+    "y": 42,
+    "w": 146,
+    "h": 20
+   },
+   {
+    "x": 762,
+    "y": 42,
+    "w": 106,
+    "h": 20
+   },
+   {
+    "x": 1160,
+    "y": 42,
+    "w": 28,
+    "h": 19
+   },
+   {
+    "x": 1240,
+    "y": 42,
+    "w": 51,
+    "h": 19
+   },
+   {
+    "x": 1343,
+    "y": 42,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 210,
+    "y": 432,
+    "w": 513,
+    "h": 64
+   },
+   {
+    "x": 210,
+    "y": 502,
+    "w": 438,
+    "h": 64
+   },
+   {
+    "x": 210,
+    "y": 596,
+    "w": 477,
+    "h": 22
+   },
+   {
+    "x": 210,
+    "y": 625,
+    "w": 608,
+    "h": 22
+   },
+   {
+    "x": 210,
+    "y": 654,
+    "w": 145,
+    "h": 22
+   },
+   {
+    "x": 244,
+    "y": 723,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1100,
+    "w": 538,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 1177,
+    "w": 510,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1206,
+    "w": 463,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1235,
+    "w": 467,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1264,
+    "w": 502,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1293,
+    "w": 520,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1321,
+    "w": 520,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1350,
+    "w": 490,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 1421,
+    "w": 182,
+    "h": 22
+   },
+   {
+    "x": 306,
+    "y": 1885,
+    "w": 258,
+    "h": 136
+   },
+   {
+    "x": 270,
+    "y": 2059,
+    "w": 330,
+    "h": 32
+   },
+   {
+    "x": 319,
+    "y": 2094,
+    "w": 231,
+    "h": 32
+   },
+   {
+    "x": 360,
+    "y": 2574,
+    "w": 150,
+    "h": 136
+   },
+   {
+    "x": 191,
+    "y": 2693,
+    "w": 488,
+    "h": 136
+   },
+   {
+    "x": 232,
+    "y": 2867,
+    "w": 407,
+    "h": 32
+   },
+   {
+    "x": 370,
+    "y": 3270,
+    "w": 131,
+    "h": 136
+   },
+   {
+    "x": 191,
+    "y": 3389,
+    "w": 488,
+    "h": 136
+   },
+   {
+    "x": 266,
+    "y": 3563,
+    "w": 337,
+    "h": 32
+   },
+   {
+    "x": 242,
+    "y": 3598,
+    "w": 385,
+    "h": 32
+   },
+   {
+    "x": 235,
+    "y": 3633,
+    "w": 400,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 1756,
+    "w": 111,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1808,
+    "w": 281,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 1861,
+    "w": 255,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 1914,
+    "w": 197,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 1992,
+    "w": 270,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2020,
+    "w": 382,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2049,
+    "w": 365,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2078,
+    "w": 393,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2107,
+    "w": 336,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2136,
+    "w": 376,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2164,
+    "w": 54,
+    "h": 22
+   },
+   {
+    "x": 896,
+    "y": 2235,
+    "w": 147,
+    "h": 22
+   },
+   {
+    "x": 636,
+    "y": 3901,
+    "w": 167,
+    "h": 48
+   },
+   {
+    "x": 387,
+    "y": 4087,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4403,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 4443,
+    "w": 383,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4478,
+    "w": 406,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4513,
+    "w": 65,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4558,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 849,
+    "y": 4087,
+    "w": 57,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 4403,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 4443,
+    "w": 366,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 4478,
+    "w": 265,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 4522,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 1310,
+    "y": 4087,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 4403,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 4443,
+    "w": 322,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4478,
+    "w": 367,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4513,
+    "w": 141,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4558,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 382,
+    "y": 4651,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4967,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 5007,
+    "w": 312,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 5042,
+    "w": 412,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 5086,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 843,
+    "y": 4651,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 4967,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 5007,
+    "w": 370,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 5042,
+    "w": 392,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 5077,
+    "w": 101,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 5122,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 1304,
+    "y": 4651,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 4967,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 5007,
+    "w": 408,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 5042,
+    "w": 343,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 5077,
+    "w": 150,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 5122,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 659,
+    "y": 5299,
+    "w": 123,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5462,
+    "w": 417,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 5514,
+    "w": 282,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 5567,
+    "w": 334,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 5620,
+    "w": 537,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 5673,
+    "w": 291,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 5751,
+    "w": 511,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5779,
+    "w": 532,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5808,
+    "w": 537,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5837,
+    "w": 295,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5895,
+    "w": 492,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5923,
+    "w": 512,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5952,
+    "w": 378,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5981,
+    "w": 332,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 6052,
+    "w": 120,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6550,
+    "w": 465,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 6628,
+    "w": 457,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6656,
+    "w": 533,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6685,
+    "w": 521,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6714,
+    "w": 300,
+    "h": 22
+   },
+   {
+    "x": 774,
+    "y": 6785,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 1341,
+    "y": 7211,
+    "w": 51,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 7298,
+    "w": 70,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 7348,
+    "w": 152,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 7397,
+    "w": 57,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 7447,
+    "w": 57,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 7497,
+    "w": 70,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 7546,
+    "w": 117,
+    "h": 19
+   },
+   {
+    "x": 390,
+    "y": 7298,
+    "w": 88,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 7348,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 7397,
+    "w": 113,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 7447,
+    "w": 120,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 7497,
+    "w": 106,
+    "h": 19
+   },
+   {
+    "x": 732,
+    "y": 7298,
+    "w": 83,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 7348,
+    "w": 181,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 7397,
+    "w": 78,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 7298,
+    "w": 247,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 7432,
+    "w": 113,
+    "h": 24
+   },
+   {
+    "x": 1177,
+    "y": 7492,
+    "w": 112,
+    "h": 22
+   }
+  ]
+ }
+}

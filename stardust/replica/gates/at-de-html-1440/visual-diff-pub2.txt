@@ -1,0 +1,1578 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/at-de-html-1440/vdiff-pub2/
+
+build red flags (advisory): 
+  • SURFACE/GROUND MISMATCH: heading "Was ist FAIRTRADE?" is rgb(255, 255, 255) in build vs rgb(30, 30, 30) in source (luminance 255 vs 30). A matched heading renders on a different ground (dark vs light) — check the section background.
+  • IMAGE DID NOT LOAD: media_16727b5ad61ef320bec9f871345035d3496d3c869.jpg?width=750&format=jpg&optimize=medium rendered 190x190 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: media_1724f0508e2238b096adf3b1a2a8ba0cb673166c8.jpg?width=750&format=jpg&optimize=medium rendered 190x190 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: media_1fd7d82db81d6c75486429591d1f52ea202ba9bd4.jpg?width=750&format=jpg&optimize=medium rendered 190x190 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: media_1e6e5e1c23cba9ecc2e83abd565a9a1aff6f7eca3.jpg?width=750&format=jpg&optimize=medium rendered 190x190 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: media_1735c34513b56dcb23efae11ac014c823087c8a08.png?width=750&format=png&optimize=medium rendered 190x190 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: media_1e834665d140f1e548b3bf28d950423d9b2e2421b.png?width=750&format=png&optimize=medium rendered 190x190 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: media_1c0cf441df3149180e3278d7a8cc8495f324c73a2.jpg?width=750&format=jpg&optimize=medium rendered 190x190 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: media_159990f1164de7e0bdc022fef3555176c084f688b.png?width=750&format=png&optimize=medium rendered 190x190 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: media_1a59a82ffe43381d606aba6913be9ee45e1d8879c.png?width=750&format=png&optimize=medium rendered 190x190 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: media_1d43ddf9a20947d4154272d500129a8afda27aa85.png?width=750&format=png&optimize=medium rendered 190x190 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: media_1551b60e2ba3cde5f4e709177c121e11d02cbfa54.jpg?width=750&format=jpg&optimize=medium rendered 190x190 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • FLUSH-LEFT TEXT: <h2> "Der FAIRTRADE-Newsletter" sits at left -404px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+  • FLUSH-LEFT TEXT: <p> "Exklusive Einblicke, inspiri" sits at left -404px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+  • FLUSH-LEFT TEXT: <p> "Anmelden" sits at left -404px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+  • FLUSH-LEFT TEXT: <p> "Kaffee Partner" sits at left -3256px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+  • FLUSH-LEFT TEXT: <h3> "Espresso Verde Aurea" sits at left -3256px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+  • FLUSH-LEFT TEXT: <p> "Mehr erfahren" sits at left -3256px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+  • FLUSH-LEFT TEXT: <p> "Kaffee Partner" sits at left -2934px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+  • FLUSH-LEFT TEXT: <h3> "Crema Verde Aurea" sits at left -2934px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 7845,
+  "textLen": 3659,
+  "images": [
+   {
+    "src": "1x1-fairtrade-%C3%B6sterreich.png",
+    "natural": "1080x1080",
+    "rendered": "80x80",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1_120w.webp",
+    "natural": "120x120",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1_120w.webp",
+    "natural": "92x120",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1_120w.webp",
+    "natural": "120x120",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "21x9_1280w.webp",
+    "natural": "719x478",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "21x9_1280w.webp",
+    "natural": "478x478",
+    "rendered": "558x328",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "21x9_1280w.webp",
+    "natural": "844x478",
+    "rendered": "1116x657",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "21x9_1280w.webp",
+    "natural": "844x478",
+    "rendered": "558x328",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "21x9_1280w.webp",
+    "natural": "844x478",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "21x9_1280w.webp",
+    "natural": "850x478",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "21x9_1280w.webp",
+    "natural": "844x478",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "409x314",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "409x314",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_640w.webp",
+    "natural": "418x314",
+    "rendered": "419x315",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "visibility_169306_529246.jpg",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "visibility_169340_511272.jpg",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "visibility_168116_861004.jpg",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "visibility_170471_133730.jpg",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "visibility_168833_363639.png",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "visibility_168354_132703.png",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "visibility_164877_50982.jpg",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "visibility_166180_359941.png",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "visibility_168515_435496.png",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "visibility_170493_203725.png",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "visibility_170494_270360.png",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "visibility_167149_225043.png",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "visibility_168366_35728.jpg",
+    "natural": "409x503",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "visibility_170318_550150.png",
+    "natural": "835x1580",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "visibility_164473_281125.jpg",
+    "natural": "1082x418",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "visibility_170320_369041.png",
+    "natural": "835x1580",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "generic.jpg",
+    "natural": "400x400",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "generic.jpg",
+    "natural": "400x400",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "visibility_166586_811816.png",
+    "natural": "343x496",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "generic.jpg",
+    "natural": "400x400",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "generic.jpg",
+    "natural": "400x400",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "generic.jpg",
+    "natural": "400x400",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "visibility_166435_643544.png",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "visibility_164883_615289.jpg",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "1x1_640w.webp",
+    "natural": "538x525",
+    "rendered": "538x538",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1_640w.webp",
+    "natural": "446x538",
+    "rendered": "538x538",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1_640w.webp",
+    "natural": "538x538",
+    "rendered": "538x538",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Was ist FAIRTRADE?",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Der FAIRTRADE-Newsletter",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Was hinter fairem Kakao steckt",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Gewinne mit FAIRTRADE!",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Blog für die FAIRTRADE-Community",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Faire News",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "News\n                  Was FAIRT",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "News\n                  FAIRTRADE",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "News\n                  Kakaoprei",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "FAIRTRADE auf Social Media",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "FAIRTRADE-Produkte finden",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "64px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Gewinnspiel des Monats",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "FAIRTRADE-Produkte im globalen S",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Unsere Arbeitsschwerpunkte",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "WAS ist FAIRTRADE?",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "FAIRTRADE in Kürze",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Wer wir sind",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "20px",
+    "family": "Exo 2",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Was wir tun",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "20px",
+    "family": "Exo 2",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Wer uns trägt",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "20px",
+    "family": "Exo 2",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Was wir fordern",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "20px",
+    "family": "Exo 2",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Vision und Leitbild",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "20px",
+    "family": "Exo 2",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [
+   {
+    "tag": "h2",
+    "text": "Der FAIRTRADE-Newsletter",
+    "left": -404
+   },
+   {
+    "tag": "p",
+    "text": "Exklusive Einblicke, inspiri",
+    "left": -404
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "PageHeroSlide--content",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "RichtextSection",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "TeaserGrid--grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "RichtextSection",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "ProductTeaserCarousel--grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "TextImage--inner",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "TextImage--inner",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "TextImage--inner",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "RichtextSection",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "AccordionSection",
+    "width": 1440,
+    "left": 0
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 7838,
+  "textLen": 3742,
+  "images": [
+   {
+    "src": "media_1efb8afbfe1be337d73894121fa8bd2a1306ee5bc.png?width=750&format=png&optimize=medium",
+    "natural": "750x750",
+    "rendered": "80x80",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_172a10da3e35cce14276194675498f8936cfbf9e8.webp?width=750&format=webp&optimize=medium",
+    "natural": "120x120",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17d21012fe5f48a109dbde887ab151875bb56d45f.webp?width=750&format=webp&optimize=medium",
+    "natural": "92x120",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19c8322af14c73b285cd1b299c8e2556db8ad3919.webp?width=750&format=webp&optimize=medium",
+    "natural": "120x120",
+    "rendered": "120x120",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_172a10da3e35cce14276194675498f8936cfbf9e8.webp?width=750&format=webp&optimize=medium",
+    "natural": "120x120",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17d21012fe5f48a109dbde887ab151875bb56d45f.webp?width=750&format=webp&optimize=medium",
+    "natural": "92x120",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19c8322af14c73b285cd1b299c8e2556db8ad3919.webp?width=750&format=webp&optimize=medium",
+    "natural": "120x120",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a0fc0c345ca756eec1fa33782b765d226c05f805.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1280x982",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1437ece7604c3dfa3e5bb501a268d283cc407c2b2.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1452x823",
+    "rendered": "1116x657",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_13062ba5ef348e404eb0fc15685f69290f4da6b2f.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1080x1080",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_16235535f1b3886d6b8e690a9a1804031b7fa8a10.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1452x823",
+    "rendered": "558x328",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1bde4b21ae9acf62ee4f0927e5e4368be03804168.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1170x1080",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1c92d69b8b2e9bda72405b6fe36d5ced01d6c72a7.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1024x580",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1bb88598b94d43f2284697f0b45252eb6bb6364b3.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1920x1080",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_105a4a7f45a2c203abb6258abb0f87e3bb40332c6.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1463x823",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_15855c11f1cf3eb427ed14ee8f5cc9cb67c7a498b.webp?width=2000&format=webply&optimize=medium",
+    "natural": "940x788",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1eaaa871ddf61300e3f747f931dc3addfe2a82212.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1452x823",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_157cf255336fbd4cd98a111357ba73775eff91e9a.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1623x1080",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1d03a2936cbd16434275f03d7361625498437ea75.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1237x823",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_102561629958a85faef2115cf9af97bcb4fe299f7.webp?width=750&format=webp&optimize=medium",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_15050c9ad2715a5280b224fd7afe8a0d918a576fc.webp?width=2000&format=webply&optimize=medium",
+    "natural": "823x823",
+    "rendered": "558x328",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_13c644aaea8ca29f252543377b26fcb18b9fa08db.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1254x962",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1bb622cf2e350423a32bc79ef5fce42fd0f489bb4.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1254x962",
+    "rendered": "419x314",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_19b46e87043c803ecda9c81133382a2db2d0c64e5.webp?width=2000&format=webply&optimize=medium",
+    "natural": "1280x962",
+    "rendered": "419x315",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_16727b5ad61ef320bec9f871345035d3496d3c869.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "media_1724f0508e2238b096adf3b1a2a8ba0cb673166c8.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "media_1fd7d82db81d6c75486429591d1f52ea202ba9bd4.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "media_1e6e5e1c23cba9ecc2e83abd565a9a1aff6f7eca3.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "media_1735c34513b56dcb23efae11ac014c823087c8a08.png?width=750&format=png&optimize=medium",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "media_1e834665d140f1e548b3bf28d950423d9b2e2421b.png?width=750&format=png&optimize=medium",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "media_1c0cf441df3149180e3278d7a8cc8495f324c73a2.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "media_159990f1164de7e0bdc022fef3555176c084f688b.png?width=750&format=png&optimize=medium",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "media_1c2cd5d62b241c6ffefbe8c709dac1e12220e705e.png?width=2000&format=webply&optimize=medium",
+    "natural": "1024x571",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1b228d35bc611824d7e4b0f9e7abcfd4d64d033a3.png?width=2000&format=webply&optimize=medium",
+    "natural": "1162x3399",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1626e7903b33450814d8f67b23fc3f4df6f53243e.png?width=2000&format=webply&optimize=medium",
+    "natural": "1232x3631",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1f43f204d1163e57e8d855aff7a2bfafd08cbe11a.png?width=2000&format=webply&optimize=medium",
+    "natural": "854x746",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_169d4f629c86a0e6fbe44f29966a5cf5727a6f2db.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "409x503",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12943500a73d1c7851b1e39c8d52b5647825c582a.png?width=2000&format=webply&optimize=medium",
+    "natural": "835x1580",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_18d502840d7434ce86ecd6e2f261c321680e1a857.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "1082x418",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_10cfba46b0ccb08a112974a6e1b646f5c37bfb6b8.png?width=2000&format=webply&optimize=medium",
+    "natural": "835x1580",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12c5140d9dcf49272dc8eb971bfdbfb747c1af58c.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "100x100",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12c5140d9dcf49272dc8eb971bfdbfb747c1af58c.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "100x100",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1a59a82ffe43381d606aba6913be9ee45e1d8879c.png?width=750&format=png&optimize=medium",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "media_12c5140d9dcf49272dc8eb971bfdbfb747c1af58c.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "100x100",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12c5140d9dcf49272dc8eb971bfdbfb747c1af58c.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "100x100",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_12c5140d9dcf49272dc8eb971bfdbfb747c1af58c.jpg?width=2000&format=webply&optimize=medium",
+    "natural": "100x100",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_1d43ddf9a20947d4154272d500129a8afda27aa85.png?width=750&format=png&optimize=medium",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "media_1551b60e2ba3cde5f4e709177c121e11d02cbfa54.jpg?width=750&format=jpg&optimize=medium",
+    "natural": "0x0",
+    "rendered": "190x190",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "media_1a36e2b62d1ff2b652a1560545f9843c39749a1ec.webp?width=2000&format=webply&optimize=medium",
+    "natural": "768x750",
+    "rendered": "538x538",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_17b6d5a86fc6ff7603662c8c32bca4f51aa257336.webp?width=2000&format=webply&optimize=medium",
+    "natural": "637x768",
+    "rendered": "538x538",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "media_125f67db374f917dceb2ca68bbb70835aedae562b.webp?width=2000&format=webply&optimize=medium",
+    "natural": "718x718",
+    "rendered": "538x538",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Was hinter fairem Kakao steckt",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Gewinne mit FAIRTRADE!",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Blog für die FAIRTRADE-Community",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Was ist FAIRTRADE?",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Der FAIRTRADE-Newsletter",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "64px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Faire News",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "News Was FAIRTRADE und die Bäuer",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "News FAIRTRADE: Mehr als jede fü",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "News Kakaopreise schwanken stark",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "FAIRTRADE auf Social Media",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "FAIRTRADE-Produkte finden",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "64px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Espresso Verde Aurea",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Crema Verde Aurea",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Napolitains dark, 100 Pzt Cacao ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bio Kochpudding Schokolade FT",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "dunkle Schokolade",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Original Tafel",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Kinder Jungen Sweatshirt 875331",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Kinder Jungen Sweatshirt 875337",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Merry Christmas Box",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Adobe Sauvignon Blanc 2026",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Adobe Chardonnay 2026",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Himbeere (5 x 22g)",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Tirol Milch Kakao Fairtrade UHT ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Munz Glückskäfer Bottle 150g",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Kinder Mädchen T-Shirt_875016",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Original Bottle 150g",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AC Capsules Strong & Earthy 10x5",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AC Capsules Mild & Aromatic 30x5",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Douceur Weihnachtsfiguren Reiter",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AC Capsules Bold & Smooth 30x5.5",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AC Capsules Strong & Earthy 30x5",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AC Capsules Mild & Aromatic 10x5",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Douceur Kugeln mit Milchcreme 18",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Kinder Mädchen Sweatshirt 875380",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Gewinnspiel des Monats",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "FAIRTRADE-Produkte im globalen S",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Unsere Arbeitsschwerpunkte",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "WAS ist FAIRTRADE?",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "FAIRTRADE in Kürze",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Wer wir sind",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "20px",
+    "family": "Exo 2",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Was wir tun",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "20px",
+    "family": "Exo 2",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Wer uns trägt",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "20px",
+    "family": "Exo 2",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Was wir fordern",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "20px",
+    "family": "Exo 2",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Vision und Leitbild",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "20px",
+    "family": "Exo 2",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [
+   {
+    "tag": "h2",
+    "text": "Der FAIRTRADE-Newsletter",
+    "left": -404
+   },
+   {
+    "tag": "p",
+    "text": "Exklusive Einblicke, inspiri",
+    "left": -404
+   },
+   {
+    "tag": "p",
+    "text": "Anmelden",
+    "left": -404
+   },
+   {
+    "tag": "p",
+    "text": "Kaffee Partner",
+    "left": -3256
+   },
+   {
+    "tag": "h3",
+    "text": "Espresso Verde Aurea",
+    "left": -3256
+   },
+   {
+    "tag": "p",
+    "text": "Mehr erfahren",
+    "left": -3256
+   },
+   {
+    "tag": "p",
+    "text": "Kaffee Partner",
+    "left": -2934
+   },
+   {
+    "tag": "h3",
+    "text": "Crema Verde Aurea",
+    "left": -2934
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "slide-content",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "teaser-grid-grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "cta",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "cta",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "product-carousel-grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "carousel-list",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "product-carousel-grid",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "text-image-inner",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "text-image-inner",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "text-image-inner",
+    "width": 1116,
+    "left": 162
+   },
+   {
+    "sel": "video-caption-text",
+    "width": 1090,
+    "left": 188
+   },
+   {
+    "sel": "accordion",
+    "width": 1440,
+    "left": 0
+   }
+  ]
+ }
+}

@@ -25,3 +25,182 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+/* image-grid — source ImageGridSelect.size-medium.type-image + ImageGridItem + Overlay
+   (stardust/current/assets/css/site.css; values verbatim) */
+.cards.image-grid {
+  padding-block: 64px;
+}
+
+.cards.image-grid > ul.cards-image-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 32px auto 0;
+  padding: 0 var(--grid-padding);
+  width: min(100%, var(--max-width));
+}
+
+.cards.image-grid > ul > li.cards-image-grid-item {
+  background: none;
+  border: 0;
+  grid-column: span 3;
+  min-width: 0;
+}
+
+.cards.image-grid .cards-image-grid-tile {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.cards.image-grid .cards-image-grid-image {
+  background-color: rgb(15 192 252 / 25%);
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cards.image-grid .cards-image-grid-image::before {
+  aspect-ratio: 4 / 3;
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.cards.image-grid .cards-image-grid-image picture {
+  display: contents;
+}
+
+.cards.image-grid > ul > li .cards-image-grid-image img {
+  aspect-ratio: auto;
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  transition: transform .2s ease-in-out;
+  width: 100%;
+}
+
+.cards.image-grid .cards-image-grid-tile:hover img {
+  transform: scale(1.05);
+}
+
+.cards.image-grid .cards-overlay {
+  background-color: transparent;
+  border: none;
+  max-height: 100vh;
+  max-width: min(100vw - 36px, 640px);
+  overflow: visible;
+  padding: 0;
+}
+
+.cards.image-grid .cards-overlay::backdrop {
+  background-color: rgb(0 0 0 / 50%);
+}
+
+.cards.image-grid .cards-overlay-inner {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  box-shadow: 0 8px 12px 0 rgb(0 0 0 / 15%);
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 36px);
+  overflow: hidden;
+  position: relative;
+}
+
+.cards.image-grid .cards-overlay-close {
+  background-color: #fff;
+  cursor: pointer;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+.cards.image-grid .cards-visually-hidden {
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.cards.image-grid .cards-overlay-body {
+  max-height: 100%;
+  overflow: auto;
+  padding: 32px 24px;
+}
+
+.cards.image-grid .cards-overlay-footer {
+  background-color: #fff;
+  box-shadow: 0 -4px 8px 0 rgb(0 0 0 / 10%);
+  padding: 12px 24px;
+}
+
+.cards.image-grid .cards-overlay-footer p {
+  margin: 0;
+}
+
+@media (width >= 768px) {
+  .cards.image-grid > ul.cards-image-grid {
+    gap: 24px;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .cards.image-grid > ul > li.cards-image-grid-item {
+    grid-column: span 4;
+  }
+}
+
+@media (width >= 1024px) {
+  .cards.image-grid {
+    padding-block: 80px;
+  }
+
+  .cards.image-grid > ul.cards-image-grid {
+    margin-top: 40px;
+  }
+}
+
+@media (width >= 1280px) {
+  .cards.image-grid > ul.cards-image-grid {
+    gap: 32px;
+  }
+
+  .cards.image-grid > ul > li.cards-image-grid-item {
+    grid-column: span 3;
+  }
+}
+
+/* image-grid small — source ImageGridSelect.size-small (span 2 / 3 ≥768 / 2 ≥1280) */
+.cards.image-grid.small > ul > li.cards-image-grid-item {
+  grid-column: span 2;
+}
+
+@media (width >= 768px) {
+  .cards.image-grid.small > ul > li.cards-image-grid-item {
+    grid-column: span 3;
+  }
+}
+
+@media (width >= 1280px) {
+  .cards.image-grid.small > ul > li.cards-image-grid-item {
+    grid-column: span 2;
+  }
+}
+
+/* image-grid logo — source ImageGridSelect.type-logo (transparent tile, contained image) */
+.cards.image-grid.logo .cards-image-grid-image {
+  background-color: transparent;
+}
+
+.cards.image-grid.logo > ul > li .cards-image-grid-image img {
+  object-fit: contain;
+}

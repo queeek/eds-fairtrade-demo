@@ -1,0 +1,3122 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T10:54:22.332Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html",
+  "at": "2026-11-14T10:54:00.340Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6166,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "Fairtrade_America_Logo_Vert_80x80"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > span.Breadcrumbs--breadcrumb--title",
+    "x": 125,
+    "y": 122,
+    "w": 90,
+    "h": 20,
+    "text": "Why Fairtrade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 255,
+    "y": 122,
+    "w": 81,
+    "h": 20,
+    "text": "how we do it",
+    "href": "/us-en/why-fairtrade/how-we-do-it.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 376,
+    "y": 122,
+    "w": 126,
+    "h": 20,
+    "text": "fairtrade standards",
+    "href": "/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+    "x": 421,
+    "y": 224,
+    "w": 598,
+    "h": 79,
+    "level": 1,
+    "text": "fairtrade standards"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 115,
+    "text": "The Fairtrade Standards are the foundation of our work. They establish what we m"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--imageGrid > div.Image.ultra-wide > img.lazyautosizes.lazyloaded",
+    "x": 48,
+    "y": 514,
+    "w": 1344,
+    "h": 576,
+    "text": "bananas on a shelf with the fairtrade mark",
+    "file": "21x9_1440w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1210,
+    "w": 660,
+    "h": 115,
+    "text": "The Standards provide the framework for Fairtrade certification by detailing the"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1358,
+    "w": 660,
+    "h": 86,
+    "text": "The Fairtrade Standards incorporate comprehensive social, economic, and environm"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 162,
+    "y": 1685,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "current fairtrade standards"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 162,
+    "y": 1815,
+    "w": 538,
+    "h": 86,
+    "text": "Our standards are tailored to the realities of farmer cooperatives, workers at l"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 162,
+    "y": 1933,
+    "w": 393,
+    "h": 48,
+    "text": "check which standards apply to whom",
+    "href": "/en/why-fairtrade/how-we-do-it/standards/who-we-have-standards-for.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 740,
+    "y": 1564,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 162,
+    "y": 2369,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "minimum price and premium database"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 162,
+    "y": 2498,
+    "w": 538,
+    "h": 115,
+    "text": "When selling their products through Fairtrade, producers can rely on the safety "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 162,
+    "y": 2645,
+    "w": 399,
+    "h": 48,
+    "text": "look up fairtrade prices and premiums",
+    "href": "/en/why-fairtrade/how-we-do-it/standards/fairtrade-minimum-price-and-premium-information.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 740,
+    "y": 2262,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 162,
+    "y": 3093,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "how we set standards"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 162,
+    "y": 3170,
+    "w": 538,
+    "h": 115,
+    "text": "The Fairtrade Standards are set through a transparent process with participation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 162,
+    "y": 3317,
+    "w": 368,
+    "h": 48,
+    "text": "learn more about standard-setting",
+    "href": "/us-en/why-fairtrade/how-we-do-it/fairtrade-standards/how-we-set-standards.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 740,
+    "y": 2960,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 162,
+    "y": 3750,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "objectives of the fairtrade standards"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 162,
+    "y": 3880,
+    "w": 538,
+    "h": 144,
+    "text": "The Fairtrade Standards aim to provide a structure for sustainable agricultural "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 162,
+    "y": 4056,
+    "w": 359,
+    "h": 48,
+    "text": "delve into the standard objectives",
+    "href": "/en/why-fairtrade/how-we-do-it/standards/objectives-of-the-standards.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 740,
+    "y": 3658,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 162,
+    "y": 4463,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "standards and pricing work in progress"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 162,
+    "y": 4592,
+    "w": 538,
+    "h": 115,
+    "text": "We regularly set new Fairtrade standards and prices or review existing ones. Her"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 162,
+    "y": 4739,
+    "w": 378,
+    "h": 48,
+    "text": "see what we're currently working on",
+    "href": "/en/why-fairtrade/how-we-do-it/standards/standards-work-in-progress.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 740,
+    "y": 4356,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 162,
+    "y": 5115,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "control mechanisms"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 162,
+    "y": 5192,
+    "w": 538,
+    "h": 259,
+    "text": "Standards are meaningless if not checked for compliance – which is why Fairtrade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 162,
+    "y": 5483,
+    "w": 405,
+    "h": 48,
+    "text": "learn how certification and audits work",
+    "href": "/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 740,
+    "y": 5054,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 5768,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 5768,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 76,
+    "y": 5858,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 5906,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 5956,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 418,
+    "y": 5858,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 5906,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 5956,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 6005,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 6055,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 760,
+    "y": 5858,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 5906,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 5956,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 5858,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 5904,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 5904,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 5904,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 5904,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 5992,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 6038,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 48,
+    "controls": 34,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/fairtrade-standards",
+  "at": "2026-11-14T10:54:22.235Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6166,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_13df0d1ade5b87108701c0132044859868"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > span.breadcrumbs-breadcrumb-title",
+    "x": 125,
+    "y": 122,
+    "w": 90,
+    "h": 20,
+    "text": "Why Fairtrade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 255,
+    "y": 122,
+    "w": 81,
+    "h": 20,
+    "text": "how we do it",
+    "href": "/us-en/why-fairtrade/how-we-do-it.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 376,
+    "y": 122,
+    "w": 126,
+    "h": 20,
+    "text": "fairtrade standards",
+    "href": "/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-title > h1#fairtrade-standards",
+    "x": 421,
+    "y": 224,
+    "w": 598,
+    "h": 79,
+    "level": 1,
+    "text": "fairtrade standards"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-lead > p",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 115,
+    "text": "The Fairtrade Standards are the foundation of our work. They establish what we m"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.ultra-wide > picture > img",
+    "x": 48,
+    "y": 514,
+    "w": 1344,
+    "h": 576,
+    "text": "bananas on a shelf with the fairtrade mark",
+    "file": "media_1c3bce57a163ea2b9ad93334b742666d30"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1210,
+    "w": 660,
+    "h": 115,
+    "text": "The Standards provide the framework for Fairtrade certification by detailing the"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1358,
+    "w": 660,
+    "h": 86,
+    "text": "The Fairtrade Standards incorporate comprehensive social, economic, and environm"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#current-fairtrade-standards",
+    "x": 162,
+    "y": 1685,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "current fairtrade standards"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 1815,
+    "w": 538,
+    "h": 86,
+    "text": "Our standards are tailored to the realities of farmer cooperatives, workers at l"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 162,
+    "y": 1933,
+    "w": 393,
+    "h": 48,
+    "text": "check which standards apply to whom",
+    "href": "/en/why-fairtrade/how-we-do-it/standards/who-we-have-standards-for.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 740,
+    "y": 1564,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "media_10475eb392403b228ba94d6d801ea7fe41"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#minimum-price-and-premium-database",
+    "x": 162,
+    "y": 2369,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "minimum price and premium database"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 2498,
+    "w": 538,
+    "h": 115,
+    "text": "When selling their products through Fairtrade, producers can rely on the safety "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 162,
+    "y": 2645,
+    "w": 399,
+    "h": 48,
+    "text": "look up fairtrade prices and premiums",
+    "href": "/en/why-fairtrade/how-we-do-it/standards/fairtrade-minimum-price-and-premium-information.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 740,
+    "y": 2262,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "media_17613658199fc5341e03500e78f53270a1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#how-we-set-standards",
+    "x": 162,
+    "y": 3093,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "how we set standards"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 3170,
+    "w": 538,
+    "h": 86,
+    "text": "The Fairtrade Standards are set through a transparent process with participation"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 162,
+    "y": 3317,
+    "w": 368,
+    "h": 48,
+    "text": "learn more about standard-setting",
+    "href": "/us-en/why-fairtrade/how-we-do-it/fairtrade-standards/how-we-set-standards.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 740,
+    "y": 2960,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "media_142a495f6ebafcc894e1acf820ea52e9d9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#objectives-of-the-fairtrade-standards",
+    "x": 162,
+    "y": 3750,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "objectives of the fairtrade standards"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 3880,
+    "w": 538,
+    "h": 115,
+    "text": "The Fairtrade Standards aim to provide a structure for sustainable agricultural "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 162,
+    "y": 4056,
+    "w": 359,
+    "h": 48,
+    "text": "delve into the standard objectives",
+    "href": "/en/why-fairtrade/how-we-do-it/standards/objectives-of-the-standards.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 740,
+    "y": 3658,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "media_192d058817abfca502ecd62961f3c2e394"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#standards-and-pricing-work-in-progress",
+    "x": 162,
+    "y": 4463,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "standards and pricing work in progress"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 4592,
+    "w": 538,
+    "h": 115,
+    "text": "We regularly set new Fairtrade standards and prices or review existing ones. Her"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 162,
+    "y": 4739,
+    "w": 378,
+    "h": 48,
+    "text": "see what we're currently working on",
+    "href": "/en/why-fairtrade/how-we-do-it/standards/standards-work-in-progress.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 740,
+    "y": 4356,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "media_14564301afeddc0060305bb65c8e333037"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#control-mechanisms",
+    "x": 162,
+    "y": 5115,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "control mechanisms"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 5192,
+    "w": 538,
+    "h": 230,
+    "text": "Standards are meaningless if not checked for compliance – which is why Fairtrade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 162,
+    "y": 5483,
+    "w": 405,
+    "h": 48,
+    "text": "learn how certification and audits work",
+    "href": "/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 740,
+    "y": 5054,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "media_1de959893d547674d185aac888a9aa08bc"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 5768,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 5768,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 76,
+    "y": 5858,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 5906,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 5956,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 418,
+    "y": 5858,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 5906,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 5956,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 6005,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 6055,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 760,
+    "y": 5858,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 5906,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 5956,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 5858,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 5904,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 5904,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 5904,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 5904,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 5992,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 6038,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 48,
+    "controls": 34,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "fairtrade standards",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 3,
+    "image": 2
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "current fairtrade standards",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "minimum price and premium database",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "how we set standards",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "objectives of the fairtrade standards",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "standards and pricing work in progress",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "control mechanisms",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 90,
+    "h": 17
+   },
+   {
+    "x": 255,
+    "y": 123,
+    "w": 81,
+    "h": 17
+   },
+   {
+    "x": 376,
+    "y": 123,
+    "w": 126,
+    "h": 17
+   },
+   {
+    "x": 421,
+    "y": 227,
+    "w": 598,
+    "h": 72
+   },
+   {
+    "x": 276,
+    "y": 339,
+    "w": 887,
+    "h": 29
+   },
+   {
+    "x": 279,
+    "y": 378,
+    "w": 882,
+    "h": 29
+   },
+   {
+    "x": 579,
+    "y": 416,
+    "w": 282,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1213,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1242,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1271,
+    "w": 593,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1300,
+    "w": 389,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1361,
+    "w": 603,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1389,
+    "w": 641,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1418,
+    "w": 428,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1687,
+    "w": 346,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 1740,
+    "w": 206,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 1818,
+    "w": 531,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1846,
+    "w": 514,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1875,
+    "w": 488,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 1946,
+    "w": 325,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 2371,
+    "w": 387,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 2423,
+    "w": 377,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 2501,
+    "w": 532,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 2530,
+    "w": 524,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 2559,
+    "w": 496,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 2588,
+    "w": 56,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 2658,
+    "w": 331,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3095,
+    "w": 428,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 3173,
+    "w": 510,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3202,
+    "w": 475,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3230,
+    "w": 139,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 3330,
+    "w": 300,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3752,
+    "w": 522,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 3805,
+    "w": 206,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 3883,
+    "w": 439,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3912,
+    "w": 521,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3940,
+    "w": 465,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3969,
+    "w": 182,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 4069,
+    "w": 291,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 4465,
+    "w": 435,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 4517,
+    "w": 326,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 4595,
+    "w": 506,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 4624,
+    "w": 470,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 4653,
+    "w": 533,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 4682,
+    "w": 320,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 4752,
+    "w": 310,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5117,
+    "w": 402,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 5195,
+    "w": 532,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5224,
+    "w": 468,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5252,
+    "w": 531,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5281,
+    "w": 486,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5310,
+    "w": 536,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5339,
+    "w": 508,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5368,
+    "w": 521,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5396,
+    "w": 235,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 5496,
+    "w": 337,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 5770,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 5857,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 5909,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 5959,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5857,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 5909,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5959,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6008,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6058,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 5857,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 5909,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 5959,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 5857,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 5991,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 6051,
+    "w": 127,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 90,
+    "h": 17
+   },
+   {
+    "x": 255,
+    "y": 123,
+    "w": 81,
+    "h": 17
+   },
+   {
+    "x": 376,
+    "y": 123,
+    "w": 126,
+    "h": 17
+   },
+   {
+    "x": 421,
+    "y": 227,
+    "w": 598,
+    "h": 72
+   },
+   {
+    "x": 276,
+    "y": 339,
+    "w": 887,
+    "h": 29
+   },
+   {
+    "x": 279,
+    "y": 378,
+    "w": 882,
+    "h": 29
+   },
+   {
+    "x": 579,
+    "y": 416,
+    "w": 282,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1213,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1242,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1271,
+    "w": 593,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1300,
+    "w": 389,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1361,
+    "w": 603,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1389,
+    "w": 641,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1418,
+    "w": 428,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1687,
+    "w": 346,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 1740,
+    "w": 206,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 1818,
+    "w": 531,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1846,
+    "w": 514,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 1875,
+    "w": 488,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 1946,
+    "w": 325,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 2371,
+    "w": 387,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 2423,
+    "w": 377,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 2501,
+    "w": 532,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 2530,
+    "w": 524,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 2559,
+    "w": 496,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 2588,
+    "w": 56,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 2658,
+    "w": 331,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3095,
+    "w": 428,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 3173,
+    "w": 510,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3202,
+    "w": 475,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3230,
+    "w": 139,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 3330,
+    "w": 300,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3752,
+    "w": 522,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 3805,
+    "w": 206,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 3883,
+    "w": 439,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3912,
+    "w": 521,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3940,
+    "w": 465,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3969,
+    "w": 182,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 4069,
+    "w": 291,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 4465,
+    "w": 435,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 4517,
+    "w": 326,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 4595,
+    "w": 506,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 4624,
+    "w": 470,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 4653,
+    "w": 533,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 4682,
+    "w": 320,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 4752,
+    "w": 310,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5117,
+    "w": 402,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 5195,
+    "w": 532,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5224,
+    "w": 468,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5252,
+    "w": 531,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5281,
+    "w": 486,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5310,
+    "w": 536,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5339,
+    "w": 508,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5368,
+    "w": 521,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5396,
+    "w": 235,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 5496,
+    "w": 337,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 5770,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 5857,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 5909,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 5959,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5857,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 5909,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5959,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6008,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6058,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 5857,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 5909,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 5959,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 5857,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 5991,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 6051,
+    "w": 127,
+    "h": 22
+   }
+  ]
+ }
+}

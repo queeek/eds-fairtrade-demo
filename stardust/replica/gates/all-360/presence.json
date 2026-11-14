@@ -1,0 +1,14 @@
+{
+  "at-de-html": {
+    "variable": [".ProductTeaserCarousel=.product-carousel"],
+    "reason": "Session-variable region: the source product carousel is fed live by the product finder and rotates its product set between visits (published-origin probe 2026-11-14: 4 of the captured products no longer listed, 5 others shown). The migration ships the captured snapshot (dynamic-features.md: static snapshot); counts compared, links not."
+  },
+  "ch-de-html": {
+    "variable": [".ProductTeaserCarousel=.product-carousel"],
+    "reason": "Session-variable region: live product-finder carousel, same as at-de (static snapshot shipped)."
+  },
+  "ch-fr-html": {
+    "variable": [".ProductTeaserCarousel=.product-carousel"],
+    "reason": "Session-variable region: live product-finder carousel, same as at-de / ch-de (static snapshot shipped). Its initial scroll position also varies between source loads (measured 2026-11-14 at 360: first card x -3675 on one load, -3909 on the next = card 17 vs 18 centred); the build reproduces the usual position (product-carousel start-shift-5); counts compared, links not."
+  }
+}

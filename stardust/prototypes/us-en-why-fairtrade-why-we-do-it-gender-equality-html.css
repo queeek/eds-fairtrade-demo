@@ -1,0 +1,139 @@
+/* =====================================================================
+   Content-page layer (page type `static` — archetype gender-equality).
+   Loaded AFTER canon.css. Holds the modules the home archetype did not
+   need, written reusable for every content page (products, about,
+   why-fairtrade, for-business …):
+     Breadcrumbs (header strip of every non-home page), PageLead,
+     SingleImage, the extra Image ratios (rectangular / ultra-wide).
+   Values lifted from stardust/current/assets/css/site.css (offsets noted
+   as @n); pc/pt resolved to px (1pc = 16px, 1pt = 4/3px, 20in = 1920px).
+   ===================================================================== */
+
+/* ---------- grid primitive for the new modules (same model as canon's) ---------- */
+.PageLead--contentGrid, .PageLead--imageGrid, .SingleImage.size-content, .SingleImage.size-thumbnail,
+.Breadcrumbs--desktop, .Breadcrumbs--mobile {
+  column-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-inline: auto;
+  padding-inline: 18px;
+  width: min(100%, 1920px);
+}
+@media (width >= 640px) {
+  .PageLead--contentGrid, .PageLead--imageGrid, .SingleImage.size-content, .SingleImage.size-thumbnail,
+  .Breadcrumbs--desktop, .Breadcrumbs--mobile { padding-inline: 24px; }
+}
+@media (width >= 768px) {
+  .PageLead--contentGrid, .PageLead--imageGrid, .SingleImage.size-content, .SingleImage.size-thumbnail,
+  .Breadcrumbs--desktop, .Breadcrumbs--mobile { grid-template-columns: repeat(12, 1fr); padding-inline: 32px; }
+}
+@media (width >= 1024px) {
+  .PageLead--contentGrid, .PageLead--imageGrid, .SingleImage.size-content, .SingleImage.size-thumbnail,
+  .Breadcrumbs--desktop, .Breadcrumbs--mobile { column-gap: 20px; padding-inline: 36px; }
+}
+@media (width >= 1280px) {
+  .PageLead--contentGrid, .PageLead--imageGrid, .SingleImage.size-content, .SingleImage.size-thumbnail,
+  .Breadcrumbs--desktop, .Breadcrumbs--mobile { column-gap: 24px; padding-inline: 40px; }
+}
+@media (width >= 1440px) {
+  .PageLead--contentGrid, .PageLead--imageGrid, .SingleImage.size-content, .SingleImage.size-thumbnail,
+  .Breadcrumbs--desktop, .Breadcrumbs--mobile { padding-inline: 48px; }
+}
+.PageLead--contentGrid > *, .PageLead--imageGrid > *, .SingleImage.size-content > *, .SingleImage.size-thumbnail > *,
+.Breadcrumbs--desktop > *, .Breadcrumbs--mobile > * { grid-column: 1 / -1; min-width: 0; }
+
+/* ---------- Image ratios not used on home (@76777–@77327) ---------- */
+.Image.ultra-wide:before { aspect-ratio: 2.3333333333; content: ""; display: block; width: 100%; }
+.Image.rectangular:before { aspect-ratio: 1.3333333333; content: ""; display: block; width: 100%; }
+.Image.portrait:before { aspect-ratio: .75; content: ""; display: block; width: 100%; }
+
+/* ---------- content fader: the source exempts the lead + breadcrumbs (@14865) ---------- */
+.has-fader [data-content-fader] > .PageLead { opacity: 1; transform: none; transition: none; }
+
+/* ---------- Breadcrumbs (@185212–@189046) — inside <header>, absolutely under the topbar ---------- */
+.Breadcrumbs {
+  --link-color: #1e1e1e; --link-color-hover: rgba(30, 30, 30, .5); --span-color: rgba(30, 30, 30, .5);
+  --icon-color: #7b1dab; --background-color: transparent;
+  background-color: var(--background-color); font-size: 14px; inset: 100% 0 auto; line-height: 1.4;
+  padding: 16px 0; position: absolute; z-index: 1;
+}
+.Breadcrumbs.theme-dark, body:has(.PageLead.theme-nightsky) .Breadcrumbs {
+  --link-color: #fff; --link-color-hover: hsla(0, 0%, 100%, .5); --span-color: hsla(0, 0%, 100%, .5); --icon-color: #09fbd3; --background-color: #001b6e;
+}
+.Breadcrumbs--list { display: flex; gap: 8px; }
+.Breadcrumbs--breadcrumb { align-items: center; display: inline-flex; gap: 8px; min-width: 0; }
+.Breadcrumbs--breadcrumb:first-child, .Breadcrumbs--breadcrumb:last-child { flex: 0 0 auto; }
+.Breadcrumbs--breadcrumb--title { color: var(--span-color); }
+.Breadcrumbs--breadcrumb--link { color: var(--link-color); transition: color .2s ease-in-out; }
+@media (hover: hover) { .Breadcrumbs--breadcrumb--link:is(:hover, :focus-visible, :active) { color: var(--link-color-hover); } }
+.Breadcrumbs--breadcrumb--current, .Breadcrumbs--breadcrumb--link, .Breadcrumbs--breadcrumb--title {
+  font-size: 14px; line-height: 1.4; max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.Breadcrumbs--breadcrumb--current { color: var(--link-color); font-weight: 800; }
+.Breadcrumbs--breadcrumb--icon { color: var(--icon-color); flex: 0 0 auto; }
+.Breadcrumbs--desktop { display: none; }
+@media (width >= 1024px) { .Breadcrumbs--desktop { display: block; } }
+.Breadcrumbs--mobile { align-items: center; display: flex; gap: 4px; }
+@media (width >= 1024px) { .Breadcrumbs--mobile { display: none; } }
+.Breadcrumbs--mobile .Breadcrumbs--breadcrumb--link { max-width: none; }
+
+/* ---------- PageLead (@137695–@141919) ---------- */
+.PageLead { --background-color: #d4ff47; --color: #1e1e1e; }
+.PageLead:not(.no-gap) { padding-bottom: 64px; }
+@media (width >= 1024px) { .PageLead:not(.no-gap) { padding-bottom: 80px; } }
+.PageLead.theme-skyblue { --background-color: #0fc0fc; }
+.PageLead.theme-nightsky { --background-color: #001b6e; --color: #fff; }
+.PageLead.theme-white { --background-color: #fff; }
+.PageLead--content { background-color: var(--background-color); }
+.PageLead--contentGrid { color: var(--color); padding-bottom: 48px; padding-top: 80px; place-items: center; }
+.no-gap .PageLead--contentGrid { padding-bottom: 64px; }
+@media (width >= 1024px) { .PageLead--contentGrid { padding-bottom: 64px; padding-top: 120px; } }
+@media (width >= 1024px) { .no-gap .PageLead--contentGrid { padding-bottom: 80px; } }
+@media (width >= 768px) { .PageLead--contentGrid > * { grid-column: 2 / -2; } }
+@media (width >= 1024px) { .PageLead--contentGrid > * { grid-column: 3 / -3; } }
+.PageLead--title { font-family: var(--ff-head); font-size: 48px; font-weight: 900; line-height: 1.1; text-align: center; }
+@media (width >= 1024px) { .PageLead--title { font-size: 72px; } }
+.PageLead--tags { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 28px; }
+@media (width >= 1024px) { .PageLead--tags { margin-top: 32px; } }
+.PageLead--lead { font-size: 20px; font-weight: 600; line-height: 1.6; margin-top: 28px; }
+@media (width >= 1024px) { .PageLead--lead { font-size: 24px; margin-top: 32px; } }
+@media (width >= 768px) { .PageLead--lead { text-align: center; } }
+.PageLead--cta { margin-top: 32px; }
+@media (width >= 1024px) { .PageLead--cta { margin-top: 40px; } }
+.PageLead--image { background-image: linear-gradient(to bottom, var(--background-color) 33.3333333333%, #fff 33.3333333333%); }
+.PageLead--imageDesktop { display: none; }
+@media (width >= 768px) { .PageLead--imageMobile { display: none; } .PageLead--imageDesktop { display: unset; } }
+.PageLead--imageProduct {
+  --padding: 18px; --base: calc(min(100vw, 1920px) - var(--padding) * 2); --ratio: 1.3333333333;
+  background-color: transparent; max-height: calc(var(--base) / var(--ratio));
+}
+@media (width >= 640px) { .PageLead--imageProduct { --padding: 24px; } }
+@media (width >= 768px) { .PageLead--imageProduct { --padding: 32px; --ratio: 2.3333333333; } }
+@media (width >= 1024px) { .PageLead--imageProduct { --padding: 36px; } }
+@media (width >= 1280px) { .PageLead--imageProduct { --padding: 40px; } }
+@media (width >= 1440px) { .PageLead--imageProduct { --padding: 48px; } }
+.PageLead--imageProduct > img { margin: 0 auto; max-height: 100%; max-width: 100%; object-fit: contain; }
+
+/* ---------- SingleImage (@164397–@167299) ---------- */
+.SingleImage { padding-block: 64px; }
+@media (width >= 1024px) { .SingleImage { padding-block: 80px; } }
+.SingleImage.size-thumbnail { padding-block: 12px; }
+@media (width >= 1024px) { .SingleImage.size-thumbnail { padding-block: 16px; } }
+@media (width >= 1024px) { .size-content .SingleImage--figure { grid-column: 2 / -2; } }
+@media (width >= 768px) { .size-thumbnail .SingleImage--figure { grid-column: 2 / -2; } }
+@media (width >= 1024px) { .size-thumbnail .SingleImage--figure { grid-column: 4 / -4; } }
+.SingleImage--image.desktop { display: none; }
+.SingleImage--image.mobile { display: block; }
+@media (width >= 768px) { .SingleImage--image.desktop { display: block; } .SingleImage--image.mobile { display: none; } }
+.size-full-bleed .SingleImage--image { border-radius: 0; }
+.size-thumbnail .SingleImage--image { max-height: 240px; }
+.size-thumbnail .SingleImage--image img { border-radius: 4px; max-height: 240px; max-width: 100%; overflow: hidden; }
+.SingleImage--caption { align-items: normal; display: flex; flex-direction: row; font-size: 13px; gap: 2px; line-height: 1.6; margin-top: 12px; }
+@media (width >= 1024px) { .SingleImage--caption { font-size: 14px; } }
+.size-full-bleed .SingleImage--caption { margin-inline: auto; padding-inline: 18px; width: min(100%, 1920px); }
+@media (width >= 640px) { .size-full-bleed .SingleImage--caption { padding-inline: 24px; } }
+@media (width >= 768px) { .size-full-bleed .SingleImage--caption { padding-inline: 32px; } }
+@media (width >= 1024px) { .size-full-bleed .SingleImage--caption { padding-inline: 36px; } }
+@media (width >= 1280px) { .size-full-bleed .SingleImage--caption { padding-inline: 40px; } }
+@media (width >= 1440px) { .size-full-bleed .SingleImage--caption { padding-inline: 48px; } }
+.SingleImage--caption--icon { color: #0fc0fc; flex: 0 0 auto; }

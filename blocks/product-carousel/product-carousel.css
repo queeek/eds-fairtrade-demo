@@ -1,0 +1,321 @@
+/* product-carousel — source ProductTeaserCarousel / Carousel / ProductTeaser
+   (stardust/prototypes/at-de-html.css; values verbatim) */
+.product-carousel {
+  padding-block: 64px;
+}
+
+.product-carousel .product-carousel-content {
+  background-color: #0fc0fc;
+  padding: 64px 0;
+}
+
+.product-carousel .product-carousel-grid {
+  display: grid;
+  gap: 32px var(--grid-gap);
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
+  margin-inline: auto;
+  padding-inline: var(--grid-padding);
+  place-items: center;
+  width: min(100%, var(--max-width));
+}
+
+.product-carousel .product-carousel-grid > * {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+.product-carousel .product-carousel-carousel {
+  padding: 48px 0;
+}
+
+.product-carousel .product-carousel-subtitle,
+.product-carousel .product-carousel-title {
+  text-align: center;
+  text-wrap: balance;
+}
+
+.product-carousel .product-carousel-subtitle {
+  color: rgb(30 30 30 / 50%);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.product-carousel .product-carousel-subtitle p {
+  margin: 0;
+}
+
+.product-carousel .product-carousel-title {
+  font-family: var(--ff-head);
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.product-carousel .product-carousel-title :is(h1, h2, h3) {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.product-carousel .product-carousel-foot p {
+  margin: 0;
+}
+
+/* .Button.variant-secondary.color-white */
+.product-carousel .product-carousel-foot a.button {
+  --border-color: #fff;
+  --border-color-hover: #fff;
+  --border-color-active: hsl(0deg 0% 100% / 50%);
+  --background-color-hover: hsl(0deg 0% 100% / 25%);
+  --background-color-active: transparent;
+}
+
+/* Carousel */
+.product-carousel .carousel {
+  align-items: center;
+  display: grid;
+  position: relative;
+}
+
+.product-carousel .carousel.contains-product-teasers {
+  --track-gap: 12px;
+}
+
+.product-carousel .carousel-list {
+  --horizontal-padding: 24px;
+
+  display: flex;
+  gap: var(--track-gap, 0);
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  padding: 0 var(--horizontal-padding);
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.product-carousel .carousel-list::-webkit-scrollbar {
+  display: none;
+}
+
+.product-carousel .carousel.is-initialized .carousel-list {
+  scroll-behavior: smooth;
+}
+
+.product-carousel .carousel.is-overflowing .carousel-list {
+  justify-content: unset;
+}
+
+.product-carousel .carousel-item {
+  flex: 0 0 auto;
+  min-width: 0;
+  scroll-snap-align: center;
+}
+
+.product-carousel .carousel-controls {
+  display: flex;
+  inset: auto 8px;
+  justify-content: space-between;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+}
+
+.product-carousel .carousel.is-overflowing .carousel-controls {
+  opacity: 1;
+}
+
+.product-carousel .carousel.is-overflowing .carousel-controls > * {
+  pointer-events: auto;
+}
+
+.product-carousel .carousel-control-next,
+.product-carousel .carousel-control-previous {
+  box-shadow: 0 4px 8px rgb(30 30 30 / 10%);
+}
+
+/* ProductTeaser */
+.product-carousel .product-teaser {
+  --image-size: 172px;
+  --teaser-padding: 24px;
+
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 16px;
+  color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: var(--teaser-padding);
+  row-gap: 12px;
+  text-decoration: none;
+  width: min-content;
+}
+
+.product-carousel .product-teaser-image {
+  align-self: center;
+  height: var(--image-size);
+  scale: 85%;
+  transform-origin: center;
+  transition: scale .2s ease-in-out;
+  width: var(--image-size);
+}
+
+.product-carousel .product-teaser:is(:hover, :focus-visible) .product-teaser-image {
+  scale: 95%;
+}
+
+.product-carousel .product-teaser-image .image {
+  background-color: transparent;
+}
+
+.product-carousel .product-teaser-image .image picture {
+  display: contents;
+}
+
+.product-carousel .product-teaser-image .image img {
+  height: 100%;
+  inset: 0;
+  object-fit: contain;
+  position: absolute;
+  width: 100%;
+}
+
+.product-carousel .product-teaser-merchant {
+  color: #787878;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.product-carousel .product-teaser-title {
+  font-family: var(--ff-head);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.product-carousel .product-teaser-title :is(h2, h3, h4) {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.product-carousel .product-teaser p {
+  margin: 0;
+}
+
+/* "Mehr erfahren" = canon .Button.variant-tertiary (fake link inside the card link); the wrapper
+   is a block line (body line-height strut) holding an inline-flex button, as on the source:
+   div.ProductTeaser--cta > span.Button.variant-tertiary */
+.product-carousel .product-teaser-cta {
+  display: block;
+}
+
+.product-carousel .product-teaser-cta p {
+  display: inline-flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+}
+
+.product-carousel .product-teaser-cta p::after {
+  background-color: #0fc0fc;
+  content: "";
+  display: block;
+  height: 4px;
+  margin-top: 4px;
+  scale: 1 .5;
+  transform-origin: bottom;
+  transition: background-color .2s ease-in-out, scale .2s ease-in-out;
+}
+
+.product-carousel .product-teaser:is(:hover, :focus-visible) .product-teaser-cta {
+  color: #035e7c;
+}
+
+.product-carousel .product-teaser:is(:hover, :focus-visible) .product-teaser-cta p::after {
+  background-color: #035e7c;
+  scale: 1;
+}
+
+.product-carousel .product-teaser:active .product-teaser-cta p::after {
+  scale: 1 .5;
+}
+
+@media (width >= 768px) {
+  .product-carousel .product-carousel-grid > * {
+    grid-column: 3 / -3;
+  }
+
+  .product-carousel .carousel-list {
+    --horizontal-padding: 32px;
+  }
+}
+
+@media (width >= 1024px) {
+  .product-carousel {
+    padding-block: 80px;
+  }
+
+  .product-carousel .product-carousel-content {
+    padding: 80px 0;
+  }
+
+  .product-carousel .product-carousel-grid > * {
+    grid-column: 4 / -4;
+  }
+
+  .product-carousel .product-carousel-carousel {
+    padding: 64px 0;
+  }
+
+  .product-carousel .product-carousel-subtitle {
+    font-size: 18px;
+  }
+
+  .product-carousel .product-carousel-title {
+    font-size: 64px;
+  }
+
+  .product-carousel .carousel.contains-product-teasers {
+    --track-gap: 32px;
+  }
+
+  .product-carousel .carousel-controls {
+    inset: auto 32px;
+  }
+
+  .product-carousel .carousel.is-overflowing.has-controls-on-hover .carousel-controls {
+    opacity: 0;
+  }
+
+  .product-carousel .carousel.is-overflowing.has-controls-on-hover:hover .carousel-controls {
+    opacity: 1;
+  }
+
+  .product-carousel .product-teaser {
+    --image-size: 224px;
+    --teaser-padding: 24px 32px;
+  }
+
+  .product-carousel .product-teaser-merchant {
+    font-size: 18px;
+  }
+
+  .product-carousel .product-teaser-title {
+    font-size: 32px;
+  }
+}
+
+@media (width >= 1440px) {
+  .product-carousel .carousel-controls {
+    inset: auto 48px;
+  }
+}

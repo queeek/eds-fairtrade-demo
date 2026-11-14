@@ -1,0 +1,34 @@
+[live-session] waiting to pace live navigations to www.fairtrade.net (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 503 ms
+
+Content diff @ 1440px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 149 text nodes — 18 headings, 0 eyebrows, 18 CTAs, 113 body; 44 img
+  build: 149 text nodes — 18 headings, 0 eyebrows, 18 CTAs, 113 body; 44 img
+  editable texts (outermost h*/p/ul/ol): source 23 / build 24
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 26 / build 16
+root "header"
+  source: 308 text nodes — 0 headings, 0 eyebrows, 198 CTAs, 110 body; 7 img
+  build: 308 text nodes — 0 headings, 0 eyebrows, 198 CTAs, 110 body; 7 img
+  editable texts (outermost h*/p/ul/ol): source 26 / build 26
+  attributes (placeholder/aria-label/title): source 5 / build 5; icons: source 217 / build 214
+root "footer"
+  source: 18 text nodes — 0 headings, 0 eyebrows, 11 CTAs, 7 body; 0 img
+  build: 18 text nodes — 0 headings, 0 eyebrows, 11 CTAs, 7 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 15 / build 15
+
+Findings: 13 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 13
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 100 100 / 1 shape(s) (0×0) at "09.11.26 zukunft der landwirtschaft news" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 768 40 / 1 shape(s) (0×0) at "09.11.26 zukunft der landwirtschaft news" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 375 40 / 1 shape(s) (0×0) at "09.11.26 zukunft der landwirtschaft news" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [header]: source image data:image/gif… (1×1) at "produkt-finder suche nach fairtrade-prod" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [header]: source image data:image/gif… (1×1) at "fairtrade-code starte eine virtuelle rei" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [header]: source image data:image/gif… (1×1) at "fairtrade-updates für engagierte infos z" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.

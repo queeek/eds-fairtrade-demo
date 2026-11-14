@@ -1,0 +1,133 @@
+/* single-image — source SingleImage (stardust/prototypes/us-en-why-fairtrade-why-we-do-it-gender-equality-html.css;
+   values verbatim) */
+.single-image {
+  column-gap: var(--grid-gap);
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
+  margin-inline: auto;
+  padding: 64px var(--grid-padding);
+  width: min(100%, var(--max-width));
+}
+
+.single-image > * {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+.single-image .single-image-figure {
+  margin: 0;
+}
+
+.single-image .image.rectangular::before {
+  aspect-ratio: 4 / 3;
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.single-image .image picture {
+  display: contents;
+}
+
+.single-image .image img {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.single-image .single-image-image.desktop {
+  display: none;
+}
+
+.single-image .single-image-image.mobile {
+  display: block;
+}
+
+.single-image .single-image-caption {
+  align-items: normal;
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  gap: 2px;
+  line-height: 1.6;
+  margin-top: 12px;
+}
+
+.single-image .single-image-caption p {
+  margin: 0;
+}
+
+.single-image .single-image-caption-icon {
+  color: #0fc0fc;
+  flex: 0 0 auto;
+}
+
+.single-image.thumbnail {
+  padding-block: 12px;
+}
+
+.single-image.full-bleed .single-image-image {
+  border-radius: 0;
+}
+
+@media (width >= 768px) {
+  .single-image .single-image-image.desktop {
+    display: block;
+  }
+
+  .single-image .single-image-image.mobile {
+    display: none;
+  }
+
+  .single-image.thumbnail .single-image-figure {
+    grid-column: 2 / -2;
+  }
+}
+
+@media (width >= 1024px) {
+  .single-image {
+    padding-block: 80px;
+  }
+
+  .single-image .single-image-figure {
+    grid-column: 2 / -2;
+  }
+
+  .single-image.thumbnail {
+    padding-block: 16px;
+  }
+
+  .single-image.thumbnail .single-image-figure {
+    grid-column: 4 / -4;
+  }
+
+  .single-image .single-image-caption {
+    font-size: 14px;
+  }
+}
+
+/* thumbnail — source SingleImage.size-thumbnail: the image at its natural size (no crop frame),
+   max-height 240px, radius 4px (how-does-the-label-work label logos) */
+.single-image.thumbnail .single-image-image {
+  background-color: transparent;
+  border-radius: 0;
+  max-height: 240px;
+  overflow: visible;
+  position: static;
+}
+
+.single-image.thumbnail .single-image-image::before {
+  content: none;
+}
+
+.single-image.thumbnail .image img {
+  border-radius: 4px;
+  height: auto;
+  max-height: 240px;
+  max-width: 100%;
+  object-fit: fill;
+  position: static;
+  width: auto;
+}

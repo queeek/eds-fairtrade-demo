@@ -1,0 +1,6668 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T11:02:15.284Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/deforestation.html",
+  "at": "2026-11-14T11:01:51.924Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6876,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "Fairtrade_America_Logo_Vert_80x80"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > span.Breadcrumbs--breadcrumb--title",
+    "x": 125,
+    "y": 122,
+    "w": 90,
+    "h": 20,
+    "text": "Why Fairtrade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 255,
+    "y": 122,
+    "w": 81,
+    "h": 20,
+    "text": "why we do it",
+    "href": "/us-en/why-fairtrade/why-we-do-it.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 376,
+    "y": 122,
+    "w": 88,
+    "h": 20,
+    "text": "deforestation",
+    "href": "/us-en/why-fairtrade/why-we-do-it/deforestation.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+    "x": 276,
+    "y": 224,
+    "w": 888,
+    "h": 238,
+    "level": 1,
+    "text": "fairtrade supports producers to protect forests and prevent deforestation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+    "x": 276,
+    "y": 494,
+    "w": 888,
+    "h": 230,
+    "text": "Deforestation is a driver of climate change and contributes to loss of biodivers"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--imageGrid > div.Image.ultra-wide > img.lazyautosizes.lazyloaded",
+    "x": 48,
+    "y": 788,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "21x9_1440w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > b",
+    "x": 390,
+    "y": 1487,
+    "w": 647,
+    "h": 137,
+    "text": "Healthy forests are not just good for the planet, through their important role i"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1660,
+    "w": 660,
+    "h": 86,
+    "text": "Poverty and a lack of decent living conditions lead people to turn to the forest"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1778,
+    "w": 660,
+    "h": 86,
+    "text": "The activities that cause most deforestation are the timber industry, followed b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1897,
+    "w": 660,
+    "h": 115,
+    "text": "through fundamental elements such as our comprehensive Standards, financial bene"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.panelcontainer > div.AccordionSection > h2.AccordionSection--title",
+    "x": 390,
+    "y": 2132,
+    "w": 660,
+    "h": 70,
+    "level": 2,
+    "text": "our approach to preventing deforestation and protecting forests"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2234,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2234,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 2255,
+    "w": 171,
+    "h": 22,
+    "level": 3,
+    "text": "fairer for farmers"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2298,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2298,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 2319,
+    "w": 316,
+    "h": 22,
+    "level": 3,
+    "text": "high quality data and monitoring"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2362,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2362,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 2383,
+    "w": 289,
+    "h": 22,
+    "level": 3,
+    "text": "robust and aligned standards"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2426,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2426,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 2447,
+    "w": 198,
+    "h": 22,
+    "level": 3,
+    "text": "tackling root causes"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2490,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 2490,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 2511,
+    "w": 263,
+    "h": 22,
+    "level": 3,
+    "text": "raising our voices together"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 2674,
+    "w": 660,
+    "h": 70,
+    "level": 3,
+    "text": "how fairtrade supports compliance with the european union deforestation regulation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2769,
+    "w": 660,
+    "h": 86,
+    "text": "No certification can take the place of companies’ own due diligence – that’s cle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2887,
+    "w": 660,
+    "h": 58,
+    "text": "Fairtrade can support companies with four main European Deforestation Regulation"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.panelcontainer > div.AccordionSection > h2.AccordionSection--title",
+    "x": 390,
+    "y": 3065,
+    "w": 660,
+    "h": 35,
+    "level": 2,
+    "text": "areas of support"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 3132,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 3132,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 3153,
+    "w": 265,
+    "h": 22,
+    "level": 3,
+    "text": "collecting geolocation data"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 3196,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 3196,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 3217,
+    "w": 396,
+    "h": 22,
+    "level": 3,
+    "text": "collecting deforestation monitoring data"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 3260,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 3260,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 3281,
+    "w": 282,
+    "h": 22,
+    "level": 3,
+    "text": "conducting risk assessments"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 3324,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 3324,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 3345,
+    "w": 379,
+    "h": 22,
+    "level": 3,
+    "text": "implementing risk mitigation measures"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 3508,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "benefits of fairtrade:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 3567,
+    "w": 660,
+    "h": 86,
+    "text": "The Fairtrade Standards align with requirements in the EUDR, including a cut-off"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 3665,
+    "w": 660,
+    "h": 58,
+    "text": "Fairtrade Standards also require trade partners to support producers with their "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 3735,
+    "w": 660,
+    "h": 86,
+    "text": "The three regional Fairtrade producer networks – in Latin America and the Caribb"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 3833,
+    "w": 660,
+    "h": 115,
+    "text": "Fairtrade requires physical segregation of Fairtrade coffee and cocoa from farm "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 3961,
+    "w": 660,
+    "h": 86,
+    "text": "Fairtrade can contribute to deforestation risk mitigation measures, by addressin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 485,
+    "y": 3964,
+    "w": 210,
+    "h": 22,
+    "text": "projects and programmes",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > a",
+    "x": 390,
+    "y": 4082,
+    "w": 611,
+    "h": 51,
+    "text": "read our statement from 2 october 2024 on the proposed delay of eudr implementat",
+    "href": "/en/get-involved/news/fairtrade-position-on-the-recent-delay-of-the-eu-deforestation-r.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 4217,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "looking for help on your eudr readiness journey?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4276,
+    "w": 660,
+    "h": 29,
+    "text": "Check out our free resources, guidelines and videos."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 406,
+    "y": 4340,
+    "w": 333,
+    "h": 22,
+    "text": "for fairtrade coffee and cocoa producers",
+    "href": "/en/why-fairtrade/why-we-do-it/deforestation/resources-for-producers-on-the-eu-deforestation-regulation.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 406,
+    "y": 4380,
+    "w": 169,
+    "h": 22,
+    "text": "for fairtrade traders",
+    "href": "/en/why-fairtrade/why-we-do-it/deforestation/resources-for-traders-on-the-eu-deforestation-regulation.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.panelcontainer > div.AccordionSection > h2.AccordionSection--title",
+    "x": 390,
+    "y": 4526,
+    "w": 660,
+    "h": 35,
+    "level": 2,
+    "text": "faqs"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4593,
+    "w": 660,
+    "h": 98,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4593,
+    "w": 660,
+    "h": 98,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 4609,
+    "w": 600,
+    "h": 66,
+    "level": 3,
+    "text": "how can companies – including fairtrade licensees – demonstrate compliance with the european union deforestation regulat"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4691,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4691,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 4707,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "does fairtrade certification count as sufficient evidence of compliance with the eudr?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4767,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4767,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 4783,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "how does fairtrade support commercial partners with their eudr due diligence obligations?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4843,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4843,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 4859,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "how is fairtrade supporting producer organisations with geolocation data collection and deforestation monitoring?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4919,
+    "w": 660,
+    "h": 98,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4919,
+    "w": 660,
+    "h": 98,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 4935,
+    "w": 600,
+    "h": 66,
+    "level": 3,
+    "text": "does fairtrade publish or share supply-chain-specific geolocation data or deforestation risk reports from producer organ"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5017,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5017,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 5033,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "does fairtrade publish the readiness status of fairtrade producer organisations?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5093,
+    "w": 660,
+    "h": 98,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5093,
+    "w": 660,
+    "h": 98,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 5109,
+    "w": 600,
+    "h": 66,
+    "level": 3,
+    "text": "will fairtrade share the geolocation data reported by traders with other supply chain actors apart from producer organis"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5191,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5191,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 5207,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "does satelligence have access to data from traders and national agencies on mapped farms?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5267,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5267,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 5283,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "what’s the progress of fairtrade coffee and cocoa producer organisations’ readiness so far?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5343,
+    "w": 660,
+    "h": 98,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5343,
+    "w": 660,
+    "h": 98,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 5359,
+    "w": 600,
+    "h": 66,
+    "level": 3,
+    "text": "how are commercial partners expected to demonstrate compliance with the fairtrade standards requirements on supporting p"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5441,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5441,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 5462,
+    "w": 413,
+    "h": 22,
+    "level": 3,
+    "text": "how is traceability addressed in the eudr?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5505,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5505,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 5521,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "how does fairtrade’s approach to traceability align with what the eudr requires?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5581,
+    "w": 660,
+    "h": 98,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5581,
+    "w": 660,
+    "h": 98,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 5597,
+    "w": 600,
+    "h": 66,
+    "level": 3,
+    "text": "how should fairtrade cocoa and coffee producer organisations get started on submitting their geolocation data and receiv"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5679,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5679,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 5700,
+    "w": 588,
+    "h": 22,
+    "level": 3,
+    "text": "is use of satelligence mandatory for producer organisations?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5743,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5743,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 5759,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "can deforestation risk assessments from other sources than satelligence be taken into account in fairtrade audits?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5819,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 5819,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 5840,
+    "w": 494,
+    "h": 22,
+    "level": 3,
+    "text": "what happens when a deforestation alert is found?"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.panelcontainer > div.AccordionSection > h2.AccordionSection--title",
+    "x": 390,
+    "y": 6043,
+    "w": 660,
+    "h": 35,
+    "level": 2,
+    "text": "additional resources"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 6110,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 6110,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 6131,
+    "w": 58,
+    "h": 22,
+    "level": 3,
+    "text": "tools:"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 6174,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 6174,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 6195,
+    "w": 115,
+    "h": 22,
+    "level": 3,
+    "text": "documents:"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 6238,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 6238,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 6259,
+    "w": 95,
+    "h": 22,
+    "level": 3,
+    "text": "research:"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 6478,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 6478,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 76,
+    "y": 6568,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 6616,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 6666,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 418,
+    "y": 6568,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 6616,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 6666,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 6716,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 6765,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 760,
+    "y": 6568,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 6616,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 6666,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 6568,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 6614,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 6614,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 6614,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 6614,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 6702,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 6748,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 81,
+    "controls": 60,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/deforestation",
+  "at": "2026-11-14T11:02:15.173Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6867,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_13df0d1ade5b87108701c0132044859868"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > span.breadcrumbs-breadcrumb-title",
+    "x": 125,
+    "y": 122,
+    "w": 90,
+    "h": 20,
+    "text": "Why Fairtrade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 255,
+    "y": 122,
+    "w": 81,
+    "h": 20,
+    "text": "why we do it",
+    "href": "/us-en/why-fairtrade/why-we-do-it.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 376,
+    "y": 122,
+    "w": 88,
+    "h": 20,
+    "text": "deforestation",
+    "href": "/us-en/why-fairtrade/why-we-do-it/deforestation.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-title > h1#fairtrade-supports-producers-to-protect-forests-and-prevent-deforestation",
+    "x": 276,
+    "y": 224,
+    "w": 888,
+    "h": 238,
+    "level": 1,
+    "text": "fairtrade supports producers to protect forests and prevent deforestation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-lead > p",
+    "x": 276,
+    "y": 494,
+    "w": 888,
+    "h": 230,
+    "text": "Deforestation is a driver of climate change and contributes to loss of biodivers"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.ultra-wide > picture > img",
+    "x": 48,
+    "y": 788,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "media_1fd0c5c10a8ad54681de69b7b869df99d2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > strong",
+    "x": 390,
+    "y": 1487,
+    "w": 647,
+    "h": 137,
+    "text": "Healthy forests are not just good for the planet, through their important role i"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1660,
+    "w": 660,
+    "h": 86,
+    "text": "Poverty and a lack of decent living conditions lead people to turn to the forest"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1778,
+    "w": 660,
+    "h": 86,
+    "text": "The activities that cause most deforestation are the timber industry, followed b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1897,
+    "w": 660,
+    "h": 115,
+    "text": "through fundamental elements such as our comprehensive Standards, financial bene"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.block > div.accordion-section-title > h2#our-approach-to-preventing-deforestation-and-protecting-forests",
+    "x": 390,
+    "y": 2132,
+    "w": 660,
+    "h": 70,
+    "level": 2,
+    "text": "our approach to preventing deforestation and protecting forests"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2234,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2234,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#fairer-for-farmers",
+    "x": 442,
+    "y": 2255,
+    "w": 171,
+    "h": 22,
+    "level": 3,
+    "text": "fairer for farmers"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2298,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2298,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#high-quality-data-and-monitoring",
+    "x": 442,
+    "y": 2319,
+    "w": 316,
+    "h": 22,
+    "level": 3,
+    "text": "high quality data and monitoring"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2362,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2362,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#robust-and-aligned-standards",
+    "x": 442,
+    "y": 2383,
+    "w": 289,
+    "h": 22,
+    "level": 3,
+    "text": "robust and aligned standards"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2426,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2426,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#tackling-root-causes",
+    "x": 442,
+    "y": 2447,
+    "w": 198,
+    "h": 22,
+    "level": 3,
+    "text": "tackling root causes"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2490,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 2490,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#raising-our-voices-together",
+    "x": 442,
+    "y": 2511,
+    "w": 263,
+    "h": 22,
+    "level": 3,
+    "text": "raising our voices together"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#how-fairtrade-supports-compliance-with-the-european-union-deforestation-regulation",
+    "x": 390,
+    "y": 2674,
+    "w": 660,
+    "h": 70,
+    "level": 3,
+    "text": "how fairtrade supports compliance with the european union deforestation regulation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2769,
+    "w": 660,
+    "h": 86,
+    "text": "No certification can take the place of companies’ own due diligence – that’s cle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2887,
+    "w": 660,
+    "h": 58,
+    "text": "Fairtrade can support companies with four main European Deforestation Regulation"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.block > div.accordion-section-title > h2#areas-of-support",
+    "x": 390,
+    "y": 3065,
+    "w": 660,
+    "h": 35,
+    "level": 2,
+    "text": "areas of support"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 3132,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 3132,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#collecting-geolocation-data",
+    "x": 442,
+    "y": 3153,
+    "w": 265,
+    "h": 22,
+    "level": 3,
+    "text": "collecting geolocation data"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 3196,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 3196,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#collecting-deforestation-monitoring-data",
+    "x": 442,
+    "y": 3217,
+    "w": 396,
+    "h": 22,
+    "level": 3,
+    "text": "collecting deforestation monitoring data"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 3260,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 3260,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#conducting-risk-assessments",
+    "x": 442,
+    "y": 3281,
+    "w": 282,
+    "h": 22,
+    "level": 3,
+    "text": "conducting risk assessments"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 3324,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 3324,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#implementing-risk-mitigation-measures",
+    "x": 442,
+    "y": 3345,
+    "w": 379,
+    "h": 22,
+    "level": 3,
+    "text": "implementing risk mitigation measures"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#benefits-of-fairtrade",
+    "x": 390,
+    "y": 3508,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "benefits of fairtrade:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 3567,
+    "w": 660,
+    "h": 86,
+    "text": "The Fairtrade Standards align with requirements in the EUDR, including a cut-off"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 3665,
+    "w": 660,
+    "h": 58,
+    "text": "Fairtrade Standards also require trade partners to support producers with their "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 3735,
+    "w": 660,
+    "h": 86,
+    "text": "The three regional Fairtrade producer networks – in Latin America and the Caribb"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 3833,
+    "w": 660,
+    "h": 115,
+    "text": "Fairtrade requires physical segregation of Fairtrade coffee and cocoa from farm "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 3961,
+    "w": 660,
+    "h": 86,
+    "text": "Fairtrade can contribute to deforestation risk mitigation measures, by addressin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 485,
+    "y": 3964,
+    "w": 210,
+    "h": 22,
+    "text": "projects and programmes",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p.button-wrapper > a.button.primary",
+    "x": 390,
+    "y": 4079,
+    "w": 660,
+    "h": 48,
+    "text": "read our statement from 2 october 2024 on the proposed delay of eudr implementat",
+    "href": "/en/get-involved/news/fairtrade-position-on-the-recent-delay-of-the-eu-deforestation-r.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#looking-for-help-on-your-eudr-readiness-journey",
+    "x": 390,
+    "y": 4207,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "looking for help on your eudr readiness journey?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4266,
+    "w": 660,
+    "h": 29,
+    "text": "Check out our free resources, guidelines and videos."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 406,
+    "y": 4330,
+    "w": 333,
+    "h": 22,
+    "text": "for fairtrade coffee and cocoa producers",
+    "href": "/en/why-fairtrade/why-we-do-it/deforestation/resources-for-producers-on-the-eu-deforestation-regulation.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 406,
+    "y": 4371,
+    "w": 169,
+    "h": 22,
+    "text": "for fairtrade traders",
+    "href": "/en/why-fairtrade/why-we-do-it/deforestation/resources-for-traders-on-the-eu-deforestation-regulation.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.block > div.accordion-section-title > h2#faqs",
+    "x": 390,
+    "y": 4517,
+    "w": 660,
+    "h": 35,
+    "level": 2,
+    "text": "faqs"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4584,
+    "w": 660,
+    "h": 98,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4584,
+    "w": 660,
+    "h": 98,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#how-can-companies--including-fairtrade-licensees--demonstrate-compliance-with-the-european-union-deforestation-regulation-eudr",
+    "x": 442,
+    "y": 4600,
+    "w": 600,
+    "h": 66,
+    "level": 3,
+    "text": "how can companies – including fairtrade licensees – demonstrate compliance with the european union deforestation regulat"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4682,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4682,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#does-fairtrade-certification-count-as-sufficient-evidence-of-compliance-with-the-eudr",
+    "x": 442,
+    "y": 4698,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "does fairtrade certification count as sufficient evidence of compliance with the eudr?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4758,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4758,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#how-does-fairtrade-support-commercial-partners-with-their-eudr-due-diligence-obligations",
+    "x": 442,
+    "y": 4774,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "how does fairtrade support commercial partners with their eudr due diligence obligations?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4834,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4834,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#how-is-fairtrade-supporting-producer-organisations-with-geolocation-data-collection-and-deforestation-monitoring",
+    "x": 442,
+    "y": 4850,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "how is fairtrade supporting producer organisations with geolocation data collection and deforestation monitoring?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4910,
+    "w": 660,
+    "h": 98,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4910,
+    "w": 660,
+    "h": 98,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#does-fairtrade-publish-or-share-supply-chain-specific-geolocation-data-or-deforestation-risk-reports-from-producer-organisations",
+    "x": 442,
+    "y": 4926,
+    "w": 600,
+    "h": 66,
+    "level": 3,
+    "text": "does fairtrade publish or share supply-chain-specific geolocation data or deforestation risk reports from producer organ"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5008,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5008,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#does-fairtrade-publish-the-readiness-status-of-fairtrade-producer-organisations",
+    "x": 442,
+    "y": 5024,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "does fairtrade publish the readiness status of fairtrade producer organisations?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5084,
+    "w": 660,
+    "h": 98,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5084,
+    "w": 660,
+    "h": 98,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#will-fairtrade-share-the-geolocation-data-reported-by-traders-with-other-supply-chain-actors-apart-from-producer-organisations",
+    "x": 442,
+    "y": 5100,
+    "w": 600,
+    "h": 66,
+    "level": 3,
+    "text": "will fairtrade share the geolocation data reported by traders with other supply chain actors apart from producer organis"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5182,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5182,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#does-satelligence-have-access-to-data-from-traders-and-national-agencies-on-mapped-farms",
+    "x": 442,
+    "y": 5198,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "does satelligence have access to data from traders and national agencies on mapped farms?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5258,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5258,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#whats-the-progress-of-fairtrade-coffee-and-cocoa-producer-organisations-readiness-so-far",
+    "x": 442,
+    "y": 5274,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "what’s the progress of fairtrade coffee and cocoa producer organisations’ readiness so far?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5334,
+    "w": 660,
+    "h": 98,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5334,
+    "w": 660,
+    "h": 98,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#how-are-commercial-partners-expected-to-demonstrate-compliance-with-the-fairtrade-standards-requirements-on-supporting-producers",
+    "x": 442,
+    "y": 5350,
+    "w": 600,
+    "h": 66,
+    "level": 3,
+    "text": "how are commercial partners expected to demonstrate compliance with the fairtrade standards requirements on supporting p"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5432,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5432,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#how-is-traceability-addressed-in-the-eudr",
+    "x": 442,
+    "y": 5453,
+    "w": 413,
+    "h": 22,
+    "level": 3,
+    "text": "how is traceability addressed in the eudr?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5496,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5496,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#how-does-fairtrades-approach-to-traceability-align-with-what-the-eudr-requires",
+    "x": 442,
+    "y": 5512,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "how does fairtrade’s approach to traceability align with what the eudr requires?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5572,
+    "w": 660,
+    "h": 98,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5572,
+    "w": 660,
+    "h": 98,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#how-should-fairtrade-cocoa-and-coffee-producer-organisations-get-started-on-submitting-their-geolocation-data-and-receiving-deforestation-alert-reports",
+    "x": 442,
+    "y": 5588,
+    "w": 600,
+    "h": 66,
+    "level": 3,
+    "text": "how should fairtrade cocoa and coffee producer organisations get started on submitting their geolocation data and receiv"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5670,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5670,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#is-use-of-satelligence-mandatory-for-producer-organisations",
+    "x": 442,
+    "y": 5691,
+    "w": 588,
+    "h": 22,
+    "level": 3,
+    "text": "is use of satelligence mandatory for producer organisations?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5734,
+    "w": 660,
+    "h": 76,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5734,
+    "w": 660,
+    "h": 76,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#can-deforestation-risk-assessments-from-other-sources-than-satelligence-be-taken-into-account-in-fairtrade-audits",
+    "x": 442,
+    "y": 5750,
+    "w": 600,
+    "h": 44,
+    "level": 3,
+    "text": "can deforestation risk assessments from other sources than satelligence be taken into account in fairtrade audits?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5810,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 5810,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#what-happens-when-a-deforestation-alert-is-found",
+    "x": 442,
+    "y": 5831,
+    "w": 494,
+    "h": 22,
+    "level": 3,
+    "text": "what happens when a deforestation alert is found?"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.block > div.accordion-section-title > h2#additional-resources",
+    "x": 390,
+    "y": 6034,
+    "w": 660,
+    "h": 35,
+    "level": 2,
+    "text": "additional resources"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 6101,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 6101,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#tools",
+    "x": 442,
+    "y": 6122,
+    "w": 58,
+    "h": 22,
+    "level": 3,
+    "text": "tools:"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 6165,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 6165,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#documents",
+    "x": 442,
+    "y": 6186,
+    "w": 115,
+    "h": 22,
+    "level": 3,
+    "text": "documents:"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 6229,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 6229,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#research",
+    "x": 442,
+    "y": 6250,
+    "w": 95,
+    "h": 22,
+    "level": 3,
+    "text": "research:"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 6469,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 6469,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 76,
+    "y": 6559,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 6607,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 6656,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 418,
+    "y": 6559,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 6607,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 6656,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 6706,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 6756,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 760,
+    "y": 6559,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 6607,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 6656,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 6559,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 6605,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 6605,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 6605,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 6605,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 6693,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 6739,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 81,
+    "controls": 60,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "fairtrade supports producers to protect forests and prevent deforestation",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 5,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "our approach to preventing deforestation and protecting forests",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "fairer for farmers",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "high quality data and monitoring",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "robust and aligned standards",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "tackling root causes",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "raising our voices together",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "how fairtrade supports compliance with the european union deforestation regulation",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "areas of support",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "collecting geolocation data",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "collecting deforestation monitoring data",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "conducting risk assessments",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "implementing risk mitigation measures",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "benefits of fairtrade:",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "looking for help on your eudr readiness journey?",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "faqs",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "how can companies – including fairtrade licensees – demonstrate compliance with the european union deforestation regulat",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 18,
+   "heading": "does fairtrade certification count as sufficient evidence of compliance with the eudr?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 19,
+   "heading": "how does fairtrade support commercial partners with their eudr due diligence obligations?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 20,
+   "heading": "how is fairtrade supporting producer organisations with geolocation data collection and deforestation monitoring?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 21,
+   "heading": "does fairtrade publish or share supply-chain-specific geolocation data or deforestation risk reports from producer organ",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 22,
+   "heading": "does fairtrade publish the readiness status of fairtrade producer organisations?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 23,
+   "heading": "will fairtrade share the geolocation data reported by traders with other supply chain actors apart from producer organis",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 24,
+   "heading": "does satelligence have access to data from traders and national agencies on mapped farms?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 25,
+   "heading": "what’s the progress of fairtrade coffee and cocoa producer organisations’ readiness so far?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 26,
+   "heading": "how are commercial partners expected to demonstrate compliance with the fairtrade standards requirements on supporting p",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 27,
+   "heading": "how is traceability addressed in the eudr?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 28,
+   "heading": "how does fairtrade’s approach to traceability align with what the eudr requires?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 29,
+   "heading": "how should fairtrade cocoa and coffee producer organisations get started on submitting their geolocation data and receiv",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 30,
+   "heading": "is use of satelligence mandatory for producer organisations?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 31,
+   "heading": "can deforestation risk assessments from other sources than satelligence be taken into account in fairtrade audits?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 32,
+   "heading": "what happens when a deforestation alert is found?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 33,
+   "heading": "additional resources",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 34,
+   "heading": "tools:",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 35,
+   "heading": "documents:",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 36,
+   "heading": "research:",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 90,
+    "h": 17
+   },
+   {
+    "x": 255,
+    "y": 123,
+    "w": 81,
+    "h": 17
+   },
+   {
+    "x": 376,
+    "y": 123,
+    "w": 88,
+    "h": 17
+   },
+   {
+    "x": 291,
+    "y": 227,
+    "w": 858,
+    "h": 72
+   },
+   {
+    "x": 285,
+    "y": 306,
+    "w": 871,
+    "h": 72
+   },
+   {
+    "x": 515,
+    "y": 385,
+    "w": 410,
+    "h": 72
+   },
+   {
+    "x": 339,
+    "y": 498,
+    "w": 762,
+    "h": 29
+   },
+   {
+    "x": 343,
+    "y": 536,
+    "w": 753,
+    "h": 29
+   },
+   {
+    "x": 316,
+    "y": 574,
+    "w": 808,
+    "h": 29
+   },
+   {
+    "x": 303,
+    "y": 613,
+    "w": 833,
+    "h": 29
+   },
+   {
+    "x": 281,
+    "y": 651,
+    "w": 877,
+    "h": 29
+   },
+   {
+    "x": 342,
+    "y": 690,
+    "w": 757,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1487,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1516,
+    "w": 638,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1545,
+    "w": 642,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1573,
+    "w": 610,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1602,
+    "w": 644,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1663,
+    "w": 650,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1692,
+    "w": 616,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1720,
+    "w": 564,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1781,
+    "w": 654,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1810,
+    "w": 632,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1839,
+    "w": 334,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1900,
+    "w": 370,
+    "h": 22
+   },
+   {
+    "x": 760,
+    "y": 1900,
+    "w": 255,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1928,
+    "w": 655,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1957,
+    "w": 625,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1986,
+    "w": 295,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2133,
+    "w": 602,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 2168,
+    "w": 235,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 2254,
+    "w": 171,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2318,
+    "w": 316,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2382,
+    "w": 289,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2446,
+    "w": 198,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2510,
+    "w": 263,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 2675,
+    "w": 580,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 2710,
+    "w": 554,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 2772,
+    "w": 609,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2800,
+    "w": 624,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2829,
+    "w": 610,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2890,
+    "w": 591,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2919,
+    "w": 360,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3066,
+    "w": 216,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 3152,
+    "w": 265,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 3216,
+    "w": 396,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 3280,
+    "w": 282,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 3344,
+    "w": 379,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 3509,
+    "w": 281,
+    "h": 32
+   },
+   {
+    "x": 406,
+    "y": 3570,
+    "w": 629,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3599,
+    "w": 619,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3628,
+    "w": 382,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3668,
+    "w": 603,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3697,
+    "w": 627,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3738,
+    "w": 601,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3767,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3796,
+    "w": 402,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3836,
+    "w": 603,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3865,
+    "w": 602,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3894,
+    "w": 609,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3923,
+    "w": 57,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3964,
+    "w": 79,
+    "h": 22
+   },
+   {
+    "x": 485,
+    "y": 3964,
+    "w": 210,
+    "h": 22
+   },
+   {
+    "x": 695,
+    "y": 3964,
+    "w": 292,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3992,
+    "w": 614,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4021,
+    "w": 376,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4082,
+    "w": 611,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4111,
+    "w": 140,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4218,
+    "w": 650,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 4279,
+    "w": 420,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4340,
+    "w": 333,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4380,
+    "w": 169,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4527,
+    "w": 68,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 4608,
+    "w": 504,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4630,
+    "w": 481,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4652,
+    "w": 327,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4706,
+    "w": 564,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4728,
+    "w": 262,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4782,
+    "w": 572,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4804,
+    "w": 310,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4858,
+    "w": 547,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4880,
+    "w": 564,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4934,
+    "w": 516,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4956,
+    "w": 586,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4978,
+    "w": 144,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5032,
+    "w": 540,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5054,
+    "w": 236,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5108,
+    "w": 589,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5130,
+    "w": 492,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5152,
+    "w": 144,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5206,
+    "w": 534,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5228,
+    "w": 352,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5282,
+    "w": 570,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5304,
+    "w": 308,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5358,
+    "w": 532,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5380,
+    "w": 557,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5402,
+    "w": 220,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5461,
+    "w": 413,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5520,
+    "w": 593,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5542,
+    "w": 185,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5596,
+    "w": 465,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5618,
+    "w": 554,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5640,
+    "w": 455,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5699,
+    "w": 588,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5758,
+    "w": 584,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5780,
+    "w": 524,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5839,
+    "w": 494,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 6044,
+    "w": 272,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 6130,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 6194,
+    "w": 115,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 6258,
+    "w": 95,
+    "h": 24
+   },
+   {
+    "x": 1338,
+    "y": 6480,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 6567,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 6619,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 6669,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6567,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 6619,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6669,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6719,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6768,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 6567,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 6619,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 6669,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 6567,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 6701,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 6761,
+    "w": 127,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 90,
+    "h": 17
+   },
+   {
+    "x": 255,
+    "y": 123,
+    "w": 81,
+    "h": 17
+   },
+   {
+    "x": 376,
+    "y": 123,
+    "w": 88,
+    "h": 17
+   },
+   {
+    "x": 291,
+    "y": 227,
+    "w": 858,
+    "h": 72
+   },
+   {
+    "x": 285,
+    "y": 306,
+    "w": 871,
+    "h": 72
+   },
+   {
+    "x": 515,
+    "y": 385,
+    "w": 410,
+    "h": 72
+   },
+   {
+    "x": 339,
+    "y": 498,
+    "w": 762,
+    "h": 29
+   },
+   {
+    "x": 343,
+    "y": 536,
+    "w": 753,
+    "h": 29
+   },
+   {
+    "x": 316,
+    "y": 574,
+    "w": 808,
+    "h": 29
+   },
+   {
+    "x": 303,
+    "y": 613,
+    "w": 833,
+    "h": 29
+   },
+   {
+    "x": 281,
+    "y": 651,
+    "w": 877,
+    "h": 29
+   },
+   {
+    "x": 342,
+    "y": 690,
+    "w": 757,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1487,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1516,
+    "w": 638,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1545,
+    "w": 642,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1573,
+    "w": 610,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1602,
+    "w": 644,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1663,
+    "w": 650,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1692,
+    "w": 616,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1720,
+    "w": 564,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1781,
+    "w": 654,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1810,
+    "w": 632,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1839,
+    "w": 334,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1900,
+    "w": 366,
+    "h": 22
+   },
+   {
+    "x": 756,
+    "y": 1900,
+    "w": 259,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1928,
+    "w": 655,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1957,
+    "w": 625,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1986,
+    "w": 295,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2133,
+    "w": 602,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 2168,
+    "w": 235,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 2254,
+    "w": 171,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2318,
+    "w": 316,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2382,
+    "w": 289,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2446,
+    "w": 198,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 2510,
+    "w": 263,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 2675,
+    "w": 580,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 2710,
+    "w": 554,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 2772,
+    "w": 609,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2800,
+    "w": 624,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2829,
+    "w": 610,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2890,
+    "w": 591,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2919,
+    "w": 360,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3066,
+    "w": 216,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 3152,
+    "w": 265,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 3216,
+    "w": 396,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 3280,
+    "w": 282,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 3344,
+    "w": 379,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 3509,
+    "w": 281,
+    "h": 32
+   },
+   {
+    "x": 406,
+    "y": 3570,
+    "w": 629,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3599,
+    "w": 619,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3628,
+    "w": 382,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3668,
+    "w": 603,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3697,
+    "w": 627,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3738,
+    "w": 601,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3767,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3796,
+    "w": 402,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3836,
+    "w": 603,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3865,
+    "w": 602,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3894,
+    "w": 609,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3923,
+    "w": 57,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3964,
+    "w": 79,
+    "h": 22
+   },
+   {
+    "x": 485,
+    "y": 3964,
+    "w": 210,
+    "h": 22
+   },
+   {
+    "x": 695,
+    "y": 3964,
+    "w": 292,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3992,
+    "w": 614,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4021,
+    "w": 376,
+    "h": 22
+   },
+   {
+    "x": 440,
+    "y": 4083,
+    "w": 561,
+    "h": 22
+   },
+   {
+    "x": 625,
+    "y": 4101,
+    "w": 191,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4208,
+    "w": 650,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 4269,
+    "w": 420,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4330,
+    "w": 333,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4371,
+    "w": 169,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4518,
+    "w": 68,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 4599,
+    "w": 504,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4621,
+    "w": 481,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4643,
+    "w": 327,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4697,
+    "w": 564,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4719,
+    "w": 262,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4773,
+    "w": 572,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4795,
+    "w": 310,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4849,
+    "w": 547,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4871,
+    "w": 564,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4925,
+    "w": 516,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4947,
+    "w": 586,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4969,
+    "w": 144,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5023,
+    "w": 540,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5045,
+    "w": 236,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5099,
+    "w": 589,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5121,
+    "w": 492,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5143,
+    "w": 144,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5197,
+    "w": 534,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5219,
+    "w": 352,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5273,
+    "w": 570,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5295,
+    "w": 308,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5349,
+    "w": 532,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5371,
+    "w": 557,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5393,
+    "w": 220,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5452,
+    "w": 413,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5511,
+    "w": 593,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5533,
+    "w": 185,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5587,
+    "w": 465,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5609,
+    "w": 554,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5631,
+    "w": 455,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5690,
+    "w": 588,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5749,
+    "w": 584,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5771,
+    "w": 524,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 5830,
+    "w": 494,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 6035,
+    "w": 272,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 6121,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 6185,
+    "w": 115,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 6249,
+    "w": 95,
+    "h": 24
+   },
+   {
+    "x": 1338,
+    "y": 6471,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 6558,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 6610,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 6659,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6558,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 6610,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6659,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6709,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6759,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 6558,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 6610,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 6659,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 6558,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 6692,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 6752,
+    "w": 127,
+    "h": 22
+   }
+  ]
+ }
+}

@@ -1,0 +1,693 @@
+{
+  "slug": "africa-en-html",
+  "type": "locale-home",
+  "renderBranch": "A'",
+  "template": "at-de-html",
+  "modules": [
+    "content-fader",
+    "number-fact-teaser",
+    "filtered-teaser-grid",
+    "accordion"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "cmp-container"
+  ],
+  "canonShas": {
+    "header": "c0e13214904e",
+    "footer": "f61f70b066d2",
+    "css": "2bf6b48caf7e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "English",
+    "description": null,
+    "canonical": "https://main--63f9f24b--aemcoder.aem.page/africa-en.html",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "English",
+    "url": "https://main--63f9f24b--aemcoder.aem.page/africa-en.html"
+  },
+  "migratedAt": "2026-11-14T07:55:16Z",
+  "designMdSha": "ba7a99252bf7",
+  "designJsonSha": "d7cf7a9249c2",
+  "sourceCurrentSha": "c66eded80e13",
+  "sourceProposedSha": "d9dc5d618001",
+  "fidelityTier": "sibling",
+  "archetypeSource": "at-de-html",
+  "archetypeSha": "7c54e4ea9c35",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 vs at-de-html: per-page module composition (hero/teaser/nav/accordion/text-image counts), grey text-image band, wide navigation-teaser, large teaser family (stardust/migrate/variance/locale-home.json)",
+    "delivery-lint": "delivery-lint 0 P0/P1 on content/africa-en.html (path /africa-en)",
+    "media-reconcile": "media-reconcile: all images keep (200), no omit/unresolved after the encoder's broken-image omit",
+    "pixel-gate-1440": "gate-all 1440 published: pixel 0.36%, |Δh|≤5%, clip 0, content MISSING+HIDDEN 0, fonts loaded",
+    "pixel-gate-360": "gate-all 360 published: pixel 0.73%, |Δh|≤5%, clip 0, content MISSING+HIDDEN 0, fonts loaded",
+    "content-count": "gate-all content probe: MISSING 0 / HIDDEN 0 at both widths (or the passing width; see pixel gates)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/what-we-do.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/what-we-do/how-fairtrade-works.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/what-we-do/key-benefits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/what-we-do/theory-of-change.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/child-protection.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/decent-livelihoods.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/deforestation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/forced-labour.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/gender-equality.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/hredd.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/mitigating-risks.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/smallholder-farmers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/workers-rights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/youth-inclusion.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it/fairtrade-standards.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it/who-we-have-standards-for.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it/advocacy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it/our-projects-and-programmes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/impact/impact-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/impact/key-figures-at-a-glance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/impact/how-we-measure-impact-.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/bananas.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/cocoa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/coffee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/flowers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/honey.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/nuts-oils.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/sugar.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/tea.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/vegetables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/wine.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/fruits-and-juices.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/herbs-and-spices.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-producers/for-producers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-producers/get-certified-as-a-producer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-producers/get-certified-as-a-producer/benefits-for-producers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/benefits-of-being-certified.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/benefits-of-being-certified/consumer-trends.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/benefits-of-being-certified/business-success-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/benefits-of-being-certified/benefits-for-business.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/mark-use-guidelines.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/how-to-get-involved.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/how-to-get-involved/get-certified.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/how-to-get-involved/get-licensed.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/how-to-get-involved/apply-to-become-a-licensee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/how-to-get-involved/licensee-resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/what-we-do.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/what-we-do/how-fairtrade-works.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/what-we-do/key-benefits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/what-we-do/theory-of-change.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/child-protection.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/decent-livelihoods.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/deforestation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/forced-labour.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/gender-equality.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/hredd.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/mitigating-risks.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/smallholder-farmers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/workers-rights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/why-we-do-it/youth-inclusion.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it/fairtrade-standards.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it/who-we-have-standards-for.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it/advocacy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it/our-projects-and-programmes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/impact/impact-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/impact/key-figures-at-a-glance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/impact/how-we-measure-impact-.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/bananas.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/cocoa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/coffee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/flowers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/honey.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/nuts-oils.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/sugar.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/tea.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/vegetables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/wine.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/fruits-and-juices.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products/fairtrade-products/herbs-and-spices.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-producers/for-producers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-producers/get-certified-as-a-producer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-producers/get-certified-as-a-producer/benefits-for-producers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/benefits-of-being-certified.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/benefits-of-being-certified/consumer-trends.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/benefits-of-being-certified/business-success-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/benefits-of-being-certified/benefits-for-business.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/mark-use-guidelines.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/how-to-get-involved.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/how-to-get-involved/get-certified.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/how-to-get-involved/get-licensed.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/how-to-get-involved/apply-to-become-a-licensee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business/how-to-get-involved/licensee-resources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ca-fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/iberica-es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/iberica-pt.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ie-en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it-it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/kr-ko.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/napp-en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/nl-nl.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/no-no.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/pl-pl.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/se-sv.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch-de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch-fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/uk-en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/what-we-do.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/what-we-do/key-benefits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/products.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/library/news/listen-up-fairtrade-coffee-enthusiasts.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/library/news/fairtrade-statement-on-the-eu-deforestation-regulation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/library/news/fairbruary-2024--how-to-participate-in-the-february-fairness-cha.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/library/news/fairtrade-impact-map--delivering-greater-impact-for-farmers--wor.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/library/news/realistic-and-fair-prices-for-coffee-farmers-are-a-non-negotiabl.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/library/news/a-glimmer-of-light-in-the-pacific.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "[%=cta.link%]",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/library/news.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/impact/impact-stories.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/What-we-do",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/why-fairtrade/how-we-do-it.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/about.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/about/our-mission-vision-and-strategy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/about/opportunities.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/about/fairtrade-africa-team.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/library.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/for-business.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/contact-us/for-media.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/contact-us.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/contact-us/terms-of-use.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/contact-us/data-policy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/africa-en/contact-us/report-a-concern.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "africa-en.html",
+  "outputPathDefault": null,
+  "sidecar": "africa-en._meta.json",
+  "driverVersion": "1"
+}

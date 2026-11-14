@@ -1,0 +1,33 @@
+{
+  "round": "pub5",
+  "width": 1440,
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/at-de-html-1440/diff-pub5.png"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/at-de-html-1440/content-diff-pub5.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/at-de-html-1440/visual-diff-pub5.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/at-de-html-1440/chrome-parity-pub5.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/at-de-html-1440/clip-pub5.txt"
+    },
+    "content-presence": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/at-de-html-1440/content-presence-pub5.txt"
+    }
+  },
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-14T01:26:18.042Z"
+}

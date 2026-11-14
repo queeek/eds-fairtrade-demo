@@ -1,0 +1,4297 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T10:35:26.390Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/no-no.html",
+  "at": "2026-11-14T10:35:01.970Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 8076,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/no-no.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "FTN_logo_80x80"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 106,
+    "h": 104,
+    "text": "om fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 106,
+    "h": 104,
+    "label": "trigger",
+    "value": "om fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 330,
+    "y": 0,
+    "w": 63,
+    "h": 104,
+    "text": "råvarer"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 330,
+    "y": 0,
+    "w": 63,
+    "h": 104,
+    "label": "trigger",
+    "value": "råvarer",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 440,
+    "y": 0,
+    "w": 87,
+    "h": 104,
+    "text": "næringsliv"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 440,
+    "y": 0,
+    "w": 87,
+    "h": 104,
+    "label": "trigger",
+    "value": "næringsliv",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 575,
+    "y": 0,
+    "w": 126,
+    "h": 104,
+    "text": "offentlig sektor"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 575,
+    "y": 0,
+    "w": 126,
+    "h": 104,
+    "label": "trigger",
+    "value": "offentlig sektor",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1136,
+    "y": 40,
+    "w": 56,
+    "h": 24,
+    "text": "søk"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1136,
+    "y": 40,
+    "w": 56,
+    "h": 24,
+    "label": "trigger",
+    "value": "søk",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1215,
+    "y": 40,
+    "w": 86,
+    "h": 24,
+    "text": "no • no"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1215,
+    "y": 40,
+    "w": 86,
+    "h": 24,
+    "label": "trigger",
+    "value": "no • no",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "åpne"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "åpne",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+    "x": 276,
+    "y": 224,
+    "w": 888,
+    "h": 158,
+    "level": 1,
+    "text": "bærekraftig utvikling i praksis"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+    "x": 276,
+    "y": 414,
+    "w": 888,
+    "h": 77,
+    "text": "Fairtrade endrer internasjonal handel. Vi jobber for et mer bærekraftig jordbruk"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--imageGrid > div.Image.ultra-wide > img.lazyautosizes.lazyloaded",
+    "x": 48,
+    "y": 555,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "21x9_1440w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--number",
+    "x": 198,
+    "y": 1497,
+    "w": 473,
+    "h": 119,
+    "text": "1,824"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--fact",
+    "x": 198,
+    "y": 1661,
+    "w": 473,
+    "h": 35,
+    "text": "produsentorganisasjoner i 68 land"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--number",
+    "x": 193,
+    "y": 2193,
+    "w": 484,
+    "h": 119,
+    "text": "+37,000"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--fact",
+    "x": 193,
+    "y": 2357,
+    "w": 484,
+    "h": 106,
+    "text": "produkter som selges med Fairtrade-merket i mer enn 140 land"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > strong.NumberFactTeaser--label",
+    "x": 862,
+    "y": 1327,
+    "w": 151,
+    "h": 29,
+    "text": "Dette er Fairtrade"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > h2.NumberFactTeaser--title",
+    "x": 862,
+    "y": 1380,
+    "w": 405,
+    "h": 211,
+    "level": 2,
+    "text": "verdens mest anerkjente merkeordning for rettferdig handel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > p.NumberFactTeaser--text",
+    "x": 862,
+    "y": 1615,
+    "w": 405,
+    "h": 173,
+    "text": "Vår visjon er å skape en verden der bønder og arbeidere har et trygt og bærekraf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > a.Button.NumberFactTeaser--cta",
+    "x": 862,
+    "y": 1820,
+    "w": 135,
+    "h": 48,
+    "text": "les mer",
+    "href": "/no-no/om-fairtrade/hva-er-fairtrade.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 162,
+    "y": 3065,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "merkevarer og produkter"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 162,
+    "y": 3142,
+    "w": 538,
+    "h": 173,
+    "text": "Når du velger Fairtrade, støtter du: - Mer rettferdig betaling og anstendige arb"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 162,
+    "y": 3347,
+    "w": 252,
+    "h": 48,
+    "text": "til produktoversikten",
+    "href": "/no-no/produktoversikt.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.ls-is-cached",
+    "x": 740,
+    "y": 2961,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 3699,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "aktuelt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-bli-kjent-med-vare-nye-medarbeidere",
+    "x": 48,
+    "y": 3854,
+    "w": 421,
+    "h": 546,
+    "text": "01.09.26 nyheter møt fairtrades nye medarbeidere fairtrade vokser og har gleden ",
+    "href": "/no-no/bli-kjent-med-vare-nye-medarbeidere.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 3855,
+    "w": 419,
+    "h": 314,
+    "text": "nye medarbeidere i fairtrade",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 4187,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "nyheter møt fairtrades nye medarbeidere"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-fairtrade-oppdaterer-standardene",
+    "x": 509,
+    "y": 3854,
+    "w": 421,
+    "h": 575,
+    "text": "06.08.26 nyheter fairtrade oppdaterer standardene fairtrade videreutvikler stand",
+    "href": "/no-no/fairtrade-oppdaterer-standardene.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached",
+    "x": 510,
+    "y": 3855,
+    "w": 419,
+    "h": 314,
+    "text": "plante vokser.",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 4187,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "nyheter fairtrade oppdaterer standardene"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-politisk-interesse-for-rettferdig-handel-",
+    "x": 971,
+    "y": 3854,
+    "w": 421,
+    "h": 575,
+    "text": "24.06.26 nyheter politisk interesse for rettferdig handel statssekretærer fra to",
+    "href": "/no-no/politisk-interesse-for-rettferdig-handel-.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.ls-is-cached",
+    "x": 972,
+    "y": 3855,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 4187,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "nyheter politisk interesse for rettferdig handel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-fairtrade-med-nytt-digitalt-system-for-a-hindre-avskoging-",
+    "x": 48,
+    "y": 4482,
+    "w": 421,
+    "h": 575,
+    "text": "16.06.26 miljø nyheter fairtrade med nytt digitalt system for å hindre avskoging",
+    "href": "/no-no/fairtrade-med-nytt-digitalt-system-for-a-hindre-avskoging-.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 4483,
+    "w": 419,
+    "h": 314,
+    "text": "regnskog i honduras",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 4814,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "nyheter fairtrade med nytt digitalt system for å hindre avskoging"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-fairtrades-priser-for-rettferdig-handel-2026",
+    "x": 509,
+    "y": 4482,
+    "w": 421,
+    "h": 604,
+    "text": "02.06.26 nyheter fairtrades priser for rettferdig handel 2026 vant pris for rett",
+    "href": "/no-no/fairtrades-priser-for-rettferdig-handel-2026.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 510,
+    "y": 4483,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 4814,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "nyheter fairtrades priser for rettferdig handel 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-intervju-med-utviklingsminister-asmund-aukrust",
+    "x": 971,
+    "y": 4482,
+    "w": 421,
+    "h": 668,
+    "text": "11.05.26 nyheter intervju med utviklingsminister åsmund aukrust hvordan kan hand",
+    "href": "/no-no/intervju-med-utviklingsminister-asmund-aukrust.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 972,
+    "y": 4483,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 4814,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "nyheter intervju med utviklingsminister åsmund aukrust"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ctasection.is-visible > div.CTASection > a.Button.variant-primary",
+    "x": 629,
+    "y": 5282,
+    "w": 183,
+    "h": 60,
+    "text": "flere nyheter",
+    "href": "/no-no/aktuelt/aktuelt.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 740,
+    "y": 5566,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "samarbeid med fairtrade"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 740,
+    "y": 5643,
+    "w": 538,
+    "h": 173,
+    "text": "Med robuste standarder, et anerkjent merke og samarbeid med ledende organisasjon"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 740,
+    "y": 5847,
+    "w": 138,
+    "h": 48,
+    "text": "lær mer",
+    "href": "/no-no/naeringsliv/Naeringsliv.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 162,
+    "y": 5462,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--number",
+    "x": 193,
+    "y": 6348,
+    "w": 484,
+    "h": 119,
+    "text": "€ 1+ Mrd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--fact",
+    "x": 193,
+    "y": 6512,
+    "w": 484,
+    "h": 70,
+    "text": "Fairtrade-premium opptjent bare de siste 5 årene"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--number",
+    "x": 193,
+    "y": 7079,
+    "w": 484,
+    "h": 119,
+    "text": "150+"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--fact",
+    "x": 193,
+    "y": 7243,
+    "w": 484,
+    "h": 70,
+    "text": "eksternt finansierte prosjekter gjennomført siden 2021"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > strong.NumberFactTeaser--label",
+    "x": 862,
+    "y": 6329,
+    "w": 172,
+    "h": 29,
+    "text": "Drevet av resultater"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > h2.NumberFactTeaser--title",
+    "x": 862,
+    "y": 6382,
+    "w": 295,
+    "h": 53,
+    "level": 2,
+    "text": "vår påvirkning"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > p.NumberFactTeaser--text",
+    "x": 862,
+    "y": 6458,
+    "w": 405,
+    "h": 144,
+    "text": "Å skape meningsfull endring krever betydelige systemiske endringer. Vi følger ut"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1306,
+    "y": 7678,
+    "w": 86,
+    "h": 24,
+    "text": "no • no"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1306,
+    "y": 7678,
+    "w": 86,
+    "h": 24,
+    "label": "trigger",
+    "value": "no • no",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > span",
+    "x": 48,
+    "y": 7767,
+    "w": 189,
+    "h": 24,
+    "text": "Om Fairtrade Norge"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 7814,
+    "w": 54,
+    "h": 26,
+    "text": "om oss",
+    "href": "/no-no/om-oss/om-fairtrade-norge.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 7863,
+    "w": 185,
+    "h": 26,
+    "text": "våre samarbeidspartnere",
+    "href": "/no-no/om-oss/om-fairtrade-norge/vaare-samarbeidspartnere.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 7913,
+    "w": 111,
+    "h": 26,
+    "text": "arrangementer",
+    "href": "/no-no/aktuelt/arrangementer.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 7962,
+    "w": 73,
+    "h": 26,
+    "text": "ressurser",
+    "href": "/no-no/aktuelt/ressurser.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > span",
+    "x": 390,
+    "y": 7767,
+    "w": 115,
+    "h": 24,
+    "text": "Kontakt oss"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 7814,
+    "w": 108,
+    "h": 26,
+    "text": "kontaktskjema",
+    "href": "/no-no/kontaktskjema.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 7863,
+    "w": 57,
+    "h": 26,
+    "text": "ansatte",
+    "href": "/no-no/om-oss/om-fairtrade-norge/ansatte.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 7913,
+    "w": 49,
+    "h": 26,
+    "text": "presse",
+    "href": "/no-no/aktuelt/for-presse.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > span",
+    "x": 732,
+    "y": 7767,
+    "w": 203,
+    "h": 24,
+    "text": "Praktisk informasjon"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 7814,
+    "w": 145,
+    "h": 26,
+    "text": "ofte stilte spørsmål",
+    "href": "/no-no/om-oss/ofte-stilte-sporsmaal.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 7863,
+    "w": 84,
+    "h": 26,
+    "text": "personvern",
+    "href": "/no-no/om-oss/vare-rutiner/personvernerklaering.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 7913,
+    "w": 116,
+    "h": 26,
+    "text": "ledige stillinger",
+    "href": "/no-no/om-oss/ledige-stillinger.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 7768,
+    "w": 318,
+    "h": 22,
+    "text": "Følg oss på sosiale medier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 7814,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/fairtradenorge"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 7814,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/fairtradenorge"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 7814,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-norge/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 7814,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/user/fairtradenorge"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 7902,
+    "w": 318,
+    "h": 22,
+    "text": "Nyhetsbrev"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 7948,
+    "w": 318,
+    "h": 48,
+    "text": "meld på",
+    "href": "/g84vUz"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > div.sc-aXZVg.gOjxTE > button.sc-iGgWBj.jbOjLk",
+    "x": 40,
+    "y": 796,
+    "w": 64,
+    "h": 64,
+    "text": "åpne personverninnstillinger"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 1,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 80,
+    "controls": 35,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.InfoTeaser--text",
+     "path": "div.InfoTeaser--inner > div.InfoTeaser--content > div.InfoTeaser--text > p",
+     "text": "hvordan kan handel bli et verktøy i kampen mot fattigdom? i ",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/no-no",
+  "at": "2026-11-14T10:35:26.280Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 8076,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/no-no.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_1d7abe1d99f10ea1f759f1015e92aaf44b"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 106,
+    "h": 104,
+    "text": "om fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 106,
+    "h": 104,
+    "label": "trigger",
+    "value": "om fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 330,
+    "y": 0,
+    "w": 63,
+    "h": 104,
+    "text": "råvarer"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 330,
+    "y": 0,
+    "w": 63,
+    "h": 104,
+    "label": "trigger",
+    "value": "råvarer",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 440,
+    "y": 0,
+    "w": 87,
+    "h": 104,
+    "text": "næringsliv"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 440,
+    "y": 0,
+    "w": 87,
+    "h": 104,
+    "label": "trigger",
+    "value": "næringsliv",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 575,
+    "y": 0,
+    "w": 126,
+    "h": 104,
+    "text": "offentlig sektor"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 575,
+    "y": 0,
+    "w": 126,
+    "h": 104,
+    "label": "trigger",
+    "value": "offentlig sektor",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1136,
+    "y": 40,
+    "w": 56,
+    "h": 24,
+    "text": "søk"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1136,
+    "y": 40,
+    "w": 56,
+    "h": 24,
+    "label": "trigger",
+    "value": "søk",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1215,
+    "y": 40,
+    "w": 86,
+    "h": 24,
+    "text": "no • no"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1215,
+    "y": 40,
+    "w": 86,
+    "h": 24,
+    "label": "trigger",
+    "value": "no • no",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "åpne"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "åpne",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-title > h1#bærekraftig-utvikling-i-praksis",
+    "x": 276,
+    "y": 224,
+    "w": 888,
+    "h": 158,
+    "level": 1,
+    "text": "bærekraftig utvikling i praksis"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-lead > p",
+    "x": 276,
+    "y": 414,
+    "w": 888,
+    "h": 77,
+    "text": "Fairtrade endrer internasjonal handel. Vi jobber for et mer bærekraftig jordbruk"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.ultra-wide > picture > img",
+    "x": 48,
+    "y": 555,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "media_1b6df708438f5934d1df4b80ede7d02409"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 198,
+    "y": 1497,
+    "w": 473,
+    "h": 119,
+    "text": "1,824"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 210,
+    "y": 1661,
+    "w": 449,
+    "h": 35,
+    "text": "produsentorganisasjoner i 68 land"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 193,
+    "y": 2193,
+    "w": 484,
+    "h": 119,
+    "text": "+37,000"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 205,
+    "y": 2357,
+    "w": 460,
+    "h": 106,
+    "text": "produkter som selges med Fairtrade-merket i mer enn 140 land"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-label > p > strong",
+    "x": 862,
+    "y": 1330,
+    "w": 151,
+    "h": 22,
+    "text": "Dette er Fairtrade"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-title > h2#verdens-mest-anerkjente-merkeordning-for-rettferdig-handel",
+    "x": 862,
+    "y": 1380,
+    "w": 405,
+    "h": 211,
+    "level": 2,
+    "text": "verdens mest anerkjente merkeordning for rettferdig handel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-text > p",
+    "x": 862,
+    "y": 1615,
+    "w": 405,
+    "h": 173,
+    "text": "Vår visjon er å skape en verden der bønder og arbeidere har et trygt og bærekraf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-cta > p.button-wrapper > a.button.secondary",
+    "x": 862,
+    "y": 1820,
+    "w": 135,
+    "h": 48,
+    "text": "les mer",
+    "href": "/no-no/om-fairtrade/hva-er-fairtrade.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#merkevarer-og-produkter",
+    "x": 162,
+    "y": 3065,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "merkevarer og produkter"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 3142,
+    "w": 538,
+    "h": 173,
+    "text": "Når du velger Fairtrade, støtter du: - Mer rettferdig betaling og anstendige arb"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 162,
+    "y": 3347,
+    "w": 252,
+    "h": 48,
+    "text": "til produktoversikten",
+    "href": "/no-no/produktoversikt.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 740,
+    "y": 2961,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "media_1d94739a10fd274ab04cc7b7507e7474d8"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.centered.section > div.default-content-wrapper > h3#aktuelt",
+    "x": 390,
+    "y": 3699,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "aktuelt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 3854,
+    "w": 421,
+    "h": 546,
+    "text": "01.09.26 nyheter møt fairtrades nye medarbeidere fairtrade vokser og har gleden ",
+    "href": "/no-no/bli-kjent-med-vare-nye-medarbeidere.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 3855,
+    "w": 419,
+    "h": 314,
+    "text": "nye medarbeidere i fairtrade",
+    "file": "media_1b314cc9aaac15c46867b80bfeb9ed4c18"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#nyheter-møt-fairtrades-nye-medarbeidere",
+    "x": 48,
+    "y": 4187,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "nyheter møt fairtrades nye medarbeidere"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 3854,
+    "w": 421,
+    "h": 575,
+    "text": "06.08.26 nyheter fairtrade oppdaterer standardene fairtrade videreutvikler stand",
+    "href": "/no-no/fairtrade-oppdaterer-standardene.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 3855,
+    "w": 419,
+    "h": 314,
+    "text": "plante vokser.",
+    "file": "media_14784638662ae6faadff871b6cc20bd678"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#nyheter-fairtrade-oppdaterer-standardene",
+    "x": 509,
+    "y": 4187,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "nyheter fairtrade oppdaterer standardene"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 3854,
+    "w": 421,
+    "h": 575,
+    "text": "24.06.26 nyheter politisk interesse for rettferdig handel statssekretærer fra to",
+    "href": "/no-no/politisk-interesse-for-rettferdig-handel-.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 3855,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "media_109a26f723c6c428dadadf3d4f87ecb2c6"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#nyheter-politisk-interesse-for-rettferdig-handel",
+    "x": 971,
+    "y": 4187,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "nyheter politisk interesse for rettferdig handel"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 4482,
+    "w": 421,
+    "h": 575,
+    "text": "16.06.26 miljø nyheter fairtrade med nytt digitalt system for å hindre avskoging",
+    "href": "/no-no/fairtrade-med-nytt-digitalt-system-for-a-hindre-avskoging-.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 4483,
+    "w": 419,
+    "h": 314,
+    "text": "regnskog i honduras",
+    "file": "media_19cbc0417a50ced33aa276b65d236044a1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#nyheter-fairtrade-med-nytt-digitalt-system-for-å-hindre-avskoging",
+    "x": 48,
+    "y": 4814,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "nyheter fairtrade med nytt digitalt system for å hindre avskoging"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 4482,
+    "w": 421,
+    "h": 604,
+    "text": "02.06.26 nyheter fairtrades priser for rettferdig handel 2026 vant pris for rett",
+    "href": "/no-no/fairtrades-priser-for-rettferdig-handel-2026.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 4483,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_1c330fd81144442882ab09decb0e0e8b3d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#nyheter-fairtrades-priser-for-rettferdig-handel-2026",
+    "x": 509,
+    "y": 4814,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "nyheter fairtrades priser for rettferdig handel 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 4482,
+    "w": 421,
+    "h": 668,
+    "text": "11.05.26 nyheter intervju med utviklingsminister åsmund aukrust hvordan kan hand",
+    "href": "/no-no/intervju-med-utviklingsminister-asmund-aukrust.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 4483,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "media_166e61bbf52268706a2dc1c1579f1b260b"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#nyheter-intervju-med-utviklingsminister-åsmund-aukrust",
+    "x": 971,
+    "y": 4814,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "nyheter intervju med utviklingsminister åsmund aukrust"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-actions > p.button-wrapper > a.button.primary",
+    "x": 629,
+    "y": 5282,
+    "w": 183,
+    "h": 60,
+    "text": "flere nyheter",
+    "href": "/no-no/aktuelt/aktuelt.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#samarbeid-med-fairtrade",
+    "x": 740,
+    "y": 5566,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "samarbeid med fairtrade"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 740,
+    "y": 5643,
+    "w": 538,
+    "h": 173,
+    "text": "Med robuste standarder, et anerkjent merke og samarbeid med ledende organisasjon"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 740,
+    "y": 5847,
+    "w": 138,
+    "h": 48,
+    "text": "lær mer",
+    "href": "/no-no/naeringsliv/Naeringsliv.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 162,
+    "y": 5462,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "media_121911a5363019641548de88226e337bd8"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 193,
+    "y": 6348,
+    "w": 484,
+    "h": 119,
+    "text": "€ 1+ Mrd"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 205,
+    "y": 6512,
+    "w": 460,
+    "h": 70,
+    "text": "Fairtrade-premium opptjent bare de siste 5 årene"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 193,
+    "y": 7079,
+    "w": 484,
+    "h": 119,
+    "text": "150+"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 205,
+    "y": 7243,
+    "w": 460,
+    "h": 70,
+    "text": "eksternt finansierte prosjekter gjennomført siden 2021"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-label > p > strong",
+    "x": 862,
+    "y": 6332,
+    "w": 172,
+    "h": 22,
+    "text": "Drevet av resultater"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-title > h2#vår-påvirkning",
+    "x": 862,
+    "y": 6382,
+    "w": 295,
+    "h": 53,
+    "level": 2,
+    "text": "vår påvirkning"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-text > p",
+    "x": 862,
+    "y": 6458,
+    "w": 405,
+    "h": 144,
+    "text": "Å skape meningsfull endring krever betydelige systemiske endringer. Vi følger ut"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1306,
+    "y": 7678,
+    "w": 86,
+    "h": 24,
+    "text": "no • no"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1306,
+    "y": 7678,
+    "w": 86,
+    "h": 24,
+    "label": "trigger",
+    "value": "no • no",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-title > span > p",
+    "x": 48,
+    "y": 7768,
+    "w": 318,
+    "h": 22,
+    "text": "Om Fairtrade Norge"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 7814,
+    "w": 54,
+    "h": 26,
+    "text": "om oss",
+    "href": "/no-no/om-oss/om-fairtrade-norge.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 7863,
+    "w": 185,
+    "h": 26,
+    "text": "våre samarbeidspartnere",
+    "href": "/no-no/om-oss/om-fairtrade-norge/vaare-samarbeidspartnere.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 7913,
+    "w": 111,
+    "h": 26,
+    "text": "arrangementer",
+    "href": "/no-no/aktuelt/arrangementer.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 7962,
+    "w": 73,
+    "h": 26,
+    "text": "ressurser",
+    "href": "/no-no/aktuelt/ressurser.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-title > span > p",
+    "x": 390,
+    "y": 7768,
+    "w": 318,
+    "h": 22,
+    "text": "Kontakt oss"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 7814,
+    "w": 108,
+    "h": 26,
+    "text": "kontaktskjema",
+    "href": "/no-no/kontaktskjema.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 7863,
+    "w": 57,
+    "h": 26,
+    "text": "ansatte",
+    "href": "/no-no/om-oss/om-fairtrade-norge/ansatte.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 7913,
+    "w": 49,
+    "h": 26,
+    "text": "presse",
+    "href": "/no-no/aktuelt/for-presse.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-title > span > p",
+    "x": 732,
+    "y": 7768,
+    "w": 318,
+    "h": 22,
+    "text": "Praktisk informasjon"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 7814,
+    "w": 145,
+    "h": 26,
+    "text": "ofte stilte spørsmål",
+    "href": "/no-no/om-oss/ofte-stilte-sporsmaal.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 7863,
+    "w": 84,
+    "h": 26,
+    "text": "personvern",
+    "href": "/no-no/om-oss/vare-rutiner/personvernerklaering.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 7913,
+    "w": 116,
+    "h": 26,
+    "text": "ledige stillinger",
+    "href": "/no-no/om-oss/ledige-stillinger.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 7768,
+    "w": 318,
+    "h": 22,
+    "text": "Følg oss på sosiale medier"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 7814,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/fairtradenorge"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 7814,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/fairtradenorge"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 7814,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-norge/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 7814,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/user/fairtradenorge"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 7902,
+    "w": 318,
+    "h": 22,
+    "text": "Nyhetsbrev"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 7948,
+    "w": 318,
+    "h": 48,
+    "text": "meld på",
+    "href": "/g84vUz"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 1,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 86,
+    "controls": 34,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.info-teaser-text",
+     "path": "div.info-teaser-inner > div.info-teaser-content > div.info-teaser-text > p",
+     "text": "hvordan kan handel bli et verktøy i kampen mot fattigdom? i ",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 2,
+     "path": "div.info-teaser-inner > div.info-teaser-content > div.info-teaser-text > p",
+     "text": "hvordan kan handel bli et verktøy i kampen mot fattigdom? i ",
+     "clipper": "div.info-teaser-text",
+     "rect": {
+      "l": 971,
+      "t": 4969,
+      "r": 1358,
+      "b": 4991,
+      "w": 387,
+      "h": 22
+     },
+     "clip": {
+      "l": 971,
+      "t": 4966,
+      "r": 1392,
+      "b": 5110,
+      "w": 421,
+      "h": 144
+     },
+     "lines": 7
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "bærekraftig utvikling i praksis",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "verdens mest anerkjente merkeordning for rettferdig handel",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 5,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "merkevarer og produkter",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "aktuelt",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "nyheter møt fairtrades nye medarbeidere",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "nyheter fairtrade oppdaterer standardene",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "nyheter politisk interesse for rettferdig handel",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "nyheter fairtrade med nytt digitalt system for å hindre avskoging",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "nyheter fairtrades priser for rettferdig handel 2026",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "nyheter intervju med utviklingsminister åsmund aukrust",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "samarbeid med fairtrade",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "vår påvirkning",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 106,
+    "h": 20
+   },
+   {
+    "x": 330,
+    "y": 42,
+    "w": 63,
+    "h": 20
+   },
+   {
+    "x": 440,
+    "y": 42,
+    "w": 87,
+    "h": 20
+   },
+   {
+    "x": 575,
+    "y": 42,
+    "w": 126,
+    "h": 20
+   },
+   {
+    "x": 1164,
+    "y": 42,
+    "w": 28,
+    "h": 19
+   },
+   {
+    "x": 1243,
+    "y": 42,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 379,
+    "y": 227,
+    "w": 682,
+    "h": 72
+   },
+   {
+    "x": 611,
+    "y": 306,
+    "w": 218,
+    "h": 72
+   },
+   {
+    "x": 277,
+    "y": 418,
+    "w": 885,
+    "h": 29
+   },
+   {
+    "x": 382,
+    "y": 457,
+    "w": 675,
+    "h": 29
+   },
+   {
+    "x": 289,
+    "y": 1488,
+    "w": 291,
+    "h": 136
+   },
+   {
+    "x": 210,
+    "y": 1662,
+    "w": 449,
+    "h": 32
+   },
+   {
+    "x": 221,
+    "y": 2184,
+    "w": 428,
+    "h": 136
+   },
+   {
+    "x": 263,
+    "y": 2358,
+    "w": 344,
+    "h": 32
+   },
+   {
+    "x": 232,
+    "y": 2393,
+    "w": 406,
+    "h": 32
+   },
+   {
+    "x": 405,
+    "y": 2428,
+    "w": 60,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 1330,
+    "w": 151,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1382,
+    "w": 268,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 1434,
+    "w": 221,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 1487,
+    "w": 352,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 1540,
+    "w": 344,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 1618,
+    "w": 367,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1647,
+    "w": 379,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1675,
+    "w": 405,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1704,
+    "w": 341,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1733,
+    "w": 352,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1762,
+    "w": 130,
+    "h": 22
+   },
+   {
+    "x": 896,
+    "y": 1833,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3067,
+    "w": 497,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 3145,
+    "w": 281,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3174,
+    "w": 443,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3203,
+    "w": 287,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3232,
+    "w": 129,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3260,
+    "w": 371,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3289,
+    "w": 319,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 3360,
+    "w": 184,
+    "h": 22
+   },
+   {
+    "x": 669,
+    "y": 3700,
+    "w": 102,
+    "h": 32
+   },
+   {
+    "x": 383,
+    "y": 3869,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4186,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 4226,
+    "w": 246,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4261,
+    "w": 188,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4306,
+    "w": 414,
+    "h": 22
+   },
+   {
+    "x": 48,
+    "y": 4335,
+    "w": 152,
+    "h": 22
+   },
+   {
+    "x": 48,
+    "y": 4375,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 842,
+    "y": 3869,
+    "w": 65,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 4186,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 4226,
+    "w": 278,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 4261,
+    "w": 169,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 4306,
+    "w": 396,
+    "h": 22
+   },
+   {
+    "x": 509,
+    "y": 4335,
+    "w": 356,
+    "h": 22
+   },
+   {
+    "x": 509,
+    "y": 4364,
+    "w": 140,
+    "h": 22
+   },
+   {
+    "x": 509,
+    "y": 4404,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 1303,
+    "y": 3869,
+    "w": 65,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 4186,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 4226,
+    "w": 410,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4261,
+    "w": 92,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4306,
+    "w": 419,
+    "h": 22
+   },
+   {
+    "x": 971,
+    "y": 4335,
+    "w": 394,
+    "h": 22
+   },
+   {
+    "x": 971,
+    "y": 4364,
+    "w": 161,
+    "h": 22
+   },
+   {
+    "x": 971,
+    "y": 4404,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 307,
+    "y": 4497,
+    "w": 61,
+    "h": 19
+   },
+   {
+    "x": 408,
+    "y": 4497,
+    "w": 37,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4813,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 4853,
+    "w": 351,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4888,
+    "w": 392,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4933,
+    "w": 413,
+    "h": 22
+   },
+   {
+    "x": 48,
+    "y": 4962,
+    "w": 368,
+    "h": 22
+   },
+   {
+    "x": 48,
+    "y": 4991,
+    "w": 160,
+    "h": 22
+   },
+   {
+    "x": 48,
+    "y": 5031,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 842,
+    "y": 4497,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 4813,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 4853,
+    "w": 400,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 4888,
+    "w": 160,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 4933,
+    "w": 377,
+    "h": 22
+   },
+   {
+    "x": 509,
+    "y": 4962,
+    "w": 404,
+    "h": 22
+   },
+   {
+    "x": 509,
+    "y": 4991,
+    "w": 366,
+    "h": 22
+   },
+   {
+    "x": 509,
+    "y": 5020,
+    "w": 60,
+    "h": 22
+   },
+   {
+    "x": 509,
+    "y": 5060,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 1310,
+    "y": 4497,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 4813,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 4853,
+    "w": 172,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4888,
+    "w": 364,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4923,
+    "w": 108,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4969,
+    "w": 387,
+    "h": 22
+   },
+   {
+    "x": 971,
+    "y": 4997,
+    "w": 275,
+    "h": 22
+   },
+   {
+    "x": 971,
+    "y": 5026,
+    "w": 410,
+    "h": 22
+   },
+   {
+    "x": 971,
+    "y": 5055,
+    "w": 281,
+    "h": 22
+   },
+   {
+    "x": 971,
+    "y": 5084,
+    "w": 339,
+    "h": 22
+   },
+   {
+    "x": 971,
+    "y": 5124,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 663,
+    "y": 5301,
+    "w": 115,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 5568,
+    "w": 505,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 5646,
+    "w": 513,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 5674,
+    "w": 504,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 5703,
+    "w": 220,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 5732,
+    "w": 534,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 5761,
+    "w": 475,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 5790,
+    "w": 80,
+    "h": 22
+   },
+   {
+    "x": 774,
+    "y": 5860,
+    "w": 70,
+    "h": 22
+   },
+   {
+    "x": 211,
+    "y": 6339,
+    "w": 448,
+    "h": 136
+   },
+   {
+    "x": 214,
+    "y": 6513,
+    "w": 442,
+    "h": 32
+   },
+   {
+    "x": 336,
+    "y": 6548,
+    "w": 198,
+    "h": 32
+   },
+   {
+    "x": 311,
+    "y": 7070,
+    "w": 248,
+    "h": 136
+   },
+   {
+    "x": 230,
+    "y": 7244,
+    "w": 410,
+    "h": 32
+   },
+   {
+    "x": 279,
+    "y": 7279,
+    "w": 311,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 6332,
+    "w": 172,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 6384,
+    "w": 295,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 6461,
+    "w": 376,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 6490,
+    "w": 375,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 6519,
+    "w": 378,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 6548,
+    "w": 331,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 6577,
+    "w": 84,
+    "h": 22
+   },
+   {
+    "x": 1334,
+    "y": 7680,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 7767,
+    "w": 189,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 7817,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 7866,
+    "w": 185,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 7916,
+    "w": 111,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 7965,
+    "w": 73,
+    "h": 19
+   },
+   {
+    "x": 390,
+    "y": 7767,
+    "w": 115,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 7817,
+    "w": 108,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 7866,
+    "w": 57,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 7916,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 732,
+    "y": 7767,
+    "w": 203,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 7817,
+    "w": 145,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 7866,
+    "w": 84,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 7916,
+    "w": 116,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 7767,
+    "w": 254,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 7901,
+    "w": 113,
+    "h": 24
+   },
+   {
+    "x": 1199,
+    "y": 7961,
+    "w": 68,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 106,
+    "h": 20
+   },
+   {
+    "x": 330,
+    "y": 42,
+    "w": 63,
+    "h": 20
+   },
+   {
+    "x": 440,
+    "y": 42,
+    "w": 87,
+    "h": 20
+   },
+   {
+    "x": 575,
+    "y": 42,
+    "w": 126,
+    "h": 20
+   },
+   {
+    "x": 1164,
+    "y": 42,
+    "w": 28,
+    "h": 19
+   },
+   {
+    "x": 1243,
+    "y": 42,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 379,
+    "y": 227,
+    "w": 682,
+    "h": 72
+   },
+   {
+    "x": 611,
+    "y": 306,
+    "w": 218,
+    "h": 72
+   },
+   {
+    "x": 277,
+    "y": 418,
+    "w": 885,
+    "h": 29
+   },
+   {
+    "x": 382,
+    "y": 457,
+    "w": 675,
+    "h": 29
+   },
+   {
+    "x": 289,
+    "y": 1488,
+    "w": 291,
+    "h": 136
+   },
+   {
+    "x": 210,
+    "y": 1662,
+    "w": 449,
+    "h": 32
+   },
+   {
+    "x": 221,
+    "y": 2184,
+    "w": 428,
+    "h": 136
+   },
+   {
+    "x": 263,
+    "y": 2358,
+    "w": 344,
+    "h": 32
+   },
+   {
+    "x": 232,
+    "y": 2393,
+    "w": 406,
+    "h": 32
+   },
+   {
+    "x": 405,
+    "y": 2428,
+    "w": 60,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 1330,
+    "w": 151,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1382,
+    "w": 268,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 1434,
+    "w": 221,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 1487,
+    "w": 352,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 1540,
+    "w": 344,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 1618,
+    "w": 367,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1647,
+    "w": 379,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1675,
+    "w": 405,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1704,
+    "w": 341,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1733,
+    "w": 352,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1762,
+    "w": 130,
+    "h": 22
+   },
+   {
+    "x": 896,
+    "y": 1833,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3067,
+    "w": 497,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 3145,
+    "w": 281,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3174,
+    "w": 443,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3203,
+    "w": 287,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3232,
+    "w": 129,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3260,
+    "w": 371,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3289,
+    "w": 319,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 3360,
+    "w": 184,
+    "h": 22
+   },
+   {
+    "x": 669,
+    "y": 3700,
+    "w": 102,
+    "h": 32
+   },
+   {
+    "x": 383,
+    "y": 3869,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4186,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 4226,
+    "w": 246,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4261,
+    "w": 188,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4306,
+    "w": 414,
+    "h": 22
+   },
+   {
+    "x": 48,
+    "y": 4335,
+    "w": 152,
+    "h": 22
+   },
+   {
+    "x": 48,
+    "y": 4375,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 842,
+    "y": 3869,
+    "w": 65,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 4186,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 4226,
+    "w": 278,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 4261,
+    "w": 169,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 4306,
+    "w": 396,
+    "h": 22
+   },
+   {
+    "x": 509,
+    "y": 4335,
+    "w": 356,
+    "h": 22
+   },
+   {
+    "x": 509,
+    "y": 4364,
+    "w": 140,
+    "h": 22
+   },
+   {
+    "x": 509,
+    "y": 4404,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 1303,
+    "y": 3869,
+    "w": 65,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 4186,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 4226,
+    "w": 410,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4261,
+    "w": 92,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4306,
+    "w": 419,
+    "h": 22
+   },
+   {
+    "x": 971,
+    "y": 4335,
+    "w": 394,
+    "h": 22
+   },
+   {
+    "x": 971,
+    "y": 4364,
+    "w": 161,
+    "h": 22
+   },
+   {
+    "x": 971,
+    "y": 4404,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 307,
+    "y": 4497,
+    "w": 61,
+    "h": 19
+   },
+   {
+    "x": 408,
+    "y": 4497,
+    "w": 37,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4813,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 4853,
+    "w": 351,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4888,
+    "w": 392,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4933,
+    "w": 413,
+    "h": 22
+   },
+   {
+    "x": 48,
+    "y": 4962,
+    "w": 368,
+    "h": 22
+   },
+   {
+    "x": 48,
+    "y": 4991,
+    "w": 160,
+    "h": 22
+   },
+   {
+    "x": 48,
+    "y": 5031,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 842,
+    "y": 4497,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 4813,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 4853,
+    "w": 400,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 4888,
+    "w": 160,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 4933,
+    "w": 377,
+    "h": 22
+   },
+   {
+    "x": 509,
+    "y": 4962,
+    "w": 404,
+    "h": 22
+   },
+   {
+    "x": 509,
+    "y": 4991,
+    "w": 366,
+    "h": 22
+   },
+   {
+    "x": 509,
+    "y": 5020,
+    "w": 60,
+    "h": 22
+   },
+   {
+    "x": 509,
+    "y": 5060,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 1310,
+    "y": 4497,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 4813,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 4853,
+    "w": 172,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4888,
+    "w": 364,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4923,
+    "w": 108,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4969,
+    "w": 387,
+    "h": 22
+   },
+   {
+    "x": 971,
+    "y": 4997,
+    "w": 275,
+    "h": 22
+   },
+   {
+    "x": 971,
+    "y": 5026,
+    "w": 410,
+    "h": 22
+   },
+   {
+    "x": 971,
+    "y": 5055,
+    "w": 281,
+    "h": 22
+   },
+   {
+    "x": 971,
+    "y": 5084,
+    "w": 339,
+    "h": 22
+   },
+   {
+    "x": 971,
+    "y": 5124,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 663,
+    "y": 5301,
+    "w": 115,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 5568,
+    "w": 505,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 5646,
+    "w": 513,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 5674,
+    "w": 504,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 5703,
+    "w": 220,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 5732,
+    "w": 534,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 5761,
+    "w": 475,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 5790,
+    "w": 80,
+    "h": 22
+   },
+   {
+    "x": 774,
+    "y": 5860,
+    "w": 70,
+    "h": 22
+   },
+   {
+    "x": 211,
+    "y": 6339,
+    "w": 448,
+    "h": 136
+   },
+   {
+    "x": 214,
+    "y": 6513,
+    "w": 442,
+    "h": 32
+   },
+   {
+    "x": 336,
+    "y": 6548,
+    "w": 198,
+    "h": 32
+   },
+   {
+    "x": 311,
+    "y": 7070,
+    "w": 248,
+    "h": 136
+   },
+   {
+    "x": 230,
+    "y": 7244,
+    "w": 410,
+    "h": 32
+   },
+   {
+    "x": 279,
+    "y": 7279,
+    "w": 311,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 6332,
+    "w": 172,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 6384,
+    "w": 295,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 6461,
+    "w": 376,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 6490,
+    "w": 375,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 6519,
+    "w": 378,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 6548,
+    "w": 331,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 6577,
+    "w": 84,
+    "h": 22
+   },
+   {
+    "x": 1334,
+    "y": 7680,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 7767,
+    "w": 189,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 7817,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 7866,
+    "w": 185,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 7916,
+    "w": 111,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 7965,
+    "w": 73,
+    "h": 19
+   },
+   {
+    "x": 390,
+    "y": 7767,
+    "w": 115,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 7817,
+    "w": 108,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 7866,
+    "w": 57,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 7916,
+    "w": 49,
+    "h": 19
+   },
+   {
+    "x": 732,
+    "y": 7767,
+    "w": 203,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 7817,
+    "w": 145,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 7866,
+    "w": 84,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 7916,
+    "w": 116,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 7767,
+    "w": 254,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 7901,
+    "w": 113,
+    "h": 24
+   },
+   {
+    "x": 1199,
+    "y": 7961,
+    "w": 68,
+    "h": 22
+   }
+  ]
+ }
+}

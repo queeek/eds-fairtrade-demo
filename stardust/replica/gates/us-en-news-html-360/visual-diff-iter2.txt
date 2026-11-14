@@ -1,0 +1,772 @@
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/us-en-news-html-360/vdiff-iter2/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 9313,
+  "textLen": 2575,
+  "images": [
+   {
+    "src": "Fairtrade_America_Logo_Vert_80x80.png",
+    "natural": "80x80",
+    "rendered": "56x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "315x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "315x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "315x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "322x241",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "322x241",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "322x241",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "315x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "322x241",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "322x241",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "322x241",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "322x241",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "315x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "322x241",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "322x241",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "322x241",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "322x241",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "322x241",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "4x3_375w.webp",
+    "natural": "322x241",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=187088229&tm=gtm002&Ver=2&mid=f52670f5-f160-4ea5-88d7-8dc3ef07d855&bo=1&sid=a7386100dfa611f196dfcf3e9d3ef602&vid=a7389970dfa611f1a2b1e3bb8df4d4af&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=News&p=https%3A%2F%2Fwww.fairtrade.net%2Fus-en%2Fnews.html&r=&lt=562&evt=pageLoad&sv=2&cdb=AQAQ&rn=715301",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "News",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news\n                 ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "PageLead--contentGrid",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "InfoTeaser--content",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--content",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--content",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--text",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--text",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--text",
+    "width": 305,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--content",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--content",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--text",
+    "width": 252,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--text",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--text",
+    "width": 324,
+    "left": 18
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 9313,
+  "textLen": 2575,
+  "images": [
+   {
+    "src": "Fairtrade_America_Logo_Vert_80x80.png",
+    "natural": "80x80",
+    "rendered": "56x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-01-375.webp",
+    "natural": "317x243",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-02-375.webp",
+    "natural": "317x243",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-03-375.webp",
+    "natural": "317x243",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-04-375.webp",
+    "natural": "324x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-05-375.webp",
+    "natural": "324x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-06-375.webp",
+    "natural": "324x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-07-375.webp",
+    "natural": "317x243",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-08-375.webp",
+    "natural": "324x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-09-375.webp",
+    "natural": "324x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-10-375.webp",
+    "natural": "324x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-11-375.webp",
+    "natural": "324x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-12-375.webp",
+    "natural": "317x243",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-13-375.webp",
+    "natural": "324x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-14-375.webp",
+    "natural": "324x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-15-375.webp",
+    "natural": "324x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-16-375.webp",
+    "natural": "324x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-17-375.webp",
+    "natural": "324x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "news-18-375.webp",
+    "natural": "324x242",
+    "rendered": "322x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "News",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "48px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news When Communities ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news Silence isn’t a s",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news Fairtrade stands ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news Real Pay Feeds Re",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news A Spicy Fair Shar",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news What is a coopera",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news Sourcing matters:",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news How Fairtrade’s C",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news International Day",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news It's Giveaway Tim",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news World Day Against",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news From Grassroots t",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news International Wor",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news Seedlings Planted",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news The Future is Fai",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news What is a Banana ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news Synthetic Chocola",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade news Farm to Family: R",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "18px",
+    "family": "Alegreya Sans",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "PageLead--contentGrid",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "InfoTeaser--content",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--content",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--content",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--text",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--text",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--text",
+    "width": 305,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--content",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--content",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--text",
+    "width": 252,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--text",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "InfoTeaser--text",
+    "width": 324,
+    "left": 18
+   }
+  ]
+ }
+}

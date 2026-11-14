@@ -1,0 +1,102 @@
+{
+  "slug": "us-en-for-business-get-certified-resources-support-html",
+  "type": "static",
+  "renderBranch": "A'",
+  "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+  "modules": [
+    "content-fader",
+    "accordion"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "cmp-container"
+  ],
+  "canonShas": {
+    "header": "64baecce9176",
+    "footer": "02b6cd3e1e94",
+    "css": "2bf6b48caf7e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Resources &amp; Support",
+    "description": null,
+    "canonical": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/resources-support.html",
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Fairtrade.net",
+    "alternateName": "Fairtrade America",
+    "url": "https://www.fairtrade.net/"
+  },
+  "migratedAt": "2026-11-14T08:10:01Z",
+  "designMdSha": "ba7a99252bf7",
+  "designJsonSha": "d7cf7a9249c2",
+  "sourceCurrentSha": "9eab1f28eea7",
+  "sourceProposedSha": "f8615be57791",
+  "fidelityTier": "sibling",
+  "archetypeSource": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+  "archetypeSha": "2a79d8a95d9e",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "content-fidelity",
+    "content-count",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 vs gender-equality: per-page module composition (PageLead + RichtextSection/TextImage/Accordion/NumberFact/SingleImage/CTA/Iframe/Video mixes), grey text-image band, dark page-lead (stardust/migrate/variance/static.json)",
+    "delivery-lint": "delivery-lint 0 P0/P1",
+    "media-reconcile": "media-reconcile: 3 keep, 0 omit/unresolved",
+    "content-fidelity": "cluster sample content-diff generic main 0 red / 0 nothing-lost on 6 pages; this page: gate-all content-presence 0 missing",
+    "content-count": "gate-all content-presence 1440+360: MISSING 0 / HIDDEN 0, clipped 0/0",
+    "pixel-gate-1440": "gate-all 1440: pixel 0.01% dh 0, fonts loaded, PASS",
+    "pixel-gate-360": "gate-all 360: pixel 0% dh 0, fonts loaded, PASS"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners/how-to-use-the-mark.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners/mark-misuse-allegations-or-complaints.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-retailers/fairtrade-bananas.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners/how-to-use-the-mark.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-partners/mark-misuse-allegations-or-complaints.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/for-retailers/fairtrade-bananas.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/us-en/for-business/get-certified/resources-support/tools-for-making-the-case.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/us-en/for-business/get-certified/resources-support/cost-calculator.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "us-en/for-business/get-certified/resources-support.html",
+  "outputPathDefault": null,
+  "sidecar": "us-en/for-business/get-certified/resources-support._meta.json",
+  "driverVersion": "1"
+}
