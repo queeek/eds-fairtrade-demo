@@ -61,3 +61,49 @@
     grid-column: 2 / -2;
   }
 }
+
+/* video variant — source SingleVideo (stardust/prototypes/at-de-html.css; values verbatim):
+   16:9 player, no frame border, 12px radius, optional caption line below */
+.iframe.video {
+  row-gap: 12px;
+}
+
+.iframe.video .iframe-frame {
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 12px;
+  height: auto;
+}
+
+.iframe.video .iframe-caption {
+  display: grid;
+  font-size: 13px;
+  gap: 2px;
+  grid-template-columns: auto 1fr;
+  line-height: 1.6;
+}
+
+.iframe.video .iframe-caption p {
+  margin: 0;
+}
+
+.iframe.video .iframe-caption-icon {
+  color: #0fc0fc;
+}
+
+/* spacer-before — the preceding RichtextSection's last paragraph ends in <br><br> (one painted
+   blank line the pipeline drops): reproduce that line above the player */
+.iframe.video.spacer-before {
+  padding-top: calc(64px + 1lh);
+}
+
+@media (width >= 1024px) {
+  .iframe.video > .iframe-caption {
+    font-size: 14px;
+    grid-column: 2 / -2;
+  }
+
+  .iframe.video.spacer-before {
+    padding-top: calc(80px + 1lh);
+  }
+}
