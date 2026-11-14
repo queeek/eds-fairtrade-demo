@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 2,
+  "url": "https://www.fairtrade.net/en/why-fairtrade/why-we-do-it/deforestation/resources-for-producers-on-the-eu-deforestation-regulation.html",
+  "title": "Resources for producers on the EU Deforestation Regulation",
+  "timestamp": "2026-11-14T17:08:34.901Z",
+  "duration": "9.1s",
+  "cleanup": {
+    "elementsRemoved": 2,
+    "types": [
+      "cookie-banner",
+      "popup"
+    ],
+    "cookieConsentDismissed": true,
+    "lateConsentOverlaysRemoved": 0,
+    "removed": [
+      {
+        "selector": "#usercentrics-root",
+        "type": "cookie-banner",
+        "rule": "[id*=\"usercentrics\"]"
+      },
+      {
+        "selector": "#locale-selector",
+        "type": "popup",
+        "rule": "[role=\"dialog\"]"
+      }
+    ]
+  },
+  "snapshot": {
+    "html": "page.html",
+    "unresolvedSelectors": []
+  },
+  "images": [
+    {
+      "url": "https://www.fairtrade.net/content/dam/fairtrade/global/logo/fairtrade-international.svg",
+      "type": "img"
+    }
+  ],
+  "skeleton": {
+    "signature": "s(s(5x1,s),s(sB(s,s),s,s))",
+    "nodeMap": {
+      "r": "body",
+      "rc1": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12",
+      "rc1c1": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.breadcrumb",
+      "rc1c2": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar",
+      "rc2": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12",
+      "rc2c1": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.page-lead.is-visible",
+      "rc2c1c1": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.page-lead.is-visible > div.PageLead.theme-leafgreen > div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+      "rc2c1c2": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.page-lead.is-visible > div.PageLead.theme-leafgreen > div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+      "rc2c2": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.richtextsection.is-visible:nth-of-type(2)",
+      "rc2c3": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.richtextsection.is-visible:nth-of-type(3)"
+    },
+    "sections": [
+      {
+        "id": "rc1",
+        "selector": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12",
+        "layout": null,
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc2",
+        "selector": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.page-lead.is-visible",
+        "layout": null,
+        "hasBg": true,
+        "hint": "default-content",
+        "background": "#d4ff47",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.page-lead.is-visible > div.PageLead.theme-leafgreen > div.PageLead--content"
+      },
+      {
+        "id": "rc3",
+        "selector": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.richtextsection.is-visible:nth-of-type(2)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc4",
+        "selector": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.richtextsection.is-visible:nth-of-type(3)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      }
+    ],
+    "invalidIgnore": []
+  },
+  "pageLayout": {
+    "box": {
+      "y": 104,
+      "height": 2048.625
+    },
+    "splits": [],
+    "start": {
+      "kind": "heading",
+      "look": {
+        "font": "\"Alegreya Sans\", system-ui",
+        "color": "rgb(30, 30, 30)",
+        "align": "center"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "b01-hero",
+      "type": "hero",
+      "name": "hero",
+      "variantId": "v_ee3c6b324b9b",
+      "selector": "main > div.cmp-container > div.page-lead",
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 104,
+        "width": 1440,
+        "height": 726
+      },
+      "description": "Top-of-page lead on static, listing and form pages. Used on 3 pages (market-entry-form, news-listing and topic-detail templates).",
+      "visualChars": {
+        "purpose": "Hero",
+        "structure": "Hero block"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "source": "excat-site-migration",
+    "template": "why-fairtrade-2",
+    "path": "/en/why-fairtrade/why-we-do-it/deforestation/resources-for-producers-on-the-eu-deforestation-regulation",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "http://localhost:3000/content/en/why-fairtrade/why-we-do-it/deforestation/resources-for-producers-on-the-eu-deforestation-regulation",
+    "screenshotCapturedAt": "2026-11-14T19:08:34.101Z"
+  }
+}

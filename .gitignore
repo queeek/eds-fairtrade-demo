@@ -17,3 +17,8 @@ helix-importer-ui
 .env
 .env.*
 # <<< stardust
+
+# Importer build output and run reports
+tools/importer/*.bundle.js
+tools/importer/reports/
+tools/importer/urls-*-test.txt
