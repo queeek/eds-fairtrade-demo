@@ -229,7 +229,7 @@
       },
       "v_53cd2eb0b4bc": {
         "id": "v_53cd2eb0b4bc",
-        "name": "image",
+        "name": "single-image",
         "type": "custom",
         "canonicalModel": "standalone",
         "pagesFound": 1,
@@ -243,7 +243,7 @@
           "stardustKind": "module"
         },
         "confidenceLevel": "high",
-        "confidenceReason": "Renamed block from single-image to image",
+        "confidenceReason": "Kept block name single-image: 'image' clashes with the site-wide .image picture-frame style",
         "placedBy": "person",
         "confidenceSource": "user"
       }
