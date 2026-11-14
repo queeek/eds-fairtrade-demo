@@ -193,7 +193,7 @@
       },
       "v_ee3c6b324b9b": {
         "id": "v_ee3c6b324b9b",
-        "name": "page-lead",
+        "name": "hero",
         "type": "hero",
         "canonicalModel": "standalone",
         "pagesFound": 3,
@@ -207,7 +207,9 @@
           "stardustKind": "module"
         },
         "confidenceLevel": "high",
-        "confidenceReason": "Built and gated by the auto migration (stardust)"
+        "confidenceReason": "Renamed block from page-lead to hero",
+        "placedBy": "person",
+        "confidenceSource": "user"
       },
       "v_ca0ab9d4bc30": {
         "id": "v_ca0ab9d4bc30",
