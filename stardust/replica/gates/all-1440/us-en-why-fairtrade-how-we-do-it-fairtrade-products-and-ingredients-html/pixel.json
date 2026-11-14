@@ -1,0 +1,61 @@
+{
+  "a": "stardust/replica/gates/all-1440/us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html/origin.png",
+  "b": "stardust/replica/gates/all-1440/us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3397,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 4487,
+  "pct": 0.09,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0,
+  "textBoxes": 75,
+  "textPixels": 714936,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3397,
+      "pct": 0
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients"
+  }
+}

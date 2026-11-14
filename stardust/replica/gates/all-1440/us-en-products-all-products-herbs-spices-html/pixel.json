@@ -1,0 +1,66 @@
+{
+  "a": "stardust/replica/gates/all-1440/us-en-products-all-products-herbs-spices-html/origin.png",
+  "b": "stardust/replica/gates/all-1440/us-en-products-all-products-herbs-spices-html/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3923,
+    "mode": "overlap"
+  },
+  "heightDelta": 61,
+  "differingPixels": 114751,
+  "pct": 2.03,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/us-en-products-all-products-herbs-spices-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 1.19,
+  "textBoxes": 70,
+  "textPixels": 549702,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 3923,
+      "pct": 18.6
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/herbs-spices"
+  }
+}

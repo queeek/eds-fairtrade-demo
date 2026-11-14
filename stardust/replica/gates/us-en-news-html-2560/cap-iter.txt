@@ -1,0 +1,14 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://www.fairtrade.net/us-en/news.html
+  shell     1920px  other     div.FilteredTeaserGrid > div.TeaserGrid.small > div.TeaserGrid--inner > ul.TeaserGrid--grid  (tier 6, holds 97% of the text)
+  modules  2 sections: capped 1920 ×1, 418 ×1 · full-bleed ×0
+  contentMaxWidth 1920px (shell) · shellMaxWidth 1920px · root div.cmp-container > div.aem-Grid.aem-Grid--12 > div.maincontainer.container > main
+build  http://localhost:8791/us-en-news-html-proposed.html
+  shell     1920px  other     div.FilteredTeaserGrid.is-visible > div.TeaserGrid.small > div.TeaserGrid--inner > ul.TeaserGrid--grid  (tier 4, holds 97% of the text)
+  modules  2 sections: capped 1920 ×1, 418 ×1 · full-bleed ×0
+  contentMaxWidth 1920px (shell) · shellMaxWidth 1920px · root body > main
+rows
+  ✓ wrapper cap: live 1920px = build 1920px (±20)
+  ✓ module 1/2: 1920px = 1920px
+  ✓ module 2/2: 418px = 418px
+cap-probe: PASS at 2560 — 0 of 3 rows failed (evidence stardust/replica/gates/us-en-news-html-2560/cap-iter.json)

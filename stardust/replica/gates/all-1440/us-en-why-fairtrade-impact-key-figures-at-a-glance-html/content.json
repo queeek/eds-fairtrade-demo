@@ -1,0 +1,3894 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T10:58:08.684Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/us-en/why-fairtrade/impact/key-figures-at-a-glance.html",
+  "at": "2026-11-14T10:57:44.035Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 8288,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "Fairtrade_America_Logo_Vert_80x80"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > span.Breadcrumbs--breadcrumb--title",
+    "x": 125,
+    "y": 122,
+    "w": 90,
+    "h": 20,
+    "text": "Why Fairtrade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 255,
+    "y": 122,
+    "w": 44,
+    "h": 20,
+    "text": "impact",
+    "href": "/us-en/why-fairtrade/impact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 339,
+    "y": 122,
+    "w": 142,
+    "h": 20,
+    "text": "key figures at a glance",
+    "href": "/us-en/why-fairtrade/impact/key-figures-at-a-glance.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+    "x": 276,
+    "y": 224,
+    "w": 888,
+    "h": 158,
+    "level": 1,
+    "text": "an overview of fairtrade’s impact"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+    "x": 276,
+    "y": 414,
+    "w": 888,
+    "h": 77,
+    "text": "Delve into key figures to explore how Fairtrade works to share the benefits of g"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--imageGrid > div.Image.ultra-wide > img.lazyautosizes.lazyloaded",
+    "x": 48,
+    "y": 555,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "21x9_1440w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 1251,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "our work"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1310,
+    "w": 660,
+    "h": 58,
+    "text": "We work towards lasting sustainable change for farmers and workers in including:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > a",
+    "x": 390,
+    "y": 1313,
+    "w": 619,
+    "h": 51,
+    "text": "key areas",
+    "href": "/us-en/why-fairtrade/why-we-do-it.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 1400,
+    "w": 660,
+    "h": 29,
+    "text": "Sustainable, resilient livelihoods"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 1441,
+    "w": 660,
+    "h": 29,
+    "text": "Decent work"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 1482,
+    "w": 660,
+    "h": 29,
+    "text": "Gender equity and social inclusion"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 1522,
+    "w": 660,
+    "h": 29,
+    "text": "Environmental sustainability"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 1563,
+    "w": 660,
+    "h": 29,
+    "text": "Sustainable, resilient and fairer supply chains"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--number",
+    "x": 207,
+    "y": 1918,
+    "w": 456,
+    "h": 119,
+    "text": "+2M"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--fact",
+    "x": 207,
+    "y": 2082,
+    "w": 456,
+    "h": 35,
+    "text": "farmers and workers in Fairtrade"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--number",
+    "x": 193,
+    "y": 2632,
+    "w": 484,
+    "h": 119,
+    "text": "1,930"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--fact",
+    "x": 193,
+    "y": 2795,
+    "w": 484,
+    "h": 70,
+    "text": "producer organisations in 70 countries"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > strong.NumberFactTeaser--label",
+    "x": 862,
+    "y": 1856,
+    "w": 146,
+    "h": 29,
+    "text": "Fairtrade's scope"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > h2.NumberFactTeaser--title",
+    "x": 862,
+    "y": 1908,
+    "w": 224,
+    "h": 53,
+    "level": 2,
+    "text": "key figures"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > p.NumberFactTeaser--text",
+    "x": 862,
+    "y": 1985,
+    "w": 405,
+    "h": 115,
+    "text": "Here are a few facts about Fairtrade. Scroll down for more information about our"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > a.Button.NumberFactTeaser--cta",
+    "x": 862,
+    "y": 2132,
+    "w": 136,
+    "h": 48,
+    "text": "reports",
+    "href": "/us-en/why-fairtrade/impact/reports-trends.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 3174,
+    "w": 660,
+    "h": 173,
+    "text": "Achieving meaningful impact in these areas requires significant systemic shifts,"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > a",
+    "x": 533,
+    "y": 3321,
+    "w": 203,
+    "h": 22,
+    "text": "how we measure impact.",
+    "href": "/us-en/why-fairtrade/impact/how-we-measure-impact.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--number",
+    "x": 248,
+    "y": 3673,
+    "w": 374,
+    "h": 119,
+    "text": "+2,500"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--fact",
+    "x": 248,
+    "y": 3836,
+    "w": 374,
+    "h": 35,
+    "text": "businesses in 145 countries"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--number",
+    "x": 193,
+    "y": 4386,
+    "w": 484,
+    "h": 119,
+    "text": "+37,000"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-flower > div.NumberFact--content > div.NumberFact--fact",
+    "x": 193,
+    "y": 4550,
+    "w": 484,
+    "h": 70,
+    "text": "products sold with the FAIRTRADE Mark, in more than 140 countries"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > strong.NumberFactTeaser--label",
+    "x": 862,
+    "y": 3610,
+    "w": 144,
+    "h": 29,
+    "text": "Across the world"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > h2.NumberFactTeaser--title",
+    "x": 862,
+    "y": 3663,
+    "w": 370,
+    "h": 53,
+    "level": 2,
+    "text": "fairtrade products"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > p.NumberFactTeaser--text",
+    "x": 862,
+    "y": 3740,
+    "w": 405,
+    "h": 115,
+    "text": "Whether chocolate or coffee, chances are you have stumbled upon a Fairtrade prod"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > a.Button.NumberFactTeaser--cta",
+    "x": 862,
+    "y": 3887,
+    "w": 227,
+    "h": 48,
+    "text": "fairtrade products",
+    "href": "/us-en/products/all-products.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 4929,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "benefits from fairtrade sales and premium"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4988,
+    "w": 660,
+    "h": 58,
+    "text": "The more farmers and workers can sell on Fairtrade terms, the more they benefit "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 5077,
+    "w": 660,
+    "h": 86,
+    "text": "Producers earned more than €220 million in Fairtrade Premium in 2022. The Fairtr"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 162,
+    "y": 6344,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "trust in fairtrade"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 162,
+    "y": 6421,
+    "w": 538,
+    "h": 173,
+    "text": "Consumers play a crucial role in Fairtrade - if there wasn’t any consumer demand"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 162,
+    "y": 6625,
+    "w": 159,
+    "h": 48,
+    "text": "read more",
+    "href": "/us-en/for-business/benefits-of-being-certified/consumer-trends1.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 740,
+    "y": 6240,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > div > b",
+    "x": 390,
+    "y": 6981,
+    "w": 183,
+    "h": 22,
+    "text": "Interesting resources"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 7006,
+    "w": 660,
+    "h": 86,
+    "text": "Sustainable livelihoods: A 2021 study showed that Ivorian Fairtrade cocoa farmer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 7105,
+    "w": 660,
+    "h": 58,
+    "text": "Living income: More than 10 set for cocoa, coffee, coconut, and vanilla, availab"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 636,
+    "y": 7108,
+    "w": 244,
+    "h": 22,
+    "text": "living income reference prices",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 7174,
+    "w": 660,
+    "h": 58,
+    "text": "Living wages: for banana workers in four countries: Colombia, Dominican Republic"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 520,
+    "y": 7177,
+    "w": 351,
+    "h": 22,
+    "text": "reference prices set to enable living wages",
+    "href": "/us-en/why-fairtrade/why-we-do-it/decent-livelihoods/living-wage.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 7244,
+    "w": 660,
+    "h": 115,
+    "text": "Climate resilience: Around 38 percent of all Fairtrade certified producer organi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 7371,
+    "w": 660,
+    "h": 58,
+    "text": "Protecting forests: All Fairtrade cocoa and coffee producer organisations can ac"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 7441,
+    "w": 660,
+    "h": 173,
+    "text": "Decent work and human rights: Audit results from more than 1,500 producer organi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ctasection.is-visible > div.CTASection > a.Button.variant-primary",
+    "x": 620,
+    "y": 7694,
+    "w": 200,
+    "h": 60,
+    "text": "visit our library",
+    "href": "/us-en/why-fairtrade/impact/reports-trends.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 7890,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 7890,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 76,
+    "y": 7980,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 8028,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 8077,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 418,
+    "y": 7980,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 8028,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 8077,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 8127,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 8176,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 760,
+    "y": 7980,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 8028,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 8077,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 7980,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 8026,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 8026,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 8026,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 8026,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 8114,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 8160,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 74,
+    "controls": 36,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/key-figures-at-a-glance",
+  "at": "2026-11-14T10:58:08.546Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 8320,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_13df0d1ade5b87108701c0132044859868"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > span.breadcrumbs-breadcrumb-title",
+    "x": 125,
+    "y": 122,
+    "w": 90,
+    "h": 20,
+    "text": "Why Fairtrade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 255,
+    "y": 122,
+    "w": 44,
+    "h": 20,
+    "text": "impact",
+    "href": "/us-en/why-fairtrade/impact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 339,
+    "y": 122,
+    "w": 142,
+    "h": 20,
+    "text": "key figures at a glance",
+    "href": "/us-en/why-fairtrade/impact/key-figures-at-a-glance.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-title > h1#an-overview-of-fairtrades-impact",
+    "x": 276,
+    "y": 224,
+    "w": 888,
+    "h": 158,
+    "level": 1,
+    "text": "an overview of fairtrade’s impact"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-lead > p",
+    "x": 276,
+    "y": 414,
+    "w": 888,
+    "h": 77,
+    "text": "Delve into key figures to explore how Fairtrade works to share the benefits of g"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.ultra-wide > picture > img",
+    "x": 48,
+    "y": 555,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "media_129dfe8d370bd03893d5d29220b704e411"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#our-work",
+    "x": 390,
+    "y": 1251,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "our work"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1310,
+    "w": 660,
+    "h": 58,
+    "text": "We work towards lasting sustainable change for farmers and workers in including:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 390,
+    "y": 1313,
+    "w": 619,
+    "h": 51,
+    "text": "key areas",
+    "href": "/us-en/why-fairtrade/why-we-do-it"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 1400,
+    "w": 660,
+    "h": 29,
+    "text": "Sustainable, resilient livelihoods"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 1441,
+    "w": 660,
+    "h": 29,
+    "text": "Decent work"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 1482,
+    "w": 660,
+    "h": 29,
+    "text": "Gender equity and social inclusion"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 1522,
+    "w": 660,
+    "h": 29,
+    "text": "Environmental sustainability"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 1563,
+    "w": 660,
+    "h": 29,
+    "text": "Sustainable, resilient and fairer supply chains"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 207,
+    "y": 1918,
+    "w": 456,
+    "h": 119,
+    "text": "+2M"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 219,
+    "y": 2082,
+    "w": 432,
+    "h": 35,
+    "text": "farmers and workers in Fairtrade"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 193,
+    "y": 2632,
+    "w": 484,
+    "h": 119,
+    "text": "1,930"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 205,
+    "y": 2795,
+    "w": 460,
+    "h": 70,
+    "text": "producer organisations in 70 countries"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-label > p > strong",
+    "x": 862,
+    "y": 1859,
+    "w": 146,
+    "h": 22,
+    "text": "Fairtrade's scope"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-title > h2#key-figures",
+    "x": 862,
+    "y": 1908,
+    "w": 224,
+    "h": 53,
+    "level": 2,
+    "text": "key figures"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-text > p",
+    "x": 862,
+    "y": 1985,
+    "w": 405,
+    "h": 115,
+    "text": "Here are a few facts about Fairtrade. Scroll down for more information about our"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-cta > p.button-wrapper > a.button.secondary",
+    "x": 862,
+    "y": 2132,
+    "w": 136,
+    "h": 48,
+    "text": "reports",
+    "href": "/us-en/why-fairtrade/impact/reports-trends"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 3174,
+    "w": 660,
+    "h": 173,
+    "text": "Achieving meaningful impact in these areas requires significant systemic shifts,"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 533,
+    "y": 3321,
+    "w": 203,
+    "h": 22,
+    "text": "how we measure impact.",
+    "href": "/us-en/why-fairtrade/impact/how-we-measure-impact"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 248,
+    "y": 3673,
+    "w": 374,
+    "h": 119,
+    "text": "+2,500"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 260,
+    "y": 3836,
+    "w": 350,
+    "h": 35,
+    "text": "businesses in 145 countries"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 193,
+    "y": 4386,
+    "w": 484,
+    "h": 119,
+    "text": "+37,000"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 205,
+    "y": 4550,
+    "w": 460,
+    "h": 70,
+    "text": "products sold with the FAIRTRADE Mark, in more than 140 countries"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-label > p > strong",
+    "x": 862,
+    "y": 3613,
+    "w": 144,
+    "h": 22,
+    "text": "Across the world"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-title > h2#fairtrade-products",
+    "x": 862,
+    "y": 3663,
+    "w": 370,
+    "h": 53,
+    "level": 2,
+    "text": "fairtrade products"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-text > p",
+    "x": 862,
+    "y": 3740,
+    "w": 405,
+    "h": 115,
+    "text": "Whether chocolate or coffee, chances are you have stumbled upon a Fairtrade prod"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-cta > p.button-wrapper > a.button.secondary",
+    "x": 862,
+    "y": 3887,
+    "w": 227,
+    "h": 48,
+    "text": "fairtrade products",
+    "href": "/us-en/products/all-products"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#benefits-from-fairtrade-sales-and-premium",
+    "x": 390,
+    "y": 4929,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "benefits from fairtrade sales and premium"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4988,
+    "w": 660,
+    "h": 58,
+    "text": "The more farmers and workers can sell on Fairtrade terms, the more they benefit "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 5077,
+    "w": 660,
+    "h": 86,
+    "text": "Producers earned more than €220 million in Fairtrade Premium in 2022. The Fairtr"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#trust-in-fairtrade",
+    "x": 162,
+    "y": 6344,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "trust in fairtrade"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 6421,
+    "w": 538,
+    "h": 173,
+    "text": "Consumers play a crucial role in Fairtrade - if there wasn’t any consumer demand"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 162,
+    "y": 6625,
+    "w": 159,
+    "h": 48,
+    "text": "read more",
+    "href": "/us-en/for-business/benefits-of-being-certified/consumer-trends1"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 740,
+    "y": 6240,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "media_161db943612006ee1c47f2b88a50ae2374"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > strong",
+    "x": 390,
+    "y": 6981,
+    "w": 183,
+    "h": 22,
+    "text": "Interesting resources"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 7038,
+    "w": 660,
+    "h": 86,
+    "text": "Sustainable livelihoods: A 2021 study showed that Ivorian Fairtrade cocoa farmer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 7137,
+    "w": 660,
+    "h": 58,
+    "text": "Living income: More than 10 set for cocoa, coffee, coconut, and vanilla, availab"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 636,
+    "y": 7140,
+    "w": 244,
+    "h": 22,
+    "text": "living income reference prices",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 7206,
+    "w": 660,
+    "h": 58,
+    "text": "Living wages: for banana workers in four countries: Colombia, Dominican Republic"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 520,
+    "y": 7209,
+    "w": 351,
+    "h": 22,
+    "text": "reference prices set to enable living wages",
+    "href": "/us-en/why-fairtrade/why-we-do-it/decent-livelihoods/living-wage.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 7276,
+    "w": 660,
+    "h": 115,
+    "text": "Climate resilience: Around 38 percent of all Fairtrade certified producer organi"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 7403,
+    "w": 660,
+    "h": 58,
+    "text": "Protecting forests: All Fairtrade cocoa and coffee producer organisations can ac"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 7473,
+    "w": 660,
+    "h": 173,
+    "text": "Decent work and human rights: Audit results from more than 1,500 producer organi"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-actions > p.button-wrapper > a.button.primary",
+    "x": 620,
+    "y": 7726,
+    "w": 200,
+    "h": 60,
+    "text": "visit our library",
+    "href": "/us-en/why-fairtrade/impact/reports-trends"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 7922,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 7922,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 76,
+    "y": 8012,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 8060,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 8109,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 418,
+    "y": 8012,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 8060,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 8109,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 8159,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 8208,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 760,
+    "y": 8012,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 8060,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 8109,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 8012,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 8058,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 8058,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 8058,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 8058,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 8146,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 8192,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 74,
+    "controls": 36,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "an overview of fairtrade’s impact",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "our work",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 7,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "key figures",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 7,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "fairtrade products",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "benefits from fairtrade sales and premium",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "trust in fairtrade",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 8,
+    "image": 0
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 8,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 90,
+    "h": 17
+   },
+   {
+    "x": 255,
+    "y": 123,
+    "w": 44,
+    "h": 17
+   },
+   {
+    "x": 339,
+    "y": 123,
+    "w": 142,
+    "h": 17
+   },
+   {
+    "x": 335,
+    "y": 227,
+    "w": 770,
+    "h": 72
+   },
+   {
+    "x": 616,
+    "y": 306,
+    "w": 207,
+    "h": 72
+   },
+   {
+    "x": 291,
+    "y": 418,
+    "w": 857,
+    "h": 29
+   },
+   {
+    "x": 575,
+    "y": 457,
+    "w": 291,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1252,
+    "w": 122,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 1313,
+    "w": 591,
+    "h": 22
+   },
+   {
+    "x": 981,
+    "y": 1313,
+    "w": 28,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1342,
+    "w": 46,
+    "h": 22
+   },
+   {
+    "x": 436,
+    "y": 1342,
+    "w": 83,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1403,
+    "w": 265,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1444,
+    "w": 102,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1485,
+    "w": 277,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1525,
+    "w": 235,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1566,
+    "w": 370,
+    "h": 22
+   },
+   {
+    "x": 314,
+    "y": 1909,
+    "w": 242,
+    "h": 136
+   },
+   {
+    "x": 219,
+    "y": 2083,
+    "w": 432,
+    "h": 32
+   },
+   {
+    "x": 294,
+    "y": 2623,
+    "w": 282,
+    "h": 136
+   },
+   {
+    "x": 249,
+    "y": 2796,
+    "w": 371,
+    "h": 32
+   },
+   {
+    "x": 373,
+    "y": 2831,
+    "w": 124,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 1859,
+    "w": 146,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1910,
+    "w": 224,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 1988,
+    "w": 397,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2017,
+    "w": 394,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2046,
+    "w": 403,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2075,
+    "w": 231,
+    "h": 22
+   },
+   {
+    "x": 896,
+    "y": 2145,
+    "w": 68,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3177,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3206,
+    "w": 628,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3235,
+    "w": 639,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3263,
+    "w": 408,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3321,
+    "w": 143,
+    "h": 22
+   },
+   {
+    "x": 533,
+    "y": 3321,
+    "w": 203,
+    "h": 22
+   },
+   {
+    "x": 253,
+    "y": 3664,
+    "w": 363,
+    "h": 136
+   },
+   {
+    "x": 260,
+    "y": 3837,
+    "w": 350,
+    "h": 32
+   },
+   {
+    "x": 221,
+    "y": 4377,
+    "w": 428,
+    "h": 136
+   },
+   {
+    "x": 208,
+    "y": 4551,
+    "w": 454,
+    "h": 32
+   },
+   {
+    "x": 221,
+    "y": 4586,
+    "w": 427,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 3613,
+    "w": 144,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 3665,
+    "w": 370,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 3743,
+    "w": 370,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 3772,
+    "w": 360,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 3800,
+    "w": 362,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 3829,
+    "w": 209,
+    "h": 22
+   },
+   {
+    "x": 896,
+    "y": 3900,
+    "w": 159,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4930,
+    "w": 567,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 4991,
+    "w": 657,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5020,
+    "w": 112,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5080,
+    "w": 617,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5109,
+    "w": 656,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5138,
+    "w": 424,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6346,
+    "w": 343,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 6424,
+    "w": 503,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6452,
+    "w": 520,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6481,
+    "w": 495,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6510,
+    "w": 484,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6539,
+    "w": 487,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6568,
+    "w": 512,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 6638,
+    "w": 91,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6981,
+    "w": 183,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7009,
+    "w": 597,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7038,
+    "w": 627,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7067,
+    "w": 92,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7108,
+    "w": 230,
+    "h": 22
+   },
+   {
+    "x": 636,
+    "y": 7108,
+    "w": 244,
+    "h": 22
+   },
+   {
+    "x": 879,
+    "y": 7108,
+    "w": 113,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7137,
+    "w": 501,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7177,
+    "w": 114,
+    "h": 22
+   },
+   {
+    "x": 520,
+    "y": 7177,
+    "w": 351,
+    "h": 22
+   },
+   {
+    "x": 871,
+    "y": 7177,
+    "w": 163,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7206,
+    "w": 546,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7247,
+    "w": 577,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7276,
+    "w": 628,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7305,
+    "w": 555,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7333,
+    "w": 88,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7374,
+    "w": 624,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7403,
+    "w": 340,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7444,
+    "w": 618,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7473,
+    "w": 622,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7501,
+    "w": 610,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7530,
+    "w": 603,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7559,
+    "w": 624,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7588,
+    "w": 118,
+    "h": 22
+   },
+   {
+    "x": 654,
+    "y": 7713,
+    "w": 132,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 7892,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 7979,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 8031,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 8080,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 7979,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 8031,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8080,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8130,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8179,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 7979,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 8031,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 8080,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 7979,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 8113,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 8173,
+    "w": 127,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 90,
+    "h": 17
+   },
+   {
+    "x": 255,
+    "y": 123,
+    "w": 44,
+    "h": 17
+   },
+   {
+    "x": 339,
+    "y": 123,
+    "w": 142,
+    "h": 17
+   },
+   {
+    "x": 335,
+    "y": 227,
+    "w": 770,
+    "h": 72
+   },
+   {
+    "x": 616,
+    "y": 306,
+    "w": 207,
+    "h": 72
+   },
+   {
+    "x": 291,
+    "y": 418,
+    "w": 857,
+    "h": 29
+   },
+   {
+    "x": 575,
+    "y": 457,
+    "w": 291,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1252,
+    "w": 122,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 1313,
+    "w": 591,
+    "h": 22
+   },
+   {
+    "x": 981,
+    "y": 1313,
+    "w": 28,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1342,
+    "w": 46,
+    "h": 22
+   },
+   {
+    "x": 436,
+    "y": 1342,
+    "w": 83,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1403,
+    "w": 265,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1444,
+    "w": 102,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1485,
+    "w": 277,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1525,
+    "w": 235,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1566,
+    "w": 370,
+    "h": 22
+   },
+   {
+    "x": 314,
+    "y": 1909,
+    "w": 242,
+    "h": 136
+   },
+   {
+    "x": 219,
+    "y": 2083,
+    "w": 432,
+    "h": 32
+   },
+   {
+    "x": 294,
+    "y": 2623,
+    "w": 282,
+    "h": 136
+   },
+   {
+    "x": 249,
+    "y": 2796,
+    "w": 371,
+    "h": 32
+   },
+   {
+    "x": 373,
+    "y": 2831,
+    "w": 124,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 1859,
+    "w": 146,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 1910,
+    "w": 224,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 1988,
+    "w": 397,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2017,
+    "w": 394,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2046,
+    "w": 403,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2075,
+    "w": 231,
+    "h": 22
+   },
+   {
+    "x": 896,
+    "y": 2145,
+    "w": 68,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3177,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3206,
+    "w": 628,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3235,
+    "w": 639,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3263,
+    "w": 404,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3321,
+    "w": 143,
+    "h": 22
+   },
+   {
+    "x": 533,
+    "y": 3321,
+    "w": 203,
+    "h": 22
+   },
+   {
+    "x": 253,
+    "y": 3664,
+    "w": 363,
+    "h": 136
+   },
+   {
+    "x": 260,
+    "y": 3837,
+    "w": 350,
+    "h": 32
+   },
+   {
+    "x": 221,
+    "y": 4377,
+    "w": 428,
+    "h": 136
+   },
+   {
+    "x": 208,
+    "y": 4551,
+    "w": 454,
+    "h": 32
+   },
+   {
+    "x": 221,
+    "y": 4586,
+    "w": 427,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 3613,
+    "w": 144,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 3665,
+    "w": 370,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 3743,
+    "w": 370,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 3772,
+    "w": 360,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 3800,
+    "w": 362,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 3829,
+    "w": 209,
+    "h": 22
+   },
+   {
+    "x": 896,
+    "y": 3900,
+    "w": 159,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4930,
+    "w": 567,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 4991,
+    "w": 657,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5020,
+    "w": 112,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5080,
+    "w": 617,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5109,
+    "w": 656,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5138,
+    "w": 424,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6346,
+    "w": 343,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 6424,
+    "w": 503,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6452,
+    "w": 520,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6481,
+    "w": 495,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6510,
+    "w": 484,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6539,
+    "w": 487,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6568,
+    "w": 512,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 6638,
+    "w": 91,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 6981,
+    "w": 183,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7041,
+    "w": 597,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7070,
+    "w": 627,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7099,
+    "w": 92,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7140,
+    "w": 230,
+    "h": 22
+   },
+   {
+    "x": 636,
+    "y": 7140,
+    "w": 244,
+    "h": 22
+   },
+   {
+    "x": 879,
+    "y": 7140,
+    "w": 113,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7169,
+    "w": 501,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7209,
+    "w": 114,
+    "h": 22
+   },
+   {
+    "x": 520,
+    "y": 7209,
+    "w": 351,
+    "h": 22
+   },
+   {
+    "x": 871,
+    "y": 7209,
+    "w": 163,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7238,
+    "w": 546,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7279,
+    "w": 577,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7308,
+    "w": 628,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7337,
+    "w": 555,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7365,
+    "w": 88,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7406,
+    "w": 624,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7435,
+    "w": 340,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7476,
+    "w": 618,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7505,
+    "w": 622,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7533,
+    "w": 610,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7562,
+    "w": 603,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7591,
+    "w": 624,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 7620,
+    "w": 118,
+    "h": 22
+   },
+   {
+    "x": 654,
+    "y": 7745,
+    "w": 132,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 7924,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 8011,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 8063,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 8112,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8011,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 8063,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8112,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8162,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8211,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 8011,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 8063,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 8112,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 8011,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 8145,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 8205,
+    "w": 127,
+    "h": 22
+   }
+  ]
+ }
+}

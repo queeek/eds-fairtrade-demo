@@ -1,0 +1,10 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.fairtrade.net/us-en.html (live side from cache stardust/replica/gates/index-1440/chrome-live.json, probed 2026-11-13T22:20:53.316Z — delete the file to re-probe)
+  build: http://localhost:8791/index-proposed.html
+
+■ header: ✓ parity — 11 paired of 11/11 texts, 4/4 icons
+
+■ footer: 1 delta(s) — 20 paired of 20/20 texts, 16/16 icons
+  REGION STYLE backgroundColor rgba(0, 0, 0, 0) → rgb(0, 27, 110)
+
+✗ 1 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

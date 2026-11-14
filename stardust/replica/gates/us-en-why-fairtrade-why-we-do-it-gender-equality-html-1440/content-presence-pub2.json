@@ -1,0 +1,4490 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T01:10:15.193Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+  "at": "2026-11-14T01:09:48.691Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 9457,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "Fairtrade_America_Logo_Vert_80x80"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > span.Breadcrumbs--breadcrumb--title",
+    "x": 125,
+    "y": 122,
+    "w": 90,
+    "h": 20,
+    "text": "Why Fairtrade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 255,
+    "y": 122,
+    "w": 81,
+    "h": 20,
+    "text": "why we do it",
+    "href": "/us-en/why-fairtrade/why-we-do-it.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 376,
+    "y": 122,
+    "w": 100,
+    "h": 20,
+    "text": "gender equality",
+    "href": "/us-en/why-fairtrade/why-we-do-it/gender-equality.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+    "x": 276,
+    "y": 224,
+    "w": 888,
+    "h": 158,
+    "level": 1,
+    "text": "honoring the women who feed the world"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+    "x": 485,
+    "y": 414,
+    "w": 471,
+    "h": 38,
+    "text": "Trade is not fair until it includes all people."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--imageGrid > div.Image.ultra-wide > img.lazyautosizes.lazyloaded",
+    "x": 48,
+    "y": 517,
+    "w": 1344,
+    "h": 576,
+    "text": "sumatrawomen",
+    "file": "21x9_1440w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1213,
+    "w": 660,
+    "h": 86,
+    "text": "Community builders, co-op leaders, coffee growers, poem writers, singers who hol"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1331,
+    "w": 660,
+    "h": 58,
+    "text": "Women – the indispensable force in family, in policy, in decision-making and on "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1421,
+    "w": 660,
+    "h": 317,
+    "text": "We at Fairtrade recognize the unquantifiable value that women bring to the table"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 740,
+    "y": 1858,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "women in agriculture"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 740,
+    "y": 1934,
+    "w": 538,
+    "h": 432,
+    "text": "Around the globe, women are more likely than men to reinvest their earned income"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 740,
+    "y": 2398,
+    "w": 165,
+    "h": 48,
+    "text": "learn more",
+    "href": "/gender/news/news-detail/Investing-in-rural-women-contributes-to-food-security/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 162,
+    "y": 1883,
+    "w": 538,
+    "h": 538,
+    "text": "womanfarmersupportsfamily",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 162,
+    "y": 2774,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "women’s school of leadership"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 162,
+    "y": 2904,
+    "w": 538,
+    "h": 605,
+    "text": "The Women’s School of Leadership (WSOL) is a Fairtrade approach focused on build"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 162,
+    "y": 3541,
+    "w": 165,
+    "h": 48,
+    "text": "learn more",
+    "href": "/map/projects/women-school-of-leadership"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 740,
+    "y": 2912,
+    "w": 538,
+    "h": 538,
+    "text": "wsol",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h2",
+    "x": 390,
+    "y": 3789,
+    "w": 660,
+    "h": 475,
+    "level": 2,
+    "text": "“women school of leadership made me to realize my potential. i never thought i would ever be a supervisor. i thought tha"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2 > b > i",
+    "x": 390,
+    "y": 3791,
+    "w": 655,
+    "h": 470,
+    "text": "“Women School of Leadership made me to realize my potential. I never thought I w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4296,
+    "w": 660,
+    "h": 29,
+    "text": "Agripina Gakii, Flower worker, Equinox Horticulture"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--number",
+    "x": 193,
+    "y": 4598,
+    "w": 484,
+    "h": 119,
+    "text": "70 %"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--fact",
+    "x": 193,
+    "y": 4761,
+    "w": 484,
+    "h": 141,
+    "text": "of the approximately 700 million people, who live in extreme poverty (living on "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--number",
+    "x": 193,
+    "y": 5347,
+    "w": 484,
+    "h": 119,
+    "text": "40%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--fact",
+    "x": 193,
+    "y": 5510,
+    "w": 484,
+    "h": 106,
+    "text": "of the global agricultural force is made up of women, 50% in sub-Saharan Africa "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--number",
+    "x": 193,
+    "y": 6060,
+    "w": 484,
+    "h": 119,
+    "text": "78 cents"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--fact",
+    "x": 193,
+    "y": 6223,
+    "w": 484,
+    "h": 141,
+    "text": "Despite women’s contributions to agriculture globally, they earn 78 cents for ev"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--number",
+    "x": 193,
+    "y": 6756,
+    "w": 484,
+    "h": 119,
+    "text": "10-20%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--fact",
+    "x": 193,
+    "y": 6919,
+    "w": 484,
+    "h": 211,
+    "text": "Studies in Burkina Faso, Kenya, Tanzania and Zambia show that allocating land, l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > strong.NumberFactTeaser--label",
+    "x": 862,
+    "y": 4502,
+    "w": 281,
+    "h": 29,
+    "text": "Women at Work are Undervalued"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > h2.NumberFactTeaser--title",
+    "x": 862,
+    "y": 4555,
+    "w": 191,
+    "h": 53,
+    "level": 2,
+    "text": "fast facts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > p.NumberFactTeaser--text",
+    "x": 862,
+    "y": 4631,
+    "w": 405,
+    "h": 288,
+    "text": "Women’s work in agriculture is undervalued due to entrenched gender norms that l"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > a.Button.NumberFactTeaser--cta",
+    "x": 862,
+    "y": 4951,
+    "w": 405,
+    "h": 48,
+    "text": "learn women's equity in the fairtrade system",
+    "href": "/content/dam/fairtrade/global/why-we-do-it/gender-equality/ge-pdfs/2020-womens-access-equity-and-empowerment-study.pdf"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.panelcontainer > div.AccordionSection > h2.AccordionSection--title",
+    "x": 390,
+    "y": 7409,
+    "w": 660,
+    "h": 35,
+    "level": 2,
+    "text": "fairtrade women farmers making history"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7476,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7476,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 7497,
+    "w": 209,
+    "h": 22,
+    "level": 3,
+    "text": "assata doumbia koné"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7540,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7540,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 7561,
+    "w": 113,
+    "h": 22,
+    "level": 3,
+    "text": "ibu rahmah"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7604,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7604,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 7625,
+    "w": 136,
+    "h": 22,
+    "level": 3,
+    "text": "rosine bekoin"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7668,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7668,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 7689,
+    "w": 135,
+    "h": 22,
+    "level": 3,
+    "text": "olga alvarado"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.SingleImage--figure > div.Image.landscape > img.lazyautosizes.lazyloaded",
+    "x": 162,
+    "y": 7892,
+    "w": 1116,
+    "h": 628,
+    "text": "",
+    "file": "16x9_1280w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.SingleImage--figure > figcaption.SingleImage--caption > span",
+    "x": 188,
+    "y": 8532,
+    "w": 1090,
+    "h": 45,
+    "text": "\"Now I say to myself I can do anything I want. I've learned to believe in myself"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 8696,
+    "w": 660,
+    "h": 58,
+    "text": "The elevation, recognition and voice of the women who feed the world is a non-ne"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 8794,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "resources"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > u > a",
+    "x": 406,
+    "y": 8856,
+    "w": 405,
+    "h": 22,
+    "text": "a fairer future for all means gender equality now",
+    "href": "/news/a-fairer-future-for-all-means-gender-equality-now"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 406,
+    "y": 8897,
+    "w": 467,
+    "h": 22,
+    "text": "2020 study on women access, equity and empowerement",
+    "href": "/content/dam/fairtrade/global/why-we-do-it/gender-equality/ge-pdfs/2020-womens-access-equity-and-empowerment-study.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 9059,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 9059,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 76,
+    "y": 9149,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 9197,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 9246,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 418,
+    "y": 9149,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 9197,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 9246,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 9296,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 9345,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 760,
+    "y": 9149,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 9197,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 9246,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 9149,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 9195,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 9195,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 9195,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 9195,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 9283,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 9329,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 61,
+    "controls": 37,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/gender-equality",
+  "at": "2026-11-14T01:10:15.087Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 9457,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_13df0d1ade5b87108701c0132044859868"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > span.breadcrumbs-breadcrumb-title",
+    "x": 125,
+    "y": 122,
+    "w": 90,
+    "h": 20,
+    "text": "Why Fairtrade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 255,
+    "y": 122,
+    "w": 81,
+    "h": 20,
+    "text": "why we do it",
+    "href": "/us-en/why-fairtrade/why-we-do-it.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 376,
+    "y": 122,
+    "w": 100,
+    "h": 20,
+    "text": "gender equality",
+    "href": "/us-en/why-fairtrade/why-we-do-it/gender-equality"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-title > h1#honoring-the-women-who-feed-the-world",
+    "x": 276,
+    "y": 224,
+    "w": 888,
+    "h": 158,
+    "level": 1,
+    "text": "honoring the women who feed the world"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-lead > p",
+    "x": 485,
+    "y": 414,
+    "w": 471,
+    "h": 38,
+    "text": "Trade is not fair until it includes all people."
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.ultra-wide > picture > img",
+    "x": 48,
+    "y": 517,
+    "w": 1344,
+    "h": 576,
+    "text": "sumatrawomen",
+    "file": "media_162872d9dfb6449ea0ea92b5d501ca9094"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1213,
+    "w": 660,
+    "h": 86,
+    "text": "Community builders, co-op leaders, coffee growers, poem writers, singers who hol"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1331,
+    "w": 660,
+    "h": 58,
+    "text": "Women – the indispensable force in family, in policy, in decision-making and on "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1421,
+    "w": 660,
+    "h": 317,
+    "text": "We at Fairtrade recognize the unquantifiable value that women bring to the table"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#women-in-agriculture",
+    "x": 740,
+    "y": 1858,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "women in agriculture"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 740,
+    "y": 1934,
+    "w": 538,
+    "h": 288,
+    "text": "Around the globe, women are more likely than men to reinvest their earned income"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 740,
+    "y": 2251,
+    "w": 538,
+    "h": 115,
+    "text": "“Empowering women means that the entire family benefits… the entire community be"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 740,
+    "y": 2398,
+    "w": 165,
+    "h": 48,
+    "text": "learn more",
+    "href": "/gender/news/news-detail/Investing-in-rural-women-contributes-to-food-security/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 162,
+    "y": 1883,
+    "w": 538,
+    "h": 538,
+    "text": "womanfarmersupportsfamily",
+    "file": "media_1c6b1250df7093c27279762401a9bd4d98"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#womens-school-of-leadership",
+    "x": 162,
+    "y": 2774,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "women’s school of leadership"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 2904,
+    "w": 538,
+    "h": 202,
+    "text": "The Women’s School of Leadership (WSOL) is a Fairtrade approach focused on build"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 3134,
+    "w": 538,
+    "h": 374,
+    "text": "The program, which began in 2017 with 22 participants in cocoa farming in Côte d"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 162,
+    "y": 3541,
+    "w": 165,
+    "h": 48,
+    "text": "learn more",
+    "href": "/map/projects/women-school-of-leadership"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 740,
+    "y": 2912,
+    "w": 538,
+    "h": 538,
+    "text": "wsol",
+    "file": "media_1086c33a8d9991f811378ad7734b1e6d99"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h2#women-school-of-leadership-made-me-to-realize-my-potential-i-never-thought-iwould-everbe-a-supervisor-i-thought-that-the-role-wasfor-people-betterthanmyself-but-through-training-and-change-of-attitude-i-can-be-counted-amongst-the-supervisorsinour-farm-this-makes-me-proud",
+    "x": 390,
+    "y": 3789,
+    "w": 660,
+    "h": 475,
+    "level": 2,
+    "text": "“women school of leadership made me to realize my potential. i never thought i would ever be a supervisor. i thought tha"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#women-school-of-leadership-made-me-to-realize-my-potential-i-never-thought-iwould-everbe-a-supervisor-i-thought-that-the-role-wasfor-people-betterthanmyself-but-through-training-and-change-of-attitude-i-can-be-counted-amongst-the-supervisorsinour-farm-this-makes-me-proud > em > strong",
+    "x": 390,
+    "y": 3791,
+    "w": 655,
+    "h": 470,
+    "text": "“Women School of Leadership made me to realize my potential. I never thought I w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4296,
+    "w": 660,
+    "h": 29,
+    "text": "Agripina Gakii, Flower worker, Equinox Horticulture"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 193,
+    "y": 4598,
+    "w": 484,
+    "h": 119,
+    "text": "70 %"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 205,
+    "y": 4761,
+    "w": 460,
+    "h": 141,
+    "text": "of the approximately 700 million people, who live in extreme poverty (living on "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 193,
+    "y": 5347,
+    "w": 484,
+    "h": 119,
+    "text": "40%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 205,
+    "y": 5510,
+    "w": 460,
+    "h": 106,
+    "text": "of the global agricultural force is made up of women, 50% in sub-Saharan Africa "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 193,
+    "y": 6060,
+    "w": 484,
+    "h": 119,
+    "text": "78 cents"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 205,
+    "y": 6223,
+    "w": 460,
+    "h": 141,
+    "text": "Despite women’s contributions to agriculture globally, they earn 78 cents for ev"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 193,
+    "y": 6756,
+    "w": 484,
+    "h": 119,
+    "text": "10-20%"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 205,
+    "y": 6919,
+    "w": 460,
+    "h": 211,
+    "text": "Studies in Burkina Faso, Kenya, Tanzania and Zambia show that allocating land, l"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-label > p > strong",
+    "x": 862,
+    "y": 4505,
+    "w": 281,
+    "h": 22,
+    "text": "Women at Work are Undervalued"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-title > h2#fast-facts",
+    "x": 862,
+    "y": 4555,
+    "w": 191,
+    "h": 53,
+    "level": 2,
+    "text": "fast facts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-text > p",
+    "x": 862,
+    "y": 4631,
+    "w": 405,
+    "h": 288,
+    "text": "Women’s work in agriculture is undervalued due to entrenched gender norms that l"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-cta > p.button-wrapper > a.button.secondary",
+    "x": 862,
+    "y": 4951,
+    "w": 405,
+    "h": 48,
+    "text": "learn women's equity in the fairtrade system",
+    "href": "/content/dam/fairtrade/global/why-we-do-it/gender-equality/ge-pdfs/2020-womens-access-equity-and-empowerment-study.pdf"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.block > div.accordion-section-title > h2#fairtrade-women-farmers-making-history",
+    "x": 390,
+    "y": 7409,
+    "w": 660,
+    "h": 35,
+    "level": 2,
+    "text": "fairtrade women farmers making history"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7476,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7476,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#assata-doumbia-koné",
+    "x": 442,
+    "y": 7497,
+    "w": 209,
+    "h": 22,
+    "level": 3,
+    "text": "assata doumbia koné"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7540,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7540,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#ibu-rahmah",
+    "x": 442,
+    "y": 7561,
+    "w": 113,
+    "h": 22,
+    "level": 3,
+    "text": "ibu rahmah"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7604,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7604,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#rosine-bekoin",
+    "x": 442,
+    "y": 7625,
+    "w": 136,
+    "h": 22,
+    "level": 3,
+    "text": "rosine bekoin"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7668,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7668,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#olga-alvarado",
+    "x": 442,
+    "y": 7689,
+    "w": 135,
+    "h": 22,
+    "level": 3,
+    "text": "olga alvarado"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.landscape > picture > img",
+    "x": 162,
+    "y": 7892,
+    "w": 1116,
+    "h": 628,
+    "text": "",
+    "file": "media_16df53bf9d57afddd943a849ab521407d1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figcaption.single-image-caption > div.single-image-caption-text > p",
+    "x": 188,
+    "y": 8532,
+    "w": 1090,
+    "h": 45,
+    "text": "\"Now I say to myself I can do anything I want. I've learned to believe in myself"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 8696,
+    "w": 660,
+    "h": 58,
+    "text": "The elevation, recognition and voice of the women who feed the world is a non-ne"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#resources",
+    "x": 390,
+    "y": 8794,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "resources"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 406,
+    "y": 8856,
+    "w": 405,
+    "h": 22,
+    "text": "a fairer future for all means gender equality now",
+    "href": "/news/a-fairer-future-for-all-means-gender-equality-now"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 406,
+    "y": 8897,
+    "w": 467,
+    "h": 22,
+    "text": "2020 study on women access, equity and empowerement",
+    "href": "/content/dam/fairtrade/global/why-we-do-it/gender-equality/ge-pdfs/2020-womens-access-equity-and-empowerment-study.pdf"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 9059,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 9059,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 76,
+    "y": 9149,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 9197,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 9246,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 418,
+    "y": 9149,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 9197,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 9246,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 9296,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 9345,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 760,
+    "y": 9149,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 9197,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 9246,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 9149,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 9195,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 9195,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 9195,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 9195,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 9283,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 9329,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 63,
+    "controls": 37,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "honoring the women who feed the world",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 4,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "women in agriculture",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "women’s school of leadership",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "“women school of leadership made me to realize my potential. i never thought i would ever be a supervisor. i thought tha",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "fast facts",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 9,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 9,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "fairtrade women farmers making history",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "assata doumbia koné",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "ibu rahmah",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "rosine bekoin",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "olga alvarado",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "resources",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 90,
+    "h": 17
+   },
+   {
+    "x": 255,
+    "y": 123,
+    "w": 81,
+    "h": 17
+   },
+   {
+    "x": 376,
+    "y": 123,
+    "w": 100,
+    "h": 17
+   },
+   {
+    "x": 334,
+    "y": 227,
+    "w": 772,
+    "h": 72
+   },
+   {
+    "x": 498,
+    "y": 306,
+    "w": 444,
+    "h": 72
+   },
+   {
+    "x": 485,
+    "y": 418,
+    "w": 471,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1216,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1245,
+    "w": 621,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1273,
+    "w": 509,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1334,
+    "w": 642,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1363,
+    "w": 311,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1424,
+    "w": 657,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1453,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1481,
+    "w": 645,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1510,
+    "w": 612,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1539,
+    "w": 656,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1568,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1597,
+    "w": 588,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1625,
+    "w": 631,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1654,
+    "w": 636,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1683,
+    "w": 626,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1712,
+    "w": 399,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 1860,
+    "w": 435,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 1937,
+    "w": 505,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 1966,
+    "w": 498,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 1995,
+    "w": 525,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2024,
+    "w": 513,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2053,
+    "w": 471,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2081,
+    "w": 513,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2110,
+    "w": 520,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2139,
+    "w": 517,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2168,
+    "w": 528,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2196,
+    "w": 154,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2254,
+    "w": 525,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2283,
+    "w": 485,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2312,
+    "w": 476,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2340,
+    "w": 283,
+    "h": 22
+   },
+   {
+    "x": 774,
+    "y": 2411,
+    "w": 97,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 2776,
+    "w": 366,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 2829,
+    "w": 220,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 2907,
+    "w": 459,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 2936,
+    "w": 521,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 2964,
+    "w": 458,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 2993,
+    "w": 448,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3022,
+    "w": 533,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3051,
+    "w": 518,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3080,
+    "w": 47,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3137,
+    "w": 515,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3166,
+    "w": 507,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3195,
+    "w": 532,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3224,
+    "w": 530,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3252,
+    "w": 451,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3281,
+    "w": 530,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3310,
+    "w": 476,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3339,
+    "w": 530,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3368,
+    "w": 496,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3396,
+    "w": 507,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3425,
+    "w": 487,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3454,
+    "w": 525,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3483,
+    "w": 297,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 3554,
+    "w": 97,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3791,
+    "w": 629,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 3843,
+    "w": 598,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 3896,
+    "w": 644,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 3949,
+    "w": 655,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 4002,
+    "w": 566,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 4055,
+    "w": 651,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 4107,
+    "w": 422,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 4160,
+    "w": 624,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 4213,
+    "w": 192,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 4299,
+    "w": 413,
+    "h": 22
+   },
+   {
+    "x": 300,
+    "y": 4589,
+    "w": 270,
+    "h": 136
+   },
+   {
+    "x": 222,
+    "y": 4762,
+    "w": 427,
+    "h": 32
+   },
+   {
+    "x": 256,
+    "y": 4798,
+    "w": 357,
+    "h": 32
+   },
+   {
+    "x": 210,
+    "y": 4833,
+    "w": 450,
+    "h": 32
+   },
+   {
+    "x": 332,
+    "y": 4868,
+    "w": 206,
+    "h": 32
+   },
+   {
+    "x": 304,
+    "y": 5338,
+    "w": 263,
+    "h": 136
+   },
+   {
+    "x": 223,
+    "y": 5511,
+    "w": 424,
+    "h": 32
+   },
+   {
+    "x": 231,
+    "y": 5546,
+    "w": 409,
+    "h": 32
+   },
+   {
+    "x": 274,
+    "y": 5581,
+    "w": 321,
+    "h": 32
+   },
+   {
+    "x": 212,
+    "y": 6051,
+    "w": 446,
+    "h": 136
+   },
+   {
+    "x": 215,
+    "y": 6224,
+    "w": 439,
+    "h": 32
+   },
+   {
+    "x": 220,
+    "y": 6260,
+    "w": 431,
+    "h": 32
+   },
+   {
+    "x": 253,
+    "y": 6295,
+    "w": 363,
+    "h": 32
+   },
+   {
+    "x": 313,
+    "y": 6330,
+    "w": 244,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 6747,
+    "w": 419,
+    "h": 136
+   },
+   {
+    "x": 231,
+    "y": 6920,
+    "w": 409,
+    "h": 32
+   },
+   {
+    "x": 226,
+    "y": 6955,
+    "w": 417,
+    "h": 32
+   },
+   {
+    "x": 218,
+    "y": 6991,
+    "w": 434,
+    "h": 32
+   },
+   {
+    "x": 232,
+    "y": 7026,
+    "w": 406,
+    "h": 32
+   },
+   {
+    "x": 286,
+    "y": 7061,
+    "w": 298,
+    "h": 32
+   },
+   {
+    "x": 233,
+    "y": 7096,
+    "w": 403,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 4505,
+    "w": 281,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4557,
+    "w": 191,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 4634,
+    "w": 392,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4663,
+    "w": 382,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4692,
+    "w": 348,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4721,
+    "w": 375,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4750,
+    "w": 379,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4778,
+    "w": 379,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4807,
+    "w": 384,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4836,
+    "w": 358,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4865,
+    "w": 396,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4894,
+    "w": 88,
+    "h": 22
+   },
+   {
+    "x": 903,
+    "y": 4955,
+    "w": 322,
+    "h": 22
+   },
+   {
+    "x": 1033,
+    "y": 4973,
+    "w": 64,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7410,
+    "w": 555,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 7496,
+    "w": 209,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 7560,
+    "w": 113,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 7624,
+    "w": 136,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 7688,
+    "w": 135,
+    "h": 24
+   },
+   {
+    "x": 188,
+    "y": 8534,
+    "w": 1087,
+    "h": 17
+   },
+   {
+    "x": 188,
+    "y": 8556,
+    "w": 466,
+    "h": 17
+   },
+   {
+    "x": 390,
+    "y": 8699,
+    "w": 644,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 8728,
+    "w": 99,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 8795,
+    "w": 133,
+    "h": 32
+   },
+   {
+    "x": 406,
+    "y": 8856,
+    "w": 405,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 8897,
+    "w": 467,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 9061,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 9148,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 9200,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 9249,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 9148,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 9200,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 9249,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 9299,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 9348,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 9148,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 9200,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 9249,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 9148,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 9282,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 9342,
+    "w": 127,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 90,
+    "h": 17
+   },
+   {
+    "x": 255,
+    "y": 123,
+    "w": 81,
+    "h": 17
+   },
+   {
+    "x": 376,
+    "y": 123,
+    "w": 100,
+    "h": 17
+   },
+   {
+    "x": 334,
+    "y": 227,
+    "w": 772,
+    "h": 72
+   },
+   {
+    "x": 498,
+    "y": 306,
+    "w": 444,
+    "h": 72
+   },
+   {
+    "x": 485,
+    "y": 418,
+    "w": 471,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1216,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1245,
+    "w": 621,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1273,
+    "w": 501,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1334,
+    "w": 642,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1363,
+    "w": 299,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1424,
+    "w": 657,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1453,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1481,
+    "w": 645,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1510,
+    "w": 612,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1539,
+    "w": 656,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1568,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1597,
+    "w": 588,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1625,
+    "w": 631,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1654,
+    "w": 636,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1683,
+    "w": 626,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1712,
+    "w": 399,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 1860,
+    "w": 435,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 1937,
+    "w": 505,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 1966,
+    "w": 498,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 1995,
+    "w": 525,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2024,
+    "w": 513,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2053,
+    "w": 471,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2081,
+    "w": 513,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2110,
+    "w": 520,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2139,
+    "w": 517,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2168,
+    "w": 528,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2196,
+    "w": 154,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2254,
+    "w": 525,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2283,
+    "w": 485,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2312,
+    "w": 476,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 2340,
+    "w": 283,
+    "h": 22
+   },
+   {
+    "x": 774,
+    "y": 2411,
+    "w": 97,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 2776,
+    "w": 366,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 2829,
+    "w": 220,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 2907,
+    "w": 459,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 2936,
+    "w": 521,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 2964,
+    "w": 458,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 2993,
+    "w": 448,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3022,
+    "w": 533,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3051,
+    "w": 518,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3080,
+    "w": 47,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3137,
+    "w": 515,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3166,
+    "w": 507,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3195,
+    "w": 532,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3224,
+    "w": 530,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3252,
+    "w": 451,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3281,
+    "w": 530,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3310,
+    "w": 476,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3339,
+    "w": 530,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3368,
+    "w": 496,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3396,
+    "w": 507,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3425,
+    "w": 487,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3454,
+    "w": 525,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3483,
+    "w": 297,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 3554,
+    "w": 97,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3791,
+    "w": 629,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 3843,
+    "w": 598,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 3896,
+    "w": 644,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 3949,
+    "w": 655,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 4002,
+    "w": 566,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 4055,
+    "w": 651,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 4107,
+    "w": 422,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 4160,
+    "w": 624,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 4213,
+    "w": 192,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 4299,
+    "w": 413,
+    "h": 22
+   },
+   {
+    "x": 300,
+    "y": 4589,
+    "w": 270,
+    "h": 136
+   },
+   {
+    "x": 222,
+    "y": 4762,
+    "w": 427,
+    "h": 32
+   },
+   {
+    "x": 256,
+    "y": 4798,
+    "w": 357,
+    "h": 32
+   },
+   {
+    "x": 210,
+    "y": 4833,
+    "w": 450,
+    "h": 32
+   },
+   {
+    "x": 332,
+    "y": 4868,
+    "w": 206,
+    "h": 32
+   },
+   {
+    "x": 304,
+    "y": 5338,
+    "w": 263,
+    "h": 136
+   },
+   {
+    "x": 223,
+    "y": 5511,
+    "w": 424,
+    "h": 32
+   },
+   {
+    "x": 231,
+    "y": 5546,
+    "w": 409,
+    "h": 32
+   },
+   {
+    "x": 274,
+    "y": 5581,
+    "w": 321,
+    "h": 32
+   },
+   {
+    "x": 212,
+    "y": 6051,
+    "w": 446,
+    "h": 136
+   },
+   {
+    "x": 215,
+    "y": 6224,
+    "w": 439,
+    "h": 32
+   },
+   {
+    "x": 220,
+    "y": 6260,
+    "w": 431,
+    "h": 32
+   },
+   {
+    "x": 253,
+    "y": 6295,
+    "w": 363,
+    "h": 32
+   },
+   {
+    "x": 313,
+    "y": 6330,
+    "w": 244,
+    "h": 32
+   },
+   {
+    "x": 225,
+    "y": 6747,
+    "w": 419,
+    "h": 136
+   },
+   {
+    "x": 231,
+    "y": 6920,
+    "w": 409,
+    "h": 32
+   },
+   {
+    "x": 226,
+    "y": 6955,
+    "w": 417,
+    "h": 32
+   },
+   {
+    "x": 218,
+    "y": 6991,
+    "w": 434,
+    "h": 32
+   },
+   {
+    "x": 232,
+    "y": 7026,
+    "w": 406,
+    "h": 32
+   },
+   {
+    "x": 286,
+    "y": 7061,
+    "w": 298,
+    "h": 32
+   },
+   {
+    "x": 233,
+    "y": 7096,
+    "w": 403,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 4505,
+    "w": 281,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4557,
+    "w": 191,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 4634,
+    "w": 392,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4663,
+    "w": 382,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4692,
+    "w": 348,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4721,
+    "w": 375,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4750,
+    "w": 379,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4778,
+    "w": 379,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4807,
+    "w": 384,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4836,
+    "w": 358,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4865,
+    "w": 396,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 4894,
+    "w": 88,
+    "h": 22
+   },
+   {
+    "x": 903,
+    "y": 4955,
+    "w": 322,
+    "h": 22
+   },
+   {
+    "x": 1033,
+    "y": 4973,
+    "w": 64,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7410,
+    "w": 555,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 7496,
+    "w": 209,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 7560,
+    "w": 113,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 7624,
+    "w": 136,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 7688,
+    "w": 135,
+    "h": 24
+   },
+   {
+    "x": 188,
+    "y": 8534,
+    "w": 1087,
+    "h": 17
+   },
+   {
+    "x": 188,
+    "y": 8556,
+    "w": 466,
+    "h": 17
+   },
+   {
+    "x": 390,
+    "y": 8699,
+    "w": 644,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 8728,
+    "w": 91,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 8795,
+    "w": 133,
+    "h": 32
+   },
+   {
+    "x": 406,
+    "y": 8856,
+    "w": 405,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 8897,
+    "w": 467,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 9061,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 9148,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 9200,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 9249,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 9148,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 9200,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 9249,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 9299,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 9348,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 9148,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 9200,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 9249,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 9148,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 9282,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 9342,
+    "w": 127,
+    "h": 22
+   }
+  ]
+ }
+}

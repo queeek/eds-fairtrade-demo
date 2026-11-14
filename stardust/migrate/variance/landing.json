@@ -1,0 +1,220 @@
+{
+  "archetype": "https://www.fairtrade.net/",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": ".PageHeroSlide",
+    "textimage": ".TextImage",
+    "fact": ".NumberFact",
+    "accordion": ".Accordion"
+  },
+  "archetypeRaw": {
+    "sections": [],
+    "probes": {
+      "hero": {
+        "sel": ".PageHeroSlide",
+        "count": 5,
+        "first": {
+          "rect": {
+            "w": 0,
+            "h": 0
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "0px 0px 0px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "12px",
+          "heading": "h2 alegreya sans 64px/70.4px 900 rgb(255, 255, 255)",
+          "image": {
+            "w": 0,
+            "h": 0
+          },
+          "listStyle": null,
+          "before": null
+        },
+        "clusters": 1,
+        "text": "> Fairtrade Farmers and their Stories More than two million "
+      },
+      "textimage": {
+        "sel": ".TextImage",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 698
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "80px 0px 80px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+          "image": {
+            "w": 538,
+            "h": 538
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": "Better for People and Planet We’re more than just a label. Y"
+      },
+      "fact": {
+        "sel": ".NumberFact",
+        "count": 3,
+        "first": {
+          "rect": {
+            "w": 612,
+            "h": 611
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "0px 0px 0px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": null,
+          "before": null
+        },
+        "clusters": 1,
+        "text": "+37,000 products sold with the Fairtrade Mark in more than 1"
+      },
+      "accordion": {
+        "sel": ".Accordion",
+        "count": 3,
+        "first": {
+          "rect": {
+            "w": 660,
+            "h": 64
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "0px 0px 0px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h3 exo 2 20px/22px 800 rgb(30, 30, 30)",
+          "image": null,
+          "listStyle": null,
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Do you want to know the basics? Do you want to know the basi"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.fairtrade.net/us-en.html",
+      "findings": [],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".PageHeroSlide",
+            "count": 5,
+            "first": {
+              "rect": {
+                "w": 0,
+                "h": 0
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 0px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "12px",
+              "heading": "h2 alegreya sans 64px/70.4px 900 rgb(255, 255, 255)",
+              "image": {
+                "w": 0,
+                "h": 0
+              },
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 1,
+            "text": "> Fairtrade Farmers and their Stories More than two million "
+          },
+          "textimage": {
+            "sel": ".TextImage",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 698
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+              "image": {
+                "w": 538,
+                "h": 538
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Better for People and Planet We’re more than just a label. Y"
+          },
+          "fact": {
+            "sel": ".NumberFact",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 612,
+                "h": 611
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 0px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 1,
+            "text": "+37,000 products sold with the Fairtrade Mark in more than 1"
+          },
+          "accordion": {
+            "sel": ".Accordion",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 660,
+                "h": 64
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 0px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h3 exo 2 20px/22px 800 rgb(30, 30, 30)",
+              "image": null,
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Do you want to know the basics? Do you want to know the basi"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 1,
+    "varying": 0,
+    "probesVarying": []
+  }
+}

@@ -1,0 +1,4 @@
+clip-probe http://localhost:8791/index-proposed.html @ 1440px — docH 6204, 50 text nodes, 34 controls (HTTP 200, chrome)
+  🔴 TEXT HIDDEN            ×1     in div.PageHeroSlide--media  div.PageHeroSlide.is-active > div.PageHeroSlide--inner > div.PageHeroSlide--media > div.Image.landscape  ">"  cut 22px
+Clipped: 1 (text clipped 0, text hidden 1, controls hidden 0, controls clipped 0; advisory: clamped 0, collapsed 0, scroll-hidden 0, horizontal 0)
+json → stardust/replica/gates/index-1440/clip-iter1.json

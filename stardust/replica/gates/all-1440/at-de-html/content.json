@@ -1,0 +1,5090 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T10:26:29.961Z",
+  "width": 1440,
+  "variable": [
+   ".ProductTeaserCarousel"
+  ],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/at-de.html",
+  "at": "2026-11-14T10:26:05.692Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 8443,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/at-de.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "1x1-fairtrade-%C3%B6sterreich"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 162,
+    "h": 104,
+    "text": "was ist fairtrade?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 162,
+    "h": 104,
+    "label": "trigger",
+    "value": "was ist fairtrade?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 386,
+    "y": 0,
+    "w": 75,
+    "h": 104,
+    "text": "produkte"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 386,
+    "y": 0,
+    "w": 75,
+    "h": 104,
+    "label": "trigger",
+    "value": "produkte",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 508,
+    "y": 0,
+    "w": 141,
+    "h": 104,
+    "text": "für unternehmen"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 508,
+    "y": 0,
+    "w": 141,
+    "h": 104,
+    "label": "trigger",
+    "value": "für unternehmen",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 698,
+    "y": 0,
+    "w": 87,
+    "h": 104,
+    "text": "newsroom"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 698,
+    "y": 0,
+    "w": 87,
+    "h": 104,
+    "label": "trigger",
+    "value": "newsroom",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 833,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "mach mit!"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 833,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "label": "trigger",
+    "value": "mach mit!",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1111,
+    "y": 40,
+    "w": 74,
+    "h": 24,
+    "text": "suche"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1111,
+    "y": 40,
+    "w": 74,
+    "h": 24,
+    "label": "trigger",
+    "value": "suche",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1209,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "at • de"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1209,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "at • de",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1313,
+    "y": 40,
+    "w": 79,
+    "h": 24,
+    "text": "öffnen"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1313,
+    "y": 40,
+    "w": 79,
+    "h": 24,
+    "label": "trigger",
+    "value": "öffnen",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroSlide--media > div.Image.landscape > img.lazyautosizes.lazyloaded",
+    "x": -428,
+    "y": 184,
+    "w": 558,
+    "h": 328,
+    "text": "",
+    "file": "21x9_1280w"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroSlide--media > div.Image.landscape > img.lazyautosizes.lazyloaded",
+    "x": 162,
+    "y": 184,
+    "w": 1116,
+    "h": 657,
+    "text": "",
+    "file": "21x9_1280w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroSlide--content > div.PageHeroSlide--content-inner > h2.PageHeroSlide--title",
+    "x": 210,
+    "y": 515,
+    "w": 612,
+    "h": 141,
+    "level": 2,
+    "text": "was hinter fairem kakao steckt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroSlide--content > div.PageHeroSlide--content-inner > a.Button.PageHeroSlide--button",
+    "x": 210,
+    "y": 704,
+    "w": 241,
+    "h": 60,
+    "text": "kakao-schwerpunkt",
+    "href": "/at-de/mach-mit/kampagnen/kakao-schwerpunkt-2026.html"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroSlide--media > div.Image.landscape > img.lazyautosizes.lazyloaded",
+    "x": 1310,
+    "y": 184,
+    "w": 558,
+    "h": 328,
+    "text": "",
+    "file": "21x9_1280w"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroCarousel--carousel.swiper > div.PageHeroCarousel--controls > button.Button.PageHeroCarousel--control-previous",
+    "x": 66,
+    "y": 492,
+    "w": 48,
+    "h": 48,
+    "text": ""
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageHeroCarousel--carousel.swiper > div.PageHeroCarousel--controls > button.Button.PageHeroCarousel--control-next",
+    "x": 1326,
+    "y": 492,
+    "w": 48,
+    "h": 48,
+    "text": ""
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h2",
+    "x": 390,
+    "y": 968,
+    "w": 660,
+    "h": 53,
+    "level": 2,
+    "text": "faire news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item.isHighlight > a#article-cop31",
+    "x": 48,
+    "y": 1141,
+    "w": 421,
+    "h": 512,
+    "text": "09.11.26 zukunft der landwirtschaft news was fairtrade und die bäuer:innen auf d",
+    "href": "/at-de/newsroom/aktuelles/newstexte/cop31.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 1142,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 1473,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "news was fairtrade und die bäuer:innen auf der klimakonferenz fordern"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-jede-fuenfte-tafelschokolade-fair",
+    "x": 509,
+    "y": 1141,
+    "w": 421,
+    "h": 512,
+    "text": "09.11.26 community & commercial news news fairtrade: mehr als jede fünfte tafels",
+    "href": "/at-de/newsroom/aktuelles/newstexte/jede-fuenfte-tafelschokolade-fair.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 510,
+    "y": 1142,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 1473,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "news fairtrade: mehr als jede fünfte tafelschokolade ist fair gehandelt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-warum-die-zukunft-des-kakaos-verlaessliche-preise-braucht",
+    "x": 971,
+    "y": 1141,
+    "w": 421,
+    "h": 477,
+    "text": "06.11.26 news kakaopreise schwanken stark: was jetzt sicherheit schafft mehr les",
+    "href": "/at-de/newsroom/aktuelles/newstexte/warum-die-zukunft-des-kakaos-verlaessliche-preise-braucht.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 972,
+    "y": 1142,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 1473,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "news kakaopreise schwanken stark: was jetzt sicherheit schafft"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ctasection.is-visible > div.CTASection > a.Button.variant-primary",
+    "x": 619,
+    "y": 1785,
+    "w": 202,
+    "h": 60,
+    "text": "zum newsroom",
+    "href": "/at-de/newsroom.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h2",
+    "x": 390,
+    "y": 1925,
+    "w": 660,
+    "h": 53,
+    "level": 2,
+    "text": "fairtrade auf social media"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ctasection.is-visible > div.CTASection > a.Button.variant-primary",
+    "x": 543,
+    "y": 2713,
+    "w": 354,
+    "h": 60,
+    "text": "unsere auftritte auf social-media",
+    "href": "/at-de/newsroom/social-media.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProductTeaserCarousel--content > div.ProductTeaserCarousel--grid > span.ProductTeaserCarousel--subtitle",
+    "x": 390,
+    "y": 3061,
+    "w": 660,
+    "h": 58,
+    "text": "2.500 Produkte mit dem FAIRTRADE-Siegel an 5.500 Verkaufsstellen österreichweit."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProductTeaserCarousel--content > div.ProductTeaserCarousel--grid > h2.ProductTeaserCarousel--title",
+    "x": 390,
+    "y": 3151,
+    "w": 660,
+    "h": 141,
+    "level": 2,
+    "text": "fairtrade-produkte finden"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.Carousel--list > li.Carousel--item.is-visible > a.ProductTeaser",
+    "x": -69,
+    "y": 3356,
+    "w": 290,
+    "h": 475,
+    "text": "topolino kinder mädchen t-shirt_875016 mehr erfahren",
+    "href": "/at-de/produkte/produktfinder/product-detail-page.164473.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProductTeaser--image > div.Image.square > img",
+    "x": -19,
+    "y": 3398,
+    "w": 190,
+    "h": 190,
+    "text": "",
+    "file": "visibility_164473_281125"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.Carousel--list > li.Carousel--item.is-visible > a.ProductTeaser",
+    "x": 253,
+    "y": 3356,
+    "w": 290,
+    "h": 475,
+    "text": "minor original bottle 150g mehr erfahren",
+    "href": "/at-de/produkte/produktfinder/product-detail-page.170320.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProductTeaser--image > div.Image.square > img",
+    "x": 303,
+    "y": 3398,
+    "w": 190,
+    "h": 190,
+    "text": "",
+    "file": "visibility_170320_369041"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.Carousel--list > li.Carousel--item.is-visible > a.ProductTeaser",
+    "x": 575,
+    "y": 3356,
+    "w": 290,
+    "h": 475,
+    "text": "afro coffee ac capsules strong & earthy 10x5.5g, ft mehr erfahren",
+    "href": "/at-de/produkte/produktfinder/product-detail-page.168564.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProductTeaser--image > div.Image.square > img",
+    "x": 625,
+    "y": 3398,
+    "w": 190,
+    "h": 190,
+    "text": "",
+    "file": "generic"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.Carousel--list > li.Carousel--item.is-visible > a.ProductTeaser",
+    "x": 897,
+    "y": 3356,
+    "w": 290,
+    "h": 475,
+    "text": "afro coffee ac capsules mild & aromatic 30x5.5g, ft mehr erfahren",
+    "href": "/at-de/produkte/produktfinder/product-detail-page.168565.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProductTeaser--image > div.Image.square > img",
+    "x": 947,
+    "y": 3398,
+    "w": 190,
+    "h": 190,
+    "text": "",
+    "file": "generic"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.Carousel--list > li.Carousel--item.is-visible > a.ProductTeaser",
+    "x": 1219,
+    "y": 3356,
+    "w": 323,
+    "h": 475,
+    "text": "douceur douceur weihnachtsfiguren reiterbeutel herz mehr erfahren",
+    "href": "/at-de/produkte/produktfinder/product-detail-page.166586.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProductTeaser--image > div.Image.square > img",
+    "x": 1285,
+    "y": 3398,
+    "w": 190,
+    "h": 190,
+    "text": "",
+    "file": "visibility_166586_811816"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ProductTeaserCarousel--content > div.ProductTeaserCarousel--grid > a.Button.variant-secondary",
+    "x": 582,
+    "y": 3895,
+    "w": 277,
+    "h": 48,
+    "text": "alle produkte entdecken",
+    "href": "/at-de/produkte/produktfinder.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 740,
+    "y": 4316,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "gewinnspiel des monats"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--content > div.TextImage--text.Richtext > p",
+    "x": 740,
+    "y": 4393,
+    "w": 538,
+    "h": 86,
+    "text": "Gewinne jeden Monat faire Preise unserer Partner: Kaffee, Tee, Schokolade, Reis "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 740,
+    "y": 4540,
+    "w": 208,
+    "h": 48,
+    "text": "jetzt mitmachen",
+    "href": "/at-de/mach-mit/kampagnen/gewinnspiele.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.ls-is-cached",
+    "x": 162,
+    "y": 4183,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 162,
+    "y": 5113,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "fairtrade-produkte im globalen süden"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--content > div.TextImage--text.Richtext > p",
+    "x": 162,
+    "y": 5242,
+    "w": 538,
+    "h": 173,
+    "text": "Hinter dem FAIRTRADE-Siegel steht eine große Vielfalt an Produkten, die nach FAI"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 162,
+    "y": 5476,
+    "w": 341,
+    "h": 48,
+    "text": "fairtrade-produkte entdecken",
+    "href": "/at-de/produkte/fairtrade-produkte.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 740,
+    "y": 5049,
+    "w": 538,
+    "h": 538,
+    "text": "frauen beim waschen von bananen und lachen dabei in die kame",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 740,
+    "y": 5876,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "unsere arbeitsschwerpunkte"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--content > div.TextImage--text.Richtext > p",
+    "x": 740,
+    "y": 6006,
+    "w": 538,
+    "h": 202,
+    "text": "FAIRTRADE steht für fairen Handel und FAIRTRADE-Standards mit Anforderungen zu M"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 740,
+    "y": 6268,
+    "w": 160,
+    "h": 48,
+    "text": "mehr infos",
+    "href": "/at-de/was-ist-fairtrade/arbeitsschwerpunkte.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.ls-is-cached",
+    "x": 162,
+    "y": 5827,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h2",
+    "x": 390,
+    "y": 6485,
+    "w": 660,
+    "h": 53,
+    "level": 2,
+    "text": "was ist fairtrade?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.SingleVideo > div.SingleVideo--caption > span",
+    "x": 188,
+    "y": 7298,
+    "w": 1090,
+    "h": 24,
+    "text": "FAIRTRADE Österreich"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.panelcontainer > div.AccordionSection > h2.AccordionSection--title",
+    "x": 390,
+    "y": 7482,
+    "w": 660,
+    "h": 35,
+    "level": 2,
+    "text": "fairtrade in kürze"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7549,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7549,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 7570,
+    "w": 120,
+    "h": 22,
+    "level": 3,
+    "text": "wer wir sind"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7613,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7613,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 7634,
+    "w": 114,
+    "h": 22,
+    "level": 3,
+    "text": "was wir tun"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7677,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7677,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 7698,
+    "w": 132,
+    "h": 22,
+    "level": 3,
+    "text": "wer uns trägt"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7741,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7741,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 7762,
+    "w": 155,
+    "h": 22,
+    "level": 3,
+    "text": "was wir fordern"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7805,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 7805,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 7826,
+    "w": 179,
+    "h": 22,
+    "level": 3,
+    "text": "vision und leitbild"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1312,
+    "y": 8045,
+    "w": 80,
+    "h": 24,
+    "text": "at • de"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1312,
+    "y": 8045,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "at • de",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > span",
+    "x": 48,
+    "y": 8134,
+    "w": 265,
+    "h": 24,
+    "text": "Über FAIRTRADE Österreich"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 8181,
+    "w": 198,
+    "h": 26,
+    "text": "über fairtrade österreich",
+    "href": "/at-de/fairtrade-oesterreich.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 8230,
+    "w": 80,
+    "h": 26,
+    "text": "newsroom",
+    "href": "/at-de/newsroom.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 8280,
+    "w": 110,
+    "h": 26,
+    "text": "jobs & karriere",
+    "href": "/at-de/fairtrade-oesterreich/jobs-bei-fairtrade.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > span",
+    "x": 390,
+    "y": 8134,
+    "w": 173,
+    "h": 24,
+    "text": "Service & Kontakt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 8181,
+    "w": 57,
+    "h": 26,
+    "text": "kontakt",
+    "href": "/at-de/kontakt.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 8230,
+    "w": 28,
+    "h": 26,
+    "text": "faq",
+    "href": "/at-de/faq.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 8280,
+    "w": 83,
+    "h": 26,
+    "text": "materialien",
+    "href": "/at-de/materialien.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > span",
+    "x": 732,
+    "y": 8134,
+    "w": 192,
+    "h": 24,
+    "text": "Recht & Compliance"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 8181,
+    "w": 82,
+    "h": 26,
+    "text": "impressum",
+    "href": "/at-de/impressum.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 8230,
+    "w": 92,
+    "h": 26,
+    "text": "datenschutz",
+    "href": "/at-de/datenschutz.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 8280,
+    "w": 210,
+    "h": 26,
+    "text": "compliance und transparenz",
+    "href": "/at-de/compliance.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 8330,
+    "w": 143,
+    "h": 26,
+    "text": "missbrauch melden",
+    "href": "/at-de/was-ist-fairtrade/der-fairtrade-ansatz/fairtrade-siegel/missbrauch-melden.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 8135,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 8181,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/fairtrade.oesterreich"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 8181,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/fairtrade_at"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 8181,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-oesterreich"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 8181,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FAIRTRADE%C3%96sterreich"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 8269,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 8315,
+    "w": 318,
+    "h": 48,
+    "text": "jetzt anmelden!",
+    "href": "/at-de/newsletter.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > div.sc-aXZVg.gOjxTE > button.sc-iGgWBj.jbOjLk",
+    "x": 40,
+    "y": 796,
+    "w": 64,
+    "h": 64,
+    "text": "öffnen privatsphäre-einstellungen"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 1,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 6,
+    "offPage": 77,
+    "textNodes": 141,
+    "controls": 67,
+    "total": 1
+   },
+   "groups": [
+    {
+     "kind": "TEXT HIDDEN",
+     "advisory": false,
+     "n": 1,
+     "clipper": "div.PageHeroSlide--media",
+     "path": "div.PageHeroSlide.swiper-slide > div.PageHeroSlide--inner > div.PageHeroSlide--media > div.Image.landscape",
+     "text": ">",
+     "cutMin": 22,
+     "cutMax": 22
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "ul.Carousel--list",
+     "path": "section.Carousel.theme-leafgreen > ul.Carousel--list > li.Carousel--item.is-visible > a.ProductTeaser",
+     "text": "topolino kinder mädchen t-shirt_875016 mehr erfahren",
+     "cutMin": 69,
+     "cutMax": 102
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "ul.Carousel--list",
+     "path": "ul.Carousel--list > li.Carousel--item.is-visible > a.ProductTeaser > div.ProductTeaser--title",
+     "text": "kinder mädchen t-shirt_875016",
+     "cutMin": 36,
+     "cutMax": 69
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "ul.Carousel--list",
+     "path": "ul.Carousel--list > li.Carousel--item.is-visible > a.ProductTeaser > div.ProductTeaser--merchant",
+     "text": "topolino",
+     "cutMin": 36,
+     "cutMax": 36
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "ul.Carousel--list",
+     "path": "a.ProductTeaser > div.ProductTeaser--cta > span.Button.ProductTeaser--fakeLink > span.Button--inner",
+     "text": "mehr erfahren",
+     "cutMin": 36,
+     "cutMax": 36
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/at-de",
+  "at": "2026-11-14T10:26:29.833Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 8443,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/at-de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_1efb8afbfe1be337d73894121fa8bd2a13"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 162,
+    "h": 104,
+    "text": "was ist fairtrade?"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 162,
+    "h": 104,
+    "label": "trigger",
+    "value": "was ist fairtrade?",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 386,
+    "y": 0,
+    "w": 75,
+    "h": 104,
+    "text": "produkte"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 386,
+    "y": 0,
+    "w": 75,
+    "h": 104,
+    "label": "trigger",
+    "value": "produkte",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 508,
+    "y": 0,
+    "w": 141,
+    "h": 104,
+    "text": "für unternehmen"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 508,
+    "y": 0,
+    "w": 141,
+    "h": 104,
+    "label": "trigger",
+    "value": "für unternehmen",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 698,
+    "y": 0,
+    "w": 87,
+    "h": 104,
+    "text": "newsroom"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 698,
+    "y": 0,
+    "w": 87,
+    "h": 104,
+    "label": "trigger",
+    "value": "newsroom",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 833,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "mach mit!"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 833,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "label": "trigger",
+    "value": "mach mit!",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1111,
+    "y": 40,
+    "w": 74,
+    "h": 24,
+    "text": "suche"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1111,
+    "y": 40,
+    "w": 74,
+    "h": 24,
+    "label": "trigger",
+    "value": "suche",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1209,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "at • de"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1209,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "at • de",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1313,
+    "y": 40,
+    "w": 79,
+    "h": 24,
+    "text": "öffnen"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1313,
+    "y": 40,
+    "w": 79,
+    "h": 24,
+    "label": "trigger",
+    "value": "öffnen",
+    "via": "trigger"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.landscape > picture > img",
+    "x": 162,
+    "y": 184,
+    "w": 1116,
+    "h": 657,
+    "text": "",
+    "file": "media_1437ece7604c3dfa3e5bb501a268d283cc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slide-content-inner > div.slide-title > h1#was-hinter-fairem-kakao-steckt",
+    "x": 210,
+    "y": 515,
+    "w": 612,
+    "h": 141,
+    "level": 1,
+    "text": "was hinter fairem kakao steckt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slide-actions > p.button-wrapper > a.button.primary",
+    "x": 210,
+    "y": 704,
+    "w": 241,
+    "h": 60,
+    "text": "kakao-schwerpunkt",
+    "href": "/at-de/mach-mit/kampagnen/kakao-schwerpunkt-2026.html"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.landscape > picture > img",
+    "x": 1310,
+    "y": 184,
+    "w": 558,
+    "h": 328,
+    "text": "",
+    "file": "media_16235535f1b3886d6b8e690a9a1804031b"
+   },
+   {
+    "kind": "image",
+    "state": "hidden",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.landscape > picture > img",
+    "x": -428,
+    "y": 184,
+    "w": 558,
+    "h": 328,
+    "text": "",
+    "file": "media_15050c9ad2715a5280b224fd7afe8a0d91"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-carousel-carousel > div.hero-carousel-controls > button.button.variant-icon-primary",
+    "x": 66,
+    "y": 492,
+    "w": 48,
+    "h": 48,
+    "text": ""
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-carousel-carousel > div.hero-carousel-controls > button.button.variant-icon-primary",
+    "x": 1326,
+    "y": 492,
+    "w": 48,
+    "h": 48,
+    "text": ""
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.centered.section > div.default-content-wrapper > h2#faire-news",
+    "x": 390,
+    "y": 968,
+    "w": 660,
+    "h": 53,
+    "level": 2,
+    "text": "faire news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 1141,
+    "w": 421,
+    "h": 512,
+    "text": "09.11.26 zukunft der landwirtschaft news was fairtrade und die bäuer:innen auf d",
+    "href": "/at-de/newsroom/aktuelles/newstexte/cop31.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 1142,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_13c644aaea8ca29f252543377b26fcb18b"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#news-was-fairtrade-und-die-bäuerinnen-auf-der-klimakonferenz-fordern",
+    "x": 48,
+    "y": 1473,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "news was fairtrade und die bäuer:innen auf der klimakonferenz fordern"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 1141,
+    "w": 421,
+    "h": 512,
+    "text": "09.11.26 community & commercial news news fairtrade: mehr als jede fünfte tafels",
+    "href": "/at-de/newsroom/aktuelles/newstexte/jede-fuenfte-tafelschokolade-fair.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 1142,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_1bb622cf2e350423a32bc79ef5fce42fd0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#news-fairtrade-mehr-als-jede-fünfte-tafelschokolade-ist-fair-gehandelt",
+    "x": 509,
+    "y": 1473,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "news fairtrade: mehr als jede fünfte tafelschokolade ist fair gehandelt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 1141,
+    "w": 421,
+    "h": 477,
+    "text": "06.11.26 news kakaopreise schwanken stark: was jetzt sicherheit schafft mehr les",
+    "href": "/at-de/newsroom/aktuelles/newstexte/warum-die-zukunft-des-kakaos-verlaessliche-preise-braucht.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 1142,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "media_19b46e87043c803ecda9c81133382a2db2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#news-kakaopreise-schwanken-stark-was-jetzt-sicherheit-schafft",
+    "x": 971,
+    "y": 1473,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "news kakaopreise schwanken stark: was jetzt sicherheit schafft"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-actions > p.button-wrapper > a.button.primary",
+    "x": 619,
+    "y": 1785,
+    "w": 202,
+    "h": 60,
+    "text": "zum newsroom",
+    "href": "/at-de/newsroom.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.centered.section > div.default-content-wrapper > h2#fairtrade-auf-social-media",
+    "x": 390,
+    "y": 1925,
+    "w": 660,
+    "h": 53,
+    "level": 2,
+    "text": "fairtrade auf social media"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-actions > p.button-wrapper > a.button.primary",
+    "x": 543,
+    "y": 2713,
+    "w": 354,
+    "h": 60,
+    "text": "unsere auftritte auf social-media",
+    "href": "/at-de/newsroom/social-media.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-carousel-grid > div.product-carousel-subtitle > p",
+    "x": 390,
+    "y": 3061,
+    "w": 660,
+    "h": 58,
+    "text": "2.500 Produkte mit dem FAIRTRADE-Siegel an 5.500 Verkaufsstellen österreichweit."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-carousel-grid > div.product-carousel-title > h2#fairtrade-produkte-finden",
+    "x": 390,
+    "y": 3151,
+    "w": 660,
+    "h": 141,
+    "level": 2,
+    "text": "fairtrade-produkte finden"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-list > li.carousel-item > a.product-teaser",
+    "x": -69,
+    "y": 3356,
+    "w": 290,
+    "h": 475,
+    "text": "adobe reserva adobe chardonnay 2026 mehr erfahren",
+    "href": "/at-de/produkte/produktfinder/product-detail-page.170494.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": -19,
+    "y": 3398,
+    "w": 190,
+    "h": 190,
+    "text": "",
+    "file": "media_1626e7903b33450814d8f67b23fc3f4df6"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.product-teaser > div.product-teaser-title > h3#adobe-chardonnay-2026",
+    "x": -36,
+    "y": 3658,
+    "w": 224,
+    "h": 106,
+    "level": 3,
+    "text": "adobe chardonnay 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-list > li.carousel-item > a.product-teaser",
+    "x": 253,
+    "y": 3356,
+    "w": 290,
+    "h": 475,
+    "text": "minor himbeere (5 x 22g) mehr erfahren",
+    "href": "/at-de/produkte/produktfinder/product-detail-page.167149.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 303,
+    "y": 3398,
+    "w": 190,
+    "h": 190,
+    "text": "",
+    "file": "media_1f43f204d1163e57e8d855aff7a2bfafd0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.product-teaser > div.product-teaser-title > h3#himbeere-5-x-22g",
+    "x": 286,
+    "y": 3658,
+    "w": 224,
+    "h": 70,
+    "level": 3,
+    "text": "himbeere (5 x 22g)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-list > li.carousel-item > a.product-teaser",
+    "x": 575,
+    "y": 3356,
+    "w": 290,
+    "h": 475,
+    "text": "tirol milch tirol milch kakao fairtrade uht 200ml mehr erfahren",
+    "href": "/at-de/produkte/produktfinder/product-detail-page.168366.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 625,
+    "y": 3398,
+    "w": 190,
+    "h": 190,
+    "text": "",
+    "file": "media_169d4f629c86a0e6fbe44f29966a5cf572"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.product-teaser > div.product-teaser-title > h3#tirol-milch-kakao-fairtrade-uht-200ml",
+    "x": 608,
+    "y": 3658,
+    "w": 224,
+    "h": 106,
+    "level": 3,
+    "text": "tirol milch kakao fairtrade uht 200ml"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-list > li.carousel-item > a.product-teaser",
+    "x": 897,
+    "y": 3356,
+    "w": 290,
+    "h": 475,
+    "text": "munz munz glückskäfer bottle 150g mehr erfahren",
+    "href": "/at-de/produkte/produktfinder/product-detail-page.170318.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 947,
+    "y": 3398,
+    "w": 190,
+    "h": 190,
+    "text": "",
+    "file": "media_12943500a73d1c7851b1e39c8d52b56478"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.product-teaser > div.product-teaser-title > h3#munz-glückskäfer-bottle-150g",
+    "x": 930,
+    "y": 3658,
+    "w": 224,
+    "h": 106,
+    "level": 3,
+    "text": "munz glückskäfer bottle 150g"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.carousel-list > li.carousel-item > a.product-teaser",
+    "x": 1219,
+    "y": 3356,
+    "w": 290,
+    "h": 475,
+    "text": "topolino kinder mädchen t-shirt_875016 mehr erfahren",
+    "href": "/at-de/produkte/produktfinder/product-detail-page.164473.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 1269,
+    "y": 3398,
+    "w": 190,
+    "h": 190,
+    "text": "",
+    "file": "media_18d502840d7434ce86ecd6e2f261c32168"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.product-teaser > div.product-teaser-title > h3#kinder-mädchen-t-shirt_875016",
+    "x": 1252,
+    "y": 3658,
+    "w": 224,
+    "h": 70,
+    "level": 3,
+    "text": "kinder mädchen t-shirt_875016"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": true,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.product-carousel-grid.product-carousel-foot > p.button-wrapper > a.button.secondary",
+    "x": 582,
+    "y": 3895,
+    "w": 277,
+    "h": 48,
+    "text": "alle produkte entdecken",
+    "href": "/at-de/produkte/produktfinder.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#gewinnspiel-des-monats",
+    "x": 740,
+    "y": 4316,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "gewinnspiel des monats"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 740,
+    "y": 4393,
+    "w": 538,
+    "h": 86,
+    "text": "Gewinne jeden Monat faire Preise unserer Partner: Kaffee, Tee, Schokolade, Reis "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 740,
+    "y": 4540,
+    "w": 208,
+    "h": 48,
+    "text": "jetzt mitmachen",
+    "href": "/at-de/mach-mit/kampagnen/gewinnspiele.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 162,
+    "y": 4183,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "media_1a36e2b62d1ff2b652a1560545f9843c39"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#fairtrade-produkte-im-globalen-süden",
+    "x": 162,
+    "y": 5113,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "fairtrade-produkte im globalen süden"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 5242,
+    "w": 538,
+    "h": 173,
+    "text": "Hinter dem FAIRTRADE-Siegel steht eine große Vielfalt an Produkten, die nach FAI"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 162,
+    "y": 5476,
+    "w": 341,
+    "h": 48,
+    "text": "fairtrade-produkte entdecken",
+    "href": "/at-de/produkte/fairtrade-produkte.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 740,
+    "y": 5049,
+    "w": 538,
+    "h": 538,
+    "text": "frauen beim waschen von bananen und lachen dabei in die kame",
+    "file": "media_17b6d5a86fc6ff7603662c8c32bca4f51a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#unsere-arbeitsschwerpunkte",
+    "x": 740,
+    "y": 5876,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "unsere arbeitsschwerpunkte"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 740,
+    "y": 6006,
+    "w": 538,
+    "h": 202,
+    "text": "FAIRTRADE steht für fairen Handel und FAIRTRADE-Standards mit Anforderungen zu M"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 740,
+    "y": 6268,
+    "w": 160,
+    "h": 48,
+    "text": "mehr infos",
+    "href": "/at-de/was-ist-fairtrade/arbeitsschwerpunkte.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 162,
+    "y": 5827,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "media_125f67db374f917dceb2ca68bbb70835ae"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.centered.section > div.default-content-wrapper > h2#was-ist-fairtrade-1",
+    "x": 390,
+    "y": 6485,
+    "w": 660,
+    "h": 53,
+    "level": 2,
+    "text": "was ist fairtrade?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.video-caption > div.video-caption-text > p",
+    "x": 188,
+    "y": 7298,
+    "w": 1090,
+    "h": 22,
+    "text": "FAIRTRADE Österreich"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.block > div.accordion-section-title > h2#fairtrade-in-kürze",
+    "x": 390,
+    "y": 7482,
+    "w": 660,
+    "h": 35,
+    "level": 2,
+    "text": "fairtrade in kürze"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7549,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7549,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#wer-wir-sind",
+    "x": 442,
+    "y": 7570,
+    "w": 120,
+    "h": 22,
+    "level": 3,
+    "text": "wer wir sind"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7613,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7613,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#was-wir-tun",
+    "x": 442,
+    "y": 7634,
+    "w": 114,
+    "h": 22,
+    "level": 3,
+    "text": "was wir tun"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7677,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7677,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#wer-uns-trägt",
+    "x": 442,
+    "y": 7698,
+    "w": 132,
+    "h": 22,
+    "level": 3,
+    "text": "wer uns trägt"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7741,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7741,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#was-wir-fordern",
+    "x": 442,
+    "y": 7762,
+    "w": 155,
+    "h": 22,
+    "level": 3,
+    "text": "was wir fordern"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7805,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 7805,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#vision-und-leitbild",
+    "x": 442,
+    "y": 7826,
+    "w": 179,
+    "h": 22,
+    "level": 3,
+    "text": "vision und leitbild"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1312,
+    "y": 8045,
+    "w": 80,
+    "h": 24,
+    "text": "at • de"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1312,
+    "y": 8045,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "at • de",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-title > span > p",
+    "x": 48,
+    "y": 8135,
+    "w": 318,
+    "h": 22,
+    "text": "Über FAIRTRADE Österreich"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 8181,
+    "w": 198,
+    "h": 26,
+    "text": "über fairtrade österreich",
+    "href": "/at-de/fairtrade-oesterreich.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 8230,
+    "w": 80,
+    "h": 26,
+    "text": "newsroom",
+    "href": "/at-de/newsroom.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 8280,
+    "w": 110,
+    "h": 26,
+    "text": "jobs & karriere",
+    "href": "/at-de/fairtrade-oesterreich/jobs-bei-fairtrade.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-title > span > p",
+    "x": 390,
+    "y": 8135,
+    "w": 318,
+    "h": 22,
+    "text": "Service & Kontakt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 8181,
+    "w": 57,
+    "h": 26,
+    "text": "kontakt",
+    "href": "/at-de/kontakt.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 8230,
+    "w": 28,
+    "h": 26,
+    "text": "faq",
+    "href": "/at-de/faq.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 8280,
+    "w": 83,
+    "h": 26,
+    "text": "materialien",
+    "href": "/at-de/materialien.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-title > span > p",
+    "x": 732,
+    "y": 8135,
+    "w": 318,
+    "h": 22,
+    "text": "Recht & Compliance"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 8181,
+    "w": 82,
+    "h": 26,
+    "text": "impressum",
+    "href": "/at-de/impressum.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 8230,
+    "w": 92,
+    "h": 26,
+    "text": "datenschutz",
+    "href": "/at-de/datenschutz.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 8280,
+    "w": 210,
+    "h": 26,
+    "text": "compliance und transparenz",
+    "href": "/at-de/compliance.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 8330,
+    "w": 143,
+    "h": 26,
+    "text": "missbrauch melden",
+    "href": "/at-de/was-ist-fairtrade/der-fairtrade-ansatz/fairtrade-siegel/missbrauch-melden.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 8135,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 8181,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/fairtrade.oesterreich"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 8181,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/fairtrade_at"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 8181,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-oesterreich"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 8181,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FAIRTRADE%C3%96sterreich"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 8269,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 8315,
+    "w": 318,
+    "h": 48,
+    "text": "jetzt anmelden!",
+    "href": "/at-de/newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 6,
+    "offPage": 76,
+    "textNodes": 138,
+    "controls": 66,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "ul.carousel-list",
+     "path": "div.carousel.contains-product-teasers > ul.carousel-list > li.carousel-item > a.product-teaser",
+     "text": "adobe reservaadobe chardonnay 2026mehr erfahren",
+     "cutMin": 69,
+     "cutMax": 69
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 2,
+     "clipper": "ul.carousel-list",
+     "path": "li.carousel-item > a.product-teaser > div.product-teaser-merchant > p",
+     "text": "adobe reserva",
+     "cutMin": 36,
+     "cutMax": 36
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "ul.carousel-list",
+     "path": "li.carousel-item > a.product-teaser > div.product-teaser-title > h3#adobe-chardonnay-2026",
+     "text": "adobe chardonnay 2026",
+     "cutMin": 36,
+     "cutMax": 36
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "ul.carousel-list",
+     "path": "li.carousel-item > a.product-teaser > div.product-teaser-title > h3#kinder-mädchen-t-shirt_875016",
+     "text": "kinder mädchen t-shirt_875016",
+     "cutMin": 29,
+     "cutMax": 29
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 69,
+     "path": "div.carousel.contains-product-teasers > ul.carousel-list > li.carousel-item > a.product-teaser",
+     "text": "adobe reservaadobe chardonnay 2026mehr erfahren",
+     "clipper": "ul.carousel-list",
+     "rect": {
+      "l": -69,
+      "t": 3356,
+      "r": 221,
+      "b": 3831,
+      "w": 290,
+      "h": 475
+     },
+     "clip": {
+      "l": 0,
+      "t": 3356,
+      "r": 1440,
+      "b": 3831,
+      "w": 1440,
+      "h": 475
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 36,
+     "path": "li.carousel-item > a.product-teaser > div.product-teaser-merchant > p",
+     "text": "adobe reserva",
+     "clipper": "ul.carousel-list",
+     "rect": {
+      "l": -36,
+      "t": 3620,
+      "r": 91,
+      "b": 3642,
+      "w": 127,
+      "h": 22
+     },
+     "clip": {
+      "l": 0,
+      "t": 3356,
+      "r": 1440,
+      "b": 3831,
+      "w": 1440,
+      "h": 475
+     },
+     "lines": 1
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 36,
+     "path": "li.carousel-item > a.product-teaser > div.product-teaser-title > h3#adobe-chardonnay-2026",
+     "text": "adobe chardonnay 2026",
+     "clipper": "ul.carousel-list",
+     "rect": {
+      "l": -36,
+      "t": 3659,
+      "r": 49,
+      "b": 3691,
+      "w": 85,
+      "h": 32
+     },
+     "clip": {
+      "l": 0,
+      "t": 3356,
+      "r": 1440,
+      "b": 3831,
+      "w": 1440,
+      "h": 475
+     },
+     "lines": 3
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 36,
+     "path": "li.carousel-item > a.product-teaser > div.product-teaser-cta > p",
+     "text": "mehr erfahren",
+     "clipper": "ul.carousel-list",
+     "rect": {
+      "l": -36,
+      "t": 3780,
+      "r": 74,
+      "b": 3799,
+      "w": 110,
+      "h": 19
+     },
+     "clip": {
+      "l": 0,
+      "t": 3356,
+      "r": 1440,
+      "b": 3831,
+      "w": 1440,
+      "h": 475
+     },
+     "lines": 1
+    },
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 69,
+     "path": "div.carousel.contains-product-teasers > ul.carousel-list > li.carousel-item > a.product-teaser",
+     "text": "topolinokinder mädchen t-shirt_875016mehr erfahren",
+     "clipper": "ul.carousel-list",
+     "rect": {
+      "l": 1219,
+      "t": 3356,
+      "r": 1509,
+      "b": 3831,
+      "w": 290,
+      "h": 475
+     },
+     "clip": {
+      "l": 0,
+      "t": 3356,
+      "r": 1440,
+      "b": 3831,
+      "w": 1440,
+      "h": 475
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 29,
+     "path": "li.carousel-item > a.product-teaser > div.product-teaser-title > h3#kinder-mädchen-t-shirt_875016",
+     "text": "kinder mädchen t-shirt_875016",
+     "clipper": "ul.carousel-list",
+     "rect": {
+      "l": 1252,
+      "t": 3659,
+      "r": 1469,
+      "b": 3691,
+      "w": 217,
+      "h": 32
+     },
+     "clip": {
+      "l": 0,
+      "t": 3356,
+      "r": 1440,
+      "b": 3831,
+      "w": 1440,
+      "h": 475
+     },
+     "lines": 2
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 2,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 2
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "was hinter fairem kakao steckt",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "faire news",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "news was fairtrade und die bäuer:innen auf der klimakonferenz fordern",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "news fairtrade: mehr als jede fünfte tafelschokolade ist fair gehandelt",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "news kakaopreise schwanken stark: was jetzt sicherheit schafft",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "fairtrade auf social media",
+   "variable": true,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "fairtrade-produkte finden",
+   "variable": true,
+   "origin": {
+    "link": 6,
+    "button": 0,
+    "text": 0,
+    "image": 6
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 6,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 8,
+   "heading": "gewinnspiel des monats",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "fairtrade-produkte im globalen süden",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "unsere arbeitsschwerpunkte",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "was ist fairtrade?",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "fairtrade in kürze",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "wer wir sind",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "was wir tun",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "wer uns trägt",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "was wir fordern",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "vision und leitbild",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"adobe chardonnay 2026\" (y 3658) has no origin heading",
+   "text": "adobe chardonnay 2026"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"himbeere (5 x 22g)\" (y 3658) has no origin heading",
+   "text": "himbeere (5 x 22g)"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"tirol milch kakao fairtrade uht 200ml\" (y 3658) has no origin heading",
+   "text": "tirol milch kakao fairtrade uht 200ml"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"munz glückskäfer bottle 150g\" (y 3658) has no origin heading",
+   "text": "munz glückskäfer bottle 150g"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"kinder mädchen t-shirt_875016\" (y 3658) has no origin heading",
+   "text": "kinder mädchen t-shirt_875016"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"adobe reserva adobe chardonnay 2026 mehr erfahren\" served in band \"fairtrade-produkte finden\", no origin link or button",
+   "band": 7,
+   "n": 1,
+   "text": "adobe reserva adobe chardonnay 2026 mehr erfahren"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"minor himbeere (5 x 22g) mehr erfahren\" served in band \"fairtrade-produkte finden\", no origin link or button",
+   "band": 7,
+   "n": 1,
+   "text": "minor himbeere (5 x 22g) mehr erfahren"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"tirol milch tirol milch kakao fairtrade uht 200ml mehr erfahren\" served in band \"fairtrade-produkte finden\", no origin link or button",
+   "band": 7,
+   "n": 1,
+   "text": "tirol milch tirol milch kakao fairtrade uht 200ml mehr erfahren"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"munz munz glückskäfer bottle 150g mehr erfahren\" served in band \"fairtrade-produkte finden\", no origin link or button",
+   "band": 7,
+   "n": 1,
+   "text": "munz munz glückskäfer bottle 150g mehr erfahren"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 5,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 4,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 9,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 162,
+    "h": 20
+   },
+   {
+    "x": 386,
+    "y": 42,
+    "w": 75,
+    "h": 20
+   },
+   {
+    "x": 508,
+    "y": 42,
+    "w": 141,
+    "h": 20
+   },
+   {
+    "x": 698,
+    "y": 42,
+    "w": 87,
+    "h": 20
+   },
+   {
+    "x": 833,
+    "y": 42,
+    "w": 80,
+    "h": 20
+   },
+   {
+    "x": 1139,
+    "y": 42,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 1237,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1341,
+    "y": 42,
+    "w": 51,
+    "h": 19
+   },
+   {
+    "x": 210,
+    "y": 518,
+    "w": 477,
+    "h": 64
+   },
+   {
+    "x": 210,
+    "y": 588,
+    "w": 340,
+    "h": 64
+   },
+   {
+    "x": 244,
+    "y": 723,
+    "w": 173,
+    "h": 22
+   },
+   {
+    "x": 1310,
+    "y": 499,
+    "w": 5,
+    "h": 11
+   },
+   {
+    "x": 611,
+    "y": 970,
+    "w": 218,
+    "h": 48
+   },
+   {
+    "x": 143,
+    "y": 1156,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 241,
+    "y": 1156,
+    "w": 205,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1472,
+    "w": 54,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 1512,
+    "w": 322,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 1547,
+    "w": 263,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 1582,
+    "w": 322,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 1627,
+    "w": 85,
+    "h": 19
+   },
+   {
+    "x": 571,
+    "y": 1156,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 669,
+    "y": 1156,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 1472,
+    "w": 54,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 1512,
+    "w": 346,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 1547,
+    "w": 394,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 1582,
+    "w": 135,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 1627,
+    "w": 85,
+    "h": 19
+   },
+   {
+    "x": 1310,
+    "y": 1156,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 1472,
+    "w": 54,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 1512,
+    "w": 400,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 1547,
+    "w": 359,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 1591,
+    "w": 85,
+    "h": 19
+   },
+   {
+    "x": 653,
+    "y": 1804,
+    "w": 134,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 1927,
+    "w": 569,
+    "h": 48
+   },
+   {
+    "x": 577,
+    "y": 2732,
+    "w": 286,
+    "h": 22
+   },
+   {
+    "x": 432,
+    "y": 3064,
+    "w": 576,
+    "h": 22
+   },
+   {
+    "x": 464,
+    "y": 3093,
+    "w": 512,
+    "h": 22
+   },
+   {
+    "x": 551,
+    "y": 3154,
+    "w": 338,
+    "h": 64
+   },
+   {
+    "x": 502,
+    "y": 3224,
+    "w": 436,
+    "h": 64
+   },
+   {
+    "x": -36,
+    "y": 3620,
+    "w": 73,
+    "h": 22
+   },
+   {
+    "x": -36,
+    "y": 3659,
+    "w": 217,
+    "h": 32
+   },
+   {
+    "x": -36,
+    "y": 3694,
+    "w": 195,
+    "h": 32
+   },
+   {
+    "x": -36,
+    "y": 3745,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 286,
+    "y": 3620,
+    "w": 51,
+    "h": 22
+   },
+   {
+    "x": 286,
+    "y": 3659,
+    "w": 198,
+    "h": 32
+   },
+   {
+    "x": 286,
+    "y": 3694,
+    "w": 59,
+    "h": 32
+   },
+   {
+    "x": 286,
+    "y": 3745,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 608,
+    "y": 3620,
+    "w": 96,
+    "h": 22
+   },
+   {
+    "x": 608,
+    "y": 3659,
+    "w": 157,
+    "h": 32
+   },
+   {
+    "x": 608,
+    "y": 3694,
+    "w": 212,
+    "h": 32
+   },
+   {
+    "x": 608,
+    "y": 3729,
+    "w": 141,
+    "h": 32
+   },
+   {
+    "x": 608,
+    "y": 3780,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 930,
+    "y": 3620,
+    "w": 96,
+    "h": 22
+   },
+   {
+    "x": 930,
+    "y": 3659,
+    "w": 222,
+    "h": 32
+   },
+   {
+    "x": 930,
+    "y": 3694,
+    "w": 151,
+    "h": 32
+   },
+   {
+    "x": 930,
+    "y": 3729,
+    "w": 144,
+    "h": 32
+   },
+   {
+    "x": 930,
+    "y": 3780,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 1252,
+    "y": 3620,
+    "w": 71,
+    "h": 22
+   },
+   {
+    "x": 1252,
+    "y": 3659,
+    "w": 111,
+    "h": 32
+   },
+   {
+    "x": 1252,
+    "y": 3694,
+    "w": 257,
+    "h": 32
+   },
+   {
+    "x": 1252,
+    "y": 3729,
+    "w": 236,
+    "h": 32
+   },
+   {
+    "x": 1252,
+    "y": 3780,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 616,
+    "y": 3908,
+    "w": 209,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 4318,
+    "w": 477,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 4396,
+    "w": 506,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 4425,
+    "w": 431,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 4454,
+    "w": 127,
+    "h": 22
+   },
+   {
+    "x": 867,
+    "y": 4454,
+    "w": 276,
+    "h": 22
+   },
+   {
+    "x": 774,
+    "y": 4553,
+    "w": 140,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5115,
+    "w": 500,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 5167,
+    "w": 308,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 5245,
+    "w": 467,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5274,
+    "w": 501,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5303,
+    "w": 523,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5332,
+    "w": 514,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5360,
+    "w": 518,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5389,
+    "w": 206,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 5489,
+    "w": 273,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 5878,
+    "w": 141,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 5931,
+    "w": 429,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 6009,
+    "w": 531,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6038,
+    "w": 406,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6066,
+    "w": 481,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6095,
+    "w": 537,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6124,
+    "w": 326,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6153,
+    "w": 481,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6182,
+    "w": 446,
+    "h": 22
+   },
+   {
+    "x": 774,
+    "y": 6281,
+    "w": 92,
+    "h": 22
+   },
+   {
+    "x": 511,
+    "y": 6487,
+    "w": 417,
+    "h": 48
+   },
+   {
+    "x": 188,
+    "y": 7300,
+    "w": 140,
+    "h": 17
+   },
+   {
+    "x": 390,
+    "y": 7483,
+    "w": 273,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 7569,
+    "w": 120,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 7633,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 7697,
+    "w": 132,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 7761,
+    "w": 155,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 7825,
+    "w": 179,
+    "h": 24
+   },
+   {
+    "x": 1340,
+    "y": 8047,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 8134,
+    "w": 265,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 8184,
+    "w": 198,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 8233,
+    "w": 80,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 8283,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 390,
+    "y": 8134,
+    "w": 173,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 8184,
+    "w": 57,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8233,
+    "w": 28,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8283,
+    "w": 83,
+    "h": 19
+   },
+   {
+    "x": 732,
+    "y": 8134,
+    "w": 192,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 8184,
+    "w": 82,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 8233,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 8283,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 8333,
+    "w": 143,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 8134,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 8268,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1165,
+    "y": 8328,
+    "w": 135,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 162,
+    "h": 20
+   },
+   {
+    "x": 386,
+    "y": 42,
+    "w": 75,
+    "h": 20
+   },
+   {
+    "x": 508,
+    "y": 42,
+    "w": 141,
+    "h": 20
+   },
+   {
+    "x": 698,
+    "y": 42,
+    "w": 87,
+    "h": 20
+   },
+   {
+    "x": 833,
+    "y": 42,
+    "w": 80,
+    "h": 20
+   },
+   {
+    "x": 1139,
+    "y": 42,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 1237,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1341,
+    "y": 42,
+    "w": 51,
+    "h": 19
+   },
+   {
+    "x": 210,
+    "y": 518,
+    "w": 477,
+    "h": 64
+   },
+   {
+    "x": 210,
+    "y": 588,
+    "w": 340,
+    "h": 64
+   },
+   {
+    "x": 244,
+    "y": 723,
+    "w": 173,
+    "h": 22
+   },
+   {
+    "x": 611,
+    "y": 970,
+    "w": 218,
+    "h": 48
+   },
+   {
+    "x": 143,
+    "y": 1156,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 241,
+    "y": 1156,
+    "w": 205,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 1472,
+    "w": 54,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 1512,
+    "w": 322,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 1547,
+    "w": 263,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 1582,
+    "w": 322,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 1627,
+    "w": 85,
+    "h": 19
+   },
+   {
+    "x": 571,
+    "y": 1156,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 669,
+    "y": 1156,
+    "w": 237,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 1472,
+    "w": 54,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 1512,
+    "w": 346,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 1547,
+    "w": 394,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 1582,
+    "w": 135,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 1627,
+    "w": 85,
+    "h": 19
+   },
+   {
+    "x": 1310,
+    "y": 1156,
+    "w": 58,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 1472,
+    "w": 54,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 1512,
+    "w": 400,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 1547,
+    "w": 359,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 1591,
+    "w": 85,
+    "h": 19
+   },
+   {
+    "x": 653,
+    "y": 1804,
+    "w": 134,
+    "h": 22
+   },
+   {
+    "x": 435,
+    "y": 1927,
+    "w": 569,
+    "h": 48
+   },
+   {
+    "x": 577,
+    "y": 2732,
+    "w": 286,
+    "h": 22
+   },
+   {
+    "x": 432,
+    "y": 3064,
+    "w": 576,
+    "h": 22
+   },
+   {
+    "x": 464,
+    "y": 3093,
+    "w": 512,
+    "h": 22
+   },
+   {
+    "x": 551,
+    "y": 3154,
+    "w": 338,
+    "h": 64
+   },
+   {
+    "x": 502,
+    "y": 3224,
+    "w": 436,
+    "h": 64
+   },
+   {
+    "x": -36,
+    "y": 3620,
+    "w": 127,
+    "h": 22
+   },
+   {
+    "x": -36,
+    "y": 3659,
+    "w": 85,
+    "h": 32
+   },
+   {
+    "x": -36,
+    "y": 3694,
+    "w": 161,
+    "h": 32
+   },
+   {
+    "x": -36,
+    "y": 3729,
+    "w": 64,
+    "h": 32
+   },
+   {
+    "x": -36,
+    "y": 3780,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 286,
+    "y": 3620,
+    "w": 51,
+    "h": 22
+   },
+   {
+    "x": 286,
+    "y": 3659,
+    "w": 182,
+    "h": 32
+   },
+   {
+    "x": 286,
+    "y": 3694,
+    "w": 57,
+    "h": 32
+   },
+   {
+    "x": 286,
+    "y": 3745,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 608,
+    "y": 3620,
+    "w": 91,
+    "h": 22
+   },
+   {
+    "x": 608,
+    "y": 3659,
+    "w": 140,
+    "h": 32
+   },
+   {
+    "x": 608,
+    "y": 3694,
+    "w": 213,
+    "h": 32
+   },
+   {
+    "x": 608,
+    "y": 3729,
+    "w": 148,
+    "h": 32
+   },
+   {
+    "x": 608,
+    "y": 3780,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 930,
+    "y": 3620,
+    "w": 47,
+    "h": 22
+   },
+   {
+    "x": 930,
+    "y": 3659,
+    "w": 74,
+    "h": 32
+   },
+   {
+    "x": 930,
+    "y": 3694,
+    "w": 159,
+    "h": 32
+   },
+   {
+    "x": 930,
+    "y": 3729,
+    "w": 147,
+    "h": 32
+   },
+   {
+    "x": 930,
+    "y": 3780,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 1252,
+    "y": 3620,
+    "w": 73,
+    "h": 22
+   },
+   {
+    "x": 1252,
+    "y": 3659,
+    "w": 217,
+    "h": 32
+   },
+   {
+    "x": 1252,
+    "y": 3694,
+    "w": 195,
+    "h": 32
+   },
+   {
+    "x": 1252,
+    "y": 3745,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 616,
+    "y": 3908,
+    "w": 209,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 4318,
+    "w": 477,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 4396,
+    "w": 506,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 4425,
+    "w": 431,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 4454,
+    "w": 127,
+    "h": 22
+   },
+   {
+    "x": 867,
+    "y": 4454,
+    "w": 276,
+    "h": 22
+   },
+   {
+    "x": 774,
+    "y": 4553,
+    "w": 140,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5115,
+    "w": 500,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 5167,
+    "w": 308,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 5245,
+    "w": 467,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5274,
+    "w": 501,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5303,
+    "w": 523,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5332,
+    "w": 514,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5360,
+    "w": 518,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 5389,
+    "w": 206,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 5489,
+    "w": 273,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 5878,
+    "w": 141,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 5931,
+    "w": 429,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 6009,
+    "w": 531,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6038,
+    "w": 406,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6066,
+    "w": 481,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6095,
+    "w": 537,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6124,
+    "w": 326,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6153,
+    "w": 481,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 6182,
+    "w": 446,
+    "h": 22
+   },
+   {
+    "x": 774,
+    "y": 6281,
+    "w": 92,
+    "h": 22
+   },
+   {
+    "x": 511,
+    "y": 6487,
+    "w": 417,
+    "h": 48
+   },
+   {
+    "x": 188,
+    "y": 7300,
+    "w": 140,
+    "h": 17
+   },
+   {
+    "x": 390,
+    "y": 7483,
+    "w": 273,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 7569,
+    "w": 120,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 7633,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 7697,
+    "w": 132,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 7761,
+    "w": 155,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 7825,
+    "w": 179,
+    "h": 24
+   },
+   {
+    "x": 1340,
+    "y": 8047,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 8134,
+    "w": 265,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 8184,
+    "w": 198,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 8233,
+    "w": 80,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 8283,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 390,
+    "y": 8134,
+    "w": 173,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 8184,
+    "w": 57,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8233,
+    "w": 28,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8283,
+    "w": 83,
+    "h": 19
+   },
+   {
+    "x": 732,
+    "y": 8134,
+    "w": 192,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 8184,
+    "w": 82,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 8233,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 8283,
+    "w": 210,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 8333,
+    "w": 143,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 8134,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 8268,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1165,
+    "y": 8328,
+    "w": 135,
+    "h": 22
+   }
+  ]
+ }
+}

@@ -1,0 +1,56 @@
+{
+  "a": "stardust/replica/gates/all-1440/us-en-why-fairtrade-why-we-do-it-html/origin.png",
+  "b": "stardust/replica/gates/all-1440/us-en-why-fairtrade-why-we-do-it-html/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2687,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 233,
+  "pct": 0.01,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/us-en-why-fairtrade-why-we-do-it-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0,
+  "textBoxes": 50,
+  "textPixels": 284028,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 2687,
+      "pct": 0
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it"
+  }
+}

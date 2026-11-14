@@ -1,0 +1,521 @@
+{
+  "slug": "no-no-html",
+  "type": "locale-home",
+  "renderBranch": "A'",
+  "template": "at-de-html",
+  "modules": [
+    "content-fader",
+    "number-fact-teaser",
+    "filtered-teaser-grid"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "cmp-container"
+  ],
+  "canonShas": {
+    "header": "a8173d7dbea7",
+    "footer": "d89d7878d4cd",
+    "css": "2bf6b48caf7e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Fairtrade Norge",
+    "description": "Fairtrade jobber for rettferdig handel, og er en av verdens største merkeordninger for bærekraft. ",
+    "canonical": "https://main--63f9f24b--aemcoder.aem.page/no-no.html",
+    "lang": "no"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Fairtrade.net",
+    "alternateName": "Fairtrade Norge",
+    "url": "https://www.fairtrade.net/"
+  },
+  "migratedAt": "2026-11-14T07:55:17Z",
+  "designMdSha": "ba7a99252bf7",
+  "designJsonSha": "d7cf7a9249c2",
+  "sourceCurrentSha": "1c24daa5b1fe",
+  "sourceProposedSha": "97854a4a3f81",
+  "fidelityTier": "sibling",
+  "archetypeSource": "at-de-html",
+  "archetypeSha": "7c54e4ea9c35",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 vs at-de-html: per-page module composition (hero/teaser/nav/accordion/text-image counts), grey text-image band, wide navigation-teaser, large teaser family (stardust/migrate/variance/locale-home.json)",
+    "delivery-lint": "delivery-lint 0 P0/P1 on content/no-no.html (path /no-no)",
+    "media-reconcile": "media-reconcile: all images keep (200), no omit/unresolved after the encoder's broken-image omit",
+    "pixel-gate-1440": "gate-all 1440 published: pixel 0.36%, |Δh|≤5%, clip 0, content MISSING+HIDDEN 0, fonts loaded",
+    "pixel-gate-360": "gate-all 360 published: pixel 0.74%, |Δh|≤5%, clip 0, content MISSING+HIDDEN 0, fonts loaded",
+    "content-count": "gate-all content probe: MISSING 0 / HIDDEN 0 at both widths (or the passing width; see pixel gates)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 33,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/hva-er-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/hva-er-fairtrade/dette-er-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/hva-er-fairtrade/slik-fungerer-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/hva-er-fairtrade/fordeler-med-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/hva-er-fairtrade/fairtrades-endringsteori.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/hva-er-fairtrade/produsenthistorier.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader/hredd.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader/arbeidstakerrettigheter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader/barnearbeid.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader/klima-og-miljo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader/levelonn-og-leveinntekt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader/likestilling.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader/smaaskalabonder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader/tvangsarbeid.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/vaare-losninger.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/vaare-losninger/fairtrade-merket.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/vaare-losninger/fairtrade-standarder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/vaare-losninger/vaare-prosjekter-og-programmer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/verktoy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/bananer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/blomster.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/bomull.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/honning.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/frukt-juice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/kaffe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/kakao.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/urter-krydder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/notter-matoljer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/sukker.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/te.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/vin.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/quinoa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/ris.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/sportsballer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/produktoversikt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/naeringsliv/Naeringsliv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/naeringsliv/ansvar-er-lonnsomt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/offentlig-sektor/offentlig-sektor.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/offentlig-sektor/fairtrade-kommuner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/offentlig-sektor/fairtrade-skoler.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/aktuelt/aktuelt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/aktuelt/arrangementer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/kontaktskjema.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/sok.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/aktuelt/aktuelt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/aktuelt/arrangementer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/kontaktskjema.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/sok.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/hva-er-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/hva-er-fairtrade/dette-er-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/hva-er-fairtrade/slik-fungerer-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/hva-er-fairtrade/fordeler-med-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/hva-er-fairtrade/fairtrades-endringsteori.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/hva-er-fairtrade/produsenthistorier.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader/hredd.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader/arbeidstakerrettigheter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader/barnearbeid.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader/klima-og-miljo.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader/levelonn-og-leveinntekt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader/likestilling.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader/smaaskalabonder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/fokusomraader/tvangsarbeid.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/vaare-losninger.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/vaare-losninger/fairtrade-merket.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/vaare-losninger/fairtrade-standarder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/vaare-losninger/vaare-prosjekter-og-programmer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/verktoy.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/produktoversikt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/bananer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/blomster.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/bomull.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/honning.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/frukt-juice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/kaffe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/kakao.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/urter-krydder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/notter-matoljer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/sukker.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/te.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/vin.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/quinoa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/ris.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/raavarer/fairtrade-raavarer/sportsballer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/naeringsliv/Naeringsliv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/naeringsliv/ansvar-er-lonnsomt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/offentlig-sektor/offentlig-sektor.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/offentlig-sektor/fairtrade-kommuner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/offentlig-sektor/fairtrade-skoler.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-fairtrade/hva-er-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/produktoversikt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/bli-kjent-med-vare-nye-medarbeidere.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/fairtrade-oppdaterer-standardene.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/politisk-interesse-for-rettferdig-handel-.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/fairtrade-med-nytt-digitalt-system-for-a-hindre-avskoging-.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/fairtrades-priser-for-rettferdig-handel-2026.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/intervju-med-utviklingsminister-asmund-aukrust.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "[%=cta.link%]",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/aktuelt/aktuelt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/naeringsliv/Naeringsliv.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-oss/om-fairtrade-norge.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-oss/om-fairtrade-norge/vaare-samarbeidspartnere.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/aktuelt/arrangementer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/aktuelt/ressurser.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/kontaktskjema.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-oss/om-fairtrade-norge/ansatte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/aktuelt/for-presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-oss/ofte-stilte-sporsmaal.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-oss/vare-rutiner/personvernerklaering.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/no-no/om-oss/ledige-stillinger.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "no-no.html",
+  "outputPathDefault": null,
+  "sidecar": "no-no._meta.json",
+  "driverVersion": "1"
+}

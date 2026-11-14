@@ -1,0 +1,131 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-14T12:06:59.325Z",
+  "origin": "https://main--63f9f24b--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "analytics, tag managers and consent (GTM x2, pixels, Usercentrics)",
+   "id": "martech-off",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (6 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6221,
+   "environmentLimit": null
+  },
+  {
+   "feature": "analytics, tag managers and consent (GTM x2, pixels, Usercentrics)",
+   "id": "martech-off",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "consent-gate",
+   "pass": true,
+   "detail": "no request to 3 gated host pattern(s) before consent",
+   "thirdParty": "",
+   "ms": 6193,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header locale selector dialog",
+   "id": "chrome-locale",
+   "class": "I18N",
+   "status": "done",
+   "type": "click-dialog",
+   "pass": false,
+   "detail": "dialog 1440px · heading \"Go to a local website\" · 1 fields · Escape closes: false",
+   "thirdParty": "",
+   "ms": 4120,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header menus, drawer and search box",
+   "id": "chrome-menu",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "53 × header .topbar-main-navigation li (min 4)",
+   "thirdParty": "",
+   "ms": 1979,
+   "environmentLimit": null
+  },
+  {
+   "feature": "header menus, drawer and search box",
+   "id": "chrome-menu",
+   "class": "M",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 6 page(s)",
+   "thirdParty": "",
+   "ms": 12127,
+   "environmentLimit": null
+  },
+  {
+   "feature": "video: YouTube embeds",
+   "id": "v-video-youtube",
+   "class": "V",
+   "status": "done",
+   "type": "video-plays",
+   "pass": true,
+   "detail": "iframe/video: true · no <video> · playback requests 8 (ok)",
+   "thirdParty": "www.youtube.com:200×7 fonts.gstatic.com:200×1 static.doubleclick.net:200×1 googleads.g.doubleclick.net:302×1 www.google.com:200×1 googleads.g.doubleclick.net:200×1 yt3.ggpht.com:200×1 www.gstatic.com:200×1 i.ytimg.com:200×1 www.youtube.com:204×1 jnn-pa.googleapis.com:200×1",
+   "ms": 6230,
+   "environmentLimit": null
+  },
+  {
+   "feature": "carousels, teaser grids, accordions (listing candidates)",
+   "id": "listings",
+   "class": "L",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "18 × main .teaser-grid a (min 3)",
+   "thirdParty": "",
+   "ms": 1963,
+   "environmentLimit": null
+  },
+  {
+   "feature": "carousels, teaser grids, accordions (listing candidates)",
+   "id": "listings",
+   "class": "L",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "70 × main .hero-carousel li, main .hero-carousel [class*='slide'] (min 2)",
+   "thirdParty": "",
+   "ms": 2021,
+   "environmentLimit": null
+  },
+  {
+   "feature": "contact form (mt-en, ro-ro, si-sl)",
+   "id": "f-form-cee-home-contact-form",
+   "class": "F",
+   "status": "scaffolded-awaiting-owner",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × main .form input, main .form textarea (min 3)",
+   "thirdParty": "",
+   "ms": 1968,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (1 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6159,
+   "environmentLimit": null
+  }
+ ]
+}

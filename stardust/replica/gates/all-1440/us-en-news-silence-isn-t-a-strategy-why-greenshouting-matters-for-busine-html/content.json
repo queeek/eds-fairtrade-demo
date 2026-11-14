@@ -1,0 +1,4281 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T10:47:16.490Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/us-en/news/silence-isn-t-a-strategy--why--greenshouting--matters-for-busine.html",
+  "at": "2026-11-14T10:46:54.594Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6375,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "Fairtrade_America_Logo_Vert_80x80"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+    "x": 276,
+    "y": 224,
+    "w": 888,
+    "h": 238,
+    "level": 1,
+    "text": "silence isn’t a strategy: why “greenshouting” matters for business growth"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.PageLead--tags > li.PageLead--tag > span.Tag",
+    "x": 672,
+    "y": 494,
+    "w": 97,
+    "h": 34,
+    "text": "09.24.26"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+    "x": 276,
+    "y": 559,
+    "w": 888,
+    "h": 77,
+    "text": "Now is the time to leverage the momentum of consumer protections like EmpCo to b"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--imageGrid > div.Image.ultra-wide > img.lazyautosizes.ls-is-cached",
+    "x": 48,
+    "y": 700,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "21x9_1440w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1396,
+    "w": 660,
+    "h": 115,
+    "text": "A chill has come over the United States. Too many American companies have shoved"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1543,
+    "w": 660,
+    "h": 115,
+    "text": "Despite a summer of wildfires, extreme heat and flood-inducing weather events, m"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h4",
+    "x": 390,
+    "y": 1698,
+    "w": 660,
+    "h": 66,
+    "level": 4,
+    "text": "when socially and environmentally responsible companies go silent, bad actors, misinformation and harmful business-as-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > h4 > a",
+    "x": 484,
+    "y": 1741,
+    "w": 114,
+    "h": 24,
+    "text": "fill the void.",
+    "href": "/greenshouting"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1780,
+    "w": 660,
+    "h": 173,
+    "text": "Corporate disclosures and public-facing communications from businesses increasin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > a",
+    "x": 905,
+    "y": 1841,
+    "w": 76,
+    "h": 22,
+    "text": "research",
+    "href": "/press/climate-disclosure-and-sustainability-terminology"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > a",
+    "x": 696,
+    "y": 1899,
+    "w": 117,
+    "h": 22,
+    "text": "financial firms",
+    "href": "/sustainability/blackrock-quits-climate-group-wall-streets-latest-environmental-step-back-2025-01-09/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1985,
+    "w": 660,
+    "h": 202,
+    "text": "At the same time, the federal government has actively to “climate change” from p"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > a",
+    "x": 833,
+    "y": 1988,
+    "w": 164,
+    "h": 22,
+    "text": "removed references",
+    "href": "/US/usda-orders-removal-climate-change-mentions-public-websites/story"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > a",
+    "x": 788,
+    "y": 2103,
+    "w": 89,
+    "h": 22,
+    "text": "companies",
+    "href": "/companies-shift-away-politically-charged-terms-2065522"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2219,
+    "w": 660,
+    "h": 86,
+    "text": "As climate-related risks and public discourse grows more polarized, corporate si"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > a",
+    "x": 589,
+    "y": 2222,
+    "w": 71,
+    "h": 22,
+    "text": "intensify",
+    "href": "/us-en/for-media/el-nino-likely-to-hamstring-farming-and-food-access-around-the-w.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h4",
+    "x": 390,
+    "y": 2345,
+    "w": 660,
+    "h": 44,
+    "level": 4,
+    "text": "now is the moment for companies committed to environmental progress to speak more loudly, not less."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2405,
+    "w": 660,
+    "h": 115,
+    "text": "People are encountering the effects of climate change every day. Extreme tempera"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2552,
+    "w": 660,
+    "h": 346,
+    "text": "Businesses have long played a critical role in advancing renewable energy, reduc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h4",
+    "x": 390,
+    "y": 2938,
+    "w": 660,
+    "h": 22,
+    "level": 4,
+    "text": "knowing the following terms is a good starting point."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > h4 > a",
+    "x": 612,
+    "y": 2937,
+    "w": 57,
+    "h": 24,
+    "text": "terms",
+    "href": "/publication/392016821_The_Concepts_of_Greenwashing_and_Greenhushing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > b",
+    "x": 406,
+    "y": 2979,
+    "w": 122,
+    "h": 22,
+    "text": "Greenwashing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span",
+    "x": 406,
+    "y": 2979,
+    "w": 521,
+    "h": 51,
+    "text": "– Making untrue, misleading, or unsubstantiated environmental claims"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 3045,
+    "w": 660,
+    "h": 58,
+    "text": "– Deliberately withholding information about sustainability practices from custo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 3115,
+    "w": 660,
+    "h": 86,
+    "text": "– Communicating sustainability efforts openly, accurately, and courageously, gro"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h4",
+    "x": 390,
+    "y": 3241,
+    "w": 660,
+    "h": 22,
+    "level": 4,
+    "text": "greenshouting isn’t easy, but it’s an opportunity worth investing in."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 3279,
+    "w": 660,
+    "h": 115,
+    "text": "Across the pond in Europe, businesses are already preparing for a transparent an"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > a",
+    "x": 622,
+    "y": 3311,
+    "w": 276,
+    "h": 22,
+    "text": "empowering consumers directive",
+    "href": "/en/for-business/benefits-of-being-certified/fairtrade-and-the-eu-empowering-consumers-directive.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 3427,
+    "w": 660,
+    "h": 202,
+    "text": "EmpCo aims to protect consumers from misleading environmental claims and labels."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 3660,
+    "w": 660,
+    "h": 202,
+    "text": "For shoppers across Europe, this will help reduce greenwashing and make it easie"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.panelcontainer > div.AccordionSection > h2.AccordionSection--title",
+    "x": 390,
+    "y": 3982,
+    "w": 660,
+    "h": 106,
+    "level": 2,
+    "text": "below, we've outlined some of the key requirements of empco and how fairtrade's model aligns with these standards."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4119,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4119,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 4140,
+    "w": 521,
+    "h": 22,
+    "level": 3,
+    "text": "independent certification and third-party verification"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4183,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4183,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 4204,
+    "w": 490,
+    "h": 22,
+    "level": 3,
+    "text": "control of claims/labels and public accountability"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4247,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4247,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 4268,
+    "w": 475,
+    "h": 22,
+    "level": 3,
+    "text": "expert governance and stakeholder consultation"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4311,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4311,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 4332,
+    "w": 361,
+    "h": 22,
+    "level": 3,
+    "text": "clear procedures for non-compliance"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4375,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > button.Accordion--toggle",
+    "x": 390,
+    "y": 4375,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Accordion.default > div.Accordion--header > h3.Accordion--title",
+    "x": 442,
+    "y": 4396,
+    "w": 305,
+    "h": 22,
+    "level": 3,
+    "text": "independent third-party audits"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4559,
+    "w": 660,
+    "h": 202,
+    "text": "The climate crisis is not pausing for political cycles, changing terminology, or"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4793,
+    "w": 660,
+    "h": 288,
+    "text": "Greenshouting is about accountability, education and leadership. Consumers, inve"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 5977,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 5977,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 76,
+    "y": 6067,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 6115,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 6164,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 418,
+    "y": 6067,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 6115,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 6164,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 6214,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 6264,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 760,
+    "y": 6067,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 6115,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 6164,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 6067,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 6113,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 6113,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 6113,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 6113,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 6201,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 6247,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 68,
+    "controls": 38,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/us-en/news/silence-isn-t-a-strategy-why-greenshouting-matters-for-busine",
+  "at": "2026-11-14T10:47:16.380Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6375,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_13df0d1ade5b87108701c0132044859868"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-title > h1#silence-isnt-a-strategy-why-greenshouting-matters-for-business-growth",
+    "x": 276,
+    "y": 224,
+    "w": 888,
+    "h": 238,
+    "level": 1,
+    "text": "silence isn’t a strategy: why “greenshouting” matters for business growth"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > ul.page-lead-tags > li.page-lead-tag",
+    "x": 672,
+    "y": 494,
+    "w": 97,
+    "h": 34,
+    "text": "09.24.26"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-lead > p",
+    "x": 276,
+    "y": 559,
+    "w": 888,
+    "h": 77,
+    "text": "Now is the time to leverage the momentum of consumer protections like EmpCo to b"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.ultra-wide > picture > img",
+    "x": 48,
+    "y": 700,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "media_13e92c07ad85a70a0993b60299fd37b94c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1396,
+    "w": 660,
+    "h": 115,
+    "text": "A chill has come over the United States. Too many American companies have shoved"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1543,
+    "w": 660,
+    "h": 115,
+    "text": "Despite a summer of wildfires, extreme heat and flood-inducing weather events, m"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h4#when-socially-and-environmentally-responsible-companies-go-silent-bad-actors-misinformation-and-harmful-business-as-usual-practices-fill-the-void",
+    "x": 390,
+    "y": 1698,
+    "w": 660,
+    "h": 66,
+    "level": 4,
+    "text": "when socially and environmentally responsible companies go silent, bad actors, misinformation and harmful business-as-us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > h4#when-socially-and-environmentally-responsible-companies-go-silent-bad-actors-misinformation-and-harmful-business-as-usual-practices-fill-the-void > a",
+    "x": 484,
+    "y": 1741,
+    "w": 114,
+    "h": 24,
+    "text": "fill the void.",
+    "href": "/greenshouting"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1780,
+    "w": 660,
+    "h": 173,
+    "text": "Corporate disclosures and public-facing communications from businesses increasin"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 905,
+    "y": 1841,
+    "w": 76,
+    "h": 22,
+    "text": "research",
+    "href": "/press/climate-disclosure-and-sustainability-terminology"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 696,
+    "y": 1899,
+    "w": 117,
+    "h": 22,
+    "text": "financial firms",
+    "href": "/sustainability/blackrock-quits-climate-group-wall-streets-latest-environmental-step-back-2025-01-09/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1985,
+    "w": 660,
+    "h": 202,
+    "text": "At the same time, the federal government has actively to “climate change” from p"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 833,
+    "y": 1988,
+    "w": 164,
+    "h": 22,
+    "text": "removed references",
+    "href": "/US/usda-orders-removal-climate-change-mentions-public-websites/story"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 788,
+    "y": 2103,
+    "w": 89,
+    "h": 22,
+    "text": "companies",
+    "href": "/companies-shift-away-politically-charged-terms-2065522"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2219,
+    "w": 660,
+    "h": 86,
+    "text": "As climate-related risks and public discourse grows more polarized, corporate si"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 589,
+    "y": 2222,
+    "w": 71,
+    "h": 22,
+    "text": "intensify",
+    "href": "/us-en/for-media/el-nino-likely-to-hamstring-farming-and-food-access-around-the-w.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h4#now-is-the-moment-for-companies-committed-to-environmental-progress-to-speak-more-loudly-not-less",
+    "x": 390,
+    "y": 2345,
+    "w": 660,
+    "h": 44,
+    "level": 4,
+    "text": "now is the moment for companies committed to environmental progress to speak more loudly, not less."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2405,
+    "w": 660,
+    "h": 115,
+    "text": "People are encountering the effects of climate change every day. Extreme tempera"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2552,
+    "w": 660,
+    "h": 346,
+    "text": "Businesses have long played a critical role in advancing renewable energy, reduc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h4#knowing-the-following-terms-is-a-good-starting-point",
+    "x": 390,
+    "y": 2938,
+    "w": 660,
+    "h": 22,
+    "level": 4,
+    "text": "knowing the following terms is a good starting point."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > h4#knowing-the-following-terms-is-a-good-starting-point > a",
+    "x": 612,
+    "y": 2937,
+    "w": 57,
+    "h": 24,
+    "text": "terms",
+    "href": "/publication/392016821_The_Concepts_of_Greenwashing_and_Greenhushing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 2976,
+    "w": 660,
+    "h": 58,
+    "text": "– Making untrue, misleading, or unsubstantiated environmental claims"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 3045,
+    "w": 660,
+    "h": 58,
+    "text": "– Deliberately withholding information about sustainability practices from custo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 3115,
+    "w": 660,
+    "h": 86,
+    "text": "– Communicating sustainability efforts openly, accurately, and courageously, gro"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h4#greenshouting-isnt-easy-but-its-an-opportunity-worth-investing-in",
+    "x": 390,
+    "y": 3241,
+    "w": 660,
+    "h": 22,
+    "level": 4,
+    "text": "greenshouting isn’t easy, but it’s an opportunity worth investing in."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 3279,
+    "w": 660,
+    "h": 115,
+    "text": "Across the pond in Europe, businesses are already preparing for a transparent an"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 622,
+    "y": 3311,
+    "w": 276,
+    "h": 22,
+    "text": "empowering consumers directive",
+    "href": "/en/for-business/benefits-of-being-certified/fairtrade-and-the-eu-empowering-consumers-directive.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 3427,
+    "w": 660,
+    "h": 202,
+    "text": "EmpCo aims to protect consumers from misleading environmental claims and labels."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 3660,
+    "w": 660,
+    "h": 202,
+    "text": "For shoppers across Europe, this will help reduce greenwashing and make it easie"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion.block > div.accordion-section-title > h2#below-weve-outlined-some-of-the-key-requirements-of-empco-and-how-fairtrades-model-aligns-with-these-standards",
+    "x": 390,
+    "y": 3982,
+    "w": 660,
+    "h": 106,
+    "level": 2,
+    "text": "below, we've outlined some of the key requirements of empco and how fairtrade's model aligns with these standards."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4119,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4119,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#independent-certification-and-third-party-verification",
+    "x": 442,
+    "y": 4140,
+    "w": 521,
+    "h": 22,
+    "level": 3,
+    "text": "independent certification and third-party verification"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4183,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4183,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#control-of-claimslabels-and-public-accountability",
+    "x": 442,
+    "y": 4204,
+    "w": 490,
+    "h": 22,
+    "level": 3,
+    "text": "control of claims/labels and public accountability"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4247,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4247,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#expert-governance-and-stakeholder-consultation",
+    "x": 442,
+    "y": 4268,
+    "w": 475,
+    "h": 22,
+    "level": 3,
+    "text": "expert governance and stakeholder consultation"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4311,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4311,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#clear-procedures-for-non-compliance",
+    "x": 442,
+    "y": 4332,
+    "w": 361,
+    "h": 22,
+    "level": 3,
+    "text": "clear procedures for non-compliance"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4375,
+    "w": 660,
+    "h": 64,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-entry > div.accordion-header > button.accordion-toggle",
+    "x": 390,
+    "y": 4375,
+    "w": 660,
+    "h": 64,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.accordion-header > div.accordion-title > h3#independent-third-party-audits",
+    "x": 442,
+    "y": 4396,
+    "w": 305,
+    "h": 22,
+    "level": 3,
+    "text": "independent third-party audits"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4559,
+    "w": 660,
+    "h": 202,
+    "text": "The climate crisis is not pausing for political cycles, changing terminology, or"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4793,
+    "w": 660,
+    "h": 288,
+    "text": "Greenshouting is about accountability, education and leadership. Consumers, inve"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 5977,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 5977,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 76,
+    "y": 6067,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 6115,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 6164,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 418,
+    "y": 6067,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 6115,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 6164,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 6214,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 6264,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 760,
+    "y": 6067,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 6115,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 6164,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 6067,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 6113,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 6113,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 6113,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 6113,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 6201,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 6247,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 68,
+    "controls": 38,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "silence isn’t a strategy: why “greenshouting” matters for business growth",
+   "variable": false,
+   "origin": {
+    "link": 8,
+    "button": 0,
+    "text": 16,
+    "image": 1
+   },
+   "eds": {
+    "link": 8,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 15,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "below, we've outlined some of the key requirements of empco and how fairtrade's model aligns with these standards.",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "independent certification and third-party verification",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "control of claims/labels and public accountability",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "expert governance and stakeholder consultation",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "clear procedures for non-compliance",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "independent third-party audits",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 307,
+    "y": 227,
+    "w": 826,
+    "h": 72
+   },
+   {
+    "x": 297,
+    "y": 306,
+    "w": 846,
+    "h": 72
+   },
+   {
+    "x": 477,
+    "y": 385,
+    "w": 485,
+    "h": 72
+   },
+   {
+    "x": 688,
+    "y": 501,
+    "w": 65,
+    "h": 19
+   },
+   {
+    "x": 279,
+    "y": 563,
+    "w": 883,
+    "h": 29
+   },
+   {
+    "x": 524,
+    "y": 602,
+    "w": 391,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1399,
+    "w": 619,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1428,
+    "w": 649,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1457,
+    "w": 638,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1485,
+    "w": 604,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1546,
+    "w": 658,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1575,
+    "w": 627,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1604,
+    "w": 659,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1633,
+    "w": 460,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1697,
+    "w": 596,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 1719,
+    "w": 630,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 1741,
+    "w": 94,
+    "h": 24
+   },
+   {
+    "x": 484,
+    "y": 1741,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 1783,
+    "w": 604,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1812,
+    "w": 644,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1841,
+    "w": 515,
+    "h": 22
+   },
+   {
+    "x": 905,
+    "y": 1841,
+    "w": 76,
+    "h": 22
+   },
+   {
+    "x": 980,
+    "y": 1841,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1870,
+    "w": 601,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1899,
+    "w": 306,
+    "h": 22
+   },
+   {
+    "x": 696,
+    "y": 1899,
+    "w": 117,
+    "h": 22
+   },
+   {
+    "x": 812,
+    "y": 1899,
+    "w": 185,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1927,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1988,
+    "w": 443,
+    "h": 22
+   },
+   {
+    "x": 833,
+    "y": 1988,
+    "w": 164,
+    "h": 22
+   },
+   {
+    "x": 996,
+    "y": 1988,
+    "w": 21,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2017,
+    "w": 652,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2046,
+    "w": 632,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2074,
+    "w": 587,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2103,
+    "w": 398,
+    "h": 22
+   },
+   {
+    "x": 788,
+    "y": 2103,
+    "w": 89,
+    "h": 22
+   },
+   {
+    "x": 877,
+    "y": 2103,
+    "w": 133,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2132,
+    "w": 606,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2161,
+    "w": 397,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2222,
+    "w": 199,
+    "h": 22
+   },
+   {
+    "x": 589,
+    "y": 2222,
+    "w": 71,
+    "h": 22
+   },
+   {
+    "x": 661,
+    "y": 2222,
+    "w": 358,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2250,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2279,
+    "w": 407,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2344,
+    "w": 605,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 2366,
+    "w": 388,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 2408,
+    "w": 598,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2437,
+    "w": 620,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2466,
+    "w": 656,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2494,
+    "w": 581,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2555,
+    "w": 606,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2584,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2613,
+    "w": 626,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2642,
+    "w": 624,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2670,
+    "w": 547,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2699,
+    "w": 650,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2728,
+    "w": 642,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2757,
+    "w": 659,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2786,
+    "w": 574,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2814,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2843,
+    "w": 659,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2872,
+    "w": 388,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2937,
+    "w": 222,
+    "h": 24
+   },
+   {
+    "x": 612,
+    "y": 2937,
+    "w": 57,
+    "h": 24
+   },
+   {
+    "x": 669,
+    "y": 2937,
+    "w": 236,
+    "h": 24
+   },
+   {
+    "x": 406,
+    "y": 2979,
+    "w": 122,
+    "h": 22
+   },
+   {
+    "x": 528,
+    "y": 2979,
+    "w": 399,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3008,
+    "w": 177,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3048,
+    "w": 118,
+    "h": 22
+   },
+   {
+    "x": 524,
+    "y": 3048,
+    "w": 486,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3077,
+    "w": 355,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3118,
+    "w": 126,
+    "h": 22
+   },
+   {
+    "x": 532,
+    "y": 3118,
+    "w": 512,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3147,
+    "w": 617,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3176,
+    "w": 424,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3240,
+    "w": 646,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 3282,
+    "w": 634,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3311,
+    "w": 232,
+    "h": 22
+   },
+   {
+    "x": 622,
+    "y": 3311,
+    "w": 276,
+    "h": 22
+   },
+   {
+    "x": 897,
+    "y": 3311,
+    "w": 125,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3340,
+    "w": 600,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3369,
+    "w": 303,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3430,
+    "w": 632,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3458,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3487,
+    "w": 578,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3516,
+    "w": 632,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3545,
+    "w": 654,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3574,
+    "w": 625,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3602,
+    "w": 567,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3663,
+    "w": 617,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3692,
+    "w": 652,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3721,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3750,
+    "w": 618,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3778,
+    "w": 594,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3807,
+    "w": 660,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3836,
+    "w": 95,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3983,
+    "w": 493,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 4018,
+    "w": 573,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 4053,
+    "w": 456,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 4139,
+    "w": 521,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4203,
+    "w": 490,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4267,
+    "w": 475,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4331,
+    "w": 361,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4395,
+    "w": 305,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 4562,
+    "w": 623,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4591,
+    "w": 652,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4620,
+    "w": 569,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4649,
+    "w": 573,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4677,
+    "w": 646,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4706,
+    "w": 619,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4735,
+    "w": 170,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4796,
+    "w": 627,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4825,
+    "w": 590,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4853,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4882,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4911,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4940,
+    "w": 547,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4969,
+    "w": 620,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4997,
+    "w": 606,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5026,
+    "w": 639,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5055,
+    "w": 274,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 5979,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 6066,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 6118,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 6167,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6066,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 6118,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6167,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6217,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6267,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 6066,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 6118,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 6167,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 6066,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 6200,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 6260,
+    "w": 127,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 307,
+    "y": 227,
+    "w": 826,
+    "h": 72
+   },
+   {
+    "x": 297,
+    "y": 306,
+    "w": 846,
+    "h": 72
+   },
+   {
+    "x": 477,
+    "y": 385,
+    "w": 485,
+    "h": 72
+   },
+   {
+    "x": 688,
+    "y": 501,
+    "w": 65,
+    "h": 19
+   },
+   {
+    "x": 279,
+    "y": 563,
+    "w": 883,
+    "h": 29
+   },
+   {
+    "x": 524,
+    "y": 602,
+    "w": 391,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1399,
+    "w": 619,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1428,
+    "w": 649,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1457,
+    "w": 638,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1485,
+    "w": 600,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1546,
+    "w": 658,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1575,
+    "w": 627,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1604,
+    "w": 659,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1633,
+    "w": 460,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1697,
+    "w": 596,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 1719,
+    "w": 630,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 1741,
+    "w": 94,
+    "h": 24
+   },
+   {
+    "x": 484,
+    "y": 1741,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 1783,
+    "w": 604,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1812,
+    "w": 644,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1841,
+    "w": 515,
+    "h": 22
+   },
+   {
+    "x": 905,
+    "y": 1841,
+    "w": 76,
+    "h": 22
+   },
+   {
+    "x": 980,
+    "y": 1841,
+    "w": 67,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1870,
+    "w": 601,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1899,
+    "w": 306,
+    "h": 22
+   },
+   {
+    "x": 696,
+    "y": 1899,
+    "w": 117,
+    "h": 22
+   },
+   {
+    "x": 812,
+    "y": 1899,
+    "w": 185,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1927,
+    "w": 629,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1988,
+    "w": 443,
+    "h": 22
+   },
+   {
+    "x": 833,
+    "y": 1988,
+    "w": 164,
+    "h": 22
+   },
+   {
+    "x": 996,
+    "y": 1988,
+    "w": 21,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2017,
+    "w": 652,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2046,
+    "w": 632,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2074,
+    "w": 587,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2103,
+    "w": 398,
+    "h": 22
+   },
+   {
+    "x": 788,
+    "y": 2103,
+    "w": 89,
+    "h": 22
+   },
+   {
+    "x": 877,
+    "y": 2103,
+    "w": 133,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2132,
+    "w": 606,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2161,
+    "w": 397,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2222,
+    "w": 199,
+    "h": 22
+   },
+   {
+    "x": 589,
+    "y": 2222,
+    "w": 71,
+    "h": 22
+   },
+   {
+    "x": 661,
+    "y": 2222,
+    "w": 358,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2250,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2279,
+    "w": 407,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2344,
+    "w": 605,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 2366,
+    "w": 384,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 2408,
+    "w": 598,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2437,
+    "w": 620,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2466,
+    "w": 656,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2494,
+    "w": 581,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2555,
+    "w": 606,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2584,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2613,
+    "w": 626,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2642,
+    "w": 624,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2670,
+    "w": 547,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2699,
+    "w": 650,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2728,
+    "w": 642,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2757,
+    "w": 659,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2786,
+    "w": 574,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2814,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2843,
+    "w": 659,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2872,
+    "w": 388,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2937,
+    "w": 222,
+    "h": 24
+   },
+   {
+    "x": 612,
+    "y": 2937,
+    "w": 57,
+    "h": 24
+   },
+   {
+    "x": 669,
+    "y": 2937,
+    "w": 232,
+    "h": 24
+   },
+   {
+    "x": 406,
+    "y": 2979,
+    "w": 122,
+    "h": 22
+   },
+   {
+    "x": 528,
+    "y": 2979,
+    "w": 399,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3008,
+    "w": 177,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3048,
+    "w": 118,
+    "h": 22
+   },
+   {
+    "x": 524,
+    "y": 3048,
+    "w": 486,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3077,
+    "w": 355,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3118,
+    "w": 126,
+    "h": 22
+   },
+   {
+    "x": 532,
+    "y": 3118,
+    "w": 512,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3147,
+    "w": 617,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3176,
+    "w": 424,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3240,
+    "w": 646,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 3282,
+    "w": 634,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3311,
+    "w": 232,
+    "h": 22
+   },
+   {
+    "x": 622,
+    "y": 3311,
+    "w": 276,
+    "h": 22
+   },
+   {
+    "x": 897,
+    "y": 3311,
+    "w": 125,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3340,
+    "w": 600,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3369,
+    "w": 299,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3430,
+    "w": 632,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3458,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3487,
+    "w": 578,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3516,
+    "w": 632,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3545,
+    "w": 654,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3574,
+    "w": 625,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3602,
+    "w": 563,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3663,
+    "w": 617,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3692,
+    "w": 652,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3721,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3750,
+    "w": 618,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3778,
+    "w": 594,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3807,
+    "w": 660,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3836,
+    "w": 95,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3983,
+    "w": 493,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 4018,
+    "w": 573,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 4053,
+    "w": 456,
+    "h": 32
+   },
+   {
+    "x": 442,
+    "y": 4139,
+    "w": 521,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4203,
+    "w": 490,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4267,
+    "w": 475,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4331,
+    "w": 361,
+    "h": 24
+   },
+   {
+    "x": 442,
+    "y": 4395,
+    "w": 305,
+    "h": 24
+   },
+   {
+    "x": 390,
+    "y": 4562,
+    "w": 623,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4591,
+    "w": 652,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4620,
+    "w": 569,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4649,
+    "w": 573,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4677,
+    "w": 646,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4706,
+    "w": 619,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4735,
+    "w": 166,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4796,
+    "w": 627,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4825,
+    "w": 590,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4853,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4882,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4911,
+    "w": 647,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4940,
+    "w": 547,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4969,
+    "w": 620,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4997,
+    "w": 606,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5026,
+    "w": 639,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5055,
+    "w": 274,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 5979,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 6066,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 6118,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 6167,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6066,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 6118,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6167,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6217,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6267,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 6066,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 6118,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 6167,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 6066,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 6200,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 6260,
+    "w": 127,
+    "h": 22
+   }
+  ]
+ }
+}

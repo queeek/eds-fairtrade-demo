@@ -1,0 +1,25 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html
+  modules  15 sections: capped 1920 ×14 · full-bleed ×1
+  contentMaxWidth 1920px (module) · shellMaxWidth fluid · root div.cmp-container > div.aem-Grid.aem-Grid--12 > div.maincontainer.container > main
+build  http://localhost:8791/mt-en-bring-fairtrade-to-your-market-html-proposed.html
+  modules  15 sections: capped 1920 ×14 · full-bleed ×1
+  contentMaxWidth 1920px (module) · shellMaxWidth fluid · root body > main
+rows
+  ✓ content cap: live 1920px = build 1920px (±20, shared module cap)
+  ✓ module 1/15: 1920px = 1920px
+  ✓ module 2/15: 1920px = 1920px
+  ✓ module 3/15: 1920px = 1920px
+  ✓ module 4/15: full-bleed on both
+  ✓ module 5/15: 1920px = 1920px
+  ✓ module 6/15: 1920px = 1920px
+  ✓ module 7/15: 1920px = 1920px
+  ✓ module 8/15: 1920px = 1920px
+  ✓ module 9/15: 1920px = 1920px
+  ✓ module 10/15: 1920px = 1920px
+  ✓ module 11/15: 1920px = 1920px
+  ✓ module 12/15: 1920px = 1920px
+  ✓ module 13/15: 1920px = 1920px
+  ✓ module 14/15: 1920px = 1920px
+  ✓ module 15/15: 1920px = 1920px
+cap-probe: PASS at 2560 — 0 of 16 rows failed (evidence stardust/replica/gates/mt-en-bring-fairtrade-to-your-market-html-2560/cap-iter.json)

@@ -1,0 +1,239 @@
+/* page-lead — source PageLead (stardust/prototypes/us-en-why-fairtrade-why-we-do-it-gender-equality-html.css,
+   mt-en / us-en-news layers; values verbatim) */
+.page-lead {
+  --background-color: #d4ff47;
+  --color: #1e1e1e;
+
+  padding-bottom: 64px;
+}
+
+.page-lead.skyblue {
+  --background-color: #0fc0fc;
+}
+
+.page-lead.nightsky {
+  --background-color: #001b6e;
+  --color: #fff;
+}
+
+.page-lead.white {
+  --background-color: #fff;
+}
+
+.page-lead .page-lead-content {
+  background-color: var(--background-color);
+}
+
+.page-lead .page-lead-content-grid,
+.page-lead .page-lead-image-grid {
+  column-gap: var(--grid-gap);
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
+  margin-inline: auto;
+  padding-inline: var(--grid-padding);
+  width: min(100%, var(--max-width));
+}
+
+.page-lead .page-lead-content-grid > *,
+.page-lead .page-lead-image-grid > * {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+.page-lead .page-lead-content-grid {
+  color: var(--color);
+  padding-bottom: 48px;
+  padding-top: 80px;
+  place-items: center;
+}
+
+.page-lead .page-lead-title {
+  font-family: var(--ff-head);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.page-lead .page-lead-title :is(h1, h2) {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.page-lead .page-lead-lead {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-top: 28px;
+}
+
+.page-lead .page-lead-content-grid p {
+  margin: 0;
+}
+
+.page-lead .page-lead-cta {
+  margin-top: 32px;
+}
+
+/* tags (source PageLead--tags / Tag): centred pills between the title and the lead */
+.page-lead .page-lead-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  list-style: none;
+  margin: 28px 0 0;
+  padding: 0;
+}
+
+.page-lead .page-lead-tag {
+  align-items: center;
+  background: hsl(0deg 0% 100% / 50%);
+  border-radius: 16px;
+  color: #1e1e1e;
+  display: inline-flex;
+  font-size: 15px;
+  font-weight: 600;
+  gap: 8px;
+  line-height: 1.6;
+  padding: 4px 12px;
+}
+
+@media (width >= 1024px) {
+  .page-lead .page-lead-tags {
+    margin-top: 32px;
+  }
+
+  .page-lead .page-lead-tag {
+    font-size: 16px;
+    padding: 4px 16px;
+  }
+}
+
+.page-lead .page-lead-image {
+  background-image: linear-gradient(to bottom, var(--background-color) calc(100% / 3), #fff calc(100% / 3));
+}
+
+.page-lead .page-lead-image .image picture {
+  display: contents;
+}
+
+.page-lead .page-lead-image .image img {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.page-lead .image.rectangular::before {
+  aspect-ratio: 4 / 3;
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.page-lead .image.ultra-wide::before {
+  aspect-ratio: 7 / 3;
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.page-lead .page-lead-image-desktop {
+  display: none;
+}
+
+/* the source exempts the page lead from the content fader (site.css @14865) */
+.has-fader main > .section.page-lead-container[data-fader] {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+@media (width >= 768px) {
+  .page-lead .page-lead-content-grid > * {
+    grid-column: 2 / -2;
+  }
+
+  .page-lead .page-lead-lead {
+    text-align: center;
+  }
+
+  .page-lead .page-lead-image-mobile {
+    display: none;
+  }
+
+  .page-lead .page-lead-image-desktop {
+    display: unset;
+  }
+}
+
+@media (width >= 1024px) {
+  .page-lead {
+    padding-bottom: 80px;
+  }
+
+  .page-lead .page-lead-content-grid {
+    padding-bottom: 64px;
+    padding-top: 120px;
+  }
+
+  .page-lead .page-lead-content-grid > * {
+    grid-column: 3 / -3;
+  }
+
+  .page-lead .page-lead-title {
+    font-size: 72px;
+  }
+
+  .page-lead .page-lead-lead {
+    font-size: 24px;
+    margin-top: 32px;
+  }
+
+  .page-lead .page-lead-cta {
+    margin-top: 40px;
+  }
+}
+
+/* no-gap — source PageLead.no-gap: the band's bottom padding moves into the content grid
+   (.PageLead:not(.no-gap) / .no-gap .PageLead--contentGrid; values verbatim) */
+.page-lead.no-gap {
+  padding-bottom: 0;
+}
+
+.page-lead.no-gap .page-lead-content-grid {
+  padding-bottom: 64px;
+}
+
+@media (width >= 1024px) {
+  .page-lead.no-gap {
+    padding-bottom: 0;
+  }
+
+  .page-lead.no-gap .page-lead-content-grid {
+    padding-bottom: 80px;
+  }
+}
+
+/* cta-large — source .PageLead--cta.size-large (60 px button) */
+.page-lead.cta-large a.button {
+  height: 60px;
+}
+
+/* foundation request (C-archetype, stardust/rollout/foundation-requests.md): section style
+   `centered` for author-centred default content (source Richtext inline text-align:center).
+   Scoped override until it lands; every static-template page carries a page-lead. */
+main .section.centered .default-content-wrapper :is(h1, h2, h3, h4, p) {
+  text-align: center;
+}
+
+/* desktop-image — the source PageLead has only a desktop crop (.PageLead--imageDesktop is
+   display:none below 768 px, no mobile crop): no image on small screens */
+@media (width < 768px) {
+  .page-lead.desktop-image .page-lead-image {
+    display: none;
+  }
+}

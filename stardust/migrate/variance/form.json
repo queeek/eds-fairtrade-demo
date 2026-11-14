@@ -1,0 +1,427 @@
+{
+  "archetype": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "lead": ".PageLead",
+    "textimage": ".TextImage",
+    "fact": ".NumberFact",
+    "form": "form"
+  },
+  "archetypeRaw": {
+    "sections": [],
+    "probes": {
+      "lead": {
+        "sel": ".PageLead",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 1107
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "0px 0px 80px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h1 alegreya sans 72px/79.2px 900 rgb(30, 30, 30)",
+          "image": {
+            "w": 0,
+            "h": 0
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Bring Fairtrade to your market Fairtrade helps businesses bu"
+      },
+      "textimage": {
+        "sel": ".TextImage",
+        "count": 5,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 731
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "80px 0px 80px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+          "image": {
+            "w": 538,
+            "h": 538
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Which products can be Fairtrade? There is a wide array Fairt"
+      },
+      "fact": {
+        "sel": ".NumberFact",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 612,
+            "h": 611
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "0px 0px 0px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": null,
+          "before": null
+        },
+        "clusters": 1,
+        "text": "+2,500 business in 145 countries."
+      },
+      "form": {
+        "sel": "form",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 1122,
+            "h": 56
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(30, 30, 30)",
+          "padding": "0px 0px 0px 0px",
+          "font": "exo 2 18px/28.8px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Clear the search value of the input Submit the search form"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "lead",
+          "msg": "rect{h 1107 → 1146}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "lead": {
+            "sel": ".PageLead",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 1146
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h1 alegreya sans 72px/79.2px 900 rgb(30, 30, 30)",
+              "image": {
+                "w": 0,
+                "h": 0
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Aduceți Fairtrade pe piața dumneavoastră Fairtrade ajută afa"
+          },
+          "textimage": {
+            "sel": ".TextImage",
+            "count": 5,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 731
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+              "image": {
+                "w": 538,
+                "h": 538
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Care produse pot fi Fairtrade? Există o gamă largă de produs"
+          },
+          "fact": {
+            "sel": ".NumberFact",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 612,
+                "h": 611
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 0px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 1,
+            "text": "+2,500 afaceri în 145 de țări."
+          },
+          "form": {
+            "sel": "form",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1122,
+                "h": 56
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 0px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Clear the search value of the input Submit the search form"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "lead",
+          "msg": "rect{h 1107 → 1028}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textimage",
+          "msg": "rect{h 731 → 702}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "lead": {
+            "sel": ".PageLead",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 1028
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h1 alegreya sans 72px/79.2px 900 rgb(30, 30, 30)",
+              "image": {
+                "w": 0,
+                "h": 0
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Prinesite Fairtrade na vaš trg Fairtrade pomaga podjetjem gr"
+          },
+          "textimage": {
+            "sel": ".TextImage",
+            "count": 5,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 702
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "80px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h2 alegreya sans 48px/52.8px 900 rgb(30, 30, 30)",
+              "image": {
+                "w": 538,
+                "h": 538
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Kateri izdelki lahko nosijo certifikat Fairtrade? Obstaja ši"
+          },
+          "fact": {
+            "sel": ".NumberFact",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 612,
+                "h": 611
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 0px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 1,
+            "text": "+2,500 poslovanje v 145 državah."
+          },
+          "form": {
+            "sel": "form",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1122,
+                "h": 56
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 0px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Clear the search value of the input Submit the search form"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.fairtrade.net/us-en/fairtrade-newsletter.html",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "lead",
+          "msg": "rect{h 1107 → 490}; image [object Object] → null"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "textimage",
+          "msg": "\".TextImage\" matches 5 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "fact",
+          "msg": "\".NumberFact\" matches 2 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "form",
+          "msg": "2 → 1 matches"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "lead": {
+            "sel": ".PageLead",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 490
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 80px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": "h1 alegreya sans 72px/79.2px 900 rgb(30, 30, 30)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Sign up for our newsletter Get the latest Fairtrade news and"
+          },
+          "textimage": {
+            "sel": ".TextImage",
+            "count": 0
+          },
+          "fact": {
+            "sel": ".NumberFact",
+            "count": 0
+          },
+          "form": {
+            "sel": "form",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1122,
+                "h": 56
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(30, 30, 30)",
+              "padding": "0px 0px 0px 0px",
+              "font": "exo 2 18px/28.8px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Clear the search value of the input Submit the search form"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 3,
+    "varying": 3,
+    "probesVarying": [
+      "lead",
+      "textimage",
+      "fact",
+      "form"
+    ]
+  }
+}

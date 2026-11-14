@@ -1,0 +1,46 @@
+{
+  "a": "stardust/replica/gates/all-1440/us-en-for-business-get-certified-get-started-html/origin.png",
+  "b": "stardust/replica/gates/all-1440/us-en-for-business-get-certified-get-started-html/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 1946,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 653,
+  "pct": 0.02,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/us-en-for-business-get-certified-get-started-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 0,
+  "textBoxes": 38,
+  "textPixels": 287152,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.1
+    },
+    {
+      "y0": 1500,
+      "y1": 1946,
+      "pct": 0
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/get-started"
+  }
+}

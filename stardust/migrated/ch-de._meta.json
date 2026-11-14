@@ -1,0 +1,826 @@
+{
+  "slug": "ch-de-html",
+  "type": "locale-home",
+  "renderBranch": "A'",
+  "template": "at-de-html",
+  "modules": [
+    "content-fader",
+    "page-hero-carousel",
+    "number-fact-teaser",
+    "accordion",
+    "filtered-teaser-grid",
+    "carousel"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "cmp-container"
+  ],
+  "canonShas": {
+    "header": "4eb8b038dbad",
+    "footer": "cee81f7f7985",
+    "css": "2bf6b48caf7e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Fairtrade Max Havelaar Schweiz",
+    "description": null,
+    "canonical": "https://main--63f9f24b--aemcoder.aem.page/ch-de.html",
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Fairtrade.net",
+    "alternateName": "Fairtrade Switzerland",
+    "url": "https://www.fairtrade.net/"
+  },
+  "migratedAt": "2026-11-14T07:55:17Z",
+  "designMdSha": "ba7a99252bf7",
+  "designJsonSha": "d7cf7a9249c2",
+  "sourceCurrentSha": "901ec7046186",
+  "sourceProposedSha": "ad40cd54e632",
+  "fidelityTier": "sibling",
+  "archetypeSource": "at-de-html",
+  "archetypeSha": "7c54e4ea9c35",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "content-count",
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 vs at-de-html: per-page module composition (hero/teaser/nav/accordion/text-image counts), grey text-image band, wide navigation-teaser, large teaser family (stardust/migrate/variance/locale-home.json)",
+    "delivery-lint": "delivery-lint 0 P0/P1 on content/ch-de.html (path /ch-de)",
+    "media-reconcile": "media-reconcile: all images keep (200), no omit/unresolved after the encoder's broken-image omit",
+    "content-count": "gate-all content probe: MISSING 0 / HIDDEN 0 at 1440 and 360",
+    "content-fidelity": "content-diff.mjs --profile generic --main main: main 0 structural 🔴 (2 🔴 in [footer] chrome icons, not this cluster)",
+    "pixel-gate-1440": "gate-all 1440: pixel 0.3% dh 0, PASS",
+    "pixel-gate-360": "gate-all 360: pixel 1.62% dh 0, PASS"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/im-ueberblick.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/im-ueberblick/was-ist-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/im-ueberblick/wie-funktioniert-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/im-ueberblick/saeulen-des-fairen-handels.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/im-ueberblick/mehrwert.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/im-ueberblick/theorie-des-wandels.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte/hredd.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte/kinderrechte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte/klima-umwelt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte/existenzsichernde-einkommen-loehne.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte/sdgs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte/geschlechtergerechtigkeit.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte/staerkung-kleinbauern.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte/arbeiterrechte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/fairtrade-ansatz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/fairtrade-ansatz/fairtrade-label.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/fairtrade-ansatz/standards.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/fairtrade-ansatz/projekte-programme.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/wirkung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/wirkung/produzenten-storys.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/wirkung/fakten.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/wirkung/wirkung-messen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/wirkung/wirkungsstudien.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/wirkung/impact-map.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/bananen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/baumwolle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/blumen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/fruechte-saefte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/gemuese.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/gewuerze-und-kraeuter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/gold.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/honig.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/kaffee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/kakao.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/nuesse-oele.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/tee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/reis.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/sportbaelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/quinoa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/wein.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/zucker.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-code.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/ihre-vorteile.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/ihre-vorteile/vorteile-kunden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/ihre-vorteile/vorteile-unternehmen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/ihre-vorteile/vorteile-produzenten.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/partner-werden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/partner-werden/zertifizierung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/partner-werden/lizensierungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/partner-werden/ueber-die-zertifizierung-hinaus.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/partner-werden/registrierungen-floristen-goldschmiede-gastronomen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/b2b-newsletter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/aktivitaeten.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/aktivitaeten/monatspreis.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/aktivitaeten/kampagnen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/aktivitaeten/fairtrade-schools-bildung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/aktivitaeten/fair-trade-towns-oeffentliche-beschaffung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/newsletter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/news.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/ueber-fairtrade-schweiz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/news.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mediathek.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/kontakt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/ueber-fairtrade-schweiz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/news.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mediathek.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/kontakt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/im-ueberblick.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/im-ueberblick/was-ist-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/im-ueberblick/wie-funktioniert-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/im-ueberblick/saeulen-des-fairen-handels.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/im-ueberblick/mehrwert.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/im-ueberblick/theorie-des-wandels.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte/hredd.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte/kinderrechte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte/klima-umwelt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte/existenzsichernde-einkommen-loehne.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte/sdgs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte/geschlechtergerechtigkeit.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte/staerkung-kleinbauern.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte/arbeiterrechte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/fairtrade-ansatz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/fairtrade-ansatz/fairtrade-label.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/fairtrade-ansatz/standards.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/fairtrade-ansatz/projekte-programme.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/wirkung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/wirkung/produzenten-storys.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/wirkung/fakten.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/wirkung/wirkung-messen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/wirkung/wirkungsstudien.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/wirkung/impact-map.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-code.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/bananen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/baumwolle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/blumen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/fruechte-saefte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/gemuese.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/gewuerze-und-kraeuter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/gold.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/honig.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/kaffee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/kakao.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/nuesse-oele.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/tee.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/reis.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/sportbaelle.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/quinoa.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/wein.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-produkte/zucker.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/ihre-vorteile.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/ihre-vorteile/vorteile-kunden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/ihre-vorteile/vorteile-unternehmen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/ihre-vorteile/vorteile-produzenten.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/partner-werden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/partner-werden/zertifizierung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/partner-werden/lizensierungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/partner-werden/ueber-die-zertifizierung-hinaus.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/partner-werden/registrierungen-floristen-goldschmiede-gastronomen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/b2b-newsletter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/aktivitaeten.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/aktivitaeten/monatspreis.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/aktivitaeten/kampagnen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/aktivitaeten/fairtrade-schools-bildung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/aktivitaeten/fair-trade-towns-oeffentliche-beschaffung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/newsletter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/news.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/aktivitaeten/kampagnen/darum-fair.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/news/kakaopreiseinbruch-elfenbeinkueste.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/news/neuer-fairtrade-textile-factory-standard.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/aktivitaeten/kampagnen/fair-vibes-merch.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/news/jahresbericht-2025-fairtrade-max-havelaar-waechst-weiter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/im-ueberblick/was-ist-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/fuer-unternehmen/partner-werden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/im-ueberblick.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/ueber-fairtrade-schweiz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/fairtrade-ansatz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/news/kakaopreiseinbruch-elfenbeinkueste.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/news/neuer-fairtrade-textile-factory-standard.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/news/praevention-und-abhilfe-bei-kinderarbeit.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "[%=cta.link%]",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/news.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.168109.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.168781.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.167999.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.168003.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.163185.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.165238.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.164906.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.167615.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.165162.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.168116.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.168354.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.170736.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.165507.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.165509.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.168515.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.170493.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.170494.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.167149.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.170318.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.170320.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.167911.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.169784.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.169761.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder/pdp.169813.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/produktfinder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/arbeitsschwerpunkte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/ueber-fairtrade-schweiz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/news.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/ueber-fairtrade-schweiz/karriere.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/kontakt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/faq.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mediathek.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/impressum.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/datenschutz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/ueber-fairtrade-schweiz/ziel-kodex.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/mach-mit/newsletter.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "ch-de.html",
+  "outputPathDefault": null,
+  "sidecar": "ch-de._meta.json",
+  "driverVersion": "1"
+}

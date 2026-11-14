@@ -1,0 +1,305 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-13T23:26:01.122Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-14T00:14:32.709Z",
+  "blocks": [
+    {
+      "id": "accordion",
+      "label": "accordion",
+      "kind": "module",
+      "signature": "module:accordion",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-html",
+        "index",
+        "us-en-why-fairtrade-why-we-do-it-gender-equality-html"
+      ],
+      "usedByPages": [
+        "at-de-html",
+        "index",
+        "us-en-why-fairtrade-why-we-do-it-gender-equality-html"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "accordion",
+        "blockPath": null,
+        "convertedAt": "2026-11-14T00:14:32.317Z"
+      }
+    },
+    {
+      "id": "ctasection",
+      "label": "ctasection",
+      "kind": "module",
+      "signature": "module:ctasection",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-html",
+        "mt-en-bring-fairtrade-to-your-market-html",
+        "us-en-news-html"
+      ],
+      "usedByPages": [
+        "at-de-html",
+        "mt-en-bring-fairtrade-to-your-market-html",
+        "us-en-news-html"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "cta",
+        "blockPath": null,
+        "convertedAt": "2026-11-14T00:14:32.466Z"
+      }
+    },
+    {
+      "id": "formbuilder",
+      "label": "formbuilder",
+      "kind": "module",
+      "signature": "module:formbuilder",
+      "source": null,
+      "usedByTemplates": [
+        "mt-en-bring-fairtrade-to-your-market-html"
+      ],
+      "usedByPages": [
+        "mt-en-bring-fairtrade-to-your-market-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "form",
+        "blockPath": null,
+        "convertedAt": "2026-11-14T00:14:32.662Z"
+      }
+    },
+    {
+      "id": "iFrame",
+      "label": "iFrame",
+      "kind": "module",
+      "signature": "module:iFrame",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-html"
+      ],
+      "usedByPages": [
+        "at-de-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "iframe",
+        "blockPath": null,
+        "convertedAt": "2026-11-14T00:14:32.612Z"
+      }
+    },
+    {
+      "id": "numberfactteaser",
+      "label": "numberfactteaser",
+      "kind": "module",
+      "signature": "module:numberfactteaser",
+      "source": null,
+      "usedByTemplates": [
+        "index",
+        "mt-en-bring-fairtrade-to-your-market-html",
+        "us-en-why-fairtrade-why-we-do-it-gender-equality-html"
+      ],
+      "usedByPages": [
+        "index",
+        "mt-en-bring-fairtrade-to-your-market-html",
+        "us-en-why-fairtrade-why-we-do-it-gender-equality-html"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "number-facts",
+        "blockPath": null,
+        "convertedAt": "2026-11-14T00:14:32.167Z"
+      }
+    },
+    {
+      "id": "page-lead",
+      "label": "page-lead",
+      "kind": "module",
+      "signature": "module:page-lead",
+      "source": null,
+      "usedByTemplates": [
+        "mt-en-bring-fairtrade-to-your-market-html",
+        "us-en-news-html",
+        "us-en-why-fairtrade-why-we-do-it-gender-equality-html"
+      ],
+      "usedByPages": [
+        "mt-en-bring-fairtrade-to-your-market-html",
+        "us-en-news-html",
+        "us-en-why-fairtrade-why-we-do-it-gender-equality-html"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "page-lead",
+        "blockPath": null,
+        "convertedAt": "2026-11-14T00:14:32.366Z"
+      }
+    },
+    {
+      "id": "pageherocarousel",
+      "label": "pageherocarousel",
+      "kind": "module",
+      "signature": "module:pageherocarousel",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-html",
+        "index"
+      ],
+      "usedByPages": [
+        "at-de-html",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "hero-carousel",
+        "blockPath": null,
+        "convertedAt": "2026-11-14T00:14:32.120Z"
+      }
+    },
+    {
+      "id": "productteasercarousel",
+      "label": "productteasercarousel",
+      "kind": "module",
+      "signature": "module:productteasercarousel",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-html"
+      ],
+      "usedByPages": [
+        "at-de-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "product-carousel",
+        "blockPath": null,
+        "convertedAt": "2026-11-14T00:14:32.507Z"
+      }
+    },
+    {
+      "id": "richtextsection",
+      "label": "richtextsection",
+      "kind": "module",
+      "signature": "module:richtextsection",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-html",
+        "index",
+        "mt-en-bring-fairtrade-to-your-market-html",
+        "us-en-why-fairtrade-why-we-do-it-gender-equality-html"
+      ],
+      "usedByPages": [
+        "at-de-html",
+        "index",
+        "mt-en-bring-fairtrade-to-your-market-html",
+        "us-en-why-fairtrade-why-we-do-it-gender-equality-html"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "default-content",
+        "blockPath": null,
+        "convertedAt": "2026-11-14T00:14:32.268Z"
+      }
+    },
+    {
+      "id": "singleimage",
+      "label": "singleimage",
+      "kind": "module",
+      "signature": "module:singleimage",
+      "source": null,
+      "usedByTemplates": [
+        "us-en-why-fairtrade-why-we-do-it-gender-equality-html"
+      ],
+      "usedByPages": [
+        "us-en-why-fairtrade-why-we-do-it-gender-equality-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "single-image",
+        "blockPath": null,
+        "convertedAt": "2026-11-14T00:14:32.709Z"
+      }
+    },
+    {
+      "id": "teasergrid",
+      "label": "teasergrid",
+      "kind": "module",
+      "signature": "module:teasergrid",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-html",
+        "us-en-news-html"
+      ],
+      "usedByPages": [
+        "at-de-html",
+        "us-en-news-html"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "teaser-grid",
+        "blockPath": null,
+        "convertedAt": "2026-11-14T00:14:32.416Z"
+      }
+    },
+    {
+      "id": "textimage",
+      "label": "textimage",
+      "kind": "module",
+      "signature": "module:textimage",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-html",
+        "index",
+        "mt-en-bring-fairtrade-to-your-market-html",
+        "us-en-why-fairtrade-why-we-do-it-gender-equality-html"
+      ],
+      "usedByPages": [
+        "at-de-html",
+        "index",
+        "mt-en-bring-fairtrade-to-your-market-html",
+        "us-en-why-fairtrade-why-we-do-it-gender-equality-html"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "text-image",
+        "blockPath": null,
+        "convertedAt": "2026-11-14T00:14:32.217Z"
+      }
+    },
+    {
+      "id": "video",
+      "label": "video",
+      "kind": "module",
+      "signature": "module:video",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-html"
+      ],
+      "usedByPages": [
+        "at-de-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "converted",
+        "edsBlockName": "video",
+        "blockPath": null,
+        "convertedAt": "2026-11-14T00:14:32.561Z"
+      }
+    }
+  ]
+}

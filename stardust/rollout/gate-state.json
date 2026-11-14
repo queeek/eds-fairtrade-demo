@@ -1,0 +1,908 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust/rollout/tools/gate-roster.mjs",
+    "writtenAt": "2026-11-14T10:25:37.777Z"
+  },
+  "pages": [
+    {
+      "slug": "africa-en-html",
+      "url": "https://www.fairtrade.net/africa-en.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/africa-en",
+      "deployedPath": "/africa-en",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "at-de-html",
+      "url": "https://www.fairtrade.net/at-de.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/at-de",
+      "deployedPath": "/at-de",
+      "template": "at-de-html",
+      "fidelityTier": "archetype"
+    },
+    {
+      "slug": "be-fr-html",
+      "url": "https://www.fairtrade.net/be-fr.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/be-fr",
+      "deployedPath": "/be-fr",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "be-nl-html",
+      "url": "https://www.fairtrade.net/be-nl.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/be-nl",
+      "deployedPath": "/be-nl",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "ca-en-html",
+      "url": "https://www.fairtrade.net/ca-en.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/ca-en",
+      "deployedPath": "/ca-en",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "ca-fr-html",
+      "url": "https://www.fairtrade.net/ca-fr.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/ca-fr",
+      "deployedPath": "/ca-fr",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "ch-de-html",
+      "url": "https://www.fairtrade.net/ch-de.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/ch-de",
+      "deployedPath": "/ch-de",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "ch-fr-html",
+      "url": "https://www.fairtrade.net/ch-fr.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/ch-fr",
+      "deployedPath": "/ch-fr",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "de-de-html",
+      "url": "https://www.fairtrade.net/de-de.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/de-de",
+      "deployedPath": "/de-de",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "en-html",
+      "url": "https://www.fairtrade.net/en.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/en",
+      "deployedPath": "/en",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "iberica-es-html",
+      "url": "https://www.fairtrade.net/iberica-es.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/iberica-es",
+      "deployedPath": "/iberica-es",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "iberica-pt-html",
+      "url": "https://www.fairtrade.net/iberica-pt.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/iberica-pt",
+      "deployedPath": "/iberica-pt",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "ie-en-html",
+      "url": "https://www.fairtrade.net/ie-en.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/ie-en",
+      "deployedPath": "/ie-en",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "index",
+      "url": "https://www.fairtrade.net/",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/",
+      "deployedPath": "/",
+      "template": "index",
+      "fidelityTier": "archetype"
+    },
+    {
+      "slug": "it-it-html",
+      "url": "https://www.fairtrade.net/it-it.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/it-it",
+      "deployedPath": "/it-it",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "jp-jp-html",
+      "url": "https://www.fairtrade.net/jp-jp.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/jp-jp",
+      "deployedPath": "/jp-jp",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "kr-ko-html",
+      "url": "https://www.fairtrade.net/kr-ko.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/kr-ko",
+      "deployedPath": "/kr-ko",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "maxhavelaarfrance-fr-html",
+      "url": "https://www.fairtrade.net/maxhavelaarfrance-fr.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/maxhavelaarfrance-fr",
+      "deployedPath": "/maxhavelaarfrance-fr",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "mt-en-bring-fairtrade-to-your-market-html",
+      "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/mt-en/bring-fairtrade-to-your-market",
+      "deployedPath": "/mt-en/bring-fairtrade-to-your-market",
+      "template": "mt-en-bring-fairtrade-to-your-market-html",
+      "fidelityTier": "archetype"
+    },
+    {
+      "slug": "napp-en-html",
+      "url": "https://www.fairtrade.net/napp-en.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/napp-en",
+      "deployedPath": "/napp-en",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "nl-nl-html",
+      "url": "https://www.fairtrade.net/nl-nl.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/nl-nl",
+      "deployedPath": "/nl-nl",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "no-no-html",
+      "url": "https://www.fairtrade.net/no-no.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/no-no",
+      "deployedPath": "/no-no",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "pl-pl-html",
+      "url": "https://www.fairtrade.net/pl-pl.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/pl-pl",
+      "deployedPath": "/pl-pl",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+      "url": "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra",
+      "deployedPath": "/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra",
+      "template": "mt-en-bring-fairtrade-to-your-market-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "se-sv-html",
+      "url": "https://www.fairtrade.net/se-sv.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/se-sv",
+      "deployedPath": "/se-sv",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "si-sl-prinesite-fairtrade-na-vas-trg-html",
+      "url": "https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/si-sl/prinesite-fairtrade-na-vas-trg",
+      "deployedPath": "/si-sl/prinesite-fairtrade-na-vas-trg",
+      "template": "mt-en-bring-fairtrade-to-your-market-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "uk-en-html",
+      "url": "https://www.fairtrade.net/uk-en.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/uk-en",
+      "deployedPath": "/uk-en",
+      "template": "at-de-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-about-careers-html",
+      "url": "https://www.fairtrade.net/us-en/about/careers.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/about/careers",
+      "deployedPath": "/us-en/about/careers",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-about-html",
+      "url": "https://www.fairtrade.net/us-en/about.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/about",
+      "deployedPath": "/us-en/about",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-contact-html",
+      "url": "https://www.fairtrade.net/us-en/contact.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/contact",
+      "deployedPath": "/us-en/contact",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-fairtrade-newsletter-html",
+      "url": "https://www.fairtrade.net/us-en/fairtrade-newsletter.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/fairtrade-newsletter",
+      "deployedPath": "/us-en/fairtrade-newsletter",
+      "template": "mt-en-bring-fairtrade-to-your-market-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-business-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-business.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/benefits-for-business",
+      "deployedPath": "/us-en/for-business/benefits-of-being-certified/benefits-for-business",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-producers.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/benefits-for-producers",
+      "deployedPath": "/us-en/for-business/benefits-of-being-certified/benefits-for-producers",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-business-success-stories-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/business-success-stories.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/business-success-stories",
+      "deployedPath": "/us-en/for-business/benefits-of-being-certified/business-success-stories",
+      "template": "us-en-news-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-consumer-trends1-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/consumer-trends1.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/consumer-trends1",
+      "deployedPath": "/us-en/for-business/benefits-of-being-certified/consumer-trends1",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified",
+      "deployedPath": "/us-en/for-business/benefits-of-being-certified",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-for-business-for-partners-communicate-your-commitment-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/for-partners/communicate-your-commitment.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-partners/communicate-your-commitment",
+      "deployedPath": "/us-en/for-business/for-partners/communicate-your-commitment",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-for-business-for-partners-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/for-partners.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-partners",
+      "deployedPath": "/us-en/for-business/for-partners",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-for-business-for-retailers-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/for-retailers.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-retailers",
+      "deployedPath": "/us-en/for-business/for-retailers",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-for-business-get-certified-get-started-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/get-certified/get-started.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/get-started",
+      "deployedPath": "/us-en/for-business/get-certified/get-started",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-for-business-get-certified-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/get-certified.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified",
+      "deployedPath": "/us-en/for-business/get-certified",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-for-business-get-certified-intro-to-fairtrade-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/get-certified/intro-to-fairtrade.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/intro-to-fairtrade",
+      "deployedPath": "/us-en/for-business/get-certified/intro-to-fairtrade",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-for-business-get-certified-resources-support-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/get-certified/resources-support.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/resources-support",
+      "deployedPath": "/us-en/for-business/get-certified/resources-support",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-for-business-get-certified-the-certification-process-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/get-certified/the-certification-process.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/the-certification-process",
+      "deployedPath": "/us-en/for-business/get-certified/the-certification-process",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-for-business-html",
+      "url": "https://www.fairtrade.net/us-en/for-business.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business",
+      "deployedPath": "/us-en/for-business",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-for-media-html",
+      "url": "https://www.fairtrade.net/us-en/for-media.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-media",
+      "deployedPath": "/us-en/for-media",
+      "template": "us-en-news-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-get-involved-activism-html",
+      "url": "https://www.fairtrade.net/us-en/get-involved/activism.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/activism",
+      "deployedPath": "/us-en/get-involved/activism",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-get-involved-get-involved-html",
+      "url": "https://www.fairtrade.net/us-en/get-involved/get-involved.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/get-involved",
+      "deployedPath": "/us-en/get-involved/get-involved",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-get-involved-how-to-shop-sustainably-html",
+      "url": "https://www.fairtrade.net/us-en/get-involved/how-to-shop-sustainably.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/how-to-shop-sustainably",
+      "deployedPath": "/us-en/get-involved/how-to-shop-sustainably",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-get-involved-where-to-buy-html",
+      "url": "https://www.fairtrade.net/us-en/get-involved/where-to-buy.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/where-to-buy",
+      "deployedPath": "/us-en/get-involved/where-to-buy",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-html",
+      "url": "https://www.fairtrade.net/us-en.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en",
+      "deployedPath": "/us-en",
+      "template": "index",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-news-html",
+      "url": "https://www.fairtrade.net/us-en/news.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/news",
+      "deployedPath": "/us-en/news",
+      "template": "us-en-news-html",
+      "fidelityTier": "archetype"
+    },
+    {
+      "slug": "us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html",
+      "url": "https://www.fairtrade.net/us-en/news/silence-isn-t-a-strategy--why--greenshouting--matters-for-busine.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/news/silence-isn-t-a-strategy-why-greenshouting-matters-for-busine",
+      "deployedPath": "/us-en/news/silence-isn-t-a-strategy--why--greenshouting--matters-for-busine",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html",
+      "url": "https://www.fairtrade.net/us-en/news/when-communities-lead--the-cooperative-model-at-work-in-madagasc.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/news/when-communities-lead-the-cooperative-model-at-work-in-madagasc",
+      "deployedPath": "/us-en/news/when-communities-lead--the-cooperative-model-at-work-in-madagasc",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-privacy-policy-html",
+      "url": "https://www.fairtrade.net/us-en/privacy-policy.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/privacy-policy",
+      "deployedPath": "/us-en/privacy-policy",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-products-all-products-bananas-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/bananas.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/bananas",
+      "deployedPath": "/us-en/products/all-products/bananas",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-products-all-products-chocolate-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/chocolate.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/chocolate",
+      "deployedPath": "/us-en/products/all-products/chocolate",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-products-all-products-cocoa-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/cocoa.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/cocoa",
+      "deployedPath": "/us-en/products/all-products/cocoa",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-products-all-products-coffee-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/coffee.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/coffee",
+      "deployedPath": "/us-en/products/all-products/coffee",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-products-all-products-cotton-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/cotton.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/cotton",
+      "deployedPath": "/us-en/products/all-products/cotton",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-products-all-products-fruits-juices-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/fruits-juices.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/fruits-juices",
+      "deployedPath": "/us-en/products/all-products/fruits-juices",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-products-all-products-gold-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/gold.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/gold",
+      "deployedPath": "/us-en/products/all-products/gold",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-products-all-products-herbs-spices-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/herbs-spices.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/herbs-spices",
+      "deployedPath": "/us-en/products/all-products/herbs-spices",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-products-all-products-honey-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/honey.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/honey",
+      "deployedPath": "/us-en/products/all-products/honey",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-products-all-products-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products",
+      "deployedPath": "/us-en/products/all-products",
+      "template": "us-en-news-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-products-all-products-nuts-oils-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/nuts-oils.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/nuts-oils",
+      "deployedPath": "/us-en/products/all-products/nuts-oils",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-products-all-products-sugar-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/sugar.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/sugar",
+      "deployedPath": "/us-en/products/all-products/sugar",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-products-all-products-wine-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/wine.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/wine",
+      "deployedPath": "/us-en/products/all-products/wine",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-products-html",
+      "url": "https://www.fairtrade.net/us-en/products.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products",
+      "deployedPath": "/us-en/products",
+      "template": "us-en-news-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-terms-of-use-html",
+      "url": "https://www.fairtrade.net/us-en/terms-of-use.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/terms-of-use",
+      "deployedPath": "/us-en/terms-of-use",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance",
+      "deployedPath": "/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients",
+      "deployedPath": "/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-standards-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/fairtrade-standards",
+      "deployedPath": "/us-en/why-fairtrade/how-we-do-it/fairtrade-standards",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work",
+      "deployedPath": "/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-how-fairtrade-certification-works-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works",
+      "deployedPath": "/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it",
+      "deployedPath": "/us-en/why-fairtrade/how-we-do-it",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-our-projects-and-programs-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs",
+      "deployedPath": "/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains",
+      "deployedPath": "/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade",
+      "deployedPath": "/us-en/why-fairtrade",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-how-we-measure-impact-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/impact/how-we-measure-impact.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/how-we-measure-impact",
+      "deployedPath": "/us-en/why-fairtrade/impact/how-we-measure-impact",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/impact.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact",
+      "deployedPath": "/us-en/why-fairtrade/impact",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-impact-stories-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/impact/impact-stories.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/impact-stories",
+      "deployedPath": "/us-en/why-fairtrade/impact/impact-stories",
+      "template": "us-en-news-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-key-figures-at-a-glance-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/impact/key-figures-at-a-glance.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/key-figures-at-a-glance",
+      "deployedPath": "/us-en/why-fairtrade/impact/key-figures-at-a-glance",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-reports-trends-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/impact/reports-trends.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/reports-trends",
+      "deployedPath": "/us-en/why-fairtrade/impact/reports-trends",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-how-fairtrade-works-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/how-fairtrade-works",
+      "deployedPath": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do",
+      "deployedPath": "/us-en/why-fairtrade/what-we-do",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-key-benefits-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/key-benefits.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/key-benefits",
+      "deployedPath": "/us-en/why-fairtrade/what-we-do/key-benefits",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-the-fairtrade-difference-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/the-fairtrade-difference.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/the-fairtrade-difference",
+      "deployedPath": "/us-en/why-fairtrade/what-we-do/the-fairtrade-difference",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-theory-of-change-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/theory-of-change",
+      "deployedPath": "/us-en/why-fairtrade/what-we-do/theory-of-change",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/what-is-fairtrade",
+      "deployedPath": "/us-en/why-fairtrade/what-we-do/what-is-fairtrade",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-child-protection-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection",
+      "deployedPath": "/us-en/why-fairtrade/why-we-do-it/child-protection",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment",
+      "deployedPath": "/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/decent-livelihoods",
+      "deployedPath": "/us-en/why-fairtrade/why-we-do-it/decent-livelihoods",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-deforestation-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/deforestation.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/deforestation",
+      "deployedPath": "/us-en/why-fairtrade/why-we-do-it/deforestation",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-fairtrade-and-the-sustainable-development-goals-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals",
+      "deployedPath": "/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/gender-equality",
+      "deployedPath": "/us-en/why-fairtrade/why-we-do-it/gender-equality",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "archetype"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-hredd-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/hredd.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/hredd",
+      "deployedPath": "/us-en/why-fairtrade/why-we-do-it/hredd",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it",
+      "deployedPath": "/us-en/why-fairtrade/why-we-do-it",
+      "template": "us-en-news-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/smallholder-farmers",
+      "deployedPath": "/us-en/why-fairtrade/why-we-do-it/smallholder-farmers",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-workers-rights-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/workers-rights.html",
+      "status": "deployed",
+      "liveUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/workers-rights",
+      "deployedPath": "/us-en/why-fairtrade/why-we-do-it/workers-rights",
+      "template": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "fidelityTier": "sibling"
+    }
+  ]
+}

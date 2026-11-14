@@ -1,0 +1,5076 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T10:57:58.391Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/us-en/why-fairtrade/impact/impact-stories.html",
+  "at": "2026-11-14T10:57:36.033Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6304,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "Fairtrade_America_Logo_Vert_80x80"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > span.Breadcrumbs--breadcrumb--title",
+    "x": 125,
+    "y": 122,
+    "w": 90,
+    "h": 20,
+    "text": "Why Fairtrade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 255,
+    "y": 122,
+    "w": 44,
+    "h": 20,
+    "text": "impact",
+    "href": "/us-en/why-fairtrade/impact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 339,
+    "y": 122,
+    "w": 91,
+    "h": 20,
+    "text": "impact stories",
+    "href": "/us-en/why-fairtrade/impact/impact-stories.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+    "x": 509,
+    "y": 224,
+    "w": 422,
+    "h": 79,
+    "level": 1,
+    "text": "impact stories"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 77,
+    "text": "Dive into stories from farmers and workers that show how Fairtrade makes a diffe"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--imageGrid > div.Image.ultra-wide > img.lazyautosizes.lazyloaded",
+    "x": 48,
+    "y": 476,
+    "w": 1344,
+    "h": 576,
+    "text": "a group of kenyan coffee producers",
+    "file": "21x9_1440w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1172,
+    "w": 660,
+    "h": 86,
+    "text": "With more than two million farmers and workers part of the Fairtrade system, the"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1290,
+    "w": 660,
+    "h": 29,
+    "text": "Here are just some of those stories."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item.isHighlight > a#article-Coffee-Heroes-Ana-Christina-and-shade-trees",
+    "x": 48,
+    "y": 1607,
+    "w": 652,
+    "h": 615,
+    "text": "climate change producer stories coffee heroes - ana christina and shade trees re",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Coffee-Heroes-Ana-Christina-and-shade-trees.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 1608,
+    "w": 650,
+    "h": 488,
+    "text": "",
+    "file": "4x3_768w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 2113,
+    "w": 592,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories coffee heroes - ana christina and shade trees"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item.isHighlight > a#article-Assata-Doumbia-Kone-Female-leader-in-cocoa",
+    "x": 740,
+    "y": 1607,
+    "w": 652,
+    "h": 615,
+    "text": "gender equality producer stories assata doumbia koné - female leader in cocoa re",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Assata-Doumbia-Kone-Female-leader-in-cocoa.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 741,
+    "y": 1608,
+    "w": 650,
+    "h": 488,
+    "text": "",
+    "file": "4x3_768w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 740,
+    "y": 2113,
+    "w": 605,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories assata doumbia koné - female leader in cocoa"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-from-kenya-to-harvard-how-financial-stability-transforms-farmer",
+    "x": 48,
+    "y": 2434,
+    "w": 421,
+    "h": 512,
+    "text": "04.07.26 producer stories from kenya to harvard: how financial stability transfo",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/from-kenya-to-harvard--how-financial-stability-transforms-farmer.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 2435,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 2766,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "producer stories from kenya to harvard: how financial stability transforms farmer livelihoods"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-cultivating-the-next-generation-of-coffee-farming-leaders",
+    "x": 509,
+    "y": 2434,
+    "w": 421,
+    "h": 477,
+    "text": "10.03.25 producer stories cultivating the next generation of coffee farming lead",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/cultivating-the-next-generation-of-coffee-farming-leaders.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 510,
+    "y": 2435,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 2766,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories cultivating the next generation of coffee farming leaders"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-ana-polo-aguilar",
+    "x": 971,
+    "y": 2434,
+    "w": 421,
+    "h": 442,
+    "text": "05.19.25 producer stories ana polo aguilar read more",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/ana-polo-aguilar.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 972,
+    "y": 2435,
+    "w": 419,
+    "h": 315,
+    "text": "ana polo aguilar poses outside, arms crossed and smiling bri",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 2766,
+    "w": 221,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories ana polo aguilar"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-Felix-Tetteh",
+    "x": 48,
+    "y": 2998,
+    "w": 421,
+    "h": 442,
+    "text": "04.23.25 producer stories felix tetteh read more",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Felix-Tetteh.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 2999,
+    "w": 419,
+    "h": 314,
+    "text": "felix poses with a green and a yellow cocoa pod amid his far",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 3330,
+    "w": 161,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories felix tetteh"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-Ibu-Rahmah-coffee-impact",
+    "x": 509,
+    "y": 2998,
+    "w": 421,
+    "h": 477,
+    "text": "04.17.25 gender equality producer stories ibu rahmah - cultivating community thr",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Ibu-Rahmah-coffee-impact.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 510,
+    "y": 2999,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 3330,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories ibu rahmah - cultivating community through coffee"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-BELLAS",
+    "x": 971,
+    "y": 2998,
+    "w": 421,
+    "h": 477,
+    "text": "02.13.25 gender equality producer stories bellas—because gender equity is a beau",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/BELLAS.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 972,
+    "y": 2999,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 3330,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories bellas—because gender equity is a beautiful thing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-daniel",
+    "x": 48,
+    "y": 3527,
+    "w": 421,
+    "h": 442,
+    "text": "10.30.24 producer stories daniel, ghanaian cocoa farmer read more",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/daniel.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 3528,
+    "w": 419,
+    "h": 314,
+    "text": "cocoa farmer, daniel amponsah in ghana",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 3859,
+    "w": 402,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories daniel, ghanaian cocoa farmer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-deborah-osei-mensah",
+    "x": 509,
+    "y": 3527,
+    "w": 421,
+    "h": 442,
+    "text": "06.03.22 producer stories deborah osei-mensah read more",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/deborah-osei-mensah.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 510,
+    "y": 3528,
+    "w": 419,
+    "h": 314,
+    "text": "cocoa farmer deborah osei-mensah",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 3859,
+    "w": 291,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories deborah osei-mensah"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-elisandre-from-peru",
+    "x": 971,
+    "y": 3527,
+    "w": 421,
+    "h": 442,
+    "text": "05.25.21 producer stories elisandre from peru read more",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/elisandre-from-peru.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 972,
+    "y": 3528,
+    "w": 419,
+    "h": 315,
+    "text": "banana farmer, elisandre in peru",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 3859,
+    "w": 265,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories elisandre from peru"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-lakshmi-kotnaka",
+    "x": 48,
+    "y": 4020,
+    "w": 421,
+    "h": 442,
+    "text": "05.25.21 producer stories lakshmi kotnaka read more",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/lakshmi-kotnaka.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 4021,
+    "w": 419,
+    "h": 314,
+    "text": "cotton farmer, lakshmi, in india, seated in front of a tree",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 4353,
+    "w": 231,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories lakshmi kotnaka"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-meet-agnes-chebii",
+    "x": 509,
+    "y": 4020,
+    "w": 421,
+    "h": 442,
+    "text": "03.05.21 producer stories meet agnes chebii read more",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/meet-agnes-chebii.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 510,
+    "y": 4021,
+    "w": 419,
+    "h": 314,
+    "text": "flower farmer, agnes chebii",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 4353,
+    "w": 244,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories meet agnes chebii"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-Sadick-Abanga-the-farmer-planting-trees-for-the-future",
+    "x": 971,
+    "y": 4020,
+    "w": 421,
+    "h": 477,
+    "text": "climate change producer stories sadick abanga – the farmer planting trees for th",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Sadick-Abanga-the-farmer-planting-trees-for-the-future.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 972,
+    "y": 4021,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 4353,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories sadick abanga – the farmer planting trees for the future"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-Competitiveness-for-bananas-in-Colombia",
+    "x": 48,
+    "y": 4549,
+    "w": 421,
+    "h": 477,
+    "text": "building markets producer stories competitiveness for bananas in colombia read m",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Competitiveness-for-bananas-in-Colombia.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 4550,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 4882,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories competitiveness for bananas in colombia"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-Finding-new-markets-for-Rwandan-coffee",
+    "x": 509,
+    "y": 4549,
+    "w": 421,
+    "h": 477,
+    "text": "building markets producer stories finding new markets for rwandan coffee read mo",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Finding-new-markets-for-Rwandan-coffee.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 510,
+    "y": 4550,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 4882,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories finding new markets for rwandan coffee"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-Revolutionising-our-cotton-farmin-chetna-organics",
+    "x": 971,
+    "y": 4549,
+    "w": 421,
+    "h": 477,
+    "text": "organic agriculture producer stories revolutionising cotton farming at chetna or",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Revolutionising-our-cotton-farmin-chetna-organics.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 972,
+    "y": 4550,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 4882,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories revolutionising cotton farming at chetna organics"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-Alessandro-and-the-solar-park-on-the-mountain",
+    "x": 48,
+    "y": 5078,
+    "w": 421,
+    "h": 477,
+    "text": "climate change producer stories coffee heroes - alessandro and the solar park on",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Alessandro-and-the-solar-park-on-the-mountain.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 5079,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 5411,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories coffee heroes - alessandro and the solar park on the mountain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-Coffee-Heroes-Paulos-vision-for-the-future-of-coffee",
+    "x": 509,
+    "y": 5078,
+    "w": 421,
+    "h": 477,
+    "text": "building markets producer stories coffee heroes - paulos' vision for the future ",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Coffee-Heroes-Paulos-vision-for-the-future-of-coffee.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 510,
+    "y": 5079,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 5411,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories coffee heroes - paulos' vision for the future of coffee"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-Rice-cultivation-Himalayas-biodynamic-and-fair",
+    "x": 971,
+    "y": 5078,
+    "w": 421,
+    "h": 512,
+    "text": "environment producer stories rice cultivation at the foot of the himalayas – bio",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Rice-cultivation-Himalayas-biodynamic-and-fair.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 972,
+    "y": 5079,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 5411,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "producer stories rice cultivation at the foot of the himalayas – biodynamic and fair"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.FilteredTeaserGrid > div.CTASection > button.Button.variant-secondary",
+    "x": 641,
+    "y": 5722,
+    "w": 157,
+    "h": 48,
+    "text": "load more"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 5906,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 5906,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 76,
+    "y": 5996,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 6044,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 6094,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 418,
+    "y": 5996,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 6044,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 6094,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 6143,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 6193,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 760,
+    "y": 5996,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 6044,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 6094,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 5996,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 6042,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 6042,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 6042,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 6042,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 6130,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 6176,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 113,
+    "controls": 49,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/impact-stories",
+  "at": "2026-11-14T10:57:58.267Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6304,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_13df0d1ade5b87108701c0132044859868"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > span.breadcrumbs-breadcrumb-title",
+    "x": 125,
+    "y": 122,
+    "w": 90,
+    "h": 20,
+    "text": "Why Fairtrade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 255,
+    "y": 122,
+    "w": 44,
+    "h": 20,
+    "text": "impact",
+    "href": "/us-en/why-fairtrade/impact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 339,
+    "y": 122,
+    "w": 91,
+    "h": 20,
+    "text": "impact stories",
+    "href": "/us-en/why-fairtrade/impact/impact-stories.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-title > h1#impact-stories",
+    "x": 509,
+    "y": 224,
+    "w": 422,
+    "h": 79,
+    "level": 1,
+    "text": "impact stories"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-lead > p",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 77,
+    "text": "Dive into stories from farmers and workers that show how Fairtrade makes a diffe"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.ultra-wide > picture > img",
+    "x": 48,
+    "y": 476,
+    "w": 1344,
+    "h": 576,
+    "text": "a group of kenyan coffee producers",
+    "file": "media_1643c9be26d6f6f2f66e33bc0d71bf982e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1172,
+    "w": 660,
+    "h": 86,
+    "text": "With more than two million farmers and workers part of the Fairtrade system, the"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1290,
+    "w": 660,
+    "h": 29,
+    "text": "Here are just some of those stories."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item.is-highlight > a.info-teaser",
+    "x": 48,
+    "y": 1607,
+    "w": 652,
+    "h": 615,
+    "text": "climate change producer stories coffee heroes - ana christina and shade trees re",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Coffee-Heroes-Ana-Christina-and-shade-trees.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 1608,
+    "w": 650,
+    "h": 488,
+    "text": "",
+    "file": "media_1135916cc3b8c7f3d8d220661221dec19f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-coffee-heroes---ana-christina-and-shade-trees",
+    "x": 48,
+    "y": 2113,
+    "w": 592,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories coffee heroes - ana christina and shade trees"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item.is-highlight > a.info-teaser",
+    "x": 740,
+    "y": 1607,
+    "w": 652,
+    "h": 615,
+    "text": "gender equality producer stories assata doumbia koné - female leader in cocoa re",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Assata-Doumbia-Kone-Female-leader-in-cocoa.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 741,
+    "y": 1608,
+    "w": 650,
+    "h": 488,
+    "text": "",
+    "file": "media_19db024fc083702aab3d4165e6dcc62cb5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-assata-doumbia-koné---female-leader-in-cocoa",
+    "x": 740,
+    "y": 2113,
+    "w": 605,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories assata doumbia koné - female leader in cocoa"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 2434,
+    "w": 421,
+    "h": 512,
+    "text": "04.07.26 producer stories from kenya to harvard: how financial stability transfo",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/from-kenya-to-harvard--how-financial-stability-transforms-farmer.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 2435,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_13613b5f3c975c81106a3b08e0a1326ede"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-from-kenya-to-harvard-how-financial-stability-transforms-farmer-livelihoods",
+    "x": 48,
+    "y": 2766,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "producer stories from kenya to harvard: how financial stability transforms farmer livelihoods"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 2434,
+    "w": 421,
+    "h": 477,
+    "text": "10.03.25 producer stories cultivating the next generation of coffee farming lead",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/cultivating-the-next-generation-of-coffee-farming-leaders.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 2435,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_17a470be74dae81c28b55a26c0a9153275"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-cultivating-the-next-generation-of-coffee-farming-leaders",
+    "x": 509,
+    "y": 2766,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories cultivating the next generation of coffee farming leaders"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 2434,
+    "w": 421,
+    "h": 442,
+    "text": "05.19.25 producer stories ana polo aguilar read more",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/ana-polo-aguilar.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 2435,
+    "w": 419,
+    "h": 315,
+    "text": "ana polo aguilar poses outside, arms crossed and smiling bri",
+    "file": "media_14753478e2ae589fc0f99c51bf07342d7a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-ana-polo-aguilar",
+    "x": 971,
+    "y": 2766,
+    "w": 221,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories ana polo aguilar"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 2998,
+    "w": 421,
+    "h": 442,
+    "text": "04.23.25 producer stories felix tetteh read more",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Felix-Tetteh.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 2999,
+    "w": 419,
+    "h": 314,
+    "text": "felix poses with a green and a yellow cocoa pod amid his far",
+    "file": "media_1192ddde4db7a4182fac46085407b0231c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-felix-tetteh",
+    "x": 48,
+    "y": 3330,
+    "w": 161,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories felix tetteh"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 2998,
+    "w": 421,
+    "h": 477,
+    "text": "04.17.25 gender equality producer stories ibu rahmah - cultivating community thr",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Ibu-Rahmah-coffee-impact.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 2999,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_11bbddde3aef6f6b4d5c097427cc658a92"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-ibu-rahmah---cultivating-community-through-coffee",
+    "x": 509,
+    "y": 3330,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories ibu rahmah - cultivating community through coffee"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 2998,
+    "w": 421,
+    "h": 477,
+    "text": "02.13.25 gender equality producer stories bellas—because gender equity is a beau",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/BELLAS.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 2999,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "media_17142a3996c397e45eaf7ac1709d3c731a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-bellasbecause-gender-equity-is-a-beautiful-thing",
+    "x": 971,
+    "y": 3330,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories bellas—because gender equity is a beautiful thing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 3527,
+    "w": 421,
+    "h": 442,
+    "text": "10.30.24 producer stories daniel, ghanaian cocoa farmer read more",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/daniel.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 3528,
+    "w": 419,
+    "h": 314,
+    "text": "cocoa farmer, daniel amponsah in ghana",
+    "file": "media_1eb1ea0f8196e1dc3055b4818365acbbc1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-daniel-ghanaian-cocoa-farmer",
+    "x": 48,
+    "y": 3859,
+    "w": 402,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories daniel, ghanaian cocoa farmer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 3527,
+    "w": 421,
+    "h": 442,
+    "text": "06.03.22 producer stories deborah osei-mensah read more",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/deborah-osei-mensah.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 3528,
+    "w": 419,
+    "h": 314,
+    "text": "cocoa farmer deborah osei-mensah",
+    "file": "media_1c576b3d0dce89a9c56f78904708cb854e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-deborah-osei-mensah",
+    "x": 509,
+    "y": 3859,
+    "w": 291,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories deborah osei-mensah"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 3527,
+    "w": 421,
+    "h": 442,
+    "text": "05.25.21 producer stories elisandre from peru read more",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/elisandre-from-peru.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 3528,
+    "w": 419,
+    "h": 315,
+    "text": "banana farmer, elisandre in peru",
+    "file": "media_1912376e45c64659ed7ec189974bfed174"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-elisandre-from-peru",
+    "x": 971,
+    "y": 3859,
+    "w": 265,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories elisandre from peru"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 4020,
+    "w": 421,
+    "h": 442,
+    "text": "05.25.21 producer stories lakshmi kotnaka read more",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/lakshmi-kotnaka.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 4021,
+    "w": 419,
+    "h": 314,
+    "text": "cotton farmer, lakshmi, in india, seated in front of a tree",
+    "file": "media_147573604c381c756cfb649c99e304d47b"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-lakshmi-kotnaka",
+    "x": 48,
+    "y": 4353,
+    "w": 231,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories lakshmi kotnaka"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 4020,
+    "w": 421,
+    "h": 442,
+    "text": "03.05.21 producer stories meet agnes chebii read more",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/meet-agnes-chebii.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 4021,
+    "w": 419,
+    "h": 314,
+    "text": "flower farmer, agnes chebii",
+    "file": "media_15b391695900368910ed64f88e0e1b0635"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-meet-agnes-chebii",
+    "x": 509,
+    "y": 4353,
+    "w": 244,
+    "h": 73,
+    "level": 2,
+    "text": "producer stories meet agnes chebii"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 4020,
+    "w": 421,
+    "h": 477,
+    "text": "climate change producer stories sadick abanga – the farmer planting trees for th",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Sadick-Abanga-the-farmer-planting-trees-for-the-future.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 4021,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "media_11c17a87b90f9a95108d119030fe54e1bf"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-sadick-abanga--the-farmer-planting-trees-for-the-future",
+    "x": 971,
+    "y": 4353,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories sadick abanga – the farmer planting trees for the future"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 4549,
+    "w": 421,
+    "h": 477,
+    "text": "building markets producer stories competitiveness for bananas in colombia read m",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Competitiveness-for-bananas-in-Colombia.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 4550,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_125eefb9cde3e83ccbd4f0fc375abf1011"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-competitiveness-for-bananas-in-colombia",
+    "x": 48,
+    "y": 4882,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories competitiveness for bananas in colombia"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 4549,
+    "w": 421,
+    "h": 477,
+    "text": "building markets producer stories finding new markets for rwandan coffee read mo",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Finding-new-markets-for-Rwandan-coffee.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 4550,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_1329ceafe4e093f471ac3e8e84a327382d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-finding-new-markets-for-rwandan-coffee",
+    "x": 509,
+    "y": 4882,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories finding new markets for rwandan coffee"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 4549,
+    "w": 421,
+    "h": 477,
+    "text": "organic agriculture producer stories revolutionising cotton farming at chetna or",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Revolutionising-our-cotton-farmin-chetna-organics.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 4550,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "media_1f03955b6b5208a9229cc3a433326b0f44"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-revolutionising-cotton-farming-at-chetna-organics",
+    "x": 971,
+    "y": 4882,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories revolutionising cotton farming at chetna organics"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 5078,
+    "w": 421,
+    "h": 477,
+    "text": "climate change producer stories coffee heroes - alessandro and the solar park on",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Alessandro-and-the-solar-park-on-the-mountain.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 5079,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_12da224289f43d9a828219c2c354aa1a45"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-coffee-heroes---alessandro-and-the-solar-park-on-the-mountain",
+    "x": 48,
+    "y": 5411,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories coffee heroes - alessandro and the solar park on the mountain"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 5078,
+    "w": 421,
+    "h": 477,
+    "text": "building markets producer stories coffee heroes - paulos' vision for the future ",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Coffee-Heroes-Paulos-vision-for-the-future-of-coffee.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 5079,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_178fdedf1160215e0e53d0eda64314b6da"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-coffee-heroes---paulos-vision-for-the-future-of-coffee",
+    "x": 509,
+    "y": 5411,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "producer stories coffee heroes - paulos' vision for the future of coffee"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 5078,
+    "w": 421,
+    "h": 512,
+    "text": "environment producer stories rice cultivation at the foot of the himalayas – bio",
+    "href": "/us-en/why-fairtrade/impact/impact-stories/Rice-cultivation-Himalayas-biodynamic-and-fair.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 5079,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "media_10a5af021a827be1322ed41f4c7b0907d9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#producer-stories-rice-cultivation-at-the-foot-of-the-himalayas--biodynamic-and-fair",
+    "x": 971,
+    "y": 5411,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "producer stories rice cultivation at the foot of the himalayas – biodynamic and fair"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-grid-inner > div.teaser-grid-more > div.teaser-grid-more-button",
+    "x": 641,
+    "y": 5642,
+    "w": 157,
+    "h": 48,
+    "text": "load more"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 5906,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 5906,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 76,
+    "y": 5996,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 6044,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 6094,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 418,
+    "y": 5996,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 6044,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 6094,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 6143,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 6193,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 760,
+    "y": 5996,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 6044,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 6094,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 5996,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 6042,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 6042,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 6042,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 6042,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 6130,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 6176,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 113,
+    "controls": 49,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "impact stories",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 3,
+    "image": 3
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "producer stories coffee heroes - ana christina and shade trees",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "producer stories assata doumbia koné - female leader in cocoa",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "producer stories from kenya to harvard: how financial stability transforms farmer livelihoods",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "producer stories cultivating the next generation of coffee farming leaders",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "producer stories ana polo aguilar",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "producer stories felix tetteh",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "producer stories ibu rahmah - cultivating community through coffee",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "producer stories bellas—because gender equity is a beautiful thing",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "producer stories daniel, ghanaian cocoa farmer",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "producer stories deborah osei-mensah",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "producer stories elisandre from peru",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "producer stories lakshmi kotnaka",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "producer stories meet agnes chebii",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "producer stories sadick abanga – the farmer planting trees for the future",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "producer stories competitiveness for bananas in colombia",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "producer stories finding new markets for rwandan coffee",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 18,
+   "heading": "producer stories revolutionising cotton farming at chetna organics",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 19,
+   "heading": "producer stories coffee heroes - alessandro and the solar park on the mountain",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 20,
+   "heading": "producer stories coffee heroes - paulos' vision for the future of coffee",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 21,
+   "heading": "producer stories rice cultivation at the foot of the himalayas – biodynamic and fair",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 90,
+    "h": 17
+   },
+   {
+    "x": 255,
+    "y": 123,
+    "w": 44,
+    "h": 17
+   },
+   {
+    "x": 339,
+    "y": 123,
+    "w": 91,
+    "h": 17
+   },
+   {
+    "x": 509,
+    "y": 227,
+    "w": 422,
+    "h": 72
+   },
+   {
+    "x": 293,
+    "y": 339,
+    "w": 854,
+    "h": 29
+   },
+   {
+    "x": 660,
+    "y": 378,
+    "w": 119,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1175,
+    "w": 634,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1204,
+    "w": 604,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1233,
+    "w": 414,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1293,
+    "w": 288,
+    "h": 22
+   },
+   {
+    "x": 562,
+    "y": 1622,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2112,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 2152,
+    "w": 592,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2196,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1250,
+    "y": 1622,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "x": 740,
+    "y": 2112,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 740,
+    "y": 2152,
+    "w": 605,
+    "h": 32
+   },
+   {
+    "x": 740,
+    "y": 2196,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 382,
+    "y": 2449,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2765,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 2805,
+    "w": 375,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2841,
+    "w": 386,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2876,
+    "w": 243,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2920,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 846,
+    "y": 2449,
+    "w": 61,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 2765,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 2805,
+    "w": 412,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 2841,
+    "w": 328,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 2885,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1309,
+    "y": 2449,
+    "w": 59,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 2765,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 2805,
+    "w": 221,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2850,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 382,
+    "y": 3013,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3329,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 3369,
+    "w": 154,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 3414,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 690,
+    "y": 3013,
+    "w": 59,
+    "h": 19
+   },
+   {
+    "x": 789,
+    "y": 3013,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 3329,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 3369,
+    "w": 330,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 3405,
+    "w": 349,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 3449,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1151,
+    "y": 3013,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 1250,
+    "y": 3013,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 3329,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 3369,
+    "w": 335,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 3405,
+    "w": 337,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 3449,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 383,
+    "y": 3542,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3858,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 3898,
+    "w": 402,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 3942,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 843,
+    "y": 3542,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 3858,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 3898,
+    "w": 291,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 3942,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1308,
+    "y": 3542,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 3858,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 3898,
+    "w": 265,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 3942,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 385,
+    "y": 4035,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4352,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 4392,
+    "w": 231,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4436,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 846,
+    "y": 4035,
+    "w": 61,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 4352,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 4392,
+    "w": 244,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 4436,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1254,
+    "y": 4035,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 4352,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 4392,
+    "w": 361,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4427,
+    "w": 368,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4471,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 319,
+    "y": 4564,
+    "w": 126,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4881,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 4921,
+    "w": 413,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4956,
+    "w": 125,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 5000,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 781,
+    "y": 4564,
+    "w": 126,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 4881,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 4921,
+    "w": 321,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 4956,
+    "w": 212,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 5000,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1225,
+    "y": 4564,
+    "w": 143,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 4881,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 4921,
+    "w": 412,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4956,
+    "w": 247,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 5000,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 331,
+    "y": 5093,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 5410,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 5450,
+    "w": 406,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 5485,
+    "w": 402,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 5529,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 781,
+    "y": 5093,
+    "w": 126,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 5410,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 5450,
+    "w": 383,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 5485,
+    "w": 294,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 5529,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1272,
+    "y": 5093,
+    "w": 96,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 5410,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 5450,
+    "w": 376,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 5485,
+    "w": 370,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 5520,
+    "w": 104,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 5564,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 675,
+    "y": 5735,
+    "w": 89,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 5908,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 5995,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 6047,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 6097,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5995,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 6047,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6097,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6146,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6196,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 5995,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 6047,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 6097,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 5995,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 6129,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 6189,
+    "w": 127,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 90,
+    "h": 17
+   },
+   {
+    "x": 255,
+    "y": 123,
+    "w": 44,
+    "h": 17
+   },
+   {
+    "x": 339,
+    "y": 123,
+    "w": 91,
+    "h": 17
+   },
+   {
+    "x": 509,
+    "y": 227,
+    "w": 422,
+    "h": 72
+   },
+   {
+    "x": 293,
+    "y": 339,
+    "w": 854,
+    "h": 29
+   },
+   {
+    "x": 660,
+    "y": 378,
+    "w": 119,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1175,
+    "w": 634,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1204,
+    "w": 604,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1233,
+    "w": 414,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1293,
+    "w": 288,
+    "h": 22
+   },
+   {
+    "x": 562,
+    "y": 1622,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2112,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 2152,
+    "w": 592,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2196,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1250,
+    "y": 1622,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "x": 740,
+    "y": 2112,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 740,
+    "y": 2152,
+    "w": 605,
+    "h": 32
+   },
+   {
+    "x": 740,
+    "y": 2196,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 382,
+    "y": 2449,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2765,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 2805,
+    "w": 375,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2841,
+    "w": 386,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2876,
+    "w": 243,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2920,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 846,
+    "y": 2449,
+    "w": 61,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 2765,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 2805,
+    "w": 412,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 2841,
+    "w": 328,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 2885,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1309,
+    "y": 2449,
+    "w": 59,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 2765,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 2805,
+    "w": 221,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2850,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 382,
+    "y": 3013,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3329,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 3369,
+    "w": 154,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 3414,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 690,
+    "y": 3013,
+    "w": 59,
+    "h": 19
+   },
+   {
+    "x": 789,
+    "y": 3013,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 3329,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 3369,
+    "w": 330,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 3405,
+    "w": 349,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 3449,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1151,
+    "y": 3013,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 1250,
+    "y": 3013,
+    "w": 118,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 3329,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 3369,
+    "w": 335,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 3405,
+    "w": 337,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 3449,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 383,
+    "y": 3542,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 3858,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 3898,
+    "w": 402,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 3942,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 843,
+    "y": 3542,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 3858,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 3898,
+    "w": 291,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 3942,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1308,
+    "y": 3542,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 3858,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 3898,
+    "w": 265,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 3942,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 385,
+    "y": 4035,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4352,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 4392,
+    "w": 231,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4436,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 846,
+    "y": 4035,
+    "w": 61,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 4352,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 4392,
+    "w": 244,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 4436,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1254,
+    "y": 4035,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 4352,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 4392,
+    "w": 361,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4427,
+    "w": 368,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4471,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 319,
+    "y": 4564,
+    "w": 126,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 4881,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 4921,
+    "w": 413,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 4956,
+    "w": 125,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 5000,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 781,
+    "y": 4564,
+    "w": 126,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 4881,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 4921,
+    "w": 321,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 4956,
+    "w": 212,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 5000,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1225,
+    "y": 4564,
+    "w": 143,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 4881,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 4921,
+    "w": 412,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 4956,
+    "w": 247,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 5000,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 331,
+    "y": 5093,
+    "w": 114,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 5410,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 5450,
+    "w": 406,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 5485,
+    "w": 402,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 5529,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 781,
+    "y": 5093,
+    "w": 126,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 5410,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 5450,
+    "w": 383,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 5485,
+    "w": 294,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 5529,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1272,
+    "y": 5093,
+    "w": 96,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 5410,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 5450,
+    "w": 376,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 5485,
+    "w": 370,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 5520,
+    "w": 104,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 5564,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 675,
+    "y": 5655,
+    "w": 89,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 5908,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 5995,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 6047,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 6097,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5995,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 6047,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6097,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6146,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 6196,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 5995,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 6047,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 6097,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 5995,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 6129,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 6189,
+    "w": 127,
+    "h": 22
+   }
+  ]
+ }
+}

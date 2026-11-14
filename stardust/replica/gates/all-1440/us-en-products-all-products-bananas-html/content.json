@@ -1,0 +1,4534 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T10:48:19.901Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/us-en/products/all-products/bananas.html",
+  "at": "2026-11-14T10:47:54.927Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 8453,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "Fairtrade_America_Logo_Vert_80x80"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > span.Breadcrumbs--breadcrumb--title",
+    "x": 125,
+    "y": 122,
+    "w": 57,
+    "h": 20,
+    "text": "Products"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 222,
+    "y": 122,
+    "w": 118,
+    "h": 20,
+    "text": "fairtrade products",
+    "href": "/us-en/products/all-products.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 380,
+    "y": 122,
+    "w": 55,
+    "h": 20,
+    "text": "bananas",
+    "href": "/us-en/products/all-products/bananas.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+    "x": 589,
+    "y": 224,
+    "w": 261,
+    "h": 79,
+    "level": 1,
+    "text": "bananas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 154,
+    "text": "Bananas are one of the most consumed fruits on the planet, grown in more than 15"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--imageGrid > div.Image.ultra-wide > img.lazyautosizes.lazyloaded",
+    "x": 48,
+    "y": 553,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "21x9_1440w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1249,
+    "w": 660,
+    "h": 144,
+    "text": "We do not grow bananas in the United States (save the odd local varieties you ma"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1425,
+    "w": 660,
+    "h": 144,
+    "text": "There is no such thing as a cheap product. Somewhere, someone in the supply chai"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 1601,
+    "w": 660,
+    "h": 29,
+    "text": "Poverty"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 1642,
+    "w": 660,
+    "h": 29,
+    "text": "Underpayment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 1682,
+    "w": 660,
+    "h": 29,
+    "text": "Health & safety risks"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 1723,
+    "w": 660,
+    "h": 29,
+    "text": "Soil depletion"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 1764,
+    "w": 660,
+    "h": 29,
+    "text": "Water shortages"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--number",
+    "x": 193,
+    "y": 2084,
+    "w": 484,
+    "h": 119,
+    "text": "37, 110"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--fact",
+    "x": 193,
+    "y": 2247,
+    "w": 484,
+    "h": 106,
+    "text": "farmers and workers are part of Fairtrade banana producer organizations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--number",
+    "x": 193,
+    "y": 2832,
+    "w": 484,
+    "h": 119,
+    "text": "1.45m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--fact",
+    "x": 193,
+    "y": 2996,
+    "w": 484,
+    "h": 70,
+    "text": "metric tonnes of Fairtrade bananas were produced in 2023"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--number",
+    "x": 193,
+    "y": 3546,
+    "w": 484,
+    "h": 119,
+    "text": "+$38.1m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFact.color-eggplant > div.NumberFact--content > div.NumberFact--fact",
+    "x": 193,
+    "y": 3709,
+    "w": 484,
+    "h": 106,
+    "text": "in Fairtrade Premium earned by certified banana producer organizations in 2023"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > strong.NumberFactTeaser--label",
+    "x": 862,
+    "y": 2125,
+    "w": 74,
+    "h": 29,
+    "text": "Bananas"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > h2.NumberFactTeaser--title",
+    "x": 862,
+    "y": 2178,
+    "w": 186,
+    "h": 53,
+    "level": 2,
+    "text": "fast facts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.NumberFactTeaser > div.NumberFactTeaser--content > p.NumberFactTeaser--text",
+    "x": 862,
+    "y": 2255,
+    "w": 405,
+    "h": 58,
+    "text": "Here are a few facts about Fairtrade bananas you should know."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h2",
+    "x": 390,
+    "y": 4106,
+    "w": 660,
+    "h": 53,
+    "level": 2,
+    "text": "fairtrade banana brand partners"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4191,
+    "w": 660,
+    "h": 58,
+    "text": "Look for the Fairtrade Mark to make your fave fruit a sweeter deal for people an"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 4328,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "current challenges"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > h3 > b",
+    "x": 390,
+    "y": 4329,
+    "w": 239,
+    "h": 32,
+    "text": "Current challenges"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4387,
+    "w": 660,
+    "h": 58,
+    "text": "With millions and millions of tons produced each year globally, bananas are big "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4477,
+    "w": 660,
+    "h": 115,
+    "text": "This includes poverty-level wages that fail to cover the basics. Workers can be "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4624,
+    "w": 660,
+    "h": 144,
+    "text": "A small number of corporate fruit companies have a lot of influence over the int"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4800,
+    "w": 660,
+    "h": 86,
+    "text": "Chemicals used to control pests and disease can not only impact the environment,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 4918,
+    "w": 660,
+    "h": 86,
+    "text": "Producers are battling challenges such as droughts, floods and hurricanes. Meanw"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 5085,
+    "w": 660,
+    "h": 106,
+    "level": 3,
+    "text": "“when a banana is spotless and of the best quality in a supermarket, it is the result of hard work from us, the farmers."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > h3 > i",
+    "x": 390,
+    "y": 5086,
+    "w": 650,
+    "h": 102,
+    "text": "“When a banana is spotless and of the best quality in a supermarket, it is the r"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 5214,
+    "w": 660,
+    "h": 70,
+    "level": 3,
+    "text": "roberto gallo castro, banana farmer at apbosmam, peru"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > h3 > i",
+    "x": 390,
+    "y": 5215,
+    "w": 496,
+    "h": 67,
+    "text": "Roberto Gallo Castro, Banana farmer at APBOSMAM, Peru"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 5365,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "how fairtrade makes a difference"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > h3 > b",
+    "x": 390,
+    "y": 5366,
+    "w": 427,
+    "h": 32,
+    "text": "How Fairtrade makes a difference"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 5424,
+    "w": 660,
+    "h": 86,
+    "text": "Bananas are grown on both small-scale farms as well as large estates. But a high"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 5542,
+    "w": 660,
+    "h": 58,
+    "text": ". This acts as a safety net and helps them be resilient in the face of market dr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 5612,
+    "w": 660,
+    "h": 115,
+    "text": "– paid on top of the selling price – is for plantation workers and smallholder b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 5739,
+    "w": 660,
+    "h": 58,
+    "text": "work to improve employment conditions and protect worker rights on large estates"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 5809,
+    "w": 660,
+    "h": 86,
+    "text": "means higher wages for thousands of workers on banana plantations. The new Livin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 5907,
+    "w": 660,
+    "h": 58,
+    "text": "to improve their income and bargaining position in banana supply chains."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 5977,
+    "w": 660,
+    "h": 86,
+    "text": "of banana production by encouraging sustainable development through better agric"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 162,
+    "y": 6351,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "sustainable banana program"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 162,
+    "y": 6481,
+    "w": 538,
+    "h": 403,
+    "text": "Improving producers’ resilience and promoting leadership roles for women and you"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 162,
+    "y": 6916,
+    "w": 159,
+    "h": 48,
+    "text": "read more",
+    "href": "/en/products/Fairtrade_products/Bananas/living-wage-solution-for-the-banana-sector.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 740,
+    "y": 6388,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 740,
+    "y": 7296,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "our interactive banana dashboard"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 740,
+    "y": 7426,
+    "w": 538,
+    "h": 144,
+    "text": "Browse this rich set of information to learn more about Fairtrade bananas and th"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 740,
+    "y": 7602,
+    "w": 212,
+    "h": 48,
+    "text": "discover our tool",
+    "href": "/en/products/Fairtrade_products/Bananas/fairtrade-banana-dashboard0.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 162,
+    "y": 7204,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 7862,
+    "w": 660,
+    "h": 58,
+    "text": "Fairtrade bananas are good for people, planet and business. Find out how your co"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > a",
+    "x": 469,
+    "y": 7894,
+    "w": 133,
+    "h": 22,
+    "text": "can get involved",
+    "href": "/us-en/for-business/benefits-of-being-certified/benefits-for-business.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 8055,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 8055,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 76,
+    "y": 8145,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 8193,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 8243,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 418,
+    "y": 8145,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 8193,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 8243,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 8293,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 8342,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 760,
+    "y": 8145,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 8193,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 8243,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 8145,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 8191,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 8191,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 8191,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 8191,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 8279,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 8325,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 81,
+    "controls": 31,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/bananas",
+  "at": "2026-11-14T10:48:19.815Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 8453,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_13df0d1ade5b87108701c0132044859868"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > span.breadcrumbs-breadcrumb-title",
+    "x": 125,
+    "y": 122,
+    "w": 57,
+    "h": 20,
+    "text": "Products"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 222,
+    "y": 122,
+    "w": 118,
+    "h": 20,
+    "text": "fairtrade products",
+    "href": "/us-en/products/all-products.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 380,
+    "y": 122,
+    "w": 55,
+    "h": 20,
+    "text": "bananas",
+    "href": "/us-en/products/all-products/bananas.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-title > h1#bananas",
+    "x": 589,
+    "y": 224,
+    "w": 261,
+    "h": 79,
+    "level": 1,
+    "text": "bananas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-lead > p",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 154,
+    "text": "Bananas are one of the most consumed fruits on the planet, grown in more than 15"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.ultra-wide > picture > img",
+    "x": 48,
+    "y": 553,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "media_14b1566bf92d153dab4901b3f8803cd261"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1249,
+    "w": 660,
+    "h": 144,
+    "text": "We do not grow bananas in the United States (save the odd local varieties you ma"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1425,
+    "w": 660,
+    "h": 144,
+    "text": "There is no such thing as a cheap product. Somewhere, someone in the supply chai"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 1601,
+    "w": 660,
+    "h": 29,
+    "text": "Poverty"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 1642,
+    "w": 660,
+    "h": 29,
+    "text": "Underpayment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 1682,
+    "w": 660,
+    "h": 29,
+    "text": "Health & safety risks"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 1723,
+    "w": 660,
+    "h": 29,
+    "text": "Soil depletion"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 1764,
+    "w": 660,
+    "h": 29,
+    "text": "Water shortages"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 193,
+    "y": 2084,
+    "w": 484,
+    "h": 119,
+    "text": "37, 110"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 205,
+    "y": 2247,
+    "w": 460,
+    "h": 106,
+    "text": "farmers and workers are part of Fairtrade banana producer organizations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 193,
+    "y": 2832,
+    "w": 484,
+    "h": 119,
+    "text": "1.45m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 205,
+    "y": 2996,
+    "w": 460,
+    "h": 70,
+    "text": "metric tonnes of Fairtrade bananas were produced in 2023"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-number > p",
+    "x": 193,
+    "y": 3546,
+    "w": 484,
+    "h": 119,
+    "text": "+$38.1m"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-fact-content > div.number-fact-fact > p",
+    "x": 205,
+    "y": 3709,
+    "w": 460,
+    "h": 106,
+    "text": "in Fairtrade Premium earned by certified banana producer organizations in 2023"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-label > p > strong",
+    "x": 862,
+    "y": 2128,
+    "w": 74,
+    "h": 22,
+    "text": "Bananas"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-title > h2#fast-facts",
+    "x": 862,
+    "y": 2178,
+    "w": 186,
+    "h": 53,
+    "level": 2,
+    "text": "fast facts"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.number-facts-content > div.number-facts-text > p",
+    "x": 862,
+    "y": 2255,
+    "w": 405,
+    "h": 58,
+    "text": "Here are a few facts about Fairtrade bananas you should know."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h2#fairtrade-banana-brand-partners",
+    "x": 390,
+    "y": 4106,
+    "w": 660,
+    "h": 53,
+    "level": 2,
+    "text": "fairtrade banana brand partners"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4191,
+    "w": 660,
+    "h": 58,
+    "text": "Look for the Fairtrade Mark to make your fave fruit a sweeter deal for people an"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#current-challenges",
+    "x": 390,
+    "y": 4328,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "current challenges"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > h3#current-challenges > strong",
+    "x": 390,
+    "y": 4329,
+    "w": 239,
+    "h": 32,
+    "text": "Current challenges"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4387,
+    "w": 660,
+    "h": 58,
+    "text": "With millions and millions of tons produced each year globally, bananas are big "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4477,
+    "w": 660,
+    "h": 115,
+    "text": "This includes poverty-level wages that fail to cover the basics. Workers can be "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4624,
+    "w": 660,
+    "h": 144,
+    "text": "A small number of corporate fruit companies have a lot of influence over the int"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4800,
+    "w": 660,
+    "h": 86,
+    "text": "Chemicals used to control pests and disease can not only impact the environment,"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 4918,
+    "w": 660,
+    "h": 86,
+    "text": "Producers are battling challenges such as droughts, floods and hurricanes. Meanw"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#when-a-banana-is-spotless-and-of-the-best-quality-in-a-supermarket-it-is-the-result-of-hard-work-from-us-the-farmers",
+    "x": 390,
+    "y": 5085,
+    "w": 660,
+    "h": 106,
+    "level": 3,
+    "text": "“when a banana is spotless and of the best quality in a supermarket, it is the result of hard work from us, the farmers."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > h3#when-a-banana-is-spotless-and-of-the-best-quality-in-a-supermarket-it-is-the-result-of-hard-work-from-us-the-farmers > em",
+    "x": 390,
+    "y": 5086,
+    "w": 650,
+    "h": 102,
+    "text": "“When a banana is spotless and of the best quality in a supermarket, it is the r"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#roberto-gallo-castro-banana-farmer-at-apbosmam-peru",
+    "x": 390,
+    "y": 5214,
+    "w": 660,
+    "h": 70,
+    "level": 3,
+    "text": "roberto gallo castro, banana farmer at apbosmam, peru"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > h3#roberto-gallo-castro-banana-farmer-at-apbosmam-peru > em",
+    "x": 390,
+    "y": 5215,
+    "w": 496,
+    "h": 67,
+    "text": "Roberto Gallo Castro, Banana farmer at APBOSMAM, Peru"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#how-fairtrade-makes-a-difference",
+    "x": 390,
+    "y": 5365,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "how fairtrade makes a difference"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > h3#how-fairtrade-makes-a-difference > strong",
+    "x": 390,
+    "y": 5366,
+    "w": 427,
+    "h": 32,
+    "text": "How Fairtrade makes a difference"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 5424,
+    "w": 660,
+    "h": 86,
+    "text": "Bananas are grown on both small-scale farms as well as large estates. But a high"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 5542,
+    "w": 660,
+    "h": 58,
+    "text": ". This acts as a safety net and helps them be resilient in the face of market dr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 5612,
+    "w": 660,
+    "h": 115,
+    "text": "– paid on top of the selling price – is for plantation workers and smallholder b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 5739,
+    "w": 660,
+    "h": 58,
+    "text": "work to improve employment conditions and protect worker rights on large estates"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 5809,
+    "w": 660,
+    "h": 86,
+    "text": "means higher wages for thousands of workers on banana plantations. The new Livin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 5907,
+    "w": 660,
+    "h": 58,
+    "text": "to improve their income and bargaining position in banana supply chains."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 5977,
+    "w": 660,
+    "h": 86,
+    "text": "of banana production by encouraging sustainable development through better agric"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#sustainable-banana-program",
+    "x": 162,
+    "y": 6351,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "sustainable banana program"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 6481,
+    "w": 538,
+    "h": 58,
+    "text": "Improving producers’ resilience and promoting leadership roles for women and you"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 6567,
+    "w": 538,
+    "h": 144,
+    "text": "This program seeks to strengthen the livelihoods and increase the productivity a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 6740,
+    "w": 538,
+    "h": 144,
+    "text": "The program also supports the organizational and commercial strategies of cooper"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 162,
+    "y": 6916,
+    "w": 159,
+    "h": 48,
+    "text": "read more",
+    "href": "/en/products/Fairtrade_products/Bananas/living-wage-solution-for-the-banana-sector.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 740,
+    "y": 6388,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "media_15b0e70b09314ccc80ec85de42ce9d0da7"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#our-interactive-banana-dashboard",
+    "x": 740,
+    "y": 7296,
+    "w": 538,
+    "h": 106,
+    "level": 2,
+    "text": "our interactive banana dashboard"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 740,
+    "y": 7426,
+    "w": 538,
+    "h": 144,
+    "text": "Browse this rich set of information to learn more about Fairtrade bananas and th"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 740,
+    "y": 7602,
+    "w": 212,
+    "h": 48,
+    "text": "discover our tool",
+    "href": "/en/products/Fairtrade_products/Bananas/fairtrade-banana-dashboard0.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 162,
+    "y": 7204,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "media_140d4102ba400ecd5dd53828ac0f41639b"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 7862,
+    "w": 660,
+    "h": 58,
+    "text": "Fairtrade bananas are good for people, planet and business. Find out how your co"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > a",
+    "x": 469,
+    "y": 7894,
+    "w": 133,
+    "h": 22,
+    "text": "can get involved",
+    "href": "/us-en/for-business/benefits-of-being-certified/benefits-for-business"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 8055,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 8055,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 76,
+    "y": 8145,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 8193,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 8243,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 418,
+    "y": 8145,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 8193,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 8243,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 8293,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 8342,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 760,
+    "y": 8145,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 8193,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 8243,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 8145,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 8191,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 8191,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 8191,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 8191,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 8279,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 8325,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 83,
+    "controls": 31,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "bananas",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 10,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 10,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "fast facts",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "fairtrade banana brand partners",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "current challenges",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "“when a banana is spotless and of the best quality in a supermarket, it is the result of hard work from us, the farmers.",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "roberto gallo castro, banana farmer at apbosmam, peru",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "how fairtrade makes a difference",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 8,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 8,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "sustainable banana program",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 2
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "our interactive banana dashboard",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 57,
+    "h": 17
+   },
+   {
+    "x": 222,
+    "y": 123,
+    "w": 118,
+    "h": 17
+   },
+   {
+    "x": 380,
+    "y": 123,
+    "w": 55,
+    "h": 17
+   },
+   {
+    "x": 589,
+    "y": 227,
+    "w": 261,
+    "h": 72
+   },
+   {
+    "x": 278,
+    "y": 339,
+    "w": 885,
+    "h": 29
+   },
+   {
+    "x": 290,
+    "y": 378,
+    "w": 860,
+    "h": 29
+   },
+   {
+    "x": 287,
+    "y": 416,
+    "w": 865,
+    "h": 29
+   },
+   {
+    "x": 356,
+    "y": 454,
+    "w": 729,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1252,
+    "w": 630,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1281,
+    "w": 598,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1309,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1338,
+    "w": 612,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1367,
+    "w": 63,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1428,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1457,
+    "w": 639,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1485,
+    "w": 658,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1514,
+    "w": 648,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1543,
+    "w": 358,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1604,
+    "w": 63,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1645,
+    "w": 122,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1685,
+    "w": 171,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1726,
+    "w": 111,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1767,
+    "w": 137,
+    "h": 22
+   },
+   {
+    "x": 262,
+    "y": 2075,
+    "w": 345,
+    "h": 136
+   },
+   {
+    "x": 228,
+    "y": 2248,
+    "w": 413,
+    "h": 32
+   },
+   {
+    "x": 259,
+    "y": 2283,
+    "w": 352,
+    "h": 32
+   },
+   {
+    "x": 343,
+    "y": 2318,
+    "w": 183,
+    "h": 32
+   },
+   {
+    "x": 272,
+    "y": 2823,
+    "w": 326,
+    "h": 136
+   },
+   {
+    "x": 206,
+    "y": 2997,
+    "w": 459,
+    "h": 32
+   },
+   {
+    "x": 289,
+    "y": 3032,
+    "w": 292,
+    "h": 32
+   },
+   {
+    "x": 208,
+    "y": 3537,
+    "w": 454,
+    "h": 136
+   },
+   {
+    "x": 226,
+    "y": 3710,
+    "w": 418,
+    "h": 32
+   },
+   {
+    "x": 264,
+    "y": 3745,
+    "w": 342,
+    "h": 32
+   },
+   {
+    "x": 295,
+    "y": 3780,
+    "w": 281,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 2128,
+    "w": 74,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2180,
+    "w": 186,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 2258,
+    "w": 400,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2286,
+    "w": 108,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4108,
+    "w": 647,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 4194,
+    "w": 655,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4222,
+    "w": 57,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4329,
+    "w": 239,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 4390,
+    "w": 643,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4419,
+    "w": 455,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4480,
+    "w": 572,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4509,
+    "w": 90,
+    "h": 22
+   },
+   {
+    "x": 480,
+    "y": 4509,
+    "w": 510,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4537,
+    "w": 650,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4566,
+    "w": 654,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4627,
+    "w": 160,
+    "h": 22
+   },
+   {
+    "x": 550,
+    "y": 4627,
+    "w": 472,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4656,
+    "w": 626,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4685,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4713,
+    "w": 596,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4742,
+    "w": 137,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4803,
+    "w": 442,
+    "h": 22
+   },
+   {
+    "x": 832,
+    "y": 4803,
+    "w": 214,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4832,
+    "w": 555,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4861,
+    "w": 617,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4921,
+    "w": 436,
+    "h": 22
+   },
+   {
+    "x": 826,
+    "y": 4921,
+    "w": 182,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4950,
+    "w": 644,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4979,
+    "w": 577,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5086,
+    "w": 650,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 5121,
+    "w": 637,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 5156,
+    "w": 168,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 5215,
+    "w": 496,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 5251,
+    "w": 241,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 5366,
+    "w": 427,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 5427,
+    "w": 623,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5456,
+    "w": 651,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5485,
+    "w": 464,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5545,
+    "w": 536,
+    "h": 22
+   },
+   {
+    "x": 942,
+    "y": 5545,
+    "w": 104,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5574,
+    "w": 552,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5615,
+    "w": 195,
+    "h": 22
+   },
+   {
+    "x": 601,
+    "y": 5615,
+    "w": 413,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5644,
+    "w": 625,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5673,
+    "w": 631,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5701,
+    "w": 93,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5742,
+    "w": 206,
+    "h": 22
+   },
+   {
+    "x": 612,
+    "y": 5742,
+    "w": 432,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5771,
+    "w": 250,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5812,
+    "w": 212,
+    "h": 22
+   },
+   {
+    "x": 618,
+    "y": 5812,
+    "w": 406,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5841,
+    "w": 619,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5869,
+    "w": 385,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5910,
+    "w": 339,
+    "h": 22
+   },
+   {
+    "x": 745,
+    "y": 5910,
+    "w": 232,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5939,
+    "w": 361,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5980,
+    "w": 523,
+    "h": 22
+   },
+   {
+    "x": 929,
+    "y": 5980,
+    "w": 86,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 6009,
+    "w": 552,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 6037,
+    "w": 450,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6353,
+    "w": 400,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 6406,
+    "w": 176,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 6484,
+    "w": 516,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6512,
+    "w": 241,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6570,
+    "w": 537,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6599,
+    "w": 525,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6628,
+    "w": 516,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6656,
+    "w": 499,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6685,
+    "w": 214,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6743,
+    "w": 508,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6772,
+    "w": 509,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6800,
+    "w": 525,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6829,
+    "w": 520,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6858,
+    "w": 501,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 6929,
+    "w": 91,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 7298,
+    "w": 455,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 7351,
+    "w": 213,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 7429,
+    "w": 527,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 7457,
+    "w": 529,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 7486,
+    "w": 524,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 7515,
+    "w": 527,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 7544,
+    "w": 432,
+    "h": 22
+   },
+   {
+    "x": 774,
+    "y": 7615,
+    "w": 144,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7865,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7894,
+    "w": 79,
+    "h": 22
+   },
+   {
+    "x": 469,
+    "y": 7894,
+    "w": 133,
+    "h": 22
+   },
+   {
+    "x": 601,
+    "y": 7894,
+    "w": 4,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 8057,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 8144,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 8196,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 8246,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8144,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 8196,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8246,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8296,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8345,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 8144,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 8196,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 8246,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 8144,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 8278,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 8338,
+    "w": 127,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 57,
+    "h": 17
+   },
+   {
+    "x": 222,
+    "y": 123,
+    "w": 118,
+    "h": 17
+   },
+   {
+    "x": 380,
+    "y": 123,
+    "w": 55,
+    "h": 17
+   },
+   {
+    "x": 589,
+    "y": 227,
+    "w": 261,
+    "h": 72
+   },
+   {
+    "x": 278,
+    "y": 339,
+    "w": 885,
+    "h": 29
+   },
+   {
+    "x": 290,
+    "y": 378,
+    "w": 860,
+    "h": 29
+   },
+   {
+    "x": 287,
+    "y": 416,
+    "w": 865,
+    "h": 29
+   },
+   {
+    "x": 356,
+    "y": 454,
+    "w": 729,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1252,
+    "w": 630,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1281,
+    "w": 598,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1309,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1338,
+    "w": 612,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1367,
+    "w": 63,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1428,
+    "w": 633,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1457,
+    "w": 639,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1485,
+    "w": 658,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1514,
+    "w": 648,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1543,
+    "w": 358,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1604,
+    "w": 63,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1645,
+    "w": 122,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1685,
+    "w": 171,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1726,
+    "w": 111,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 1767,
+    "w": 137,
+    "h": 22
+   },
+   {
+    "x": 262,
+    "y": 2075,
+    "w": 345,
+    "h": 136
+   },
+   {
+    "x": 228,
+    "y": 2248,
+    "w": 413,
+    "h": 32
+   },
+   {
+    "x": 259,
+    "y": 2283,
+    "w": 352,
+    "h": 32
+   },
+   {
+    "x": 343,
+    "y": 2318,
+    "w": 183,
+    "h": 32
+   },
+   {
+    "x": 272,
+    "y": 2823,
+    "w": 326,
+    "h": 136
+   },
+   {
+    "x": 206,
+    "y": 2997,
+    "w": 459,
+    "h": 32
+   },
+   {
+    "x": 289,
+    "y": 3032,
+    "w": 292,
+    "h": 32
+   },
+   {
+    "x": 208,
+    "y": 3537,
+    "w": 454,
+    "h": 136
+   },
+   {
+    "x": 226,
+    "y": 3710,
+    "w": 418,
+    "h": 32
+   },
+   {
+    "x": 264,
+    "y": 3745,
+    "w": 342,
+    "h": 32
+   },
+   {
+    "x": 295,
+    "y": 3780,
+    "w": 281,
+    "h": 32
+   },
+   {
+    "x": 862,
+    "y": 2128,
+    "w": 74,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2180,
+    "w": 186,
+    "h": 48
+   },
+   {
+    "x": 862,
+    "y": 2258,
+    "w": 400,
+    "h": 22
+   },
+   {
+    "x": 862,
+    "y": 2286,
+    "w": 108,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4108,
+    "w": 647,
+    "h": 48
+   },
+   {
+    "x": 390,
+    "y": 4194,
+    "w": 655,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4222,
+    "w": 57,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4329,
+    "w": 239,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 4390,
+    "w": 643,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4419,
+    "w": 455,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4480,
+    "w": 572,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4509,
+    "w": 90,
+    "h": 22
+   },
+   {
+    "x": 480,
+    "y": 4509,
+    "w": 510,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4537,
+    "w": 650,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4566,
+    "w": 654,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4627,
+    "w": 160,
+    "h": 22
+   },
+   {
+    "x": 550,
+    "y": 4627,
+    "w": 472,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4656,
+    "w": 626,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4685,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4713,
+    "w": 596,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4742,
+    "w": 137,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4803,
+    "w": 442,
+    "h": 22
+   },
+   {
+    "x": 832,
+    "y": 4803,
+    "w": 214,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4832,
+    "w": 555,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4861,
+    "w": 613,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4921,
+    "w": 432,
+    "h": 22
+   },
+   {
+    "x": 822,
+    "y": 4921,
+    "w": 186,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4950,
+    "w": 644,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4979,
+    "w": 573,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5086,
+    "w": 650,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 5121,
+    "w": 637,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 5156,
+    "w": 168,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 5215,
+    "w": 496,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 5251,
+    "w": 241,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 5366,
+    "w": 427,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 5427,
+    "w": 623,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5456,
+    "w": 651,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 5485,
+    "w": 464,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5545,
+    "w": 536,
+    "h": 22
+   },
+   {
+    "x": 942,
+    "y": 5545,
+    "w": 104,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5574,
+    "w": 548,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5615,
+    "w": 195,
+    "h": 22
+   },
+   {
+    "x": 601,
+    "y": 5615,
+    "w": 413,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5644,
+    "w": 625,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5673,
+    "w": 631,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5701,
+    "w": 89,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5742,
+    "w": 206,
+    "h": 22
+   },
+   {
+    "x": 612,
+    "y": 5742,
+    "w": 432,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5771,
+    "w": 250,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5812,
+    "w": 212,
+    "h": 22
+   },
+   {
+    "x": 618,
+    "y": 5812,
+    "w": 406,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5841,
+    "w": 619,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5869,
+    "w": 385,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5910,
+    "w": 339,
+    "h": 22
+   },
+   {
+    "x": 745,
+    "y": 5910,
+    "w": 232,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5939,
+    "w": 361,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 5980,
+    "w": 523,
+    "h": 22
+   },
+   {
+    "x": 929,
+    "y": 5980,
+    "w": 86,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 6009,
+    "w": 552,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 6037,
+    "w": 450,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6353,
+    "w": 400,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 6406,
+    "w": 176,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 6484,
+    "w": 516,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6512,
+    "w": 241,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6570,
+    "w": 537,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6599,
+    "w": 525,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6628,
+    "w": 516,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6656,
+    "w": 499,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6685,
+    "w": 214,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6743,
+    "w": 508,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6772,
+    "w": 509,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6800,
+    "w": 525,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6829,
+    "w": 520,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 6858,
+    "w": 501,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 6929,
+    "w": 91,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 7298,
+    "w": 455,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 7351,
+    "w": 213,
+    "h": 48
+   },
+   {
+    "x": 740,
+    "y": 7429,
+    "w": 527,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 7457,
+    "w": 529,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 7486,
+    "w": 524,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 7515,
+    "w": 527,
+    "h": 22
+   },
+   {
+    "x": 740,
+    "y": 7544,
+    "w": 432,
+    "h": 22
+   },
+   {
+    "x": 774,
+    "y": 7615,
+    "w": 144,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7865,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 7894,
+    "w": 79,
+    "h": 22
+   },
+   {
+    "x": 469,
+    "y": 7894,
+    "w": 133,
+    "h": 22
+   },
+   {
+    "x": 601,
+    "y": 7894,
+    "w": 4,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 8057,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 8144,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 8196,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 8246,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8144,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 8196,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8246,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8296,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 8345,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 8144,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 8196,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 8246,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 8144,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 8278,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 8338,
+    "w": 127,
+    "h": 22
+   }
+  ]
+ }
+}

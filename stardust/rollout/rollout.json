@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-13T23:25:53.363Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.fairtrade.net/",
+    "da": {
+      "org": "aemcoder",
+      "site": "63f9f24b",
+      "ref": "main"
+    },
+    "liveHost": "main--63f9f24b--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 100,
+    "discovered": 100,
+    "capped": false,
+    "pageCap": null
+  },
+  "lastRun": {
+    "at": "2026-11-14T12:05:22.308Z",
+    "pages": {
+      "total": 100,
+      "verified": 100,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 13,
+      "converted": 13,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

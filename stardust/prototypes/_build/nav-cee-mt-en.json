@@ -1,0 +1,29 @@
+{
+  "_note": "Fairtrade CEE national chrome (mt-en). Labels + hrefs verbatim from the live DOM (stardust/current/pages/mt-en-bring-fairtrade-to-your-market-html.html). regions omitted = the global locale list in nav.json (identical on this site). Reused by ro-ro / si-sl: copy this file, change locale/lang/meta/footer.",
+  "lang": "en",
+  "locale": { "label": "MT • EN", "code": "MT-EN" },
+  "logo": { "href": "https://www.fairtrade.net/en.html", "src": "assets/img/FBM_NEUTRAL_VERT_RGB_POS.png", "w": 680, "h": 747 },
+  "searchUrl": "https://www.fairtrade.net/en/search-results.html",
+  "searchPlaceholder": "Bananas, coffee, oranges ...",
+  "top": [],
+  "meta": [
+    { "label": "News", "href": "https://www.fairtrade.net/en/get-involved/news.html" },
+    { "label": "Opportunities", "href": "https://www.fairtrade.net/en/about/opportunities.html" },
+    { "label": "Library", "href": "https://www.fairtrade.net/en/get-involved/library.html" },
+    { "label": "Fairtrade Minimum Prices and Premiums ", "href": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/standards/fairtrade-minimum-price-and-premium-information.html" },
+    { "label": "Overview of Fairtrade producers and traders", "href": "https://www.fairtrade.net/en/about/overview-of-fairtrade-producers.html" }
+  ],
+  "footer": {
+    "lists": [
+      { "title": "Fairtrade International", "href": "https://www.fairtrade.net/en.html", "links": [] },
+      { "title": "Privacy Policy", "href": "https://www.fairtrade.net/mt-en/home/privacy-policy", "links": [] },
+      { "title": "Impressum", "href": "https://www.fairtrade.net/mt-en/home/impressum", "links": [] }
+    ],
+    "social": [
+      { "label": "Social Links", "icon": "facebook", "href": "https://www.facebook.com/fairtrade" },
+      { "label": "Instagram", "icon": "instagram", "href": "https://www.instagram.com/fairtradeofficial/" },
+      { "label": "LinkedIn", "icon": "linkedin", "href": "https://www.linkedin.com/company/fairtrade-international-flo-/?originalSubdomain=de" }
+    ],
+    "newsletter": null
+  }
+}

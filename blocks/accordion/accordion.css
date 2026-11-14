@@ -1,0 +1,240 @@
+/* accordion — canon AccordionSection / Accordion (stardust/prototypes/canon.css, values verbatim) */
+.accordion {
+  column-gap: var(--grid-gap);
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
+  margin-inline: auto;
+  padding: 64px var(--grid-padding);
+  width: min(100%, var(--max-width));
+}
+
+.accordion > * {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+.accordion .accordion-section-title {
+  font-family: var(--ff-head);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+.accordion .accordion-section-title :is(h1, h2, h3) {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.accordion .accordion-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.accordion .accordion-entry {
+  --header-gap: 12px;
+  --header-padding: 16px 8px;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.accordion .accordion-entry::after {
+  background-color: rgb(30 30 30 / 10%);
+  content: "";
+  height: 2px;
+  inset: auto 0 0;
+  position: absolute;
+}
+
+.accordion .accordion-header {
+  align-items: center;
+  box-shadow: 0 4px 8px rgb(30 30 30 / 10%);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  gap: var(--header-gap);
+  padding: var(--header-padding);
+  position: relative;
+  width: 100%;
+}
+
+/* chevron-only toggle (EW7): keyboard control; clicks land on the header row */
+.accordion .accordion-toggle {
+  background: none;
+  border: 0;
+  height: 100%;
+  inset: 0 auto auto 0;
+  padding: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.accordion .visually-hidden {
+  clip-path: inset(0);
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+}
+
+.accordion .accordion-button {
+  align-self: start;
+  flex: 0 0 auto;
+  transform-origin: center;
+  transition: rotate .3s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+}
+
+.accordion .accordion-header:is(:hover, :focus-within) .accordion-button {
+  background-color: #0eade3;
+  border-color: #035e7c;
+}
+
+.accordion .accordion-header:active .accordion-button {
+  border-color: transparent;
+}
+
+.accordion .accordion-entry.is-open .accordion-button {
+  rotate: .5turn;
+}
+
+.accordion .accordion-title {
+  font-family: var(--ff-body);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.1;
+  transition: color .2s ease-in-out, opacity .2s ease-in-out;
+}
+
+.accordion .accordion-title :is(h2, h3, h4, p) {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.accordion .accordion-header:is(:hover, :focus-within) .accordion-title {
+  color: #035e7c;
+}
+
+.accordion .accordion-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows .3s ease-in-out;
+}
+
+.accordion .accordion-entry.is-open .accordion-panel {
+  grid-template-rows: 1fr;
+}
+
+.accordion .accordion-content-wrapper {
+  min-height: 0;
+  overflow: hidden;
+  transition: visibility .3s ease-in-out;
+  visibility: hidden;
+}
+
+.accordion .accordion-entry.is-open .accordion-content-wrapper {
+  visibility: unset;
+}
+
+.accordion .accordion-content-padding-box {
+  padding: 16px 16px 32px;
+}
+
+/* .Richtext inside the panel */
+.accordion .accordion-richtext {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* spacing by gap, never :last-child (EW2/EW10 — survives the editor's wrappers) */
+.accordion .accordion-richtext :is(ol, p, ul) {
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.accordion .accordion-richtext a {
+  color: #7b1dab;
+  text-decoration: underline;
+}
+
+/* answer link = canon .Button.variant-tertiary */
+.accordion .accordion-link p {
+  margin: 0;
+}
+
+.accordion .accordion-link a {
+  align-items: flex-start;
+  background: none;
+  border: 0;
+  color: var(--c-text, #1e1e1e);
+  display: inline-flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 700;
+  gap: 4px;
+  height: auto;
+  line-height: 1;
+  padding: 0;
+  text-decoration: none;
+}
+
+.accordion .accordion-link a::after {
+  background-color: #0fc0fc;
+  content: "";
+  display: block;
+  height: 4px;
+  scale: 1 .5;
+  transform-origin: bottom;
+  transition: background-color .2s ease-in-out, scale .2s ease-in-out;
+  width: 100%;
+}
+
+.accordion .accordion-link a:is(:hover, :focus-visible) {
+  color: #035e7c;
+}
+
+.accordion .accordion-link a:is(:hover, :focus-visible)::after {
+  background-color: #035e7c;
+  scale: 1;
+}
+
+@media (width >= 768px) {
+  .accordion > * {
+    grid-column: 2 / -2;
+  }
+}
+
+@media (width >= 1024px) {
+  .accordion {
+    padding-block: 80px;
+  }
+
+  .accordion > * {
+    grid-column: 4 / -4;
+  }
+
+  .accordion .accordion-section-title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
+  .accordion .accordion-content-padding-box {
+    padding: 24px 16px 40px;
+  }
+
+  .accordion .accordion-richtext {
+    gap: 32px;
+  }
+
+  .accordion .accordion-richtext :is(ol, p, ul) {
+    font-size: 18px;
+  }
+}

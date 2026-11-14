@@ -1,0 +1,81 @@
+{
+  "a": "stardust/replica/gates/all-360/us-en-products-all-products-wine-html/origin.png",
+  "b": "stardust/replica/gates/all-360/us-en-products-all-products-wine-html/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 5173,
+    "mode": "overlap"
+  },
+  "heightDelta": 43,
+  "differingPixels": 52717,
+  "pct": 2.83,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/us-en-products-all-products-wine-html/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 1.24,
+  "textBoxes": 131,
+  "textPixels": 641646,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 17.2
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 8.1
+    },
+    {
+      "y0": 5000,
+      "y1": 5173,
+      "pct": 10.3
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/wine"
+  }
+}

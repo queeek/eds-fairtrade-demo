@@ -1,0 +1,2250 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-13T23:26:10.910Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.fairtrade.net/",
+   "https://www.fairtrade.net/de-de.html",
+   "https://www.fairtrade.net/us-en/about.html",
+   "https://www.fairtrade.net/us-en/news.html",
+   "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://www.fairtrade.net/",
+   "status": 200,
+   "host": "www.fairtrade.net",
+   "title": "Fairtrade America - the Future is Fair",
+   "forms": [
+    {
+     "name": "",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:input-name"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "US • EN Open or close the locale selector. The currently sel",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "dialog",
+      "heading": "Go to a local website",
+      "textLen": 704,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "US • EN Open or close the locale selector. The currently sel",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "dialog",
+      "heading": "Go to a local website",
+      "textLen": 704,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "US • EN Open or close the locale selector. The currently sel",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "dialog",
+      "heading": "Go to a local website",
+      "textLen": 704,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Go to a local website",
+     "textLen": 704,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 1
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [],
+    "switcher": [
+     "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+     "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+     "https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "push"
+    ],
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "version",
+     "push",
+     "getState",
+     "addEventListener",
+     "removeEventListener"
+    ],
+    "Granite": [
+     "HTTP",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "YT",
+    "Vimeo",
+    "clarity"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "swiper-wrapper",
+     "cards": 5,
+     "sameSite": 4,
+     "hasDate": false
+    },
+    {
+     "cls": "AccordionSection--list",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 5,
+   "inlineFetch": true,
+   "mainText": 2776,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.fairtrade.net": 25,
+    "www.googletagmanager.com": 6,
+    "connect.facebook.net": 2,
+    "ad.doubleclick.net": 1,
+    "extend.vimeocdn.com": 1,
+    "www.google.com": 5,
+    "bat.bing.com": 3,
+    "www.youtube.com": 2,
+    "snap.licdn.com": 1,
+    "www.clarity.ms": 2,
+    "px.ads.linkedin.com": 4,
+    "analytics.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "www.google-analytics.com": 2,
+    "www.linkedin.com": 1,
+    "scripts.clarity.ms": 1,
+    "www.facebook.com": 1,
+    "px4.ads.linkedin.com": 1,
+    "googleads.g.doubleclick.net": 2,
+    "o.clarity.ms": 3,
+    "c.clarity.ms": 2,
+    "c.bing.com": 1,
+    "w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws": 1,
+    "www2.fairtradeamerica.org": 2,
+    "www.googleadservices.com": 1
+   },
+   "thirdPartyHosts": [
+    "www.googletagmanager.com",
+    "connect.facebook.net",
+    "ad.doubleclick.net",
+    "extend.vimeocdn.com",
+    "www.google.com",
+    "bat.bing.com",
+    "www.youtube.com",
+    "snap.licdn.com",
+    "www.clarity.ms",
+    "px.ads.linkedin.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.google-analytics.com",
+    "www.linkedin.com",
+    "scripts.clarity.ms",
+    "www.facebook.com",
+    "px4.ads.linkedin.com",
+    "googleads.g.doubleclick.net",
+    "o.clarity.ms",
+    "c.clarity.ms",
+    "c.bing.com",
+    "w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws",
+    "www2.fairtradeamerica.org",
+    "www.googleadservices.com"
+   ],
+   "scripts": [
+    "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-dependencies.lc-a9dcac4698709ca8e1cbc88363cf0793-lc.min.js",
+    "https://www.fairtrade.net/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site.lc-ac3644ba081771355ed624ceae6202c6-lc.min.js",
+    "https://www.fairtrade.net/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js",
+    "https://www.fairtrade.net/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-P8D4TL3",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://extend.vimeocdn.com/ga/39276972.js",
+    "https://bat.bing.com/bat.js",
+    "https://www.youtube.com/iframe_api",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://www.youtube.com/s/player/fad7e4e9/www-widgetapi.vflset/www-widgetapi.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-3WTYFTM10Z&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-VMDXPCV5VX&cx=c&gtm=4e6bb1",
+    "https://www.clarity.ms/tag/xckqx7jcj0",
+    "https://bat.bing.com/p/action/187088229.js",
+    "https://connect.facebook.net/signals/config/169777619252343?v=2.9.439&r=stable&domain=www.fairtrade.net&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2",
+    "https://scripts.clarity.ms/0.8.77/clarity.js",
+    "https://www.clarity.ms/tag/uet/187088229?insights=1",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-799581251&cx=c&gtm=4e6bb1",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/799581251/?random=1794612372356&cv=11&fst=1794612372356&bg=ffffff&guid=ON&async=1&gtm=45be6bb1z879091752za20gzb79091752zd79091752xeaxf1",
+    "https://www2.fairtradeamerica.org/pd.js",
+    "https://www2.fairtradeamerica.org/analytics?ver=3&visitor_id=&visitor_id_sign=&pi_opt_in=&campaign_id=null&account_id=534362&title=Fairtrade%20America%20-%20the%20Future%20is%20Fair&url=https%3A%2F%2F",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-927991430&cx=c&gtm=4e6bb1"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.fairtrade.net",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fairtrade.net/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fairtrade.net",
+     "path": "/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/icons/sprite.svg",
+     "query": [
+      "version"
+     ],
+     "status": 200,
+     "contentType": "image/svg+xml",
+     "example": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/icons/sprite.svg"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect",
+    "POST px.ads.linkedin.com/wa/",
+    "POST analytics.google.com/g/collect",
+    "POST www.google-analytics.com/g/collect",
+    "POST www.google.com/rmkt/collect/799581251/",
+    "POST o.clarity.ms/collect",
+    "POST w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws/events",
+    "GET www.googleadservices.com/pagead/conversion/927991430/",
+    "POST googleads.g.doubleclick.net/pagead/viewthroughconversion/927991430/",
+    "GET www.google.com/pagead/1p-conversion/927991430/"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=1&ae=g&auid=1830932223.1794612372&dt=Fairtrade%20America%20-%20the%20Future%20is%20Fair&en=page_view&dl=https%3A%2F%2Fwww.fairtrade.net%2Fus-en.html",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1830932223.1794612372&gtm=45He6bb1v79091752za200zd79091752xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+     "body": "H4sIAAAAAAAAA1WQT2vjMBDFv4qZs9Toj23JuuXQFEMPpQm9lGUZ2+NGVFZcS2ZZSr97cbK7sMfHzPvNe/MJsx8SuNfSmKpS6geD1C9+zi+0JH+J4KQQQuiGQfYTgZOmKWuptJFNZRkMlwl9BAcj+iUvONBdpAwM1iWAg3POc3K73X/T3Zo4xbtzngIw+EVd8pmO/i1ieKaPlVJuB3AglGxkSZobHCUXVjdcDXbk0ow19qZW1FlgMOMbPV5wuHrGUndG9YbXUmheGkLeyarhlVVdKUctbh6fTgvGFDDTAG7EkIhB8Ae8XYZNPHiM+SYmn3pwnzCn7pgxEzhefm2URx/faWjjfp7/YbY8J58DgYPD39rFfqLF91jwIp+pOKx5Xajwqdg2gMGZJnBx"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-3WTYFTM10Z&gtm=45je6bb1v868375366za20ozb79091752zd79091752xf1&_p=1794612371569&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=1596326488.17946123",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-5GQN3JQD6F&gtm=45je6bb1v868375366za20ozb79091752zd79091752xf1&_p=1794612371569&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1596326488.1794612372&frm=0&ngs=1&p",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-VMDXPCV5VX&gtm=45je6bb1v9206467137za20ozb79091752zd79091752xf1&_p=1794612371569&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1596326488.1794612372&frm=0&ngs=1&",
+     "body": ""
+    },
+    {
+     "url": "https://w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws/events?cee=no",
+     "body": "{\"event_name\":\"PageView\",\"smart_setup\":{\"auto_web_details_data\":\"{\\\"all_entity_images\\\":[{\\\"rid\\\":\\\"1295234352033643\\\",\\\"v\\\":[\\\"https://www.fairtrade.net/content/dam/fairtrade/fairtrade-america/images/farmers/farmers_4x3_coffee_Ibu_Rahmah_Adam_2024.jpg/_jcr_content/renditions/16x9_1920w.webp\\\",\\\"https://www.fairtrade.net/content/dam/fairtrade/fairtrade-america/images/farmers/Banana_Colombia_4x3%20"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/799581251/?random=1794612372356&cv=11&fst=1794612372356&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6bb1z879091752za20gzb79091752zd79091752xeaxf1&gcd=13l3l3l3l1l1&dma=0",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=0&ae=g&auid=1830932223.1794612372&dt=Fairtrade%20America%20-%20the%20Future%20is%20Fair&tid=AW-799581251&dl=https%3A%2F%2Fwww.fairtrade.net%2Fus-en.",
+     "body": ""
+    },
+    {
+     "url": "https://o.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�R�n�0\u0010�\u0015��\u0006X�|�LO���A�^��\u0005\b��%ʒ-?*ɵ�G��X+.�[��rvvw�ܟ4�KOYj�,���\u0001\u0017\n�X};f�b�(�zUU�\u0002��^��H�C�a������pH��tC\u0017ʘn�0��Iܤ��ni\u000e4�K�\u0003\u000b\\)\u0006F0���\u001c8\u001f\u0011��\b\b\u000b\u001c�\fPFц�\u0019pt�ߥ��n#�b9�4\u0007�:�\u0002:���{SR�ԕL��`e5w�W<dN��e�\u000e�\nN�����\u0001�h�!���>��Yg��I�\u0012�x���\\%Bϭ)�UBI\no�a�\u001e�NG\u000f7��Y�C?��\u0004�\u0019�V\b7B���\u000f�%i�j\u0013����폦m�D������{r�l�Gr�ff�\u0005�����%�o�a�e�JC��~z��\u0003�6�H>�b�� Ӻۮ�k�2<�!T�k^Kh\u000e\u001c�[?V����4�ZǮ)\u0002I�PGr�\u001f�]$MO�Asp�i�$O\u000f8C�����g�"
+    },
+    {
+     "url": "https://o.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003��n\u001cI�&�*\u000e.*��\u001bni�ؽ\u001aĢ��5,,�=�SC`�M\u0014\\��Į �\")e���<�>�>�����%$fmo���\u0005\u0012\u0012=����~9��\u001c�og��߾9�R�v�\u0013�;Ѻ;�i���T�e�/�lw�����\u001d~>۝��Ý�?�����ه��O����\u001f�ѽ�n\u001f�\u001f����?<��i<ܻ\u000f�wǳ\u001fvg��o߼Q\u001fv�v���_�%�$��5�$�ǥ��v��\u0012bܝ�O�o�O�\u0007\u0014F�vR|�;��r�a�\u0006���\u001c��e��������O������&��.�ޜ}S��\u001d��?<�?\u001e���w�������\u000fwg������a���M��ۇ�?�/��x������N��������\u0014~�������\u001c~z>�߸Ϸw���3��\u001f�������IQz����<|z{<쏷�9��?����\u001do��|���\u0013����Ϸ���\u0014����'���d"
+    },
+    {
+     "url": "https://o.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�Ymo�6\u0010�+\u0001�|;I$%�e�\u0007�Ͳb+�\u0015݀�0\fZ�m%z�DWV������8��vX�\u0014�-�8�yN<��;��?�AWs�}�\u000b� \u0004�(�\bS@������K�0\u0002��_�M�\u0000I�-�\u0006\u0001\u0001<\\hkm�^\u0005A�u�Zg�mtj���`�z������\u0002�FW���\u0002�\u0010\u0002\u0006�1 _�e\u000f��(k\u0004�\u000f\u0005��܅&D@\u00160\u0017\"�\u00076�\u0003��6E�v)wt���u�I6�%�\u0007:�\u0006:٫��.+\u001d]<T��ۈNtEԁ\u001e�1�G\u0006�i��Ow���\u001e���5+W�j�\u000f��jݷ�?LtrB\u001f�J�&��BfC0�ٶ�u1�)�\u0007:\u000bq40\u0004N�n�\u0003\u001dG�\u0016��b�!\u0005��%ex\n\b�mv\u0006\rY#�\u0011\u001b�v\nK|�:��\t��#<��\u0014V�9Xqz��\t,�\b3)��>��\u0004��x�S�~\u001a\u000e?\rG�\u0002v�\u0000�\"\f��h�ԔAw1\u000e\u0018�]���\u0005�"
+    }
+   ],
+   "textAtLoad": 2776,
+   "mainEmptyAtLoad": false
+  },
+  "/de-de.html": {
+   "url": "https://www.fairtrade.net/de-de.html",
+   "status": 200,
+   "host": "www.fairtrade.net",
+   "title": "Für eine gerechtere Weltwirtschaft | Fairtrade Deutschland",
+   "forms": [
+    {
+     "name": "",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:input-name"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "FilteredTeaserGrid--select",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 2,
+     "signature": [
+      "radio:select-name-teasergrid",
+      "radio:select-name-teasergrid"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "DE • DE Öffnen oder schließen Sie den Sprachauswahl. Die der",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "dialog",
+      "heading": "Gehe zu einer lokalen Webseite",
+      "textLen": 763,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "DE • DE Öffnen oder schließen Sie den Sprachauswahl. Die der",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "dialog",
+      "heading": "Gehe zu einer lokalen Webseite",
+      "textLen": 763,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Alle",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "listbox",
+      "heading": "",
+      "textLen": 10,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "DE • DE Öffnen oder schließen Sie den Sprachauswahl. Die der",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "dialog",
+      "heading": "Gehe zu einer lokalen Webseite",
+      "textLen": 763,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Gehe zu einer lokalen Webseite",
+     "textLen": 763,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://app.usercentrics.eu/browser-sdk/4.66.2/cross-domain-bridge.html",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://app.usercentrics.eu/browser-sdk/4.66.2/cross-domain-bridge.html",
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de-DE",
+    "hreflang": [],
+    "switcher": [
+     "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+     "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+     "https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "push"
+    ],
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "version",
+     "push",
+     "getState",
+     "addEventListener",
+     "removeEventListener"
+    ],
+    "Granite": [
+     "HTTP",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "swiper-wrapper",
+     "cards": 5,
+     "sameSite": 5,
+     "hasDate": true
+    },
+    {
+     "cls": "AccordionSection--list",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    },
+    {
+     "cls": "TeaserGrid--grid",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 12,
+   "inlineFetch": true,
+   "mainText": 4515,
+   "domAddedAfterLoad": 129,
+   "hosts": {
+    "www.fairtrade.net": 31,
+    "www.googletagmanager.com": 4,
+    "app.usercentrics.eu": 16,
+    "api.usercentrics.eu": 3,
+    "aggregator.service.usercentrics.eu": 1,
+    "uct.service.usercentrics.eu": 2,
+    "s.pinimg.com": 2,
+    "connect.facebook.net": 3,
+    "consent-api.service.consent.usercentrics.eu": 2,
+    "sc-static.net": 2,
+    "analytics.tiktok.com": 19,
+    "ct.pinterest.com": 5,
+    "tr.snapchat.com": 7,
+    "pixel.tapad.com": 2,
+    "www.google-analytics.com": 1,
+    "analytics.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "www.google.com": 3,
+    "ad.doubleclick.net": 1,
+    "googleads.g.doubleclick.net": 1,
+    "svrdntfctn.com": 1,
+    "tr6.snapchat.com": 1,
+    "www.facebook.com": 2,
+    "analytics-ipv6.tiktokw.us": 1
+   },
+   "thirdPartyHosts": [
+    "www.googletagmanager.com",
+    "app.usercentrics.eu",
+    "api.usercentrics.eu",
+    "aggregator.service.usercentrics.eu",
+    "uct.service.usercentrics.eu",
+    "s.pinimg.com",
+    "connect.facebook.net",
+    "consent-api.service.consent.usercentrics.eu",
+    "sc-static.net",
+    "analytics.tiktok.com",
+    "ct.pinterest.com",
+    "tr.snapchat.com",
+    "pixel.tapad.com",
+    "www.google-analytics.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "svrdntfctn.com",
+    "tr6.snapchat.com",
+    "www.facebook.com",
+    "analytics-ipv6.tiktokw.us"
+   ],
+   "scripts": [
+    "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-dependencies.lc-a9dcac4698709ca8e1cbc88363cf0793-lc.min.js",
+    "https://www.fairtrade.net/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site.lc-ac3644ba081771355ed624ceae6202c6-lc.min.js",
+    "https://www.fairtrade.net/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
+    "https://www.fairtrade.net/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-NFXSHJVM",
+    "https://app.usercentrics.eu/browser-ui/latest/loader.js",
+    "https://app.usercentrics.eu/browser-ui/3.113.0/index.module.js",
+    "https://app.usercentrics.eu/browser-ui/3.113.0/DefaultData-2a1a2985-403128ca.js",
+    "https://app.usercentrics.eu/browser-ui/3.113.0/DefaultUI-fc1ee118-d8a0844b.js",
+    "https://app.usercentrics.eu/browser-ui/3.113.0/FirstLayerCustomization-aee77504-3468d2b1.js",
+    "https://app.usercentrics.eu/browser-ui/3.113.0/ButtonsCustomization-8beeb15e-edbb045c.js",
+    "https://app.usercentrics.eu/browser-ui/3.113.0/SecondLayerUI-bc8ff2ad-799d5cef.js",
+    "https://app.usercentrics.eu/browser-ui/3.113.0/PrivacyButton-115d4745.js",
+    "https://app.usercentrics.eu/browser-ui/3.113.0/index-a840881e.js",
+    "https://app.usercentrics.eu/browser-ui/3.113.0/index-d1b73661.js",
+    "https://app.usercentrics.eu/browser-ui/3.113.0/DefaultTabs-a81d6c5f.js",
+    "https://app.usercentrics.eu/browser-ui/3.113.0/SaveButton-e7ff9518.js",
+    "https://app.usercentrics.eu/browser-ui/3.113.0/VirtualServiceItem-e06b8d01.js",
+    "https://app.usercentrics.eu/browser-ui/3.113.0/PrivacyButtonUI-fe498b8a-892fc3fa.js",
+    "https://s.pinimg.com/ct/core.js",
+    "https://s.pinimg.com/ct/lib/main.80c2b6ae.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://sc-static.net/scevent.min.js",
+    "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CMPOJJJC77UEKGPKMKS0&lib=ttq",
+    "https://www.googletagmanager.com/gtag/js?id=G-VMDXPCV5VX&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=G-8YRZ6V9Z7Q&cx=c&gtm=4e6bb1",
+    "https://www.googletagmanager.com/gtag/js?id=AW-16717129117&cx=c&gtm=4e6bb1",
+    "https://ct.pinterest.com/static/ct/token_create.js",
+    "https://tr.snapchat.com/config/net/2ae09fdd-44da-4995-95d8-7c5dc6b07a62.js?v=3.65.1-2611122036",
+    "https://analytics.tiktok.com/i18n/pixel/static/main.MTAyNjc1NzVmOQ.js",
+    "https://connect.facebook.net/signals/config/1425766851818541?v=2.9.439&r=stable&domain=www.fairtrade.net&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16717129117/?random=1794612384729&cv=11&fst=1794612384729&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v9229624795za20ozb920143",
+    "https://analytics.tiktok.com/i18n/pixel/static/identify_7e562ea6.js",
+    "https://svrdntfctn.com/stm.js?id=w3Q4S8O7j5l7",
+    "https://connect.facebook.net/signals/config/952717416216278?v=2.9.439&r=stable&domain=www.fairtrade.net&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.fairtrade.net",
+     "path": "/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/icons/sprite.svg",
+     "query": [
+      "version"
+     ],
+     "status": 200,
+     "contentType": "image/svg+xml",
+     "example": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/icons/sprite.svg"
+    },
+    {
+     "method": "GET",
+     "host": "www.fairtrade.net",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fairtrade.net/libs/granite/csrf/token.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET api.usercentrics.eu/settings/lV6MBy4S36YZ05/latest/languages.json",
+    "GET api.usercentrics.eu/settings/lV6MBy4S36YZ05/latest/de.json",
+    "GET api.usercentrics.eu/translations/translations-de.json",
+    "GET aggregator.service.usercentrics.eu/aggregate/de",
+    "POST consent-api.service.consent.usercentrics.eu/consent/uw/3",
+    "GET ct.pinterest.com/v3/",
+    "GET ct.pinterest.com/user/",
+    "POST www.google-analytics.com/g/collect",
+    "POST analytics.google.com/g/collect",
+    "POST www.google.com/ccm/collect",
+    "POST www.google.com/rmkt/collect/16717129117/",
+    "POST ad.doubleclick.net/ccm/s/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onInitialPageLoad\",\"analytics\":true,\"appVersion\":\"4.66.2\",\"consents\":[{\"consentStatus\":false,\"consentTemplateId\":\"9V8bg4D63\",\"consentTemplateVersion\":\"9.6.16\"},{\"consentStatus\":false,\"consentTemplateId\":\"S1_9Vsuj-Q\",\"consentTemplateVersion\":\"15.8.32\"},{\"consentStatus\":false,\"consentTemplateId\":\"S1pcEj_jZX\",\"consentTemplateVersion\":\"21.10.10\"},{\"consentStatus\":false,\"consentTemplateId\":\""
+    },
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onAcceptAllServices\",\"analytics\":true,\"appVersion\":\"4.66.2\",\"consents\":[{\"consentStatus\":true,\"consentTemplateId\":\"9V8bg4D63\",\"consentTemplateVersion\":\"9.6.16\"},{\"consentStatus\":true,\"consentTemplateId\":\"S1_9Vsuj-Q\",\"consentTemplateVersion\":\"15.8.32\"},{\"consentStatus\":true,\"consentTemplateId\":\"S1pcEj_jZX\",\"consentTemplateVersion\":\"21.10.10\"},{\"consentStatus\":true,\"consentTemplateId\":\"U8"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-VMDXPCV5VX&gtm=45je6bb1v9206467137za20ozb9201434864zd9201434864xf1&_p=1794612382589&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dOThhZD&cid=17972954",
+     "body": ""
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-8YRZ6V9Z7Q&gtm=45je6bb1v9202237198za20ozb9201434864zd9201434864xf1&_p=1794612382589&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dOThhZD&_eu=AAAAA",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/16717129117/?random=1794612384729&cv=11&fst=1794612384729&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bb1v9229624795za20ozb9201434864zd9201434864xecxf1&",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=1&auid=293988233.1794612385&dt=F%C3%BCr%20eine%20gerechtere%20Weltwirtschaft%20%7C%20Fairtrade%20Deutschland&tid=AW-16717129117&en=page_view&dl=http",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=293988233.1794612385&gtm=45be6bb1v9229624795za20ozb9201434864zd9201434864xecxf1&fmt=8",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 4515,
+   "mainEmptyAtLoad": false
+  },
+  "/us-en/about.html": {
+   "url": "https://www.fairtrade.net/us-en/about.html",
+   "status": 200,
+   "host": "www.fairtrade.net",
+   "title": "About",
+   "forms": [
+    {
+     "name": "",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:input-name"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "US • EN Open or close the locale selector. The currently sel",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "dialog",
+      "heading": "Go to a local website",
+      "textLen": 704,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "US • EN Open or close the locale selector. The currently sel",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "dialog",
+      "heading": "Go to a local website",
+      "textLen": 704,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "US • EN Open or close the locale selector. The currently sel",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "dialog",
+      "heading": "Go to a local website",
+      "textLen": 704,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Go to a local website",
+     "textLen": 704,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [],
+    "switcher": [
+     "https://www.fairtrade.net/en/about.html",
+     "https://www.fairtrade.net/ca-en/about.html",
+     "https://www.fairtrade.net/jp-jp/about.html",
+     "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+     "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "push"
+    ],
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "version",
+     "push",
+     "getState",
+     "addEventListener",
+     "removeEventListener"
+    ],
+    "Granite": [
+     "HTTP",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "YT",
+    "Vimeo",
+    "clarity"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 5,
+   "inlineFetch": true,
+   "mainText": 2633,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.fairtrade.net": 19,
+    "www.googletagmanager.com": 5,
+    "extend.vimeocdn.com": 1,
+    "connect.facebook.net": 2,
+    "ad.doubleclick.net": 1,
+    "www.google.com": 5,
+    "bat.bing.com": 3,
+    "www.youtube.com": 2,
+    "snap.licdn.com": 1,
+    "www.clarity.ms": 2,
+    "px.ads.linkedin.com": 4,
+    "scripts.clarity.ms": 1,
+    "www.google-analytics.com": 2,
+    "www.facebook.com": 1,
+    "www.linkedin.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "analytics.google.com": 1,
+    "px4.ads.linkedin.com": 1,
+    "googleads.g.doubleclick.net": 2,
+    "e.clarity.ms": 3,
+    "w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws": 1,
+    "c.clarity.ms": 2,
+    "c.bing.com": 1,
+    "www2.fairtradeamerica.org": 2,
+    "www.googleadservices.com": 1
+   },
+   "thirdPartyHosts": [
+    "www.googletagmanager.com",
+    "extend.vimeocdn.com",
+    "connect.facebook.net",
+    "ad.doubleclick.net",
+    "www.google.com",
+    "bat.bing.com",
+    "www.youtube.com",
+    "snap.licdn.com",
+    "www.clarity.ms",
+    "px.ads.linkedin.com",
+    "scripts.clarity.ms",
+    "www.google-analytics.com",
+    "www.facebook.com",
+    "www.linkedin.com",
+    "stats.g.doubleclick.net",
+    "analytics.google.com",
+    "px4.ads.linkedin.com",
+    "googleads.g.doubleclick.net",
+    "e.clarity.ms",
+    "w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws",
+    "c.clarity.ms",
+    "c.bing.com",
+    "www2.fairtradeamerica.org",
+    "www.googleadservices.com"
+   ],
+   "scripts": [
+    "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-dependencies.lc-a9dcac4698709ca8e1cbc88363cf0793-lc.min.js",
+    "https://www.fairtrade.net/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site.lc-ac3644ba081771355ed624ceae6202c6-lc.min.js",
+    "https://www.fairtrade.net/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js",
+    "https://www.fairtrade.net/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-P8D4TL3",
+    "https://extend.vimeocdn.com/ga/39276972.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://bat.bing.com/bat.js",
+    "https://www.youtube.com/iframe_api",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-VMDXPCV5VX&cx=c&gtm=4e6bb1",
+    "https://www.youtube.com/s/player/fad7e4e9/www-widgetapi.vflset/www-widgetapi.js",
+    "https://www.clarity.ms/tag/xckqx7jcj0",
+    "https://connect.facebook.net/signals/config/169777619252343?v=2.9.439&r=stable&domain=www.fairtrade.net&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2",
+    "https://www.googletagmanager.com/gtag/js?id=G-3WTYFTM10Z&cx=c&gtm=4e6bb1",
+    "https://bat.bing.com/p/action/187088229.js",
+    "https://scripts.clarity.ms/0.8.77/clarity.js",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-799581251&cx=c&gtm=4e6bb1",
+    "https://www.clarity.ms/tag/uet/187088229?insights=1",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/799581251/?random=1794612392824&cv=11&fst=1794612392824&bg=ffffff&guid=ON&async=1&gtm=45be6bb1z879091752za20gzb79091752zd79091752xeaxf1",
+    "https://www2.fairtradeamerica.org/pd.js",
+    "https://www2.fairtradeamerica.org/analytics?ver=3&visitor_id=&visitor_id_sign=&pi_opt_in=&campaign_id=null&account_id=534362&title=About&url=https%3A%2F%2Fwww.fairtrade.net%2Fus-en%2Fabout.html&referr",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-927991430&cx=c&gtm=4e6bb1"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.fairtrade.net",
+     "path": "/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/icons/sprite.svg",
+     "query": [
+      "version"
+     ],
+     "status": 200,
+     "contentType": "image/svg+xml",
+     "example": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/icons/sprite.svg"
+    },
+    {
+     "method": "GET",
+     "host": "www.fairtrade.net",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fairtrade.net/libs/granite/csrf/token.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect",
+    "POST px.ads.linkedin.com/wa/",
+    "POST www.google-analytics.com/g/collect",
+    "POST analytics.google.com/g/collect",
+    "POST www.google.com/rmkt/collect/799581251/",
+    "POST e.clarity.ms/collect",
+    "POST w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws/events",
+    "GET www.googleadservices.com/pagead/conversion/927991430/",
+    "POST googleads.g.doubleclick.net/pagead/viewthroughconversion/927991430/",
+    "GET www.google.com/pagead/1p-conversion/927991430/"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=1&ae=g&auid=550642337.1794612392&dt=About&en=page_view&dl=https%3A%2F%2Fwww.fairtrade.net%2Fus-en%2Fabout.html&scrsrc=www.googletagmanager.com&rnd=",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=550642337.1794612392&gtm=45He6bb1v79091752za200zd79091752xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+     "body": "H4sIAAAAAAAAA1WPS0vEMBSF/8tdJ06Sps1jNwuVwizEGdyISNrczgTTTG1SRAb/u3QUweXhcB7fBabgM9hnqVRdC/FCIPdzmMoTzjmcE1jOGGOVIVDCiGC5MrLhojJCCkbAn0cXElgYXJjL7DzeJCxAYJkjWDiVMmW72fxzN0ummDauOy/l5lTGCAQ+sMuh4D4ck4uP+L5gLq0HC0YpPUisKeNNRzVyT5XShmqjkQtkNfYGCEzuiLuz89eMUqzWjR+o1lVFpUFD9dAoKirGvB4GoYceCIR8mF3K0RX0YAcXMxKI4c79LMMq7oNL5UeMIfdgLzDlbl9cQbBUfq0tu5De0LdpO01/NeufQygRwcJ2BQUCJxzBpiVGAvnKeficVv9he3/7+tTu28Mv"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-VMDXPCV5VX&gtm=45je6bb1v9206467137za20ozb79091752zd79091752xf1&_p=1794612392043&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1636410476.1794612392&frm=0&ngs=1&",
+     "body": ""
+    },
+    {
+     "url": "https://w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws/events?cee=no",
+     "body": "{\"event_name\":\"PageView\",\"smart_setup\":{\"auto_web_details_data\":\"{\\\"page_description\\\":[{\\\"rid\\\":\\\"1489034923122466\\\",\\\"v\\\":[\\\"Over 2 million farmers and workers worldwide are Fairtrade certified\\\\n50% of the voting members at our General Assembly are Fairtrade farmers and workers.\\\\n2,500+ brands offer 36,000 Fairtrade certified products globally.\\\"]}],\\\"all_entity_images\\\":[{\\\"rid\\\":\\\"1295234352"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-3WTYFTM10Z&gtm=45je6bb1v868375366za20ozb79091752zd79091752xf1&_p=1794612392043&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=1636410476.17946123",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-5GQN3JQD6F&gtm=45je6bb1v868375366za20ozb79091752zd79091752xf1&_p=1794612392043&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1636410476.1794612392&frm=0&ngs=1&p",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/799581251/?random=1794612392824&cv=11&fst=1794612392824&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6bb1z879091752za20gzb79091752zd79091752xeaxf1&gcd=13l3l3l3l1l1&dma=0",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=0&ae=g&auid=550642337.1794612392&dt=About&tid=AW-799581251&dl=https%3A%2F%2Fwww.fairtrade.net%2Fus-en%2Fabout.html&scrsrc=www.googletagmanager.com&",
+     "body": ""
+    },
+    {
+     "url": "https://e.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�RMo�@\u0014�+�\u0012�\u0001���\u0005����VIzq�VZ!\u000b�\u0012\u0013\u0003vm��F�o��?�\u001e[�evvf\u0019��\u001bx�8\u0010Q\u001aY\u000bH(�d�p\\�\u001c���E\u0000B�e�{\u0005�z��\u001f�2^�\u001a��~\u0012Ǉ�!��f7��G�\u001f�q\u001f�>.��8D��k!G(`�\u001ce�\"i-P+#rt����d�B�\u0014)G�Q�FX�~xm*@\u0007E���^Tu�\u0011�T���\u001b2^g������\u0016_���\t�wg���T.m\u0016z)l���ò,�P\u0014�\u0012\u0015I�3϶�嗈<\u000e\u0007\u000f��M�\u0016��Dp��Cp���18��\"ѷ�t�m�7_�5Cl��T\u0012��}~|�Ǡm�>����m0[�6��ɤ��\u0015̋��5\u0017\u000b�H��o�\n\u001dL��\u001c3t���i�\u0017\u0019t@��C�u�M�:�\u0012\u001d���F����!��\u001fwE_�K\r\b���ؽ�IY�vb`с~f��\u001e!G�]�⛞\u001eg\f͕�\u001a\u0015�����,��l�"
+    },
+    {
+     "url": "https://e.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�ks\u001cI�%�W�R�4i�������h����Eۂ���\u0011��RYY0�$ѝ\u00008\u0000Ȫ��ǯ�s=\u001e\u0000Y-i�E\u001fdU\fdxD�ۯ�ǹ����i��\u001fw�UW�n�{Ѻ\u0017�u����������W����I�\u001e����������n/{��v\u001f��>=��\u001f~��\u0017�~�yxz��O��������t��������t{����M�?���\u0004�׸�\u001d�����o�����'��_?�i��ק����?��^�^P����^�^rٷ\u0018����{�����n�r�az:������K�\u0016�Rs������\"C��~~���\u001d���=�|�����\u0019\u000f�\u0016_�j���o\u001e���װ�\t�i�ǽ�%F��!y�ռ�o���|>���̕�}������w{�}���p>=M\u001fn������\u001d�ow������t|r��������\u0017�w�'w�9^����MO���݇~�\u001c"
+    },
+    {
+     "url": "https://e.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�X]o�6\u0014�+\u0001��%�\u0012?��\u000fj\u0013tA[\u0014ۊ�\u0018�@K��D�\u001c���\f��\u0003%�C�\u00160�%�,���9Խ���%�\u0007��r�p \u0003!\u0010D@H�A�\t\u0001����w�6��\b\u0010״j\u001e\u0010�����\u0006\u0001\u0001�^h���^��v�\r��4�Q�\u000e*�\u001d�*T�zゥ[�h\nH���Dp\"�`�\u0000��\u0018P\u0010/g���1�!�FܓY^�! S�\bqb\u0013��{\f\u0014TOz�.\u001e\u000elybӸe�\b(`k\u001e�E�����Ďh��1P@�'\"�dEG��G������m*J\u001bO��/p��l�I\f�\u0001c��\b�k6\u001a�h\"Nh�`}X�^��I�����)=�އ�\u000e�B\u001eC��\u0012K�\u001cL��M���.��c�<\u0003�\u0002��\u0000�c\fq�pg%\u0018C��6ey��\u0014&\t�^�\u0014DD��\b����\u0001��2��@�8p��(\u0006�1\bA��H�-\t�\f�t:\u0005��dN1��\u0015ŉ\u0000F\t����\u0011�"
+    }
+   ],
+   "textAtLoad": 2633,
+   "mainEmptyAtLoad": false
+  },
+  "/us-en/news.html": {
+   "url": "https://www.fairtrade.net/us-en/news.html",
+   "status": 200,
+   "host": "www.fairtrade.net",
+   "title": "News",
+   "forms": [
+    {
+     "name": "",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:input-name"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "US • EN Open or close the locale selector. The currently sel",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "dialog",
+      "heading": "Go to a local website",
+      "textLen": 704,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "US • EN Open or close the locale selector. The currently sel",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "dialog",
+      "heading": "Go to a local website",
+      "textLen": 704,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "US • EN Open or close the locale selector. The currently sel",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "dialog",
+      "heading": "Go to a local website",
+      "textLen": 704,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Go to a local website",
+     "textLen": 704,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [],
+    "switcher": [
+     "https://www.fairtrade.net/it-it/news.html",
+     "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+     "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+     "https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html",
+     "https://www.fairtrade.net/se-sv/aktuellt.html"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "push"
+    ],
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "version",
+     "push",
+     "getState",
+     "addEventListener",
+     "removeEventListener"
+    ],
+    "Granite": [
+     "HTTP",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "YT",
+    "Vimeo",
+    "clarity"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "TeaserGrid--grid",
+     "cards": 18,
+     "sameSite": 18,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 7,
+   "inlineFetch": true,
+   "mainText": 2547,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.fairtrade.net": 34,
+    "www.googletagmanager.com": 5,
+    "extend.vimeocdn.com": 1,
+    "connect.facebook.net": 2,
+    "bat.bing.com": 3,
+    "www.youtube.com": 2,
+    "www.google.com": 5,
+    "ad.doubleclick.net": 1,
+    "snap.licdn.com": 1,
+    "www.clarity.ms": 2,
+    "px.ads.linkedin.com": 4,
+    "www.google-analytics.com": 2,
+    "www.linkedin.com": 1,
+    "analytics.google.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "scripts.clarity.ms": 1,
+    "www.facebook.com": 1,
+    "px4.ads.linkedin.com": 1,
+    "googleads.g.doubleclick.net": 2,
+    "o.clarity.ms": 3,
+    "c.clarity.ms": 2,
+    "www2.fairtradeamerica.org": 2,
+    "w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws": 1,
+    "c.bing.com": 1,
+    "www.googleadservices.com": 1
+   },
+   "thirdPartyHosts": [
+    "www.googletagmanager.com",
+    "extend.vimeocdn.com",
+    "connect.facebook.net",
+    "bat.bing.com",
+    "www.youtube.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "snap.licdn.com",
+    "www.clarity.ms",
+    "px.ads.linkedin.com",
+    "www.google-analytics.com",
+    "www.linkedin.com",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "scripts.clarity.ms",
+    "www.facebook.com",
+    "px4.ads.linkedin.com",
+    "googleads.g.doubleclick.net",
+    "o.clarity.ms",
+    "c.clarity.ms",
+    "www2.fairtradeamerica.org",
+    "w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws",
+    "c.bing.com",
+    "www.googleadservices.com"
+   ],
+   "scripts": [
+    "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-dependencies.lc-a9dcac4698709ca8e1cbc88363cf0793-lc.min.js",
+    "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site.lc-ac3644ba081771355ed624ceae6202c6-lc.min.js",
+    "https://www.fairtrade.net/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://www.fairtrade.net/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js",
+    "https://www.fairtrade.net/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-P8D4TL3",
+    "https://extend.vimeocdn.com/ga/39276972.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://bat.bing.com/bat.js",
+    "https://www.youtube.com/iframe_api",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-VMDXPCV5VX&cx=c&gtm=4e6bc0h2",
+    "https://www.googletagmanager.com/gtag/js?id=G-3WTYFTM10Z&cx=c&gtm=4e6bc0h2",
+    "https://www.youtube.com/s/player/fad7e4e9/www-widgetapi.vflset/www-widgetapi.js",
+    "https://www.clarity.ms/tag/xckqx7jcj0",
+    "https://bat.bing.com/p/action/187088229.js",
+    "https://connect.facebook.net/signals/config/169777619252343?v=2.9.439&r=stable&domain=www.fairtrade.net&hme=1f127d11ce7bba675ee077e129c6ec7e07038113ad3e920301e60f2f865dc776&ex_m=119%2C243%2C172%2C27%2",
+    "https://scripts.clarity.ms/0.8.77/clarity.js",
+    "https://www.clarity.ms/tag/uet/187088229?insights=1",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-799581251&cx=c&gtm=4e6bc0h2",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/799581251/?random=1794612403832&cv=11&fst=1794612403832&bg=ffffff&guid=ON&async=1&gtm=45be6bc0h2z879091752za20gzb79091752zd79091752xeax",
+    "https://www2.fairtradeamerica.org/pd.js",
+    "https://www2.fairtradeamerica.org/analytics?ver=3&visitor_id=&visitor_id_sign=&pi_opt_in=&campaign_id=null&account_id=534362&title=News&url=https%3A%2F%2Fwww.fairtrade.net%2Fus-en%2Fnews.html&referrer",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-927991430&cx=c&gtm=4e6bc0h2"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.fairtrade.net",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fairtrade.net/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fairtrade.net",
+     "path": "/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/icons/sprite.svg",
+     "query": [
+      "version"
+     ],
+     "status": 200,
+     "contentType": "image/svg+xml",
+     "example": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/icons/sprite.svg"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST px.ads.linkedin.com/wa/",
+    "POST www.google-analytics.com/g/collect",
+    "POST analytics.google.com/g/collect",
+    "POST www.google.com/rmkt/collect/799581251/",
+    "POST o.clarity.ms/collect",
+    "POST w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws/events",
+    "GET www.googleadservices.com/pagead/conversion/927991430/",
+    "POST googleads.g.doubleclick.net/pagead/viewthroughconversion/927991430/",
+    "GET www.google.com/pagead/1p-conversion/927991430/"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=1&ae=g&auid=1614981146.1794612403&dt=News&en=page_view&dl=https%3A%2F%2Fwww.fairtrade.net%2Fus-en%2Fnews.html&scrsrc=www.googletagmanager.com&rnd=94",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1614981146.1794612403&gtm=45He6bc0h2v79091752za200zd79091752xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+     "body": "H4sIAAAAAAAAA1VPy0oDMRT9l7tObF7TmWTnQmVARGxxIyI3zR0bzKTjJKWI+O8yVQQ3Bw6H8/qEKYYC7sm0bdMo9cyg7OY41UeaSzxkcFIIIbRlUONI4GRrzVoqI7S2LYNwGDFmcDBgnOuMgS4yVWBwnBM42Nc6Fbda/VNXx8IprzKdysW+jgkYnMiXWGkTXzOmB3o/Uql9AAeaBm+8Ubzxg+a404F709ICCq01ylgEBhO+0u0Bw9mj1l52vu04ajtwM3jN/VoobmwwqmuQOmuAQSzbGXNJWCmAGzAVYpDiNf40w0JuIub6Q8ZYduA+YSp+U7ESOG6+lpTbmN8o9Plymv5ilj3bWBOBgzs6FWCwpxFcPqbEoJxvbj+mRb6/vLl6eew3/fb3R59L"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-VMDXPCV5VX&gtm=45je6bc0h2v9206467137za20ozb79091752zd79091752xf1&_p=1794612402986&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1015932855.1794612403&frm=0&ngs=",
+     "body": ""
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-3WTYFTM10Z&gtm=45je6bc0h2v868375366za20ozb79091752zd79091752xf1&_p=1794612402986&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=1015932855.179461",
+     "body": ""
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-5GQN3JQD6F&gtm=45je6bc0h2v868375366za20ozb79091752zd79091752xf1&_p=1794612402986&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1015932855.1794612403&frm=0&ngs=1",
+     "body": ""
+    },
+    {
+     "url": "https://w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws/events?cee=no",
+     "body": "{\"event_name\":\"PageView\",\"smart_setup\":{\"auto_web_details_data\":\"{\\\"all_entity_images\\\":[{\\\"rid\\\":\\\"1295234352033643\\\",\\\"v\\\":[\\\"https://www.fairtrade.net/content/dam/fairtrade/fairtrade-america/images/news/q2_2026/AEMMobile_Giveaway_4x3.png/_jcr_content/renditions/4x3_1280w.webp\\\",\\\"https://www.fairtrade.net/content/dam/fairtrade/fairtrade-america/images/news/q2_2026/AEMMobile_ChildLabor_4x3.png/_"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/799581251/?random=1794612403832&cv=11&fst=1794612403832&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6bc0h2z879091752za20gzb79091752zd79091752xeaxf1&gcd=13l3l3l3l1l1&dma",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=0&ae=g&auid=1614981146.1794612403&dt=News&tid=AW-799581251&dl=https%3A%2F%2Fwww.fairtrade.net%2Fus-en%2Fnews.html&scrsrc=www.googletagmanager.com&rn",
+     "body": ""
+    },
+    {
+     "url": "https://o.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�RMo�0\f�+\u0006O-�آ>����\u0015mwi�\r0�����i�d������>�N���A\u0017��=��w\bp�����9@B��\f¡|�zp�r)\u0000�9l�0\u0000\u0002��e���<>�\u0018�m�$��>���\u001b��\nq\u001b�d�OB��a�ǋa��\u001c���,��)��\u0002�0*��($\u001a\u0011/\u0004\u0003\u001ae��Q�R#���k�g@�v�xyض�?.�\u0005䘱[�\u0011f�0|k*�\f���VxQ�sOT��^\u0019_���T�,��tvu�\\nO0����/m\u0015tH�Dh�'�*��\bNO���@���@��F��=\u0017��=\\�}�\u0018��INP�D�J�Gh���?\u0014��6y�\u0019�n^�ժHL,��/D��\u001d�CjgV�G���*|\u000e��fH�r��������\u001b�V�S�>��is\u001eM\u0017�f\u001d\u00122i,�DwE]t�Q\u00029\u0012f���\n3�\u0014�ܙ�\fB;y��2\u00063X��v�|����\f"
+    },
+    {
+     "url": "https://o.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003��\\Yv&�*\u0007a������k�{\u000f\b��RO6��f4\u001a\u0002f��8�\f���̤2��*���ŏ�'1�o�s�dV[�\fx~\u0014�<q.�~]�o�������Rv{�KH{�~�����������n����S|z��w�\u001f�����^���v\u001f��>=������'�~�yxz�����������x����G������q��v���\u0007\ry�m/��\u0017�W�kܫ�^�T\\�^�\"y\r��~w7}��0=\u001dw��G��U[�{��5���\u0001e�{�K�~�|\nv׼�o��}>��ݗ\u001f�?hI{���\u000f�o���݇��\u000f�����v��>\u001c\u001f���v��\u001d��'�~:\u001c������x��>�������{7=�w7w\u001f�#R������w���������}��=ޯ�\u0010�p�\u001en�~q��gE�!�kw}����x8�\u001c��?���Gw������f���"
+    },
+    {
+     "url": "https://o.clarity.ms/collect",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�mo�H\u0010ǿJ�R�\rf���\u0013/h��EwUu��� \u0014-�\u0006�\u0018\u0003��IN��Ok ��)U\b��,Hh���\u001f��3�?Ȣ�\u001e\n�\u0010\u0001\u0003\u001a\nЌ3@��f�\b��k�\u0000%�)/K\u0004���n|=@@\u0000�o4*�iq�nWU\u0015\\�$/s\u0013� �e{^�l��lU\u0004�r��> ��z�P\u0012\u0001\u0004\u0003\u0003\f\nc@�\u0018\u0014iqS��!@\u0001\u001b_\u0015��#\u0012\u0001�C/\f7�D���t^ήG.�����\\�W��u8�u8�'_����u��⚪\"_����\u0019]�o\"P ��f1�r�\u000e�j\u001d�q\u001d.+��5\u001f�\\�P�|\u0018-D�\fW�A8\u0011\fP���4�iu��\u0007�!�ʻx�s�9\u0010\u0001\"T�+�\u0000��ܢګ�ƻ�\u0012\u000fݡb\u001b���\u001f��^��$�g�Э\u0015un\u0015��3{�VX�\u0007��L\u001e��䏹)\u000f\u001fs3�\u001fss�\u001eq;`9\u0010 �c\u0010X���1��[��!���?��Ӓ( ������\u001b����"
+    }
+   ],
+   "textAtLoad": 2547,
+   "mainEmptyAtLoad": false
+  },
+  "/mt-en/bring-fairtrade-to-your-market.html": {
+   "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+   "status": 200,
+   "host": "www.fairtrade.net",
+   "title": "Bring Fairtrade to your market",
+   "forms": [
+    {
+     "name": "",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:input-name"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "CEE_Home_Contact_Form-form",
+     "action": "https://www.fairtrade.net/content/fairtrade/mt/en/home/_jcr_content/root/container/formbuilder.forms.json",
+     "method": "post",
+     "role": "",
+     "inChrome": false,
+     "fields": 4,
+     "signature": [
+      "text:First and last name of CEE contact",
+      "text:Email CEE contact",
+      "textarea:CEE Message",
+      "textarea:g-recaptcha-response"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "MT • EN Open or close the locale selector. The currently sel",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "dialog",
+      "heading": "Go to a local website",
+      "textLen": 704,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "MT • EN Open or close the locale selector. The currently sel",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "dialog",
+      "heading": "Go to a local website",
+      "textLen": 704,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "MT • EN Open or close the locale selector. The currently sel",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "dialog",
+      "heading": "Go to a local website",
+      "textLen": 704,
+      "hasForm": true,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Go to a local website",
+     "textLen": 704,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LflW_ArAAAAACicXeEUYVbXxkeHkmRV5wEG9EGd&co=aHR0cHM6Ly93d3cuZmFpcnRyYWRlLm5ldDo0NDM.&hl=en&v=0lEGiwO4Qwx5R9ArxUy0mBpf&theme=light&size=normal&anchor",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=0lEGiwO4Qwx5R9ArxUy0mBpf&k=6LflW_ArAAAAACicXeEUYVbXxkeHkmRV5wEG9EGd&bft=0dAFcWeA6KnEwHu5CngO2rkPhKIbP85FAnD5GNwxWL-0zYA005u3tdWHgF1MqfWnQYgQ9dOmB3g",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LflW_ArAAAAACicXeEUYVbXxkeHkmRV5wEG9EGd&co=aHR0cHM6Ly93d3cuZmFpcnRyYWRlLm5ldDo0NDM.&hl=en&v=0lEGiwO4Qwx5R9ArxUy0mBpf&theme=light&size=normal&anchor-ms=20000&execute-ms=30000&ovv=CADq00gF&cb=ccdrczhclm0l",
+     "title": "reCAPTCHA",
+     "w": 304,
+     "h": 78
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://www.google.com/recaptcha/api2/bframe?hl=en&v=0lEGiwO4Qwx5R9ArxUy0mBpf&k=6LflW_ArAAAAACicXeEUYVbXxkeHkmRV5wEG9EGd&bft=0dAFcWeA6KnEwHu5CngO2rkPhKIbP85FAnD5GNwxWL-0zYA005u3tdWHgF1MqfWnQYgQ9dOmB3gd8TuycE7-KbicM09uSSa9UZcw",
+     "title": "recaptcha challenge expires in two minutes",
+     "w": 300,
+     "h": 150
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": [
+     "https://www.fairtrade.net/en/get-involved/news.html",
+     "https://www.fairtrade.net/en/about/opportunities.html",
+     "https://www.fairtrade.net/en/get-involved/library.html",
+     "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/standards/fairtrade-minimum-price-and-premium-information.html",
+     "https://www.fairtrade.net/en/about/overview-of-fairtrade-producers.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "version",
+     "push",
+     "getState",
+     "addEventListener",
+     "removeEventListener"
+    ],
+    "Granite": [
+     "HTTP",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "grecaptcha"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 4,
+   "inlineFetch": true,
+   "mainText": 5638,
+   "domAddedAfterLoad": 3,
+   "hosts": {
+    "www.fairtrade.net": 22,
+    "www.google.com": 4,
+    "www.gstatic.com": 7,
+    "fonts.gstatic.com": 2
+   },
+   "thirdPartyHosts": [
+    "www.google.com",
+    "www.gstatic.com",
+    "fonts.gstatic.com"
+   ],
+   "scripts": [
+    "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-dependencies.lc-a9dcac4698709ca8e1cbc88363cf0793-lc.min.js",
+    "https://www.fairtrade.net/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site.lc-ac3644ba081771355ed624ceae6202c6-lc.min.js",
+    "https://www.fairtrade.net/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js",
+    "https://www.fairtrade.net/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js",
+    "https://www.google.com/recaptcha/api.js",
+    "https://www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/recaptcha__en.js",
+    "https://www.google.com/recaptcha/api2/webworker.js?hl=en&v=0lEGiwO4Qwx5R9ArxUy0mBpf"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.fairtrade.net",
+     "path": "/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/icons/sprite.svg",
+     "query": [
+      "version"
+     ],
+     "status": 200,
+     "contentType": "image/svg+xml",
+     "example": "https://www.fairtrade.net/etc.clientlibs/fairtrade/clientlibs/clientlib-site/resources/icons/sprite.svg"
+    },
+    {
+     "method": "GET",
+     "host": "www.fairtrade.net",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fairtrade.net/libs/granite/csrf/token.json"
+    }
+   ],
+   "thirdPartyXhr": [],
+   "postBodies": [],
+   "textAtLoad": 5638,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-cms-app-settings-object-adobedatalayer",
+   "class": "A",
+   "feature": "CMS / app settings object adobeDataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/de-de.html",
+    "/us-en/about.html",
+    "/us-en/news.html",
+    "/mt-en/bring-fairtrade-to-your-market.html"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-granite",
+   "class": "A",
+   "feature": "CMS / app settings object Granite",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/de-de.html",
+    "/us-en/about.html",
+    "/us-en/news.html",
+    "/mt-en/bring-fairtrade-to-your-market.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/",
+    "/de-de.html",
+    "/us-en/about.html",
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/de-de.html",
+    "/us-en/about.html",
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-px-ads-linkedin-com",
+   "class": "A",
+   "feature": "unknown third-party host px.ads.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "px.ads.linkedin.com"
+   ],
+   "pages": [
+    "/",
+    "/us-en/about.html",
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-w2-c9dea2a81a9e4d3c963d5887958afe",
+   "class": "A",
+   "feature": "unknown third-party host w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws",
+   "hint": "inspect",
+   "evidence": [
+    "w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws"
+   ],
+   "pages": [
+    "/",
+    "/us-en/about.html",
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "d-first-party-data-file-get-libs-granite-csrf-token-json",
+   "class": "D",
+   "feature": "first-party data file GET /libs/granite/csrf/token.json",
+   "api": {
+    "method": "GET",
+    "path": "/libs/granite/csrf/token.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /libs/granite/csrf/token.json → 200"
+   ],
+   "pages": [
+    "/",
+    "/de-de.html",
+    "/us-en/about.html",
+    "/us-en/news.html",
+    "/mt-en/bring-fairtrade-to-your-market.html"
+   ],
+   "reach": {
+    "pages": 100,
+    "of": 100
+   }
+  },
+  {
+   "id": "f-form-filteredteasergrid-select-no-action-js-wired-2-fields",
+   "class": "F",
+   "feature": "form \"FilteredTeaserGrid--select\" → no action (JS-wired) (2 fields)",
+   "signature": [
+    "radio:select-name-teasergrid",
+    "radio:select-name-teasergrid"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "radio:select-name-teasergrid,radio:select-name-teasergrid"
+   ],
+   "pages": [
+    "/de-de.html"
+   ]
+  },
+  {
+   "id": "f-form-protection-captcha-antibot",
+   "class": "F",
+   "feature": "form protection: captcha / antibot",
+   "role": "form protection: captcha / antibot",
+   "hint": "forms",
+   "evidence": [
+    "www.google.com",
+    "www.gstatic.com"
+   ],
+   "pages": [
+    "/mt-en/bring-fairtrade-to-your-market.html"
+   ]
+  },
+  {
+   "id": "f-form-cee-home-contact-form-form-origin-content-fairtrade-m",
+   "class": "F",
+   "feature": "form \"CEE_Home_Contact_Form-form\" → origin /content/fairtrade/mt/en/home/_jcr_content/root/container/formbuilder.forms.json (4 fields)",
+   "signature": [
+    "text:First and last name of CEE contact",
+    "text:Email CEE contact",
+    "textarea:CEE Message",
+    "textarea:g-recaptcha-response"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "text:First and last name of CEE contact,text:Email CEE contact,textarea:CEE Message,textarea:g-recaptcha-response"
+   ],
+   "pages": [
+    "/mt-en/bring-fairtrade-to-your-market.html"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-mt-en-ro-ro-si-sl",
+   "class": "I18N",
+   "feature": "locale variants mt-en,ro-ro,si-sl",
+   "hint": "locale",
+   "evidence": [
+    "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+    "https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html"
+   ],
+   "pages": [
+    "/",
+    "/de-de.html"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-en-ca-en-jp-jp-mt-en-ro-ro",
+   "class": "I18N",
+   "feature": "locale variants en,ca-en,jp-jp,mt-en,ro-ro",
+   "hint": "locale",
+   "evidence": [
+    "https://www.fairtrade.net/en/about.html",
+    "https://www.fairtrade.net/ca-en/about.html",
+    "https://www.fairtrade.net/jp-jp/about.html"
+   ],
+   "pages": [
+    "/us-en/about.html"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-it-it-mt-en-ro-ro-si-sl-se-sv",
+   "class": "I18N",
+   "feature": "locale variants it-it,mt-en,ro-ro,si-sl,se-sv",
+   "hint": "locale",
+   "evidence": [
+    "https://www.fairtrade.net/it-it/news.html",
+    "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+    "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html"
+   ],
+   "pages": [
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-en-en-en-en-en",
+   "class": "I18N",
+   "feature": "locale variants en,en,en,en,en",
+   "hint": "locale",
+   "evidence": [
+    "https://www.fairtrade.net/en/get-involved/news.html",
+    "https://www.fairtrade.net/en/about/opportunities.html",
+    "https://www.fairtrade.net/en/get-involved/library.html"
+   ],
+   "pages": [
+    "/mt-en/bring-fairtrade-to-your-market.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-swiper-wrapper-5-cards",
+   "class": "L",
+   "feature": "listing candidate swiper-wrapper (5 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de-de.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-teasergrid-grid-3-cards",
+   "class": "L",
+   "feature": "listing candidate TeaserGrid--grid (3 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de-de.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-teasergrid-grid-18-cards",
+   "class": "L",
+   "feature": "listing candidate TeaserGrid--grid (18 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-dialog-form",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → dialog:form",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "US • EN Open or close the locale selector. The currently sel",
+    "MT • EN Open or close the locale selector. The currently sel"
+   ],
+   "pages": [
+    "/",
+    "/us-en/about.html",
+    "/us-en/news.html",
+    "/mt-en/bring-fairtrade-to-your-market.html"
+   ],
+   "reach": {
+    "pages": 322,
+    "of": 100
+   }
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-dialog-form-listbox-form",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup → dialog:form/listbox:form",
+   "hint": "modal",
+   "evidence": [
+    "DE • DE Öffnen oder schließen Sie den Sprachauswahl. Die der",
+    "Alle"
+   ],
+   "pages": [
+    "/de-de.html"
+   ],
+   "reach": {
+    "pages": 322,
+    "of": 100
+   }
+  },
+  {
+   "id": "s-site-search-form-js-submitted",
+   "class": "S",
+   "feature": "site search form → (JS-submitted)",
+   "hint": "search",
+   "evidence": [
+    "search:input-name"
+   ],
+   "pages": [
+    "/",
+    "/de-de.html",
+    "/us-en/about.html",
+    "/us-en/news.html",
+    "/mt-en/bring-fairtrade-to-your-market.html"
+   ],
+   "reach": {
+    "pages": 0,
+    "of": 100
+   }
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/",
+    "/de-de.html",
+    "/us-en/about.html",
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "connect.facebook.net",
+    "ad.doubleclick.net",
+    "bat.bing.com",
+    "snap.licdn.com",
+    "stats.g.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "analytics.tiktok.com",
+    "ct.pinterest.com"
+   ],
+   "pages": [
+    "/",
+    "/de-de.html",
+    "/us-en/about.html",
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "analytics.google.com",
+    "www.google-analytics.com",
+    "www.googleadservices.com"
+   ],
+   "pages": [
+    "/",
+    "/de-de.html",
+    "/us-en/about.html",
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pages": [
+    "/",
+    "/de-de.html",
+    "/us-en/about.html",
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "t-analytics-session-replay",
+   "class": "T",
+   "feature": "analytics: session replay",
+   "role": "analytics: session replay",
+   "hint": "tags",
+   "evidence": [
+    "www.clarity.ms",
+    "scripts.clarity.ms",
+    "o.clarity.ms",
+    "c.clarity.ms",
+    "e.clarity.ms"
+   ],
+   "pages": [
+    "/",
+    "/us-en/about.html",
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host www.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.linkedin.com"
+   ],
+   "pages": [
+    "/",
+    "/us-en/about.html",
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-px4-ads-linkedin-com",
+   "class": "T",
+   "feature": "unknown third-party host px4.ads.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "px4.ads.linkedin.com"
+   ],
+   "pages": [
+    "/",
+    "/us-en/about.html",
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-c-bing-com",
+   "class": "T",
+   "feature": "unknown third-party host c.bing.com",
+   "hint": "inspect",
+   "evidence": [
+    "c.bing.com"
+   ],
+   "pages": [
+    "/",
+    "/us-en/about.html",
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www2-fairtradeamerica-org",
+   "class": "T",
+   "feature": "unknown third-party host www2.fairtradeamerica.org",
+   "hint": "inspect",
+   "evidence": [
+    "www2.fairtradeamerica.org"
+   ],
+   "pages": [
+    "/",
+    "/us-en/about.html",
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "t-consent-usercentrics",
+   "class": "T",
+   "feature": "consent: Usercentrics",
+   "role": "consent: Usercentrics",
+   "hint": "tags",
+   "evidence": [
+    "app.usercentrics.eu",
+    "api.usercentrics.eu",
+    "aggregator.service.usercentrics.eu",
+    "uct.service.usercentrics.eu",
+    "consent-api.service.consent.usercentrics.eu"
+   ],
+   "pages": [
+    "/de-de.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-s-pinimg-com",
+   "class": "T",
+   "feature": "unknown third-party host s.pinimg.com",
+   "hint": "inspect",
+   "evidence": [
+    "s.pinimg.com"
+   ],
+   "pages": [
+    "/de-de.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-sc-static-net",
+   "class": "T",
+   "feature": "unknown third-party host sc-static.net",
+   "hint": "inspect",
+   "evidence": [
+    "sc-static.net"
+   ],
+   "pages": [
+    "/de-de.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-tr-snapchat-com",
+   "class": "T",
+   "feature": "unknown third-party host tr.snapchat.com",
+   "hint": "inspect",
+   "evidence": [
+    "tr.snapchat.com"
+   ],
+   "pages": [
+    "/de-de.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-pixel-tapad-com",
+   "class": "T",
+   "feature": "unknown third-party host pixel.tapad.com",
+   "hint": "inspect",
+   "evidence": [
+    "pixel.tapad.com"
+   ],
+   "pages": [
+    "/de-de.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-svrdntfctn-com",
+   "class": "T",
+   "feature": "unknown third-party host svrdntfctn.com",
+   "hint": "inspect",
+   "evidence": [
+    "svrdntfctn.com"
+   ],
+   "pages": [
+    "/de-de.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-tr6-snapchat-com",
+   "class": "T",
+   "feature": "unknown third-party host tr6.snapchat.com",
+   "hint": "inspect",
+   "evidence": [
+    "tr6.snapchat.com"
+   ],
+   "pages": [
+    "/de-de.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-analytics-ipv6-tiktokw-us",
+   "class": "T",
+   "feature": "unknown third-party host analytics-ipv6.tiktokw.us",
+   "hint": "inspect",
+   "evidence": [
+    "analytics-ipv6.tiktokw.us"
+   ],
+   "pages": [
+    "/de-de.html"
+   ]
+  },
+  {
+   "id": "v-video-vimeo",
+   "class": "V",
+   "feature": "video: Vimeo",
+   "role": "video: Vimeo",
+   "hint": "media",
+   "evidence": [
+    "extend.vimeocdn.com"
+   ],
+   "pages": [
+    "/",
+    "/us-en/about.html",
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "v-video-youtube",
+   "class": "V",
+   "feature": "video: YouTube",
+   "role": "video: YouTube",
+   "hint": "media",
+   "evidence": [
+    "www.youtube.com"
+   ],
+   "pages": [
+    "/",
+    "/us-en/about.html",
+    "/us-en/news.html"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "0×0"
+   ],
+   "pages": [
+    "/mt-en/bring-fairtrade-to-your-market.html"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 100,
+  "of": 100,
+  "endpoints": {
+   "GET www.fairtrade.net/libs/granite/csrf/token.json": 100,
+   "GET api.usercentrics.eu/settings/LZgfjfWbKiQzoG/latest/languages.json": 1,
+   "GET api.usercentrics.eu/settings/LZgfjfWbKiQzoG/latest/en.json": 1,
+   "GET api.usercentrics.eu/translations/translations-en.json": 3,
+   "GET aggregator.service.usercentrics.eu/aggregate/en": 3,
+   "POST consent-api.service.consent.usercentrics.eu/consent/uw/{n}": 17,
+   "POST widget.taggbox.com/cdn-cgi/rum": 2,
+   "GET googleads.g.doubleclick.net/pagead/id": 5,
+   "GET api.taggbox.com/embed/theme": 2,
+   "POST widget.taggbox.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/f8df4d4a0cd6/0.5199756662345765:1794600331:bSkXGUWZ6WbYyrZMowQmEDqbKXt8WrpamsCgJsISxS4/{hash}": 1,
+   "GET api.taggbox.com/embed/reviewhub": 2,
+   "GET api.usercentrics.eu/settings/wP-2UcXE6Am12G/latest/languages.json": 1,
+   "GET api.taggbox.com/embed/posts": 2,
+   "GET api.usercentrics.eu/settings/wP-2UcXE6Am12G/latest/de.json": 1,
+   "POST api.taggbox.com/embed/log-uri": 2,
+   "GET api.usercentrics.eu/translations/translations-de.json": 2,
+   "POST jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT": 5,
+   "GET aggregator.service.usercentrics.eu/aggregate/de": 2,
+   "POST www.google-analytics.com/g/collect": 51,
+   "POST pagead2.googlesyndication.com/ccm/collect": 8,
+   "POST www.youtube.com/youtubei/v1/log_event": 5,
+   "POST api.taggbox.com/embed/log-action": 1,
+   "GET www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg": 2,
+   "GET api.usercentrics.eu/settings/x4jX_GUI2UKJuN/latest/languages.json": 2,
+   "GET api.usercentrics.eu/settings/x4jX_GUI2UKJuN/latest/fr.json": 1,
+   "GET api.usercentrics.eu/translations/translations-fr.json": 2,
+   "GET aggregator.service.usercentrics.eu/aggregate/fr": 2,
+   "GET api.usercentrics.eu/settings/x4jX_GUI2UKJuN/latest/nl.json": 1,
+   "GET api.usercentrics.eu/translations/translations-nl.json": 2,
+   "GET aggregator.service.usercentrics.eu/aggregate/nl": 2,
+   "GET v1.api.service.cmp.usercentrics.eu/latest/core/zPYguvxvrOT_eB": 2,
+   "GET api.usercentrics.eu/settings/wP-2UcXE6Am12G/31.2.44/en.json": 1,
+   "GET v1.api.service.cmp.usercentrics.eu/latest/{n}/cmp/en/GDPR/zPYguvxvrOT_eB/24.2.31/24.2.31": 1,
+   "GET api.usercentrics.eu/settings/x4jX_GUI2UKJuN/26.2.40/en.json": 1,
+   "GET v1.api.service.cmp.usercentrics.eu/latest/core/BCmQKjBD8EQikM": 2,
+   "GET api.usercentrics.eu/settings/zQE9-NUEUsz1TC/19.5.43/en.json": 1,
+   "GET v1.api.service.cmp.usercentrics.eu/latest/{n}/cmp/de/GDPR/BCmQKjBD8EQikM/37.1.45/37.1.45": 1,
+   "POST yf-b498ef1790e74b69af7f2475cece9e0e.ecs.us-west-2.on.aws/events": 2,
+   "GET api.usercentrics.eu/settings/7MLwREADAHaBAJ/12.1.20/en.json": 1,
+   "GET v1.api.service.cmp.usercentrics.eu/latest/{n}/cmp/fr/GDPR/BCmQKjBD8EQikM/37.1.45/37.1.45": 1,
+   "GET api.usercentrics.eu/settings/lV6MBy4S36YZ05/latest/languages.json": 1,
+   "GET api.usercentrics.eu/settings/lV6MBy4S36YZ05/latest/de.json": 1,
+   "GET api.usercentrics.eu/settings/eFjo_1PKCmgDC9/latest/languages.json": 1,
+   "GET api.usercentrics.eu/settings/eFjo_1PKCmgDC9/latest/en.json": 1,
+   "POST www.google.com/ccm/collect": 76,
+   "POST www.google-analytics.com/j/collect": 2,
+   "POST stats.g.doubleclick.net/j/collect": 2,
+   "POST px.ads.linkedin.com/wa/": 77,
+   "POST analytics.google.com/g/collect": 40,
+   "POST www.googleadservices.com/ccm/conversion/{n}/": 2,
+   "GET www.googleadservices.com/pagead/conversion/{n}/": 2,
+   "GET api.usercentrics.eu/settings/S5mbKYF4C6TsW4/latest/languages.json": 1,
+   "GET api.usercentrics.eu/settings/S5mbKYF4C6TsW4/latest/en.json": 1,
+   "POST www.google.com/rmkt/collect/{n}/": 74,
+   "POST s.clarity.ms/collect": 74,
+   "POST w2-c9dea2a81a9e4d3c963d5887958afeb5.ecs.eu-west-1.on.aws/events": 74,
+   "GET api.usercentrics.eu/settings/UHC3eMTAmbI7ZG/latest/languages.json": 1,
+   "GET api.usercentrics.eu/settings/UHC3eMTAmbI7ZG/latest/it.json": 1,
+   "GET api.usercentrics.eu/translations/translations-it.json": 1,
+   "GET aggregator.service.usercentrics.eu/aggregate/it": 1,
+   "GET nam.veta.naver.com/nac/{n}": 1,
+   "GET cloud.tagbox.com/react-app/media/reviewhub-lang-obj.json": 1,
+   "GET api.usercentrics.eu/settings/bb88FzT_CarBE4/latest/languages.json": 1,
+   "GET api.usercentrics.eu/settings/bb88FzT_CarBE4/latest/fr.json": 1,
+   "GET ga2.getresponse.com/index.php": 1,
+   "POST pagead2.googlesyndication.com/measurement/conversion": 1,
+   "GET api.usercentrics.eu/settings/d37-al1QlJURtP/latest/languages.json": 1,
+   "GET api.usercentrics.eu/settings/d37-al1QlJURtP/latest/nl.json": 1,
+   "GET api.usercentrics.eu/settings/zQE9-NUEUsz1TC/latest/languages.json": 1,
+   "GET api.usercentrics.eu/settings/zQE9-NUEUsz1TC/latest/no.json": 1,
+   "GET api.usercentrics.eu/translations/translations-no.json": 1,
+   "GET aggregator.service.usercentrics.eu/aggregate/no": 1,
+   "GET api.usercentrics.eu/settings/7MLwREADAHaBAJ/latest/languages.json": 1,
+   "GET api.usercentrics.eu/settings/7MLwREADAHaBAJ/latest/pl.json": 1,
+   "GET api.usercentrics.eu/translations/translations-pl.json": 1,
+   "GET aggregator.service.usercentrics.eu/aggregate/pl": 1,
+   "POST pagead2.googlesyndication.com/pagead/conversion/{n}/": 2,
+   "GET api.usercentrics.eu/settings/QXUrvDGREMArJF/latest/languages.json": 1,
+   "GET api.usercentrics.eu/settings/QXUrvDGREMArJF/latest/sv.json": 1,
+   "GET api.usercentrics.eu/translations/translations-sv.json": 1,
+   "GET aggregator.service.usercentrics.eu/aggregate/sv": 1,
+   "POST player.vimeo.com/cdn-cgi/challenge-platform/h/b/precursor/f8df4d4a0cd6/0.2927278605736654:1794600331:Zk-SnP7ykngs2kkWMUqYR47DRAUVTKv3AjyyP2PrGS0/{hash}": 3,
+   "GET v1.api.service.cmp.usercentrics.eu/latest/core/DmhS8ByF9yPUbT": 1,
+   "GET vod-adaptive-ak.vimeocdn.com/exp=1794607891~acl=%2F{uuid}%2Fpsid%3D205463b6ec36a7e7b52f9239d3fb7daca4843dfa1794604291%2F%2A~hmac=4631b6bb8ee0c73f114ac76ab0cbd0c963b9390d0630735c21d3c4dec81bdd03/{uuid}/psid=205463b6ec36a7e7b52f9239d3fb7daca4843dfa1794604291/v2/playlist/av/primary/sub/332221839-en-x-autogen/prot/cHI9NTQwJnFzcj0x/playlist.m3u8": 1,
+   "POST vimeo.com/flarepoint/orion/v3/identity/settings": 1,
+   "GET api.usercentrics.eu/settings/QXUrvDGREMArJF/23.1.23/en.json": 1,
+   "GET v1.api.service.cmp.usercentrics.eu/latest/{n}/cmp/en/GDPR/DmhS8ByF9yPUbT/8.1.20/8.1.20": 1,
+   "POST ad.doubleclick.net/ccm/s/collect": 12,
+   "GET www.gstatic.com/_/freebird/_/js/k=freebird.v.en.Eu2DyB54Nnc.O/am=AAAAgAE/d=0/rs=AMjVe6jCmGqnTum1kdji7mHTsKKt1sCkIA/m=sy1a,vGOnYd,sya,IZT63,sy8,sy9,YYmHzb,vfuNJf,MpJwZc,n73qwf,sy2,ws9Tlc,cEt90b,sy7,KUM7Z,syf,syg,sye,syi,sy4,syh,sy10,sy13,sy14,sy11,sy12,siKnQd,sy1e,sy47,sy4k,sy1d,sy1f,sy6l,sy3a,sy3b,L1AAkb,sy2a,sy6k,sy2b,O6y8ed,aW3pY,sy6m,I6YDgd,T8YtQb,sy3g,sy3j,V3dDOb,sy4b,sy4e,sy6r,sy6q,sy4c,sy6o,OShpD,sy5h,sy6t,sy6v,sy6w,sy6y,sy6u,sy6x,sy6p,sy6s,sy6z,J8mJTc,SLqN2,gkf10d,j2YlP,syk,syo,sym,syn,sys,syw,syx,syp,sy6,syv,yxTchf,sy3,sy5,xQtZb,qddgKe,syq,wR5FRb,pXdRYb,iFQyKf,syd,syc,syj,YNjGDd,syl,syr,PrPYRd,syt,hc6Ubd,sy15,SpsfSb,dIoSBb,sy17,sy16,sy18,sy19,sy1b,zbML3c,zr1jrb,EmZ2Bf,syy,syz,Uas9Hd,sy4p,sy9f,WO9ee,sy3d,sy3c,sy3f,sy3h,sy3i,A4UTCb,sya3,owcnme,CP1oW,sy3p,sy3n,sy3q,sy58,sy20,sy2f,sya6,sy2l,sy21,sy2h,sy2m,sya4,sya5,syc0,sy2d,sy2p,sybz,qTnoBf,NJ1rfe,mzzZzc,sy1z,rCcCxc,sy2k,sy2n,sy2o,sya8,sybx,syc1,gJzDyc,sy2u,sy29,CHCSlb,syc2,syc3,fmklff,i5dxUd,m9oV,RAnnUd,sy3l,sy3m,sy3o,pxq3x,IvDHfc,sy32,sy34,sy35,sy33,sy77,sy7b,sy76,sy79,sy7f,sy7k,sy7j,sy82,Sk9apb,sy3v,sy3u,sy3w,sy3x,sy43,sy44,sy1c,sy3r,sy3s,sy3t,sy3y,sy3z,sy40,sy41,sy42,fgj8Rb,sy3k,VXdfxd,N5Lqpc,sy75,syb2,syb4,sy8r,syb6,syb7,syb8,syb9": 1,
+   "GET www.gstatic.com/_/freebird/_/js/k=freebird.v.en.Eu2DyB54Nnc.O/am=AAAAgAE/d=0/rs=AMjVe6jCmGqnTum1kdji7mHTsKKt1sCkIA/m=Xhpexc,Q91hve,sy8l,sy8m,sy6d,sy86,sy72,sy8n,sy8o,sy8j,sy8p,sy8q,sy8s,sy8h,mRfQQ,sybb,syba,CFa0o,szrus,mvo1oc,ENNBBf,sy1g,sy1q,sy1v,uu7UOe,QvB8bb,bCfhJc,sy7q,u9ZRK,pItcJd,yZuGp,sy23,sy1k,syab,etBPYb,i5H9N,SU9Rsf,sy1j,sy1m,sy1u,syac,sy4i,PHUIyb,qNG0Fc,syad,syae,syaf,syah,sy5z,sy1i,sya9,ywOR5c,syaj,syan,EcW08c,wg1P6b,syag,syai,syak,syal,syam,t8tqF,syaa,soHxf,sy65,sy7a,sy7n,sy6g,sy89,sy8b,sy7d,sy7i,sy88,sy8a,sy91,sy98,sy45,sy5y,sy8e,sy95,sy9e,sy9d,p2tbsc,nV4ih,sy9c,LxALBf,syaq,syar,sy9l,sy9o,syap,syas,vofJp,SM1lmd,QwQO1b,sy7s,sy8c,sy94,sy38,sy5t,sy7h,sy93,sy97,sy99,sy92,sy7e,sy90,QMSdQb,X16vkb,WdhPgc,Vnjw0c,sy48,sy49,sy46,sy4a,Ibqgte,ok0nye,Hzqecd,Vp87Bf,JCrucd,DhgO0d,oZECf,sy2z,sy30,zG2TEe,syb5,syat,fvFQfe,CNqcN,sbHRWb,sybc,TOfxwf,sy22,sybh,sy8u,sy8v,sy8y,sybe,sybi,sybj,sybn,sybp,syca,sycb,A2m8uc,syc4,syc5,sy1r,sy1s,syc6,syc7,sy4q,syc8,syc9,cNHZjb,lzHmAf,sy31,sy36,sy37,sy39,jjSbr,sybd,yUS4Lc,v4y9Mc,KOZzeb,KFVhZe,sy5k,sy7t,sy8f,xKXrob,sy5j,sy6c,sy7o,sy7u,sy8x,sy96,DPwS9e,sybr,sybs,sybv,sybq,sybu,sy8t,sybt,riEgMd,sycu,sycv,lSvzH,oCiKKc,lWjoT,sW52Ae,syb3,sybf,sybk,sybm,sybo,sybl,RGrRJf,OkF2xb,sy7p,xmYr4,ID6c7,sycc,rmdjlf": 1,
+   "GET www.gstatic.com/_/freebird/_/js/k=freebird.v.en.Eu2DyB54Nnc.O/am=AAAAgAE/d=0/rs=AMjVe6jCmGqnTum1kdji7mHTsKKt1sCkIA/m=sybg,sWGJ4b,sy4y,sy50,sy9q,sy9r,sy9p,sy9s,sy9t,EGNJFf,iSvg6e,sy9u,uY3Nvd": 1,
+   "POST play.google.com/log": 1,
+   "POST docs.google.com/forms/d/e/1FAIpQLSdGJ2AGdigo98e6RbL1ZdYz37O17XxlDTebXdo0PlinL3Vgcg/naLogImpressions": 1,
+   "POST docs.google.com/forms/d/e/1FAIpQLSdGJ2AGdigo98e6RbL1ZdYz37O17XxlDTebXdo0PlinL3Vgcg/font/getmetadata": 1,
+   "POST s.infogram.com/t2": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 5,
+  "triggerPages": {
+   "aria-haspopup": 322
+  }
+ }
+}

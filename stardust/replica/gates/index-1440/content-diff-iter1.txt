@@ -1,0 +1,29 @@
+
+Content diff @ 1440px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 53 text nodes — 12 headings, 0 eyebrows, 11 CTAs, 30 body; 12 img
+  build: 53 text nodes — 12 headings, 0 eyebrows, 11 CTAs, 30 body; 12 img
+  editable texts (outermost h*/p/ul/ol): source 19 / build 19
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 18 / build 13
+root "header"
+  source: 264 text nodes — 0 headings, 0 eyebrows, 166 CTAs, 98 body; 1 img
+  build: 264 text nodes — 0 headings, 0 eyebrows, 166 CTAs, 98 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 21 / build 21
+  attributes (placeholder/aria-label/title): source 5 / build 6; icons: source 186 / build 183
+root "footer"
+  source: 16 text nodes — 0 headings, 0 eyebrows, 12 CTAs, 4 body; 0 img
+  build: 16 text nodes — 0 headings, 0 eyebrows, 12 CTAs, 4 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 16 / build 16
+
+Findings: 9 (3 structural 🔴)
+Tiers: looks-same 🔴 3 · nothing-lost 🟡 0 · accepted 🟢 0 (owner 0, auto 0) · advisory 6
+  🔴 MISSING ICON [header]: source inline svg #chevron-left (24×24) at "button#1" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source inline svg #chevron-right (24×24) at "button#2" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source inline svg #globe (0×0) at "us • en open or close the locale selecto" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 EXTRA ARIA-LABEL [header]: build <input> aria-label="Search" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

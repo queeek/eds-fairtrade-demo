@@ -1,0 +1,3574 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:prototype",
+    "writtenAt": "2026-11-13T23:22:42Z",
+    "stardustVersion": "0.38.3"
+  },
+  "site": {
+    "originUrl": "https://www.fairtrade.net/",
+    "deployUrl": "https://main--63f9f24b--aemcoder.aem.page/",
+    "extractedAt": "2026-11-13T21:19:22.789Z",
+    "pageCap": null,
+    "totalDiscovered": 100,
+    "crawled": 100,
+    "captureGaps": []
+  },
+  "direction": {
+    "resolvedAt": "2026-11-13T22:01:28.048Z",
+    "phrase": "replica (preserve mode, hands-off)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim"
+  },
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-13T21:19:22.789Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.fairtrade.net/",
+      "title": "Fairtrade America - the Future is Fair",
+      "type": "landing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:10:37.073Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-13T22:31:01Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T22:31:01Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "de-de-html",
+      "url": "https://www.fairtrade.net/de-de.html",
+      "title": "Für eine gerechtere Weltwirtschaft | Fairtrade Deutschland",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:10:39.180Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-de-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "maxhavelaarfrance-fr-html",
+      "url": "https://www.fairtrade.net/maxhavelaarfrance-fr.html",
+      "title": "Max Havelaar France",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:10:40.676Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/maxhavelaarfrance-fr-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "jp-jp-html",
+      "url": "https://www.fairtrade.net/jp-jp.html",
+      "title": "フェアトレード・ジャパン｜Fairtrade Japan｜公式サイト",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:10:45.125Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/jp-jp-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-html",
+      "url": "https://www.fairtrade.net/us-en.html",
+      "title": "Fairtrade America - the Future is Fair",
+      "type": "landing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:10:46.782Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "en-html",
+      "url": "https://www.fairtrade.net/en.html",
+      "title": "English",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:10:48.094Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/en-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "africa-en-html",
+      "url": "https://www.fairtrade.net/africa-en.html",
+      "title": "English",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:10:51.742Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/africa-en-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "at-de-html",
+      "url": "https://www.fairtrade.net/at-de.html",
+      "title": "FAIRTRADE Österreich",
+      "type": "locale-home",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:10:54.911Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T23:22:42Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/at-de-html.json",
+      "prototypePath": "stardust/prototypes/at-de-html-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "be-fr-html",
+      "url": "https://www.fairtrade.net/be-fr.html",
+      "title": "Fairtrade Belgium",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:10:56.298Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/be-fr-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "be-nl-html",
+      "url": "https://www.fairtrade.net/be-nl.html",
+      "title": "Fairtrade Belgium",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:10:59.659Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/be-nl-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-en-html",
+      "url": "https://www.fairtrade.net/ca-en.html",
+      "title": "Fairtrade Canada | Canada's Trusted Fair Trade Certification",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:02.636Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-en-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ca-fr-html",
+      "url": "https://www.fairtrade.net/ca-fr.html",
+      "title": "Fairtrade Canada | La certification de confiance Canadienne",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:03.890Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ca-fr-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "iberica-es-html",
+      "url": "https://www.fairtrade.net/iberica-es.html",
+      "title": "Fairtrade Ibérica España | Un futuro más justo es posible",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:06.842Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/iberica-es-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "iberica-pt-html",
+      "url": "https://www.fairtrade.net/iberica-pt.html",
+      "title": "Fairtrade Ibérica Portugal | Um futuro mais justo é possível",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:10.439Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/iberica-pt-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ie-en-html",
+      "url": "https://www.fairtrade.net/ie-en.html",
+      "title": "Fairtrade Ireland",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:11.645Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ie-en-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "it-it-html",
+      "url": "https://www.fairtrade.net/it-it.html",
+      "title": "Fairtrade Italia | Marchio etico per la sostenibilità e diritti umani",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:15.912Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/it-it-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "kr-ko-html",
+      "url": "https://www.fairtrade.net/kr-ko.html",
+      "title": "Fairtrade Korea",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:19.162Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/kr-ko-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "napp-en-html",
+      "url": "https://www.fairtrade.net/napp-en.html",
+      "title": "English",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:20.594Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/napp-en-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "nl-nl-html",
+      "url": "https://www.fairtrade.net/nl-nl.html",
+      "title": "Fairtrade Nederland",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:23.025Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/nl-nl-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "no-no-html",
+      "url": "https://www.fairtrade.net/no-no.html",
+      "title": "Fairtrade Norge",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:27.427Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/no-no-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "pl-pl-html",
+      "url": "https://www.fairtrade.net/pl-pl.html",
+      "title": "Fundacja Fairtrade Polska",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:29.722Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/pl-pl-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "se-sv-html",
+      "url": "https://www.fairtrade.net/se-sv.html",
+      "title": "Fairtrade Sverige",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:31.320Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/se-sv-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ch-de-html",
+      "url": "https://www.fairtrade.net/ch-de.html",
+      "title": "Fairtrade Max Havelaar Schweiz",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:37.023Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ch-de-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "ch-fr-html",
+      "url": "https://www.fairtrade.net/ch-fr.html",
+      "title": "Fairtrade Max Havelaar Suisse",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:40.111Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ch-fr-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "uk-en-html",
+      "url": "https://www.fairtrade.net/uk-en.html",
+      "title": "Fairtrade Foundation",
+      "type": "locale-home",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:39.208Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/uk-en-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-about-html",
+      "url": "https://www.fairtrade.net/us-en/about.html",
+      "title": "About",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:46.631Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-about-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-news-html",
+      "url": "https://www.fairtrade.net/us-en/news.html",
+      "title": "News",
+      "type": "listing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:48.269Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-13T22:42:57Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T22:42:57Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-news-html.json",
+      "prototypePath": "stardust/prototypes/us-en-news-html-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-contact-html",
+      "url": "https://www.fairtrade.net/us-en/contact.html",
+      "title": "Contact",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:49.256Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-contact-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "mt-en-bring-fairtrade-to-your-market-html",
+      "url": "https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html",
+      "title": "Bring Fairtrade to your market",
+      "type": "form",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:56.557Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T23:13:46Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/mt-en-bring-fairtrade-to-your-market-html.json",
+      "prototypePath": "stardust/prototypes/mt-en-bring-fairtrade-to-your-market-html-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+      "url": "https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+      "title": "Aduceți Fairtrade pe piața dumneavoastră",
+      "type": "form",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:56.558Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "si-sl-prinesite-fairtrade-na-vas-trg-html",
+      "url": "https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html",
+      "title": "Prinesite Fairtrade na vaš trg",
+      "type": "form",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:11:57.935Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/si-sl-prinesite-fairtrade-na-vas-trg-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade.html",
+      "title": "Why Fairtrade",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:05.153Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-products-html",
+      "url": "https://www.fairtrade.net/us-en/products.html",
+      "title": "Fairtrade products",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:06.010Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-products-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-for-business-html",
+      "url": "https://www.fairtrade.net/us-en/for-business.html",
+      "title": "For Business",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:06.652Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-for-business-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-for-media-html",
+      "url": "https://www.fairtrade.net/us-en/for-media.html",
+      "title": "For Media",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:14.374Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-for-media-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-terms-of-use-html",
+      "url": "https://www.fairtrade.net/us-en/terms-of-use.html",
+      "title": "Terms of Use",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:13.354Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-terms-of-use-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-privacy-policy-html",
+      "url": "https://www.fairtrade.net/us-en/privacy-policy.html",
+      "title": "Privacy Policy",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:15.048Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-privacy-policy-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-fairtrade-newsletter-html",
+      "url": "https://www.fairtrade.net/us-en/fairtrade-newsletter.html",
+      "title": "Fairtrade Newsletter",
+      "type": "form",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:21.992Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-fairtrade-newsletter-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do.html",
+      "title": "What we do",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:22.831Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-what-we-do-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it.html",
+      "title": "Why we do it",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:23.630Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-why-we-do-it-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it.html",
+      "title": "How we do it",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:31.534Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-how-we-do-it-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/impact.html",
+      "title": "Impact",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:31.534Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-impact-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-products-all-products-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products.html",
+      "title": "Fairtrade products",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:32.590Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-products-all-products-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified.html",
+      "title": "Benefits of being certified",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:39.223Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-for-business-benefits-of-being-certified-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-for-business-get-certified-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/get-certified.html",
+      "title": "Get Certified",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:39.927Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-for-business-get-certified-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-for-business-for-partners-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/for-partners.html",
+      "title": "For Partners",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:40.692Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-for-business-for-partners-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-for-business-for-retailers-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/for-retailers.html",
+      "title": "For Retailers",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:46.794Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-for-business-for-retailers-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-get-involved-get-involved-html",
+      "url": "https://www.fairtrade.net/us-en/get-involved/get-involved.html",
+      "title": "Get Involved",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:47.213Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-get-involved-get-involved-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-get-involved-how-to-shop-sustainably-html",
+      "url": "https://www.fairtrade.net/us-en/get-involved/how-to-shop-sustainably.html",
+      "title": "How to Shop Sustainably",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:47.939Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-get-involved-how-to-shop-sustainably-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-get-involved-where-to-buy-html",
+      "url": "https://www.fairtrade.net/us-en/get-involved/where-to-buy.html",
+      "title": "Where to buy",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:54.836Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-get-involved-where-to-buy-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-get-involved-activism-html",
+      "url": "https://www.fairtrade.net/us-en/get-involved/activism.html",
+      "title": "Activism",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:55.699Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-get-involved-activism-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-about-careers-html",
+      "url": "https://www.fairtrade.net/us-en/about/careers.html",
+      "title": "Careers",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:12:55.393Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-about-careers-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html",
+      "url": "https://www.fairtrade.net/us-en/news/when-communities-lead--the-cooperative-model-at-work-in-madagasc.html",
+      "title": "When Communities Lead: The Cooperative Model at Work in Madagascar",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:03.847Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html",
+      "url": "https://www.fairtrade.net/us-en/news/silence-isn-t-a-strategy--why--greenshouting--matters-for-busine.html",
+      "title": "Silence isn’t a strategy: Why “greenshouting” matters for business growth",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:03.839Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+      "title": "What is Fairtrade?",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:04.834Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-what-we-do-what-is-fairtrade-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-how-fairtrade-works-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html",
+      "title": "How Fairtrade works",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:11.255Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-what-we-do-how-fairtrade-works-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-key-benefits-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/key-benefits.html",
+      "title": "Key benefits of Fairtrade",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:12.386Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-what-we-do-key-benefits-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-theory-of-change-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html",
+      "title": "Theory of Change",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:13.048Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-what-we-do-theory-of-change-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-what-we-do-the-fairtrade-difference-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/the-fairtrade-difference.html",
+      "title": "The Fairtrade Difference",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:18.939Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-what-we-do-the-fairtrade-difference-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-child-protection-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+      "title": "Child Protection",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:20.020Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-why-we-do-it-child-protection-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html",
+      "title": "Climate and the environment",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:21.104Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html",
+      "title": "Decent Livelihoods",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:27.498Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-deforestation-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/deforestation.html",
+      "title": "Deforestation",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:28.055Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-why-we-do-it-deforestation-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-fairtrade-and-the-sustainable-development-goals-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html",
+      "title": "Fairtrade and the Sustainable Development Goals",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:28.693Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-why-we-do-it-fairtrade-and-the-sustainable-development-goals-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+      "title": "Gender Equality",
+      "type": "static",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:35.313Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-13T23:13:46Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-why-we-do-it-gender-equality-html.json",
+      "prototypePath": "stardust/prototypes/us-en-why-fairtrade-why-we-do-it-gender-equality-html-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-hredd-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/hredd.html",
+      "title": "HREDD",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:36.159Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-why-we-do-it-hredd-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html",
+      "title": "Smallholder Farmers",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:37.015Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-why-we-do-it-workers-rights-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/workers-rights.html",
+      "title": "Workers Rights",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:43.093Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-why-we-do-it-workers-rights-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html",
+      "title": "How does the label work",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:44.305Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-how-fairtrade-certification-works-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html",
+      "title": "How Fairtrade certification works",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:44.308Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-how-we-do-it-how-fairtrade-certification-works-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html",
+      "title": "Fairtrade products and ingredients",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:50.927Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+      "title": "Assuring integrity in checking compliance",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:52.107Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html",
+      "title": "Traceability in Fairtrade supply chains",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:52.105Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-standards-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html",
+      "title": "Fairtrade standards",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:58.942Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-how-we-do-it-fairtrade-standards-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-how-we-do-it-our-projects-and-programs-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs.html",
+      "title": "Our projects and programs",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:13:59.558Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-how-we-do-it-our-projects-and-programs-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-impact-stories-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/impact/impact-stories.html",
+      "title": "Impact stories",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:01.276Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-impact-impact-stories-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-key-figures-at-a-glance-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/impact/key-figures-at-a-glance.html",
+      "title": "Key figures at a glance",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:07.684Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-impact-key-figures-at-a-glance-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-how-we-measure-impact-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/impact/how-we-measure-impact.html",
+      "title": "How we measure impact",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:08.165Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-impact-how-we-measure-impact-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-why-fairtrade-impact-reports-trends-html",
+      "url": "https://www.fairtrade.net/us-en/why-fairtrade/impact/reports-trends.html",
+      "title": "Reports & Trends",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:08.853Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-why-fairtrade-impact-reports-trends-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-products-all-products-bananas-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/bananas.html",
+      "title": "Bananas",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:15.288Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-products-all-products-bananas-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-products-all-products-cocoa-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/cocoa.html",
+      "title": "Cocoa",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:16.166Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-products-all-products-cocoa-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-products-all-products-chocolate-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/chocolate.html",
+      "title": "Chocolate",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:16.890Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-products-all-products-chocolate-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-products-all-products-coffee-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/coffee.html",
+      "title": "Coffee",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:23.857Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-products-all-products-coffee-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-products-all-products-cotton-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/cotton.html",
+      "title": "Cotton",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:23.858Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-products-all-products-cotton-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-products-all-products-herbs-spices-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/herbs-spices.html",
+      "title": "Herbs and spices",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:24.811Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-products-all-products-herbs-spices-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-products-all-products-nuts-oils-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/nuts-oils.html",
+      "title": "Nuts and oils",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:31.520Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-products-all-products-nuts-oils-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-products-all-products-sugar-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/sugar.html",
+      "title": "Sugar",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:32.307Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-products-all-products-sugar-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-products-all-products-wine-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/wine.html",
+      "title": "Wine",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:33.077Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-products-all-products-wine-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-products-all-products-gold-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/gold.html",
+      "title": "Gold",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:39.497Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-products-all-products-gold-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-products-all-products-fruits-juices-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/fruits-juices.html",
+      "title": "Fruits and juices",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:40.747Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-products-all-products-fruits-juices-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-products-all-products-honey-html",
+      "url": "https://www.fairtrade.net/us-en/products/all-products/honey.html",
+      "title": "Honey",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:40.752Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-products-all-products-honey-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-business-success-stories-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/business-success-stories.html",
+      "title": "Business success stories",
+      "type": "listing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:47.614Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-for-business-benefits-of-being-certified-business-success-stories-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-business-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-business.html",
+      "title": "Benefits for business",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:48.143Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-for-business-benefits-of-being-certified-benefits-for-business-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-producers.html",
+      "title": "Benefits for producers",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:48.951Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-for-business-benefits-of-being-certified-benefits-for-producers-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-for-business-benefits-of-being-certified-consumer-trends1-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/consumer-trends1.html",
+      "title": "Consumer Trends",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:55.486Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-for-business-benefits-of-being-certified-consumer-trends1-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-for-business-get-certified-the-certification-process-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/get-certified/the-certification-process.html",
+      "title": "The Certification Process",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:56.329Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-for-business-get-certified-the-certification-process-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-for-business-get-certified-resources-support-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/get-certified/resources-support.html",
+      "title": "Resources & Support",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:14:57.043Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-for-business-get-certified-resources-support-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-for-business-get-certified-intro-to-fairtrade-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/get-certified/intro-to-fairtrade.html",
+      "title": "Intro to Fairtrade",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:15:03.241Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-for-business-get-certified-intro-to-fairtrade-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-for-business-get-certified-get-started-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/get-certified/get-started.html",
+      "title": "Get Started",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:15:03.555Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-for-business-get-certified-get-started-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "us-en-for-business-for-partners-communicate-your-commitment-html",
+      "url": "https://www.fairtrade.net/us-en/for-business/for-partners/communicate-your-commitment.html",
+      "title": "Marketing the Movement | marketing the movement",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-13T21:15:04.814Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-13T22:01:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/us-en-for-business-for-partners-communicate-your-commitment-html.json",
+      "prototypePath": null,
+      "migratedPath": null
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-14T08:10:01Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de-de.html",
+        "outputPath": "de-de.html",
+        "slug": "de-de-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/maxhavelaarfrance-fr.html",
+        "outputPath": "maxhavelaarfrance-fr.html",
+        "slug": "maxhavelaarfrance-fr-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/jp-jp.html",
+        "outputPath": "jp-jp.html",
+        "slug": "jp-jp-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en.html",
+        "outputPath": "us-en.html",
+        "slug": "us-en-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/en.html",
+        "outputPath": "en.html",
+        "slug": "en-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/africa-en.html",
+        "outputPath": "africa-en.html",
+        "slug": "africa-en-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/at-de.html",
+        "outputPath": "at-de.html",
+        "slug": "at-de-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/be-fr.html",
+        "outputPath": "be-fr.html",
+        "slug": "be-fr-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/be-nl.html",
+        "outputPath": "be-nl.html",
+        "slug": "be-nl-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca-en.html",
+        "outputPath": "ca-en.html",
+        "slug": "ca-en-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ca-fr.html",
+        "outputPath": "ca-fr.html",
+        "slug": "ca-fr-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/iberica-es.html",
+        "outputPath": "iberica-es.html",
+        "slug": "iberica-es-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/iberica-pt.html",
+        "outputPath": "iberica-pt.html",
+        "slug": "iberica-pt-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ie-en.html",
+        "outputPath": "ie-en.html",
+        "slug": "ie-en-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/it-it.html",
+        "outputPath": "it-it.html",
+        "slug": "it-it-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/kr-ko.html",
+        "outputPath": "kr-ko.html",
+        "slug": "kr-ko-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/napp-en.html",
+        "outputPath": "napp-en.html",
+        "slug": "napp-en-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/nl-nl.html",
+        "outputPath": "nl-nl.html",
+        "slug": "nl-nl-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/no-no.html",
+        "outputPath": "no-no.html",
+        "slug": "no-no-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/pl-pl.html",
+        "outputPath": "pl-pl.html",
+        "slug": "pl-pl-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/se-sv.html",
+        "outputPath": "se-sv.html",
+        "slug": "se-sv-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ch-de.html",
+        "outputPath": "ch-de.html",
+        "slug": "ch-de-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ch-fr.html",
+        "outputPath": "ch-fr.html",
+        "slug": "ch-fr-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/uk-en.html",
+        "outputPath": "uk-en.html",
+        "slug": "uk-en-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/about.html",
+        "outputPath": "us-en/about.html",
+        "slug": "us-en-about-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/news.html",
+        "outputPath": "us-en/news.html",
+        "slug": "us-en-news-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/contact.html",
+        "outputPath": "us-en/contact.html",
+        "slug": "us-en-contact-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/mt-en/bring-fairtrade-to-your-market.html",
+        "outputPath": "mt-en/bring-fairtrade-to-your-market.html",
+        "slug": "mt-en-bring-fairtrade-to-your-market-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+        "outputPath": "ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+        "slug": "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/si-sl/prinesite-fairtrade-na-vas-trg.html",
+        "outputPath": "si-sl/prinesite-fairtrade-na-vas-trg.html",
+        "slug": "si-sl-prinesite-fairtrade-na-vas-trg-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade.html",
+        "outputPath": "us-en/why-fairtrade.html",
+        "slug": "us-en-why-fairtrade-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/products.html",
+        "outputPath": "us-en/products.html",
+        "slug": "us-en-products-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/for-business.html",
+        "outputPath": "us-en/for-business.html",
+        "slug": "us-en-for-business-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/for-media.html",
+        "outputPath": "us-en/for-media.html",
+        "slug": "us-en-for-media-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/terms-of-use.html",
+        "outputPath": "us-en/terms-of-use.html",
+        "slug": "us-en-terms-of-use-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/privacy-policy.html",
+        "outputPath": "us-en/privacy-policy.html",
+        "slug": "us-en-privacy-policy-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/fairtrade-newsletter.html",
+        "outputPath": "us-en/fairtrade-newsletter.html",
+        "slug": "us-en-fairtrade-newsletter-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/what-we-do.html",
+        "outputPath": "us-en/why-fairtrade/what-we-do.html",
+        "slug": "us-en-why-fairtrade-what-we-do-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/why-we-do-it.html",
+        "outputPath": "us-en/why-fairtrade/why-we-do-it.html",
+        "slug": "us-en-why-fairtrade-why-we-do-it-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/how-we-do-it.html",
+        "outputPath": "us-en/why-fairtrade/how-we-do-it.html",
+        "slug": "us-en-why-fairtrade-how-we-do-it-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/impact.html",
+        "outputPath": "us-en/why-fairtrade/impact.html",
+        "slug": "us-en-why-fairtrade-impact-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/products/all-products.html",
+        "outputPath": "us-en/products/all-products.html",
+        "slug": "us-en-products-all-products-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/for-business/benefits-of-being-certified.html",
+        "outputPath": "us-en/for-business/benefits-of-being-certified.html",
+        "slug": "us-en-for-business-benefits-of-being-certified-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/for-business/get-certified.html",
+        "outputPath": "us-en/for-business/get-certified.html",
+        "slug": "us-en-for-business-get-certified-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/for-business/for-partners.html",
+        "outputPath": "us-en/for-business/for-partners.html",
+        "slug": "us-en-for-business-for-partners-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/for-business/for-retailers.html",
+        "outputPath": "us-en/for-business/for-retailers.html",
+        "slug": "us-en-for-business-for-retailers-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/get-involved/get-involved.html",
+        "outputPath": "us-en/get-involved/get-involved.html",
+        "slug": "us-en-get-involved-get-involved-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/get-involved/how-to-shop-sustainably.html",
+        "outputPath": "us-en/get-involved/how-to-shop-sustainably.html",
+        "slug": "us-en-get-involved-how-to-shop-sustainably-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/get-involved/where-to-buy.html",
+        "outputPath": "us-en/get-involved/where-to-buy.html",
+        "slug": "us-en-get-involved-where-to-buy-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/get-involved/activism.html",
+        "outputPath": "us-en/get-involved/activism.html",
+        "slug": "us-en-get-involved-activism-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/about/careers.html",
+        "outputPath": "us-en/about/careers.html",
+        "slug": "us-en-about-careers-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/news/when-communities-lead--the-cooperative-model-at-work-in-madagasc.html",
+        "outputPath": "us-en/news/when-communities-lead--the-cooperative-model-at-work-in-madagasc.html",
+        "slug": "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/news/silence-isn-t-a-strategy--why--greenshouting--matters-for-busine.html",
+        "outputPath": "us-en/news/silence-isn-t-a-strategy--why--greenshouting--matters-for-busine.html",
+        "slug": "us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+        "outputPath": "us-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+        "slug": "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html",
+        "outputPath": "us-en/why-fairtrade/what-we-do/how-fairtrade-works.html",
+        "slug": "us-en-why-fairtrade-what-we-do-how-fairtrade-works-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/what-we-do/key-benefits.html",
+        "outputPath": "us-en/why-fairtrade/what-we-do/key-benefits.html",
+        "slug": "us-en-why-fairtrade-what-we-do-key-benefits-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/what-we-do/theory-of-change.html",
+        "outputPath": "us-en/why-fairtrade/what-we-do/theory-of-change.html",
+        "slug": "us-en-why-fairtrade-what-we-do-theory-of-change-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/what-we-do/the-fairtrade-difference.html",
+        "outputPath": "us-en/why-fairtrade/what-we-do/the-fairtrade-difference.html",
+        "slug": "us-en-why-fairtrade-what-we-do-the-fairtrade-difference-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+        "outputPath": "us-en/why-fairtrade/why-we-do-it/child-protection.html",
+        "slug": "us-en-why-fairtrade-why-we-do-it-child-protection-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html",
+        "outputPath": "us-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html",
+        "slug": "us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html",
+        "outputPath": "us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html",
+        "slug": "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/why-we-do-it/deforestation.html",
+        "outputPath": "us-en/why-fairtrade/why-we-do-it/deforestation.html",
+        "slug": "us-en-why-fairtrade-why-we-do-it-deforestation-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html",
+        "outputPath": "us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html",
+        "slug": "us-en-why-fairtrade-why-we-do-it-fairtrade-and-the-sustainable-development-goals-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+        "outputPath": "us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+        "slug": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/why-we-do-it/hredd.html",
+        "outputPath": "us-en/why-fairtrade/why-we-do-it/hredd.html",
+        "slug": "us-en-why-fairtrade-why-we-do-it-hredd-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html",
+        "outputPath": "us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html",
+        "slug": "us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/why-we-do-it/workers-rights.html",
+        "outputPath": "us-en/why-fairtrade/why-we-do-it/workers-rights.html",
+        "slug": "us-en-why-fairtrade-why-we-do-it-workers-rights-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html",
+        "outputPath": "us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html",
+        "slug": "us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html",
+        "outputPath": "us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html",
+        "slug": "us-en-why-fairtrade-how-we-do-it-how-fairtrade-certification-works-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html",
+        "outputPath": "us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html",
+        "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+        "outputPath": "us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+        "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html",
+        "outputPath": "us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html",
+        "slug": "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html",
+        "outputPath": "us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html",
+        "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-standards-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs.html",
+        "outputPath": "us-en/why-fairtrade/how-we-do-it/our-projects-and-programs.html",
+        "slug": "us-en-why-fairtrade-how-we-do-it-our-projects-and-programs-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/impact/impact-stories.html",
+        "outputPath": "us-en/why-fairtrade/impact/impact-stories.html",
+        "slug": "us-en-why-fairtrade-impact-impact-stories-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/impact/key-figures-at-a-glance.html",
+        "outputPath": "us-en/why-fairtrade/impact/key-figures-at-a-glance.html",
+        "slug": "us-en-why-fairtrade-impact-key-figures-at-a-glance-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/impact/how-we-measure-impact.html",
+        "outputPath": "us-en/why-fairtrade/impact/how-we-measure-impact.html",
+        "slug": "us-en-why-fairtrade-impact-how-we-measure-impact-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/why-fairtrade/impact/reports-trends.html",
+        "outputPath": "us-en/why-fairtrade/impact/reports-trends.html",
+        "slug": "us-en-why-fairtrade-impact-reports-trends-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/products/all-products/bananas.html",
+        "outputPath": "us-en/products/all-products/bananas.html",
+        "slug": "us-en-products-all-products-bananas-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/products/all-products/cocoa.html",
+        "outputPath": "us-en/products/all-products/cocoa.html",
+        "slug": "us-en-products-all-products-cocoa-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/products/all-products/chocolate.html",
+        "outputPath": "us-en/products/all-products/chocolate.html",
+        "slug": "us-en-products-all-products-chocolate-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/products/all-products/coffee.html",
+        "outputPath": "us-en/products/all-products/coffee.html",
+        "slug": "us-en-products-all-products-coffee-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/products/all-products/cotton.html",
+        "outputPath": "us-en/products/all-products/cotton.html",
+        "slug": "us-en-products-all-products-cotton-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/products/all-products/herbs-spices.html",
+        "outputPath": "us-en/products/all-products/herbs-spices.html",
+        "slug": "us-en-products-all-products-herbs-spices-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/products/all-products/nuts-oils.html",
+        "outputPath": "us-en/products/all-products/nuts-oils.html",
+        "slug": "us-en-products-all-products-nuts-oils-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/products/all-products/sugar.html",
+        "outputPath": "us-en/products/all-products/sugar.html",
+        "slug": "us-en-products-all-products-sugar-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/products/all-products/wine.html",
+        "outputPath": "us-en/products/all-products/wine.html",
+        "slug": "us-en-products-all-products-wine-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/products/all-products/gold.html",
+        "outputPath": "us-en/products/all-products/gold.html",
+        "slug": "us-en-products-all-products-gold-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/products/all-products/fruits-juices.html",
+        "outputPath": "us-en/products/all-products/fruits-juices.html",
+        "slug": "us-en-products-all-products-fruits-juices-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/products/all-products/honey.html",
+        "outputPath": "us-en/products/all-products/honey.html",
+        "slug": "us-en-products-all-products-honey-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/for-business/benefits-of-being-certified/business-success-stories.html",
+        "outputPath": "us-en/for-business/benefits-of-being-certified/business-success-stories.html",
+        "slug": "us-en-for-business-benefits-of-being-certified-business-success-stories-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/for-business/benefits-of-being-certified/benefits-for-business.html",
+        "outputPath": "us-en/for-business/benefits-of-being-certified/benefits-for-business.html",
+        "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-business-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/for-business/benefits-of-being-certified/benefits-for-producers.html",
+        "outputPath": "us-en/for-business/benefits-of-being-certified/benefits-for-producers.html",
+        "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/for-business/benefits-of-being-certified/consumer-trends1.html",
+        "outputPath": "us-en/for-business/benefits-of-being-certified/consumer-trends1.html",
+        "slug": "us-en-for-business-benefits-of-being-certified-consumer-trends1-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/for-business/get-certified/the-certification-process.html",
+        "outputPath": "us-en/for-business/get-certified/the-certification-process.html",
+        "slug": "us-en-for-business-get-certified-the-certification-process-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/for-business/get-certified/resources-support.html",
+        "outputPath": "us-en/for-business/get-certified/resources-support.html",
+        "slug": "us-en-for-business-get-certified-resources-support-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/for-business/get-certified/intro-to-fairtrade.html",
+        "outputPath": "us-en/for-business/get-certified/intro-to-fairtrade.html",
+        "slug": "us-en-for-business-get-certified-intro-to-fairtrade-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/for-business/get-certified/get-started.html",
+        "outputPath": "us-en/for-business/get-certified/get-started.html",
+        "slug": "us-en-for-business-get-certified-get-started-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/us-en/for-business/for-partners/communicate-your-commitment.html",
+        "outputPath": "us-en/for-business/for-partners/communicate-your-commitment.html",
+        "slug": "us-en-for-business-for-partners-communicate-your-commitment-html",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 184,
+    "bundledAssets": [
+      "at-de-html.css",
+      "at-de-html.js",
+      "canon.css",
+      "canon.js",
+      "favicon.svg",
+      "fonts/alegreya-sans-latin-100-italic.woff2",
+      "fonts/alegreya-sans-latin-100-normal.woff2",
+      "fonts/alegreya-sans-latin-300-italic.woff2",
+      "fonts/alegreya-sans-latin-300-normal.woff2",
+      "fonts/alegreya-sans-latin-400-italic.woff2",
+      "fonts/alegreya-sans-latin-400-normal.woff2",
+      "fonts/alegreya-sans-latin-500-italic.woff2",
+      "fonts/alegreya-sans-latin-500-normal.woff2",
+      "fonts/alegreya-sans-latin-700-italic.woff2",
+      "fonts/alegreya-sans-latin-700-normal.woff2",
+      "fonts/alegreya-sans-latin-800-italic.woff2",
+      "fonts/alegreya-sans-latin-800-normal.woff2",
+      "fonts/alegreya-sans-latin-900-italic.woff2",
+      "fonts/alegreya-sans-latin-900-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-100-italic.woff2",
+      "fonts/alegreya-sans-latin-ext-100-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-300-italic.woff2",
+      "fonts/alegreya-sans-latin-ext-300-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-400-italic.woff2",
+      "fonts/alegreya-sans-latin-ext-400-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-500-italic.woff2",
+      "fonts/alegreya-sans-latin-ext-500-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-700-italic.woff2",
+      "fonts/alegreya-sans-latin-ext-700-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-800-italic.woff2",
+      "fonts/alegreya-sans-latin-ext-800-normal.woff2",
+      "fonts/alegreya-sans-latin-ext-900-italic.woff2",
+      "fonts/alegreya-sans-latin-ext-900-normal.woff2",
+      "fonts/exo-2-latin-ext-wght-italic.woff2",
+      "fonts/exo-2-latin-ext-wght-normal.woff2",
+      "fonts/exo-2-latin-wght-italic.woff2",
+      "fonts/exo-2-latin-wght-normal.woff2",
+      "img/1x1-fairtrade-österreich.png",
+      "img/FBM_NEUTRAL_VERT_RGB_POS.png",
+      "img/Fairtrade_America_Logo_Vert_80x80.png",
+      "img/at-hero-blog-d-1280.webp",
+      "img/at-hero-blog-d-768.webp",
+      "img/at-hero-blog-m-768.webp",
+      "img/at-hero-fairtalk-d-1280.webp",
+      "img/at-hero-fairtalk-d-768.webp",
+      "img/at-hero-fairtalk-m-768.webp",
+      "img/at-hero-gewinn-d-1280.webp",
+      "img/at-hero-gewinn-d-768.webp",
+      "img/at-hero-gewinn-m-768.webp",
+      "img/at-hero-kakao-d-1280.webp",
+      "img/at-hero-kakao-d-768.webp",
+      "img/at-hero-kakao-m-768.webp",
+      "img/at-hero-newsletter-d-1280.webp",
+      "img/at-hero-newsletter-d-768.webp",
+      "img/at-hero-newsletter-m-768.webp",
+      "img/at-hero-wasist-d-1280.webp",
+      "img/at-hero-wasist-d-768.webp",
+      "img/at-hero-wasist-m-768.webp",
+      "img/at-hero-whatsapp-d-1280.webp",
+      "img/at-hero-whatsapp-d-768.webp",
+      "img/at-hero-whatsapp-m-768.webp",
+      "img/at-nav-code-120.webp",
+      "img/at-nav-produktfinder-120.webp",
+      "img/at-nav-updates-120.webp",
+      "img/at-news1-375.webp",
+      "img/at-news1-640.webp",
+      "img/at-news2-375.webp",
+      "img/at-news2-640.webp",
+      "img/at-news3-375.webp",
+      "img/at-news3-640.webp",
+      "img/at-ti1-375.webp",
+      "img/at-ti1-640.webp",
+      "img/at-ti2-375.webp",
+      "img/at-ti2-640.webp",
+      "img/at-ti3-375.webp",
+      "img/at-ti3-640.webp",
+      "img/btm-agro-375.webp",
+      "img/btm-agro-640.webp",
+      "img/btm-choc-375.webp",
+      "img/btm-choc-640.webp",
+      "img/btm-coffee-375.webp",
+      "img/btm-coffee-640.webp",
+      "img/btm-kenya-375.webp",
+      "img/btm-kenya-640.webp",
+      "img/btm-lead-d-1280.webp",
+      "img/btm-lead-d-1440.webp",
+      "img/btm-lead-d-768.webp",
+      "img/btm-lead-m-375.webp",
+      "img/btm-lead-m-640.webp",
+      "img/btm-lead-m-768.webp",
+      "img/btm-living-375.webp",
+      "img/btm-living-640.webp",
+      "img/ge-elsalvador-d-1280.webp",
+      "img/ge-elsalvador-d-768.webp",
+      "img/ge-elsalvador-m-375.webp",
+      "img/ge-family-375.webp",
+      "img/ge-family-640.webp",
+      "img/ge-lead-d-1440.webp",
+      "img/ge-lead-d-768.webp",
+      "img/ge-lead-m-375.webp",
+      "img/ge-lead-m-768.webp",
+      "img/ge-wsol-375.webp",
+      "img/ge-wsol-640.webp",
+      "img/hero-coop-d-1280.webp",
+      "img/hero-coop-d-768.webp",
+      "img/hero-coop-m-768.webp",
+      "img/hero-farmers-d-1280.webp",
+      "img/hero-farmers-d-768.webp",
+      "img/hero-farmers-m-768.webp",
+      "img/hero-ftm-d-1280.webp",
+      "img/hero-ftm-d-768.webp",
+      "img/hero-ftm-m-768.webp",
+      "img/hero-green-d-1280.webp",
+      "img/hero-green-d-768.webp",
+      "img/hero-green-m-768.webp",
+      "img/hero-what-d-1280.webp",
+      "img/hero-what-d-768.webp",
+      "img/hero-what-m-768.webp",
+      "img/news-01-375.webp",
+      "img/news-01-640.webp",
+      "img/news-02-375.webp",
+      "img/news-02-640.webp",
+      "img/news-03-375.webp",
+      "img/news-03-640.webp",
+      "img/news-04-375.webp",
+      "img/news-04-640.webp",
+      "img/news-05-375.webp",
+      "img/news-05-640.webp",
+      "img/news-06-375.webp",
+      "img/news-06-640.webp",
+      "img/news-07-375.webp",
+      "img/news-07-640.webp",
+      "img/news-08-375.webp",
+      "img/news-08-640.webp",
+      "img/news-09-375.webp",
+      "img/news-09-640.webp",
+      "img/news-10-375.webp",
+      "img/news-10-640.webp",
+      "img/news-11-375.webp",
+      "img/news-11-640.webp",
+      "img/news-12-375.webp",
+      "img/news-12-640.webp",
+      "img/news-13-375.webp",
+      "img/news-13-640.webp",
+      "img/news-14-375.webp",
+      "img/news-14-640.webp",
+      "img/news-15-375.webp",
+      "img/news-15-640.webp",
+      "img/news-16-375.webp",
+      "img/news-16-640.webp",
+      "img/news-17-375.webp",
+      "img/news-17-640.webp",
+      "img/news-18-375.webp",
+      "img/news-18-640.webp",
+      "img/products/generic.jpg",
+      "img/products/visibility_164473_281125.jpg",
+      "img/products/visibility_164877_50982.jpg",
+      "img/products/visibility_164883_615289.jpg",
+      "img/products/visibility_166180_359941.png",
+      "img/products/visibility_166435_643544.png",
+      "img/products/visibility_166586_811816.png",
+      "img/products/visibility_167149_225043.png",
+      "img/products/visibility_168116_861004.jpg",
+      "img/products/visibility_168354_132703.png",
+      "img/products/visibility_168366_35728.jpg",
+      "img/products/visibility_168515_435496.png",
+      "img/products/visibility_168833_363639.png",
+      "img/products/visibility_169306_529246.jpg",
+      "img/products/visibility_169340_511272.jpg",
+      "img/products/visibility_170318_550150.png",
+      "img/products/visibility_170320_369041.png",
+      "img/products/visibility_170471_133730.jpg",
+      "img/products/visibility_170493_203725.png",
+      "img/products/visibility_170494_270360.png",
+      "img/ti-bananas-375.webp",
+      "img/ti-bananas-640.webp",
+      "img/ti-people-375.webp",
+      "img/ti-people-640.webp",
+      "index.css",
+      "mt-en-bring-fairtrade-to-your-market-html.css",
+      "mt-en-bring-fairtrade-to-your-market-html.js",
+      "us-en-news-html.css",
+      "us-en-news-html.js",
+      "us-en-why-fairtrade-why-we-do-it-gender-equality-html.css"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 56
+      },
+      {
+        "slug": "us-en-news-html",
+        "file": "stardust/migrated/us-en/news.html",
+        "assetsBundled": 44
+      },
+      {
+        "slug": "at-de-html",
+        "file": "stardust/migrated/at-de.html",
+        "assetsBundled": 64
+      },
+      {
+        "slug": "us-en-why-fairtrade-why-we-do-it-gender-equality-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+        "assetsBundled": 18
+      },
+      {
+        "slug": "mt-en-bring-fairtrade-to-your-market-html",
+        "file": "stardust/migrated/mt-en/bring-fairtrade-to-your-market.html",
+        "assetsBundled": 24
+      },
+      {
+        "slug": "us-en-html",
+        "file": "stardust/migrated/us-en.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "us-en-products-html",
+        "file": "stardust/migrated/us-en/products.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "us-en-for-media-html",
+        "file": "stardust/migrated/us-en/for-media.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-why-we-do-it-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/why-we-do-it.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-products-all-products-html",
+        "file": "stardust/migrated/us-en/products/all-products.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-impact-impact-stories-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/impact/impact-stories.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-for-business-benefits-of-being-certified-business-success-stories-html",
+        "file": "stardust/migrated/us-en/for-business/benefits-of-being-certified/business-success-stories.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "ro-ro-aduceti-fairtrade-pe-piata-dumneavoastra-html",
+        "file": "stardust/migrated/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "si-sl-prinesite-fairtrade-na-vas-trg-html",
+        "file": "stardust/migrated/si-sl/prinesite-fairtrade-na-vas-trg.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-fairtrade-newsletter-html",
+        "file": "stardust/migrated/us-en/fairtrade-newsletter.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "de-de-html",
+        "file": "stardust/migrated/de-de.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "maxhavelaarfrance-fr-html",
+        "file": "stardust/migrated/maxhavelaarfrance-fr.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "jp-jp-html",
+        "file": "stardust/migrated/jp-jp.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "en-html",
+        "file": "stardust/migrated/en.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "africa-en-html",
+        "file": "stardust/migrated/africa-en.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "be-fr-html",
+        "file": "stardust/migrated/be-fr.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "be-nl-html",
+        "file": "stardust/migrated/be-nl.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "ca-en-html",
+        "file": "stardust/migrated/ca-en.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "ca-fr-html",
+        "file": "stardust/migrated/ca-fr.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "iberica-es-html",
+        "file": "stardust/migrated/iberica-es.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "iberica-pt-html",
+        "file": "stardust/migrated/iberica-pt.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "ie-en-html",
+        "file": "stardust/migrated/ie-en.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "it-it-html",
+        "file": "stardust/migrated/it-it.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "kr-ko-html",
+        "file": "stardust/migrated/kr-ko.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "napp-en-html",
+        "file": "stardust/migrated/napp-en.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "nl-nl-html",
+        "file": "stardust/migrated/nl-nl.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "no-no-html",
+        "file": "stardust/migrated/no-no.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "pl-pl-html",
+        "file": "stardust/migrated/pl-pl.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "se-sv-html",
+        "file": "stardust/migrated/se-sv.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "ch-de-html",
+        "file": "stardust/migrated/ch-de.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "ch-fr-html",
+        "file": "stardust/migrated/ch-fr.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "uk-en-html",
+        "file": "stardust/migrated/uk-en.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-about-html",
+        "file": "stardust/migrated/us-en/about.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "us-en-contact-html",
+        "file": "stardust/migrated/us-en/contact.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-html",
+        "file": "stardust/migrated/us-en/why-fairtrade.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-for-business-html",
+        "file": "stardust/migrated/us-en/for-business.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-terms-of-use-html",
+        "file": "stardust/migrated/us-en/terms-of-use.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-privacy-policy-html",
+        "file": "stardust/migrated/us-en/privacy-policy.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-what-we-do-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/what-we-do.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-how-we-do-it-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/how-we-do-it.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-impact-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/impact.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "us-en-for-business-benefits-of-being-certified-html",
+        "file": "stardust/migrated/us-en/for-business/benefits-of-being-certified.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-for-business-get-certified-html",
+        "file": "stardust/migrated/us-en/for-business/get-certified.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-for-business-for-partners-html",
+        "file": "stardust/migrated/us-en/for-business/for-partners.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-for-business-for-retailers-html",
+        "file": "stardust/migrated/us-en/for-business/for-retailers.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-get-involved-get-involved-html",
+        "file": "stardust/migrated/us-en/get-involved/get-involved.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-get-involved-how-to-shop-sustainably-html",
+        "file": "stardust/migrated/us-en/get-involved/how-to-shop-sustainably.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-get-involved-where-to-buy-html",
+        "file": "stardust/migrated/us-en/get-involved/where-to-buy.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-get-involved-activism-html",
+        "file": "stardust/migrated/us-en/get-involved/activism.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "us-en-about-careers-html",
+        "file": "stardust/migrated/us-en/about/careers.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-news-when-communities-lead-the-cooperative-model-at-work-in-madagasc-html",
+        "file": "stardust/migrated/us-en/news/when-communities-lead--the-cooperative-model-at-work-in-madagasc.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-news-silence-isn-t-a-strategy-why-greenshouting-matters-for-busine-html",
+        "file": "stardust/migrated/us-en/news/silence-isn-t-a-strategy--why--greenshouting--matters-for-busine.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-what-we-do-what-is-fairtrade-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/what-we-do/what-is-fairtrade.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-what-we-do-how-fairtrade-works-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-what-we-do-key-benefits-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/what-we-do/key-benefits.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-what-we-do-theory-of-change-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/what-we-do/theory-of-change.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-what-we-do-the-fairtrade-difference-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/what-we-do/the-fairtrade-difference.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "us-en-why-fairtrade-why-we-do-it-child-protection-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/why-we-do-it/child-protection.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-why-we-do-it-climate-and-the-environment-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-why-we-do-it-decent-livelihoods-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-why-we-do-it-deforestation-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/why-we-do-it/deforestation.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-why-we-do-it-fairtrade-and-the-sustainable-development-goals-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-why-we-do-it-hredd-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/why-we-do-it/hredd.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-why-we-do-it-smallholder-farmers-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-why-we-do-it-workers-rights-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/why-we-do-it/workers-rights.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "us-en-why-fairtrade-how-we-do-it-how-does-the-label-work-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-how-we-do-it-how-fairtrade-certification-works-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-products-and-ingredients-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-how-we-do-it-assuring-integrity-in-checking-compliance-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-how-we-do-it-traceability-in-fairtrade-supply-chains-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-how-we-do-it-fairtrade-standards-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-how-we-do-it-our-projects-and-programs-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-impact-key-figures-at-a-glance-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/impact/key-figures-at-a-glance.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "us-en-why-fairtrade-impact-how-we-measure-impact-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/impact/how-we-measure-impact.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-why-fairtrade-impact-reports-trends-html",
+        "file": "stardust/migrated/us-en/why-fairtrade/impact/reports-trends.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-products-all-products-bananas-html",
+        "file": "stardust/migrated/us-en/products/all-products/bananas.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-products-all-products-cocoa-html",
+        "file": "stardust/migrated/us-en/products/all-products/cocoa.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-products-all-products-chocolate-html",
+        "file": "stardust/migrated/us-en/products/all-products/chocolate.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-products-all-products-coffee-html",
+        "file": "stardust/migrated/us-en/products/all-products/coffee.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-products-all-products-cotton-html",
+        "file": "stardust/migrated/us-en/products/all-products/cotton.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-products-all-products-herbs-spices-html",
+        "file": "stardust/migrated/us-en/products/all-products/herbs-spices.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "us-en-products-all-products-nuts-oils-html",
+        "file": "stardust/migrated/us-en/products/all-products/nuts-oils.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-products-all-products-sugar-html",
+        "file": "stardust/migrated/us-en/products/all-products/sugar.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-products-all-products-wine-html",
+        "file": "stardust/migrated/us-en/products/all-products/wine.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-products-all-products-gold-html",
+        "file": "stardust/migrated/us-en/products/all-products/gold.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-products-all-products-fruits-juices-html",
+        "file": "stardust/migrated/us-en/products/all-products/fruits-juices.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-products-all-products-honey-html",
+        "file": "stardust/migrated/us-en/products/all-products/honey.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-business-html",
+        "file": "stardust/migrated/us-en/for-business/benefits-of-being-certified/benefits-for-business.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+        "file": "stardust/migrated/us-en/for-business/benefits-of-being-certified/benefits-for-producers.html",
+        "assetsBundled": 33
+      },
+      {
+        "slug": "us-en-for-business-benefits-of-being-certified-consumer-trends1-html",
+        "file": "stardust/migrated/us-en/for-business/benefits-of-being-certified/consumer-trends1.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-for-business-get-certified-the-certification-process-html",
+        "file": "stardust/migrated/us-en/for-business/get-certified/the-certification-process.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-for-business-get-certified-resources-support-html",
+        "file": "stardust/migrated/us-en/for-business/get-certified/resources-support.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-for-business-get-certified-intro-to-fairtrade-html",
+        "file": "stardust/migrated/us-en/for-business/get-certified/intro-to-fairtrade.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-for-business-get-certified-get-started-html",
+        "file": "stardust/migrated/us-en/for-business/get-certified/get-started.html",
+        "assetsBundled": 1
+      },
+      {
+        "slug": "us-en-for-business-for-partners-communicate-your-commitment-html",
+        "file": "stardust/migrated/us-en/for-business/for-partners/communicate-your-commitment.html",
+        "assetsBundled": 1
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-14T08:10:01Z",
+      "rendered": [
+        "us-en-for-business-benefits-of-being-certified-benefits-for-producers-html",
+        "us-en-for-business-benefits-of-being-certified-consumer-trends1-html",
+        "us-en-for-business-get-certified-the-certification-process-html",
+        "us-en-for-business-get-certified-resources-support-html",
+        "us-en-for-business-get-certified-intro-to-fairtrade-html",
+        "us-en-for-business-get-certified-get-started-html",
+        "us-en-for-business-for-partners-communicate-your-commitment-html"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "_provenance": {
+    "writtenBy": "C0 foundation subagent (replica C-deliver)",
+    "writtenAt": "2026-11-13T23:55:00Z",
+    "source": "stardust/prototypes/canon.css + canon.js (gated canon), stardust/chrome/header-contract.json"
+  },
+  "runtime": {
+    "boilerplate": "aem-boilerplate (vanilla); scripts/aem.js untouched",
+    "bodyGate": "body { display: none } / body.appear (kept)",
+    "buttons": {
+      "wrapper": "p.button-wrapper",
+      "strong": "a.button.primary (canon variant-primary, color-skyblue)",
+      "em": "a.button.secondary (canon variant-secondary, color-skyblue)",
+      "strongEm": "a.button.accent (canon variant-primary, color-leafgreen)",
+      "blockVariants": ".button + variant-primary | variant-secondary | variant-tertiary | variant-icon-primary | variant-icon-secondary, color-skyblue | color-leafgreen, size-small | size-large, theme-dark; inner span .button-inner / .button-icon"
+    },
+    "projectHooks": [
+      "scripts/scripts.js loadLazy: import('./fader.js') after loadSections (content fader)",
+      "scripts/martech.js loaded as before (loadConsent eager, loadTags delayed; every part off)"
+    ],
+    "sharedModules": {
+      "scripts/ft-ui.js": "el(), icon(name, cls), loadSprite(), buildWave(color), loadChromeDoc(path), readLabels(sections), normPath(href), takeImage(node)",
+      "scripts/fader.js": "initFader(main): sections after the first fade in on entry (.has-fader, [data-fader], .is-visible)"
+    }
+  },
+  "tokens": {
+    "file": "styles/styles.css",
+    "colors": "--c-skyblue … --c-mono-700 (canon :root verbatim)",
+    "fonts": {
+      "--ff-head": "\"Alegreya Sans\", alegreya-sans-fallback, system-ui, sans-serif",
+      "--ff-body": "\"Exo 2\", exo-2-fallback, system-ui, sans-serif"
+    },
+    "layout": {
+      "--max-width": "1920px",
+      "--grid-columns": "6 (<768) / 12",
+      "--grid-gap": "16 / 20 (≥1024) / 24 (≥1280)",
+      "--grid-padding": "18 / 24 (≥640) / 32 (≥768) / 36 (≥1024) / 40 (≥1280) / 48 (≥1440)",
+      "gridPrimitive": "display:grid; grid-template-columns: repeat(var(--grid-columns), 1fr); column-gap: var(--grid-gap); padding-inline: var(--grid-padding); width: min(100%, var(--max-width)); margin-inline: auto"
+    },
+    "chrome": {
+      "--topbar-height": "72px / 104px (≥640)",
+      "--nav-height": "var(--topbar-height) — header reservation; main has no margin-top"
+    }
+  },
+  "breakpoints": {
+    "minWidth": [640, 768, 1024, 1280, 1440],
+    "designTarget": "none set (DESIGN.json extensions.breakpoints.target absent) — lint:breakpoints skips",
+    "cap": "1920px (DESIGN.json shellMaxWidth / containerMaxWidth) via --max-width in every grid primitive"
+  },
+  "fonts": {
+    "files": "fonts/alegreya-sans-latin{,-ext}-{100,300,400,500,700,800,900}-{normal,italic}.woff2, fonts/exo-2-latin{,-ext}-wght-{normal,italic}.woff2",
+    "faces": "styles/fonts.css (loadFonts)",
+    "fallbacks": "styles/styles.css: exo-2-fallback (Arial, size-adjust 102.54%), alegreya-sans-fallback (Arial, size-adjust 83.97%)",
+    "license": "SIL OFL 1.1 (both) — no licensing alert",
+    "headPreloads": ["/fonts/exo-2-latin-wght-normal.woff2", "/fonts/alegreya-sans-latin-900-normal.woff2"]
+  },
+  "sectionStyles": {
+    "grey": "background #f4f4f4",
+    "wave-grey": "background #f4f4f4 + the canon wave divider above the section (40px, 88px ≥1024)",
+    "nightsky": "background #001b6e, white text (also switches the breadcrumbs to their dark theme)",
+    "defaultContent": "main .section > .default-content-wrapper = canon RichtextSection/Richtext (prose column 2/-2 ≥768, 4/-4 ≥1024; h1–h4, p, lists, links)"
+  },
+  "header": {
+    "block": "blocks/header",
+    "metadata": "nav (default /nav)",
+    "breadcrumbsMetadata": "breadcrumbs: auto | 'Home > Label > Label (/path)' (from stardust/rollout/chrome-map.json); absent = none",
+    "domRoot": "header .header.block > .topbar[data-topbar] + .mobile-menu + .locale-selector + .breadcrumb > nav.breadcrumbs",
+    "behaviour": "click flyouts (one open, page darkened, scroll locked), search panel, meta menu, locale dialog (filter), mobile drawer levels 1–3, Escape + focus return, hide on scroll down / show on scroll up",
+    "darkBreadcrumbs": "body:has(main :is(.page-lead.nightsky, .page-lead.theme-nightsky, .theme-nightsky))"
+  },
+  "footer": {
+    "block": "blocks/footer",
+    "metadata": "footer (default /footer)",
+    "domRoot": "footer .footer.block (= canon .Footer) > .footer-grid"
+  },
+  "chromeDocuments": {
+    "map": "stardust/rollout/chrome-map.json (slug → nav, footer, breadcrumbs)",
+    "paths": "stardust/rollout/units/foundation.paths (54 DA paths, 27 variants)",
+    "media": "stardust/rollout/media/chrome/*.png → DA media scope 'chrome' (da-media-upload.mjs --scope chrome --dir stardust/rollout/media/chrome) BEFORE the chrome docs are previewed",
+    "navModel": "section 1 brand (logo img + home link); nested ul main nav; flat ul meta links; h2+h3 teasers; h2+ul locale selector; labels block (UI strings); metadata Robots noindex",
+    "footerModel": "ul link lists; h2+ul social; h2+p>a newsletter; labels block (locale, locale-sr); metadata Robots noindex"
+  },
+  "icons": "icons/sprite.svg (27 UI symbols, injected by loadSprite) + icons/<name>.svg for all 35 source symbols (EDS :name: icons)",
+  "favicon": "favicon.svg (source favicon) linked in head.html"
+}

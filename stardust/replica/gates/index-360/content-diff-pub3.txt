@@ -1,0 +1,45 @@
+[live-session] waiting to pace live navigations to main--63f9f24b--aemcoder.aem.page (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 676 ms
+
+Content diff @ 360px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 53 text nodes — 12 headings, 0 eyebrows, 11 CTAs, 30 body; 12 img
+  build: 51 text nodes — 12 headings, 0 eyebrows, 11 CTAs, 28 body; 12 img
+  editable texts (outermost h*/p/ul/ol): source 19 / build 33
+  attributes (placeholder/aria-label/title): source 0 / build 11; icons: source 18 / build 13
+root "header"
+  source: 264 text nodes — 0 headings, 0 eyebrows, 166 CTAs, 98 body; 1 img
+  build: 264 text nodes — 0 headings, 0 eyebrows, 166 CTAs, 98 body; 1 img
+  editable texts (outermost h*/p/ul/ol): source 21 / build 21
+  attributes (placeholder/aria-label/title): source 5 / build 5; icons: source 186 / build 186
+root "footer"
+  source: 16 text nodes — 0 headings, 0 eyebrows, 12 CTAs, 4 body; 0 img
+  build: 16 text nodes — 0 headings, 0 eyebrows, 12 CTAs, 4 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 16 / build 16
+
+Findings: 23 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 1 (owner 1, auto 0) · advisory 23
+  🟡 MISSING BODY [main]: source body "We’re more than just a label. You cannot separat"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [main]: source body "Where you spend your money has the potential to "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [main]: build body "We’re more than just a label." has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "You cannot separate human rights from environmen" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "That's why Fairtrade supports farmers and worker" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "Where you spend your money has the potential to " has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [main]: build body "From cocoa to sugar, bananas to cinnamon or even" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA TITLE [main]: build <a> title="Join the Real Deal!" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Read the blog!" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Read more" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Read their Stories" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Learn More" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Key benefits" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Why Fairtrade matters" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Learn more" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="What is Fairtrade?" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Read more" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Get started" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟢 ICON DIFF [header] accepted (stardust/replica/accepted.json): Published-regime pipeline delta, not an icon change: the delivery pipeline serves every authored image from the media bus as media_<hash>.<ext> renditions (source-fidelity-gate.md § The published-origin gate), so the header logo's file name cannot match the source's. Same anchor, same 56px box, same artwork: the 360 pixel round on the published origin is 0.64% (index) with the header band clean. Scope: header root, ICON DIFF on the home link only.

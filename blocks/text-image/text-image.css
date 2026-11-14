@@ -1,0 +1,252 @@
+/* text-image — canon TextImage (stardust/prototypes/canon.css, values verbatim) */
+.text-image.grey {
+  padding-block: 64px;
+}
+
+.text-image .text-image-box {
+  padding-block: 64px;
+  position: relative;
+}
+
+.text-image .text-image-box.theme-grey {
+  background: #f4f4f4;
+}
+
+.text-image .text-image-grid {
+  column-gap: var(--grid-gap);
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns), 1fr);
+  margin-inline: auto;
+  padding-inline: var(--grid-padding);
+  width: min(100%, var(--max-width));
+}
+
+.text-image .text-image-grid > * {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+
+.text-image .text-image-inner {
+  display: grid;
+  gap: 24px;
+  grid-template-areas: "image" "content";
+  position: relative;
+}
+
+.text-image .text-image-content {
+  grid-area: content;
+}
+
+.text-image .text-image-image {
+  grid-area: image;
+}
+
+.text-image .text-image-image .image img {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.text-image .text-image-image .image picture {
+  display: contents;
+}
+
+.text-image .text-image-title {
+  font-family: var(--ff-head);
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.text-image .text-image-title :is(h1, h2, h3, h4) {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* .TextImage--text.Richtext */
+.text-image .text-image-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  gap: 1.6em; /* the source's plain text: paragraphs split by one blank pre-line line */
+  line-height: 1.6;
+  margin-top: 24px;
+}
+
+/* paragraph spacing by gap, never :last-child (EW2/EW10) */
+.text-image .text-image-text :is(ol, p, ul) {
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.text-image .text-image-text :is(ol, ul) {
+  display: grid;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.text-image .text-image-text li {
+  padding-left: 16px;
+  position: relative;
+}
+
+.text-image .text-image-text ul li::before {
+  background-color: #0fc0fc;
+  border-radius: 100%;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  left: 0;
+  position: absolute;
+  translate: 0 135%;
+  width: 8px;
+}
+
+.text-image .text-image-text :is(b, strong) {
+  font-weight: 700;
+}
+
+.text-image .text-image-text a {
+  color: #7b1dab;
+  text-decoration: underline;
+  transition: color .2s ease-in-out;
+}
+
+.text-image .text-image-text a:is(:hover, :focus-visible) {
+  color: #035e7c;
+}
+
+.text-image .text-image-text :is(h2, h3, h4) {
+  font-family: var(--ff-head);
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.text-image .text-image-cta {
+  margin-top: 32px;
+}
+
+.text-image .text-image-cta p {
+  margin: 0;
+}
+
+@media (width >= 768px) {
+  .text-image .text-image-inner {
+    align-items: center;
+    gap: 32px;
+    grid-template-areas: "content image";
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .text-image.reverse .text-image-inner {
+    grid-template-areas: "image content";
+  }
+}
+
+@media (width >= 1024px) {
+  .text-image.grey {
+    padding-block: 80px;
+  }
+
+  .text-image .text-image-box {
+    padding-block: 80px;
+  }
+
+  .text-image .text-image-title {
+    font-size: 48px;
+  }
+
+  .text-image .text-image-text,
+  .text-image .text-image-text :is(ol, p, ul) {
+    font-size: 18px;
+  }
+}
+
+@media (width >= 1280px) {
+  .text-image .text-image-grid > .text-image-inner {
+    gap: 40px;
+    grid-column: 2 / span 10;
+  }
+}
+
+/* pre-line: canon .TextImage--text.Richtext as painted from HTML Richtext (block flow, newlines
+   kept). Canon spaces by margin-bottom with `> :last-child` zeroed; here the space sits on the
+   following element (`+` skips the newline text nodes), so no positional selector is needed. */
+.text-image.pre-line .text-image-text {
+  display: block;
+  white-space: pre-line;
+}
+
+.text-image.pre-line .text-image-text :is(h1, h2, h3, h4, ol, p, ul) {
+  margin-block: 0;
+}
+
+.text-image.pre-line .text-image-text h2 {
+  font-size: 32px;
+}
+
+/* the source's `<h2>&nbsp;</h2>` arrives emptied by the pipeline: keep its one line */
+.text-image.pre-line .text-image-text :is(h2, h3, h4):empty::before {
+  content: "\00a0";
+}
+
+.text-image.pre-line .text-image-text :is(h2, ol, p, ul) + * {
+  margin-top: 24px;
+}
+
+.text-image.pre-line .text-image-text :is(ol, p, ul) + :is(h1, h2, h3, h4) {
+  margin-top: 64px; /* 24 + 40: the newline line box between them keeps both canon margins */
+}
+
+@media (width >= 1024px) {
+  .text-image.pre-line .text-image-text h2 {
+    font-size: 48px;
+  }
+
+  .text-image.pre-line .text-image-text :is(h2, ol, p, ul) + * {
+    margin-top: 32px;
+  }
+
+  .text-image.pre-line .text-image-text :is(ol, p, ul) + :is(h1, h2, h3, h4) {
+    margin-top: 72px;
+  }
+}
+
+/* trail-2 — plain source text ending in blank pre-line lines ("…\n\n\n"): the source paints
+   two empty lines under the text (iberica-es) */
+.text-image.trail-2 .text-image-text {
+  padding-bottom: 3.2em;
+}
+
+/* trail-1 — plain source text ending in one blank pre-line line ("…\n\n"): the source paints
+   one empty line under the text (fairtrade-standards, our-projects-and-programs) */
+.text-image.trail-1 .text-image-text {
+  padding-bottom: 1.6em;
+}
+
+/* footer-overflow — the source footer fragment carries a stray, empty main navigation (ch-de:
+   footer > div.navigation > .Topbar--mainNavigation, display:grid from 1024px) whose hidden
+   scroll buttons are absolute, height:100% of the viewport, from the footer top: the document
+   scrolls 100vh below the main end (measured live: footer y 6243, button h 900, scrollHeight
+   7143 at 1440x900). On the last block of main (its bottom = the main end), invisible. */
+@media (width >= 1024px) {
+  .text-image.footer-overflow {
+    position: relative;
+  }
+
+  .text-image.footer-overflow::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 48px;
+    height: 100vh;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}

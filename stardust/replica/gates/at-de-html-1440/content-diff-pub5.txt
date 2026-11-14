@@ -1,0 +1,54 @@
+[live-session] waiting to pace live navigations to www.fairtrade.net (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 1440px (profile "generic", roots: main, header, footer)
+root "main"
+  source: 149 text nodes — 18 headings, 0 eyebrows, 18 CTAs, 113 body; 44 img
+  build: 142 text nodes — 45 headings, 0 eyebrows, 18 CTAs, 79 body; 44 img
+  editable texts (outermost h*/p/ul/ol): source 23 / build 38
+  attributes (placeholder/aria-label/title): source 1 / build 20; icons: source 26 / build 16
+  accepted (invisible, nothing lost): 27 ROLE UPGRADE body → heading — "Was FAIRTRADE und die Bäuer:innen auf de", "FAIRTRADE: Mehr als jede fünfte Tafelsch", "Kakaopreise schwanken stark: Was jetzt S", "Espresso Verde Aurea" …
+root "header"
+  source: 308 text nodes — 0 headings, 0 eyebrows, 198 CTAs, 110 body; 7 img
+  build: 308 text nodes — 0 headings, 0 eyebrows, 198 CTAs, 110 body; 7 img
+  editable texts (outermost h*/p/ul/ol): source 26 / build 26
+  attributes (placeholder/aria-label/title): source 5 / build 5; icons: source 217 / build 214
+root "footer"
+  source: 18 text nodes — 0 headings, 0 eyebrows, 11 CTAs, 7 body; 0 img
+  build: 18 text nodes — 0 headings, 0 eyebrows, 11 CTAs, 7 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 2 / build 2
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 15 / build 15
+
+Findings: 32 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 27 (owner 0, auto 27) · advisory 32
+  🟡 EXTRA TITLE [main]: build <a> title="Kakao-Schwerpunkt" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Jetzt anmelden!" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Mach mit!" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Zum Blog" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Anmelden!" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Der FAIRTRADE-Ansatz" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Anmelden" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Zum Newsroom" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <iframe> title="widget.taggbox.com" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Unsere Auftritte auf Social-Media" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Alle Produkte entdecken" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Jetzt mitmachen" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="FAIRTRADE-Produkte entdecken" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Mehr Infos" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Mehr Infos" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Mehr Infos" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Mehr Infos" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Mehr Infos" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [main]: build <a> title="Mehr dazu" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source image data:image/gif… (1×1) at ">" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 100 100 / 1 shape(s) (0×0) at "09.11.26 zukunft der landwirtschaft news" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 768 40 / 1 shape(s) (0×0) at "09.11.26 zukunft der landwirtschaft news" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [main]: source inline svg 0 0 375 40 / 1 shape(s) (0×0) at "09.11.26 zukunft der landwirtschaft news" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [header]: source image data:image/gif… (1×1) at "produkt-finder suche nach fairtrade-prod" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [header]: source image data:image/gif… (1×1) at "fairtrade-code starte eine virtuelle rei" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [header]: source image data:image/gif… (1×1) at "fairtrade-updates für engagierte infos z" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.

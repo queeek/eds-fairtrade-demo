@@ -1,0 +1,3268 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T10:40:21.921Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/business-success-stories.html",
+  "at": "2026-11-14T10:40:01.839Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4507,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "Fairtrade_America_Logo_Vert_80x80"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > span.Breadcrumbs--breadcrumb--title",
+    "x": 125,
+    "y": 122,
+    "w": 81,
+    "h": 20,
+    "text": "For Business"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 246,
+    "y": 122,
+    "w": 160,
+    "h": 20,
+    "text": "benefits of being certified",
+    "href": "/us-en/for-business/benefits-of-being-certified.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 446,
+    "y": 122,
+    "w": 158,
+    "h": 20,
+    "text": "business success stories",
+    "href": "/us-en/for-business/benefits-of-being-certified/business-success-stories.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+    "x": 276,
+    "y": 224,
+    "w": 888,
+    "h": 158,
+    "level": 1,
+    "text": "driving positive change - business success stories"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+    "x": 276,
+    "y": 414,
+    "w": 888,
+    "h": 154,
+    "text": "Welcome to a world where businesses become catalysts for positive change. Our co"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--imageGrid > div.Image.ultra-wide > img.lazyautosizes.lazyloaded",
+    "x": 48,
+    "y": 632,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "21x9_1440w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1328,
+    "w": 660,
+    "h": 86,
+    "text": "In an era where corporate responsibility is paramount, businesses are increasing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1446,
+    "w": 660,
+    "h": 86,
+    "text": "Working with Fairtrade offers a path where businesses can contribute to sustaina"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1565,
+    "w": 660,
+    "h": 144,
+    "text": "By choosing Fairtrade, companies actively engage in a global movement that aims "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-new-frontiers-for-fairtrade-unfi-s-private-brands-bring-sustain",
+    "x": 48,
+    "y": 1829,
+    "w": 421,
+    "h": 547,
+    "text": "04.17.26 business stories new frontiers for fairtrade: unfi’s private brands bri",
+    "href": "/us-en/for-business/benefits-of-being-certified/business-success-stories/new-frontiers-for-fairtrade--unfi-s-private-brands-bring-sustain.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 1830,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 2161,
+    "w": 421,
+    "h": 179,
+    "level": 2,
+    "text": "business stories new frontiers for fairtrade: unfi’s private brands bring sustainability across center store"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-sustainability-matters-for-all-seasons-at-whole-foods-market",
+    "x": 509,
+    "y": 1829,
+    "w": 421,
+    "h": 477,
+    "text": "09.29.25 business stories sustainability matters for all seasons at whole foods ",
+    "href": "/us-en/for-business/benefits-of-being-certified/business-success-stories/sustainability-matters-for-all-seasons-at-whole-foods-market.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 510,
+    "y": 1830,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 2161,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "business stories sustainability matters for all seasons at whole foods market"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-30-years-of-partnership-in-peru-for-kaladi-coffee",
+    "x": 971,
+    "y": 1829,
+    "w": 421,
+    "h": 477,
+    "text": "09.26.25 business stories 30 years of partnership in peru for kaladi coffee read",
+    "href": "/us-en/for-business/benefits-of-being-certified/business-success-stories/30-years-of-partnership-in-peru-for-kaladi-coffee.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 972,
+    "y": 1830,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 2161,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "business stories 30 years of partnership in peru for kaladi coffee"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-three-keys-coffee-is-committed-to-making-specialty-coffee-accessible-to-new-demographics",
+    "x": 48,
+    "y": 2428,
+    "w": 421,
+    "h": 512,
+    "text": "09.19.24 business stories three keys coffee is committed to making specialty cof",
+    "href": "/us-en/for-business/benefits-of-being-certified/business-success-stories/three-keys-coffee-is-committed-to-making-specialty-coffee-accessible-to-new-demographics.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 49,
+    "y": 2429,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 48,
+    "y": 2760,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "business stories three keys coffee is committed to making specialty coffee accessible to new demographics"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-helping-ben-jerry-s-provide-living-incomes",
+    "x": 509,
+    "y": 2428,
+    "w": 421,
+    "h": 477,
+    "text": "11.24.21 business stories helping ben & jerry's provide living incomes read more",
+    "href": "/us-en/for-business/benefits-of-being-certified/business-success-stories/helping-ben---jerry-s-provide-living-incomes.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 510,
+    "y": 2429,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 509,
+    "y": 2760,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "business stories helping ben & jerry's provide living incomes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.TeaserGrid--grid > li.TeaserGrid--item > a#article-lidl-launches-the-first-us-private-label-chocolate-bar-that-contributes-directly-to-living-incomes-for-cocoa-farmers",
+    "x": 971,
+    "y": 2428,
+    "w": 421,
+    "h": 547,
+    "text": "12.02.20 living income business stories lidl launches the first us private label",
+    "href": "/us-en/for-business/benefits-of-being-certified/business-success-stories/lidl-launches-the-first-us-private-label-chocolate-bar-that-contributes-directly-to-living-incomes-for-cocoa-farmers.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--image.rectangular > div.Image.rectangular > img.lazyautosizes.lazyloaded",
+    "x": 972,
+    "y": 2429,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "4x3_640w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.InfoTeaser--inner > div.InfoTeaser--content > h2.InfoTeaser--header",
+    "x": 971,
+    "y": 2760,
+    "w": 421,
+    "h": 179,
+    "level": 2,
+    "text": "business stories lidl launches the first us private label chocolate bar that contributes directly to living incomes for "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > h2.TextImage--title",
+    "x": 162,
+    "y": 3419,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "more than a label"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > div.TextImage--text.Richtext",
+    "x": 162,
+    "y": 3496,
+    "w": 538,
+    "h": 173,
+    "text": "We don’t just label products as ethical—we create real sustainable change by mor"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--inner > div.TextImage--content > a.Button.TextImage--cta",
+    "x": 162,
+    "y": 3701,
+    "w": 328,
+    "h": 48,
+    "text": "learn about fairtrade’s impact",
+    "href": "/us-en/why-fairtrade/impact.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.TextImage--image > div.Image.square > img.lazyautosizes.lazyloaded",
+    "x": 740,
+    "y": 3315,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "1x1_640w"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 4109,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 4109,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 76,
+    "y": 4199,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 4247,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 4297,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 418,
+    "y": 4199,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 4247,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 4297,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 4346,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 4396,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 760,
+    "y": 4199,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 4247,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 4297,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 4199,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 4245,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 4245,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 4245,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 4245,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 4333,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 4379,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 0,
+    "textNodes": 59,
+    "controls": 35,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "a.Breadcrumbs--breadcrumb--link",
+     "path": "div.Breadcrumbs--desktop > ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+     "text": "benefits of being certified",
+     "cutMin": 3,
+     "cutMax": 3
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/business-success-stories",
+  "at": "2026-11-14T10:40:21.807Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 4507,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_13df0d1ade5b87108701c0132044859868"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > span.breadcrumbs-breadcrumb-title",
+    "x": 125,
+    "y": 122,
+    "w": 81,
+    "h": 20,
+    "text": "For Business"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 246,
+    "y": 122,
+    "w": 160,
+    "h": 20,
+    "text": "benefits of being certified",
+    "href": "/us-en/for-business/benefits-of-being-certified.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 446,
+    "y": 122,
+    "w": 158,
+    "h": 20,
+    "text": "business success stories",
+    "href": "/us-en/for-business/benefits-of-being-certified/business-success-stories.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-title > h1#driving-positive-change---business-success-stories",
+    "x": 276,
+    "y": 224,
+    "w": 888,
+    "h": 158,
+    "level": 1,
+    "text": "driving positive change - business success stories"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-lead > p",
+    "x": 276,
+    "y": 414,
+    "w": 888,
+    "h": 154,
+    "text": "Welcome to a world where businesses become catalysts for positive change. Our co"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.ultra-wide > picture > img",
+    "x": 48,
+    "y": 632,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "media_189d16c402955ebe6e12a4a11fcc8a5044"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1328,
+    "w": 660,
+    "h": 86,
+    "text": "In an era where corporate responsibility is paramount, businesses are increasing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1446,
+    "w": 660,
+    "h": 86,
+    "text": "Working with Fairtrade offers a path where businesses can contribute to sustaina"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1565,
+    "w": 660,
+    "h": 144,
+    "text": "By choosing Fairtrade, companies actively engage in a global movement that aims "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 1829,
+    "w": 421,
+    "h": 547,
+    "text": "04.17.26 business stories new frontiers for fairtrade: unfi’s private brands bri",
+    "href": "/us-en/for-business/benefits-of-being-certified/business-success-stories/new-frontiers-for-fairtrade--unfi-s-private-brands-bring-sustain.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 1830,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_1a71d1f7c6c978588cedd9dbe6754ea859"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#business-stories-new-frontiers-for-fairtrade-unfis-private-brands-bring-sustainability-across-center-store",
+    "x": 48,
+    "y": 2161,
+    "w": 421,
+    "h": 179,
+    "level": 2,
+    "text": "business stories new frontiers for fairtrade: unfi’s private brands bring sustainability across center store"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 1829,
+    "w": 421,
+    "h": 477,
+    "text": "09.29.25 business stories sustainability matters for all seasons at whole foods ",
+    "href": "/us-en/for-business/benefits-of-being-certified/business-success-stories/sustainability-matters-for-all-seasons-at-whole-foods-market.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 1830,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_1245604871fd40ea8710a829d0fbe75d32"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#business-stories-sustainability-matters-for-all-seasons-at-whole-foods-market",
+    "x": 509,
+    "y": 2161,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "business stories sustainability matters for all seasons at whole foods market"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 1829,
+    "w": 421,
+    "h": 477,
+    "text": "09.26.25 business stories 30 years of partnership in peru for kaladi coffee read",
+    "href": "/us-en/for-business/benefits-of-being-certified/business-success-stories/30-years-of-partnership-in-peru-for-kaladi-coffee.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 1830,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "media_1eac4885064c8be040eb24b2fd4b3f10f5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#business-stories-30-years-of-partnership-in-peru-for-kaladi-coffee",
+    "x": 971,
+    "y": 2161,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "business stories 30 years of partnership in peru for kaladi coffee"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 48,
+    "y": 2428,
+    "w": 421,
+    "h": 512,
+    "text": "09.19.24 business stories three keys coffee is committed to making specialty cof",
+    "href": "/us-en/for-business/benefits-of-being-certified/business-success-stories/three-keys-coffee-is-committed-to-making-specialty-coffee-accessible-to-new-demographics.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 49,
+    "y": 2429,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_1525e17cd6b5a8dffdccb902acd4d89e8a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#business-stories-three-keys-coffee-is-committed-to-making-specialty-coffee-accessible-to-new-demographics",
+    "x": 48,
+    "y": 2760,
+    "w": 421,
+    "h": 144,
+    "level": 2,
+    "text": "business stories three keys coffee is committed to making specialty coffee accessible to new demographics"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 509,
+    "y": 2428,
+    "w": 421,
+    "h": 477,
+    "text": "11.24.21 business stories helping ben & jerry's provide living incomes read more",
+    "href": "/us-en/for-business/benefits-of-being-certified/business-success-stories/helping-ben---jerry-s-provide-living-incomes.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 510,
+    "y": 2429,
+    "w": 419,
+    "h": 314,
+    "text": "",
+    "file": "media_12e8ff656d7900d6a808ed681f63d40307"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#business-stories-helping-ben--jerrys-provide-living-incomes",
+    "x": 509,
+    "y": 2760,
+    "w": 421,
+    "h": 108,
+    "level": 2,
+    "text": "business stories helping ben & jerry's provide living incomes"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.teaser-grid-grid > li.teaser-grid-item > a.info-teaser",
+    "x": 971,
+    "y": 2428,
+    "w": 421,
+    "h": 547,
+    "text": "12.02.20 living income business stories lidl launches the first us private label",
+    "href": "/us-en/for-business/benefits-of-being-certified/business-success-stories/lidl-launches-the-first-us-private-label-chocolate-bar-that-contributes-directly-to-living-incomes-for-cocoa-farmers.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.rectangular > picture > img",
+    "x": 972,
+    "y": 2429,
+    "w": 419,
+    "h": 315,
+    "text": "",
+    "file": "media_1f2da638519a937385ba7945e632ebdc53"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.info-teaser-content > div.info-teaser-header > h2#business-stories-lidl-launches-the-first-us-private-label-chocolate-bar-that-contributes-directly-to-living-incomes-for-cocoa-farmers",
+    "x": 971,
+    "y": 2760,
+    "w": 421,
+    "h": 179,
+    "level": 2,
+    "text": "business stories lidl launches the first us private label chocolate bar that contributes directly to living incomes for "
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-title > h2#more-than-a-label",
+    "x": 162,
+    "y": 3434,
+    "w": 538,
+    "h": 53,
+    "level": 2,
+    "text": "more than a label"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-content > div.text-image-text > p",
+    "x": 162,
+    "y": 3511,
+    "w": 538,
+    "h": 144,
+    "text": "We don’t just label products as ethical—we create real sustainable change by mor"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-image-cta > p.button-wrapper > a.button.primary",
+    "x": 162,
+    "y": 3687,
+    "w": 328,
+    "h": 48,
+    "text": "learn about fairtrade’s impact",
+    "href": "/us-en/why-fairtrade/impact.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.square > picture > img",
+    "x": 740,
+    "y": 3315,
+    "w": 538,
+    "h": 538,
+    "text": "",
+    "file": "media_19f31079e141902f0257c8fcf17d11dca4"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 4109,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 4109,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 76,
+    "y": 4199,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 4247,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 4297,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 418,
+    "y": 4199,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 4247,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 4297,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 4346,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 4396,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 760,
+    "y": 4199,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 4247,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 4297,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 4199,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 4245,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 4245,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 4245,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 4245,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 4333,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 4379,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 0,
+    "textNodes": 59,
+    "controls": 35,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "a.breadcrumbs-breadcrumb-link",
+     "path": "div.breadcrumbs-desktop > ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+     "text": "benefits of being certified",
+     "cutMin": 3,
+     "cutMax": 3
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 3,
+     "path": "div.breadcrumbs-desktop > ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+     "text": "benefits of being certified",
+     "clipper": "a.breadcrumbs-breadcrumb-link",
+     "rect": {
+      "l": 246,
+      "t": 123,
+      "r": 409,
+      "b": 140,
+      "w": 163,
+      "h": 17
+     },
+     "clip": {
+      "l": 246,
+      "t": 122,
+      "r": 406,
+      "b": 142,
+      "w": 160,
+      "h": 20
+     },
+     "lines": 2
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "driving positive change - business success stories",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 4,
+    "image": 4
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "business stories new frontiers for fairtrade: unfi’s private brands bring sustainability across center store",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "business stories sustainability matters for all seasons at whole foods market",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "business stories 30 years of partnership in peru for kaladi coffee",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 0,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "business stories three keys coffee is committed to making specialty coffee accessible to new demographics",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "business stories helping ben & jerry's provide living incomes",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "business stories lidl launches the first us private label chocolate bar that contributes directly to living incomes for ",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "more than a label",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 81,
+    "h": 17
+   },
+   {
+    "x": 246,
+    "y": 123,
+    "w": 163,
+    "h": 17
+   },
+   {
+    "x": 246,
+    "y": 123,
+    "w": 147,
+    "h": 17
+   },
+   {
+    "x": 446,
+    "y": 123,
+    "w": 158,
+    "h": 17
+   },
+   {
+    "x": 350,
+    "y": 227,
+    "w": 741,
+    "h": 72
+   },
+   {
+    "x": 360,
+    "y": 306,
+    "w": 721,
+    "h": 72
+   },
+   {
+    "x": 294,
+    "y": 418,
+    "w": 851,
+    "h": 29
+   },
+   {
+    "x": 291,
+    "y": 457,
+    "w": 858,
+    "h": 29
+   },
+   {
+    "x": 278,
+    "y": 495,
+    "w": 884,
+    "h": 29
+   },
+   {
+    "x": 646,
+    "y": 534,
+    "w": 149,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1331,
+    "w": 568,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1360,
+    "w": 583,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1389,
+    "w": 158,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1449,
+    "w": 589,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1478,
+    "w": 559,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1507,
+    "w": 414,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1568,
+    "w": 622,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1597,
+    "w": 635,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1625,
+    "w": 656,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1654,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1683,
+    "w": 111,
+    "h": 22
+   },
+   {
+    "x": 386,
+    "y": 1844,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2160,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 2200,
+    "w": 363,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2235,
+    "w": 363,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2271,
+    "w": 359,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2306,
+    "w": 68,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2350,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 843,
+    "y": 1844,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 2160,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 2200,
+    "w": 380,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 2235,
+    "w": 410,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 2280,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1305,
+    "y": 1844,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 2160,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 2200,
+    "w": 398,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2235,
+    "w": 220,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2280,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 384,
+    "y": 2443,
+    "w": 61,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2759,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 2799,
+    "w": 410,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2835,
+    "w": 343,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2870,
+    "w": 417,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2914,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 851,
+    "y": 2443,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 2759,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 2799,
+    "w": 387,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 2835,
+    "w": 190,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 2879,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1165,
+    "y": 2443,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 1266,
+    "y": 2443,
+    "w": 102,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 2759,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 2799,
+    "w": 324,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2835,
+    "w": 407,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2870,
+    "w": 371,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2905,
+    "w": 340,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2949,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 162,
+    "y": 3421,
+    "w": 341,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 3499,
+    "w": 442,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3528,
+    "w": 513,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3557,
+    "w": 512,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3586,
+    "w": 530,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3614,
+    "w": 174,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 3714,
+    "w": 260,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 4111,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 4198,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 4250,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 4300,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4198,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 4250,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4300,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4349,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4399,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 4198,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 4250,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 4300,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 4198,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 4332,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 4392,
+    "w": 127,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 81,
+    "h": 17
+   },
+   {
+    "x": 246,
+    "y": 123,
+    "w": 163,
+    "h": 17
+   },
+   {
+    "x": 246,
+    "y": 123,
+    "w": 147,
+    "h": 17
+   },
+   {
+    "x": 446,
+    "y": 123,
+    "w": 158,
+    "h": 17
+   },
+   {
+    "x": 350,
+    "y": 227,
+    "w": 741,
+    "h": 72
+   },
+   {
+    "x": 360,
+    "y": 306,
+    "w": 721,
+    "h": 72
+   },
+   {
+    "x": 294,
+    "y": 418,
+    "w": 851,
+    "h": 29
+   },
+   {
+    "x": 291,
+    "y": 457,
+    "w": 858,
+    "h": 29
+   },
+   {
+    "x": 278,
+    "y": 495,
+    "w": 884,
+    "h": 29
+   },
+   {
+    "x": 646,
+    "y": 534,
+    "w": 149,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1331,
+    "w": 568,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1360,
+    "w": 583,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1389,
+    "w": 158,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1449,
+    "w": 589,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1478,
+    "w": 559,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1507,
+    "w": 414,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1568,
+    "w": 622,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1597,
+    "w": 635,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1625,
+    "w": 656,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1654,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1683,
+    "w": 111,
+    "h": 22
+   },
+   {
+    "x": 386,
+    "y": 1844,
+    "w": 60,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2160,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 2200,
+    "w": 363,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2235,
+    "w": 363,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2271,
+    "w": 359,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2306,
+    "w": 68,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2350,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 843,
+    "y": 1844,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 2160,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 2200,
+    "w": 380,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 2235,
+    "w": 410,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 2280,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1305,
+    "y": 1844,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 2160,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 2200,
+    "w": 398,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2235,
+    "w": 220,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2280,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 384,
+    "y": 2443,
+    "w": 61,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 2759,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 48,
+    "y": 2799,
+    "w": 410,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2835,
+    "w": 343,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2870,
+    "w": 417,
+    "h": 32
+   },
+   {
+    "x": 48,
+    "y": 2914,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 851,
+    "y": 2443,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 509,
+    "y": 2759,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 509,
+    "y": 2799,
+    "w": 387,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 2835,
+    "w": 190,
+    "h": 32
+   },
+   {
+    "x": 509,
+    "y": 2879,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 1165,
+    "y": 2443,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 1266,
+    "y": 2443,
+    "w": 102,
+    "h": 19
+   },
+   {
+    "x": 971,
+    "y": 2759,
+    "w": 161,
+    "h": 24
+   },
+   {
+    "x": 971,
+    "y": 2799,
+    "w": 324,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2835,
+    "w": 407,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2870,
+    "w": 371,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2905,
+    "w": 340,
+    "h": 32
+   },
+   {
+    "x": 971,
+    "y": 2949,
+    "w": 81,
+    "h": 19
+   },
+   {
+    "x": 162,
+    "y": 3436,
+    "w": 341,
+    "h": 48
+   },
+   {
+    "x": 162,
+    "y": 3514,
+    "w": 442,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3542,
+    "w": 513,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3571,
+    "w": 512,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3600,
+    "w": 530,
+    "h": 22
+   },
+   {
+    "x": 162,
+    "y": 3629,
+    "w": 174,
+    "h": 22
+   },
+   {
+    "x": 196,
+    "y": 3700,
+    "w": 260,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 4111,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 4198,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 4250,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 4300,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4198,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 4250,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4300,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4349,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4399,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 4198,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 4250,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 4300,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 4198,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 4332,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 4392,
+    "w": 127,
+    "h": 22
+   }
+  ]
+ }
+}

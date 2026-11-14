@@ -1,0 +1,696 @@
+{
+  "slug": "ch-fr-html",
+  "type": "locale-home",
+  "renderBranch": "A'",
+  "template": "at-de-html",
+  "modules": [
+    "content-fader",
+    "page-hero-carousel",
+    "number-fact-teaser",
+    "filtered-teaser-grid"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "cmp-container"
+  ],
+  "canonShas": {
+    "header": "a7e2e2f42644",
+    "footer": "0b93a55c40fd",
+    "css": "2bf6b48caf7e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Fairtrade Max Havelaar Suisse",
+    "description": null,
+    "canonical": "https://main--63f9f24b--aemcoder.aem.page/ch-fr.html",
+    "lang": "fr"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Fairtrade.net",
+    "alternateName": "Fairtrade Switzerland",
+    "url": "https://www.fairtrade.net/"
+  },
+  "migratedAt": "2026-11-14T07:55:17Z",
+  "designMdSha": "ba7a99252bf7",
+  "designJsonSha": "d7cf7a9249c2",
+  "sourceCurrentSha": "e8e42054c813",
+  "sourceProposedSha": "315c6f1fcd17",
+  "fidelityTier": "sibling",
+  "archetypeSource": "at-de-html",
+  "archetypeSha": "7c54e4ea9c35",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 vs at-de-html: per-page module composition (hero/teaser/nav/accordion/text-image counts), grey text-image band, wide navigation-teaser, large teaser family (stardust/migrate/variance/locale-home.json)",
+    "delivery-lint": "delivery-lint 0 P0/P1 on content/ch-fr.html (path /ch-fr)",
+    "media-reconcile": "media-reconcile: all images keep (200), no omit/unresolved after the encoder's broken-image omit",
+    "pixel-gate-1440": "gate-all 1440: pixel 0.34% dh 0, PASS",
+    "pixel-gate-360": "gate-all 360: pixel 1.6% dh 0, PASS"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/quest-ce-que-le-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/comment-fairtrade-fonctionne.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/benefices-du-commerce-equitable-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/theorie-du-changement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/piliers-du-commerce-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/les-droits-des-travailleurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/les-droits-des-femmes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/lutter-contre-le-travail-des-enfants.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/hredd.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/les-petits-exploitants-agricoles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/des-revenus-et-salaires-vitaux.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/climat-et-environnement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/fairtrade-et-les-sdg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/comment-nous-le-faisons.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/comment-nous-le-faisons/projets-et-programmes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/comment-nous-le-faisons/fairtrade-label.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/comment-nous-le-faisons/les-standards-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact/temoignages-producteurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact/chiffres-cles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact/comment-mesurer-impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact/impact-map.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact/etudes-d-impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/bananes-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/cacao-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/cafe-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/coton-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/fleurs-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/fruits-et-jus-de-fruits-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/or-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/herbes-et-epices-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/miel-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/noix-et-oleagineux-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/quinoa-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/riz-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/ballons-de-sport-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/sucre-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/the-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/vin-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-code.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/les-avantages.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/les-avantages/avantages-consommateurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/les-avantages/avantages-entrepreneurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/les-avantages/avantages-producteurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/devenir-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/devenir-fairtrade/certification.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/devenir-fairtrade/devenir-licencie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/devenir-fairtrade/au-dela-de-certification.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/devenir-fairtrade/inscriptions-fleuristes-orf-vres-restaurateurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/b2b-newsletter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/activites.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/activites/prix-par-mois.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/activites/campagnes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/activites/fair-trade-towns-marches-publics.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/activites/fairtrade-schools-materiel-educatif.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/newsletter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/sur-fairtrade-suisse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/mediatheque.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/la-presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/contact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/sur-fairtrade-suisse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/mediatheque.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/la-presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/contact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/quest-ce-que-le-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/comment-fairtrade-fonctionne.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/benefices-du-commerce-equitable-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/theorie-du-changement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/piliers-du-commerce-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/les-droits-des-travailleurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/les-droits-des-femmes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/lutter-contre-le-travail-des-enfants.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/hredd.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/les-petits-exploitants-agricoles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/des-revenus-et-salaires-vitaux.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/climat-et-environnement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous/fairtrade-et-les-sdg.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/comment-nous-le-faisons.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/comment-nous-le-faisons/projets-et-programmes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/comment-nous-le-faisons/fairtrade-label.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/comment-nous-le-faisons/les-standards-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact/temoignages-producteurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact/chiffres-cles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact/comment-mesurer-impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact/impact-map.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/impact/etudes-d-impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/index-des-produits.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/produkte/fairtrade-code.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/bananes-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/cacao-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/cafe-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/coton-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/fleurs-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/fruits-et-jus-de-fruits-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/or-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/herbes-et-epices-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/miel-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/noix-et-oleagineux-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/quinoa-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/riz-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/ballons-de-sport-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/sucre-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/the-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade/vin-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/les-avantages.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/les-avantages/avantages-consommateurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/les-avantages/avantages-entrepreneurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/les-avantages/avantages-producteurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/devenir-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/devenir-fairtrade/certification.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/devenir-fairtrade/devenir-licencie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/devenir-fairtrade/au-dela-de-certification.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/devenir-fairtrade/inscriptions-fleuristes-orf-vres-restaurateurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/b2b-newsletter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/activites.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/activites/prix-par-mois.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/activites/campagnes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/activites/fair-trade-towns-marches-publics.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/activites/fairtrade-schools-materiel-educatif.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/newsletter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite/nouveau-standard-fairtrade-textile-factory.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/activites/campagnes/pourquoi-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite/chute-du-prix-du-cacao-en-cdi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/activites/campagnes/fair-vibes-merch.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite/rapport-annuel-2025-fairtrade-max-havelaar-continue-sa-progression.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/ce-que-nous-faisons/quest-ce-que-le-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/entreprises/devenir-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/produits/produits-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-de/was-ist-fairtrade/fairtrade-ansatz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite/chute-du-prix-du-cacao-en-cdi.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite/nouveau-standard-fairtrade-textile-factory.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite/remediation-du-travail-des-enfants.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "[%=cta.link%]",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/pourquoi-fairtrade/pourquoi-le-faisons-nous.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/sur-fairtrade-suisse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/actualite.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/sur-fairtrade-suisse/carriere.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/faq.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/mediatheque.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/impressum.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/protection-des-donnees.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/sur-fairtrade-suisse/objectifs-valeurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/ch-fr/participe/newsletter.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "ch-fr.html",
+  "outputPathDefault": null,
+  "sidecar": "ch-fr._meta.json",
+  "driverVersion": "1"
+}

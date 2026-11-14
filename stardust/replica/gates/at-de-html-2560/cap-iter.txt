@@ -1,0 +1,24 @@
+cap-probe  base 1440 → probe 2560 (from stardust/current/DESIGN.json)
+live   https://www.fairtrade.net/at-de.html
+  modules  14 sections: capped 1920 ×11, 354 ×1 · full-bleed ×2
+  contentMaxWidth 1920px (module) · shellMaxWidth fluid · root div.cmp-container > div.aem-Grid.aem-Grid--12 > div.maincontainer.container > main
+build  http://localhost:8791/at-de-html-proposed.html
+  modules  14 sections: capped 1920 ×11, 354 ×1 · full-bleed ×2
+  contentMaxWidth 1920px (module) · shellMaxWidth fluid · root body > main
+rows
+  ✓ content cap: live 1920px = build 1920px (±20, shared module cap)
+  ✓ module 1/14: 1920px = 1920px
+  ✓ module 2/14: 1920px = 1920px
+  ✓ module 3/14: 1920px = 1920px
+  ✓ module 4/14: full-bleed on both
+  ✓ module 5/14: 1920px = 1920px
+  ✓ module 6/14: full-bleed on both
+  ✓ module 7/14: 354px = 354px
+  ✓ module 8/14: 1920px = 1920px
+  ✓ module 9/14: 1920px = 1920px
+  ✓ module 10/14: 1920px = 1920px
+  ✓ module 11/14: 1920px = 1920px
+  ✓ module 12/14: 1920px = 1920px
+  ✓ module 13/14: 1920px = 1920px
+  ✓ module 14/14: 1920px = 1920px
+cap-probe: PASS at 2560 — 0 of 15 rows failed (evidence stardust/replica/gates/at-de-html-2560/cap-iter.json)

@@ -1,0 +1,57 @@
+{
+ "url": "https://main--63f9f24b--aemcoder.aem.page/ca-fr",
+ "at": "2026-11-14T10:28:21.966Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 0,
+  "textNodes": 68,
+  "controls": 40,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "nav#main-nav",
+   "path": "nav#main-nav > ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+   "text": "ressources",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "TEXT X-HIDDEN",
+   "advisory": true,
+   "n": 1,
+   "clipper": "nav#main-nav",
+   "path": "nav#main-nav > ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+   "text": "ressources",
+   "cutMin": 0,
+   "cutMax": 0
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 1,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 0,
+   "textNodes": 69,
+   "controls": 41,
+   "total": 1
+  }
+ }
+}

@@ -1,0 +1,633 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-13T22:41:19.973Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+      "http://localhost:8791/us-en-why-fairtrade-why-we-do-it-gender-equality-html-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from stardust/current/DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html",
+    "http://localhost:8791/us-en-why-fairtrade-why-we-do-it-gender-equality-html-proposed.html"
+  ],
+  "probeNote": "from stardust/current/DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#container-48cdf45a8d > div.aem-Grid.aem-Grid--12 > div.maincontainer.container > main",
+      "isBody": false,
+      "leaves": 47,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "div.page-lead.is-visible > div.PageLead.theme-skyblue > div.PageLead--content > div.PageLead--contentGrid",
+        "tier": 5,
+        "share": 0.04,
+        "section": 0,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 471,
+        "via": "fixed",
+        "selector": "div.PageLead.theme-skyblue > div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+        "tier": 6,
+        "share": 0.02,
+        "section": 0,
+        "w1": 471,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "div.page-lead.is-visible > div.PageLead.theme-skyblue > div.PageLead--image > div.PageLead--imageGrid",
+        "tier": 5,
+        "share": 0,
+        "section": 0,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "main > div.cmp-container > div.richtextsection.is-visible > div.RichtextSection",
+        "tier": 3,
+        "share": 0.06,
+        "section": 1,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "div.textimage.is-visible > div.TextImage--wrapper > div.TextImage.order-reverse > div.TextImage--grid",
+        "tier": 5,
+        "share": 0.06,
+        "section": 2,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "div.textimage.is-visible > div.TextImage--wrapper > div.TextImage.theme-grey > div.TextImage--grid",
+        "tier": 5,
+        "share": 0.06,
+        "section": 3,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "main > div.cmp-container > div.richtextsection.is-visible > div.RichtextSection",
+        "tier": 3,
+        "share": 0.04,
+        "section": 4,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "main > div.cmp-container > div.numberfactteaser.is-visible > div.NumberFactTeaser",
+        "tier": 3,
+        "share": 0.26,
+        "section": 5,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 612,
+        "via": "max-width",
+        "selector": "div.NumberFactTeaser--slider > ul.NumberFactTeaser--items > li.NumberFactTeaser--item > div.NumberFact.color-eggplant",
+        "tier": 7,
+        "share": 0.04,
+        "section": 5,
+        "w1": 612,
+        "maxWidth": "612px"
+      },
+      {
+        "kind": "module",
+        "px": 612,
+        "via": "max-width",
+        "selector": "div.NumberFactTeaser--slider > ul.NumberFactTeaser--items > li.NumberFactTeaser--item > div.NumberFact.color-eggplant",
+        "tier": 7,
+        "share": 0.04,
+        "section": 5,
+        "w1": 612,
+        "maxWidth": "612px"
+      },
+      {
+        "kind": "module",
+        "px": 612,
+        "via": "max-width",
+        "selector": "div.NumberFactTeaser--slider > ul.NumberFactTeaser--items > li.NumberFactTeaser--item > div.NumberFact.color-eggplant",
+        "tier": 7,
+        "share": 0.04,
+        "section": 5,
+        "w1": 612,
+        "maxWidth": "612px"
+      },
+      {
+        "kind": "module",
+        "px": 612,
+        "via": "max-width",
+        "selector": "div.NumberFactTeaser--slider > ul.NumberFactTeaser--items > li.NumberFactTeaser--item > div.NumberFact.color-eggplant",
+        "tier": 7,
+        "share": 0.04,
+        "section": 5,
+        "w1": 612,
+        "maxWidth": "612px"
+      },
+      {
+        "kind": "module",
+        "px": 437,
+        "via": "fixed",
+        "selector": "div.cmp-container > div.numberfactteaser.is-visible > div.NumberFactTeaser > div.NumberFactTeaser--content",
+        "tier": 4,
+        "share": 0.09,
+        "section": 5,
+        "w1": 437,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 281,
+        "via": "fixed",
+        "selector": "div.numberfactteaser.is-visible > div.NumberFactTeaser > div.NumberFactTeaser--content > strong.NumberFactTeaser--label",
+        "tier": 5,
+        "share": 0.02,
+        "section": 5,
+        "w1": 281,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 337,
+        "via": "fixed",
+        "selector": "div.NumberFactTeaser > div.NumberFactTeaser--content > a.Button.NumberFactTeaser--cta > span.Button--inner",
+        "tier": 6,
+        "share": 0.02,
+        "section": 5,
+        "w1": 337,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "main > div.cmp-container > div.accordion.panelcontainer > div.AccordionSection",
+        "tier": 3,
+        "share": 0.36,
+        "section": 6,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "main > div.cmp-container > div.singleimage.is-visible > div.SingleImage.size-content",
+        "tier": 3,
+        "share": 0.02,
+        "section": 7,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "main > div.cmp-container > div.richtextsection.is-visible > div.RichtextSection",
+        "tier": 3,
+        "share": 0.09,
+        "section": 8,
+        "w1": 1440,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "div.maincontainer.container > main > div.cmp-container > div.page-lead.is-visible",
+        "px": 1920,
+        "capSelector": "div.page-lead.is-visible > div.PageLead.theme-skyblue > div.PageLead--content > div.PageLead--contentGrid"
+      },
+      {
+        "index": 1,
+        "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+        "px": 1920,
+        "capSelector": "main > div.cmp-container > div.richtextsection.is-visible > div.RichtextSection"
+      },
+      {
+        "index": 2,
+        "selector": "div.maincontainer.container > main > div.cmp-container > div.textimage.is-visible",
+        "px": 1920,
+        "capSelector": "div.textimage.is-visible > div.TextImage--wrapper > div.TextImage.order-reverse > div.TextImage--grid"
+      },
+      {
+        "index": 3,
+        "selector": "div.maincontainer.container > main > div.cmp-container > div.textimage.is-visible",
+        "px": 1920,
+        "capSelector": "div.textimage.is-visible > div.TextImage--wrapper > div.TextImage.theme-grey > div.TextImage--grid"
+      },
+      {
+        "index": 4,
+        "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+        "px": 1920,
+        "capSelector": "main > div.cmp-container > div.richtextsection.is-visible > div.RichtextSection"
+      },
+      {
+        "index": 5,
+        "selector": "div.maincontainer.container > main > div.cmp-container > div.numberfactteaser.is-visible",
+        "px": 1920,
+        "capSelector": "main > div.cmp-container > div.numberfactteaser.is-visible > div.NumberFactTeaser"
+      },
+      {
+        "index": 6,
+        "selector": "div.maincontainer.container > main > div.cmp-container > div.accordion.panelcontainer",
+        "px": 1920,
+        "capSelector": "main > div.cmp-container > div.accordion.panelcontainer > div.AccordionSection"
+      },
+      {
+        "index": 7,
+        "selector": "div.maincontainer.container > main > div.cmp-container > div.singleimage.is-visible",
+        "px": 1920,
+        "capSelector": "main > div.cmp-container > div.singleimage.is-visible > div.SingleImage.size-content"
+      },
+      {
+        "index": 8,
+        "selector": "div.maincontainer.container > main > div.cmp-container > div.richtextsection.is-visible",
+        "px": 1920,
+        "capSelector": "main > div.cmp-container > div.richtextsection.is-visible > div.RichtextSection"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1920,
+    "contentFrom": "module",
+    "maxCap": 1920,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 166
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "body > main",
+      "isBody": false,
+      "leaves": 47,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "main > section.PageLead.theme-skyblue > div.PageLead--content > div.PageLead--contentGrid",
+        "tier": 3,
+        "share": 0.04,
+        "section": 0,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 471,
+        "via": "fixed",
+        "selector": "section.PageLead.theme-skyblue > div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+        "tier": 4,
+        "share": 0.02,
+        "section": 0,
+        "w1": 471,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "main > section.PageLead.theme-skyblue > div.PageLead--image > div.PageLead--imageGrid",
+        "tier": 3,
+        "share": 0,
+        "section": 0,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "body > main > section.RichtextSection.is-visible",
+        "tier": 1,
+        "share": 0.06,
+        "section": 1,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "main > section.TextImage--wrapper.is-visible > div.TextImage.order-reverse > div.TextImage--grid",
+        "tier": 3,
+        "share": 0.06,
+        "section": 2,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "main > section.TextImage--wrapper.is-visible > div.TextImage.theme-grey > div.TextImage--grid",
+        "tier": 3,
+        "share": 0.06,
+        "section": 3,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "body > main > section.RichtextSection.is-visible",
+        "tier": 1,
+        "share": 0.04,
+        "section": 4,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "body > main > section.NumberFactTeaser.is-visible",
+        "tier": 1,
+        "share": 0.26,
+        "section": 5,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 612,
+        "via": "max-width",
+        "selector": "div.NumberFactTeaser--slider > ul.NumberFactTeaser--items > li.NumberFactTeaser--item > div.NumberFact.color-eggplant",
+        "tier": 5,
+        "share": 0.04,
+        "section": 5,
+        "w1": 612,
+        "maxWidth": "612px"
+      },
+      {
+        "kind": "module",
+        "px": 612,
+        "via": "max-width",
+        "selector": "div.NumberFactTeaser--slider > ul.NumberFactTeaser--items > li.NumberFactTeaser--item > div.NumberFact.color-eggplant",
+        "tier": 5,
+        "share": 0.04,
+        "section": 5,
+        "w1": 612,
+        "maxWidth": "612px"
+      },
+      {
+        "kind": "module",
+        "px": 612,
+        "via": "max-width",
+        "selector": "div.NumberFactTeaser--slider > ul.NumberFactTeaser--items > li.NumberFactTeaser--item > div.NumberFact.color-eggplant",
+        "tier": 5,
+        "share": 0.04,
+        "section": 5,
+        "w1": 612,
+        "maxWidth": "612px"
+      },
+      {
+        "kind": "module",
+        "px": 612,
+        "via": "max-width",
+        "selector": "div.NumberFactTeaser--slider > ul.NumberFactTeaser--items > li.NumberFactTeaser--item > div.NumberFact.color-eggplant",
+        "tier": 5,
+        "share": 0.04,
+        "section": 5,
+        "w1": 612,
+        "maxWidth": "612px"
+      },
+      {
+        "kind": "module",
+        "px": 437,
+        "via": "fixed",
+        "selector": "body > main > section.NumberFactTeaser.is-visible > div.NumberFactTeaser--content",
+        "tier": 2,
+        "share": 0.09,
+        "section": 5,
+        "w1": 437,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 281,
+        "via": "fixed",
+        "selector": "main > section.NumberFactTeaser.is-visible > div.NumberFactTeaser--content > strong.NumberFactTeaser--label",
+        "tier": 3,
+        "share": 0.02,
+        "section": 5,
+        "w1": 281,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 337,
+        "via": "fixed",
+        "selector": "section.NumberFactTeaser.is-visible > div.NumberFactTeaser--content > a.Button.NumberFactTeaser--cta > span.Button--inner",
+        "tier": 4,
+        "share": 0.02,
+        "section": 5,
+        "w1": 337,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "body > main > section.AccordionSection.is-visible",
+        "tier": 1,
+        "share": 0.36,
+        "section": 6,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "body > main > section.SingleImage.size-content",
+        "tier": 1,
+        "share": 0.02,
+        "section": 7,
+        "w1": 1440,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "other",
+        "selector": "body > main > section.RichtextSection.is-visible",
+        "tier": 1,
+        "share": 0.09,
+        "section": 8,
+        "w1": 1440,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "body > main > section.PageLead.theme-skyblue",
+        "px": 1920,
+        "capSelector": "main > section.PageLead.theme-skyblue > div.PageLead--content > div.PageLead--contentGrid"
+      },
+      {
+        "index": 1,
+        "selector": "body > main > section.RichtextSection.is-visible",
+        "px": 1920,
+        "capSelector": "body > main > section.RichtextSection.is-visible"
+      },
+      {
+        "index": 2,
+        "selector": "body > main > section.TextImage--wrapper.is-visible",
+        "px": 1920,
+        "capSelector": "main > section.TextImage--wrapper.is-visible > div.TextImage.order-reverse > div.TextImage--grid"
+      },
+      {
+        "index": 3,
+        "selector": "body > main > section.TextImage--wrapper.is-visible",
+        "px": 1920,
+        "capSelector": "main > section.TextImage--wrapper.is-visible > div.TextImage.theme-grey > div.TextImage--grid"
+      },
+      {
+        "index": 4,
+        "selector": "body > main > section.RichtextSection.is-visible",
+        "px": 1920,
+        "capSelector": "body > main > section.RichtextSection.is-visible"
+      },
+      {
+        "index": 5,
+        "selector": "body > main > section.NumberFactTeaser.is-visible",
+        "px": 1920,
+        "capSelector": "body > main > section.NumberFactTeaser.is-visible"
+      },
+      {
+        "index": 6,
+        "selector": "body > main > section.AccordionSection.is-visible",
+        "px": 1920,
+        "capSelector": "body > main > section.AccordionSection.is-visible"
+      },
+      {
+        "index": 7,
+        "selector": "body > main > section.SingleImage.size-content",
+        "px": 1920,
+        "capSelector": "body > main > section.SingleImage.size-content"
+      },
+      {
+        "index": 8,
+        "selector": "body > main > section.RichtextSection.is-visible",
+        "px": 1920,
+        "capSelector": "body > main > section.RichtextSection.is-visible"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1920,
+    "contentFrom": "module",
+    "maxCap": 1920,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 148
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1920px = build 1920px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/9",
+        "detail": "1920px = 1920px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/9",
+        "detail": "1920px = 1920px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/9",
+        "detail": "1920px = 1920px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 4/9",
+        "detail": "1920px = 1920px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 5/9",
+        "detail": "1920px = 1920px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 6/9",
+        "detail": "1920px = 1920px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 7/9",
+        "detail": "1920px = 1920px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 8/9",
+        "detail": "1920px = 1920px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 9/9",
+        "detail": "1920px = 1920px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/us-en-why-fairtrade-why-we-do-it-gender-equality-html-2560/cap-iter.json"
+}

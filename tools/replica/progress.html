@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration result</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  details.spectrum-panel > summary { cursor: pointer; list-style: none; }
+  details.spectrum-panel > summary::-webkit-details-marker { display: none; }
+  details.spectrum-panel > summary > h2 { margin: 0; font: inherit; }
+  details.spectrum-panel > summary > h2::before { content: "\25B8"; display: inline-block; width: 1em; margin-right: 6px; color: var(--spectrum-text-subdued); }
+  details.spectrum-panel[open] > summary > h2::before { content: "\25BE"; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table.pages td .spectrum-badge { word-break: normal; }
+  @media (max-width: 400px) { table.pages th, table.pages td { padding: 8px 4px; } }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+  #blocks-used .bp-radio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #blocks-used .bp-page, #blocks-used .bp-range { display: none; }
+  #blocks-used .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+  #blocks-used .labels { display: flex; flex-wrap: wrap; gap: 4px; }
+  #blocks-used .bp-radio:focus-visible ~ .pager label { outline: 2px solid var(--spectrum-focus-ring); }
+  #bp-1:checked ~ table .bp-page-1 { display: table-row-group; }
+  #bp-1:checked ~ .pager .bp-range-1 { display: inline; }
+  #bp-1:checked ~ .pager label[for="bp-1"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-2:checked ~ table .bp-page-2 { display: table-row-group; }
+  #bp-2:checked ~ .pager .bp-range-2 { display: inline; }
+  #bp-2:checked ~ .pager label[for="bp-2"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-3:checked ~ table .bp-page-3 { display: table-row-group; }
+  #bp-3:checked ~ .pager .bp-range-3 { display: inline; }
+  #bp-3:checked ~ .pager label[for="bp-3"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration result</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://www.fairtrade.net/" target="_blank" rel="noopener">https://www.fairtrade.net/</a><br>Preview site: <a href="https://main--63f9f24b--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--63f9f24b--aemcoder.aem.page/</a><br>Finished: 2026-11-14 12:10 UTC</p>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>What's done</h2></summary>
+    <div class="panel-body">
+      <p>The migration is complete. All 100 pages are live on the new platform, match the original design on desktop and mobile, and have passed every check, with links, redirects and search-engine data in place.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Next steps</h2></summary>
+    <div class="panel-body">
+      <p>Over to your team: switching on analytics and tracking, connecting the contact form and deciding on site search are ready whenever you are.</p>
+      <ol class="todo">
+        <li><strong>Make it yours.</strong> Move this result into your own site and GitHub repository: use <strong>Make it yours</strong> on this migration in AEM Coder.</li>
+        <li><strong>Review the pages</strong> on the <a href="https://main--63f9f24b--aemcoder.aem.page/" target="_blank" rel="noopener">preview site</a>.</li>
+        <li><strong>Switch on analytics and tags</strong> when you are ready: see <em>Before you switch them on</em> under Analytics and tags.</li>
+      </ol>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Pages</h2></summary>
+    <div class="panel-body">
+      <p>This migration covers 100 pages. 100 of 100 are published on the preview site; 100 have passed the side-by-side check against the original.</p>
+      <details>
+        <summary>100 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://www.fairtrade.net/" target="_blank" rel="noopener">https://www.fairtrade.net/</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/de-de.html" target="_blank" rel="noopener">https://www.fairtrade.net/de-de.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/de-de" target="_blank" rel="noopener">Für eine gerechtere Weltwirtschaft | Fairtrade Deutschland</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/maxhavelaarfrance-fr.html" target="_blank" rel="noopener">https://www.fairtrade.net/maxhavelaarfrance-fr.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/maxhavelaarfrance-fr" target="_blank" rel="noopener">Max Havelaar France</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/jp-jp.html" target="_blank" rel="noopener">https://www.fairtrade.net/jp-jp.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/jp-jp" target="_blank" rel="noopener">フェアトレード・ジャパン｜Fairtrade Japan｜公式サイト</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/en.html" target="_blank" rel="noopener">https://www.fairtrade.net/en.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/africa-en.html" target="_blank" rel="noopener">https://www.fairtrade.net/africa-en.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/africa-en" target="_blank" rel="noopener">English</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/at-de.html" target="_blank" rel="noopener">https://www.fairtrade.net/at-de.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/at-de" target="_blank" rel="noopener">FAIRTRADE Österreich</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/be-fr.html" target="_blank" rel="noopener">https://www.fairtrade.net/be-fr.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/be-fr" target="_blank" rel="noopener">Fairtrade Belgium</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/be-nl.html" target="_blank" rel="noopener">https://www.fairtrade.net/be-nl.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/be-nl" target="_blank" rel="noopener">Fairtrade Belgium</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/ca-en.html" target="_blank" rel="noopener">https://www.fairtrade.net/ca-en.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/ca-en" target="_blank" rel="noopener">Fairtrade Canada | Canada&#39;s Trusted Fair Trade Certification</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/ca-fr.html" target="_blank" rel="noopener">https://www.fairtrade.net/ca-fr.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/ca-fr" target="_blank" rel="noopener">Fairtrade Canada | La certification de confiance Canadienne</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/iberica-es.html" target="_blank" rel="noopener">https://www.fairtrade.net/iberica-es.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-es" target="_blank" rel="noopener">Fairtrade Ibérica España | Un futuro más justo es posible</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/iberica-pt.html" target="_blank" rel="noopener">https://www.fairtrade.net/iberica-pt.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-pt" target="_blank" rel="noopener">Fairtrade Ibérica Portugal | Um futuro mais justo é possível</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/ie-en.html" target="_blank" rel="noopener">https://www.fairtrade.net/ie-en.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/ie-en" target="_blank" rel="noopener">Fairtrade Ireland</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/it-it.html" target="_blank" rel="noopener">https://www.fairtrade.net/it-it.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/it-it" target="_blank" rel="noopener">Fairtrade Italia | Marchio etico per la sostenibilità e diritti umani</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/kr-ko.html" target="_blank" rel="noopener">https://www.fairtrade.net/kr-ko.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/kr-ko" target="_blank" rel="noopener">Fairtrade Korea</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/napp-en.html" target="_blank" rel="noopener">https://www.fairtrade.net/napp-en.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/napp-en" target="_blank" rel="noopener">English</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/nl-nl.html" target="_blank" rel="noopener">https://www.fairtrade.net/nl-nl.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/nl-nl" target="_blank" rel="noopener">Fairtrade Nederland</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/no-no.html" target="_blank" rel="noopener">https://www.fairtrade.net/no-no.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/no-no" target="_blank" rel="noopener">Fairtrade Norge</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/pl-pl.html" target="_blank" rel="noopener">https://www.fairtrade.net/pl-pl.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/pl-pl" target="_blank" rel="noopener">Fundacja Fairtrade Polska</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/se-sv.html" target="_blank" rel="noopener">https://www.fairtrade.net/se-sv.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/se-sv" target="_blank" rel="noopener">Fairtrade Sverige</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/ch-de.html" target="_blank" rel="noopener">https://www.fairtrade.net/ch-de.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/ch-de" target="_blank" rel="noopener">Fairtrade Max Havelaar Schweiz</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/ch-fr.html" target="_blank" rel="noopener">https://www.fairtrade.net/ch-fr.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/ch-fr" target="_blank" rel="noopener">Fairtrade Max Havelaar Suisse</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/uk-en.html" target="_blank" rel="noopener">https://www.fairtrade.net/uk-en.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/uk-en" target="_blank" rel="noopener">Fairtrade Foundation</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/about.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/about.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/about" target="_blank" rel="noopener">About</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/news.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/news.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/news" target="_blank" rel="noopener">News</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/contact.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/contact.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/contact" target="_blank" rel="noopener">Contact</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html" target="_blank" rel="noopener">https://www.fairtrade.net/mt-en/bring-fairtrade-to-your-market.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/mt-en/bring-fairtrade-to-your-market" target="_blank" rel="noopener">Bring Fairtrade to your market</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html" target="_blank" rel="noopener">https://www.fairtrade.net/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra" target="_blank" rel="noopener">Aduceți Fairtrade pe piața dumneavoastră</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html" target="_blank" rel="noopener">https://www.fairtrade.net/si-sl/prinesite-fairtrade-na-vas-trg.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/si-sl/prinesite-fairtrade-na-vas-trg" target="_blank" rel="noopener">Prinesite Fairtrade na vaš trg</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade" target="_blank" rel="noopener">Why Fairtrade</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/products.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/products.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products" target="_blank" rel="noopener">Fairtrade products</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/for-business.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/for-business.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business" target="_blank" rel="noopener">For Business</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/for-media.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/for-media.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-media" target="_blank" rel="noopener">For Media</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/terms-of-use.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/terms-of-use.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/terms-of-use" target="_blank" rel="noopener">Terms of Use</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/privacy-policy.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/privacy-policy.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/fairtrade-newsletter.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/fairtrade-newsletter.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/fairtrade-newsletter" target="_blank" rel="noopener">Fairtrade Newsletter</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/what-we-do.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/what-we-do.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do" target="_blank" rel="noopener">What we do</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it" target="_blank" rel="noopener">Why we do it</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it" target="_blank" rel="noopener">How we do it</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/impact.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/impact.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact" target="_blank" rel="noopener">Impact</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/products/all-products.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/products/all-products.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products" target="_blank" rel="noopener">Fairtrade products</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified" target="_blank" rel="noopener">Benefits of being certified</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/for-business/get-certified.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/for-business/get-certified.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified" target="_blank" rel="noopener">Get Certified</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/for-business/for-partners.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/for-business/for-partners.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-partners" target="_blank" rel="noopener">For Partners</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/for-business/for-retailers.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/for-business/for-retailers.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-retailers" target="_blank" rel="noopener">For Retailers</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/get-involved/get-involved.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/get-involved/get-involved.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/get-involved" target="_blank" rel="noopener">Get Involved</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/get-involved/how-to-shop-sustainably.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/get-involved/how-to-shop-sustainably.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/how-to-shop-sustainably" target="_blank" rel="noopener">How to Shop Sustainably</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/get-involved/where-to-buy.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/get-involved/where-to-buy.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/where-to-buy" target="_blank" rel="noopener">Where to buy</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/get-involved/activism.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/get-involved/activism.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/activism" target="_blank" rel="noopener">Activism</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/about/careers.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/about/careers.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/about/careers" target="_blank" rel="noopener">Careers</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/news/when-communities-lead--the-cooperative-model-at-work-in-madagasc.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/news/when-communities-lead--the-cooperative-model-at-work-in-madagasc.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/news/when-communities-lead-the-cooperative-model-at-work-in-madagasc" target="_blank" rel="noopener">When Communities Lead: The Cooperative Model at Work in Madagascar</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/news/silence-isn-t-a-strategy--why--greenshouting--matters-for-busine.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/news/silence-isn-t-a-strategy--why--greenshouting--matters-for-busine.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/news/silence-isn-t-a-strategy-why-greenshouting-matters-for-busine" target="_blank" rel="noopener">Silence isn’t a strategy: Why “greenshouting” matters for business growth</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/what-is-fairtrade.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/what-is-fairtrade.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/what-is-fairtrade" target="_blank" rel="noopener">What is Fairtrade?</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/how-fairtrade-works" target="_blank" rel="noopener">How Fairtrade works</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/key-benefits.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/key-benefits.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/key-benefits" target="_blank" rel="noopener">Key benefits of Fairtrade</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/theory-of-change.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/theory-of-change" target="_blank" rel="noopener">Theory of Change</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/the-fairtrade-difference.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/what-we-do/the-fairtrade-difference.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/the-fairtrade-difference" target="_blank" rel="noopener">The Fairtrade Difference</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/child-protection.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection" target="_blank" rel="noopener">Child Protection</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment" target="_blank" rel="noopener">Climate and the environment</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/decent-livelihoods.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/decent-livelihoods" target="_blank" rel="noopener">Decent Livelihoods</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/deforestation.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/deforestation.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/deforestation" target="_blank" rel="noopener">Deforestation</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals-.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals" target="_blank" rel="noopener">Fairtrade and the Sustainable Development Goals</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/gender-equality.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/gender-equality" target="_blank" rel="noopener">Gender Equality</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/hredd.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/hredd.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/hredd" target="_blank" rel="noopener">HREDD</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/smallholder-farmers.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/smallholder-farmers" target="_blank" rel="noopener">Smallholder Farmers</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/workers-rights.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/why-we-do-it/workers-rights.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/workers-rights" target="_blank" rel="noopener">Workers Rights</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work" target="_blank" rel="noopener">How does the label work</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works" target="_blank" rel="noopener">How Fairtrade certification works</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients" target="_blank" rel="noopener">Fairtrade products and ingredients</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance" target="_blank" rel="noopener">Assuring integrity in checking compliance</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains" target="_blank" rel="noopener">Traceability in Fairtrade supply chains</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/fairtrade-standards.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/fairtrade-standards" target="_blank" rel="noopener">Fairtrade standards</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs" target="_blank" rel="noopener">Our projects and programs</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/impact/impact-stories.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/impact/impact-stories.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/impact-stories" target="_blank" rel="noopener">Impact stories</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/impact/key-figures-at-a-glance.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/impact/key-figures-at-a-glance.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/key-figures-at-a-glance" target="_blank" rel="noopener">Key figures at a glance</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/impact/how-we-measure-impact.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/impact/how-we-measure-impact.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/how-we-measure-impact" target="_blank" rel="noopener">How we measure impact</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/why-fairtrade/impact/reports-trends.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/why-fairtrade/impact/reports-trends.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/reports-trends" target="_blank" rel="noopener">Reports &amp; Trends</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/products/all-products/bananas.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/products/all-products/bananas.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/bananas" target="_blank" rel="noopener">Bananas</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/products/all-products/cocoa.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/products/all-products/cocoa.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/cocoa" target="_blank" rel="noopener">Cocoa</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/products/all-products/chocolate.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/products/all-products/chocolate.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/chocolate" target="_blank" rel="noopener">Chocolate</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/products/all-products/coffee.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/products/all-products/coffee.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/coffee" target="_blank" rel="noopener">Coffee</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/products/all-products/cotton.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/products/all-products/cotton.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/cotton" target="_blank" rel="noopener">Cotton</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/products/all-products/herbs-spices.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/products/all-products/herbs-spices.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/herbs-spices" target="_blank" rel="noopener">Herbs and spices</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/products/all-products/nuts-oils.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/products/all-products/nuts-oils.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/nuts-oils" target="_blank" rel="noopener">Nuts and oils</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/products/all-products/sugar.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/products/all-products/sugar.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/sugar" target="_blank" rel="noopener">Sugar</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/products/all-products/wine.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/products/all-products/wine.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/wine" target="_blank" rel="noopener">Wine</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/products/all-products/gold.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/products/all-products/gold.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/gold" target="_blank" rel="noopener">Gold</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/products/all-products/fruits-juices.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/products/all-products/fruits-juices.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/fruits-juices" target="_blank" rel="noopener">Fruits and juices</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/products/all-products/honey.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/products/all-products/honey.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/honey" target="_blank" rel="noopener">Honey</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/business-success-stories.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/business-success-stories.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/business-success-stories" target="_blank" rel="noopener">Business success stories</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-business.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-business.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/benefits-for-business" target="_blank" rel="noopener">Benefits for business</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-producers.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/benefits-for-producers.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/benefits-for-producers" target="_blank" rel="noopener">Benefits for producers</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/consumer-trends1.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/for-business/benefits-of-being-certified/consumer-trends1.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/consumer-trends1" target="_blank" rel="noopener">Consumer Trends</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/for-business/get-certified/the-certification-process.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/for-business/get-certified/the-certification-process.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/the-certification-process" target="_blank" rel="noopener">The Certification Process</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/for-business/get-certified/resources-support.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/for-business/get-certified/resources-support.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/resources-support" target="_blank" rel="noopener">Resources &amp; Support</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/for-business/get-certified/intro-to-fairtrade.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/for-business/get-certified/intro-to-fairtrade.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/intro-to-fairtrade" target="_blank" rel="noopener">Intro to Fairtrade</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/for-business/get-certified/get-started.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/for-business/get-certified/get-started.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/get-started" target="_blank" rel="noopener">Get Started</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fairtrade.net/us-en/for-business/for-partners/communicate-your-commitment.html" target="_blank" rel="noopener">https://www.fairtrade.net/us-en/for-business/for-partners/communicate-your-commitment.html</a></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-partners/communicate-your-commitment" target="_blank" rel="noopener">Marketing the Movement | marketing the movement</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Page templates</h2></summary>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Form landing pages</td><td>4</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Home page</td><td>2</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Listing pages</td><td>7</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Country home pages</td><td>23</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Content pages</td><td>64</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" id="blocks-used">
+    <summary class="spectrum-panel-header"><h2>Blocks used</h2></summary>
+    <div class="panel-body">
+      <p>13 blocks in 56 variants across 100 pages. These are the building blocks your authors will work with.</p>
+      <input type="radio" name="blocks-page" id="bp-1" class="bp-radio" checked>
+      <input type="radio" name="blocks-page" id="bp-2" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-3" class="bp-radio">
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody class="bp-page bp-page-1">
+          <tr class="group"><td class="block" rowspan="9">page-lead<span class="block-pages">87 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-0-0">View 47 pages</button></td></tr>
+          <tr><td><span class="variant">nightsky</span></td><td><button class="more" popovertarget="blocks-pages-0-1">View 14 pages</button></td></tr>
+          <tr><td><span class="variant">cta-large</span></td><td><button class="more" popovertarget="blocks-pages-0-2">View 7 pages</button></td></tr>
+          <tr><td><span class="variant">skyblue</span></td><td><button class="more" popovertarget="blocks-pages-0-3">View 7 pages</button></td></tr>
+          <tr><td><span class="variant">white</span><span class="variant">no-gap</span></td><td><button class="more" popovertarget="blocks-pages-0-4">View 5 pages</button></td></tr>
+          <tr><td><span class="variant">desktop-image</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/no-no" target="_blank" rel="noopener">Fairtrade Norge</a>, <a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/gold" target="_blank" rel="noopener">Gold</a>, <a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/honey" target="_blank" rel="noopener">Honey</a></td></tr>
+          <tr><td><span class="variant">white</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works" target="_blank" rel="noopener">How Fairtrade certification works</a>, <a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/fairtrade-products-and-ingredients" target="_blank" rel="noopener">Fairtrade products and ingredients</a></td></tr>
+          <tr><td><span class="variant">white</span><span class="variant">cta-large</span><span class="variant">desktop-image</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/the-certification-process" target="_blank" rel="noopener">The Certification Process</a></td></tr>
+          <tr><td><span class="variant">nightsky</span><span class="variant">desktop-image</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/sugar" target="_blank" rel="noopener">Sugar</a></td></tr>
+          <tr class="group"><td class="block" rowspan="16">text-image<span class="block-pages">74 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-1-0">View 29 pages</button></td></tr>
+          <tr><td><span class="variant">grey</span></td><td><button class="more" popovertarget="blocks-pages-1-1">View 35 pages</button></td></tr>
+          <tr><td><span class="variant">reverse</span></td><td><button class="more" popovertarget="blocks-pages-1-2">View 31 pages</button></td></tr>
+          <tr><td><span class="variant">reverse</span><span class="variant">grey</span></td><td><button class="more" popovertarget="blocks-pages-1-3">View 10 pages</button></td></tr>
+          <tr><td><span class="variant">pre-line</span></td><td><button class="more" popovertarget="blocks-pages-1-4">View 6 pages</button></td></tr>
+          <tr><td><span class="variant">reverse</span><span class="variant">pre-line</span></td><td><button class="more" popovertarget="blocks-pages-1-5">View 6 pages</button></td></tr>
+          <tr><td><span class="variant">trail-1</span></td><td><button class="more" popovertarget="blocks-pages-1-6">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">pre-line</span><span class="variant">no-trailing-line</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra" target="_blank" rel="noopener">Aduceți Fairtrade pe piața dumneavoastră</a> <span class="blocks-count">×4</span>, <a href="https://main--63f9f24b--aemcoder.aem.page/si-sl/prinesite-fairtrade-na-vas-trg" target="_blank" rel="noopener">Prinesite Fairtrade na vaš trg</a> <span class="blocks-count">×4</span></td></tr>
+          <tr><td><span class="variant">reverse</span><span class="variant">pre-line</span><span class="variant">no-trailing-line</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra" target="_blank" rel="noopener">Aduceți Fairtrade pe piața dumneavoastră</a>, <a href="https://main--63f9f24b--aemcoder.aem.page/si-sl/prinesite-fairtrade-na-vas-trg" target="_blank" rel="noopener">Prinesite Fairtrade na vaš trg</a></td></tr>
+          <tr><td><span class="variant">grey</span><span class="variant">empty-image</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/hredd" target="_blank" rel="noopener">HREDD</a></td></tr>
+          <tr><td><span class="variant">empty-text</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/contact" target="_blank" rel="noopener">Contact</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">reverse</span><span class="variant">empty-text</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/contact" target="_blank" rel="noopener">Contact</a></td></tr>
+          <tr><td><span class="variant">reverse</span><span class="variant">footer-overflow</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/ch-de" target="_blank" rel="noopener">Fairtrade Max Havelaar Schweiz</a></td></tr>
+          <tr><td><span class="variant">grey</span><span class="variant">pre-line</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/at-de" target="_blank" rel="noopener">FAIRTRADE Österreich</a></td></tr>
+          <tr><td><span class="variant">grey</span><span class="variant">trail-2</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/decent-livelihoods" target="_blank" rel="noopener">Decent Livelihoods</a></td></tr>
+          <tr><td><span class="variant">reverse</span><span class="variant">trail-2</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-es" target="_blank" rel="noopener">Fairtrade Ibérica España | Un futuro más justo es posible</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">number-facts<span class="block-pages">44 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-2-0">View 37 pages</button></td></tr>
+          <tr><td><span class="variant">eggplant</span></td><td><button class="more" popovertarget="blocks-pages-2-1">View 20 pages</button></td></tr>
+          <tr><td><span class="variant">eggplant</span><span class="variant">spacer-after</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/africa-en" target="_blank" rel="noopener">English</a></td></tr>
+          <tr class="group"><td class="block">accordion<span class="block-pages">39 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-3-0">View 39 pages</button></td></tr>
+          <tr class="group"><td class="block">cta<span class="block-pages">35 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-4-0">View 35 pages</button></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-2">
+          <tr class="group"><td class="block" rowspan="6">teaser-grid<span class="block-pages">26 pages</span></td><td><span class="variant">small</span></td><td><button class="more" popovertarget="blocks-pages-5-0">View 20 pages</button></td></tr>
+          <tr><td><span class="variant">small</span><span class="variant">load-more</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/pl-pl" target="_blank" rel="noopener">Fundacja Fairtrade Polska</a>, <a href="https://main--63f9f24b--aemcoder.aem.page/us-en/news" target="_blank" rel="noopener">News</a></td></tr>
+          <tr><td><span class="variant">small</span><span class="variant">highlights</span><span class="variant">load-more</span><span class="variant">filter</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/it-it" target="_blank" rel="noopener">Fairtrade Italia | Marchio etico per la sostenibilità e diritti umani</a></td></tr>
+          <tr><td><span class="variant">small</span><span class="variant">filter</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/de-de" target="_blank" rel="noopener">Für eine gerechtere Weltwirtschaft | Fairtrade Deutschland</a></td></tr>
+          <tr><td><span class="variant">small</span><span class="variant">highlights</span><span class="variant">load-more</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/impact-stories" target="_blank" rel="noopener">Impact stories</a></td></tr>
+          <tr><td><span class="variant">small</span><span class="variant">load-more</span><span class="variant">spacer-before</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-media" target="_blank" rel="noopener">For Media</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">hero-carousel<span class="block-pages">19 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-6-0">View 9 pages</button></td></tr>
+          <tr><td><span class="variant">skyblue</span></td><td><button class="more" popovertarget="blocks-pages-6-1">View 9 pages</button></td></tr>
+          <tr><td><span class="variant">skyblue</span><span class="variant">topbar-gap</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/ca-en" target="_blank" rel="noopener">Fairtrade Canada | Canada&#39;s Trusted Fair Trade Certification</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">single-image<span class="block-pages">18 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-7-0">View 17 pages</button></td></tr>
+          <tr><td><span class="variant">thumbnail</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work" target="_blank" rel="noopener">How does the label work</a> <span class="blocks-count">×6</span></td></tr>
+          <tr class="group"><td class="block" rowspan="8">iframe<span class="block-pages">9 pages</span></td><td><span class="variant">aspect-ratio-16x9</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/theory-of-change" target="_blank" rel="noopener">Theory of Change</a>, <a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/key-figures-at-a-glance" target="_blank" rel="noopener">Key figures at a glance</a></td></tr>
+          <tr><td><span class="variant">frameless</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/at-de" target="_blank" rel="noopener">FAIRTRADE Österreich</a></td></tr>
+          <tr><td><span class="variant">frameless</span><span class="variant">height-550</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/kr-ko" target="_blank" rel="noopener">Fairtrade Korea</a></td></tr>
+          <tr><td><span class="variant">height-1000</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/coffee" target="_blank" rel="noopener">Coffee</a></td></tr>
+          <tr><td><span class="variant">height-1100</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-retailers" target="_blank" rel="noopener">For Retailers</a></td></tr>
+          <tr><td><span class="variant">height-1400</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/activism" target="_blank" rel="noopener">Activism</a></td></tr>
+          <tr><td><span class="variant">height-600</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/news/silence-isn-t-a-strategy-why-greenshouting-matters-for-busine" target="_blank" rel="noopener">Silence isn’t a strategy: Why “greenshouting” matters for business growth</a></td></tr>
+          <tr><td><span class="variant">height-900</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/fairtrade-newsletter" target="_blank" rel="noopener">Fairtrade Newsletter</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">video<span class="block-pages">8 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-9-0">View 7 pages</button></td></tr>
+          <tr><td><span class="variant">spacer-before</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains" target="_blank" rel="noopener">Traceability in Fairtrade supply chains</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-3">
+          <tr class="group"><td class="block" rowspan="2">cards<span class="block-pages">5 pages</span></td><td><span class="variant">image-grid</span></td><td><button class="more" popovertarget="blocks-pages-10-0">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">image-grid</span><span class="variant">small</span><span class="variant">logo</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/where-to-buy" target="_blank" rel="noopener">Where to buy</a> <span class="blocks-count">×2</span></td></tr>
+          <tr class="group"><td class="block">form<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/mt-en/bring-fairtrade-to-your-market" target="_blank" rel="noopener">Bring Fairtrade to your market</a>, <a href="https://main--63f9f24b--aemcoder.aem.page/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra" target="_blank" rel="noopener">Aduceți Fairtrade pe piața dumneavoastră</a>, <a href="https://main--63f9f24b--aemcoder.aem.page/si-sl/prinesite-fairtrade-na-vas-trg" target="_blank" rel="noopener">Prinesite Fairtrade na vaš trg</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">product-carousel<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/at-de" target="_blank" rel="noopener">FAIRTRADE Österreich</a></td></tr>
+          <tr><td><span class="variant">start-shift-5</span></td><td><a href="https://main--63f9f24b--aemcoder.aem.page/ch-de" target="_blank" rel="noopener">Fairtrade Max Havelaar Schweiz</a>, <a href="https://main--63f9f24b--aemcoder.aem.page/ch-fr" target="_blank" rel="noopener">Fairtrade Max Havelaar Suisse</a></td></tr>
+        </tbody>
+      </table>
+      <nav class="pager" aria-label="Pages of blocks"><span class="bp-range bp-range-1">Blocks 1–5 of 13</span><span class="bp-range bp-range-2">Blocks 6–10 of 13</span><span class="bp-range bp-range-3">Blocks 11–13 of 13</span><div class="labels"><label for="bp-1" class="spectrum-button spectrum-button--quiet">1</label><label for="bp-2" class="spectrum-button spectrum-button--quiet">2</label><label for="bp-3" class="spectrum-button spectrum-button--quiet">3</label></div></nav>
+      <div popover id="blocks-pages-0-0" class="blocks-popover" aria-labelledby="blocks-pages-0-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-0-title">page-lead <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 47 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/it-it" target="_blank" rel="noopener">Fairtrade Italia | Marchio etico per la sostenibilità e diritti umani</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/about" target="_blank" rel="noopener">About</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/news" target="_blank" rel="noopener">News</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/mt-en/bring-fairtrade-to-your-market" target="_blank" rel="noopener">Bring Fairtrade to your market</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra" target="_blank" rel="noopener">Aduceți Fairtrade pe piața dumneavoastră</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/si-sl/prinesite-fairtrade-na-vas-trg" target="_blank" rel="noopener">Prinesite Fairtrade na vaš trg</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products" target="_blank" rel="noopener">Fairtrade products</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-media" target="_blank" rel="noopener">For Media</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/terms-of-use" target="_blank" rel="noopener">Terms of Use</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/fairtrade-newsletter" target="_blank" rel="noopener">Fairtrade Newsletter</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do" target="_blank" rel="noopener">What we do</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact" target="_blank" rel="noopener">Impact</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products" target="_blank" rel="noopener">Fairtrade products</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified" target="_blank" rel="noopener">Benefits of being certified</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified" target="_blank" rel="noopener">Get Certified</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-retailers" target="_blank" rel="noopener">For Retailers</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/how-to-shop-sustainably" target="_blank" rel="noopener">How to Shop Sustainably</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/activism" target="_blank" rel="noopener">Activism</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/about/careers" target="_blank" rel="noopener">Careers</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/news/when-communities-lead-the-cooperative-model-at-work-in-madagasc" target="_blank" rel="noopener">When Communities Lead: The Cooperative Model at Work in Madagascar</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/news/silence-isn-t-a-strategy-why-greenshouting-matters-for-busine" target="_blank" rel="noopener">Silence isn’t a strategy: Why “greenshouting” matters for business growth</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/what-is-fairtrade" target="_blank" rel="noopener">What is Fairtrade?</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/how-fairtrade-works" target="_blank" rel="noopener">How Fairtrade works</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/key-benefits" target="_blank" rel="noopener">Key benefits of Fairtrade</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/theory-of-change" target="_blank" rel="noopener">Theory of Change</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/the-fairtrade-difference" target="_blank" rel="noopener">The Fairtrade Difference</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment" target="_blank" rel="noopener">Climate and the environment</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/deforestation" target="_blank" rel="noopener">Deforestation</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/hredd" target="_blank" rel="noopener">HREDD</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains" target="_blank" rel="noopener">Traceability in Fairtrade supply chains</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/fairtrade-standards" target="_blank" rel="noopener">Fairtrade standards</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs" target="_blank" rel="noopener">Our projects and programs</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/impact-stories" target="_blank" rel="noopener">Impact stories</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/key-figures-at-a-glance" target="_blank" rel="noopener">Key figures at a glance</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/how-we-measure-impact" target="_blank" rel="noopener">How we measure impact</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/reports-trends" target="_blank" rel="noopener">Reports &amp; Trends</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/bananas" target="_blank" rel="noopener">Bananas</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/coffee" target="_blank" rel="noopener">Coffee</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/wine" target="_blank" rel="noopener">Wine</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/fruits-juices" target="_blank" rel="noopener">Fruits and juices</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/benefits-for-business" target="_blank" rel="noopener">Benefits for business</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/consumer-trends1" target="_blank" rel="noopener">Consumer Trends</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/resources-support" target="_blank" rel="noopener">Resources &amp; Support</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/intro-to-fairtrade" target="_blank" rel="noopener">Intro to Fairtrade</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/get-started" target="_blank" rel="noopener">Get Started</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-partners/communicate-your-commitment" target="_blank" rel="noopener">Marketing the Movement | marketing the movement</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-0-1" class="blocks-popover" aria-labelledby="blocks-pages-0-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-1-title">page-lead <span class="variant-inline">nightsky</span></h3>
+            <p class="blocks-count">Used on 14 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business" target="_blank" rel="noopener">For Business</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it" target="_blank" rel="noopener">Why we do it</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-partners" target="_blank" rel="noopener">For Partners</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection" target="_blank" rel="noopener">Child Protection</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/decent-livelihoods" target="_blank" rel="noopener">Decent Livelihoods</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals" target="_blank" rel="noopener">Fairtrade and the Sustainable Development Goals</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work" target="_blank" rel="noopener">How does the label work</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance" target="_blank" rel="noopener">Assuring integrity in checking compliance</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/cocoa" target="_blank" rel="noopener">Cocoa</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/chocolate" target="_blank" rel="noopener">Chocolate</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/cotton" target="_blank" rel="noopener">Cotton</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/nuts-oils" target="_blank" rel="noopener">Nuts and oils</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/business-success-stories" target="_blank" rel="noopener">Business success stories</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/benefits-for-producers" target="_blank" rel="noopener">Benefits for producers</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-0-2" class="blocks-popover" aria-labelledby="blocks-pages-0-2-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-2-title">page-lead <span class="variant-inline">cta-large</span></h3>
+            <p class="blocks-count">Used on 7 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-2" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/africa-en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-es" target="_blank" rel="noopener">Fairtrade Ibérica España | Un futuro más justo es posible</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-pt" target="_blank" rel="noopener">Fairtrade Ibérica Portugal | Um futuro mais justo é possível</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/napp-en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/contact" target="_blank" rel="noopener">Contact</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/get-involved" target="_blank" rel="noopener">Get Involved</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/where-to-buy" target="_blank" rel="noopener">Where to buy</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-0-3" class="blocks-popover" aria-labelledby="blocks-pages-0-3-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-3-title">page-lead <span class="variant-inline">skyblue</span></h3>
+            <p class="blocks-count">Used on 7 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-3" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/uk-en" target="_blank" rel="noopener">Fairtrade Foundation</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade" target="_blank" rel="noopener">Why Fairtrade</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it" target="_blank" rel="noopener">How we do it</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/gender-equality" target="_blank" rel="noopener">Gender Equality</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/smallholder-farmers" target="_blank" rel="noopener">Smallholder Farmers</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/workers-rights" target="_blank" rel="noopener">Workers Rights</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/herbs-spices" target="_blank" rel="noopener">Herbs and spices</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-0-4" class="blocks-popover" aria-labelledby="blocks-pages-0-4-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-4-title">page-lead <span class="variant-inline">white no-gap</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-4" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/de-de" target="_blank" rel="noopener">Für eine gerechtere Weltwirtschaft | Fairtrade Deutschland</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/maxhavelaarfrance-fr" target="_blank" rel="noopener">Max Havelaar France</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/kr-ko" target="_blank" rel="noopener">Fairtrade Korea</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ch-de" target="_blank" rel="noopener">Fairtrade Max Havelaar Schweiz</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ch-fr" target="_blank" rel="noopener">Fairtrade Max Havelaar Suisse</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-0" class="blocks-popover" aria-labelledby="blocks-pages-1-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-0-title">text-image <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 29 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ie-en" target="_blank" rel="noopener">Fairtrade Ireland</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/it-it" target="_blank" rel="noopener">Fairtrade Italia | Marchio etico per la sostenibilità e diritti umani</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/pl-pl" target="_blank" rel="noopener">Fundacja Fairtrade Polska</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/se-sv" target="_blank" rel="noopener">Fairtrade Sverige</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/uk-en" target="_blank" rel="noopener">Fairtrade Foundation</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/about" target="_blank" rel="noopener">About</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-media" target="_blank" rel="noopener">For Media</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do" target="_blank" rel="noopener">What we do</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it" target="_blank" rel="noopener">How we do it</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact" target="_blank" rel="noopener">Impact</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified" target="_blank" rel="noopener">Benefits of being certified</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified" target="_blank" rel="noopener">Get Certified</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-partners" target="_blank" rel="noopener">For Partners</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/get-involved" target="_blank" rel="noopener">Get Involved</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/how-to-shop-sustainably" target="_blank" rel="noopener">How to Shop Sustainably</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/where-to-buy" target="_blank" rel="noopener">Where to buy</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/activism" target="_blank" rel="noopener">Activism</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/about/careers" target="_blank" rel="noopener">Careers</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/how-fairtrade-works" target="_blank" rel="noopener">How Fairtrade works</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/the-fairtrade-difference" target="_blank" rel="noopener">The Fairtrade Difference</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/traceability-in-fairtrade-supply-chains" target="_blank" rel="noopener">Traceability in Fairtrade supply chains</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/fairtrade-standards" target="_blank" rel="noopener">Fairtrade standards</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/how-we-measure-impact" target="_blank" rel="noopener">How we measure impact</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/reports-trends" target="_blank" rel="noopener">Reports &amp; Trends</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/chocolate" target="_blank" rel="noopener">Chocolate</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/consumer-trends1" target="_blank" rel="noopener">Consumer Trends</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/the-certification-process" target="_blank" rel="noopener">The Certification Process</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/resources-support" target="_blank" rel="noopener">Resources &amp; Support</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-partners/communicate-your-commitment" target="_blank" rel="noopener">Marketing the Movement | marketing the movement</a> <span class="blocks-count">×3</span></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-1" class="blocks-popover" aria-labelledby="blocks-pages-1-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-1-title">text-image <span class="variant-inline">grey</span></h3>
+            <p class="blocks-count">Used on 35 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/de-de" target="_blank" rel="noopener">Für eine gerechtere Weltwirtschaft | Fairtrade Deutschland</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/maxhavelaarfrance-fr" target="_blank" rel="noopener">Max Havelaar France</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/jp-jp" target="_blank" rel="noopener">フェアトレード・ジャパン｜Fairtrade Japan｜公式サイト</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/africa-en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ca-en" target="_blank" rel="noopener">Fairtrade Canada | Canada&#39;s Trusted Fair Trade Certification</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ca-fr" target="_blank" rel="noopener">Fairtrade Canada | La certification de confiance Canadienne</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-es" target="_blank" rel="noopener">Fairtrade Ibérica España | Un futuro más justo es posible</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-pt" target="_blank" rel="noopener">Fairtrade Ibérica Portugal | Um futuro mais justo é possível</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/napp-en" target="_blank" rel="noopener">English</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/no-no" target="_blank" rel="noopener">Fairtrade Norge</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/pl-pl" target="_blank" rel="noopener">Fundacja Fairtrade Polska</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade" target="_blank" rel="noopener">Why Fairtrade</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business" target="_blank" rel="noopener">For Business</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it" target="_blank" rel="noopener">How we do it</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact" target="_blank" rel="noopener">Impact</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified" target="_blank" rel="noopener">Get Certified</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/what-is-fairtrade" target="_blank" rel="noopener">What is Fairtrade?</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/key-benefits" target="_blank" rel="noopener">Key benefits of Fairtrade</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment" target="_blank" rel="noopener">Climate and the environment</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/gender-equality" target="_blank" rel="noopener">Gender Equality</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/smallholder-farmers" target="_blank" rel="noopener">Smallholder Farmers</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work" target="_blank" rel="noopener">How does the label work</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/how-fairtrade-certification-works" target="_blank" rel="noopener">How Fairtrade certification works</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs" target="_blank" rel="noopener">Our projects and programs</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/key-figures-at-a-glance" target="_blank" rel="noopener">Key figures at a glance</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/bananas" target="_blank" rel="noopener">Bananas</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/cocoa" target="_blank" rel="noopener">Cocoa</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/coffee" target="_blank" rel="noopener">Coffee</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/sugar" target="_blank" rel="noopener">Sugar</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/business-success-stories" target="_blank" rel="noopener">Business success stories</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/benefits-for-business" target="_blank" rel="noopener">Benefits for business</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/benefits-for-producers" target="_blank" rel="noopener">Benefits for producers</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-2" class="blocks-popover" aria-labelledby="blocks-pages-1-2-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-2-title">text-image <span class="variant-inline">reverse</span></h3>
+            <p class="blocks-count">Used on 31 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-2" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/de-de" target="_blank" rel="noopener">Für eine gerechtere Weltwirtschaft | Fairtrade Deutschland</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/maxhavelaarfrance-fr" target="_blank" rel="noopener">Max Havelaar France</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/jp-jp" target="_blank" rel="noopener">フェアトレード・ジャパン｜Fairtrade Japan｜公式サイト</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ca-en" target="_blank" rel="noopener">Fairtrade Canada | Canada&#39;s Trusted Fair Trade Certification</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ca-fr" target="_blank" rel="noopener">Fairtrade Canada | La certification de confiance Canadienne</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-es" target="_blank" rel="noopener">Fairtrade Ibérica España | Un futuro más justo es posible</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-pt" target="_blank" rel="noopener">Fairtrade Ibérica Portugal | Um futuro mais justo é possível</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ie-en" target="_blank" rel="noopener">Fairtrade Ireland</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/it-it" target="_blank" rel="noopener">Fairtrade Italia | Marchio etico per la sostenibilità e diritti umani</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/kr-ko" target="_blank" rel="noopener">Fairtrade Korea</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/napp-en" target="_blank" rel="noopener">English</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/no-no" target="_blank" rel="noopener">Fairtrade Norge</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/pl-pl" target="_blank" rel="noopener">Fundacja Fairtrade Polska</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ch-fr" target="_blank" rel="noopener">Fairtrade Max Havelaar Suisse</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/about" target="_blank" rel="noopener">About</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade" target="_blank" rel="noopener">Why Fairtrade</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact" target="_blank" rel="noopener">Impact</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified" target="_blank" rel="noopener">Get Certified</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/get-involved" target="_blank" rel="noopener">Get Involved</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/how-to-shop-sustainably" target="_blank" rel="noopener">How to Shop Sustainably</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/where-to-buy" target="_blank" rel="noopener">Where to buy</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/activism" target="_blank" rel="noopener">Activism</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/gender-equality" target="_blank" rel="noopener">Gender Equality</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/bananas" target="_blank" rel="noopener">Bananas</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/the-certification-process" target="_blank" rel="noopener">The Certification Process</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/resources-support" target="_blank" rel="noopener">Resources &amp; Support</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/intro-to-fairtrade" target="_blank" rel="noopener">Intro to Fairtrade</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-partners/communicate-your-commitment" target="_blank" rel="noopener">Marketing the Movement | marketing the movement</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-3" class="blocks-popover" aria-labelledby="blocks-pages-1-3-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-3-title">text-image <span class="variant-inline">reverse grey</span></h3>
+            <p class="blocks-count">Used on 10 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-3" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-es" target="_blank" rel="noopener">Fairtrade Ibérica España | Un futuro más justo es posible</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ie-en" target="_blank" rel="noopener">Fairtrade Ireland</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/se-sv" target="_blank" rel="noopener">Fairtrade Sverige</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business" target="_blank" rel="noopener">For Business</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do" target="_blank" rel="noopener">What we do</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it" target="_blank" rel="noopener">How we do it</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/hredd" target="_blank" rel="noopener">HREDD</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/workers-rights" target="_blank" rel="noopener">Workers Rights</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs" target="_blank" rel="noopener">Our projects and programs</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-partners/communicate-your-commitment" target="_blank" rel="noopener">Marketing the Movement | marketing the movement</a> <span class="blocks-count">×3</span></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-4" class="blocks-popover" aria-labelledby="blocks-pages-1-4-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-4-title">text-image <span class="variant-inline">pre-line</span></h3>
+            <p class="blocks-count">Used on 6 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-4" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/de-de" target="_blank" rel="noopener">Für eine gerechtere Weltwirtschaft | Fairtrade Deutschland</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/nl-nl" target="_blank" rel="noopener">Fairtrade Nederland</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/uk-en" target="_blank" rel="noopener">Fairtrade Foundation</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/mt-en/bring-fairtrade-to-your-market" target="_blank" rel="noopener">Bring Fairtrade to your market</a> <span class="blocks-count">×4</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-retailers" target="_blank" rel="noopener">For Retailers</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/reports-trends" target="_blank" rel="noopener">Reports &amp; Trends</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-5" class="blocks-popover" aria-labelledby="blocks-pages-1-5-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-5-title">text-image <span class="variant-inline">reverse pre-line</span></h3>
+            <p class="blocks-count">Used on 6 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-5" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/africa-en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/at-de" target="_blank" rel="noopener">FAIRTRADE Österreich</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/nl-nl" target="_blank" rel="noopener">Fairtrade Nederland</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/uk-en" target="_blank" rel="noopener">Fairtrade Foundation</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/mt-en/bring-fairtrade-to-your-market" target="_blank" rel="noopener">Bring Fairtrade to your market</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/reports-trends" target="_blank" rel="noopener">Reports &amp; Trends</a> <span class="blocks-count">×2</span></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-6" class="blocks-popover" aria-labelledby="blocks-pages-1-6-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-6-title">text-image <span class="variant-inline">trail-1</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-6" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/fairtrade-standards" target="_blank" rel="noopener">Fairtrade standards</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs" target="_blank" rel="noopener">Our projects and programs</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/benefits-for-producers" target="_blank" rel="noopener">Benefits for producers</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/consumer-trends1" target="_blank" rel="noopener">Consumer Trends</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-0" class="blocks-popover" aria-labelledby="blocks-pages-2-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-0-title">number-facts <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 37 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/de-de" target="_blank" rel="noopener">Für eine gerechtere Weltwirtschaft | Fairtrade Deutschland</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/maxhavelaarfrance-fr" target="_blank" rel="noopener">Max Havelaar France</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/jp-jp" target="_blank" rel="noopener">フェアトレード・ジャパン｜Fairtrade Japan｜公式サイト</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/africa-en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/be-fr" target="_blank" rel="noopener">Fairtrade Belgium</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/be-nl" target="_blank" rel="noopener">Fairtrade Belgium</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ca-en" target="_blank" rel="noopener">Fairtrade Canada | Canada&#39;s Trusted Fair Trade Certification</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ca-fr" target="_blank" rel="noopener">Fairtrade Canada | La certification de confiance Canadienne</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-es" target="_blank" rel="noopener">Fairtrade Ibérica España | Un futuro más justo es posible</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-pt" target="_blank" rel="noopener">Fairtrade Ibérica Portugal | Um futuro mais justo é possível</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/napp-en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/nl-nl" target="_blank" rel="noopener">Fairtrade Nederland</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/no-no" target="_blank" rel="noopener">Fairtrade Norge</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/pl-pl" target="_blank" rel="noopener">Fundacja Fairtrade Polska</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/se-sv" target="_blank" rel="noopener">Fairtrade Sverige</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ch-de" target="_blank" rel="noopener">Fairtrade Max Havelaar Schweiz</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ch-fr" target="_blank" rel="noopener">Fairtrade Max Havelaar Suisse</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/mt-en/bring-fairtrade-to-your-market" target="_blank" rel="noopener">Bring Fairtrade to your market</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra" target="_blank" rel="noopener">Aduceți Fairtrade pe piața dumneavoastră</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/si-sl/prinesite-fairtrade-na-vas-trg" target="_blank" rel="noopener">Prinesite Fairtrade na vaš trg</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact" target="_blank" rel="noopener">Impact</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-partners" target="_blank" rel="noopener">For Partners</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-retailers" target="_blank" rel="noopener">For Retailers</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/how-to-shop-sustainably" target="_blank" rel="noopener">How to Shop Sustainably</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/what-is-fairtrade" target="_blank" rel="noopener">What is Fairtrade?</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/decent-livelihoods" target="_blank" rel="noopener">Decent Livelihoods</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/hredd" target="_blank" rel="noopener">HREDD</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/workers-rights" target="_blank" rel="noopener">Workers Rights</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/our-projects-and-programs" target="_blank" rel="noopener">Our projects and programs</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/key-figures-at-a-glance" target="_blank" rel="noopener">Key figures at a glance</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/cocoa" target="_blank" rel="noopener">Cocoa</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/coffee" target="_blank" rel="noopener">Coffee</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/benefits-for-producers" target="_blank" rel="noopener">Benefits for producers</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/consumer-trends1" target="_blank" rel="noopener">Consumer Trends</a> <span class="blocks-count">×2</span></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-1" class="blocks-popover" aria-labelledby="blocks-pages-2-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-1-title">number-facts <span class="variant-inline">eggplant</span></h3>
+            <p class="blocks-count">Used on 20 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/maxhavelaarfrance-fr" target="_blank" rel="noopener">Max Havelaar France</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/jp-jp" target="_blank" rel="noopener">フェアトレード・ジャパン｜Fairtrade Japan｜公式サイト</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/be-fr" target="_blank" rel="noopener">Fairtrade Belgium</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/be-nl" target="_blank" rel="noopener">Fairtrade Belgium</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ca-en" target="_blank" rel="noopener">Fairtrade Canada | Canada&#39;s Trusted Fair Trade Certification</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ca-fr" target="_blank" rel="noopener">Fairtrade Canada | La certification de confiance Canadienne</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-es" target="_blank" rel="noopener">Fairtrade Ibérica España | Un futuro más justo es posible</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-pt" target="_blank" rel="noopener">Fairtrade Ibérica Portugal | Um futuro mais justo é possível</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/napp-en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/nl-nl" target="_blank" rel="noopener">Fairtrade Nederland</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/no-no" target="_blank" rel="noopener">Fairtrade Norge</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection" target="_blank" rel="noopener">Child Protection</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment" target="_blank" rel="noopener">Climate and the environment</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/gender-equality" target="_blank" rel="noopener">Gender Equality</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/smallholder-farmers" target="_blank" rel="noopener">Smallholder Farmers</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/key-figures-at-a-glance" target="_blank" rel="noopener">Key figures at a glance</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/bananas" target="_blank" rel="noopener">Bananas</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/sugar" target="_blank" rel="noopener">Sugar</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/benefits-for-business" target="_blank" rel="noopener">Benefits for business</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-3-0" class="blocks-popover" aria-labelledby="blocks-pages-3-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-3-0-title">accordion <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 39 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-3-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/de-de" target="_blank" rel="noopener">Für eine gerechtere Weltwirtschaft | Fairtrade Deutschland</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/jp-jp" target="_blank" rel="noopener">フェアトレード・ジャパン｜Fairtrade Japan｜公式サイト</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/africa-en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/at-de" target="_blank" rel="noopener">FAIRTRADE Österreich</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ca-en" target="_blank" rel="noopener">Fairtrade Canada | Canada&#39;s Trusted Fair Trade Certification</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ca-fr" target="_blank" rel="noopener">Fairtrade Canada | La certification de confiance Canadienne</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-es" target="_blank" rel="noopener">Fairtrade Ibérica España | Un futuro más justo es posible</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-pt" target="_blank" rel="noopener">Fairtrade Ibérica Portugal | Um futuro mais justo é possível</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/kr-ko" target="_blank" rel="noopener">Fairtrade Korea</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/nl-nl" target="_blank" rel="noopener">Fairtrade Nederland</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/pl-pl" target="_blank" rel="noopener">Fundacja Fairtrade Polska</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ch-de" target="_blank" rel="noopener">Fairtrade Max Havelaar Schweiz</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/contact" target="_blank" rel="noopener">Contact</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified" target="_blank" rel="noopener">Benefits of being certified</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-partners" target="_blank" rel="noopener">For Partners</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/get-involved" target="_blank" rel="noopener">Get Involved</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/about/careers" target="_blank" rel="noopener">Careers</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/news/silence-isn-t-a-strategy-why-greenshouting-matters-for-busine" target="_blank" rel="noopener">Silence isn’t a strategy: Why “greenshouting” matters for business growth</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection" target="_blank" rel="noopener">Child Protection</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/climate-and-the-environment" target="_blank" rel="noopener">Climate and the environment</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/decent-livelihoods" target="_blank" rel="noopener">Decent Livelihoods</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/deforestation" target="_blank" rel="noopener">Deforestation</a> <span class="blocks-count">×4</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/fairtrade-and-the-sustainable-development-goals" target="_blank" rel="noopener">Fairtrade and the Sustainable Development Goals</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/gender-equality" target="_blank" rel="noopener">Gender Equality</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/hredd" target="_blank" rel="noopener">HREDD</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/smallholder-farmers" target="_blank" rel="noopener">Smallholder Farmers</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/workers-rights" target="_blank" rel="noopener">Workers Rights</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/how-does-the-label-work" target="_blank" rel="noopener">How does the label work</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/how-we-do-it/assuring-integrity-in-checking-compliance" target="_blank" rel="noopener">Assuring integrity in checking compliance</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/chocolate" target="_blank" rel="noopener">Chocolate</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/coffee" target="_blank" rel="noopener">Coffee</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/gold" target="_blank" rel="noopener">Gold</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/benefits-for-business" target="_blank" rel="noopener">Benefits for business</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/benefits-for-producers" target="_blank" rel="noopener">Benefits for producers</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/the-certification-process" target="_blank" rel="noopener">The Certification Process</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/resources-support" target="_blank" rel="noopener">Resources &amp; Support</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-4-0" class="blocks-popover" aria-labelledby="blocks-pages-4-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-4-0-title">cta <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 35 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-4-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/maxhavelaarfrance-fr" target="_blank" rel="noopener">Max Havelaar France</a> <span class="blocks-count">×4</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/jp-jp" target="_blank" rel="noopener">フェアトレード・ジャパン｜Fairtrade Japan｜公式サイト</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/africa-en" target="_blank" rel="noopener">English</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/at-de" target="_blank" rel="noopener">FAIRTRADE Österreich</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/be-fr" target="_blank" rel="noopener">Fairtrade Belgium</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/be-nl" target="_blank" rel="noopener">Fairtrade Belgium</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-es" target="_blank" rel="noopener">Fairtrade Ibérica España | Un futuro más justo es posible</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/iberica-pt" target="_blank" rel="noopener">Fairtrade Ibérica Portugal | Um futuro mais justo é possível</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/it-it" target="_blank" rel="noopener">Fairtrade Italia | Marchio etico per la sostenibilità e diritti umani</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/kr-ko" target="_blank" rel="noopener">Fairtrade Korea</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/napp-en" target="_blank" rel="noopener">English</a> <span class="blocks-count">×4</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/nl-nl" target="_blank" rel="noopener">Fairtrade Nederland</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/no-no" target="_blank" rel="noopener">Fairtrade Norge</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/pl-pl" target="_blank" rel="noopener">Fundacja Fairtrade Polska</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/se-sv" target="_blank" rel="noopener">Fairtrade Sverige</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ch-de" target="_blank" rel="noopener">Fairtrade Max Havelaar Schweiz</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ch-fr" target="_blank" rel="noopener">Fairtrade Max Havelaar Suisse</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/about" target="_blank" rel="noopener">About</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/mt-en/bring-fairtrade-to-your-market" target="_blank" rel="noopener">Bring Fairtrade to your market</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ro-ro/aduceti-fairtrade-pe-piata-dumneavoastra" target="_blank" rel="noopener">Aduceți Fairtrade pe piața dumneavoastră</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/si-sl/prinesite-fairtrade-na-vas-trg" target="_blank" rel="noopener">Prinesite Fairtrade na vaš trg</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified" target="_blank" rel="noopener">Benefits of being certified</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/about/careers" target="_blank" rel="noopener">Careers</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/what-is-fairtrade" target="_blank" rel="noopener">What is Fairtrade?</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/impact/key-figures-at-a-glance" target="_blank" rel="noopener">Key figures at a glance</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/cocoa" target="_blank" rel="noopener">Cocoa</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/nuts-oils" target="_blank" rel="noopener">Nuts and oils</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/sugar" target="_blank" rel="noopener">Sugar</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/wine" target="_blank" rel="noopener">Wine</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/fruits-juices" target="_blank" rel="noopener">Fruits and juices</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/honey" target="_blank" rel="noopener">Honey</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/benefits-for-business" target="_blank" rel="noopener">Benefits for business</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/benefits-for-producers" target="_blank" rel="noopener">Benefits for producers</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-partners/communicate-your-commitment" target="_blank" rel="noopener">Marketing the Movement | marketing the movement</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-5-0" class="blocks-popover" aria-labelledby="blocks-pages-5-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-5-0-title">teaser-grid <span class="variant-inline">small</span></h3>
+            <p class="blocks-count">Used on 20 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-5-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/maxhavelaarfrance-fr" target="_blank" rel="noopener">Max Havelaar France</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/jp-jp" target="_blank" rel="noopener">フェアトレード・ジャパン｜Fairtrade Japan｜公式サイト</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/africa-en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/at-de" target="_blank" rel="noopener">FAIRTRADE Österreich</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/be-fr" target="_blank" rel="noopener">Fairtrade Belgium</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/be-nl" target="_blank" rel="noopener">Fairtrade Belgium</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ie-en" target="_blank" rel="noopener">Fairtrade Ireland</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/kr-ko" target="_blank" rel="noopener">Fairtrade Korea</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/napp-en" target="_blank" rel="noopener">English</a> <span class="blocks-count">×5</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/no-no" target="_blank" rel="noopener">Fairtrade Norge</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/se-sv" target="_blank" rel="noopener">Fairtrade Sverige</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ch-de" target="_blank" rel="noopener">Fairtrade Max Havelaar Schweiz</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ch-fr" target="_blank" rel="noopener">Fairtrade Max Havelaar Suisse</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/uk-en" target="_blank" rel="noopener">Fairtrade Foundation</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products" target="_blank" rel="noopener">Fairtrade products</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it" target="_blank" rel="noopener">Why we do it</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products" target="_blank" rel="noopener">Fairtrade products</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/benefits-of-being-certified/business-success-stories" target="_blank" rel="noopener">Business success stories</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-partners/communicate-your-commitment" target="_blank" rel="noopener">Marketing the Movement | marketing the movement</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-6-0" class="blocks-popover" aria-labelledby="blocks-pages-6-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-6-0-title">hero-carousel <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 9 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-6-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/de-de" target="_blank" rel="noopener">Für eine gerechtere Weltwirtschaft | Fairtrade Deutschland</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/jp-jp" target="_blank" rel="noopener">フェアトレード・ジャパン｜Fairtrade Japan｜公式サイト</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en" target="_blank" rel="noopener">Fairtrade America - the Future is Fair</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/be-fr" target="_blank" rel="noopener">Fairtrade Belgium</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/be-nl" target="_blank" rel="noopener">Fairtrade Belgium</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ie-en" target="_blank" rel="noopener">Fairtrade Ireland</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/pl-pl" target="_blank" rel="noopener">Fundacja Fairtrade Polska</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-partners" target="_blank" rel="noopener">For Partners</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-6-1" class="blocks-popover" aria-labelledby="blocks-pages-6-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-6-1-title">hero-carousel <span class="variant-inline">skyblue</span></h3>
+            <p class="blocks-count">Used on 9 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-6-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/maxhavelaarfrance-fr" target="_blank" rel="noopener">Max Havelaar France</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/en" target="_blank" rel="noopener">English</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/at-de" target="_blank" rel="noopener">FAIRTRADE Österreich</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ca-fr" target="_blank" rel="noopener">Fairtrade Canada | La certification de confiance Canadienne</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/kr-ko" target="_blank" rel="noopener">Fairtrade Korea</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/nl-nl" target="_blank" rel="noopener">Fairtrade Nederland</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/se-sv" target="_blank" rel="noopener">Fairtrade Sverige</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ch-de" target="_blank" rel="noopener">Fairtrade Max Havelaar Schweiz</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/ch-fr" target="_blank" rel="noopener">Fairtrade Max Havelaar Suisse</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-7-0" class="blocks-popover" aria-labelledby="blocks-pages-7-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-7-0-title">single-image <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 17 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-7-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/pl-pl" target="_blank" rel="noopener">Fundacja Fairtrade Polska</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/about" target="_blank" rel="noopener">About</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/get-involved/how-to-shop-sustainably" target="_blank" rel="noopener">How to Shop Sustainably</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/news/when-communities-lead-the-cooperative-model-at-work-in-madagasc" target="_blank" rel="noopener">When Communities Lead: The Cooperative Model at Work in Madagascar</a> <span class="blocks-count">×4</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/how-fairtrade-works" target="_blank" rel="noopener">How Fairtrade works</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/key-benefits" target="_blank" rel="noopener">Key benefits of Fairtrade</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/child-protection" target="_blank" rel="noopener">Child Protection</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/decent-livelihoods" target="_blank" rel="noopener">Decent Livelihoods</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/why-we-do-it/gender-equality" target="_blank" rel="noopener">Gender Equality</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/cocoa" target="_blank" rel="noopener">Cocoa</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/coffee" target="_blank" rel="noopener">Coffee</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/cotton" target="_blank" rel="noopener">Cotton</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/herbs-spices" target="_blank" rel="noopener">Herbs and spices</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/nuts-oils" target="_blank" rel="noopener">Nuts and oils</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/gold" target="_blank" rel="noopener">Gold</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/fruits-juices" target="_blank" rel="noopener">Fruits and juices</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/honey" target="_blank" rel="noopener">Honey</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-9-0" class="blocks-popover" aria-labelledby="blocks-pages-9-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-9-0-title">video <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 7 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-9-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/at-de" target="_blank" rel="noopener">FAIRTRADE Österreich</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/it-it" target="_blank" rel="noopener">Fairtrade Italia | Marchio etico per la sostenibilità e diritti umani</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/uk-en" target="_blank" rel="noopener">Fairtrade Foundation</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/news/when-communities-lead-the-cooperative-model-at-work-in-madagasc" target="_blank" rel="noopener">When Communities Lead: The Cooperative Model at Work in Madagascar</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/why-fairtrade/what-we-do/what-is-fairtrade" target="_blank" rel="noopener">What is Fairtrade?</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/chocolate" target="_blank" rel="noopener">Chocolate</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/intro-to-fairtrade" target="_blank" rel="noopener">Intro to Fairtrade</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-10-0" class="blocks-popover" aria-labelledby="blocks-pages-10-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-10-0-title">cards <span class="variant-inline">image-grid</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-10-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/kr-ko" target="_blank" rel="noopener">Fairtrade Korea</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified" target="_blank" rel="noopener">Get Certified</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/for-partners" target="_blank" rel="noopener">For Partners</a></li>
+          <li><a href="https://main--63f9f24b--aemcoder.aem.page/us-en/for-business/get-certified/get-started" target="_blank" rel="noopener">Get Started</a></li>
+        </ul>
+      </div>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Analytics and tags</h2><span class="spectrum-badge">Switched off</span></summary>
+    <div class="panel-body">
+      <p>We carried over 2 tags, <strong>switched off</strong>: nothing loads on the new site until you turn it on.</p>
+      <table>
+        <thead><tr><th>Found on www.fairtrade.net</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Google Tag Manager</td><td><code>GTM-P8D4TL3</code>, <code>GTM-NFXSHJVM</code></td></tr>
+          <tr><td>Consent manager</td><td>None found</td></tr>
+          <tr><td>Data layers</td><td><code>adobeDataLayer</code>, <code>dataLayer</code></td></tr>
+          <tr><td>Loaded by your tags</td><td>Usercentrics, Google Analytics / Ads, session replay, ad / retargeting pixel</td></tr>
+        </tbody>
+      </table>
+      <p>We read the Google Tag Manager container (0 rules, 0 data elements).</p>
+      <h3>Before you switch them on</h3>
+      <ol class="todo">
+        <li><strong>Decide how consent works.</strong> We found no consent manager on the pages we checked; once switched on, the tags load without one.</li>
+      </ol>
+      <p class="meta">Full details for your developers: <code>stardust/martech-handoff.md</code> in the repository.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Journey</h2></summary>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </details>
+</main>
+</body>
+</html>

@@ -1,0 +1,1046 @@
+{
+  "slug": "maxhavelaarfrance-fr-html",
+  "type": "locale-home",
+  "renderBranch": "A'",
+  "template": "at-de-html",
+  "modules": [
+    "content-fader",
+    "page-hero-carousel",
+    "number-fact-teaser",
+    "filtered-teaser-grid"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "cmp-container"
+  ],
+  "canonShas": {
+    "header": "2b1a33246391",
+    "footer": "4cd5dd4e7c63",
+    "css": "2bf6b48caf7e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Max Havelaar France",
+    "description": "Max Havelaar France agit pour un commerce équitable, respectueux des droits humains et de l’environnement, grâce au label Fairtrade/Max Havelaar.",
+    "canonical": "https://main--63f9f24b--aemcoder.aem.page/maxhavelaarfrance-fr.html",
+    "lang": "fr"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Fairtrade.net",
+    "alternateName": "Fairtrade Max Havelaar France",
+    "url": "https://www.fairtrade.net/"
+  },
+  "migratedAt": "2026-11-14T07:55:16Z",
+  "designMdSha": "ba7a99252bf7",
+  "designJsonSha": "d7cf7a9249c2",
+  "sourceCurrentSha": "4df5fec2e2c8",
+  "sourceProposedSha": "18c120772c64",
+  "fidelityTier": "sibling",
+  "archetypeSource": "at-de-html",
+  "archetypeSha": "7c54e4ea9c35",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "content-count"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance exit 2 vs at-de-html: per-page module composition (hero/teaser/nav/accordion/text-image counts), grey text-image band, wide navigation-teaser, large teaser family (stardust/migrate/variance/locale-home.json)",
+    "delivery-lint": "delivery-lint 0 P0/P1 on content/maxhavelaarfrance-fr.html (path /maxhavelaarfrance-fr)",
+    "media-reconcile": "media-reconcile: all images keep (200), no omit/unresolved after the encoder's broken-image omit",
+    "pixel-gate-1440": "gate-all 1440 published: pixel 4.74%, |Δh|≤5%, clip 0, content MISSING+HIDDEN 0, fonts loaded",
+    "pixel-gate-360": "gate-all 360 published: pixel 9.49%, |Δh|≤5%, clip 0, content MISSING+HIDDEN 0, fonts loaded",
+    "content-count": "gate-all content probe: MISSING 0 / HIDDEN 0 at both widths (or the passing width; see pixel gates)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 1,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/ce-que-nous-faisons.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/ce-que-nous-faisons/quest-ce-que-le-commerce-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/ce-que-nous-faisons/comment-fairtrade-fonctionne.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/ce-que-nous-faisons/benefices-du-commerce-equitable-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/ce-que-nous-faisons/theorie-du-changement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/les-droits-des-travailleurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/les-droits-des-femmes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/lutter-contre-le-travail-des-enfants.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/hredd.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/les-petits-exploitants-agricoles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/travail-force.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/des-revenus-et-salaires-vitaux.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/climat-et-environnement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/deforestation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/fairtrade-et-les-objectifs-de-developpement-durable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/comment-nous-le-faisons.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/comment-nous-le-faisons/labels.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/comment-nous-le-faisons/cahiers-des-charges-Fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/comment-nous-le-faisons/tracabilite-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/comment-nous-le-faisons/plaidoyer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/comment-nous-le-faisons/projets-et-programmes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/impact-du-commerce-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/impact-du-commerce-equitable/temoignages-producteurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/impact-du-commerce-equitable/chiffres-cles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/impact-du-commerce-equitable/producteurs-dans-le-monde.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/impact-du-commerce-equitable/mieux-connaitre-les-cooperatives.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/impact-du-commerce-equitable/comment-mesurer-impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/impact-du-commerce-equitable/etudes-d-impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/bananes-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/cacao-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/cafe-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/the-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/sucre-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/fruits-et-jus-de-fruits-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/coton-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/textile-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/ballons-de-sport-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/fleurs-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/herbes-et-epices-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/miel-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/noix-de-cajou.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/noix-et-oleagineux-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/quinoa-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/riz-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/comment-nous-le-faisons/labels/label-origine-france.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/produits-fairtrade-maxhavelaar.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/ou-les-trouver.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/avantages-de-la-certification.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/avantages-de-la-certification/avantages-pour-les-entreprises.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/avantages-de-la-certification/avantages-pour-les-producteurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/avantages-de-la-certification/tendances-des-consommateurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/avantages-de-la-certification/fairtrade-et-directive-empowering-consumers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/avantages-de-la-certification/temoignages-entreprises.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/comment-s-engager.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/comment-s-engager/obtenir-la-certification.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/comment-s-engager/obtenir-la-labellisation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/partenaires.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/s-engager/collectivites.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/partenaires/partenaires-economiques.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/service-ressources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/service-ressources/rapports-d-engagement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/service-ressources/fiches-cooperatives.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/service-ressources/soutien-rdue-pour-les-entreprises.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/actions-et-campagnes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/actions-et-campagnes/ce-que-cache-le-prix-de-la-banane.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/actions-et-campagnes/le-chocolat-ca-tache.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/actions-et-campagnes/pas-de-producteurs-pas-de-cafe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/actions-et-campagnes/du-ble-pour-les-agriculteurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/actions-et-campagnes/campagne-pour-un-textile-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/s-engager.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/s-engager/fairtrade-academy/campus.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/s-engager/collectivites.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/s-engager/citoyens.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/s-engager/fairtrade-at-work.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/s-engager/fairtrade-academy/etudiants.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/nous-rejoindre.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/nous-rejoindre/devenir-ambassadeur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/nous-rejoindre/devenir-membres.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/nous-rejoindre/carrieres.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/fonds-de-dotation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/presse/communiques-de-presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/presse/dossiers-de-presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/presse/revue-de-presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/barometres.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/documents-de-positions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/etudes-d-impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/observatoire-de-la-remuneration-agricole-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/outils-pedagogiques.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/outils-rse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/prix-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/rapports-annuels.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/actualite.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/bas-de-page/recevez-les-actualites.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/ong-max-havelaar-france.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/ong-max-havelaar-france/carrieres.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/bas-de-page/contact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/ong-max-havelaar-france.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/ong-max-havelaar-france/carrieres.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/bas-de-page/contact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/ce-que-nous-faisons.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/ce-que-nous-faisons/quest-ce-que-le-commerce-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/ce-que-nous-faisons/comment-fairtrade-fonctionne.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/ce-que-nous-faisons/benefices-du-commerce-equitable-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/ce-que-nous-faisons/theorie-du-changement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/les-droits-des-travailleurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/les-droits-des-femmes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/lutter-contre-le-travail-des-enfants.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/hredd.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/les-petits-exploitants-agricoles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/travail-force.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/des-revenus-et-salaires-vitaux.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/climat-et-environnement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/deforestation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous/fairtrade-et-les-objectifs-de-developpement-durable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/comment-nous-le-faisons.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/comment-nous-le-faisons/labels.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/comment-nous-le-faisons/cahiers-des-charges-Fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/comment-nous-le-faisons/tracabilite-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/comment-nous-le-faisons/plaidoyer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/comment-nous-le-faisons/projets-et-programmes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/impact-du-commerce-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/impact-du-commerce-equitable/temoignages-producteurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/impact-du-commerce-equitable/chiffres-cles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/impact-du-commerce-equitable/producteurs-dans-le-monde.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/impact-du-commerce-equitable/mieux-connaitre-les-cooperatives.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/impact-du-commerce-equitable/comment-mesurer-impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/impact-du-commerce-equitable/etudes-d-impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/produits-fairtrade-maxhavelaar.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/ou-les-trouver.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/bananes-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/cacao-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/cafe-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/the-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/sucre-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/fruits-et-jus-de-fruits-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/coton-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/textile-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/ballons-de-sport-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/fleurs-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/herbes-et-epices-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/miel-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/noix-de-cajou.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/noix-et-oleagineux-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/quinoa-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade/riz-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/comment-nous-le-faisons/labels/label-origine-france.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/avantages-de-la-certification.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/avantages-de-la-certification/avantages-pour-les-entreprises.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/avantages-de-la-certification/avantages-pour-les-producteurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/avantages-de-la-certification/tendances-des-consommateurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/avantages-de-la-certification/fairtrade-et-directive-empowering-consumers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/avantages-de-la-certification/temoignages-entreprises.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/comment-s-engager.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/comment-s-engager/obtenir-la-certification.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/comment-s-engager/obtenir-la-labellisation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/partenaires.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/s-engager/collectivites.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/partenaires/partenaires-economiques.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/service-ressources.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/service-ressources/rapports-d-engagement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/service-ressources/fiches-cooperatives.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/service-ressources/soutien-rdue-pour-les-entreprises.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/actions-et-campagnes.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/actions-et-campagnes/ce-que-cache-le-prix-de-la-banane.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/actions-et-campagnes/le-chocolat-ca-tache.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/actions-et-campagnes/pas-de-producteurs-pas-de-cafe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/actions-et-campagnes/du-ble-pour-les-agriculteurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/actions-et-campagnes/campagne-pour-un-textile-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/s-engager.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/s-engager/fairtrade-academy/campus.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/s-engager/collectivites.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/s-engager/citoyens.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/s-engager/fairtrade-at-work.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/s-engager/fairtrade-academy/etudiants.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/nous-rejoindre.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/nous-rejoindre/devenir-ambassadeur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/nous-rejoindre/devenir-membres.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/nous-rejoindre/carrieres.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous/fonds-de-dotation.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/bas-de-page/recevez-les-actualites.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/presse/communiques-de-presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/presse/dossiers-de-presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/presse/revue-de-presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/barometres.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/documents-de-positions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/etudes-d-impact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/observatoire-de-la-remuneration-agricole-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/outils-pedagogiques.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/outils-rse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/prix-equitables.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/rapports-annuels.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/actualite.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/ca-fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/iberica-es.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/iberica-pt.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ie-en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/it-it.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/kr-ko.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/napp-en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/nl-nl.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/no-no.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/pl-pl.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/se-sv.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch-de.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/ch-fr.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/uk-en.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/actualite/programme-ambassadeur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/presse/revue-de-presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/engagement-entreprises/service-ressources/soutien-rdue-pour-les-entreprises/webinaires.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/actualite/commerce-equitable-dans-les-cantines.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/ce-que-nous-faisons/benefices-du-commerce-equitable-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/actualite/le-systeme-numerique-plot-insights.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/actualite/que-signifie-empco-pour-les-entreprises.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/actualite/prix-minimum-fairtrade-producteurs-cacao-cote-ivoire.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "[%=cta.link%]",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/actualite.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/produits-et-filieres/filieres-fairtrade.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/pourquoi-le-faisons-nous.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/impact-du-commerce-equitable.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/commerce-equitable-Fairtrade/impact-du-commerce-equitable/temoignages-producteurs.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/agir-avec-nous.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/ong-max-havelaar-france.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/ong-max-havelaar-france.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/ong-max-havelaar-france/gouvernance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/publications/rapports-annuels.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/ong-max-havelaar-france/carrieres.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/bas-de-page/mentions-legales.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/bas-de-page/protection-des-donnees.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/bas-de-page/code-ethique-du-mouvement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/bas-de-page/politique-lutte-contre-blanchiment-et-financement-terrorisme.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/bas-de-page/faq.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/bas-de-page/contact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/s-informer/presse.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fairtrade.net/maxhavelaarfrance-fr/bas-de-page/recevez-les-actualites.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "maxhavelaarfrance-fr.html",
+  "outputPathDefault": null,
+  "sidecar": "maxhavelaarfrance-fr._meta.json",
+  "driverVersion": "1"
+}

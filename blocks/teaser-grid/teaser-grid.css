@@ -1,0 +1,500 @@
+/* teaser-grid — source TeaserGrid + InfoTeaser + Tag (stardust/prototypes/at-de-html.css,
+   us-en-news-html.css; values verbatim) */
+.teaser-grid {
+  --teaser-grid-item-size: 6;
+
+  padding-block: 64px;
+}
+
+.teaser-grid .teaser-grid-grid {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(6, 1fr);
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 var(--grid-padding);
+  width: min(100%, var(--max-width));
+}
+
+.teaser-grid .teaser-grid-item {
+  grid-column: span var(--teaser-grid-item-size);
+}
+
+.teaser-grid .teaser-grid-item.is-hidden {
+  display: none;
+}
+
+/* InfoTeaser (portrait) */
+.teaser-grid .info-teaser {
+  --text-color: #1e1e1e;
+
+  color: var(--text-color);
+  display: block;
+  text-decoration: none;
+}
+
+.teaser-grid .info-teaser:is(:hover, :focus-visible) {
+  --text-color: #035e7c;
+}
+
+.teaser-grid .info-teaser-inner {
+  display: grid;
+  gap: 16px;
+  grid-template: repeat(2, auto) / 1fr;
+  margin-bottom: 12px;
+}
+
+.teaser-grid .info-teaser-image,
+.teaser-grid .info-teaser-tags {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.teaser-grid .info-teaser-content {
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  grid-area: 2 / 1 / 3 / 2;
+  place-items: flex-start;
+  transition: color .2s ease-in-out;
+}
+
+.teaser-grid .info-teaser-image .image {
+  background-color: #f4f4f4;
+  border: 1px solid #dadada;
+  overflow: hidden;
+}
+
+.teaser-grid .info-teaser-image .image::before {
+  aspect-ratio: 4 / 3;
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.teaser-grid .info-teaser-image .image picture {
+  display: contents;
+}
+
+.teaser-grid .info-teaser-image .image img {
+  font-size: 0;
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  transition: scale .3s ease-in-out;
+  width: 100%;
+  will-change: scale;
+}
+
+.teaser-grid .info-teaser:is(:hover, :focus-visible) .info-teaser-image .image img {
+  scale: 1.05;
+}
+
+/* tag chips (authored <ul>) */
+.teaser-grid .info-teaser-tags {
+  justify-self: flex-end;
+  padding: 8px;
+  z-index: 1;
+}
+
+.teaser-grid .info-teaser-tags ul {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.teaser-grid .info-teaser-tags li {
+  align-items: center;
+  background: rgb(30 30 30 / 75%);
+  border-radius: 16px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 15px;
+  font-weight: 600;
+  gap: 8px;
+  line-height: 1.6;
+  padding: 4px 12px;
+}
+
+/* header: <h2><strong>pretitle</strong> title</h2> */
+.teaser-grid .info-teaser-header {
+  -webkit-box-orient: vertical;
+  font-family: var(--ff-head);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.teaser-grid .info-teaser-header :is(h2, h3, h4) {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.teaser-grid .info-teaser-header strong {
+  display: block;
+  font-family: var(--ff-body);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+.teaser-grid .info-teaser-text {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  font-size: 17px;
+  -webkit-line-clamp: 5;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+.teaser-grid .info-teaser-text p,
+.teaser-grid .info-teaser-cta p {
+  margin: 0;
+}
+
+/* "read more" label = canon .Button.variant-tertiary, inert inside the card link */
+.teaser-grid .info-teaser-cta {
+  color: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.teaser-grid .info-teaser-cta p::after {
+  background-color: #0fc0fc;
+  content: "";
+  display: block;
+  height: 4px;
+  margin-top: 4px;
+  scale: 1 .5;
+  transform-origin: bottom;
+  transition: background-color .2s ease-in-out, scale .2s ease-in-out;
+}
+
+.teaser-grid .info-teaser:is(:hover, :focus-visible) .info-teaser-cta p::after {
+  background-color: var(--text-color);
+  scale: 1;
+}
+
+/* load more (CTASection + secondary skyblue button) */
+.teaser-grid .teaser-grid-more {
+  display: grid;
+  padding-block: 32px;
+  place-items: center;
+}
+
+.teaser-grid .teaser-grid-more.is-hidden {
+  display: none;
+}
+
+.teaser-grid .teaser-grid-more-button {
+  align-items: center;
+  border: 2px solid #0fc0fc;
+  border-radius: 100px;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: 700;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  padding: 0 32px;
+  transition: background-color .2s ease-in-out, border-color .2s ease-in-out;
+}
+
+.teaser-grid .teaser-grid-more-button:is(:hover, :focus-visible) {
+  background-color: rgb(15 192 252 / 25%);
+  border-color: #0eade3;
+}
+
+.teaser-grid .teaser-grid-more-button:active {
+  background-color: transparent;
+  border-color: #035e7c;
+}
+
+.teaser-grid .teaser-grid-more-button p {
+  margin: 0;
+}
+
+@media (width >= 768px) {
+  .teaser-grid.small {
+    --teaser-grid-item-size: 3;
+  }
+}
+
+@media (width >= 1024px) {
+  .teaser-grid {
+    --teaser-grid-item-size: 3;
+
+    padding-block: 80px;
+  }
+
+  .teaser-grid.small {
+    --teaser-grid-item-size: 2;
+  }
+
+  .teaser-grid .teaser-grid-grid {
+    gap: 40px;
+  }
+
+  .teaser-grid .info-teaser-inner {
+    gap: 16px 24px;
+  }
+
+  .teaser-grid .info-teaser-content {
+    gap: 16px;
+  }
+
+  .teaser-grid .info-teaser-header {
+    font-size: 32px;
+    margin-bottom: -4px;
+  }
+
+  .teaser-grid .info-teaser-header strong {
+    margin-bottom: 16px;
+  }
+
+  .teaser-grid .info-teaser-text {
+    font-size: 18px;
+    margin-top: -4px;
+  }
+
+  .teaser-grid .info-teaser-tags li {
+    font-size: 16px;
+    padding: 4px 16px;
+  }
+
+  .teaser-grid .teaser-grid-more {
+    padding-block: 40px;
+  }
+}
+
+/* variant highlights — source TeaserGrid.hasHighlights (impact-stories): the first two
+   cards on a full-bleed leafgreen band, topped by the canon wave (values verbatim) */
+.teaser-grid.highlights {
+  overflow: hidden;
+}
+
+.teaser-grid.highlights .teaser-grid-item.is-highlight {
+  padding-bottom: 32px;
+  position: relative;
+}
+
+.teaser-grid.highlights .teaser-grid-item.is-highlight::before {
+  background-color: #d4ff47;
+  bottom: 0;
+  content: "";
+  left: -100vw;
+  position: absolute;
+  top: 0;
+  width: 200vw;
+  z-index: -1;
+}
+
+.teaser-grid.highlights .teaser-grid-item.is-highlight:nth-child(1) {
+  padding-top: 32px;
+}
+
+.teaser-grid.highlights .teaser-grid-item.is-highlight:nth-child(2) {
+  margin-bottom: 40px;
+  margin-top: -32px;
+  padding-bottom: 64px;
+}
+
+@media (width >= 768px) {
+  .teaser-grid.highlights .teaser-grid-item.is-highlight {
+    --teaser-grid-item-size: 6;
+  }
+}
+
+@media (width >= 1024px) {
+  .teaser-grid.highlights .teaser-grid-item.is-highlight {
+    --teaser-grid-item-size: 3;
+  }
+
+  .teaser-grid.highlights .teaser-grid-item.is-highlight:nth-child(1),
+  .teaser-grid.highlights .teaser-grid-item.is-highlight:nth-child(2) {
+    margin-bottom: 80px;
+    margin-top: 0;
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+}
+
+/* variant spacer-before — the preceding RichtextSection ends in an authored blank paragraph
+   (source `<p>&nbsp;</p>`, dropped by the DA/markdown pipeline): one foundation body line
+   (17px/1.6, 18px/1.6 >= 1024) + its paragraph margin (24px, 32px >= 1024); for-media */
+.teaser-grid.spacer-before {
+  margin-top: calc(17px * 1.6 + 24px);
+}
+
+@media (width >= 1024px) {
+  .teaser-grid.spacer-before {
+    margin-top: calc(18px * 1.6 + 32px);
+  }
+}
+
+/* variant filter — source FilteredTeaserGrid--selectWrapper + Select (closed field, chevron
+   button, options panel); the select sits 40 px below the previous section, the grid's own
+   top padding follows it (values verbatim) */
+.teaser-grid.filter {
+  padding-top: 0;
+}
+
+.teaser-grid.filter .teaser-grid-filter {
+  margin: 40px auto 104px;
+  padding-inline: var(--grid-padding);
+  width: min(100%, var(--max-width));
+}
+
+.teaser-grid.filter .teaser-grid-select {
+  position: relative;
+  width: 100%;
+}
+
+.teaser-grid.filter .teaser-grid-select-field {
+  appearance: none;
+  background-color: #fff;
+  border: 0;
+  border-radius: 120px;
+  color: #545454;
+  cursor: pointer;
+  font: inherit;
+  font-size: 16px;
+  height: 56px;
+  line-height: 24px;
+  padding: 16px 64px 16px 24px;
+  position: relative;
+  text-align: left;
+  text-overflow: ellipsis;
+  transition: color .2s ease-in-out;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.teaser-grid.filter .teaser-grid-select-field::before,
+.teaser-grid.filter .teaser-grid-select-field::after {
+  border-radius: inherit;
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.teaser-grid.filter .teaser-grid-select-field::before {
+  border: 1px solid #a5a5a5;
+}
+
+.teaser-grid.filter .teaser-grid-select-field::after {
+  border: 2px solid #6fd9fd;
+  opacity: 0;
+  transition: opacity .2s ease-in-out, border-color .2s ease-in-out;
+}
+
+.teaser-grid.filter .teaser-grid-select-field:is(:hover, :active, :focus-visible)::after,
+.teaser-grid.filter .teaser-grid-select.is-open .teaser-grid-select-field::after {
+  opacity: 1;
+}
+
+.teaser-grid.filter .teaser-grid-select.is-open .teaser-grid-select-field::after {
+  border-color: #0fc0fc;
+}
+
+.teaser-grid.filter .teaser-grid-select-icon {
+  cursor: pointer;
+  inset: 4px 4px auto auto;
+  position: absolute;
+  transition: rotate .3s ease-in-out;
+}
+
+.teaser-grid.filter .teaser-grid-select.is-open .teaser-grid-select-icon {
+  rotate: .5turn;
+}
+
+.teaser-grid.filter .teaser-grid-select-options {
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  box-shadow: 0 8px 12px rgb(30 30 30 / 15%);
+  display: grid;
+  list-style: none;
+  margin: 16px 0 0;
+  max-height: 320px;
+  opacity: 0;
+  overflow-y: auto;
+  padding: 24px 12px;
+  position: absolute;
+  row-gap: 32px;
+  visibility: hidden;
+  width: 100%;
+  z-index: 3;
+}
+
+.teaser-grid.filter .teaser-grid-select.is-open .teaser-grid-select-options {
+  opacity: 1;
+  visibility: visible;
+}
+
+.teaser-grid.filter .teaser-grid-select-options li {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 2px;
+}
+
+.teaser-grid.filter .teaser-grid-select-options li[aria-selected="true"] {
+  color: #035e7c;
+  padding-left: 12px;
+  position: relative;
+}
+
+.teaser-grid.filter .teaser-grid-select-options li[aria-selected="true"]::before {
+  background-color: #035e7c;
+  content: "";
+  inset: 0 auto 0 0;
+  position: absolute;
+  width: 4px;
+}
+
+.teaser-grid.filter .teaser-grid-select-options li[aria-disabled="true"] {
+  opacity: .5;
+}
+
+@media (width >= 640px) {
+  .teaser-grid.filter .teaser-grid-select-options {
+    width: 320px;
+  }
+}
+
+@media (width >= 768px) {
+  .teaser-grid.filter .teaser-grid-filter {
+    align-items: center;
+    display: flex;
+  }
+
+  .teaser-grid.filter .teaser-grid-select {
+    width: auto;
+  }
+}
+
+@media (width >= 1024px) {
+  .teaser-grid.filter {
+    padding-top: 0;
+  }
+
+  .teaser-grid.filter .teaser-grid-filter {
+    margin-bottom: 120px;
+  }
+
+  .teaser-grid.filter .teaser-grid-select-options {
+    row-gap: 24px;
+  }
+}

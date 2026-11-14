@@ -1,0 +1,40 @@
+[live-session] waiting to pace live navigations to www.fairtrade.net (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+content-presence @ 1440px (chrome) — origin https://www.fairtrade.net/at-de.html (docH 8443, 104 items, HTTP 200) vs served https://main--63f9f24b--aemcoder.aem.page/at-de (docH 8436, 108 items, HTTP 200)
+scope: main vs main (header/footer left to the chrome crop gate; --chrome to include)
+| band | heading | links O/E (+hidden) | buttons O/E (+hidden) | text O/E | images O/E | findings |
+|---|---|---|---|---|---|---|
+| 0 | (top) | 0/0 | 2/2 | 0/0 | 1/1 | - |
+| 1 | was hinter fairem kakao steckt | 1/1 | 0/0 | 0/0 | 0/0 | - |
+| 2 | faire news | 3/3 | 0/0 | 0/0 | 3/3 | - |
+| 3 | news was fairtrade und die bäuer:innen a | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 4 | news fairtrade: mehr als jede fünfte taf | 0/0 | 0/0 | 0/0 | 0/0 | - |
+| 5 | news kakaopreise schwanken stark: was je | 1/1 | 0/0 | 0/0 | 0/0 | - |
+| 6 | fairtrade auf social media | 1/1 | 0/0 | 1/1 | 0/0 | - |
+| 7 | fairtrade-produkte finden | 6/6 | 0/0 | 0/0 | 6/6 | MISSING LINK, EXTRA LINK |
+| 8 | gewinnspiel des monats | 1/1 | 0/0 | 1/1 | 1/1 | - |
+| 9 | fairtrade-produkte im globalen süden | 1/1 | 0/0 | 1/1 | 1/1 | - |
+| 10 | unsere arbeitsschwerpunkte | 1/1 | 0/0 | 1/1 | 0/0 | - |
+| 11 | was ist fairtrade? | 0/0 | 0/0 | 1/1 | 0/0 | - |
+| 12 | fairtrade in kürze | 0/0 | 1/1 | 0/0 | 0/0 | - |
+| 13 | wer wir sind | 0/0 | 1/1 | 0/0 | 0/0 | - |
+| 14 | was wir tun | 0/0 | 1/1 | 0/0 | 0/0 | - |
+| 15 | wer uns trägt | 0/0 | 1/1 | 0/0 | 0/0 | - |
+| 16 | was wir fordern | 0/0 | 1/1 | 0/0 | 0/0 | - |
+| 17 | vision und leitbild | 0/0 | 0/0 | 0/0 | 0/0 | - |
+  🔴 MISSING LINK: "minor original bottle 150g mehr erfahren" → /at-de/produkte/produktfinder/product-detail-page.170320.html in band "fairtrade-produkte finden" (origin y 3356) not on the served page
+  🔴 MISSING LINK: "afro coffee ac capsules strong & earthy 10x5.5g, ft mehr erfahren" → /at-de/produkte/produktfinder/product-detail-page.168564.html in band "fairtrade-produkte finden" (origin y 3356) not on the served page
+  🔴 MISSING LINK: "afro coffee ac capsules mild & aromatic 30x5.5g, ft mehr erfahren" → /at-de/produkte/produktfinder/product-detail-page.168565.html in band "fairtrade-produkte finden" (origin y 3356) not on the served page
+  🔴 MISSING LINK: "douceur douceur weihnachtsfiguren reiterbeutel herz mehr erfahren" → /at-de/produkte/produktfinder/product-detail-page.166586.html in band "fairtrade-produkte finden" (origin y 3356) not on the served page
+  🟡 EXTRA HEADING: served h3 "adobe chardonnay 2026" (y 3658) has no origin heading
+  🟡 EXTRA HEADING: served h3 "himbeere (5 x 22g)" (y 3658) has no origin heading
+  🟡 EXTRA HEADING: served h3 "tirol milch kakao fairtrade uht 200ml" (y 3658) has no origin heading
+  🟡 EXTRA HEADING: served h3 "munz glückskäfer bottle 150g" (y 3658) has no origin heading
+  🟡 EXTRA HEADING: served h3 "kinder mädchen t-shirt_875016" (y 3658) has no origin heading
+  🟡 EXTRA LINK: "adobe reserva adobe chardonnay 2026 mehr erfahren" served in band "fairtrade-produkte finden", no origin link or button
+  🟡 EXTRA LINK: "minor himbeere (5 x 22g) mehr erfahren" served in band "fairtrade-produkte finden", no origin link or button
+  🟡 EXTRA LINK: "tirol milch tirol milch kakao fairtrade uht 200ml mehr erfahren" served in band "fairtrade-produkte finden", no origin link or button
+  🟡 EXTRA LINK: "munz munz glückskäfer bottle 150g mehr erfahren" served in band "fairtrade-produkte finden", no origin link or button
+Content: MISSING 4 (headings 0, links 4) / HIDDEN 0 (headings 0, links 0) / control-state 0 / buttons missing 0 hidden 0 / moved 0 extra 4 / count deltas 0
+Findings: 13 (4 structural 🔴)
+Clipped (served side): 0 — origin side 1
+json → stardust/replica/gates/at-de-html-1440/content-presence-pub2.json

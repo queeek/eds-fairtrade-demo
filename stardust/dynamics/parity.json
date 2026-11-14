@@ -1,0 +1,177 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-14T11:53:42.406Z"
+  },
+  "method": "static-first: carousels, teaser grids, accordions, video embeds and the header (menus, drawer, search, locale selector) rebuilt natively from the capture; listings authored as document rows; tags carried over OFF in the martech contract; form UI rebuilt with submission awaiting the owner's backend decision",
+  "features": [
+    {
+      "id": "martech-off",
+      "feature": "analytics, tag managers and consent (GTM x2, pixels, Usercentrics)",
+      "class": "T",
+      "pages": 100,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "tags on the new host: enable the contract parts in stardust/martech-contract.json (consent manager first)",
+      "verifiedBy": "0 tag hosts requested on /us-en (6 gated hosts); 0 gated requests before consent on /at-de",
+      "checks": [
+        {
+          "type": "martech",
+          "path": "/us-en",
+          "mode": "gate",
+          "forbiddenHosts": [
+            "www.googletagmanager.com",
+            "www.google-analytics.com",
+            "connect.facebook.net",
+            "px.ads.linkedin.com",
+            "tr.snapchat.com",
+            "app.usercentrics.eu"
+          ]
+        },
+        {
+          "type": "consent-gate",
+          "path": "/at-de",
+          "forbiddenHosts": [
+            "www.googletagmanager.com",
+            "www.google-analytics.com",
+            "connect.facebook.net"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chrome-locale",
+      "feature": "header locale selector dialog",
+      "class": "I18N",
+      "pages": 100,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "dialog 1440px, heading \"Go to a local website\", 1 filter field, Escape closes (hidden + focus back on trigger)",
+      "checks": [
+        {
+          "type": "click-dialog",
+          "path": "/us-en",
+          "trigger": "button[data-locale-open]"
+        }
+      ]
+    },
+    {
+      "id": "chrome-menu",
+      "feature": "header menus, drawer and search box",
+      "class": "M",
+      "pages": 100,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "53 nav items; 0 uncaught errors on 6 archetype pages",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/us-en",
+          "selector": "header .topbar-main-navigation li",
+          "min": 4
+        },
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/",
+            "/us-en",
+            "/at-de",
+            "/us-en/news",
+            "/us-en/why-fairtrade/why-we-do-it/gender-equality",
+            "/mt-en/bring-fairtrade-to-your-market"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chrome-search",
+      "feature": "header site search",
+      "class": "S",
+      "pages": 100,
+      "disposition": "index-backed",
+      "reproducibility": "self",
+      "status": "interim",
+      "owner": "search scope: the locale results pages are outside the migrated scope; the header submits to the source site's results page for its locale (repointed) until the owner decides to migrate search",
+      "verifiedBy": "26 nav documents carry the source results URL; submit disabled while empty",
+      "checks": []
+    },
+    {
+      "id": "v-video-youtube",
+      "feature": "video: YouTube embeds",
+      "class": "V",
+      "pages": 5,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "at-de iframe plays: 8 playback requests to youtube.com, all < 400",
+      "checks": [
+        {
+          "type": "video-plays",
+          "path": "/at-de",
+          "trigger": ".video-iframe",
+          "iframeSelector": ".video-iframe",
+          "playbackHost": "youtube.com"
+        }
+      ]
+    },
+    {
+      "id": "listings",
+      "feature": "carousels, teaser grids, accordions (listing candidates)",
+      "class": "L",
+      "pages": 100,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "interim",
+      "owner": "index-backed listings: cards are authored per page from the capture until the owner decides on an index-fed listing",
+      "verifiedBy": "18 teaser links on /us-en/news; 70 hero-carousel slide nodes on /at-de",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/us-en/news",
+          "selector": "main .teaser-grid a",
+          "min": 3
+        },
+        {
+          "type": "dom-count",
+          "path": "/at-de",
+          "selector": "main .hero-carousel li, main .hero-carousel [class*='slide']",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "f-form-cee-home-contact-form",
+      "feature": "contact form (mt-en, ro-ro, si-sl)",
+      "class": "F",
+      "pages": 3,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "form backend + bot check: UI rebuilt with required validation; submission is not connected until the owner names the endpoint",
+      "verifiedBy": "3 fields rendered with required validation; submit not connected (owner)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/mt-en/bring-fairtrade-to-your-market",
+          "selector": "main .form input, main .form textarea",
+          "min": 3
+        }
+      ]
+    },
+    {
+      "id": "i18n-locale-tree",
+      "feature": "locale variants",
+      "class": "I18N",
+      "pages": 100,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "interim",
+      "owner": "locale scope: every planned locale page is delivered; locale roots outside the plan link to the source site",
+      "verifiedBy": "23 locale homes + 3 regional form pages delivered and gated",
+      "checks": []
+    }
+  ]
+}

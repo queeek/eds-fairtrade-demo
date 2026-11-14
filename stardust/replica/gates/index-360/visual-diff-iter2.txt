@@ -1,0 +1,592 @@
+[live-session] waiting to pace live navigations to www.fairtrade.net (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 765 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/index-360/vdiff-iter2/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 4720,
+  "textLen": 2827,
+  "images": [
+   {
+    "src": "Fairtrade_America_Logo_Vert_80x80.png",
+    "natural": "80x80",
+    "rendered": "56x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "16x9_768w.webp",
+    "natural": "237x182",
+    "rendered": "324x324",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "16x9_768w.webp",
+    "natural": "243x182",
+    "rendered": "324x324",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "16x9_768w.webp",
+    "natural": "237x182",
+    "rendered": "324x324",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "16x9_768w.webp",
+    "natural": "243x182",
+    "rendered": "324x324",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "16x9_768w.webp",
+    "natural": "272x182",
+    "rendered": "324x324",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==",
+    "natural": "1x1",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1_375w.webp",
+    "natural": "324x216",
+    "rendered": "324x324",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1x1_375w.webp",
+    "natural": "324x324",
+    "rendered": "324x324",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=187088229&tm=gtm002&Ver=2&mid=b4bec9b2-1923-480c-938d-3a590be82347&bo=1&sid=a7386100dfa611f196dfcf3e9d3ef602&vid=a7389970dfa611f1a2b1e3bb8df4d4af&vids=0&msclkid=N&pi=918639831&lg=en-US&sw=360&sh=1000&sc=24&tl=Fairtrade%20America%20-%20the%20Future%20is%20Fair&p=https%3A%2F%2Fwww.fairtrade.net%2Fus-en.html&r=&lt=259&evt=pageLoad&sv=2&cdb=AQAQ&rn=148423",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "What is Fairtrade?",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "40px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade Month is here!",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "40px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The Cooperative Model at Work in",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "40px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why “greenshouting” matters for ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "40px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade Farmers and their Stor",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "40px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Benefits of Fairtrade",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Better for People and Planet",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade Products",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "\"Fairtrade has changed my life. ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Find what you are looking for",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "24px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Do you want to know the basics?",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "20px",
+    "family": "Exo 2",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Do you want to dive deep into ho",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "20px",
+    "family": "Exo 2",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Do you want to become Fairtrade ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "20px",
+    "family": "Exo 2",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [
+   {
+    "tag": "h2",
+    "text": "What is Fairtrade?",
+    "left": -338
+   },
+   {
+    "tag": "p",
+    "text": "The world's trade system exp",
+    "left": -338
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "PageHeroSlide--content-inner",
+    "width": 324,
+    "left": -338
+   },
+   {
+    "sel": "PageHeroSlide--content-inner",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "PageHeroSlide--content-inner",
+    "width": 324,
+    "left": 374
+   },
+   {
+    "sel": "PageHeroSlide--content-inner",
+    "width": 324,
+    "left": 730
+   },
+   {
+    "sel": "PageHeroSlide--content-inner",
+    "width": 324,
+    "left": 730
+   },
+   {
+    "sel": "NumberFactTeaser--content",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "TextImage--content",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "TextImage--content",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "Richtext",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "Accordion--header",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "Richtext",
+    "width": 292,
+    "left": 34
+   },
+   {
+    "sel": "Accordion--header",
+    "width": 324,
+    "left": 18
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 4720,
+  "textLen": 2827,
+  "images": [
+   {
+    "src": "Fairtrade_America_Logo_Vert_80x80.png",
+    "natural": "80x80",
+    "rendered": "56x56",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-ftm-m-768.webp",
+    "natural": "576x432",
+    "rendered": "324x324",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-ftm-d-768.webp",
+    "natural": "213x120",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-coop-m-768.webp",
+    "natural": "563x432",
+    "rendered": "324x324",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-coop-d-768.webp",
+    "natural": "280x120",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-green-m-768.webp",
+    "natural": "576x432",
+    "rendered": "324x324",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-green-d-768.webp",
+    "natural": "213x120",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-farmers-m-768.webp",
+    "natural": "647x432",
+    "rendered": "324x324",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-farmers-d-768.webp",
+    "natural": "280x120",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-what-m-768.webp",
+    "natural": "563x432",
+    "rendered": "324x324",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-what-d-768.webp",
+    "natural": "280x120",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ti-people-375.webp",
+    "natural": "324x216",
+    "rendered": "324x324",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ti-bananas-375.webp",
+    "natural": "324x324",
+    "rendered": "324x324",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Fairtrade Month is here!",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "40px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "The Cooperative Model at Work in",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "40px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Why “greenshouting” matters for ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "40px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade Farmers and their Stor",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "40px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "What is Fairtrade?",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "40px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Benefits of Fairtrade",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Better for People and Planet",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fairtrade Products",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "\"Fairtrade has changed my life. ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "32px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Find what you are looking for",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "24px",
+    "family": "Alegreya Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Do you want to know the basics?",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "20px",
+    "family": "Exo 2",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Do you want to dive deep into ho",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "20px",
+    "family": "Exo 2",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Do you want to become Fairtrade ",
+    "color": "rgb(30, 30, 30)",
+    "fontSize": "20px",
+    "family": "Exo 2",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "PageHeroSlide--content-inner",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "PageHeroSlide--content-inner",
+    "width": 324,
+    "left": 374
+   },
+   {
+    "sel": "PageHeroSlide--content-inner",
+    "width": 324,
+    "left": 730
+   },
+   {
+    "sel": "PageHeroSlide--content-inner",
+    "width": 324,
+    "left": 1086
+   },
+   {
+    "sel": "PageHeroSlide--content-inner",
+    "width": 324,
+    "left": 1442
+   },
+   {
+    "sel": "NumberFactTeaser--content",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "TextImage--content",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "TextImage--content",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "Richtext",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "Accordion--header",
+    "width": 324,
+    "left": 18
+   },
+   {
+    "sel": "Richtext",
+    "width": 292,
+    "left": 34
+   },
+   {
+    "sel": "Accordion--header",
+    "width": 324,
+    "left": 18
+   }
+  ]
+ }
+}

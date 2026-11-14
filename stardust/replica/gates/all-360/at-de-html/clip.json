@@ -1,0 +1,67 @@
+{
+ "url": "https://main--63f9f24b--aemcoder.aem.page/at-de",
+ "at": "2026-11-14T11:05:17.943Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 5,
+  "offPage": 107,
+  "textNodes": 144,
+  "controls": 68,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "ul.carousel-list",
+   "path": "div.carousel.contains-product-teasers > ul.carousel-list > li.carousel-item > a.product-teaser",
+   "text": "adobe reservaadobe chardonnay 2026mehr erfahren",
+   "cutMin": 165,
+   "cutMax": 165
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 2,
+   "clipper": "ul.carousel-list",
+   "path": "li.carousel-item > a.product-teaser > div.product-teaser-merchant > p",
+   "text": "tirol milch",
+   "cutMin": 54,
+   "cutMax": 78
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "ul.carousel-list",
+   "path": "li.carousel-item > a.product-teaser > div.product-teaser-title > h3#tirol-milch-kakao-fairtrade-uht-200ml",
+   "text": "tirol milch kakao fairtrade uht 200ml",
+   "cutMin": 128,
+   "cutMax": 128
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 6,
+   "offPage": 106,
+   "textNodes": 144,
+   "controls": 69,
+   "total": 0
+  }
+ }
+}

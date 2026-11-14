@@ -1,0 +1,57 @@
+{
+  "accepted": [
+    {
+      "probe": "chrome-parity",
+      "kind": "REGION STYLE",
+      "root": "footer",
+      "reason": "Instrument asymmetry, not a paint change: the live <footer> is an AEM experience-fragment wrapper four levels above the navy .Footer, the build <footer> wraps .Footer directly; both <footer> elements compute rgba(0,0,0,0) and both .Footer boxes paint #001b6e at the same rect (measure.mjs: footer > .Footer 0,5790 1440x414 bg rgb(0,27,110) on build = live). Footer crop-compare and pixel diff are the confirmation. Scope: root footer, kind REGION STYLE only (the finding carries no text to narrow on); recorded for archetype index."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "ICON DIFF",
+      "root": "header",
+      "text": "back to homepage",
+      "reason": "Published-regime pipeline delta, not an icon change: the delivery pipeline serves every authored image from the media bus as media_<hash>.<ext> renditions (source-fidelity-gate.md § The published-origin gate), so the header logo's file name cannot match the source's. Same anchor, same 56px box, same artwork: the 360 pixel round on the published origin is 0.64% (index) with the header band clean. Scope: header root, ICON DIFF on the home link only."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "ICON DIFF",
+      "root": "header",
+      "text": "zurück zur startseite",
+      "reason": "Published-regime pipeline delta, not an icon change: the delivery pipeline serves every authored image from the media bus as media_<hash>.<ext> renditions (source-fidelity-gate.md § The published-origin gate), so the header logo's file name cannot match the source's. Same anchor, same 56px box, same artwork: the 360 pixel round on the published origin is 0.64% (index) with the header band clean. Scope: header root, ICON DIFF on the home link only."
+    },
+    {
+      "probe": "chrome-parity",
+      "kind": "REGION BOX",
+      "root": "header",
+      "reason": "Instrument asymmetry, not a paint change: on the delivery platform the header block always renders inside the pipeline's <header> wrapper, which reserves the fixed topbar's 104px (the source reserves it with a spacer outside its zero-height <header>); the painted topbar is the same fixed white bar at the same rect on both sides. Published-origin pixel rounds are the confirmation (index 0.05%/0.64%, at-de 3.82%/5.08%, Δh 0). Scope: root header, REGION BOX and REGION STYLE only."
+    },
+    {
+      "probe": "chrome-parity",
+      "kind": "REGION STYLE",
+      "root": "header",
+      "reason": "Instrument asymmetry, not a paint change: on the delivery platform the header block always renders inside the pipeline's <header> wrapper, which reserves the fixed topbar's 104px (the source reserves it with a spacer outside its zero-height <header>); the painted topbar is the same fixed white bar at the same rect on both sides. Published-origin pixel rounds are the confirmation (index 0.05%/0.64%, at-de 3.82%/5.08%, Δh 0). Scope: root header, REGION BOX and REGION STYLE only."
+    },
+    {
+      "probe": "chrome-parity",
+      "kind": "PAIR",
+      "root": "footer",
+      "text": "Über FAIRTRADE Österreich",
+      "reason": "Authoring granularity, not a paint change: the source footer column headings are inline <span>s (rect = the glyph content area, 24px, text width); the authored footer document carries them as <p> (block rect: line box 22px, column width). Same text, face, size and position: footer crop-compare on the published origin 99.69% (1440) / 99.63% (360) match. Scope: footer root, PAIR findings on the three column headings only."
+    },
+    {
+      "probe": "chrome-parity",
+      "kind": "PAIR",
+      "root": "footer",
+      "text": "Service & Kontakt",
+      "reason": "Authoring granularity, not a paint change: the source footer column headings are inline <span>s (rect = the glyph content area, 24px, text width); the authored footer document carries them as <p> (block rect: line box 22px, column width). Same text, face, size and position: footer crop-compare on the published origin 99.69% (1440) / 99.63% (360) match. Scope: footer root, PAIR findings on the three column headings only."
+    },
+    {
+      "probe": "chrome-parity",
+      "kind": "PAIR",
+      "root": "footer",
+      "text": "Recht & Compliance",
+      "reason": "Authoring granularity, not a paint change: the source footer column headings are inline <span>s (rect = the glyph content area, 24px, text width); the authored footer document carries them as <p> (block rect: line box 22px, column width). Same text, face, size and position: footer crop-compare on the published origin 99.69% (1440) / 99.63% (360) match. Scope: footer root, PAIR findings on the three column headings only."
+    }
+  ]
+}

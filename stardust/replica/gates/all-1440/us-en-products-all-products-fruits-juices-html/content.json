@@ -1,0 +1,3240 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-14T10:50:17.900Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fairtrade.net/us-en/products/all-products/fruits-juices.html",
+  "at": "2026-11-14T10:49:57.250Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5135,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--barWrapper > div.Topbar--content > a.Topbar--logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.Topbar--logo > span.Icon.Topbar--logo--icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "Fairtrade_America_Logo_Vert_80x80"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.TopbarMainNavigation--list > li.TopbarMainNavigation--list--item > button.TopbarMainNavigation--button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--content > div.Topbar--meta > button.Topbar--searchTrigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.Topbar--localeSelectorTrigger > button.LocaleSelectorTrigger.Topbar--localeSelectorTrigger--button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Topbar--meta > div.TopbarMetaMenu > button.TopbarMetaMenu--openButton",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > span.Breadcrumbs--breadcrumb--title",
+    "x": 125,
+    "y": 122,
+    "w": 57,
+    "h": 20,
+    "text": "Products"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 222,
+    "y": 122,
+    "w": 118,
+    "h": 20,
+    "text": "fairtrade products",
+    "href": "/us-en/products/all-products.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.Breadcrumbs--list > li.Breadcrumbs--breadcrumb > a.Breadcrumbs--breadcrumb--link",
+    "x": 380,
+    "y": 122,
+    "w": 103,
+    "h": 20,
+    "text": "fruits and juices",
+    "href": "/us-en/products/all-products/fruits-juices.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > h1.PageLead--title",
+    "x": 479,
+    "y": 224,
+    "w": 482,
+    "h": 79,
+    "level": 1,
+    "text": "fruits and juices"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--content > div.PageLead--contentGrid > p.PageLead--lead",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 192,
+    "text": "From mangoes to pineapples, mandarins to avocados, many grocery stores now stock"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.PageLead--imageGrid > div.Image.ultra-wide > img.lazyautosizes.lazyloaded",
+    "x": 48,
+    "y": 591,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "21x9_1440w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 1287,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "the fruit industry"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > h3 > b",
+    "x": 390,
+    "y": 1288,
+    "w": 223,
+    "h": 32,
+    "text": "The fruit industry"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1346,
+    "w": 660,
+    "h": 259,
+    "text": "In regions such as Latin America, Africa and Asia, the fruit and juices industry"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1638,
+    "w": 660,
+    "h": 202,
+    "text": "Conversely, small-scale fruit farmers and juice producers often operate with lim"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 1919,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "current challenges"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > h3 > b",
+    "x": 390,
+    "y": 1920,
+    "w": 239,
+    "h": 32,
+    "text": "Current challenges"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 1978,
+    "w": 660,
+    "h": 58,
+    "text": "Small-scale fresh fruit farmers often struggle to make a decent living. This fin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 2068,
+    "w": 660,
+    "h": 115,
+    "text": "Limited resources and investment. Small-scale farmers frequently lack the funds "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 2195,
+    "w": 660,
+    "h": 144,
+    "text": "Gender inequality. Women make up more than half of all fruit farmers and workers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 2351,
+    "w": 660,
+    "h": 86,
+    "text": "Climate change impact. Higher temperatures, droughts, floods, cyclones and hurri"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 2469,
+    "w": 660,
+    "h": 58,
+    "text": "Addressing these challenges is critical for fair and sustainable livelihoods for"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "figure.SingleImage--figure > div.Image.landscape > img.lazyautosizes.lazyloaded",
+    "x": 162,
+    "y": 2647,
+    "w": 1116,
+    "h": 628,
+    "text": "",
+    "file": "16x9_1280w"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > h3",
+    "x": 390,
+    "y": 3395,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "how fairtrade makes a difference"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > h3 > b",
+    "x": 390,
+    "y": 3396,
+    "w": 427,
+    "h": 32,
+    "text": "How Fairtrade makes a difference"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.RichtextSection > div.Richtext > p",
+    "x": 390,
+    "y": 3454,
+    "w": 660,
+    "h": 86,
+    "text": "Small-scale fresh fruit farmers often struggle to earn a fair income, but by wor"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 3572,
+    "w": 660,
+    "h": 115,
+    "text": "- Fairtrade fresh fruit farmers receive a minimum price which provides a safety "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 3700,
+    "w": 660,
+    "h": 115,
+    "text": "- Paid on top of the selling price, the Fairtrade Premium allows producers and w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 3827,
+    "w": 660,
+    "h": 86,
+    "text": "- Fairtrade standards cover health and safety, including the use of pesticides a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 3925,
+    "w": 660,
+    "h": 115,
+    "text": "- Workers on Fairtrade certified fresh fruit plantations benefit from formal lab"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 4052,
+    "w": 660,
+    "h": 115,
+    "text": "- Fairtrade supports smallholder farmers by providing training and support on su"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > ul > li",
+    "x": 390,
+    "y": 4179,
+    "w": 660,
+    "h": 144,
+    "text": "- To achieve Fairtrade certification, fresh fruit farmers must enhance soil and "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.Richtext > p > b",
+    "x": 398,
+    "y": 4406,
+    "w": 645,
+    "h": 51,
+    "text": "Fairtrade fruits and juices are good for people, planet and business. Find out h"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.ctasection.is-visible > div.CTASection > a.Button.variant-primary",
+    "x": 627,
+    "y": 4541,
+    "w": 185,
+    "h": 60,
+    "text": "find out more",
+    "href": "/content/fairtrade/language-masters/en/for-business.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 4737,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--meta > div.Footer--localeSelectorTrigger > button.LocaleSelectorTrigger.color-white",
+    "x": 1310,
+    "y": 4737,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 76,
+    "y": 4827,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 4875,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 76,
+    "y": 4925,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 418,
+    "y": 4827,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 4875,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 4925,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 4974,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 418,
+    "y": 5024,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.FooterLinkList > div.FooterLinkList--title > a.FooterLinkList--title--link",
+    "x": 760,
+    "y": 4827,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 4875,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterLinkList--list > li.FooterLinkList--item > a.FooterLinkList--link",
+    "x": 760,
+    "y": 4925,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--social > div.FooterSocialMediaLinks > div.FooterSocialMediaLinks--title",
+    "x": 1074,
+    "y": 4827,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1074,
+    "y": 4873,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1164,
+    "y": 4873,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1254,
+    "y": 4873,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.FooterSocialMediaLinks--list > li.FooterSocialMediaLinks--item > a.Button.variant-icon-primary",
+    "x": 1344,
+    "y": 4873,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > div.Footer--newsletter--title",
+    "x": 1074,
+    "y": 4961,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.Footer--leads > div.Footer--newsletter > a.Button.Footer--newsletter--button",
+    "x": 1074,
+    "y": 5007,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 53,
+    "controls": 29,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--63f9f24b--aemcoder.aem.page/us-en/products/all-products/fruits-juices",
+  "at": "2026-11-14T10:50:17.782Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5135,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-bar-wrapper > div.topbar-content > a.topbar-logo",
+    "x": 48,
+    "y": 0,
+    "w": 80,
+    "h": 104,
+    "text": "",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "a.topbar-logo > span.svg-icon.topbar-logo-icon > img",
+    "x": 48,
+    "y": 12,
+    "w": 80,
+    "h": 80,
+    "text": "",
+    "file": "media_13df0d1ade5b87108701c0132044859868"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "text": "why fairtrade"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 176,
+    "y": 0,
+    "w": 114,
+    "h": 104,
+    "label": "trigger",
+    "value": "why fairtrade",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "text": "products"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 338,
+    "y": 0,
+    "w": 71,
+    "h": 104,
+    "label": "trigger",
+    "value": "products",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "for business"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 457,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "for business",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "text": "get involved"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.topbar-main-navigation-list > li.topbar-main-navigation-list-item > button.topbar-main-navigation-button",
+    "x": 603,
+    "y": 0,
+    "w": 99,
+    "h": 104,
+    "label": "trigger",
+    "value": "get involved",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-content > div.topbar-meta > button.topbar-search-trigger",
+    "x": 1115,
+    "y": 40,
+    "w": 80,
+    "h": 24,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-locale-selector-trigger > button.locale-selector-trigger.topbar-locale-selector-trigger-button",
+    "x": 1219,
+    "y": 40,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "text": "open"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.topbar-meta > div.topbar-meta-menu > button.topbar-meta-menu-open-button",
+    "x": 1325,
+    "y": 40,
+    "w": 67,
+    "h": 24,
+    "label": "trigger",
+    "value": "open",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 48,
+    "y": 122,
+    "w": 37,
+    "h": 20,
+    "text": "home",
+    "href": "/us-en.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > span.breadcrumbs-breadcrumb-title",
+    "x": 125,
+    "y": 122,
+    "w": 57,
+    "h": 20,
+    "text": "Products"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 222,
+    "y": 122,
+    "w": 118,
+    "h": 20,
+    "text": "fairtrade products",
+    "href": "/us-en/products/all-products.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ol.breadcrumbs-list > li.breadcrumbs-breadcrumb > a.breadcrumbs-breadcrumb-link",
+    "x": 380,
+    "y": 122,
+    "w": 103,
+    "h": 20,
+    "text": "fruits and juices",
+    "href": "/us-en/products/all-products/fruits-juices.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-title > h1#fruits-and-juices",
+    "x": 479,
+    "y": 224,
+    "w": 482,
+    "h": 79,
+    "level": 1,
+    "text": "fruits and juices"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.page-lead-content-grid > div.page-lead-lead > p",
+    "x": 276,
+    "y": 335,
+    "w": 888,
+    "h": 192,
+    "text": "From mangoes to pineapples, mandarins to avocados, many grocery stores now stock"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.ultra-wide > picture > img",
+    "x": 48,
+    "y": 591,
+    "w": 1344,
+    "h": 576,
+    "text": "",
+    "file": "media_12a2979a091c006ca9fd39497a8be1a07d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#the-fruit-industry",
+    "x": 390,
+    "y": 1287,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "the fruit industry"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > h3#the-fruit-industry > strong",
+    "x": 390,
+    "y": 1288,
+    "w": 223,
+    "h": 32,
+    "text": "The fruit industry"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1346,
+    "w": 660,
+    "h": 259,
+    "text": "In regions such as Latin America, Africa and Asia, the fruit and juices industry"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1638,
+    "w": 660,
+    "h": 202,
+    "text": "Conversely, small-scale fruit farmers and juice producers often operate with lim"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#current-challenges",
+    "x": 390,
+    "y": 1919,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "current challenges"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > h3#current-challenges > strong",
+    "x": 390,
+    "y": 1920,
+    "w": 239,
+    "h": 32,
+    "text": "Current challenges"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 1978,
+    "w": 660,
+    "h": 58,
+    "text": "Small-scale fresh fruit farmers often struggle to make a decent living. This fin"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 2068,
+    "w": 660,
+    "h": 115,
+    "text": "Limited resources and investment. Small-scale farmers frequently lack the funds "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 2195,
+    "w": 660,
+    "h": 144,
+    "text": "Gender inequality. Women make up more than half of all fruit farmers and workers"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 2351,
+    "w": 660,
+    "h": 86,
+    "text": "Climate change impact. Higher temperatures, droughts, floods, cyclones and hurri"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 2469,
+    "w": 660,
+    "h": 58,
+    "text": "Addressing these challenges is critical for fair and sustainable livelihoods for"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.image.landscape > picture > img",
+    "x": 162,
+    "y": 2647,
+    "w": 1116,
+    "h": 628,
+    "text": "",
+    "file": "media_12947cee5a3fa40537c0cb2f36f66f287a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > h3#how-fairtrade-makes-a-difference",
+    "x": 390,
+    "y": 3395,
+    "w": 660,
+    "h": 35,
+    "level": 3,
+    "text": "how fairtrade makes a difference"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > h3#how-fairtrade-makes-a-difference > strong",
+    "x": 390,
+    "y": 3396,
+    "w": 427,
+    "h": 32,
+    "text": "How Fairtrade makes a difference"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section.is-visible > div.default-content-wrapper > p",
+    "x": 390,
+    "y": 3454,
+    "w": 660,
+    "h": 86,
+    "text": "Small-scale fresh fruit farmers often struggle to earn a fair income, but by wor"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 3572,
+    "w": 660,
+    "h": 115,
+    "text": "- Fairtrade fresh fruit farmers receive a minimum price which provides a safety "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 3700,
+    "w": 660,
+    "h": 115,
+    "text": "- Paid on top of the selling price, the Fairtrade Premium allows producers and w"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 3827,
+    "w": 660,
+    "h": 86,
+    "text": "- Fairtrade standards cover health and safety, including the use of pesticides a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 3925,
+    "w": 660,
+    "h": 115,
+    "text": "- Workers on Fairtrade certified fresh fruit plantations benefit from formal lab"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 4052,
+    "w": 660,
+    "h": 115,
+    "text": "- Fairtrade supports smallholder farmers by providing training and support on su"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > ul > li",
+    "x": 390,
+    "y": 4179,
+    "w": 660,
+    "h": 144,
+    "text": "- To achieve Fairtrade certification, fresh fruit farmers must enhance soil and "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.default-content-wrapper > p > strong",
+    "x": 390,
+    "y": 4406,
+    "w": 645,
+    "h": 51,
+    "text": "Fairtrade fruits and juices are good for people, planet and business. Find out h"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-actions > p.button-wrapper > a.button.primary",
+    "x": 627,
+    "y": 4541,
+    "w": 185,
+    "h": 60,
+    "text": "find out more",
+    "href": "/content/fairtrade/language-masters/en/for-business.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 4737,
+    "w": 82,
+    "h": 24,
+    "text": "us • en"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-meta > div.footer-locale-selector-trigger > button.locale-selector-trigger.color-white",
+    "x": 1310,
+    "y": 4737,
+    "w": 82,
+    "h": 24,
+    "label": "trigger",
+    "value": "us • en",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 76,
+    "y": 4827,
+    "w": 58,
+    "h": 22,
+    "text": "about",
+    "href": "/us-en/about.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 4875,
+    "w": 153,
+    "h": 26,
+    "text": "how fairtrade works",
+    "href": "/us-en/why-fairtrade/what-we-do/how-fairtrade-works.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 76,
+    "y": 4925,
+    "w": 56,
+    "h": 26,
+    "text": "careers",
+    "href": "/us-en/about/careers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 418,
+    "y": 4827,
+    "w": 193,
+    "h": 22,
+    "text": "how to get involved",
+    "href": "/us-en/get-involved/get-involved.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 4875,
+    "w": 109,
+    "h": 26,
+    "text": "for businesses",
+    "href": "/us-en/for-business.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 4925,
+    "w": 72,
+    "h": 26,
+    "text": "for media",
+    "href": "/us-en/for-media.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 4974,
+    "w": 92,
+    "h": 26,
+    "text": "for retailers",
+    "href": "/us-en/for-business/for-retailers.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 418,
+    "y": 5024,
+    "w": 90,
+    "h": 26,
+    "text": "for partners",
+    "href": "/us-en/for-business/for-partners.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-link-list-box > div.footer-link-list-title > a.footer-link-list-title-link",
+    "x": 760,
+    "y": 4827,
+    "w": 75,
+    "h": 22,
+    "text": "contact",
+    "href": "/us-en/contact.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 4875,
+    "w": 94,
+    "h": 26,
+    "text": "terms of use",
+    "href": "/us-en/terms-of-use.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-link-list-list > li.footer-link-list-item > a.footer-link-list-link",
+    "x": 760,
+    "y": 4925,
+    "w": 100,
+    "h": 26,
+    "text": "privacy policy",
+    "href": "/us-en/privacy-policy.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social > div.footer-social-media-links > div.footer-social-media-links-title",
+    "x": 1074,
+    "y": 4827,
+    "w": 318,
+    "h": 22,
+    "text": "Social Links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1074,
+    "y": 4873,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1164,
+    "y": 4873,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/FairtradeMarkUS"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1254,
+    "y": 4873,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/company/fairtrade-america"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.footer-social-media-links-list > li.footer-social-media-links-item > a.button.variant-icon-primary",
+    "x": 1344,
+    "y": 4873,
+    "w": 48,
+    "h": 48,
+    "text": "",
+    "href": "/@FairtradeMarkus"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > div.footer-newsletter-title",
+    "x": 1074,
+    "y": 4961,
+    "w": 318,
+    "h": 22,
+    "text": "Newsletter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-leads > div.footer-newsletter > a.button.footer-newsletter-button",
+    "x": 1074,
+    "y": 5007,
+    "w": 318,
+    "h": 48,
+    "text": "click to sign up",
+    "href": "/us-en/fairtrade-newsletter.html"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 53,
+    "controls": 29,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "fruits and juices",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "the fruit industry",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "current challenges",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 6,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "how fairtrade makes a difference",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 9,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 9,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 57,
+    "h": 17
+   },
+   {
+    "x": 222,
+    "y": 123,
+    "w": 118,
+    "h": 17
+   },
+   {
+    "x": 380,
+    "y": 123,
+    "w": 103,
+    "h": 17
+   },
+   {
+    "x": 479,
+    "y": 227,
+    "w": 482,
+    "h": 72
+   },
+   {
+    "x": 278,
+    "y": 339,
+    "w": 885,
+    "h": 29
+   },
+   {
+    "x": 290,
+    "y": 378,
+    "w": 860,
+    "h": 29
+   },
+   {
+    "x": 310,
+    "y": 416,
+    "w": 821,
+    "h": 29
+   },
+   {
+    "x": 290,
+    "y": 454,
+    "w": 859,
+    "h": 29
+   },
+   {
+    "x": 300,
+    "y": 493,
+    "w": 841,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1288,
+    "w": 223,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 1349,
+    "w": 653,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1378,
+    "w": 579,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1407,
+    "w": 620,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1436,
+    "w": 645,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1465,
+    "w": 651,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1493,
+    "w": 656,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1522,
+    "w": 586,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1551,
+    "w": 630,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1580,
+    "w": 348,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1641,
+    "w": 622,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1669,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1698,
+    "w": 657,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1727,
+    "w": 583,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1756,
+    "w": 645,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1784,
+    "w": 650,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1813,
+    "w": 330,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1920,
+    "w": 239,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 1981,
+    "w": 606,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2010,
+    "w": 497,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2071,
+    "w": 608,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2100,
+    "w": 570,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2128,
+    "w": 635,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2157,
+    "w": 318,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2198,
+    "w": 599,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2227,
+    "w": 636,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2256,
+    "w": 626,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2284,
+    "w": 636,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2313,
+    "w": 103,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2354,
+    "w": 620,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2383,
+    "w": 616,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2412,
+    "w": 427,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2472,
+    "w": 625,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2501,
+    "w": 254,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3396,
+    "w": 427,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 3457,
+    "w": 603,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3486,
+    "w": 654,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3515,
+    "w": 97,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3575,
+    "w": 213,
+    "h": 22
+   },
+   {
+    "x": 619,
+    "y": 3575,
+    "w": 400,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3604,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3633,
+    "w": 582,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3662,
+    "w": 575,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3703,
+    "w": 159,
+    "h": 22
+   },
+   {
+    "x": 565,
+    "y": 3703,
+    "w": 453,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3731,
+    "w": 625,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3760,
+    "w": 615,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3789,
+    "w": 298,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3830,
+    "w": 171,
+    "h": 22
+   },
+   {
+    "x": 577,
+    "y": 3830,
+    "w": 456,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3859,
+    "w": 581,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3887,
+    "w": 315,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3928,
+    "w": 297,
+    "h": 22
+   },
+   {
+    "x": 703,
+    "y": 3928,
+    "w": 342,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3957,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3986,
+    "w": 634,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4015,
+    "w": 354,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4055,
+    "w": 177,
+    "h": 22
+   },
+   {
+    "x": 583,
+    "y": 4055,
+    "w": 445,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4084,
+    "w": 553,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4113,
+    "w": 567,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4142,
+    "w": 411,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4182,
+    "w": 156,
+    "h": 22
+   },
+   {
+    "x": 562,
+    "y": 4182,
+    "w": 484,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4211,
+    "w": 592,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4240,
+    "w": 592,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4269,
+    "w": 625,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4298,
+    "w": 567,
+    "h": 22
+   },
+   {
+    "x": 398,
+    "y": 4406,
+    "w": 645,
+    "h": 22
+   },
+   {
+    "x": 567,
+    "y": 4435,
+    "w": 307,
+    "h": 22
+   },
+   {
+    "x": 661,
+    "y": 4560,
+    "w": 117,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 4739,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 4826,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 4878,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 4928,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4826,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 4878,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4928,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4977,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5027,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 4826,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 4878,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 4928,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 4826,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 4960,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 5020,
+    "w": 127,
+    "h": 22
+   }
+  ],
+  "eds": [
+   {
+    "x": 176,
+    "y": 42,
+    "w": 114,
+    "h": 20
+   },
+   {
+    "x": 338,
+    "y": 42,
+    "w": 71,
+    "h": 20
+   },
+   {
+    "x": 457,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 603,
+    "y": 42,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 1143,
+    "y": 42,
+    "w": 52,
+    "h": 19
+   },
+   {
+    "x": 1247,
+    "y": 42,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 1353,
+    "y": 42,
+    "w": 39,
+    "h": 19
+   },
+   {
+    "x": 48,
+    "y": 123,
+    "w": 37,
+    "h": 17
+   },
+   {
+    "x": 125,
+    "y": 123,
+    "w": 57,
+    "h": 17
+   },
+   {
+    "x": 222,
+    "y": 123,
+    "w": 118,
+    "h": 17
+   },
+   {
+    "x": 380,
+    "y": 123,
+    "w": 103,
+    "h": 17
+   },
+   {
+    "x": 479,
+    "y": 227,
+    "w": 482,
+    "h": 72
+   },
+   {
+    "x": 278,
+    "y": 339,
+    "w": 885,
+    "h": 29
+   },
+   {
+    "x": 290,
+    "y": 378,
+    "w": 860,
+    "h": 29
+   },
+   {
+    "x": 310,
+    "y": 416,
+    "w": 821,
+    "h": 29
+   },
+   {
+    "x": 290,
+    "y": 454,
+    "w": 859,
+    "h": 29
+   },
+   {
+    "x": 300,
+    "y": 493,
+    "w": 841,
+    "h": 29
+   },
+   {
+    "x": 390,
+    "y": 1288,
+    "w": 223,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 1349,
+    "w": 653,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1378,
+    "w": 579,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1407,
+    "w": 620,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1436,
+    "w": 645,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1465,
+    "w": 651,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1493,
+    "w": 656,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1522,
+    "w": 586,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1551,
+    "w": 630,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1580,
+    "w": 348,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1641,
+    "w": 622,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1669,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1698,
+    "w": 657,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1727,
+    "w": 583,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1756,
+    "w": 645,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1784,
+    "w": 650,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1813,
+    "w": 330,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 1920,
+    "w": 239,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 1981,
+    "w": 606,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2010,
+    "w": 497,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2071,
+    "w": 608,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2100,
+    "w": 570,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2128,
+    "w": 635,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2157,
+    "w": 318,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2198,
+    "w": 599,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2227,
+    "w": 636,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2256,
+    "w": 626,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2284,
+    "w": 636,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2313,
+    "w": 103,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2354,
+    "w": 620,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2383,
+    "w": 616,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 2412,
+    "w": 423,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2472,
+    "w": 625,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 2501,
+    "w": 254,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3396,
+    "w": 427,
+    "h": 32
+   },
+   {
+    "x": 390,
+    "y": 3457,
+    "w": 603,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3486,
+    "w": 654,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 3515,
+    "w": 97,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3575,
+    "w": 209,
+    "h": 22
+   },
+   {
+    "x": 615,
+    "y": 3575,
+    "w": 404,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3604,
+    "w": 640,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3633,
+    "w": 582,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3662,
+    "w": 575,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3703,
+    "w": 159,
+    "h": 22
+   },
+   {
+    "x": 565,
+    "y": 3703,
+    "w": 453,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3731,
+    "w": 625,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3760,
+    "w": 615,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3789,
+    "w": 298,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3830,
+    "w": 171,
+    "h": 22
+   },
+   {
+    "x": 577,
+    "y": 3830,
+    "w": 456,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3859,
+    "w": 581,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3887,
+    "w": 315,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3928,
+    "w": 293,
+    "h": 22
+   },
+   {
+    "x": 699,
+    "y": 3928,
+    "w": 346,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3957,
+    "w": 637,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 3986,
+    "w": 634,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4015,
+    "w": 354,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4055,
+    "w": 177,
+    "h": 22
+   },
+   {
+    "x": 583,
+    "y": 4055,
+    "w": 445,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4084,
+    "w": 553,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4113,
+    "w": 567,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4142,
+    "w": 411,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4182,
+    "w": 152,
+    "h": 22
+   },
+   {
+    "x": 558,
+    "y": 4182,
+    "w": 488,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4211,
+    "w": 592,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4240,
+    "w": 592,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4269,
+    "w": 625,
+    "h": 22
+   },
+   {
+    "x": 406,
+    "y": 4298,
+    "w": 567,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4406,
+    "w": 645,
+    "h": 22
+   },
+   {
+    "x": 390,
+    "y": 4435,
+    "w": 307,
+    "h": 22
+   },
+   {
+    "x": 661,
+    "y": 4560,
+    "w": 117,
+    "h": 22
+   },
+   {
+    "x": 1338,
+    "y": 4739,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 4826,
+    "w": 58,
+    "h": 24
+   },
+   {
+    "x": 76,
+    "y": 4878,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 76,
+    "y": 4928,
+    "w": 56,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4826,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 418,
+    "y": 4878,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4928,
+    "w": 72,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 4977,
+    "w": 92,
+    "h": 19
+   },
+   {
+    "x": 418,
+    "y": 5027,
+    "w": 90,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 4826,
+    "w": 75,
+    "h": 24
+   },
+   {
+    "x": 760,
+    "y": 4878,
+    "w": 94,
+    "h": 19
+   },
+   {
+    "x": 760,
+    "y": 4928,
+    "w": 100,
+    "h": 19
+   },
+   {
+    "x": 1074,
+    "y": 4826,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1074,
+    "y": 4960,
+    "w": 110,
+    "h": 24
+   },
+   {
+    "x": 1169,
+    "y": 5020,
+    "w": 127,
+    "h": 22
+   }
+  ]
+ }
+}
