@@ -138,7 +138,7 @@
       },
       "v_e3a4f2b9c838": {
         "id": "v_e3a4f2b9c838",
-        "name": "video",
+        "name": "iframe",
         "type": "video",
         "canonicalModel": "standalone",
         "pagesFound": 1,
@@ -152,7 +152,10 @@
           "stardustKind": "module"
         },
         "confidenceLevel": "high",
-        "confidenceReason": "Built and gated by the auto migration (stardust)"
+        "confidenceReason": "Made a variant of the Embed block (iframe .video): one link rendered as an embedded frame, plus a caption",
+        "variant": "video",
+        "placedBy": "person",
+        "confidenceSource": "user"
       },
       "v_5f7d8d8d268a": {
         "id": "v_5f7d8d8d268a",
