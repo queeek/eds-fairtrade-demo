@@ -76,6 +76,11 @@ export default async function decorate(block) {
     });
     ul.append(li);
   });
-  ul.querySelectorAll('picture > img').forEach((img) => img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }])));
+  ul.querySelectorAll('picture > img').forEach((img) => {
+    // only same-origin raster images go through the optimizer; it would drop an external origin
+    const url = new URL(img.src, window.location.href);
+    if (url.origin !== window.location.origin || url.pathname.endsWith('.svg')) return;
+    img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }]));
+  });
   block.replaceChildren(ul);
 }

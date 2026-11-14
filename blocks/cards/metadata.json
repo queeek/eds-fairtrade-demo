@@ -1,0 +1,17 @@
+{
+  "variantName": "cards",
+  "name": "Cards",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Image grid: 4:3 image tiles (2 per row, 3 from 768px, 4 from 1280px); a tile with extra content opens it in an overlay dialog. Small and logo looks for denser grids and partner logos.",
+  "contentPattern": "One row per tile: cell 1 the image, optional cell 2 the overlay content (heading, text, CTA links in bold). Use with the image-grid class; add small (3 / 4 / 6 per row) and/or logo (transparent tile, image contained) on top of image-grid. Without image-grid it falls back to boilerplate cards (image + body per row).",
+  "options": [
+    {
+      "class": "image-grid",
+      "label": "Image grid"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Image grids that open an overlay (For Partners, Get Certified, Get Started, Korea home) and retailer logo grids (Where to Buy).",
+  "reuseGuidance": "Reuse for a grid of image tiles that each reveal more detail in an overlay, or a wall of partner logos (image-grid small logo). For story or article teasers that link to a page, use Teaser Grid instead."
+}
