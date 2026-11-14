@@ -1146,7 +1146,7 @@ header .breadcrumbs {
 }
 
 header .breadcrumbs.theme-dark,
-body:has(main :is(.page-lead.nightsky, .page-lead.theme-nightsky, .theme-nightsky)) header .breadcrumbs {
+body:has(main :is(.page-lead.nightsky, .page-lead.theme-nightsky, .hero.nightsky, .hero.theme-nightsky, .theme-nightsky)) header .breadcrumbs {
   --link-color: #fff;
   --link-color-hover: hsl(0deg 0% 100% / 50%);
   --span-color: hsl(0deg 0% 100% / 50%);

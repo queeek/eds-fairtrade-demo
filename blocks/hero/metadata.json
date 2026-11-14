@@ -1,0 +1,37 @@
+{
+  "variantName": "hero",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Page intro band with h1, lead text and CTA plus optional mobile/desktop images on a coloured background.",
+  "contentPattern": "Cells: h1, lead paragraph(s), CTA link, optional mobile image and desktop image.",
+  "options": [
+    {
+      "class": "skyblue",
+      "label": "Sky blue background"
+    },
+    {
+      "class": "nightsky",
+      "label": "Night sky background"
+    },
+    {
+      "class": "white",
+      "label": "White background"
+    },
+    {
+      "class": "cta-large",
+      "label": "Large CTA"
+    },
+    {
+      "class": "desktop-image",
+      "label": "Desktop image"
+    },
+    {
+      "class": "no-gap",
+      "label": "No gap"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Top-of-page lead on static, listing and form pages.",
+  "reuseGuidance": "Reuse as the page intro whenever a page starts with a title/lead band rather than a carousel.",
+  "name": "Hero"
+}
