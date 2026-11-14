@@ -92,7 +92,7 @@ function parse(block) {
 
 function buildCard(nodes) {
   const li = document.createElement('li');
-  li.className = 'carousel-item';
+  li.className = 'product-carousel-item';
   const card = document.createElement('a');
   card.className = 'product-teaser';
   const link = nodes.map((n) => n.querySelector('a[href]')).find(Boolean);
@@ -152,11 +152,13 @@ function initCarousel(el, track, prev, next) {
       const block = el.closest('.product-carousel');
       const shiftClass = block && [...block.classList].find((c) => /^start-shift-\d+$/.test(c));
       const shift = shiftClass ? Number(shiftClass.slice('start-shift-'.length)) : 0;
-      const target = shift ? items[Math.min(items.length - 1, Math.ceil(items.length / 2) - 1 + shift)] : null;
+      const targetIndex = Math.min(items.length - 1, Math.ceil(items.length / 2) - 1 + shift);
+      const target = shift ? items[targetIndex] : null;
       if (target) {
         const t = target.getBoundingClientRect();
         const r = track.getBoundingClientRect();
-        track.scroll({ left: track.scrollLeft + t.left - r.left + t.width / 2 - track.clientWidth / 2 });
+        const offset = t.left - r.left + t.width / 2 - track.clientWidth / 2;
+        track.scroll({ left: track.scrollLeft + offset });
       } else {
         track.scroll({ left: track.scrollWidth / 2 - track.clientWidth / 2 });
       }
@@ -181,16 +183,16 @@ export default function decorate(block) {
   const band = document.createElement('div');
   band.className = 'product-carousel-carousel';
   const carousel = document.createElement('div');
-  carousel.className = 'carousel contains-product-teasers';
+  carousel.className = 'product-carousel-scroller contains-product-teasers';
   const track = document.createElement('ul');
-  track.className = 'carousel-list';
+  track.className = 'product-carousel-list';
   track.append(...cards.map(buildCard));
   const controls = document.createElement('div');
-  controls.className = 'carousel-controls';
+  controls.className = 'product-carousel-controls';
   const mk = (dir) => {
     const b = document.createElement('button');
     b.type = 'button';
-    b.className = `button variant-icon-primary color-leafgreen carousel-control-${dir}`;
+    b.className = `button variant-icon-primary color-leafgreen product-carousel-control-${dir}`;
     b.setAttribute('aria-hidden', 'true');
     b.tabIndex = -1;
     const ic = document.createElement('span');

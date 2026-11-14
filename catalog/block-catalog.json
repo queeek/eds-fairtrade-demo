@@ -14,7 +14,7 @@
     "blockVariants": {
       "v_74cd50d4f35d": {
         "id": "v_74cd50d4f35d",
-        "name": "hero-carousel",
+        "name": "carousel",
         "type": "carousel",
         "canonicalModel": "standalone",
         "pagesFound": 2,
@@ -28,7 +28,9 @@
           "stardustKind": "module"
         },
         "confidenceLevel": "high",
-        "confidenceReason": "Built and gated by the auto migration (stardust)"
+        "confidenceReason": "Renamed block from hero-carousel to carousel",
+        "placedBy": "person",
+        "confidenceSource": "user"
       },
       "v_a601f638721e": {
         "id": "v_a601f638721e",
