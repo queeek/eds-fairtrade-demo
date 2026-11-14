@@ -4,7 +4,7 @@
   "baseBlock": "embed",
   "canonicalModel": "standalone",
   "visualCharacteristics": "Embedded third-party page in an iframe, framed (1px border, rounded) by default, loaded when near the viewport.",
-  "contentPattern": "Single row with the embed URL link.",
+  "contentPattern": "Single row with the embed URL link. Video variant: the video link (its text is the player title), then optional caption paragraphs; add spacer-before for one blank line above the player.",
   "options": [
     {
       "class": "frameless",
@@ -25,9 +25,13 @@
     {
       "class": "aspect-ratio-21x9",
       "label": "Aspect ratio 21:9"
+    },
+    {
+      "class": "video",
+      "label": "Video"
     }
   ],
   "memberVariantIds": [],
-  "usage": "Embedded maps, dashboards and third-party widgets. A height-<px> class (e.g. height-1100) sets the frame height.",
-  "reuseGuidance": "Reuse for any iframe embed; add height-<px> to match the source frame height."
+  "usage": "Embedded maps, dashboards and third-party widgets, and (video variant) YouTube/Vimeo players with a caption. A height-<px> class (e.g. height-1100) sets the frame height.",
+  "reuseGuidance": "Reuse for any iframe embed; add height-<px> to match the source frame height. Use the video variant for YouTube/Vimeo links: watch, youtu.be and Vimeo page links are converted to embed URLs."
 }
