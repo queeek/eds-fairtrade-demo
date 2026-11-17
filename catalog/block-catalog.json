@@ -2,13 +2,13 @@
   "block-catalog": {
     "schemaVersion": 2,
     "captured": "2026-11-14T15:06:18.469Z",
-    "totalBlockVariants": 13,
-    "totalBlocksProcessed": 29,
+    "totalBlockVariants": 14,
+    "totalBlocksProcessed": 441,
     "newVariantsCreated": 0,
     "variantsReused": 0,
     "layoutKeyThreshold": 0.85,
     "completionStatus": {
-      "analyzed": 100,
+      "analyzed": 200,
       "failed": 0
     },
     "blockVariants": {
@@ -19,9 +19,7 @@
         "canonicalModel": "standalone",
         "pagesFound": 2,
         "description": "Home-page hero carousels on the global and locale home pages. Used on 2 pages (austria-home and global-home templates).",
-        "screenshots": [
-          ".pages/www_fairtrade_net--788c069a/blocks/b01-hero-carousel.jpg"
-        ],
+        "screenshots": [],
         "source": {
           "producer": "excat-replica-adapter",
           "stardustBlockId": "pageherocarousel",
@@ -37,7 +35,7 @@
         "name": "text-image",
         "type": "columns",
         "canonicalModel": "standalone",
-        "pagesFound": 4,
+        "pagesFound": 56,
         "description": "The main content building block on static, product and locale home pages. Used on 4 pages (austria-home, global-home, market-entry-form and topic-detail templates).",
         "screenshots": [
           ".pages/www_fairtrade_net--788c069a/blocks/b03-text-image.jpg"
@@ -71,7 +69,7 @@
         "name": "teaser-grid",
         "type": "cards",
         "canonicalModel": "standalone",
-        "pagesFound": 2,
+        "pagesFound": 3,
         "description": "News, stories and listing pages, plus related-content grids. Used on 2 pages (austria-home and news-listing templates).",
         "screenshots": [
           ".pages/www_fairtrade_net_at-de_html--2cc0b1ad/blocks/b04-teaser-grid.jpg"
@@ -89,7 +87,7 @@
         "name": "cta",
         "type": "custom",
         "canonicalModel": "standalone",
-        "pagesFound": 3,
+        "pagesFound": 28,
         "description": "Stand-alone call-to-action section between content sections. Used on 3 pages (austria-home, market-entry-form and news-listing templates).",
         "screenshots": [
           ".pages/www_fairtrade_net_at-de_html--2cc0b1ad/blocks/b05-cta.jpg"
@@ -107,7 +105,7 @@
         "name": "accordion",
         "type": "accordion",
         "canonicalModel": "standalone",
-        "pagesFound": 3,
+        "pagesFound": 20,
         "description": "FAQ-style expandable content on static and locale home pages. Used on 3 pages (austria-home, global-home and topic-detail templates).",
         "screenshots": [
           ".pages/www_fairtrade_net--788c069a/blocks/b05-accordion.jpg"
@@ -165,9 +163,11 @@
         "name": "iframe",
         "type": "embed",
         "canonicalModel": "standalone",
-        "pagesFound": 1,
+        "pagesFound": 19,
         "description": "Embedded maps, dashboards and third-party widgets. A height-<px> class (e.g. height-1100) sets the frame height. Used on 1 page (austria-home template).",
-        "screenshots": [],
+        "screenshots": [
+          ".pages/www_fairtrade_net_en_why-fairtrade_what-we-do_what-is-fairtrade_html--5c4120e7/blocks/b02-iframe.jpg"
+        ],
         "source": {
           "producer": "excat-replica-adapter",
           "stardustBlockId": "iFrame",
@@ -181,7 +181,7 @@
         "name": "number-facts",
         "type": "cards",
         "canonicalModel": "standalone",
-        "pagesFound": 3,
+        "pagesFound": 20,
         "description": "Key-figures / impact statistics teasers on home and impact pages. Used on 3 pages (global-home, market-entry-form and topic-detail templates).",
         "screenshots": [
           ".pages/www_fairtrade_net--788c069a/blocks/b02-number-facts.jpg"
@@ -199,10 +199,10 @@
         "name": "hero",
         "type": "hero",
         "canonicalModel": "standalone",
-        "pagesFound": 3,
+        "pagesFound": 95,
         "description": "Top-of-page lead on static, listing and form pages. Used on 3 pages (market-entry-form, news-listing and topic-detail templates).",
         "screenshots": [
-          ".pages/www_fairtrade_net_mt-en_bring-fairtrade-to-your-market_html--764db856/blocks/b01-page-lead.jpg"
+          ".pages/www_fairtrade_net_en_why-fairtrade_how-we-do-it_how-does-the-label-work_traceability-in-fairtrade-supply-chains_html--9d6bec37/blocks/b01-hero.jpg"
         ],
         "source": {
           "producer": "excat-replica-adapter",
@@ -237,10 +237,10 @@
         "name": "single-image",
         "type": "custom",
         "canonicalModel": "standalone",
-        "pagesFound": 1,
+        "pagesFound": 22,
         "description": "Inline illustrative images with captions on static pages. Used on 1 page (topic-detail template).",
         "screenshots": [
-          ".pages/www_fairtrade_net_us-en_why-fairtrade_why-we-do-it_gender-equality_html--cce2d26d/blocks/b06-single-image.jpg"
+          ".pages/www_fairtrade_net_en_why-fairtrade_impact_impact-stories-_Assata-Doumbia-Kone-Female-leader-in-cocoa_html--a3bc523c/blocks/b02-single-image.jpg"
         ],
         "source": {
           "producer": "excat-replica-adapter",
@@ -251,6 +251,23 @@
         "confidenceReason": "Kept block name single-image: 'image' clashes with the site-wide .image picture-frame style",
         "placedBy": "person",
         "confidenceSource": "user"
+      },
+      "v_a3781571cb66": {
+        "id": "v_a3781571cb66",
+        "name": "cards",
+        "type": "cards",
+        "canonicalModel": "collection",
+        "pagesFound": 1,
+        "description": "Image grids that open an overlay (For Partners, Get Certified, Get Started, Korea home) and retailer logo grids (Where to Buy).",
+        "screenshots": [
+          ".pages/www_fairtrade_net_us-en_for-business_for-retailers_fairtrade-bananas_html--2184e346/blocks/b05-cards.jpg"
+        ],
+        "source": {
+          "producer": "excat-replica-adapter",
+          "migratedBy": "excat-site-migration"
+        },
+        "confidenceLevel": "high",
+        "confidenceReason": "Built by the migration that imported the page"
       }
     }
   }

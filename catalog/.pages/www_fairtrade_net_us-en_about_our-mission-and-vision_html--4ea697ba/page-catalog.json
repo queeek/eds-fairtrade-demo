@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 2,
+  "url": "https://www.fairtrade.net/us-en/about/our-mission-and-vision.html",
+  "title": "Our mission and vision",
+  "timestamp": "2026-11-14T17:05:07.247Z",
+  "duration": "7.8s",
+  "cleanup": {
+    "elementsRemoved": 1,
+    "types": [
+      "popup"
+    ],
+    "cookieConsentDismissed": false,
+    "lateConsentOverlaysRemoved": 0,
+    "removed": [
+      {
+        "selector": "#locale-selector",
+        "type": "popup",
+        "rule": "[role=\"dialog\"]"
+      }
+    ]
+  },
+  "snapshot": {
+    "html": "page.html",
+    "unresolvedSelectors": []
+  },
+  "images": [
+    {
+      "url": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-america/images/fairtrade-brand/Fairtrade_America_Logo_Vert_80x80.png",
+      "type": "img"
+    },
+    {
+      "url": "https://bat.bing.com/action/0?ti=187088229&tm=gtm002&Ver=2&mid=b8b015d4-a055-4ac4-a5cb-8715e6cf95c8&bo=1&sid=87664de0e04d11f1bb457b21683a68b0&vid=87663900e04d11f1bdd2638d1617ed05&vids=1&msclkid=N&uach=pv%3D10.0&pi=1200101525&lg=en-US&sw=2560&sh=1600&sc=24&tl=Our%20mission%20and%20vision&p=https%3A%2F%2Fwww.fairtrade.net%2Fus-en%2Fabout%2Four-mission-and-vision.html&r=&lt=831&evt=pageLoad&sv=2&cdb=AQAQ&rn=319537",
+      "type": "img"
+    }
+  ],
+  "skeleton": {
+    "signature": "s(s(s,2x1),s(sB,s,s,s))",
+    "nodeMap": {
+      "r": "body",
+      "rc1": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12",
+      "rc1c1": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.topbar",
+      "rc1c2": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-experiencefragment.cmp-experiencefragment--header > div.cmp-container > div.breadcrumb",
+      "rc2": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12",
+      "rc2c1": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.page-lead.is-visible",
+      "rc2c2": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.richtextsection.is-visible:nth-of-type(2)",
+      "rc2c3": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.richtextsection.is-visible:nth-of-type(3)",
+      "rc2c4": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.ctasection.is-visible"
+    },
+    "sections": [
+      {
+        "id": "rc1",
+        "selector": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > header.experiencefragment.aem-GridColumn.aem-GridColumn--default--12",
+        "layout": null,
+        "hasBg": false,
+        "hint": "block",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc2",
+        "selector": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.page-lead.is-visible",
+        "layout": null,
+        "hasBg": true,
+        "hint": "default-content",
+        "background": "#d4ff47",
+        "backgroundImage": null,
+        "colored": true,
+        "paintSelector": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.page-lead.is-visible > div.PageLead.theme-leafgreen > div.PageLead--content"
+      },
+      {
+        "id": "rc3",
+        "selector": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.richtextsection.is-visible:nth-of-type(2)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc4",
+        "selector": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.richtextsection.is-visible:nth-of-type(3)",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      },
+      {
+        "id": "rc5",
+        "selector": "body > div.root.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.maincontainer.container.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > main > div.cmp-container > div.ctasection.is-visible",
+        "layout": null,
+        "hasBg": false,
+        "hint": "default-content",
+        "background": "#ffffff",
+        "backgroundImage": null,
+        "colored": false,
+        "paintSelector": null
+      }
+    ],
+    "invalidIgnore": []
+  },
+  "pageLayout": {
+    "box": {
+      "y": 104,
+      "height": 1663.109375
+    },
+    "splits": [],
+    "start": {
+      "kind": "heading",
+      "look": {
+        "font": "\"Alegreya Sans\", system-ui",
+        "color": "rgb(30, 30, 30)",
+        "align": "center"
+      }
+    }
+  },
+  "blocks": [
+    {
+      "id": "b01-hero",
+      "type": "hero",
+      "name": "hero",
+      "variantId": "v_ee3c6b324b9b",
+      "selector": "main > div.cmp-container > div.page-lead",
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 104,
+        "width": 1440,
+        "height": 414
+      },
+      "description": "Top-of-page lead on static, listing and form pages. Used on 3 pages (market-entry-form, news-listing and topic-detail templates).",
+      "visualChars": {
+        "purpose": "Hero",
+        "structure": "Hero block"
+      },
+      "canonicalModel": "standalone"
+    },
+    {
+      "id": "b02-cta",
+      "type": "custom",
+      "name": "cta",
+      "variantId": "v_f29ad64bc994",
+      "selector": "main > div.cmp-container > div.ctasection",
+      "screenshot": null,
+      "bounds": {
+        "x": 0,
+        "y": 1627,
+        "width": 1440,
+        "height": 140
+      },
+      "description": "Stand-alone call-to-action section between content sections. Used on 3 pages (austria-home, market-entry-form and news-listing templates).",
+      "visualChars": {
+        "purpose": "Cta",
+        "structure": "Cta block"
+      },
+      "canonicalModel": "standalone"
+    }
+  ],
+  "replicaAdapter": {
+    "source": "excat-site-migration",
+    "template": "why-fairtrade-2",
+    "path": "/us-en/about/our-mission-and-vision",
+    "fullPageScreenshot": "full-page.jpg",
+    "screenshotSource": "http://localhost:3000/content/us-en/about/our-mission-and-vision",
+    "screenshotCapturedAt": "2026-11-14T19:16:30.420Z"
+  }
+}
